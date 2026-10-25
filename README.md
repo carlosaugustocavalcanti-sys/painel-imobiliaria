@@ -34,6 +34,18 @@ Regras de unificação:
 - Bairros com grafias diferentes ("Vila Tupi" / "Tupi", "Forte" / "Canto do Forte") usam um nome único. O texto original fica guardado em `bairroTextos`.
 - Nenhum registro é descartado: 1.795 registros de origem → 1.770 unidades, e o validador falha se algum sumir ou mudar de valor.
 
+## Card da unidade
+
+Na ficha do prédio, cada unidade tem o botão **Gerar card**. Ele monta o story 1080×1920 na marca, já preenchido com tipologia, área, vagas, lazer, condição de pagamento (fluxo direto, entrada/banco ou os dois lado a lado) e fonte da tabela. Antes de baixar, copiar ou compartilhar o PNG, dá para editar qualquer texto e escolher as fotos.
+
+As fotos vêm de `public/fotos/` e são ligadas aos prédios por `public/dados/fotos.json`. Hoje há fotos do book de Fátima II, Max 10, Bella Collina e Porto Marina, mais o Harmony Residence, que ainda não está em nenhuma tabela. Elas foram importadas do artefato "Fotos dos Books":
+
+```bash
+node scripts/importar-fotos.mjs <html do artefato salvo>
+```
+
+Prédio sem fotos: o card sai com as áreas marcadas "FOTO", e você adiciona as suas pelo botão "Adicionar fotos do computador".
+
 ## Painéis antigos
 
 Os três `index.html` originais foram removidos depois da unificação e continuam no histórico do git:

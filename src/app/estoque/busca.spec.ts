@@ -1,5 +1,5 @@
 import { FILTROS_VAZIOS, Filtros, anoEntrega, entregaPrevista, lugarDe, montarLinhas, ordenar, passa } from './busca';
-import { Predio } from './modelo';
+import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
   id: 'x',
@@ -63,5 +63,35 @@ describe('busca', () => {
     expect(anoEntrega('Entregue', 'pronto')).toBe('Entregue');
     expect(anoEntrega('', 'pronto')).toBe('Entregue');
     expect(anoEntrega('', 'obra')).toBe('A confirmar');
+  });
+});
+
+import { cardDe } from '../card/card-dados';
+describe('card', () => {
+  const base: Pick<Unidade, 'ref' | 'origem' | 'origens' | 'mercado' | 'status'> = {
+    ref: 'r',
+    origem: 'lancamentos',
+    origens: ['lancamentos'],
+    mercado: 'construtora',
+    status: 'disponivel',
+  };
+  it('título e destaque a partir da tipologia', () => {
+    const p = predio({ fase: 'lancamento' });
+    expect(cardDe(p, { ...base, fase: 'lancamento', tipologia: '1 suíte + lavabo', dm: '1' })).toMatchObject({ titulo: '1 dorm', destaque: '1 suíte' });
+    expect(cardDe(p, { ...base, fase: 'lancamento', tipologia: '3 dorms (1 suíte + 2 demi)', dm: '3' })).toMatchObject({ titulo: '3 dorms', destaque: '1 suíte' });
+    expect(cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2' })).toMatchObject({ titulo: '', destaque: '2 dorms' });
+  });
+  it('fluxo direto vira o bloco de parcelas, sem inventar valores', () => {
+    const p = predio({ fase: 'lancamento' });
+    const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', valor: 800000, fluxo: { entrada: 200000, chaves: 0, anualQtd: 10, anualVal: 15000, parcQtd: 120, parcVal: 3750 } });
+    expect(c.pagamentos).toHaveLength(1);
+    expect(c.pagamentos[0].grande.replace(/\s/g, ' ')).toBe('R$ 3.750,00');
+    expect(c.pagamentos[0].linhas.map((l) => l.rotulo)).toEqual(['Entrada', '10 anuais de']);
+    expect(c.pagamentos[0].totalValor.replace(/\s/g, ' ')).toBe('R$ 800.000,00');
+  });
+  it('banco e direto lado a lado quando a tabela traz os dois', () => {
+    const c = cardDe(predio({}), { ...base, fase: 'obra', tipologia: '2 dorms', valor: 594283, valorDireto: 635239, entrada: 59429, financ: 475425 });
+    expect(c.pagamentos.map((x) => x.rotulo)).toEqual(['Financiamento bancário', 'Direto com a construtora']);
+    expect(c.pagamentos[1].grande.replace(/\s/g, ' ')).toBe('R$ 635.239,00');
   });
 });

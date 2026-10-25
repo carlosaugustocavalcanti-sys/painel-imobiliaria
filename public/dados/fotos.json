@@ -1,0 +1,495 @@
+{
+ "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura.",
+ "predios": {
+  "fatima": {
+   "nome": "Fátima II",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/fatima/fatima_01.jpg",
+     "rotulo": "Fachada",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_02.jpg",
+     "rotulo": "Piscina",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_03.jpg",
+     "rotulo": "Salão de festas",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_04.jpg",
+     "rotulo": "Salão de festas externo",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_05.jpg",
+     "rotulo": "Academia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_06.jpg",
+     "rotulo": "Sala de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_07.jpg",
+     "rotulo": "Sala de jogos com ping-pong",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_08.jpg",
+     "rotulo": "Espaço gamer",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_09.jpg",
+     "rotulo": "Brinquedoteca",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_10.jpg",
+     "rotulo": "Playground",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_11.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_12.jpg",
+     "rotulo": "Espaço gourmet",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/fatima/fatima_13.jpg",
+     "rotulo": "Obra (foto real)",
+     "real": true
+    }
+   ]
+  },
+  "max-10": {
+   "nome": "Max 10",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/max-10/max10_01.jpg",
+     "rotulo": "Fachada ao entardecer",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_02.jpg",
+     "rotulo": "Entrada",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_03.jpg",
+     "rotulo": "Fachada à noite",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_04.jpg",
+     "rotulo": "Jardim",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_05.jpg",
+     "rotulo": "Bar e café",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_06.jpg",
+     "rotulo": "Salão de festas",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_07.jpg",
+     "rotulo": "Sala de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_08.jpg",
+     "rotulo": "Quadra society",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_09.jpg",
+     "rotulo": "Academia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_10.jpg",
+     "rotulo": "Varanda",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_11.jpg",
+     "rotulo": "Churrasqueira",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_12.jpg",
+     "rotulo": "Piscina",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_13.jpg",
+     "rotulo": "Piscina e deck",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_14.jpg",
+     "rotulo": "Deck com pergolado",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_15.jpg",
+     "rotulo": "Playground",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_16.jpg",
+     "rotulo": "Sauna",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_17.jpg",
+     "rotulo": "Sala de jantar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_18.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_19.jpg",
+     "rotulo": "Cozinha",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_20.jpg",
+     "rotulo": "Sala integrada",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_21.jpg",
+     "rotulo": "Quarto",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/max-10/max10_22.jpg",
+     "rotulo": "Quarto",
+     "real": false
+    }
+   ]
+  },
+  "harmony-residence": {
+   "nome": "Harmony Residence",
+   "noEstoque": false,
+   "fotos": [
+    {
+     "arquivo": "fotos/harmony-residence/harmony_01.jpg",
+     "rotulo": "Vista aérea e praia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_02.jpg",
+     "rotulo": "Varanda vista mar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_03.jpg",
+     "rotulo": "Lounge",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_04.jpg",
+     "rotulo": "Salão de festas",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_05.jpg",
+     "rotulo": "Piscina interna",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_06.jpg",
+     "rotulo": "Academia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_07.jpg",
+     "rotulo": "Brinquedoteca",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_08.jpg",
+     "rotulo": "Sala de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_09.jpg",
+     "rotulo": "Varanda",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_10.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_11.jpg",
+     "rotulo": "Sala de jantar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_12.jpg",
+     "rotulo": "Cozinha",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_13.jpg",
+     "rotulo": "Suíte",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_14.jpg",
+     "rotulo": "Quarto",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_15.jpg",
+     "rotulo": "Quarto vista mar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_16.jpg",
+     "rotulo": "Banheiro",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_17.jpg",
+     "rotulo": "Banheiro",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_18.jpg",
+     "rotulo": "Varanda vista mar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/harmony-residence/harmony_19.jpg",
+     "rotulo": "Garagem",
+     "real": false
+    }
+   ]
+  },
+  "bela-colina": {
+   "nome": "Bella Collina Residence",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/bela-colina/bella_01.jpg",
+     "rotulo": "Fachada",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_02.jpg",
+     "rotulo": "Vista aérea",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_03.jpg",
+     "rotulo": "Piscina",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_04.jpg",
+     "rotulo": "Academia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_05.jpg",
+     "rotulo": "Sala de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_06.jpg",
+     "rotulo": "Espaço de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_07.jpg",
+     "rotulo": "Brinquedoteca",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_08.jpg",
+     "rotulo": "Salão gourmet",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_09.jpg",
+     "rotulo": "Varanda gourmet",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_10.jpg",
+     "rotulo": "Varanda",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_11.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_12.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_13.jpg",
+     "rotulo": "Cozinha",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_14.jpg",
+     "rotulo": "Suíte",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_15.jpg",
+     "rotulo": "Quarto com closet",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_16.jpg",
+     "rotulo": "Garagem",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/bela-colina/bella_17.jpg",
+     "rotulo": "Fachada",
+     "real": false
+    }
+   ]
+  },
+  "porto-marina": {
+   "nome": "Porto Marina",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/porto-marina/porto_01.jpg",
+     "rotulo": "Piscina",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_02.jpg",
+     "rotulo": "Varanda gourmet",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_03.jpg",
+     "rotulo": "Fachada",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_04.jpg",
+     "rotulo": "Sala de jantar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_05.jpg",
+     "rotulo": "Suíte",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_06.jpg",
+     "rotulo": "Quarto",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_07.jpg",
+     "rotulo": "Cozinha",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_08.jpg",
+     "rotulo": "Salão",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_09.jpg",
+     "rotulo": "Sala de estar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_10.jpg",
+     "rotulo": "Varanda vista mar",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_11.jpg",
+     "rotulo": "Academia",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_12.jpg",
+     "rotulo": "Sala de jogos",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_13.jpg",
+     "rotulo": "Quadra na cobertura",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_14.jpg",
+     "rotulo": "Terraço",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_15.jpg",
+     "rotulo": "Bicicletário",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_16.jpg",
+     "rotulo": "Espaço gamer",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_17.jpg",
+     "rotulo": "Playground",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_18.jpg",
+     "rotulo": "Brinquedoteca",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_19.jpg",
+     "rotulo": "Espaço gourmet externo",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_20.jpg",
+     "rotulo": "Sauna",
+     "real": false
+    },
+    {
+     "arquivo": "fotos/porto-marina/porto_21.jpg",
+     "rotulo": "Sala integrada",
+     "real": false
+    }
+   ]
+  }
+ }
+}

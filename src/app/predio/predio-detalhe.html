@@ -126,7 +126,10 @@
                   }
                 </td>
                 <td>
-                  <button type="button" class="btn mini" (click)="copiar(u)">{{ copiado() === u.ref ? 'Copiado ✓' : 'Copiar p/ cliente' }}</button>
+                  <div class="acoes-un">
+                    <button type="button" class="btn mini amarelo" (click)="cardDe.set(u)">Gerar card</button>
+                    <button type="button" class="btn mini" (click)="copiar(u)">{{ copiado() === u.ref ? 'Copiado ✓' : 'Copiar p/ cliente' }}</button>
+                  </div>
                 </td>
               </tr>
             } @empty {
@@ -182,3 +185,7 @@
     </section>
   </div>
 </dialog>
+
+@if (cardDe(); as u) {
+  <app-card-gerador [predio]="p" [unidade]="u" (fechar)="cardDe.set(null)" />
+}

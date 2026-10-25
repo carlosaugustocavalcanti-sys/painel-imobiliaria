@@ -12,6 +12,7 @@ import {
 import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, passa, montarLinhas } from '../estoque/busca';
 import { brl, brl2, brlK, faixa, m2, num } from '../estoque/formato';
 import { Predio, RegistroUnidade, Unidade } from '../estoque/modelo';
+import { CardGerador } from '../card/card-gerador';
 
 const CAMPO_ROTULO: Record<string, string> = { valor: 'valor', status: 'status', area: 'área', cond: 'condomínio', iptu: 'IPTU' };
 
@@ -19,6 +20,7 @@ const CAMPO_ROTULO: Record<string, string> = { valor: 'valor', status: 'status',
 @Component({
   selector: 'app-predio-detalhe',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [CardGerador],
   templateUrl: './predio-detalhe.html',
 })
 export class PredioDetalhe {
@@ -30,6 +32,8 @@ export class PredioDetalhe {
   private readonly dialogo = viewChild.required<ElementRef<HTMLDialogElement>>('dlg');
   protected readonly todas = signal(false);
   protected readonly copiado = signal<string | null>(null);
+  /** Unidade com o gerador de card aberto. */
+  protected readonly cardDe = signal<Unidade | null>(null);
   protected readonly fmt = { brl, brl2, brlK, faixa, m2, num };
   protected readonly FASE_ROTULO = FASE_ROTULO;
   protected readonly STATUS_ROTULO = STATUS_ROTULO;

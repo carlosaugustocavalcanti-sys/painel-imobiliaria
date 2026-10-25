@@ -1,0 +1,100 @@
+<dialog #dlg class="gerador" aria-labelledby="ger-tit" (close)="fechar.emit()" (cancel)="$event.preventDefault(); fechar.emit()">
+  <header class="ger-cab">
+    <div>
+      <h2 id="ger-tit">Card da unidade</h2>
+      <p>{{ predio().nome }} · {{ unidade().tipologia }} · story 1080 × 1920</p>
+    </div>
+    <button type="button" class="btn claro" (click)="fechar.emit()">Fechar</button>
+  </header>
+
+  <div class="ger-corpo">
+    <div class="ger-previa">
+      <canvas #tela [width]="LARGURA" [height]="ALTURA" role="img" aria-label="Prévia do card"></canvas>
+      <div class="ger-acoes">
+        <button type="button" class="btn amarelo" (click)="baixar()" [disabled]="!dados()">Baixar PNG</button>
+        <button type="button" class="btn" (click)="copiar()" [disabled]="!dados()">Copiar imagem</button>
+        @if (podeCompartilhar) { <button type="button" class="btn contorno" (click)="compartilhar()" [disabled]="!dados()">Compartilhar</button> }
+      </div>
+      @if (aviso(); as a) { <p class="ger-aviso" role="status">{{ a }}</p> }
+      @if (dados() && faltaFoto()) {
+        <p class="ger-aviso"><b>Sem fotos:</b> o card sai com as áreas marcadas “FOTO” e não está pronto para publicar. Adicione fotos ao lado.</p>
+      }
+    </div>
+
+    @if (dados(); as d) {
+      <form class="ger-form" (submit)="$event.preventDefault()">
+        <fieldset>
+          <legend>Fotos <small>até 6 · a 1ª fica em destaque</small></legend>
+          @if (biblioteca().length) {
+            <div class="ger-fotos">
+              @for (f of biblioteca(); track f.id) {
+                @let pos = escolhidas().indexOf(f.id);
+                <button type="button" class="ger-foto" [class.on]="pos >= 0" [attr.aria-pressed]="pos >= 0" (click)="alternarFoto(f.id)" (dblclick)="paraDestaque(f.id)" [title]="f.rotulo + ' · toque para usar, dois toques para destacar'">
+                  <img [src]="f.url" [alt]="f.rotulo" loading="lazy" />
+                  @if (pos >= 0) { <span class="ger-num">{{ pos + 1 }}</span> }
+                  <span class="ger-rot">{{ f.rotulo }}</span>
+                </button>
+              }
+            </div>
+          } @else {
+            <p class="nota">Este prédio ainda não tem fotos do book. Adicione as suas.</p>
+          }
+          <label class="btn contorno ger-up">
+            Adicionar fotos do computador
+            <input type="file" accept="image/*" multiple (change)="adicionar($event)" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Textos</legend>
+          <label class="campo"><span class="rot">Etiqueta de cima</span><input [value]="d.etiqueta" (input)="campo('etiqueta', valor($event))" /></label>
+          <div class="ger-2">
+            <label class="campo"><span class="rot">Título</span><input [value]="d.titulo" (input)="campo('titulo', valor($event))" placeholder="2 dorms" /></label>
+            <label class="campo"><span class="rot">Destaque amarelo</span><input [value]="d.destaque" (input)="campo('destaque', valor($event))" placeholder="2 suítes" /></label>
+          </div>
+          <label class="campo"><span class="rot">Linha abaixo do título</span><input [value]="d.subtitulo" (input)="campo('subtitulo', valor($event))" /></label>
+          <label class="campo"><span class="rot">Lazer no condomínio (um por linha)</span>
+            <textarea rows="4" [value]="lazerTexto()" (input)="campo('lazer', valor($event).split('\n'))"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pagamento</legend>
+          <label class="campo marca-campo">
+            <input type="checkbox" [checked]="d.pagamentos.length > 1" (change)="separarFluxos(d.pagamentos.length < 2)" />
+            <span>Dois fluxos lado a lado (banco e direto)</span>
+          </label>
+          @for (p of d.pagamentos; track $index; let i = $index) {
+            <div class="ger-bloco">
+              <label class="campo"><span class="rot">Rótulo</span><input [value]="p.rotulo" (input)="pag(i, 'rotulo', valor($event))" /></label>
+              <div class="ger-2">
+                <label class="campo"><span class="rot">Número grande</span><input [value]="p.grande" (input)="pag(i, 'grande', valor($event))" /></label>
+                <label class="campo"><span class="rot">Ao lado</span><input [value]="p.sufixo" (input)="pag(i, 'sufixo', valor($event))" placeholder="por mês" /></label>
+              </div>
+              @if (d.pagamentos.length === 1) {
+                <label class="campo"><span class="rot">Abaixo dele</span><input [value]="p.sufixo2" (input)="pag(i, 'sufixo2', valor($event))" placeholder="em 120 parcelas" /></label>
+              }
+              @for (l of linhasEditaveis(p); track $index; let j = $index) {
+                <div class="ger-2">
+                  <input [value]="l.rotulo" (input)="linha(i, j, 'rotulo', valor($event))" placeholder="Ex.: Entrada" [attr.aria-label]="'Linha ' + (j + 1) + ': texto'" />
+                  <input [value]="l.valor" (input)="linha(i, j, 'valor', valor($event))" placeholder="R$ 0,00" [attr.aria-label]="'Linha ' + (j + 1) + ': valor'" />
+                </div>
+              }
+              <div class="ger-2">
+                <label class="campo"><span class="rot">Total: texto</span><input [value]="p.totalRotulo" (input)="pag(i, 'totalRotulo', valor($event))" /></label>
+                <label class="campo"><span class="rot">Total: valor</span><input [value]="p.totalValor" (input)="pag(i, 'totalValor', valor($event))" /></label>
+              </div>
+            </div>
+          }
+        </fieldset>
+
+        <fieldset>
+          <legend>Rodapé</legend>
+          <label class="campo"><span class="rot">Condições e fonte dos dados</span>
+            <textarea rows="3" [value]="d.rodape" (input)="campo('rodape', valor($event))"></textarea></label>
+        </fieldset>
+      </form>
+    } @else {
+      <div class="carregando"><div class="osso"></div><div class="osso"></div></div>
+    }
+  </div>
+</dialog>
