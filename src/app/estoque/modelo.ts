@@ -1,7 +1,7 @@
 /** Formato de public/dados/estoque.json, gerado por scripts/unificar.mjs. Campos vazios vêm omitidos. */
 
-/** Os três painéis antigos e a pasta Lançamentos do OneDrive (lesan). */
-export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan';
+/** Os três painéis antigos, a pasta Lançamentos do OneDrive (lesan) e a tabela do Isildo. */
+export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan' | 'isildo';
 export type Mercado = 'revenda' | 'construtora';
 export type Fase = 'pronto' | 'obra' | 'lancamento';
 export type Status = 'disponivel' | 'reservado' | 'vendido' | 'suspenso';
@@ -58,6 +58,8 @@ export interface RegistroUnidade {
   vistaFonte?: 'painel' | 'texto';
   vista?: string;
   status: Status;
+  /** Link do álbum de fotos da unidade, quando a tabela traz (Isildo). */
+  fotos?: string;
   conf?: boolean;
   obs?: string;
   fonte?: string;

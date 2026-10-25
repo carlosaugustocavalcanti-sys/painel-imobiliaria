@@ -170,6 +170,7 @@ describe('pasta Lançamentos', () => {
     const lesan = montarLinhas([predio({ unidades: [{ ...base, fase: 'lancamento', unidade: '1', status: 'disponivel' }] })]);
     expect(lesan.filter((l) => passa(l, F({ origem: 'lesan' }))).length).toBe(1);
     expect(lesan.filter((l) => passa(l, F({ origem: 'usados' }))).length).toBe(0);
+    expect(lesan.filter((l) => passa(l, F({ origem: 'isildo' }))).length).toBe(0);
   });
 });
 

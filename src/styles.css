@@ -150,6 +150,8 @@ select:hover { border-color: var(--preto); }
 .tag.preta { background: var(--preto); color: var(--branco); border-color: var(--preto); }
 .tag.amarela { background: var(--amarelo); color: var(--preto); border-color: var(--amarelo); }
 .tag.tracejada { border-style: dashed; color: var(--cinza); }
+a.tag.link-fotos { text-decoration: none; }
+a.tag.link-fotos:hover, a.tag.link-fotos:focus-visible { background: var(--preto); color: var(--branco); border-color: var(--preto); }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; }
 
 /* ---------- prédios ---------- */

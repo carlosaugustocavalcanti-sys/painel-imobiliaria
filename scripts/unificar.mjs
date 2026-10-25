@@ -2,7 +2,7 @@
 // Regras de unificação (documentadas em dados/README.md):
 // - um prédio que aparece em mais de um painel vira um só quando nome, bairro e endereço são compatíveis;
 // - a mesma unidade em duas tabelas vira uma só: o registro reservado tem prioridade, senão a ordem
-//   lançamentos > pasta Lançamentos (lesan) > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
+//   lançamentos > pasta Lançamentos (lesan) > tabela do Isildo > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
 // - nenhum registro de origem é descartado: cada um mantém `ref` = "<painel>:<id do prédio>:<índice>".
 // Uso: node scripts/unificar.mjs
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -11,6 +11,7 @@ const ler = (n) => JSON.parse(readFileSync(`dados/origem/${n}.json`, 'utf8'));
 const USADOS = ler('usados');
 const LANC = ler('lancamentos');
 const PASTA = ler('pasta-lancamentos');
+const ISILDO = ler('isildo');
 const VISTA = ler('vista-mar');
 
 /* ---------- normalização ---------- */
@@ -278,9 +279,10 @@ for (const g of VISTA.G) {
 // Pasta Lançamentos (OneDrive): Harmony, Parque das Araucárias, Seven, Toninho, Ectual e Gomes Pacheco.
 // Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
 const mapsPasta = (b) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(b.endereco || `${b.nome}, ${b.cidade}, SP`);
-for (const b of PASTA.predios) {
+// A tabela do Isildo (20/10/2026) tem o mesmo formato e entra pelo mesmo caminho, com origem 'isildo'.
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b])]) {
   predios.push({
-    origem: 'lesan',
+    origem,
     origemId: b.id,
     nome: b.nome,
     cidade: b.cidade,
@@ -290,7 +292,7 @@ for (const b of PASTA.predios) {
     mapaPorNome: !b.endereco,
     entrega: b.entrega || '',
     fase: b.fase,
-    tabelas: b.tabelas.map((t) => ({ origem: 'lesan', fonte: t.fonte || '', contato: t.contato || '', atualizadoEm: t.atualizadoEm || '' })),
+    tabelas: b.tabelas.map((t) => ({ origem, fonte: t.fonte || '', contato: t.contato || '', atualizadoEm: t.atualizadoEm || '' })),
     fontes: [...new Set(b.tabelas.map((t) => t.fonte).filter(Boolean))],
     lazer: b.lazer ?? [],
     diferenciais: b.diferenciais ?? [],
@@ -302,8 +304,8 @@ for (const b of PASTA.predios) {
       // vistaMar explícito na origem vale; sem ele, a menção a vista/frente para o mar no texto da tabela
       const vm = x.vistaMar !== undefined ? !!x.vistaMar : VISTA_RE.test(texto) && !SEM_VISTA_RE.test(texto);
       return {
-        ref: `lesan:${b.id}:${i}`,
-        origem: 'lesan',
+        ref: `${origem}:${b.id}:${i}`,
+        origem,
         mercado: fase === 'pronto' ? 'revenda' : 'construtora',
         fase,
         ...x,
@@ -317,7 +319,7 @@ for (const b of PASTA.predios) {
 }
 
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, lesan: 1, usados: 2, 'vista-mar': 3 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, usados: 3, 'vista-mar': 4 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [
@@ -416,8 +418,8 @@ const saida = grupos.map(({ membros }) => {
     tabelas: membros.flatMap((m) => m.tabelas),
     fontes: [...new Set(membros.flatMap((m) => m.fontes))],
     ...(lanc ? { lanc } : {}),
-    lazer: membros.find((m) => m.lazer?.length)?.lazer ?? [],
-    diferenciais: membros.find((m) => m.diferenciais?.length)?.diferenciais ?? [],
+    lazer: [...new Set(membros.flatMap((m) => m.lazer ?? []))],
+    diferenciais: [...new Set(membros.flatMap((m) => m.diferenciais ?? []))],
     notas: membros.flatMap((m) => m.notas ?? []),
     unidades,
   };
@@ -426,7 +428,7 @@ const saida = grupos.map(({ membros }) => {
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
 const estoque = {
-  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta },
+  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo },
   predios: saida,
 };
 // Campos vazios (null, '', false, []) são omitidos para o arquivo ficar menor; o app trata ausência como vazio.

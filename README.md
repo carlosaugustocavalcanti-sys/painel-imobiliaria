@@ -21,6 +21,7 @@ npm run build      # versão de produção em dist/
 | `dados/origem/pasta-lancamentos.json` | Tabelas da pasta `OneDrive/Outros/Lesan/Lançamentos` que ainda não eram painéis (28 prédios, 236 unidades) |
 | `public/dados/estoque.json` | Estoque unificado que o app carrega (gerado, não editar à mão) |
 | `scripts/ler-pasta-lancamentos.mjs` | Lê as tabelas em PDF da pasta Lançamentos (texto pelo PDFKit do macOS, `scripts/pdf-texto.swift`) e gera `pasta-lancamentos.json`; falha se alguma contagem ou soma não bater |
+| `dados/origem/isildo.json` | Tabela do Isildo e do Guilherme de 20/10/2026 (19 prédios, 38 unidades), lida do PDF por `scripts/ler-tabela-isildo.mjs` (`node scripts/ler-tabela-isildo.mjs [pdf]`, padrão `~/Downloads/Tabela Isildo.pdf`) |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
@@ -37,6 +38,7 @@ Regras de unificação:
 - Nenhum registro é descartado: 2.031 registros de origem → 2.005 unidades, e o validador falha se algum sumir ou mudar de valor.
 - **Pasta Lançamentos**: Harmony, Parque das Araucárias, Seven, Toninho (12 prédios), Ectual (15) e a tabela da Gomes Pacheco (Raimundo Gomes). Doze desses prédios já existiam no painel e receberam as unidades novas (Costa do Mar, Costa Maggiore, Ocean Park, Parque dos Coqueiros, Personnalité, Raimundo Gomes, Bellagio, Matteo, Pedro, Platinum, Unique, Torres). Em caso de conflito na mesma unidade, o registro reservado vence; depois vale a ordem lançamentos > pasta Lançamentos > usados > vista mar.
 - Reservado e vendido da Seven e da Ectual aparecem só por cor ou carimbo na imagem do PDF; foram conferidos página a página e estão nas constantes `STATUS_*` do leitor. Se a tabela mudar, refaça essa conferência.
+- **Tabela do Isildo (origem `isildo`)**: entra depois da pasta Lançamentos e antes dos usados na ordem de prioridade. A versão de 05/10 dessa mesma tabela já estava no painel de usados; ela continua visível em "Também em" e as diferenças de valor aparecem como divergência. Cada unidade guarda o link do álbum de fotos do slide (`fotos`). Os slides só com imagens (fachadas, plantas) não entram.
 - Ficaram de fora a casa do Tupi da Ectual (indisponível por reforma, sem valores) e as senhas de fechadura que as tabelas trazem.
 
 ## Card da unidade
