@@ -38,11 +38,19 @@ Regras de unificação:
 
 Na ficha do prédio, cada unidade tem o botão **Gerar card**. Ele monta o story 1080×1920 na marca, já preenchido com tipologia, área, vagas, lazer, condição de pagamento (fluxo direto, entrada/banco ou os dois lado a lado) e fonte da tabela. Antes de baixar, copiar ou compartilhar o PNG, dá para editar qualquer texto e escolher as fotos.
 
-As fotos vêm de `public/fotos/` e são ligadas aos prédios por `public/dados/fotos.json`. Hoje há fotos do book de Fátima II, Max 10, Bella Collina e Porto Marina, mais o Harmony Residence, que ainda não está em nenhuma tabela. Elas foram importadas do artefato "Fotos dos Books":
+As fotos vêm de `public/fotos/` e são ligadas aos prédios por `public/dados/fotos.json`. Hoje há fotos de Fátima II, Max 10, Bella Collina, Porto Marina e Personnalité, mais o Harmony Residence, que ainda não está em nenhuma tabela. Elas foram importadas do artefato "Fotos dos Books":
 
 ```bash
 node scripts/importar-fotos.mjs <html do artefato salvo>
 ```
+
+Fotos em alta resolução (até 1.600 px) saem dos books em PDF e das páginas de book na pasta Downloads. A lista do que usar, o rótulo de cada foto e o recorte (para tirar logo, legenda, moldura e texto) ficam em `dados/books.json`:
+
+```bash
+node scripts/importar-books.mjs    # padrão: ~/Downloads
+```
+
+Hoje há Harmony Residence (19 fotos do book em PDF), Personnalité (13 páginas recortadas) e a fachada noturna do Max 10. Fátima II, Bella Collina e Porto Marina continuam com as fotos de 640 px do artefato, porque os books deles não estão no computador.
 
 Prédio sem fotos: o card sai com as áreas marcadas "FOTO", e você adiciona as suas pelo botão "Adicionar fotos do computador".
 

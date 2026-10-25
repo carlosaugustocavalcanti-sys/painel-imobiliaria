@@ -17,6 +17,23 @@ import { ALTURA, LARGURA, carregarFontes, desenharCard } from './card-desenho';
 import { FotoBook, FotosService, escolherFotos } from './fotos.service';
 
 type Imagem = CanvasImageSource & { width: number; height: number };
+
+/** Ambientes de lazer reconhecidos nos rótulos das fotos do book (sem repetir: "Cinema" e "Home theater" contam uma vez). */
+const LAZER_FOTO: [string, RegExp][] = [
+  ['Piscina', /piscina/i],
+  ['Spa', /spa\b|sauna/i],
+  ['Cinema', /cinema|home theater/i],
+  ['Academia', /academia/i],
+  ['Espaço gourmet', /gourmet|grill|churrasq/i],
+  ['Salão de festas', /sal[ãa]o de festas/i],
+  ['Salão de jogos', /jogos|gamer/i],
+  ['Brinquedoteca', /brinquedoteca/i],
+  ['Playground', /playground/i],
+  ['Quadra', /quadra/i],
+];
+function lazerDasFotos(fotos: FotoBook[]): string[] {
+  return LAZER_FOTO.filter(([, re]) => fotos.some((f) => re.test(f.rotulo) && !/varanda/i.test(f.rotulo))).map(([n]) => n).slice(0, 8);
+}
 interface Foto {
   id: string;
   rotulo: string;
@@ -63,6 +80,8 @@ export class CardGerador {
       const book = this.fotosSrv.doPredio(p);
       const d = cardDe(p, u);
       if (book.length) d.rodape = d.rodape.replace(' Valores sujeitos', ' Imagens ilustrativas. Valores sujeitos');
+      // sem lista de lazer na tabela: usa os espaços de lazer que aparecem nas fotos do book
+      if (!d.lazer.length) d.lazer = lazerDasFotos(book);
       this.dados.set(d);
       const fotos = book.map((f: FotoBook) => ({ id: f.arquivo, rotulo: f.rotulo, url: f.arquivo, real: !!f.real }));
       this.biblioteca.set(fotos);
