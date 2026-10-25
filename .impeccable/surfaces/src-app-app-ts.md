@@ -27,4 +27,4 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 Signature interaction: tocar um trecho da orla filtra todo o painel e o trecho fica marcado em marca-texto; segurar Shift ou arrastar seleciona um intervalo contíguo de bairros. Motion: as barras crescem para o novo recorte em 200ms; nada mais anima.
 
-Unresolved: ordem exata de Jardim Imperador e Vila Assunção na faixa; Vila Assunção fica no interior.
+Unresolved: posição de Imperador na faixa (entre Caiçara e Real, deduzida pela numeração da Av. Castelo Branco). Vila Assunção fica no interior, em "Outros" (confirmado pelo Carlos em 24/10/2026).
