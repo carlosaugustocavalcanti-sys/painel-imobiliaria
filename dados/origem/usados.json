@@ -1,0 +1,5232 @@
+{
+ "commit": "cdf415c",
+ "painel": "apartamentos-usados/index.html",
+ "emps": [
+  {
+   "id": "atlantic-house-maracana",
+   "nome": "Atlantic House",
+   "bairro": "Maracanã",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "caraibas-canto-do-forte",
+   "nome": "Caraíbas",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "carlos-aurelio-tupi",
+   "nome": "Carlos Aurélio",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "dumont-residence-aviacao",
+   "nome": "Dumont Residence",
+   "bairro": "Aviação",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "abc-boqueirao",
+   "nome": "Ed. ABC",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "acaua-aviacao",
+   "nome": "Ed. Acauã",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "alexandre-ii-boqueirao",
+   "nome": "Ed. Alexandre II",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "anderlech-tupi",
+   "nome": "Ed. Anderlech",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "anna-carolina-guilhermina",
+   "nome": "Ed. Anna Carolina",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "antoni-gaudi-canto-do-forte",
+   "nome": "Ed. Antoni Gaudí",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "barra-da-tijuca-guilhermina",
+   "nome": "Ed. Barra da Tijuca",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "bela-vista-caicara",
+   "nome": "Ed. Bela Vista",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "camburiu-boqueirao",
+   "nome": "Ed. Camburiú",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "cannes-maracana",
+   "nome": "Ed. Cannes",
+   "bairro": "Maracanã",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "caribe-ocian",
+   "nome": "Ed. Caribe",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "carlos-eduardo-tupi",
+   "nome": "Ed. Carlos Eduardo",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "casa-grande-iii-caicara",
+   "nome": "Ed. Casa Grande III",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "Fev/2027",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "chopin-boqueirao",
+   "nome": "Ed. Chopin",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo",
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "cleopatra-aviacao",
+   "nome": "Ed. Cleópatra",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "cozumel-tupi",
+   "nome": "Ed. Cozumel",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Imigrantes Imóveis"
+   ]
+  },
+  {
+   "id": "das-sereias-guilhermina",
+   "nome": "Ed. Das Sereias",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "dra-maria-lucia-canto-do-forte",
+   "nome": "Ed. Dra. Maria Lucia",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "elegance-guilhermina",
+   "nome": "Ed. Elegance",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "estocolmo-boqueirao",
+   "nome": "Ed. Estocolmo",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "florida-boqueirao",
+   "nome": "Ed. Florida",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "francisco-pires-guilhermina",
+   "nome": "Ed. Francisco Pires",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "francisco-de-goya-guilhermina",
+   "nome": "Ed. Francisco de Goya",
+   "bairro": "Guilhermina",
+   "cat": "obra",
+   "entrega": "Fev/2027",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "fratello-caicara",
+   "nome": "Ed. Fratello",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Imigrantes Imóveis"
+   ]
+  },
+  {
+   "id": "gabriel-masotti-boqueirao",
+   "nome": "Ed. Gabriel Masotti",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "gian-de-lucca-guilhermina",
+   "nome": "Ed. Gian de Lucca",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "guarama-guilhermina",
+   "nome": "Ed. Guaramá",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "haus-aviacao",
+   "nome": "Ed. Haus",
+   "bairro": "Aviação",
+   "cat": "obra",
+   "entrega": "Out/2026",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "hildegard-angel-guilhermina",
+   "nome": "Ed. Hildegard Angel",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "hugo-strelow-boqueirao",
+   "nome": "Ed. Hugo Strelow",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "iv-centenario-guilhermina",
+   "nome": "Ed. IV Centenário",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Imigrantes Imóveis"
+   ]
+  },
+  {
+   "id": "itaici-iii-ocian",
+   "nome": "Ed. Itaici III",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "itajai-guilhermina",
+   "nome": "Ed. Itajaí",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "jose-g-marques-guilhermina",
+   "nome": "Ed. José G. Marques",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "laguna-tupi",
+   "nome": "Ed. Laguna",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "larissa-ocian",
+   "nome": "Ed. Larissa",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "las-vegas-guilhermina",
+   "nome": "Ed. Las Vegas",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "libera-ocian",
+   "nome": "Ed. Líbera",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "manaca-aviacao",
+   "nome": "Ed. Manacá",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "maralto-guilhermina",
+   "nome": "Ed. Maralto",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Imigrantes Imóveis"
+   ]
+  },
+  {
+   "id": "marbelle-ii-canto-do-forte",
+   "nome": "Ed. Marbelle II",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "marcelino-guilhermina",
+   "nome": "Ed. Marcelino",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "marfim-boqueirao",
+   "nome": "Ed. Marfim",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "maria-hozana-aviacao",
+   "nome": "Ed. Maria Hozana",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "martinica-ocian",
+   "nome": "Ed. Martinica",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "miami-beach-boqueirao",
+   "nome": "Ed. Miami Beach",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "mourelos-ii-tupi",
+   "nome": "Ed. Mourelos II",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "mourao-i-tupi",
+   "nome": "Ed. Mourão I",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "mourao-xvii-vila-assuncao",
+   "nome": "Ed. Mourão XVII",
+   "bairro": "Vila Assunção",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "monica-tupi",
+   "nome": "Ed. Mônica",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "netuno-vila-assuncao",
+   "nome": "Ed. Netuno",
+   "bairro": "Vila Assunção",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "nossolar-vi-canto-do-forte",
+   "nome": "Ed. Nossolar VI",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "patrick-samuel-tupi",
+   "nome": "Ed. Patrick Samuel",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "patrick-vanderlei-guilhermina",
+   "nome": "Ed. Patrick Vanderlei",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "paysage-tupi",
+   "nome": "Ed. Paysage",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "petra-ii-boqueirao",
+   "nome": "Ed. Petra II",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "pettra-iii-guilhermina",
+   "nome": "Ed. Pettra III",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "pettra-iv-boqueirao",
+   "nome": "Ed. Pettra IV",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "praia-grande-residencial-aviacao",
+   "nome": "Ed. Praia Grande Residencial",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "praia-da-gavea-guilhermina",
+   "nome": "Ed. Praia da Gávea",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "praia-das-asturias-guilhermina",
+   "nome": "Ed. Praia das Astúrias",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "praia-de-copacabana-boqueirao",
+   "nome": "Ed. Praia de Copacabana",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "primavera-real",
+   "nome": "Ed. Primavera",
+   "bairro": "Real",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "primor-canto-do-forte",
+   "nome": "Ed. Primor (Antonela)",
+   "bairro": "Canto do Forte",
+   "cat": "obra",
+   "entrega": "Dez/2026",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "raquel-aviacao",
+   "nome": "Ed. Raquel",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "roma-aviacao",
+   "nome": "Ed. Roma",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "saint-regis-guilhermina",
+   "nome": "Ed. Saint Regis",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "santarem-boqueirao",
+   "nome": "Ed. Santarém",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "santo-antonio-tupi",
+   "nome": "Ed. Santo Antonio",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "santo-expedito-ix-tupi",
+   "nome": "Ed. Santo Expedito IX",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "santo-expedito-v-aviacao",
+   "nome": "Ed. Santo Expedito V",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "santo-expedito-viii-aviacao",
+   "nome": "Ed. Santo Expedito VIII",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "santo-expedito-x-aviacao",
+   "nome": "Ed. Santo Expedito X",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "saraiva-aviacao",
+   "nome": "Ed. Saraiva",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "siroco-ocian",
+   "nome": "Ed. Siroco",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "suzana-masotti-canto-do-forte",
+   "nome": "Ed. Suzana Masotti",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "sao-bento-tupi",
+   "nome": "Ed. São Bento",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "sao-mateus-tupi",
+   "nome": "Ed. São Mateus",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "sao-paulo-guilhermina",
+   "nome": "Ed. São Paulo",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "terrace-square-tupi",
+   "nome": "Ed. Terrace Square",
+   "bairro": "Tupi",
+   "cat": "obra",
+   "entrega": "Dez/2026",
+   "fontes": [
+    "LEC"
+   ]
+  },
+  {
+   "id": "texas-guilhermina",
+   "nome": "Ed. Texas",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC",
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "the-one-guilhermina",
+   "nome": "Ed. The One",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "LEC",
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "triunfo-ocian",
+   "nome": "Ed. Triunfo",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "veneto-aviacao",
+   "nome": "Ed. Veneto",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Imigrantes Imóveis"
+   ]
+  },
+  {
+   "id": "viamar-caicara",
+   "nome": "Ed. Viamar",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "vila-de-arouca-ii-guilhermina",
+   "nome": "Ed. Vila de Arouca II",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "village-aviacao",
+   "nome": "Ed. Village",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Erick Pereira"
+   ]
+  },
+  {
+   "id": "epic-canto-do-forte",
+   "nome": "Epic",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "florenca-aviacao",
+   "nome": "Florença",
+   "bairro": "Aviação",
+   "cat": "obra",
+   "entrega": "Jul/2027",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "gabriel-canto-do-forte",
+   "nome": "Gabriel",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "jardim-das-tulipas-caicara",
+   "nome": "Jardim das Tulipas",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "joia-boqueirao",
+   "nome": "Jóia",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "monaco-canto-do-forte",
+   "nome": "Mônaco",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "ocean-park-ocian",
+   "nome": "Ocean Park",
+   "bairro": "Ocian",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo",
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "parque-xixova-canto-do-forte",
+   "nome": "Parque Xixová",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "primor-square-garden-canto-do-forte",
+   "nome": "Primor Square Garden",
+   "bairro": "Canto do Forte",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "primicia-plaza-guilhermina",
+   "nome": "Primícia Plaza",
+   "bairro": "Guilhermina",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "14-bis-aviacao",
+   "nome": "Res. 14 Bis",
+   "bairro": "Aviação",
+   "cat": "obra",
+   "entrega": "2º sem/2027",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "acquamare-aviacao",
+   "nome": "Res. Acquamare",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "atlantico-ii-guilhermina",
+   "nome": "Res. Atlântico II",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "attrative-guilhermina",
+   "nome": "Res. Attrative",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "bellagio-guilhermina",
+   "nome": "Res. Bellagio",
+   "bairro": "Guilhermina",
+   "cat": "obra",
+   "entrega": "Mai/2027",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "bianca-sao-paulo",
+   "nome": "Res. Bianca",
+   "bairro": "São Paulo",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "gisele-aviacao",
+   "nome": "Res. Gisele",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "ilha-de-salina-boqueirao",
+   "nome": "Res. Ilha de Salina",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos",
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "italia-boqueirao",
+   "nome": "Res. Itália",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos",
+    "Nova Casarão"
+   ]
+  },
+  {
+   "id": "jardim-do-forte-canto-do-forte",
+   "nome": "Res. Jardim do Forte",
+   "bairro": "Canto do Forte",
+   "cat": "obra",
+   "entrega": "A confirmar",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "juliana-caicara",
+   "nome": "Res. Juliana",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "lagos-guilhermina",
+   "nome": "Res. Lagos",
+   "bairro": "Guilhermina",
+   "cat": "obra",
+   "entrega": "Jul/2027",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "laura-aviacao",
+   "nome": "Res. Laura",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "maragogi-aviacao",
+   "nome": "Res. Maragogi",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "marcella-caicara",
+   "nome": "Res. Marcella",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "mexico-sao-bernardo-do-campo",
+   "nome": "Res. México",
+   "bairro": "São Bernardo do Campo",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "monaco-caicara",
+   "nome": "Res. Mônaco",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "nathalia-salles-mendes-aviacao",
+   "nome": "Res. Nathalia Salles Mendes",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "pedro-tupi",
+   "nome": "Res. Pedro",
+   "bairro": "Tupi",
+   "cat": "obra",
+   "entrega": "Out/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "portugal-caicara",
+   "nome": "Res. Portugal",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "A confirmar",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "praia-da-gloria-canto-do-forte",
+   "nome": "Res. Praia da Glória",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "premiere-mediterranee-canto-do-forte",
+   "nome": "Res. Premiere Mediterranée",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "raimundo-gomes-aviacao",
+   "nome": "Res. Raimundo Gomes",
+   "bairro": "Aviação",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "raquel-chini-boqueirao",
+   "nome": "Res. Raquel Chini",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "torres-caicara",
+   "nome": "Res. Torres",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "turim-caicara",
+   "nome": "Res. Turim",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "Dez/2026",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "unique-canto-do-forte",
+   "nome": "Res. Unique",
+   "bairro": "Canto do Forte",
+   "cat": "obra",
+   "entrega": "Abr/2027",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "veneza-jardim-real",
+   "nome": "Res. Veneza",
+   "bairro": "Jardim Real",
+   "cat": "obra",
+   "entrega": "2030",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "veraneio-guilhermina",
+   "nome": "Res. Veraneio",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "volpi-caicara",
+   "nome": "Res. Volpi",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "Fim/2026",
+   "fontes": [
+    "Isildo"
+   ]
+  },
+  {
+   "id": "volpi-e-monet-caicara",
+   "nome": "Res. Volpi e Monet (Monet)",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "Dez/2028",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "senna-eiffel-boqueirao",
+   "nome": "Senna Eiffel",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "villagio-di-napoli-maracana",
+   "nome": "Villagio di Napoli",
+   "bairro": "Maracanã",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Kalyl Imóveis"
+   ]
+  }
+ ],
+ "units": {
+  "mourao-i-tupi": {
+   "itens": [
+    {
+     "unidade": "305",
+     "tipologia": "1 dorm",
+     "det": "3º andar",
+     "area": 41.02,
+     "valor": 235000,
+     "vfin": 240000,
+     "cond": 275,
+     "iptu": 155.56,
+     "vg": "1 rotativa",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 235 mil; banco, permuta ou carro R$ 240 mil. Sala ampla, cozinha americana. Permite Airbnb, churrasqueira nos fundos. Frente para a Av. Kennedy, em cima da Padaria Santa Terezinha. Entregue pintado, sem mobília. Chaves: Remo Imobiliária (Av. Pres. Kennedy, 5829) ou Nova Geração (R. Caiapós, 737-A).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Timbiras, 182 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Timbiras%2C+182%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "siroco-ocian": {
+   "itens": [
+    {
+     "unidade": "85",
+     "tipologia": "1 dorm",
+     "det": "mobiliado, vista mar",
+     "area": 42.51,
+     "valor": 315000,
+     "vfin": 325000,
+     "cond": 498.79,
+     "iptu": 214.57,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 315 mil; banco, permuta ou carro R$ 325 mil. Frente mar, sacada com vista mar, permite Airbnb. Portaria 24h, elevadores, salão de jogos e festas. Condomínio + 4x R$ 170 de manutenção. Chaves na portaria (enviar CRECI).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Alfonso Bovero, 28 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alfonso+Bovero%2C+28%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "cannes-maracana": {
+   "itens": [
+    {
+     "unidade": "14",
+     "tipologia": "1 dorm",
+     "det": "mobiliado, vista mar",
+     "area": 52.04,
+     "valor": 310000,
+     "vfin": 320000,
+     "cond": 489.4,
+     "iptu": 273.87,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 310 mil; banco, permuta ou carro R$ 320 mil. 50 m da praia, sacada, permite Airbnb. Elevador, piscina e sauna. Condomínio + Fundo Caixa R$ 76,87. Chaves: Impacto Imóveis (Av. Pres. Castelo Branco, 11064).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua José Demar Peres, 61 · Maracanã",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Demar+Peres%2C+61%2C+Maracan%C3%A3+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "triunfo-ocian": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "1 dorm",
+     "det": "amplo",
+     "area": 47.6,
+     "valor": 310000,
+     "vfin": 320000,
+     "cond": 598.5,
+     "iptu": 295.52,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 310 mil; banco, permuta ou carro R$ 320 mil. 100 m da praia, sacada, permite Airbnb. Elevadores, piscina, salões de jogos e festas, churrasqueira, portaria 24h. Chaves: fechadura eletrônica (enviar CRECI para liberação na portaria).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Libero Badaró, 107 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Libero+Badar%C3%B3%2C+107%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "casa-grande-iii-caicara": {
+   "itens": [
+    {
+     "unidade": "606",
+     "tipologia": "1 dorm",
+     "det": "em obra",
+     "area": 55.48,
+     "valor": 340000,
+     "vfin": 355000,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 340 mil; permuta ou carro R$ 355 mil (sem banco). Sala 2 ambientes com vista livre e ampla sacada gourmet. Lazer completo: piscina, academia, salão de jogos e festas, brinquedoteca. 100 m da praia. Obra aberta seg a sex (sábado até meio-dia).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Juscelino Kubitschek com Rua São José · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Juscelino+Kubitschek+com+Rua+S%C3%A3o+Jos%C3%A9%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "praia-das-asturias-guilhermina": {
+   "itens": [
+    {
+     "unidade": "14",
+     "tipologia": "1 dorm",
+     "det": "terraço garden",
+     "area": 69.02,
+     "valor": 345000,
+     "vfin": 355000,
+     "cond": 537.85,
+     "iptu": 307.39,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 345 mil; banco, permuta ou carro R$ 355 mil. Sala 2 ambientes com ampla sacada (terraço privativo gourmet). Elevador, salão de festas e churrasqueira na cobertura. 350 m da praia. Entregue pintado padrão Gurgel. Chaves na portaria (solicitar liberação antecipada com o zelador Samuel).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Venezuela, 350 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Venezuela%2C+350%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "texas-guilhermina": {
+   "itens": [
+    {
+     "unidade": "116",
+     "tipologia": "1 dorm",
+     "det": "vista mar, andar alto",
+     "area": 42,
+     "valor": 360000,
+     "vfin": 365000,
+     "cond": 674,
+     "iptu": 249.51,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 360 mil; banco, permuta ou carro R$ 365 mil. 150 m da praia, sacada ampla. Piscina, churrasqueira, salões de festas e jogos. Condomínio com internet. Entregue pintado padrão Gurgel. Porta aberta: solicitar autorização com antecedência (enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "76",
+     "tipologia": "1 dorm",
+     "det": "vista mar",
+     "area": 42,
+     "valor": 355000,
+     "vfin": null,
+     "cond": 674,
+     "iptu": 249.51,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com ampla sacada, cozinha americana. Piscina, jogos, festas e churrasqueira. 150 m da praia. Condomínio com internet. Porta aberta: enviar CRECI com antecedência. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bolívia, 51 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bol%C3%ADvia%2C+51%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas) | Leon Gurgel (13) 99789-7529",
+   "fonte": "LEC, Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "laguna-tupi": {
+   "itens": [
+    {
+     "unidade": "62",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar",
+     "area": 67.63,
+     "valor": 390000,
+     "vfin": 395000,
+     "cond": 737.14,
+     "iptu": 397.18,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela. À vista R$ 390 mil; banco, permuta ou carro R$ 395 mil. 100 m da praia. Elevador e piscina. Chaves: Nova Geração (R. Caiapós, 737-A) ou Maiorano Imóveis (Av. Pres. Castelo Branco, 5278).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Caiapós, 302 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+302%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "raquel-aviacao": {
+   "itens": [
+    {
+     "unidade": "66",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada gourmet",
+     "area": 63.8,
+     "valor": 400000,
+     "vfin": 420000,
+     "cond": 680,
+     "iptu": 403.03,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 400 mil; banco, permuta ou carro R$ 420 mil. Cozinha com planejados. 350 m da praia. Salão de jogos e festas, piscina, academia, brinquedoteca e minimercado. Condomínio + FR R$ 32,68. Chaves: fechadura eletrônica.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua São Pedro, 362 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Pedro%2C+362%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "marbelle-ii-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "11",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 79.28,
+     "valor": 460000,
+     "vfin": 475000,
+     "cond": 769.42,
+     "iptu": 358.56,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 460 mil; banco, permuta ou carro R$ 475 mil. Sala 2 ambientes com sacada, cozinha com planejados. 50 m da Av. Marechal Mallet. Piscina, salão de festas com churrasqueira, playground. Chaves: fechadura eletrônica (solicitar autorização com antecedência, enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Mario Tamashiro, 146 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Mario+Tamashiro%2C+146%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "haus-aviacao": {
+   "itens": [
+    {
+     "unidade": "42",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, em obra",
+     "area": 78.26,
+     "valor": 520000,
+     "vfin": 540000,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 520 mil; permuta ou carro R$ 540 mil (sem banco). Sala integrada com ampla sacada gourmet e vista parcial do mar, lavabo. 150 m da praia. Áreas comuns entregues decoradas e mobiliadas. Lazer na cobertura (piscina, academia, jogos, festas, kids, coworking, churrasqueira). Visita: e-mail para a construtora.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Fernão Dias, 33 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Fern%C3%A3o+Dias%2C+33%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "the-one-guilhermina": {
+   "itens": [
+    {
+     "unidade": "53",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 9º andar",
+     "area": 69.2,
+     "valor": 580000,
+     "vfin": null,
+     "cond": 778.12,
+     "iptu": 460.93,
+     "vg": "1 (nº 43)",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "R$ 580 mil (à vista, permuta, banco ou carro). Sacada gourmet com churrasqueira a carvão. 550 m da praia. Lazer completo (piscina, jacuzzi, sauna, cinema, academia, espaços game, pet e kids). Porta aberta (enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "54",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 9º andar",
+     "area": 71,
+     "valor": 580000,
+     "vfin": null,
+     "cond": 799.64,
+     "iptu": 471.75,
+     "vg": "1 (nº 59)",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sacada gourmet. Lazer completo (piscina, jacuzzi, sauna, cinema, boliche, academia, espaços pet, beleza e kids). Não permite Airbnb. 600 m da praia. Porta aberta: enviar CRECI com antecedência. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Fumio Miyazi, 1202 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Fumio+Miyazi%2C+1202%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas) | Leon Gurgel (13) 99789-7529",
+   "fonte": "LEC, Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "carlos-eduardo-tupi": {
+   "itens": [
+    {
+     "unidade": "12",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, vista parcial mar",
+     "area": 131.4,
+     "valor": 650000,
+     "vfin": 670000,
+     "cond": 914,
+     "iptu": 604.2,
+     "vg": "2",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 650 mil; banco, permuta ou carro R$ 670 mil. Sacada gourmet com churrasqueira a carvão. 100 m da praia. Piscina, sauna, academia, salões de festas e jogos. Condomínio + R$ 130,27 de fundo de reserva. Entregue pintado padrão Gurgel.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Caiapós, 1066 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+1066%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "petra-ii-boqueirao": {
+   "itens": [
+    {
+     "unidade": "122",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 91.96,
+     "valor": 770000,
+     "vfin": 790000,
+     "cond": 648.35,
+     "iptu": 574.51,
+     "vg": "2",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 770 mil; banco, permuta ou carro R$ 790 mil. Sacada gourmet envolvente fechada em vidro, armários planejados, lavabo. 300 m da praia. Piscina, sauna, academia, salão de festas com churrasqueira, jogos, playground. Condomínio + 17x R$ 110 (lavagem da fachada). Chaves: fechadura eletrônica (enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Jaú, 1352 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ja%C3%BA%2C+1352%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "senna-eiffel-boqueirao": {
+   "itens": [
+    {
+     "unidade": "222",
+     "tipologia": "Kitnet",
+     "det": "preço reduzido",
+     "area": 33.11,
+     "valor": 235000,
+     "vfin": null,
+     "cond": 591.6,
+     "iptu": 132.98,
+     "vg": "1 coletiva",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10658. À vista R$ 235 mil; aceita financiamento bancário e permuta. 1 quadra da praia. Pintura nova. Chaves na portaria (enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bahia, 848 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bahia%2C+848%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "joia-boqueirao": {
+   "itens": [
+    {
+     "unidade": "222",
+     "tipologia": "Kitnet",
+     "det": "preço reduzido",
+     "area": 33.19,
+     "valor": 240000,
+     "vfin": null,
+     "cond": 401,
+     "iptu": 116.22,
+     "vg": "1 coletiva",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10862. À vista R$ 240 mil; aceita financiamento bancário e permuta. 80 m do mar, portaria 24h, pia e gabinete instalados. IPTU quitado até dezembro. Apartamento aberto, chaves na portaria e na Kalyl.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Pres. Costa e Silva, 105 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Costa+e+Silva%2C+105%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "caraibas-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "31",
+     "tipologia": "2 dorms",
+     "det": "mobiliado",
+     "area": 71.6,
+     "valor": 420000,
+     "vfin": 450000,
+     "cond": 781.46,
+     "iptu": 287.08,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10958. À vista R$ 420 mil; R$ 450 mil no financiamento bancário e permuta. Preço reduzido. 1 quadra da praia, sacada, elevador. Condomínio + taxa de fachada R$ 100 (11/24). Chaves: Kalyl ou Tavares & Polati (Av. Rio Branco, 258).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Marechal Hermes, 207 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Marechal+Hermes%2C+207%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "villagio-di-napoli-maracana": {
+   "itens": [
+    {
+     "unidade": "601",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, frente mar",
+     "area": 85.41,
+     "valor": 550000,
+     "vfin": null,
+     "cond": 1180.77,
+     "iptu": 449.73,
+     "vg": "2",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10866. À vista R$ 550 mil; aceita financiamento bancário e permuta. Preço reduzido. Sacada envidraçada com vista mar, lazer completo, portaria 24h, pintura nova. Condomínio + rateio do elevador R$ 148,53 (6/10). Apartamento aberto (enviar CRECI).",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 11.590 · Maracanã",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+11.590%2C+Maracan%C3%A3+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "gabriel-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "114",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 97.82,
+     "valor": 630000,
+     "vfin": 650000,
+     "cond": 789.27,
+     "iptu": 478.46,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10785. À vista R$ 630 mil; R$ 650 mil no financiamento bancário e permuta. Dependência de serviço, cozinha planejada, piscina. Chaves na portaria (enviar CRECI).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Rio Branco, 449 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Rio+Branco%2C+449%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "atlantic-house-maracana": {
+   "itens": [
+    {
+     "unidade": "701",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, frente mar, mobiliado",
+     "area": 66.25,
+     "valor": 680000,
+     "vfin": null,
+     "cond": 967.1,
+     "iptu": 451.52,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10971. À vista R$ 680 mil; aceita financiamento bancário e permuta. Sacada gourmet envidraçada com vista mar, cozinha planejada, lazer completo. Condomínio + taxa AVCB R$ 92,22 (5/5). Chaves: enviar CRECI para autorizar.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 11.030 · Maracanã",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+11.030%2C+Maracan%C3%A3+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "monaco-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "123",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, andar alto",
+     "area": 78.09,
+     "valor": 750000,
+     "vfin": null,
+     "cond": 511.34,
+     "iptu": 603.55,
+     "vg": "2",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10930. R$ 750 mil, aceita financiamento bancário e permuta. 300 m da praia, sacada gourmet com vista livre e mar, lavabo, piscina. Chaves: enviar CRECI para autorizar.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Tiradentes, 345 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Tiradentes%2C+345%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "florenca-aviacao": {
+   "itens": [
+    {
+     "unidade": "173",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, em obras",
+     "area": 104.38,
+     "valor": 800000,
+     "vfin": 850000,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10975. À vista R$ 800 mil; R$ 850 mil na permuta. 300 m da praia, andar alto, sacada gourmet com vista livre e mar, lazer completo. Chaves: em obras.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Luzia Encarnação Vidal, 316 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Luzia+Encarna%C3%A7%C3%A3o+Vidal%2C+316%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "jardim-das-tulipas-caicara": {
+   "itens": [
+    {
+     "unidade": "1102",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 107.73,
+     "valor": 1250000,
+     "vfin": 1300000,
+     "cond": 859.1,
+     "iptu": 826.96,
+     "vg": "3",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10337. À vista R$ 1.250.000; R$ 1.300.000 na permuta. Todo planejado e semimobiliado, ar-condicionado em todos os ambientes, sacada gourmet envidraçada. Lazer completo com piscina. Chaves: enviar CRECI para autorizar na portaria.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Nossa Senhora de Fátima, 171 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Nossa+Senhora+de+F%C3%A1tima%2C+171%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "carlos-aurelio-tupi": {
+   "itens": [
+    {
+     "unidade": "103",
+     "tipologia": "1 dorm",
+     "det": "1º andar",
+     "area": 58,
+     "valor": 305000,
+     "vfin": 315000,
+     "cond": 483,
+     "iptu": 257,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10047. Exclusividade Francisco (13) 98207-3688. À vista R$ 305 mil; R$ 315 mil no financiamento bancário. Estuda permuta por imóvel de menor valor na cidade. Elevador, piscina, pintura nova, pronto para morar. Chaves na Kalyl.",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Tamoios, 401 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Tamoios%2C+401%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "ocean-park-ocian": {
+   "itens": [
+    {
+     "unidade": "54B / 64B",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar",
+     "area": 80,
+     "valor": 500000,
+     "vfin": 525000,
+     "cond": 488,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 2256. Exclusividade Francisco (13) 98207-3688. À vista R$ 500 mil; R$ 525 mil na permuta (estuda pequeno parcelamento direto). Sacada gourmet, lazer completo, pronto para morar.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "137 A",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar, terraço gourmet",
+     "area": 80.18,
+     "valor": 550000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Valor à vista. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Comendador Otto Carlos Golanda, 200 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Comendador+Otto+Carlos+Golanda%2C+200%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076 | Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Isildo, Kalyl Imóveis (Comissão 5%; Comissão não informada na tabela)",
+   "atualizadoEm": "03/10/2026 / 05/10/2026"
+  },
+  "epic-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "53",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, novo",
+     "area": 72,
+     "valor": 660000,
+     "vfin": null,
+     "cond": 707.07,
+     "iptu": 380,
+     "vg": "1",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 9779. Exclusividade Roberto (13) 99711-1983. À vista R$ 660 mil; aceita financiamento bancário e permuta. 400 m do mar, sacada gourmet, fino acabamento, lazer completo com piscina e quadra. Chaves na Kalyl.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua General Osório, 403 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+General+Os%C3%B3rio%2C+403%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "parque-xixova-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "85",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, alto padrão",
+     "area": 104,
+     "valor": 1300000,
+     "vfin": null,
+     "cond": 685,
+     "iptu": 570,
+     "vg": "2",
+     "fonte": "Kalyl Imóveis",
+     "status": "disponivel",
+     "obs": "Cód. 10136. Exclusividade Roberto (13) 99711-1983. R$ 1.300.000 à vista. Estuda permuta por imóvel de menor valor ou carro. Imóvel novo, porteira fechada, gás encanado, sacada gourmet, lazer completo com piscina.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Xixová, 600 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Xixov%C3%A1%2C+600%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
+  },
+  "sao-paulo-guilhermina": {
+   "itens": [
+    {
+     "unidade": "39",
+     "tipologia": "Kitnet",
+     "det": "3º andar",
+     "area": 32,
+     "valor": 190000,
+     "vfin": null,
+     "cond": 366,
+     "iptu": 109.63,
+     "vg": "1 coletiva",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Será entregue padrão LEC. Sala dividida em 1 dormitório, gás encanado (220V), permite Airbnb. 600 m da praia. Chaves: Nova CPI Imóveis (Av. Brasil, 933) ou Deck Imóveis (R. Itararé, 174). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Leme, 53 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Leme%2C+53%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "marfim-boqueirao": {
+   "itens": [
+    {
+     "unidade": "313",
+     "tipologia": "Kitnet",
+     "det": "3º andar",
+     "area": 30,
+     "valor": 210000,
+     "vfin": null,
+     "cond": 311.77,
+     "iptu": 110.54,
+     "vg": "1 coletiva",
+     "fonte": "LEC",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela. Será entregue padrão LEC. 200 m da praia, ao lado da Av. Costa e Silva. Chaves: Nova Casarão (Av. Pres. Castelo Branco, 1626) ou Nova CPI. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Roberto Shoji, 148 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Roberto+Shoji%2C+148%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "jose-g-marques-guilhermina": {
+   "itens": [
+    {
+     "unidade": "35",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 42,
+     "valor": 240000,
+     "vfin": null,
+     "cond": 469.4,
+     "iptu": 200.88,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela. Sala 2 ambientes, permite Airbnb. 100 m da praia, perto da feirinha da Guilhermina. Chaves: Royal House (R. Honduras, 56) ou Kalyl (Av. Pres. Castelo Branco, 2532). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Paraguai, 48 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Paraguai%2C+48%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "praia-grande-residencial-aviacao": {
+   "itens": [
+    {
+     "unidade": "18 (Bloco II)",
+     "tipologia": "1 dorm",
+     "det": "sacada",
+     "area": 52,
+     "valor": 295000,
+     "vfin": null,
+     "cond": 607.66,
+     "iptu": 282.45,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Lazer: salão de jogos, churrasqueira, brinquedoteca. Permite Airbnb. 300 m da praia. Visitas com autorização impressa (seg a sex 8h–17h, sáb 10h–16h). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. General Marcondes Salgado, 292 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+General+Marcondes+Salgado%2C+292%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "anderlech-tupi": {
+   "itens": [
+    {
+     "unidade": "74",
+     "tipologia": "1 dorm",
+     "det": "vista mar",
+     "area": 54,
+     "valor": 335000,
+     "vfin": null,
+     "cond": 505.86,
+     "iptu": 243.07,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com sacada, gás encanado, piscina e salão de jogos. 100 m da praia, centro da Tupi. Chaves: Nova Geração (R. Caiapós, 737) ou Agência da Praia (Av. Pres. Castelo Branco, 6046). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Caiapós, 380 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+380%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "bela-vista-caicara": {
+   "itens": [
+    {
+     "unidade": "174",
+     "tipologia": "1 dorm",
+     "det": "suíte",
+     "area": 43,
+     "valor": 350000,
+     "vfin": null,
+     "cond": 478.66,
+     "iptu": 309.59,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com sacada fechada em vidro e vista livre, cozinha americana, lavabo. Piscina, jogos, festas, sauna, lavanderia e minimercado. 300 m da praia. Permite Airbnb. Chaves na portaria (seg a sex 9h–17h, sáb 9h–14h).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Maria Tognini, 450 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Maria+Tognini%2C+450%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "pettra-iv-boqueirao": {
+   "itens": [
+    {
+     "unidade": "76 e 77",
+     "tipologia": "1 dorm",
+     "det": "sacada gourmet, novo",
+     "area": 50,
+     "valor": 375000,
+     "vfin": null,
+     "cond": 479,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Entregue decorado, sem taxa de rateio. IPTU somente em 2027. Pista de cooper, piscina, sauna, academia, jogos, festas, playground. 200 m da Costa e Silva. Permite Airbnb. Estuda proposta, permuta e carro (sem banco). Porta aberta, apresentar CRECI na portaria.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "103",
+     "tipologia": "1 dorm",
+     "det": "sacada gourmet, novo",
+     "area": 48,
+     "valor": 385000,
+     "vfin": null,
+     "cond": 479,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Mesmas condições do Pettra IV (entregue decorado, IPTU somente em 2027). Estuda proposta, permuta e carro (sem banco). Porta aberta, apresentar CRECI na portaria.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Oswaldo de Oliveira, 213 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Oswaldo+de+Oliveira%2C+213%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "itajai-guilhermina": {
+   "itens": [
+    {
+     "unidade": "31",
+     "tipologia": "2 dorms",
+     "det": "",
+     "area": 55,
+     "valor": 310000,
+     "vfin": null,
+     "cond": 432.93,
+     "iptu": 339.74,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Será entregue padrão LEC. Piso laminado e vinílico. 400 m da praia, perto do Extra da Guilhermina. Chaves: Nova CPI ou Deck Imóveis. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Leblon, 531 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Leblon%2C+531%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "marcelino-guilhermina": {
+   "itens": [
+    {
+     "unidade": "32",
+     "tipologia": "2 dorms",
+     "det": "armário individual",
+     "area": 62,
+     "valor": 320000,
+     "vfin": null,
+     "cond": 421.07,
+     "iptu": 313.65,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Será entregue padrão LEC. Não permite Airbnb. 300 m da praia. Piso laminado e vinílico. Enviar CRECI com antecedência; entrada pela garagem. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Guilhermina, 519 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Guilhermina%2C+519%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "primavera-real": {
+   "itens": [
+    {
+     "unidade": "25",
+     "tipologia": "2 dorms",
+     "det": "vista mar, sem suíte",
+     "area": 64,
+     "valor": 330000,
+     "vfin": null,
+     "cond": 785.19,
+     "iptu": 337.66,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela. Frente mar, gás encanado, churrasqueira na cobertura, salões de jogos e festas, portaria 24h. Permite Airbnb. Chaves na portaria (todos os dias 8h–17h30). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 16964 · Real",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+16964%2C+Real+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "praia-de-copacabana-boqueirao": {
+   "itens": [
+    {
+     "unidade": "103",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 10º andar",
+     "area": 51,
+     "valor": 365000,
+     "vfin": null,
+     "cond": 612.55,
+     "iptu": 315.93,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Será entregue padrão LEC. Apartamento 220V. Não permite Airbnb (só locação definitiva). 200 m da praia. Condomínio + reforço de caixa R$ 50,26. Chaves: Nova CPI, Topo Imóveis ou Deck Imóveis. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Brasil, 610 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Brasil%2C+610%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "libera-ocian": {
+   "itens": [
+    {
+     "unidade": "22",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista livre",
+     "area": 72,
+     "valor": 395000,
+     "vfin": null,
+     "cond": 462.97,
+     "iptu": 182.43,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com sacada, salões de jogos e festas. Permite Airbnb. 100 m da praia. Condomínio + 10x R$ 100 (gás encanado). Chaves: Mérito Imóveis, Nova Geração ou Agência da Praia. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Gilberto Amado, 251 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Gilberto+Amado%2C+251%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "mourelos-ii-tupi": {
+   "itens": [
+    {
+     "unidade": "13",
+     "tipologia": "2 dorms",
+     "det": "1 suíte",
+     "area": 70,
+     "valor": 395000,
+     "vfin": null,
+     "cond": 664,
+     "iptu": 336.72,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com sacada e pequena vista mar. Permite Airbnb. 50 m da praia, perto da fonte interativa da Tupi. Chaves: Nova Geração ou Agência da Praia. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Doutor Ernesto Vergara, 63 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Doutor+Ernesto+Vergara%2C+63%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "caribe-ocian": {
+   "itens": [
+    {
+     "unidade": "24",
+     "tipologia": "2 dorms",
+     "det": "1 suíte",
+     "area": 68,
+     "valor": 395000,
+     "vfin": null,
+     "cond": 676.12,
+     "iptu": 338.3,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Piscina, jogos, festas, academia, brinquedoteca. Permite Airbnb. 300 m da praia. Condomínio + fundo de manutenção e seguro R$ 145,60. Fechadura eletrônica e tag de acesso (Nova Geração ou Agência da Praia). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Guimarães Rosa, 370 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Guimar%C3%A3es+Rosa%2C+370%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "martinica-ocian": {
+   "itens": [
+    {
+     "unidade": "41",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar",
+     "area": 87,
+     "valor": 440000,
+     "vfin": null,
+     "cond": 788.1,
+     "iptu": 421.01,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sala 2 ambientes com sacada, salões de jogos e festas. Permite Airbnb. 100 m da praia. Chaves: Nova Geração ou Agência da Praia. Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Monteiro Lobato, 261 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Monteiro+Lobato%2C+261%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "nossolar-vi-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "43",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada gourmet",
+     "area": 71,
+     "valor": 530000,
+     "vfin": null,
+     "cond": 720.03,
+     "iptu": 392.78,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela. Piscina, sauna, jogos, festas, churrasqueira, academia e minimercado. Permite Airbnb. 500 m da praia, ao lado da Av. Mallet. Chaves na portaria (todos os dias 8h–17h). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Marechal Hermes, 639 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Marechal+Hermes%2C+639%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "santo-expedito-ix-tupi": {
+   "itens": [
+    {
+     "unidade": "102",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada gourmet",
+     "area": 85,
+     "valor": 530000,
+     "vfin": null,
+     "cond": 830.45,
+     "iptu": 568.05,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Cozinha americana, armário individual. Piscina, jogos, festas, espaço gourmet, academia, quadra. Permite Airbnb. 250 m da praia. Chaves na portaria (seg a sáb 8h–17h). Estuda proposta, banco, permuta e carro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Guaranis, 315 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Guaranis%2C+315%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "terrace-square-tupi": {
+   "itens": [
+    {
+     "unidade": "51",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar, em obra",
+     "area": 85,
+     "valor": 590000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sacada gourmet com vista mar permanente. Lazer no mezanino e cobertura (piscina, jogos, festas, academia, brinquedoteca). 150 m da praia. Obra aberta. Estuda proposta, permuta e carro (sem banco).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Potiguares, 175 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Potiguares%2C+175%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "primor-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "64",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, em obra",
+     "area": 92,
+     "valor": 870000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "LEC",
+     "status": "disponivel",
+     "obs": "Sacada gourmet com churrasqueira a carvão, pequena vista mar, lavabo. Lazer completo (piscina, cinema, quadra, sauna, spa, coworking). 300 m da praia. Obra aberta. Estuda proposta, permuta e carro (sem banco).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Costa Machado, 440 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Costa+Machado%2C+440%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas)",
+   "fonte": "LEC (Comissão 5%)",
+   "atualizadoEm": "sem data"
+  },
+  "village-aviacao": {
+   "itens": [
+    {
+     "unidade": "21",
+     "tipologia": "1 dorm",
+     "det": "segundo andar, sol da tarde",
+     "area": 44,
+     "valor": 272000,
+     "vfin": null,
+     "cond": 333.25,
+     "iptu": 247,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Aceita financiamento bancário. Visitas agendadas e acompanhadas. Frente de rua, sala ampla, vista livre, gás encanado, 1 vaga, prédio sem lazer. Condomínio + rateios (R$ 90,67 gás até 02/2027 + R$ 68,82 fachada até 08/2029); água inclusa. Será entregue mobiliado.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua José Calixto do Carmo, 234 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Calixto+do+Carmo%2C+234%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "alexandre-ii-boqueirao": {
+   "itens": [
+    {
+     "unidade": "805",
+     "tipologia": "1 dorm",
+     "det": "8º andar, mobiliado",
+     "area": 52,
+     "valor": 300000,
+     "vfin": null,
+     "cond": 639,
+     "iptu": 282,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Proposta: valor anterior R$ 330 mil, tabela mostra R$ 300 mil. Aceita financiamento bancário. 250 m da praia, vista livre, gás encanado, portaria 24h, salão de jogos. Condomínio + rateio extra R$ 53 (até 11/2026); água inclusa. Ficará mobiliado.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Londrina, 272 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Londrina%2C+272%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "barra-da-tijuca-guilhermina": {
+   "itens": [
+    {
+     "unidade": "92",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 9º andar",
+     "area": 57,
+     "valor": 435000,
+     "vfin": null,
+     "cond": 615,
+     "iptu": 330,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "reservado",
+     "obs": "Aceita financiamento bancário. Visitas agendadas e acompanhadas. PROPOSTA em andamento na tabela. Condomínio + rateio pintura R$ 52 (até 10/2028); água inclusa. Planta remota, varanda com sol da tarde e vista livre, gás encanado, piscina, academia, salão de festas, espaço kids.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Peru, 334 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Peru%2C+334%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "acaua-aviacao": {
+   "itens": [
+    {
+     "unidade": "24",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 2º andar",
+     "area": 58,
+     "valor": 435000,
+     "vfin": null,
+     "cond": 400,
+     "iptu": 353,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Aceita financiamento bancário. Visitas agendadas e acompanhadas. Varanda gourmet com vista mar, lazer completo (piscinas, salão de festas com churrasqueira, playground, coworking, academia). Aquecimento a gás para torneiras e chuveiros, portaria 24h, mobília inclusa (cama, armários, fogão).",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "31",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 3º andar",
+     "area": 90,
+     "valor": 549000,
+     "vfin": null,
+     "cond": 580,
+     "iptu": 506,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Valor reduzido (anterior R$ 570 mil). Aceita financiamento bancário. Varanda com sol da tarde, lazer completo, aquecimento a gás, portaria 24h. Água inclusa.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Mem de Sá, 169 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Mem+de+S%C3%A1%2C+169%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "hildegard-angel-guilhermina": {
+   "itens": [
+    {
+     "unidade": "42",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 4º andar",
+     "area": 75,
+     "valor": 450000,
+     "vfin": null,
+     "cond": 815,
+     "iptu": 397,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Aceita financiamento bancário. Visitas agendadas e acompanhadas. Esquina com Rua Copacabana. Varanda com vista frente rua, sol da manhã, gás encanado, piscina e salão de festas. Condomínio inclui água e gás; acesso por tag.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "63",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, 6º andar, semi-mobiliado",
+     "area": 100,
+     "valor": 665000,
+     "vfin": null,
+     "cond": 1009,
+     "iptu": 498,
+     "vg": "2 coletivas",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Aceita financiamento bancário. Visitas agendadas e acompanhadas. Esquina com Rua Copacabana. Frente rua, sol da tarde, 3 varandas (2 na sala envidraçadas e 1 em dormitório). Piscina no térreo e salão de festas no mezanino. Acesso via tag e portão, sem portaria. Gás encanado incluso no condomínio; água e gás inclusos. Fica do jeito que está.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Brasil, 685 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Brasil%2C+685%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "las-vegas-guilhermina": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 2º andar",
+     "area": 70,
+     "valor": 460000,
+     "vfin": null,
+     "cond": 480,
+     "iptu": 380,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Comissão Fifty de 6%. Aceita financiamento bancário. Varanda com sol da manhã, piscina, salão de festas com churrasqueira, sauna, salão de jogos. Guarda-volumes (homebox). Água inclusa.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Praça das Américas, 10 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+das+Am%C3%A9ricas%2C+10%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "roma-aviacao": {
+   "itens": [
+    {
+     "unidade": "63",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 6º andar, vista mar lateral",
+     "area": 76,
+     "valor": 545000,
+     "vfin": null,
+     "cond": 497,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Varanda gourmet envidraçada, vista mar lateral, lazer completo (piscinas, academia, cinema, quadra, spa, saunas, espaço crossfit). Venda por contrato de cessão (documentação entregue somente em março/2026). Água inclusa. IPTU não informado.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bartolomeu Dias, 163 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bartolomeu+Dias%2C+163%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "viamar-caicara": {
+   "itens": [
+    {
+     "unidade": "12",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 1º andar, vista mar",
+     "area": 71,
+     "valor": 585000,
+     "vfin": null,
+     "cond": 855,
+     "iptu": 435,
+     "vg": "1",
+     "fonte": "Erick Pereira",
+     "status": "disponivel",
+     "obs": "Planta gourmet com 2 varandas envidraçadas (sala e suíte), vista mar, gás encanado, porteira fechada, piscina e salão de festas com churrasqueira a carvão. Planejados ficam; estuda acréscimo de valor. Água inclusa.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua São João, 38 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Jo%C3%A3o%2C+38%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Erick Pereira (13) 98127-8835",
+   "fonte": "Erick Pereira (Comissão 5%)",
+   "atualizadoEm": "26/09/2026"
+  },
+  "bianca-sao-paulo": {
+   "itens": [
+    {
+     "unidade": "24",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 42,
+     "valor": 250000,
+     "vfin": null,
+     "cond": 387,
+     "iptu": 199,
+     "vg": "sem vaga",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Vila Formosa (São Paulo/SP). Chaves: agendar.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Praça Leão X, 243 · São Paulo",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+Le%C3%A3o+X%2C+243%2C++S%C3%A3o+Paulo%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "marcella-caicara": {
+   "itens": [
+    {
+     "unidade": "15",
+     "tipologia": "1 dorm",
+     "det": "gourmet e piscina",
+     "area": 41,
+     "valor": 325000,
+     "vfin": null,
+     "cond": 428,
+     "iptu": 341,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Impacto Imóveis (R. Maria Tognini, 458) ou CPI Imóveis (Av. Brasil, 927).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Deputado Pinheiro Junior, 182 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Deputado+Pinheiro+Junior%2C+182%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "juliana-caicara": {
+   "itens": [
+    {
+     "unidade": "21",
+     "tipologia": "1 dorm",
+     "det": "piscina, jogos",
+     "area": 38,
+     "valor": 325000,
+     "vfin": null,
+     "cond": 590,
+     "iptu": 323,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Impacto Imóveis ou Costa do Sol (Av. Castelo Branco, 2758).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Juscelino Kubitschek de Oliveira, 894 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Juscelino+Kubitschek+de+Oliveira%2C+894%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "raquel-chini-boqueirao": {
+   "itens": [
+    {
+     "unidade": "42",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 47,
+     "valor": 365000,
+     "vfin": null,
+     "cond": 480,
+     "iptu": 241,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Costa do Sol ou Elite Imóveis (Av. Paris, 607).",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Paris, 729 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Paris%2C+729%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "gisele-aviacao": {
+   "itens": [
+    {
+     "unidade": "36 (Bloco B)",
+     "tipologia": "2 dorms",
+     "det": "3º andar",
+     "area": 47,
+     "valor": 285000,
+     "vfin": null,
+     "cond": 300,
+     "iptu": 180,
+     "vg": "rotativa",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Agência da Praia (Av. Castelo Branco, 4762) ou Costa do Sol.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Vasco da Gama, 183 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Vasco+da+Gama%2C+183%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "mexico-sao-bernardo-do-campo": {
+   "itens": [
+    {
+     "unidade": "24",
+     "tipologia": "2 dorms",
+     "det": "elevador",
+     "area": 46,
+     "valor": 335000,
+     "vfin": null,
+     "cond": 418,
+     "iptu": 118,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Jardim Santo Ignacio (São Bernardo do Campo/SP). Chaves: agendar.",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua México, 379 · São Bernardo do Campo",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+M%C3%A9xico%2C+379%2C++S%C3%A3o+Bernardo+do+Campo%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "praia-da-gloria-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "22",
+     "tipologia": "2 dorms",
+     "det": "2 suítes",
+     "area": 55,
+     "valor": 450000,
+     "vfin": null,
+     "cond": 720,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo (tabela não cita financiamento). IPTU ainda não disponível. Porta aberta: enviar CRECI para cadastro antes da visita.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Costa Machado, 659 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Costa+Machado%2C+659%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "attrative-guilhermina": {
+   "itens": [
+    {
+     "unidade": "22",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, jogos, festas, piscina",
+     "area": 62,
+     "valor": 485000,
+     "vfin": null,
+     "cond": 770,
+     "iptu": 390,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Enviar CRECI antes da visita; visitas aos sábados até 13h.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua das Antilhas, 523 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+das+Antilhas%2C+523%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "nathalia-salles-mendes-aviacao": {
+   "itens": [
+    {
+     "unidade": "302",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, jogos, festas, piscina",
+     "area": 77,
+     "valor": 495000,
+     "vfin": null,
+     "cond": 722,
+     "iptu": 491,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Agência da Praia ou Costa do Sol.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Vasco da Gama, 321 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Vasco+da+Gama%2C+321%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "monaco-caicara": {
+   "itens": [
+    {
+     "unidade": "128",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, lazer completo",
+     "area": 86,
+     "valor": 635000,
+     "vfin": null,
+     "cond": 490,
+     "iptu": 432,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Apartamento vazio, sem mobília. Enviar CRECI antes da visita; visitas aos sábados até 15h.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Maria Beltrame Borloni, 77 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Maria+Beltrame+Borloni%2C+77%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "turim-caicara": {
+   "itens": [
+    {
+     "unidade": "16",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, lazer completo, fase final de obra",
+     "area": 111,
+     "valor": 895000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Fase final de obra, entrega em dezembro. Promoção: vendeu, ganhou iPhone.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua José Alexandre Có, 160 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Alexandre+C%C3%B3%2C+160%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "maragogi-aviacao": {
+   "itens": [
+    {
+     "unidade": "Cobertura 111",
+     "tipologia": "3 dorms",
+     "det": "2 suítes",
+     "area": 152,
+     "valor": 895000,
+     "vfin": null,
+     "cond": 1140,
+     "iptu": 555,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, proposta e financiamento bancário. Enviar CRECI para cadastro.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Jorge Hagge, 296 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jorge+Hagge%2C+296%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "premiere-mediterranee-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "144",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, lazer completo",
+     "area": 119.96,
+     "valor": 1370000,
+     "vfin": null,
+     "cond": 1074,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Pronta para morar; será entregue com planejados e fechamento de sacada. Porta aberta: enviar CRECI. IPTU não informado.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Rui Barbosa, 825 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Rui+Barbosa%2C+825%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "ilha-de-salina-boqueirao": {
+   "itens": [
+    {
+     "unidade": "81",
+     "tipologia": "3 dorms",
+     "det": "2 suítes (originalmente 3 dorms), vista mar",
+     "area": 113,
+     "valor": 1380000,
+     "vfin": null,
+     "cond": 1240,
+     "iptu": 742,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, proposta e financiamento bancário. Reversão simples para a planta original de 3 dormitórios. Enviar CRECI; visitas aos sábados até 12h.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "43",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, mobiliado, vista lateral mar",
+     "area": 86,
+     "valor": 1080000,
+     "vfin": null,
+     "cond": 730,
+     "iptu": 610,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34453. Prédio novo, lazer completo na cobertura. Chaves com Lucimara Ximenes (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Duque de Caxias, 93 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Duque+de+Caxias%2C+93%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700 | Corretor indicado em cada imóvel",
+   "fonte": "D&S Investimentos, Nova Casarão (Comissão 5%; Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "italia-boqueirao": {
+   "itens": [
+    {
+     "unidade": "12 (Torre A)",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, lazer completo",
+     "area": 117,
+     "valor": 1450000,
+     "vfin": null,
+     "cond": 950,
+     "iptu": 731,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Enviar CRECI para cadastro.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "112 C",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 69,
+     "valor": 705000,
+     "vfin": null,
+     "cond": 503,
+     "iptu": 410,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33408. Lazer completo (piscinas, quadras, SPA, cinema e mais). Aceita financiamento. Chaves com Auricélia (13) 98188-0870. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bahia, 650 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bahia%2C+650%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700 | Corretor indicado em cada imóvel",
+   "fonte": "D&S Investimentos, Nova Casarão (Comissão 5%; Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "volpi-e-monet-caicara": {
+   "itens": [
+    {
+     "unidade": "27",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, lazer completo",
+     "area": 80,
+     "valor": 550000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta. Só imóvel próprio.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "42",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, lazer completo",
+     "area": 106,
+     "valor": 720000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "93",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, lazer completo",
+     "area": 103,
+     "valor": 720000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua São Domingos, 875 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Domingos%2C+875%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "lagos-guilhermina": {
+   "itens": [
+    {
+     "unidade": "43 e outras 10",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 1 vaga · a partir de",
+     "area": 55,
+     "valor": 565000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Valor a partir de R$ 565 mil (tabela traz um preço para 11 unidades). Aptos: 43 e 83 (55 m²); 104*, 124* e 134 (77 m²); 25, 55* e 75 (79 m²); 36 e 66 (73 m²); 27 (60 m²). Construtora Ática. Lazer: espaço gourmet, salão de festas e jogos, academia, piscinas adulta e infantil, deck, sauna.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Nicarágua, 486 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Nicar%C3%A1gua%2C+486%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "portugal-caicara": {
+   "itens": [
+    {
+     "unidade": "44 (Torre B) e outras 2",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 1 vaga · a partir de",
+     "area": 85,
+     "valor": 680000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Valor a partir de R$ 680 mil. Torre B: aptos 44, 184* e 186* (85 m²). Aceita permuta e veículo. Entrega não informada na tabela.",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "Torres A e B (9 aptos)",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, 2 vagas · a partir de",
+     "area": 116,
+     "valor": 1190000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Valor a partir de R$ 1.190 mil. Torre A: 21* e 81* (117 m²), 123 (116 m²). Torre B: 62, 72, 121*, 181*, 191* e 192* (120 m²). Aceita permuta e veículo; estuda parcelamento até 36x. Entrega não informada na tabela.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Maria Tognini, 222 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Maria+Tognini%2C+222%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "veneza-jardim-real": {
+   "itens": [
+    {
+     "unidade": "121",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, frente mar",
+     "area": 97,
+     "valor": 625000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Aceita permuta e veículo. Lazer: piscina prainha com cascata, sauna, academia, salões de jogos e festas.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Azaléia, 30 · Jardim Real",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Azal%C3%A9ia%2C+30%2C+Jardim+Real+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "jardim-do-forte-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "92 (duplex)",
+     "tipologia": "3 dorms",
+     "det": "3 suítes",
+     "area": 129,
+     "valor": 1650000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Novidade, duplex. Aceita permuta e proposta. Lazer: piscinas, snack bar, salão de jogos e festas, área gourmet, deck, academia, brinquedoteca.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Mal. Maurício José Cardoso, 1106 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Mal.+Maur%C3%ADcio+Jos%C3%A9+Cardoso%2C+1106%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "sem data"
+  },
+  "florida-boqueirao": {
+   "itens": [
+    {
+     "unidade": "420",
+     "tipologia": "Kitnet",
+     "det": "mobiliada",
+     "area": 36,
+     "valor": 249500,
+     "vfin": null,
+     "cond": 350,
+     "iptu": 112,
+     "vg": "1 coletiva",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF KN2301. Totalmente mobiliada, 230 m da praia, portaria 24h, zeladoria, câmeras e elevadores. Aceita financiamento. Chaves: Marcos (11) 99260-9608. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Pernambuco, 244 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Pernambuco%2C+244%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "santo-antonio-tupi": {
+   "itens": [
+    {
+     "unidade": "44",
+     "tipologia": "Kitnet",
+     "det": "mobiliada",
+     "area": 28.47,
+     "valor": 220000,
+     "vfin": null,
+     "cond": 327.75,
+     "iptu": 100,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF KN0315. Portão eletrônico e interfone. Chaves com Franklin Camacho (13) 99739-0221. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "51",
+     "tipologia": "Kitnet",
+     "det": "mobiliada",
+     "area": 30,
+     "valor": 215000,
+     "vfin": null,
+     "cond": 340,
+     "iptu": 116.5,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF KN1233. Chaves com Franklin Camacho (13) 99739-0221. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Guaranis, 205 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Guaranis%2C+205%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "patrick-vanderlei-guilhermina": {
+   "itens": [
+    {
+     "unidade": "71",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 48.56,
+     "valor": 325000,
+     "vfin": null,
+     "cond": 657,
+     "iptu": 290,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "reservado",
+     "obs": "REF AP33704. Tabela marca \"Com Proposta\". Chaves: Lucimara Ximenes (13) 99669-4679. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Endereço a confirmar com a imobiliária · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Endere%C3%A7o+a+confirmar+com+a+imobili%C3%A1ria%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "camburiu-boqueirao": {
+   "itens": [
+    {
+     "unidade": "22",
+     "tipologia": "1 dorm",
+     "det": "beira-mar",
+     "area": 47,
+     "valor": 230000,
+     "vfin": null,
+     "cond": 565,
+     "iptu": 168.28,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP32979. Chaves com Lucimara Ximenes (13) 99669-4679. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Brasil, 758 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Brasil%2C+758%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "mourao-xvii-vila-assuncao": {
+   "itens": [
+    {
+     "unidade": "11",
+     "tipologia": "1 dorm",
+     "det": "semi-mobiliado",
+     "area": 43.2,
+     "valor": 265000,
+     "vfin": null,
+     "cond": 463,
+     "iptu": 278,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP14751. Chaves com Lucimara Ximenes (13) 99669-4679. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Gonçalves Dias, 579 · Vila Assunção",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Gon%C3%A7alves+Dias%2C+579%2C+Vila+Assun%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "saint-regis-guilhermina": {
+   "itens": [
+    {
+     "unidade": "57",
+     "tipologia": "1 dorm",
+     "det": "mobiliado",
+     "area": 52,
+     "valor": 320000,
+     "vfin": null,
+     "cond": 612,
+     "iptu": 225,
+     "vg": "1 rotativa",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34496. Entrar e morar ou alugar. Chaves com Jane Batista (13) 9910-34655. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Nicarágua, 54 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Nicar%C3%A1gua%2C+54%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "gabriel-masotti-boqueirao": {
+   "itens": [
+    {
+     "unidade": "61-B",
+     "tipologia": "1 dorm",
+     "det": "sacada",
+     "area": 55,
+     "valor": 395000,
+     "vfin": null,
+     "cond": 708,
+     "iptu": 295,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP29551. Sala com sacada, cozinha ampla, 100 m da praia. Aceita financiamento bancário. Chaves com Marcos Bernardo (11) 99260-9608. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bahia, 618 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bahia%2C+618%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "santo-expedito-viii-aviacao": {
+   "itens": [
+    {
+     "unidade": "75",
+     "tipologia": "1 dorm",
+     "det": "mobiliado",
+     "area": 45.04,
+     "valor": 335000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34447. Lazer: academia, piscina, salões de festas e jogos, brinquedoteca. Chaves com Frederico Arbex (13) 9740-82327. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Henrique Dias, 119 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Henrique+Dias%2C+119%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "pettra-iii-guilhermina": {
+   "itens": [
+    {
+     "unidade": "64",
+     "tipologia": "1 dorm",
+     "det": "sacada gourmet",
+     "area": 47,
+     "valor": 334000,
+     "vfin": null,
+     "cond": 650,
+     "iptu": 339.67,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33272. Chaves com Lucimara Ximenes (13) 9974-94626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    },
+    {
+     "unidade": "22",
+     "tipologia": "1 dorm",
+     "det": "suíte, varanda gourmet, mobiliado",
+     "area": 51,
+     "valor": 389000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1 coletiva",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP23865. Sala com varanda gourmet fechada em vidro, lavabo, totalmente mobiliado. Chaves com Lucimara (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Itararé, 598 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Itarar%C3%A9%2C+598%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "abc-boqueirao": {
+   "itens": [
+    {
+     "unidade": "16",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 48,
+     "valor": 260000,
+     "vfin": null,
+     "cond": 370,
+     "iptu": 118,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34618. Chaves com Darcson Ferreira (11) 93208-3707. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Duque de Caxias, 92 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Duque+de+Caxias%2C+92%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "dra-maria-lucia-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "93",
+     "tipologia": "1 dorm",
+     "det": "sacada",
+     "area": 61.21,
+     "valor": 385000,
+     "vfin": null,
+     "cond": 570,
+     "iptu": 388,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34824. Próximo ao roteiro gastronômico. Chaves com Lucimara Ximenes (13) 9974-94626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Rui Barbosa, 399 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Rui+Barbosa%2C+399%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "gian-de-lucca-guilhermina": {
+   "itens": [
+    {
+     "unidade": "33",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 60,
+     "valor": 355000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "reservado",
+     "obs": "REF AP34125. Tabela marca \"Com Proposta\". Aceita financiamento. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Endereço a confirmar com a imobiliária · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Endere%C3%A7o+a+confirmar+com+a+imobili%C3%A1ria%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "cleopatra-aviacao": {
+   "itens": [
+    {
+     "unidade": "33",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 60,
+     "valor": 260000,
+     "vfin": null,
+     "cond": 797,
+     "iptu": 167,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP29418. Chaves com Lucimara Ximenes (13) 99669-4679. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. General Marcondes Salgado, 20 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+General+Marcondes+Salgado%2C+20%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "larissa-ocian": {
+   "itens": [
+    {
+     "unidade": "72",
+     "tipologia": "1 dorm",
+     "det": "mobiliado, 2 sacadas",
+     "area": 52,
+     "valor": 290000,
+     "vfin": null,
+     "cond": 668,
+     "iptu": 280,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP0682. 7º andar, de frente, 2 quadras da praia. Aceita financiamento bancário. Chaves com Franklin Camacho (13) 99739-0221. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Gonçalves Dias, 544 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Gon%C3%A7alves+Dias%2C+544%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "sao-mateus-tupi": {
+   "itens": [
+    {
+     "unidade": "308",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 48.87,
+     "valor": 270000,
+     "vfin": null,
+     "cond": 489,
+     "iptu": 209,
+     "vg": "1 coletiva",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP23675. Chaves com Franklin Camacho (13) 9973-90221. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Potiguares, 80 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Potiguares%2C+80%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "hugo-strelow-boqueirao": {
+   "itens": [
+    {
+     "unidade": "303",
+     "tipologia": "1 dorm",
+     "det": "frente mar",
+     "area": 42.93,
+     "valor": 360000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34671. Prédio frente mar, portaria. Chaves com Auricélia (13) 9818-80870. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Londrina, 49 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Londrina%2C+49%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "anna-carolina-guilhermina": {
+   "itens": [
+    {
+     "unidade": "12",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 50,
+     "valor": 340000,
+     "vfin": null,
+     "cond": 510,
+     "iptu": 300,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP20208. Chaves com Lucimara (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Ipanema, 84 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ipanema%2C+84%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "suzana-masotti-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "21-B",
+     "tipologia": "1 dorm",
+     "det": "",
+     "area": 53,
+     "valor": 370000,
+     "vfin": null,
+     "cond": 511,
+     "iptu": 309,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33023. 350 m da praia, armário de praia, elevador, salões de jogos e festas. Aceita financiamento bancário. Chaves com Franklin Camacho (13) 99739-0221. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Rio Branco, 399 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Rio+Branco%2C+399%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "santarem-boqueirao": {
+   "itens": [
+    {
+     "unidade": "304 (Bl. B)",
+     "tipologia": "2 dorms",
+     "det": "",
+     "area": 64,
+     "valor": 270000,
+     "vfin": null,
+     "cond": 456,
+     "iptu": 214.94,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP32708. Chaves com Auricélia Santana (13) 98188-0870. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Bahia, 742 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bahia%2C+742%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "itaici-iii-ocian": {
+   "itens": [
+    {
+     "unidade": "406",
+     "tipologia": "2 dorms",
+     "det": "",
+     "area": 55,
+     "valor": 335000,
+     "vfin": null,
+     "cond": 551.5,
+     "iptu": 174.39,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34273. Salão de festas, elevadores, portaria 24h. Aceita financiamento bancário. Chaves com Solange Borges (11) 99101-1619. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Dr. Vicente de Carvalho, 473 · Ocian",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Dr.+Vicente+de+Carvalho%2C+473%2C+Ocian+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "francisco-de-goya-guilhermina": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 50,
+     "valor": 390000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP34307. Em obras, previsão de entrega em fevereiro de 2027. Prédio terá salão de festas, jogos, piscina, guarita. Aceita financiamento. Chaves com Dijane Batista (13) 99103-4655. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Dr. João Sampaio, 569 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Dr.+Jo%C3%A3o+Sampaio%2C+569%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "praia-da-gavea-guilhermina": {
+   "itens": [
+    {
+     "unidade": "67",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 61,
+     "valor": 435000,
+     "vfin": null,
+     "cond": 487.17,
+     "iptu": 320,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP28305. Cozinha planejada; salão de festas, academia, espaço kids, bicicletário. Aceita financiamento bancário. Chaves com Kátia Rubio (13) 99755-0439. Na tabela há um segundo valor sobreposto ao preço (R$ 445.000, ilegível). Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": true,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Gávea, 57 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+G%C3%A1vea%2C+57%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "francisco-pires-guilhermina": {
+   "itens": [
+    {
+     "unidade": "42",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, novo",
+     "area": 60,
+     "valor": 420000,
+     "vfin": null,
+     "cond": 776.41,
+     "iptu": 320.7,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP22278. Apartamento novo. Salão de festas e jogos, piscina adulto, bicicletário. Aceita financiamento. Chaves: unidade Guilhermina (Av. Pres. Castelo Branco, 3464). Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua das Antilhas, 1080 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+das+Antilhas%2C+1080%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "paysage-tupi": {
+   "itens": [
+    {
+     "unidade": "41",
+     "tipologia": "2 dorms",
+     "det": "1 suíte",
+     "area": 78.9,
+     "valor": 430000,
+     "vfin": null,
+     "cond": 839,
+     "iptu": 382.98,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP18562. NÃO aceita financiamento bancário. Chaves com Cleber Leandro (13) 97402-3934. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Botocudo, 155 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Botocudo%2C+155%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "chopin-boqueirao": {
+   "itens": [
+    {
+     "unidade": "81 A",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada vista livre",
+     "area": 60,
+     "valor": 500000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP31877. Salão de jogos e festas, ginástica, sauna, espaço kids, piscina. Chaves: unidade Boqueirão 1 (Av. Pres. Castelo Branco, 1330). Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    },
+    {
+     "unidade": "57 B",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista livre, terraço gourmet",
+     "area": 57.03,
+     "valor": 470000,
+     "vfin": null,
+     "cond": 580,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 210 mil + 4 anuais de R$ 10 mil + 48x R$ 4.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "58 B",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista livre, terraço gourmet",
+     "area": 57.03,
+     "valor": 470000,
+     "vfin": null,
+     "cond": 580,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 210 mil + 4 anuais de R$ 10 mil + 48x R$ 4.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Cornélio Procópio, 202 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Corn%C3%A9lio+Proc%C3%B3pio%2C+202%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076 | Corretor indicado em cada imóvel",
+   "fonte": "Isildo, Nova Casarão (Comissão 5%; Comissão não informada na tabela)",
+   "atualizadoEm": "01/10/2026 / 05/10/2026"
+  },
+  "miami-beach-boqueirao": {
+   "itens": [
+    {
+     "unidade": "902 B",
+     "tipologia": "2 dorms",
+     "det": "vista frente mar, mobiliado",
+     "area": 59,
+     "valor": 379000,
+     "vfin": null,
+     "cond": 1226.57,
+     "iptu": 259,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP25248. 270 m do mar. Aceita financiamento. Chaves com Darcson Ferreira (11) 93208-3707. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Pres. Costa e Silva, 293 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Costa+e+Silva%2C+293%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "patrick-samuel-tupi": {
+   "itens": [
+    {
+     "unidade": "706",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, frente mar",
+     "area": 80,
+     "valor": 485000,
+     "vfin": null,
+     "cond": 812,
+     "iptu": 312,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33403. Sala 2 ambientes com sacada frente mar; 3 elevadores e portaria 24h. Aceita financiamento bancário. Chaves com Carlos Frederico Arbex (13) 97408-2327. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Presidente Sarmiento, 38 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Presidente+Sarmiento%2C+38%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "antoni-gaudi-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "45 e 46",
+     "tipologia": "2 dorms",
+     "det": "1 suíte",
+     "area": 70,
+     "valor": 450000,
+     "vfin": null,
+     "cond": 794,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33572. Piscina, academia, salões de festas e jogos, portaria. Chaves com Gabrielly (13) 99630-4815. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Marechal Hermes, 984 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Marechal+Hermes%2C+984%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "das-sereias-guilhermina": {
+   "itens": [
+    {
+     "unidade": "14",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, mobiliado, vista mar frontal",
+     "area": 67.65,
+     "valor": 530000,
+     "vfin": null,
+     "cond": 686.5,
+     "iptu": 376.82,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33030. Salão de festas, piscina, portão eletrônico, elevador. Chaves com Kátia Rubio (13) 99755-0439. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Praça das Sereias, 73 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+das+Sereias%2C+73%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "maria-hozana-aviacao": {
+   "itens": [
+    {
+     "unidade": "133",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, sacada gourmet",
+     "area": 92,
+     "valor": 760000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP32768. Tabela traz também R$ 780.000 como valor de destaque. Aceita permuta; financiamento direto com 60% de entrada + semestrais e mensais. Chaves com Fabiano Evaristo (13) 99650-9923. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "163",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, sacada gourmet",
+     "area": 92,
+     "valor": 850000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "reservado",
+     "obs": "REF AP28916. Marcado SUSPENSO na tabela. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Pero Vaz de Caminha, 200 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Pero+Vaz+de+Caminha%2C+200%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "monica-tupi": {
+   "itens": [
+    {
+     "unidade": "301",
+     "tipologia": "2 dorms",
+     "det": "1 suíte",
+     "area": 95,
+     "valor": 430000,
+     "vfin": null,
+     "cond": 1000,
+     "iptu": 320,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP14776. Aceita financiamento. Chaves com Marcos Bernardo (11) 99260-9608. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Caiapós, 1073 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+1073%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "vila-de-arouca-ii-guilhermina": {
+   "itens": [
+    {
+     "unidade": "12",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada",
+     "area": 90,
+     "valor": 515000,
+     "vfin": null,
+     "cond": 760,
+     "iptu": 407.53,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP24679. 60 m do mar; salão de festas com churrasqueira, salão de jogos, academia. Aceita financiamento. Chaves com Lucimara (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Nicarágua, 84 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Nicar%C3%A1gua%2C+84%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "guarama-guilhermina": {
+   "itens": [
+    {
+     "unidade": "34",
+     "tipologia": "2 dorms",
+     "det": "mobiliado, vista mar",
+     "area": 55,
+     "valor": 335000,
+     "vfin": null,
+     "cond": 500,
+     "iptu": 342,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33684. 2º andar de escada. Chaves com Lucimara Ximenes (13) 9974-94626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "escada"
+    }
+   ],
+   "endereco": "Rua Ipanema, 65 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ipanema%2C+65%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "estocolmo-boqueirao": {
+   "itens": [
+    {
+     "unidade": "53",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, lavabo, 2 sacadas",
+     "area": 95,
+     "valor": 605000,
+     "vfin": null,
+     "cond": 1246,
+     "iptu": 456,
+     "vg": "—",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33283. 200 m da praia. Aceita financiamento bancário. Chaves com Lucimara (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Londrina, 201 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Londrina%2C+201%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "sao-bento-tupi": {
+   "itens": [
+    {
+     "unidade": "501",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, vista mar frontal",
+     "area": 170,
+     "valor": 980000,
+     "vfin": 1000000,
+     "cond": 1458,
+     "iptu": 600,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP32301. R$ 980 mil à vista; R$ 1.000.000 no financiamento. Chaves com Janaina Margenta (11) 99692-7711. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 5746 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+5746%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "netuno-vila-assuncao": {
+   "itens": [
+    {
+     "unidade": "202",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, semi-mobiliado",
+     "area": 100,
+     "valor": 420000,
+     "vfin": null,
+     "cond": 909,
+     "iptu": 390,
+     "vg": "1",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP1631. 20 m da praia. Aceita financiamento. Chaves com Lucimara Ximenes (13) 99669-4679. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Oceânica Amábile, 45 · Vila Assunção",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Oce%C3%A2nica+Am%C3%A1bile%2C+45%2C+Vila+Assun%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "santo-expedito-v-aviacao": {
+   "itens": [
+    {
+     "unidade": "92",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, sacada gourmet",
+     "area": 134,
+     "valor": 890000,
+     "vfin": null,
+     "cond": 1115.87,
+     "iptu": 577,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP30279. 200 m da praia, vista mar. Aceita financiamento. Chaves com Kátia Rúbio (13) 9975-50439. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Pero Vaz de Caminha, 205 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Pero+Vaz+de+Caminha%2C+205%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "santo-expedito-x-aviacao": {
+   "itens": [
+    {
+     "unidade": "62",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, sacada gourmet",
+     "area": 129,
+     "valor": 1150000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP33640. Chaves com Renata Cristina Cunha Andorni (13) 99100-5990. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Caribas, 85 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caribas%2C+85%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "elegance-guilhermina": {
+   "itens": [
+    {
+     "unidade": "91",
+     "tipologia": "3 dorms",
+     "det": "suítes, vista mar lateral, churrasqueira",
+     "area": 128,
+     "valor": 1400000,
+     "vfin": null,
+     "cond": 750,
+     "iptu": 570,
+     "vg": "2",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF AP17843. Aceita financiamento. Chaves com Vanessa Soares (11) 94238-2887. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Alberto Santos Dumont, 148 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+148%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "manaca-aviacao": {
+   "itens": [
+    {
+     "unidade": "Cobertura 132",
+     "tipologia": "Cobertura",
+     "det": "3 suítes, piscina privativa",
+     "area": 192.98,
+     "valor": 2750000,
+     "vfin": null,
+     "cond": 1433.83,
+     "iptu": 915.99,
+     "vg": "4",
+     "fonte": "Nova Casarão",
+     "status": "disponivel",
+     "obs": "REF CO0379. Somente à vista. Salão de festas com espaço gourmet, academia, 2 elevadores, portaria 24h. Chaves com Donisete Matos (13) 99691-9513. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 4656 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+4656%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
+  },
+  "iv-centenario-guilhermina": {
+   "itens": [
+    {
+     "unidade": "32",
+     "tipologia": "Kitnet",
+     "det": "semimobiliada, 2º andar de escadas",
+     "area": 25,
+     "valor": 225000,
+     "vfin": null,
+     "cond": 297,
+     "iptu": 129,
+     "vg": "coletiva",
+     "fonte": "Imigrantes Imóveis",
+     "status": "disponivel",
+     "obs": "Novo produto, exclusividade Camila Azevedo. Cozinha isolada, área de serviço. Não aceita Airbnb. Aceita financiamento bancário e direto, e permuta. Agendamento necessário. Reserva só com proposta escrita assinada + 5% do valor da venda pago na conta indicada. Parcelas a prazo corrigidas 1% ao mês (acumulativa). Só aceita carro (não leilão) e imóvel em Praia Grande como parte do pagamento. Financiamento só com a correspondente indicada. ",
+     "conf": false,
+     "acesso": "escada"
+    }
+   ],
+   "endereco": "Rua Bolívia, 190 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bol%C3%ADvia%2C+190%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
+   "fonte": "Imigrantes Imóveis (Comissão 5%)",
+   "atualizadoEm": "07/10/2026"
+  },
+  "maralto-guilhermina": {
+   "itens": [
+    {
+     "unidade": "33",
+     "tipologia": "2 dorms",
+     "det": "finalizando reforma",
+     "area": 43,
+     "valor": 276000,
+     "vfin": null,
+     "cond": 585,
+     "iptu": 155,
+     "vg": "1",
+     "fonte": "Imigrantes Imóveis",
+     "status": "disponivel",
+     "obs": "Novo produto. 500 m da praia. Valor à vista ou financiamento bancário; NÃO aceita parcelamento direto. Aceita permuta. Chaves: Agência da Praia Guilhermina (Av. Pres. Castelo Branco, 3.320 · 13 3357-4551). Reserva só com proposta escrita assinada + 5% do valor da venda pago na conta indicada. Parcelas a prazo corrigidas 1% ao mês (acumulativa). Só aceita carro (não leilão) e imóvel em Praia Grande como parte do pagamento. Financiamento só com a correspondente indicada. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Guilhermina, 567 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Guilhermina%2C+567%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
+   "fonte": "Imigrantes Imóveis (Comissão 5%)",
+   "atualizadoEm": "07/10/2026"
+  },
+  "fratello-caicara": {
+   "itens": [
+    {
+     "unidade": "15",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, reformado, vista mar parcial",
+     "area": 62,
+     "valor": 385000,
+     "vfin": 402000,
+     "cond": 656.42,
+     "iptu": 308.55,
+     "vg": "coletiva",
+     "fonte": "Imigrantes Imóveis",
+     "status": "disponivel",
+     "obs": "Valor à vista R$ 385 mil; a prazo/permuta R$ 402 mil (entrada R$ 212 mil + 60x R$ 3.166,66). Taxa de condomínio extra R$ 315,64. 600 m da praia, espaço gourmet, 2 sacadas. Liberado para fotos novas. Chaves: Mérito Imóveis Ocian (Av. Pres. Castelo Branco, 7.942 · 13 3491-1001). Reserva só com proposta escrita assinada + 5% do valor da venda pago na conta indicada. Parcelas a prazo corrigidas 1% ao mês (acumulativa). Só aceita carro (não leilão) e imóvel em Praia Grande como parte do pagamento. Financiamento só com a correspondente indicada. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Santo Agostinho, 646 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Santo+Agostinho%2C+646%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
+   "fonte": "Imigrantes Imóveis (Comissão 5%)",
+   "atualizadoEm": "07/10/2026"
+  },
+  "cozumel-tupi": {
+   "itens": [
+    {
+     "unidade": "22",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, reformado, vista mar",
+     "area": 85,
+     "valor": 438000,
+     "vfin": 456000,
+     "cond": 871.55,
+     "iptu": 440,
+     "vg": "1",
+     "fonte": "Imigrantes Imóveis",
+     "status": "disponivel",
+     "obs": "Novo produto. Valor à vista R$ 438 mil; a prazo/permuta R$ 456 mil (entrada R$ 250 mil + 60x R$ 3.433,33). 200 m da praia, sacada, elevador, salão de jogos e festas. Chaves: Agência da Praia Tupi (Av. Pres. Castelo Branco, 6.046 · 13 3878-2420). Reserva só com proposta escrita assinada + 5% do valor da venda pago na conta indicada. Parcelas a prazo corrigidas 1% ao mês (acumulativa). Só aceita carro (não leilão) e imóvel em Praia Grande como parte do pagamento. Financiamento só com a correspondente indicada. ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Doutor Freud, 540 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Doutor+Freud%2C+540%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
+   "fonte": "Imigrantes Imóveis (Comissão 5%)",
+   "atualizadoEm": "07/10/2026"
+  },
+  "veneto-aviacao": {
+   "itens": [
+    {
+     "unidade": "113",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, piscina, fitness",
+     "area": 64,
+     "valor": 492000,
+     "vfin": 510000,
+     "cond": 454.78,
+     "iptu": 453.8,
+     "vg": "2 coletivas",
+     "fonte": "Imigrantes Imóveis",
+     "status": "disponivel",
+     "obs": "Valor à vista R$ 492 mil; a prazo/permuta R$ 510 mil (entrada R$ 280 mil + 60x R$ 3.833,33). Taxa de condomínio extra R$ 149,32. 450 m da praia. Fechadura eletrônica: solicitar senha; agendamento necessário. Reserva só com proposta escrita assinada + 5% do valor da venda pago na conta indicada. Parcelas a prazo corrigidas 1% ao mês (acumulativa). Só aceita carro (não leilão) e imóvel em Praia Grande como parte do pagamento. Financiamento só com a correspondente indicada. ",
+     "conf": false,
+     "acesso": "elevador"
+    }
+   ],
+   "endereco": "Rua Senador Nilo Coelho, 70 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Senador+Nilo+Coelho%2C+70%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
+   "fonte": "Imigrantes Imóveis (Comissão 5%)",
+   "atualizadoEm": "07/10/2026"
+  },
+  "saraiva-aviacao": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 87.21,
+     "valor": 610000,
+     "vfin": null,
+     "cond": 665,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 280 mil + 5 anuais de R$ 12 mil + 60x R$ 4.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Pero Vaz de Caminha, 285 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Pero+Vaz+de+Caminha%2C+285%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "laura-aviacao": {
+   "itens": [
+    {
+     "unidade": "32",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 77.41,
+     "valor": 560000,
+     "vfin": null,
+     "cond": 700,
+     "iptu": 398,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 10 mil + 60x R$ 4.333,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "113",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 76.38,
+     "valor": 570000,
+     "vfin": null,
+     "cond": 700,
+     "iptu": 380,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 255 mil + 5 anuais de R$ 10 mil + 60x R$ 4.416,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "104",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, lavabo, terraço gourmet",
+     "area": 62.19,
+     "valor": 490000,
+     "vfin": null,
+     "cond": 600,
+     "iptu": 320,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 220 mil + 5 anuais de R$ 10 mil + 60x R$ 3.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Carlos Martiniano de Andrade Bittencourt, 290 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Carlos+Martiniano+de+Andrade+Bittencourt%2C+290%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "veraneio-guilhermina": {
+   "itens": [
+    {
+     "unidade": "82",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, terraço gourmet",
+     "area": 95.68,
+     "valor": 750000,
+     "vfin": null,
+     "cond": 975.41,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Condomínio entregue mobiliado pela construtora. Entrada R$ 335 mil + 5 anuais de R$ 15 mil + 60x R$ 5.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Doutor Júlio de Mesquita Filho, 227 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Doutor+J%C3%BAlio+de+Mesquita+Filho%2C+227%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "atlantico-ii-guilhermina": {
+   "itens": [
+    {
+     "unidade": "91",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 76.31,
+     "valor": 560000,
+     "vfin": null,
+     "cond": 620,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 12 mil + 60x R$ 4.166,66, ou financiamento bancário. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "72",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 76.31,
+     "valor": 550000,
+     "vfin": null,
+     "cond": 620,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 12 mil + 60x R$ 4.000, ou financiamento bancário. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Panamá, 487 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Panam%C3%A1%2C+487%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "acquamare-aviacao": {
+   "itens": [
+    {
+     "unidade": "107 (Bl. B)",
+     "tipologia": "1 dorm",
+     "det": "1 suíte, semimobiliado, móveis planejados",
+     "area": 55.58,
+     "valor": 520000,
+     "vfin": null,
+     "cond": 472.27,
+     "iptu": 400.36,
+     "vg": "1 demarcada",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Valor à vista. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Caribas, 200 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caribas%2C+200%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "pedro-tupi": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, vista mar, terraço gourmet, 4º pavimento",
+     "area": 75.76,
+     "valor": 530000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 240 mil + 5 anuais de R$ 10 mil + 60x R$ 4.000. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "25",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, terraço gourmet, 4º pavimento",
+     "area": 97.42,
+     "valor": 730000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 330 mil + 5 anuais de R$ 12 mil + 60x R$ 5.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Uirapuru · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Uirapuru%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "raimundo-gomes-aviacao": {
+   "itens": [
+    {
+     "unidade": "92",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, vista mar",
+     "area": 121.45,
+     "valor": 1100000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "3",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Em frente ao futuro píer da Aviação. Entrada R$ 275 mil + chaves R$ 140 mil + 5 anuais de R$ 20 mil + 60x R$ 9.750. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "93",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 93.28,
+     "valor": 840000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Em frente ao futuro píer da Aviação. Entrada R$ 210 mil + chaves R$ 110 mil + 5 anuais de R$ 15 mil + 60x R$ 7.416,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Alberto Santos Dumont, 113 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+113%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "primicia-plaza-guilhermina": {
+   "itens": [
+    {
+     "unidade": "52",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 63.42,
+     "valor": 475000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 120 mil + chaves R$ 75 mil + 5 anuais de R$ 10 mil + 60x R$ 3.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "173",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 63.42,
+     "valor": 540000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 150 mil + chaves R$ 85 mil + 5 anuais de R$ 12 mil + 60x R$ 4.083,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "125",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 65.07,
+     "valor": 500000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 140 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 3.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "158",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, terraço gourmet",
+     "area": 65.07,
+     "valor": 490000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 140 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 3.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Botafogo, 217 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Botafogo%2C+217%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "torres-caicara": {
+   "itens": [
+    {
+     "unidade": "61 A",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, frente mar, terraço gourmet",
+     "area": 111.49,
+     "valor": 960000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 280 mil + chaves R$ 130 mil + 5 anuais de R$ 15 mil + 60x R$ 7.916,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco (esq. Av. São Romério) · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco+%28esq.+Av.+S%C3%A3o+Rom%C3%A9rio%29%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "volpi-caicara": {
+   "itens": [
+    {
+     "unidade": "123",
+     "tipologia": "3 dorms",
+     "det": "2 dorms + 1 suíte, terraço gourmet",
+     "area": 102,
+     "valor": 690000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 170 mil + chaves R$ 80 mil + 6 anuais de R$ 12 mil + 72x R$ 5.111,11. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua São Domingos, 875 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Domingos%2C+875%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "dumont-residence-aviacao": {
+   "itens": [
+    {
+     "unidade": "161",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, vista mar",
+     "area": 132.16,
+     "valor": 1220000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 300 mil + chaves R$ 190 mil + 5 anuais de R$ 20 mil + 60x R$ 10.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "132",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, vista mar",
+     "area": 140.83,
+     "valor": 1267000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 315 mil + chaves R$ 190 mil + 5 anuais de R$ 25 mil + 60x R$ 10.616,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "163",
+     "tipologia": "2 dorms",
+     "det": "2 suítes",
+     "area": 97.34,
+     "valor": 760000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 115 mil + 5 anuais de R$ 15 mil + 60x R$ 6.333,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "164",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 96.1,
+     "valor": 815000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 7.000. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "85",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 94.65,
+     "valor": 810000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.916,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "146",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 96.34,
+     "valor": 830000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 130 mil + 5 anuais de R$ 15 mil + 60x R$ 7.083,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "147",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, vista mar",
+     "area": 101.56,
+     "valor": 795000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "148",
+     "tipologia": "2 dorms",
+     "det": "2 suítes",
+     "area": 100.32,
+     "valor": 790000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Alberto Santos Dumont, 111 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+111%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "primor-square-garden-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "193",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 85.58,
+     "valor": 840000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 180 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 9.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "196",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 93.06,
+     "valor": 910000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 10.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    },
+    {
+     "unidade": "199",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 91.95,
+     "valor": 910000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 10.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Av. Costa Machado, 440 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Costa+Machado%2C+440%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "14-bis-aviacao": {
+   "itens": [
+    {
+     "unidade": "53",
+     "tipologia": "2 dorms",
+     "det": "2 suítes, terraço gourmet",
+     "area": 69.32,
+     "valor": 520000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1 demarcada",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Entrada R$ 120 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 4.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Alberto Santos Dumont, 205 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+205%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "unique-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "23",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, terraço gourmet",
+     "area": 149.85,
+     "valor": 1350000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 350 mil + chaves R$ 230 mil + 5 anuais de R$ 20 mil + 60x R$ 11.166,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua General Otelo Rodrigues Franco, 310 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+General+Otelo+Rodrigues+Franco%2C+310%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  },
+  "bellagio-guilhermina": {
+   "itens": [
+    {
+     "unidade": "45",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, vista mar, terraço gourmet",
+     "area": 100.73,
+     "valor": 920000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "Isildo",
+     "status": "disponivel",
+     "obs": "Entrada R$ 220 mil + chaves R$ 110 mil + 5 anuais de R$ 15 mil + 60x R$ 8.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Alameda das Américas, 162 · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Alameda+das+Am%C3%A9ricas%2C+162%2C+Guilhermina+Praia+Grande%2C+SP",
+   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
+   "fonte": "Isildo (Comissão não informada na tabela)",
+   "atualizadoEm": "05/10/2026"
+  }
+ }
+}

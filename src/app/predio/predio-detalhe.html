@@ -1,0 +1,184 @@
+@let p = predio();
+@let r = resumo();
+@let c = colunas();
+<dialog #dlg class="ficha" aria-labelledby="ficha-tit" (close)="fechar.emit()" (cancel)="$event.preventDefault(); fechar.emit()">
+  <header class="ficha-cab">
+    <div>
+      <h2 id="ficha-tit">{{ p.nome }}</h2>
+      <p class="ficha-loc">
+        {{ p.bairro !== 'A confirmar' ? p.bairro : 'Bairro a confirmar' }} · {{ p.cidade }} · {{ FASE_ROTULO[p.fase] }}
+        @if (p.entrega && p.fase !== 'pronto') { · entrega {{ p.entrega }} }
+      </p>
+      <p class="ficha-end">
+        <a [href]="linkMapa()" target="_blank" rel="noopener">{{ p.endereco || 'Endereço a confirmar' }} · abrir no mapa ↗</a>
+      </p>
+    </div>
+    <button type="button" class="btn claro" (click)="fechar.emit()">Fechar</button>
+  </header>
+
+  <div class="ficha-corpo">
+    @if (total()) {
+      <div class="numeros">
+        <div><b>{{ r.disp }}</b><span>disponíveis</span></div>
+        <div><b>{{ r.res }}</b><span>reservadas</span></div>
+        <div><b>{{ r.vend }}</b><span>vendidas</span></div>
+        <div><b>{{ r.vista }}</b><span>com vista mar</span></div>
+      </div>
+      <dl class="condicoes">
+        <div><dt>Valores</dt><dd>{{ fmt.faixa(r.vmin, r.vmax) }}</dd></div>
+        @if (r.emin) { <div><dt>Entrada a partir de</dt><dd>{{ fmt.brl(r.emin) }}</dd></div> }
+        @if (r.rmin && p.lanc?.modalidade !== 'direto') {
+          <div><dt>Renda estimada</dt><dd>{{ fmt.faixa(r.rmin, r.rmax) }}</dd></div>
+        }
+        @if (r.cmin) { <div><dt>Condomínio</dt><dd>{{ fmt.faixa(r.cmin, r.cmax) }}</dd></div> }
+        @if (r.amin) { <div><dt>Área</dt><dd>{{ fmt.faixa(r.amin, r.amax, fmt.m2) }}</dd></div> }
+        @if (p.lanc) {
+          <div><dt>Pagamento</dt><dd>{{ p.lanc.modalidade === 'direto' ? 'Direto com a construtora' : p.lanc.modalidade === 'ambos' ? 'Banco ou direto' : 'Financiamento bancário' }}</dd></div>
+        }
+      </dl>
+
+      @if (r.div) {
+        <p class="aviso"><b>{{ r.div }} unidade(s) com valores diferentes entre tabelas.</b> Vale o registro reservado ou o da tabela mais completa; os outros valores aparecem na linha da unidade.</p>
+      }
+
+      <div class="ficha-tab-cab">
+        <h3>Unidades</h3>
+        @if (filtradas().length !== total()) {
+          <label class="troca">
+            <input type="checkbox" [checked]="todas()" (change)="todas.set(!todas())" />
+            Mostrar todas as {{ total() }} (sua busca mostra {{ filtradas().length }})
+          </label>
+        }
+      </div>
+      <div class="tabela-wrap">
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Unid.</th>
+              @if (c.final) { <th>Final</th> }
+              @if (c.andar) { <th>Andar</th> }
+              <th>Tipologia</th>
+              <th class="r">m²</th>
+              <th class="r">Valor</th>
+              @if (c.fin) { <th class="r">Banco / a prazo</th> }
+              @if (c.direto) { <th class="r">Direto</th> }
+              @if (c.entrada) { <th class="r">Entrada</th> }
+              @if (c.chaves) { <th class="r">Chaves</th> }
+              @if (c.fluxo) { <th class="r">Fluxo</th> }
+              @if (c.renda) { <th class="r">Renda est.</th> }
+              @if (c.laudo) { <th class="r">Laudo Caixa</th> }
+              @if (c.cond) { <th class="r">Condomínio</th> }
+              @if (c.iptu) { <th class="r">IPTU</th> }
+              @if (c.vagas) { <th>Vagas</th> }
+              <th>Situação</th>
+              <th>Detalhes</th>
+              <th><span class="sr">Ações</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (u of unidades(); track u.ref) {
+              <tr [attr.data-ref]="u.ref" [class.destaque]="u.ref === destaque()" [class.vendida]="u.status === 'vendido'">
+                <td class="num"><b>{{ u.unidade || '—' }}</b></td>
+                @if (c.final) { <td class="num">{{ u.final ? 'F' + u.final : '' }}</td> }
+                @if (c.andar) { <td class="num">{{ u.andar ?? '' }}</td> }
+                <td>{{ u.tipologia || '—' }}@if (u.det) {<small>{{ u.det }}</small>}</td>
+                <td class="r num">{{ u.area ? fmt.num(u.area) : '' }}</td>
+                <td class="r num"><b>{{ u.valor ? fmt.brl(u.valor) : 'Consultar' }}</b></td>
+                @if (c.fin) { <td class="r num">{{ fmt.brl(u.vfin ?? u.vp) }}</td> }
+                @if (c.direto) { <td class="r num">{{ fmt.brl(u.valorDireto) }}</td> }
+                @if (c.entrada) { <td class="r num">{{ fmt.brl(u.entrada) }}</td> }
+                @if (c.chaves) { <td class="r num">{{ fmt.brl(u.chaves) }}</td> }
+                @if (c.fluxo) {
+                  <td class="r num">
+                    @if (u.fluxo; as fl) {
+                      chaves {{ fmt.brl(fl.chaves) }}
+                      @if (fl.anualQtd) {<small>{{ fl.anualQtd }} × {{ fmt.brl(fl.anualVal) }} anuais</small>}
+                      @if (fl.parcQtd) {<small>{{ fl.parcQtd }} × {{ fmt.brl2(fl.parcVal) }}</small>}
+                    }
+                  </td>
+                }
+                @if (c.renda) { <td class="r num">{{ p.lanc?.modalidade === 'direto' ? '—' : fmt.brl(u.renda) }}</td> }
+                @if (c.laudo) { <td class="r num">{{ fmt.brl(u.laudo) }}</td> }
+                @if (c.cond) { <td class="r num">{{ fmt.brl2(u.cond) }}</td> }
+                @if (c.iptu) { <td class="r num">{{ fmt.brl2(u.iptu) }}</td> }
+                @if (c.vagas) { <td>{{ u.vagas }}</td> }
+                <td>
+                  <span class="tag" [class.amarela]="u.status === 'disponivel'" [class.tracejada]="u.status !== 'disponivel'">{{ STATUS_ROTULO[u.status] }}</span>
+                  @if (u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela: conferir na fonte">Confirmar</span> }
+                </td>
+                <td class="obs">
+                  @if (u.promo) { <b class="mk">Promoção {{ u.promo }}</b> }
+                  @if (u.vistaMar) { <span class="tag amarela">{{ u.vista || 'Vista mar' }}</span> }
+                  @if (u.acesso) { <span class="tag">{{ u.acesso === 'elevador' ? 'Elevador' : 'Escada' }}</span> }
+                  {{ u.obs }}
+                  <small>Tabela: {{ u.fonte || '—' }}{{ u.tabela ? ' · ' + u.tabela : '' }}{{ u.contato ? ' · ' + u.contato : '' }}</small>
+                  @if (u.outras?.length) {
+                    <div class="outras" [class.diverge]="u.divergencias?.length">
+                      @if (u.divergencias?.length) {
+                        <b>Divergência entre tabelas</b> ({{ u.divergencias!.map(campo => CAMPO_ROTULO[campo] || campo).join(', ') }}):
+                      } @else {
+                        <b>Também em</b>:
+                      }
+                      @for (o of u.outras; track o.ref) {
+                        <span>{{ ORIGEM_ROTULO[o.origem] }} · {{ o.fonte }} · {{ outroValor(o) }} · {{ STATUS_ROTULO[o.status] }}@if (o.area) { · {{ fmt.m2(o.area) }} }@if (o.cond) { · cond. {{ fmt.brl2(o.cond) }} }@if (o.obs) { · {{ o.obs }} }</span>
+                      }
+                    </div>
+                  }
+                </td>
+                <td>
+                  <button type="button" class="btn mini" (click)="copiar(u)">{{ copiado() === u.ref ? 'Copiado ✓' : 'Copiar p/ cliente' }}</button>
+                </td>
+              </tr>
+            } @empty {
+              <tr><td colspan="20" class="obs">Nenhuma unidade deste prédio com a sua busca. Marque “Mostrar todas”.</td></tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    } @else {
+      <p class="vazio"><b>Tabela ainda não recebida.</b> Este empreendimento está na lista de lançamentos, mas ainda não tem unidades e valores.</p>
+    }
+
+    @if (p.lanc; as L) {
+      <section class="bloco">
+        <h3>Lançamento</h3>
+        <div class="tags">
+          <span class="tag" [class.preta]="L.gravacao !== 'a_gravar'" [class.tracejada]="L.gravacao === 'a_gravar'">{{ L.gravacao === 'trafego' ? 'Tráfego no ar' : L.gravacao === 'gravado' ? 'Gravado' : 'Gravação pendente' }}</span>
+          <span class="tag" [class.tracejada]="!L.site">{{ L.site ? 'No site' : 'Falta no site' }}</span>
+          <span class="tag">{{ L.padrao ? 'Padrão ' + L.padrao : 'Padrão a definir' }}</span>
+          @if (L.ordem != null) { <span class="tag">Roteiro nº {{ L.ordem }}</span> }
+        </div>
+        @if (L.diferenciais?.length) {
+          <ul class="pontos">@for (d of L.diferenciais; track $index) {<li>{{ d }}</li>}</ul>
+        }
+        @if (L.notaValor) { <p><b>Condição:</b> {{ L.notaValor }}</p> }
+        @if (L.fluxoInfo?.length) {
+          <p><b>Fluxo de pagamento</b></p>
+          <ul class="lista">@for (x of L.fluxoInfo; track $index) {<li>{{ x }}</li>}</ul>
+        }
+        @if (L.book; as b) {
+          @if (b.resumo) { <p><b>Sobre o empreendimento</b></p><ul class="lista">@for (x of b.resumo; track $index) {<li>{{ x }}</li>}</ul> }
+          @if (b.finais) { <p><b>Finais e plantas ({{ b.finais.length }} por andar)</b></p><ul class="lista">@for (x of b.finais; track $index) {<li>{{ x }}</li>}</ul> }
+          @if (b.lazer) { <p><b>Lazer{{ b.lazerTitulo ? ' · ' + b.lazerTitulo : '' }}</b></p><p>{{ b.lazer.join(' · ') }}</p> }
+          @if (b.condicoes) { <p><b>Condições e observações</b></p><ul class="lista">@for (x of b.condicoes; track $index) {<li>{{ x }}</li>}</ul> }
+          @if (b.legal) { <p><b>Dados legais</b></p><ul class="lista">@for (x of b.legal; track $index) {<li>{{ x }}</li>}</ul> }
+        }
+        @if (L.pendencias?.length) { <p class="nota">Falta levantar: {{ L.pendencias!.join(', ') }}</p> }
+        @if (L.notas) { <p class="nota">{{ L.notas }}</p> }
+      </section>
+    }
+
+    <section class="bloco">
+      <h3>De onde vêm os dados</h3>
+      <ul class="lista">
+        @for (t of p.tabelas; track $index) {
+          <li><b>{{ t.fonte || 'Fonte não informada' }}</b>{{ t.atualizadoEm ? ' · tabela ' + t.atualizadoEm : '' }}{{ t.contato ? ' · ' + t.contato : '' }} <small>({{ ORIGEM_ROTULO[t.origem] }})</small></li>
+        }
+      </ul>
+      @if ((p.bairroTextos?.length ?? 0) > 1) {
+        <p class="nota">As tabelas chamam o bairro de: {{ p.bairroTextos!.join(' / ') }}.</p>
+      }
+      <p class="nota">Confirme valor e disponibilidade na fonte antes de enviar ao cliente.</p>
+    </section>
+  </div>
+</dialog>

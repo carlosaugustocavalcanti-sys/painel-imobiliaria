@@ -1,0 +1,324 @@
+@let fl = f();
+@let rs = resumo();
+<header class="topo">
+  <div class="topo-in">
+    <div class="marca">
+      <h1>Busca de <em>imóveis</em></h1>
+      <p class="assina"><b>Carlos Cavalcanti</b> CRECI 331032 · &#64;carlos_cavalcanti_imoveis_</p>
+    </div>
+
+    <label class="busca">
+      <span class="sr">Buscar</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-4-4" /></svg>
+      <input
+        type="search"
+        placeholder="Prédio, rua, bairro ou palavra (ex.: piscina, sacada, Ocian)"
+        autocomplete="off"
+        [value]="fl.q"
+        (input)="mudar({ q: texto($event) })"
+      />
+    </label>
+
+    <div class="rapidos" role="group" aria-label="Filtros principais">
+      <div class="seg" role="radiogroup" aria-label="Tipo de imóvel">
+        <button type="button" role="radio" [attr.aria-checked]="!fl.tipo" (click)="mudar({ tipo: '' })">Todos <span>{{ fmt.num(contagemTipo()['']) }}</span></button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.tipo === 'usados'" (click)="mudar({ tipo: 'usados' })" title="Revenda: tabelas das imobiliárias parceiras">Usados <span>{{ fmt.num(contagemTipo().usados) }}</span></button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.tipo === 'lancamentos'" (click)="mudar({ tipo: 'lancamentos' })" title="Tabelas das construtoras: na planta, em obra e prontos">Lançamentos <span>{{ fmt.num(contagemTipo().lancamentos) }}</span></button>
+      </div>
+      <button type="button" class="chave" [attr.aria-pressed]="fl.vista" (click)="mudar({ vista: !fl.vista })">
+        <span class="chave-bola" aria-hidden="true"></span> Só vista mar <span class="n">{{ fmt.num(contagemVista()) }}</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="faixa-orla" aria-label="Bairros">
+  <app-orla [trechos]="trechos()" [selecionados]="fl.lugares" (alternar)="alternarLugares($event)" />
+</section>
+
+<main class="pagina">
+  <section class="filtros" aria-label="Refinar a busca">
+    <div class="filtro">
+      <span class="rot">Dormitórios</span>
+      <div class="chips">
+        @for (d of DORMS; track d[0]) {
+          <button type="button" class="chip" [attr.aria-pressed]="fl.dm === d[0]" (click)="mudar({ dm: d[0] })">
+            {{ d[1] }} @if (d[0]) { <span>{{ contagemDm()[d[0]] }}</span> }
+          </button>
+        }
+      </div>
+    </div>
+    <div class="filtro">
+      <span class="rot">Valor</span>
+      <div class="valor">
+        <select aria-label="Valor mínimo" (change)="valorMin(texto($event))">
+          <option value="" [selected]="!fl.vmin">De: qualquer</option>
+          @for (v of VAL_STEPS; track v) { <option [value]="v" [selected]="fl.vmin === v">{{ fmt.valLabel(v) }}</option> }
+        </select>
+        <span>até</span>
+        <select aria-label="Valor máximo" (change)="valorMax(texto($event))">
+          <option value="" [selected]="!fl.vmax">Até: qualquer</option>
+          @for (v of VAL_STEPS; track v) { <option [value]="v" [selected]="fl.vmax === v">{{ fmt.valLabel(v) }}</option> }
+        </select>
+      </div>
+    </div>
+    <div class="filtro fim">
+      <button type="button" class="btn contorno" [attr.aria-expanded]="maisFiltros()" aria-controls="mais" (click)="maisFiltros.set(!maisFiltros())">
+        Mais filtros @if (qtdMaisFiltros()) { <span class="bolha">{{ qtdMaisFiltros() }}</span> } <span aria-hidden="true">{{ maisFiltros() ? '▴' : '▾' }}</span>
+      </button>
+    </div>
+
+    @if (maisFiltros()) {
+      <div class="mais" id="mais">
+        <label class="campo"><span class="rot">Fase da obra</span>
+          <select (change)="mudar({ fase: $any(texto($event)) })">
+            <option value="" [selected]="!fl.fase">Todas</option>
+            <option value="pronto" [selected]="fl.fase === 'pronto'">Pronto para morar</option>
+            <option value="obra" [selected]="fl.fase === 'obra'">Em obra</option>
+            <option value="lancamento" [selected]="fl.fase === 'lancamento'">Na planta (lançamento)</option>
+          </select></label>
+        <label class="campo"><span class="rot">Entrega</span>
+          <select (change)="mudar({ entrega: texto($event) })">
+            <option value="" [selected]="!fl.entrega">Qualquer</option>
+            @for (a of anos(); track a) { <option [value]="a" [selected]="fl.entrega === a">{{ a }}</option> }
+          </select></label>
+        <label class="campo"><span class="rot">Acesso</span>
+          <select (change)="mudar({ acesso: $any(texto($event)) })">
+            <option value="" [selected]="!fl.acesso">Qualquer</option>
+            <option value="elevador" [selected]="fl.acesso === 'elevador'">Com elevador</option>
+            <option value="escada" [selected]="fl.acesso === 'escada'">Só escada</option>
+            <option value="nd" [selected]="fl.acesso === 'nd'">Não informado</option>
+          </select></label>
+        <label class="campo"><span class="rot">Pagamento (lançamentos)</span>
+          <select (change)="mudar({ pagamento: $any(texto($event)) })">
+            <option value="" [selected]="!fl.pagamento">Qualquer</option>
+            <option value="bancario" [selected]="fl.pagamento === 'bancario'">Financiamento bancário</option>
+            <option value="direto" [selected]="fl.pagamento === 'direto'">Direto com a construtora</option>
+          </select></label>
+        <label class="campo"><span class="rot">Tabela de origem</span>
+          <select (change)="mudar({ fonte: texto($event) })">
+            <option value="" [selected]="!fl.fonte">Todas as tabelas</option>
+            @for (t of estoque.fontes(); track t) { <option [value]="t" [selected]="fl.fonte === t">{{ t }}</option> }
+          </select></label>
+        <label class="campo"><span class="rot">Gravação do vídeo</span>
+          <select (change)="mudar({ gravacao: $any(texto($event)) })">
+            <option value="" [selected]="!fl.gravacao">Qualquer</option>
+            <option value="pend" [selected]="fl.gravacao === 'pend'">Pendente</option>
+            <option value="grav" [selected]="fl.gravacao === 'grav'">Gravado</option>
+          </select></label>
+        <label class="campo"><span class="rot">Painel antigo</span>
+          <select (change)="mudar({ origem: $any(texto($event)) })">
+            <option value="" [selected]="!fl.origem">Todos</option>
+            <option value="usados" [selected]="fl.origem === 'usados'">Apartamentos usados</option>
+            <option value="lancamentos" [selected]="fl.origem === 'lancamentos'">Lançamentos</option>
+            <option value="vista-mar" [selected]="fl.origem === 'vista-mar'">Vista mar</option>
+          </select></label>
+        <label class="campo marca-campo">
+          <input type="checkbox" [checked]="fl.todas" (change)="mudar({ todas: !fl.todas })" />
+          <span>Mostrar também reservadas e vendidas</span>
+        </label>
+      </div>
+    }
+  </section>
+
+  @if (estoque.carregando()) {
+    <div class="carregando" aria-live="polite">
+      <div class="osso"></div><div class="osso"></div><div class="osso"></div>
+      <span class="sr">Carregando o estoque…</span>
+    </div>
+  } @else if (estoque.erro(); as e) {
+    <div class="vazio" role="alert">
+      <b>Não consegui carregar o estoque ({{ e }}).</b> Verifique se o servidor está rodando e tente de novo.
+      <button type="button" class="btn" (click)="estoque.carregar()">Tentar de novo</button>
+    </div>
+  } @else {
+    <section class="resultado" aria-live="polite">
+      <p class="frase">
+        <b class="mk">{{ fmt.plural(rs.unidades, 'unidade', 'unidades') }}</b>
+        {{ fl.todas ? '' : (rs.unidades === 1 ? 'disponível' : 'disponíveis') }} em {{ fmt.plural(rs.predios, 'prédio', 'prédios') }}
+        @if (rs.min) { · de {{ fmt.brlK(rs.min) }} a {{ fmt.brlK(rs.max) }} }
+        @if (rs.m2) { · média {{ fmt.brl(rs.m2) }}/m² }
+      </p>
+      @if (ativos().length) {
+        <div class="ativos">
+          @for (a of ativos(); track a.rotulo) {
+            <button type="button" class="ativo" (click)="mudar(a.limpar)" [attr.aria-label]="'Remover filtro ' + a.rotulo">{{ a.rotulo }} <span aria-hidden="true">×</span></button>
+          }
+          <button type="button" class="limpar" (click)="limparTudo()">Limpar tudo</button>
+        </div>
+      }
+    </section>
+
+    <nav class="abas" aria-label="Formas de ver o resultado">
+      <button type="button" [attr.aria-current]="aba() === 'unidades' ? 'page' : null" (click)="aba.set('unidades')">Unidades</button>
+      <button type="button" [attr.aria-current]="aba() === 'predios' ? 'page' : null" (click)="aba.set('predios')">Prédios <span>{{ predios().length }}</span></button>
+      <button type="button" [attr.aria-current]="aba() === 'bairros' ? 'page' : null" (click)="aba.set('bairros')">Comparar bairros</button>
+      <button type="button" [attr.aria-current]="aba() === 'entregas' ? 'page' : null" (click)="aba.set('entregas')">Entregas</button>
+      <button type="button" [attr.aria-current]="aba() === 'renda' ? 'page' : null" (click)="aba.set('renda')">Entrada e renda</button>
+      @if (aba() === 'unidades') {
+        <label class="ordem"><span>Ordenar</span>
+          <select (change)="ordem.set($any(texto($event)))">
+            @for (o of ORDENS; track o[0]) { <option [value]="o[0]" [selected]="ordem() === o[0]">{{ o[1] }}</option> }
+          </select>
+        </label>
+      }
+    </nav>
+
+    @switch (aba()) {
+      @case ('unidades') {
+        <ol class="lista-un">
+          @for (l of visiveis(); track l.u.ref) {
+            <li>
+              <button type="button" class="un" (click)="abrir(l.p, l.u.ref)">
+                <span class="un-valor num">
+                  <b [class.mk]="!!l.u.valor">{{ l.u.valor ? fmt.brl(l.u.valor) : 'Consultar' }}</b>
+                  @if (l.u.valor && l.u.area) { <small>{{ fmt.brl(l.u.valor / l.u.area) }}/m²</small> }
+                </span>
+                <span class="un-info">
+                  <b>{{ l.u.tipologia || 'Tipologia não informada' }}</b>
+                  <small>{{ l.u.area ? fmt.m2(l.u.area) : 'área não informada' }}@if (l.u.vagas) { · {{ l.u.vagas }} vaga(s) }@if (l.u.cond) { · cond. {{ fmt.brl(l.u.cond) }} }@if (l.u.entrada) { · entrada {{ fmt.brlK(l.u.entrada) }} }</small>
+                </span>
+                <span class="un-predio">
+                  <b>{{ l.p.nome }}</b>
+                  <small>{{ l.lugar }}@if (l.u.unidade && l.u.unidade !== '—') { · unid. {{ l.u.unidade }} }</small>
+                </span>
+                <span class="un-tags">
+                  <span class="tag" [class.preta]="l.u.mercado === 'revenda'">{{ l.u.mercado === 'revenda' ? 'Usado' : 'Lançamento' }}</span>
+                  @if (l.u.fase !== 'pronto') { <span class="tag">{{ FASE_ROTULO[l.u.fase] }}</span> }
+                  @if (l.u.vistaMar) { <span class="tag amarela">Vista mar</span> }
+                  @if (l.u.status !== 'disponivel') { <span class="tag tracejada">{{ STATUS_ROTULO[l.u.status] }}</span> }
+                  @if (l.u.divergencias?.length) { <span class="tag tracejada" title="Tabelas com valores diferentes">2 valores</span> }
+                  @if (l.u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela">Confirmar</span> }
+                </span>
+                <span class="un-seta" aria-hidden="true">›</span>
+              </button>
+            </li>
+          } @empty {
+            <li class="vazio">
+              <b>Nenhuma unidade com esses filtros.</b>
+              @if (ativos().length) {
+                Tire um dos filtros acima (toque no ×) ou
+                <button type="button" class="btn mini" (click)="limparTudo()">limpe tudo</button>
+              }
+            </li>
+          }
+        </ol>
+        @if (ordenadas().length > limite()) {
+          <div class="mais-res">
+            <button type="button" class="btn" (click)="limite.set(limite() + 80)">Mostrar mais {{ fmt.num(Math.min(80, ordenadas().length - limite())) }}</button>
+            <span>mostrando {{ fmt.num(limite()) }} de {{ fmt.num(ordenadas().length) }}</span>
+          </div>
+        }
+      }
+
+      @case ('predios') {
+        <div class="grade">
+          @for (r of predios(); track r.p.id) {
+            <article class="predio">
+              <header>
+                <h3>{{ r.p.nome }}</h3>
+                <p>{{ r.p.bairro !== 'A confirmar' ? r.p.bairro : 'Bairro a confirmar' }} · {{ r.p.cidade }}</p>
+              </header>
+              <div class="tags">
+                <span class="tag" [class.preta]="r.p.fase === 'pronto'" [class.amarela]="r.p.fase !== 'pronto'">{{ FASE_ROTULO[r.p.fase] }}</span>
+                @if (r.p.entrega && r.p.fase !== 'pronto') { <span class="tag">Entrega {{ r.p.entrega }}</span> }
+                @if (r.p.lanc && r.p.fase === 'lancamento') {
+                  <span class="tag" [class.tracejada]="r.p.lanc.gravacao === 'a_gravar'">{{ r.p.lanc.gravacao === 'trafego' ? 'Tráfego no ar' : r.p.lanc.gravacao === 'gravado' ? 'Gravado' : 'Gravação pendente' }}</span>
+                }
+              </div>
+              @if (r.linhas.length) {
+                <div class="estoque">
+                  <b class="num">{{ r.disp }}</b>
+                  <div><span>{{ r.disp === 1 ? 'disponível' : 'disponíveis' }} na busca</span><strong class="num">{{ faixaPredio(r) }}</strong></div>
+                </div>
+                <p class="tipos">{{ tipologias(r) }}</p>
+              } @else {
+                <div class="estoque vazio-est"><b>Tabela pendente</b><span>Ainda sem unidades e valores</span></div>
+              }
+              <footer>
+                <span>{{ (r.p.fontes ?? []).slice(0, 2).join(', ') }}</span>
+                <button type="button" class="btn amarelo" (click)="abrir(r.p)">Ver prédio</button>
+              </footer>
+            </article>
+          } @empty {
+            <p class="vazio"><b>Nenhum prédio com esses filtros.</b></p>
+          }
+        </div>
+      }
+
+      @case ('bairros') {
+        <div class="tabela-wrap">
+          <table class="tabela clicavel">
+            <thead><tr><th>Bairro</th><th class="r">Prédios</th><th class="r">Unidades</th><th class="r">Menor valor</th><th class="r">Valor médio</th><th class="r">R$/m² médio</th><th class="r">Maior valor</th></tr></thead>
+            <tbody>
+              @for (b of bairros(); track b.lugar) {
+                <tr [class.on]="fl.lugares.includes(b.lugar)" (click)="alternarLugares([b.lugar])" tabindex="0" (keydown.enter)="alternarLugares([b.lugar])">
+                  <td><b>{{ b.lugar }}</b></td>
+                  <td class="r num">{{ b.predios }}</td>
+                  <td class="r num">{{ b.n }}</td>
+                  <td class="r num"><b class="mk">{{ fmt.brl(b.min) }}</b></td>
+                  <td class="r num">{{ fmt.brl(b.media) }}</td>
+                  <td class="r num">{{ fmt.brl(b.m2) }}</td>
+                  <td class="r num">{{ fmt.brl(b.max) }}</td>
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="nota">Só unidades disponíveis. Toque num bairro para filtrar. Fonte: tabelas das imobiliárias e construtoras parceiras.</p>
+      }
+
+      @case ('entregas') {
+        <div class="cal">
+          @for (b of entregas(); track b.titulo + b.anoTxt) {
+            <section class="mes" [class.agora]="b.agora">
+              <h3>{{ b.titulo }} <span>{{ b.anoTxt }} · {{ b.itens.length }}</span></h3>
+              @if (b.passou) { <p class="passou">Previsão já passou · confirmar</p> }
+              @for (r of b.itens; track r.p.id) {
+                <button type="button" class="mes-item" (click)="abrir(r.p)">
+                  <b>{{ r.p.nome }}</b>
+                  <small>{{ r.p.bairro }} · {{ r.linhas.length ? r.disp + ' disp.' + (r.min ? ' · a partir de ' + fmt.brlK(r.min) : '') : 'tabela pendente' }}</small>
+                </button>
+              }
+            </section>
+          } @empty {
+            <p class="vazio"><b>Nenhum prédio com entrega prevista nesses filtros.</b> Prontos para morar não aparecem aqui.</p>
+          }
+        </div>
+        <p class="nota">Previsão de entrega conforme as tabelas.</p>
+      }
+
+      @case ('renda') {
+        <div class="tabela-wrap">
+          <table class="tabela clicavel">
+            <thead><tr><th>Empreendimento</th><th>Pagamento</th><th class="r">Entrada a partir de</th><th class="r">Renda a partir de</th><th class="r">Valor a partir de</th><th class="r">Disp.</th></tr></thead>
+            <tbody>
+              @for (x of renda(); track x.r.p.id) {
+                <tr (click)="abrir(x.r.p)" tabindex="0" (keydown.enter)="abrir(x.r.p)">
+                  <td><b>{{ x.r.p.nome }}</b><small>{{ x.r.p.bairro }}</small></td>
+                  <td>{{ x.mod === 'direto' ? 'Direto c/ construtora' : x.mod === 'ambos' ? 'Banco ou direto' : 'Bancário' }}</td>
+                  <td class="r num"><b class="mk">{{ fmt.brl(x.entrada) }}</b></td>
+                  <td class="r num">{{ x.mod === 'direto' ? '—' : fmt.brl(x.renda) }}</td>
+                  <td class="r num">{{ fmt.brl(x.valor) }}</td>
+                  <td class="r num">{{ x.n }}</td>
+                </tr>
+              } @empty {
+                <tr><td colspan="6" class="obs">Nenhum lançamento com esses filtros.</td></tr>
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="nota">Renda estimada: 1ª parcela no SAC (Caixa SBPE, cerca de 11,49% a.a. + TR, 420 meses, seguros aproximados) comprometendo até 30% da renda bruta familiar. O valor financiado é o da tabela da construtora. A aprovação real depende da análise de crédito, da idade do comprador e do banco.</p>
+      }
+    }
+  }
+
+  <footer class="rodape">
+    <span><b>Carlos Cavalcanti</b> · CRECI 331032 · &#64;carlos_cavalcanti_imoveis_</span>
+    <span>Fonte: tabelas de imobiliárias e construtoras parceiras, set. e out./2026. Valores e disponibilidade sujeitos a confirmação.</span>
+  </footer>
+</main>
+
+@if (aberto(); as p) {
+  <app-predio-detalhe [predio]="p" [filtros]="f()" [destaque]="destaque()" (fechar)="fechar()" />
+}
