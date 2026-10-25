@@ -88,6 +88,11 @@ describe('card', () => {
     expect(c.etiqueta).toBe('Guilhermina · Praia Grande · Entrega Dez/2026');
     expect(c.subtitulo).toBe('Na planta');
   });
+  it('a unidade escolhida abre a etiqueta com o número', () => {
+    const p = predio({ fase: 'lancamento', entrega: 'Dez/2026' });
+    const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2', unidade: '1203' });
+    expect(c.etiqueta).toBe('Apto 1203 · Guilhermina · Praia Grande · Entrega Dez/2026');
+  });
   it('diferenciais: até 3, sem comissão, título e detalhe separados', () => {
     const p = predio({
       lanc: {

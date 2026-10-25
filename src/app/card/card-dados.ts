@@ -3,7 +3,7 @@ import { Predio, Unidade } from '../estoque/modelo';
 
 /** Tudo o que o card mostra, já em texto. O gerador deixa editar cada campo antes de exportar. */
 export interface CardDados {
-  /** Etiqueta de cima: "AVIAÇÃO · PRAIA GRANDE · PRONTO PARA MORAR". */
+  /** Etiqueta de cima: "APTO 101 · AVIAÇÃO · PRAIA GRANDE · PRONTO PARA MORAR". */
   etiqueta: string;
   /** Título em caixa alta; o destaque vai no marca-texto amarelo ao lado. */
   titulo: string;
@@ -212,12 +212,14 @@ export function cardDe(p: Predio, u: Unidade): CardDados {
   const entrega = entregaTxt && u.fase !== 'pronto' ? ` · entrega ${entregaTxt}` : '';
   const local = [p.bairro !== 'A confirmar' ? p.bairro : '', p.cidade].filter(Boolean).join(' · ');
   const data = dataTabela(p, u);
+  const un = String(u.unidade ?? '').trim();
+  const numero = un && un !== '—' ? `${/^\d/.test(un) ? 'Apto ' : ''}${un} · ` : '';
   const fase =
     u.fase === 'pronto' ? 'Imóvel pronto.' : u.fase === 'obra' ? `Imóvel em obra${entrega.replace(' · ', ', ')}.` : `Na planta${entrega.replace(' · ', ', ')}.`;
   const estimativa = !u.fluxo && u.parcela ? ' Parcela e renda estimadas (SAC, Caixa SBPE), sujeitas à análise de crédito.' : '';
 
   return {
-    etiqueta: u.fase !== 'pronto' && entregaTxt ? `${local} · Entrega ${entregaTxt}` : `${local} · ${FASE_LONGA[u.fase]}`,
+    etiqueta: numero + (u.fase !== 'pronto' && entregaTxt ? `${local} · Entrega ${entregaTxt}` : `${local} · ${FASE_LONGA[u.fase]}`),
     titulo,
     destaque,
     subtitulo: sub.filter(Boolean).join(' · '),
