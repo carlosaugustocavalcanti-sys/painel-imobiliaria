@@ -44,13 +44,13 @@ As fotos vêm de `public/fotos/` e são ligadas aos prédios por `public/dados/f
 node scripts/importar-fotos.mjs <html do artefato salvo>
 ```
 
-Fotos em alta resolução (até 1.600 px) saem dos books em PDF e das páginas de book na pasta Downloads. A lista do que usar, o rótulo de cada foto e o recorte (para tirar logo, legenda, moldura e texto) ficam em `dados/books.json`:
+Fotos em alta resolução (até 1.600 px) saem dos books em PDF e das páginas de book (pastas Downloads e OneDrive). O `scripts/pdf-imagens.mjs` lê tanto JPEG quanto imagens compactadas do PDF e corta as bordas transparentes. A lista do que usar, o rótulo de cada foto e o recorte (para tirar logo, legenda, moldura e texto) ficam em `dados/books.json`:
 
 ```bash
 node scripts/importar-books.mjs    # padrão: ~/Downloads
 ```
 
-Hoje há Harmony Residence (19 fotos do book em PDF), Personnalité (13 páginas recortadas) e a fachada noturna do Max 10. Fátima II, Bella Collina e Porto Marina continuam com as fotos de 640 px do artefato, porque os books deles não estão no computador.
+Hoje há Harmony Residence (19 fotos do book em PDF), Max 10 (22, do book no OneDrive) e Personnalité (13 páginas recortadas). Fátima II, Bella Collina e Porto Marina continuam com as fotos de 640 px do artefato.
 
 Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 

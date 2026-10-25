@@ -1,5 +1,5 @@
 {
- "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books em PDF/páginas (dados/books.json, scripts/importar-books.mjs), até 1600 px.",
+ "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px.",
  "predios": {
   "fatima": {
    "nome": "Fátima II",
@@ -77,114 +77,114 @@
    "noEstoque": true,
    "fotos": [
     {
-     "arquivo": "fotos/max-10/hd_01_fachada-a-noite.jpg",
+     "arquivo": "fotos/max-10/hd_01_fachada-ao-entardecer.jpg",
+     "rotulo": "Fachada ao entardecer",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_02_fachada-a-noite.jpg",
      "rotulo": "Fachada à noite",
      "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_01.jpg",
-     "rotulo": "Fachada ao entardecer",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_02.jpg",
+     "arquivo": "fotos/max-10/hd_03_entrada.jpg",
      "rotulo": "Entrada",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_04.jpg",
-     "rotulo": "Jardim",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_05.jpg",
-     "rotulo": "Bar e café",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_06.jpg",
-     "rotulo": "Salão de festas",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_07.jpg",
-     "rotulo": "Sala de jogos",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_08.jpg",
-     "rotulo": "Quadra society",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_09.jpg",
-     "rotulo": "Academia",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_10.jpg",
-     "rotulo": "Varanda",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_11.jpg",
-     "rotulo": "Churrasqueira",
-     "real": false
-    },
-    {
-     "arquivo": "fotos/max-10/max10_12.jpg",
+     "arquivo": "fotos/max-10/hd_04_piscina.jpg",
      "rotulo": "Piscina",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_13.jpg",
+     "arquivo": "fotos/max-10/hd_05_piscina-e-deck.jpg",
      "rotulo": "Piscina e deck",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_14.jpg",
+     "arquivo": "fotos/max-10/hd_06_deck-com-pergolado.jpg",
      "rotulo": "Deck com pergolado",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_15.jpg",
+     "arquivo": "fotos/max-10/hd_07_academia.jpg",
+     "rotulo": "Academia",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_08_quadra-society.jpg",
+     "rotulo": "Quadra society",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_09_playground.jpg",
      "rotulo": "Playground",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_16.jpg",
+     "arquivo": "fotos/max-10/hd_10_salao-de-festas.jpg",
+     "rotulo": "Salão de festas",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_11_bar-e-cafe.jpg",
+     "rotulo": "Bar e café",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_12_sala-de-jogos.jpg",
+     "rotulo": "Sala de jogos",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_13_sauna.jpg",
      "rotulo": "Sauna",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_17.jpg",
-     "rotulo": "Sala de jantar",
-     "real": false
+     "arquivo": "fotos/max-10/hd_14_jardim.jpg",
+     "rotulo": "Jardim",
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_18.jpg",
+     "arquivo": "fotos/max-10/hd_15_varanda.jpg",
+     "rotulo": "Varanda",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_16_churrasqueira.jpg",
+     "rotulo": "Churrasqueira",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_17_sala-de-estar.jpg",
      "rotulo": "Sala de estar",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_19.jpg",
-     "rotulo": "Cozinha",
-     "real": false
+     "arquivo": "fotos/max-10/hd_18_sala-de-jantar.jpg",
+     "rotulo": "Sala de jantar",
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_20.jpg",
+     "arquivo": "fotos/max-10/hd_19_sala-integrada.jpg",
      "rotulo": "Sala integrada",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_21.jpg",
-     "rotulo": "Quarto",
-     "real": false
+     "arquivo": "fotos/max-10/hd_20_cozinha.jpg",
+     "rotulo": "Cozinha",
+     "hd": true
     },
     {
-     "arquivo": "fotos/max-10/max10_22.jpg",
+     "arquivo": "fotos/max-10/hd_21_quarto.jpg",
      "rotulo": "Quarto",
-     "real": false
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/max-10/hd_22_quarto.jpg",
+     "rotulo": "Quarto",
+     "hd": true
     }
    ]
   },

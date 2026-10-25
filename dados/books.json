@@ -1,56 +1,358 @@
 {
-  "sobre": "Fotos em alta resolução tiradas dos books das construtoras (pasta Downloads do Carlos, 24/10/2026). 'imagem' = n-ésimo JPEG embutido no PDF; 'pagina' = arquivo da pasta de páginas. 'corte' = [x, y, largura, altura] em pixels da imagem original, para tirar logos, legendas, moldura e texto. Ficaram de fora: plantas, implantação, fotos com o apresentador e repetidas.",
+  "sobre": "Fotos em alta resolução tiradas dos books das construtoras (pastas Downloads e OneDrive do Carlos, 24 e 25/10/2026). 'imagem' = número da imagem no PDF, na contagem de scripts/pdf-imagens.mjs; 'pasta' troca a pasta padrão (~/Downloads); 'pagina' = arquivo da pasta de páginas. 'corte' = [x, y, largura, altura] em pixels da imagem original, para tirar logos, legendas, moldura e texto. Ficaram de fora: plantas, implantação, fotos com o apresentador e repetidas.",
   "predios": {
     "harmony-residence": {
       "nome": "Harmony Residence",
       "pdf": "BOOK HARMONY RESIDENCE.pdf",
       "substituir": "tudo",
       "fotos": [
-        { "imagem": 1, "rotulo": "Fachada e praia" },
-        { "imagem": 2, "rotulo": "Varanda vista mar" },
-        { "imagem": 18, "rotulo": "Varanda gourmet" },
-        { "imagem": 9, "rotulo": "Sacada com vista mar" },
-        { "imagem": 3, "rotulo": "Terraço" },
-        { "imagem": 4, "rotulo": "Salão de festas" },
-        { "imagem": 5, "rotulo": "Piscina interna" },
-        { "imagem": 6, "rotulo": "Academia" },
-        { "imagem": 7, "rotulo": "Brinquedoteca" },
-        { "imagem": 8, "rotulo": "Salão de jogos" },
-        { "imagem": 10, "rotulo": "Sala de estar" },
-        { "imagem": 11, "rotulo": "Sala de jantar" },
-        { "imagem": 12, "rotulo": "Cozinha" },
-        { "imagem": 13, "rotulo": "Suíte vista mar" },
-        { "imagem": 14, "rotulo": "Quarto" },
-        { "imagem": 15, "rotulo": "Quarto vista mar" },
-        { "imagem": 16, "rotulo": "Lavabo" },
-        { "imagem": 17, "rotulo": "Banheiro" },
-        { "imagem": 20, "rotulo": "Garagem" }
+        {
+          "imagem": 2,
+          "rotulo": "Fachada e praia"
+        },
+        {
+          "imagem": 5,
+          "rotulo": "Varanda vista mar"
+        },
+        {
+          "imagem": 32,
+          "rotulo": "Varanda gourmet"
+        },
+        {
+          "imagem": 23,
+          "rotulo": "Sacada com vista mar"
+        },
+        {
+          "imagem": 7,
+          "rotulo": "Terraço"
+        },
+        {
+          "imagem": 8,
+          "rotulo": "Salão de festas"
+        },
+        {
+          "imagem": 9,
+          "rotulo": "Piscina interna"
+        },
+        {
+          "imagem": 10,
+          "rotulo": "Academia"
+        },
+        {
+          "imagem": 11,
+          "rotulo": "Brinquedoteca"
+        },
+        {
+          "imagem": 12,
+          "rotulo": "Salão de jogos"
+        },
+        {
+          "imagem": 24,
+          "rotulo": "Sala de estar"
+        },
+        {
+          "imagem": 25,
+          "rotulo": "Sala de jantar"
+        },
+        {
+          "imagem": 26,
+          "rotulo": "Cozinha"
+        },
+        {
+          "imagem": 27,
+          "rotulo": "Suíte vista mar"
+        },
+        {
+          "imagem": 28,
+          "rotulo": "Quarto"
+        },
+        {
+          "imagem": 29,
+          "rotulo": "Quarto vista mar"
+        },
+        {
+          "imagem": 30,
+          "rotulo": "Lavabo"
+        },
+        {
+          "imagem": 31,
+          "rotulo": "Banheiro"
+        },
+        {
+          "imagem": 35,
+          "rotulo": "Garagem"
+        }
       ]
     },
     "max-10": {
       "nome": "Max 10",
-      "pdf": "MAX 10 - Aptos 1 e 2 dorm (Guilhermina).pdf",
-      "substituir": "rotulos",
-      "fotos": [{ "imagem": 1, "rotulo": "Fachada à noite", "substitui": "Fachada à noite" }]
+      "pasta": "~/OneDrive",
+      "pdf": "Book Max10_Guilhermina.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 10,
+          "rotulo": "Fachada ao entardecer"
+        },
+        {
+          "pdf": "MAX 10 - Aptos 1 e 2 dorm (Guilhermina).pdf",
+          "pasta": "~/Downloads",
+          "imagem": 1,
+          "rotulo": "Fachada à noite"
+        },
+        {
+          "imagem": 127,
+          "rotulo": "Entrada"
+        },
+        {
+          "imagem": 144,
+          "rotulo": "Piscina"
+        },
+        {
+          "imagem": 145,
+          "rotulo": "Piscina e deck"
+        },
+        {
+          "imagem": 147,
+          "rotulo": "Deck com pergolado"
+        },
+        {
+          "imagem": 138,
+          "rotulo": "Academia"
+        },
+        {
+          "imagem": 136,
+          "rotulo": "Quadra society"
+        },
+        {
+          "imagem": 149,
+          "rotulo": "Playground"
+        },
+        {
+          "imagem": 16,
+          "rotulo": "Salão de festas"
+        },
+        {
+          "imagem": 15,
+          "rotulo": "Bar e café"
+        },
+        {
+          "imagem": 18,
+          "rotulo": "Sala de jogos"
+        },
+        {
+          "imagem": 31,
+          "rotulo": "Sauna"
+        },
+        {
+          "imagem": 14,
+          "rotulo": "Jardim"
+        },
+        {
+          "imagem": 22,
+          "rotulo": "Varanda"
+        },
+        {
+          "imagem": 23,
+          "rotulo": "Churrasqueira"
+        },
+        {
+          "imagem": 166,
+          "rotulo": "Sala de estar",
+          "corte": [
+            0,
+            0,
+            1078,
+            1087
+          ]
+        },
+        {
+          "imagem": 166,
+          "rotulo": "Sala de jantar",
+          "corte": [
+            1095,
+            0,
+            1078,
+            1087
+          ]
+        },
+        {
+          "imagem": 167,
+          "rotulo": "Sala integrada",
+          "corte": [
+            0,
+            0,
+            1078,
+            1087
+          ]
+        },
+        {
+          "imagem": 167,
+          "rotulo": "Cozinha",
+          "corte": [
+            1095,
+            0,
+            1078,
+            1087
+          ]
+        },
+        {
+          "imagem": 168,
+          "rotulo": "Quarto",
+          "corte": [
+            0,
+            0,
+            1078,
+            1087
+          ]
+        },
+        {
+          "imagem": 168,
+          "rotulo": "Quarto",
+          "corte": [
+            1095,
+            0,
+            1077,
+            1087
+          ]
+        }
+      ]
     },
     "personnalite": {
       "nome": "Personnalité",
       "paginas": "BOOK ED. PERSONNALITTÉ",
       "substituir": "tudo",
       "fotos": [
-        { "pagina": 5, "rotulo": "Fachada", "corte": [232, 96, 558, 832] },
-        { "pagina": 29, "rotulo": "Varanda gourmet", "corte": [0, 90, 1023, 934] },
-        { "pagina": 30, "rotulo": "Cozinha", "corte": [0, 90, 1023, 934] },
-        { "pagina": 16, "rotulo": "Cinema", "corte": [0, 80, 1023, 820] },
-        { "pagina": 21, "rotulo": "Academia", "corte": [0, 90, 1023, 934] },
-        { "pagina": 22, "rotulo": "Salão de jogos", "corte": [0, 90, 1023, 934] },
-        { "pagina": 8, "rotulo": "Piscina", "corte": [0, 90, 1023, 934] },
-        { "pagina": 11, "rotulo": "Salão de festas", "corte": [0, 90, 1023, 934] },
-        { "pagina": 12, "rotulo": "Espaço gourmet", "corte": [0, 90, 1023, 934] },
-        { "pagina": 17, "rotulo": "Home theater", "corte": [0, 90, 1023, 934] },
-        { "pagina": 18, "rotulo": "Spa", "corte": [0, 90, 1023, 934] },
-        { "pagina": 26, "rotulo": "Sala de estar", "corte": [0, 90, 1023, 934] },
-        { "pagina": 32, "rotulo": "Suíte", "corte": [0, 90, 1023, 934] }
+        {
+          "pagina": 5,
+          "rotulo": "Fachada",
+          "corte": [
+            232,
+            96,
+            558,
+            832
+          ]
+        },
+        {
+          "pagina": 29,
+          "rotulo": "Varanda gourmet",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 30,
+          "rotulo": "Cozinha",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 16,
+          "rotulo": "Cinema",
+          "corte": [
+            0,
+            80,
+            1023,
+            820
+          ]
+        },
+        {
+          "pagina": 21,
+          "rotulo": "Academia",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 22,
+          "rotulo": "Salão de jogos",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 8,
+          "rotulo": "Piscina",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 11,
+          "rotulo": "Salão de festas",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 12,
+          "rotulo": "Espaço gourmet",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 17,
+          "rotulo": "Home theater",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 18,
+          "rotulo": "Spa",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 26,
+          "rotulo": "Sala de estar",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        },
+        {
+          "pagina": 32,
+          "rotulo": "Suíte",
+          "corte": [
+            0,
+            90,
+            1023,
+            934
+          ]
+        }
       ]
     }
   }
