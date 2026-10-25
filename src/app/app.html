@@ -149,12 +149,14 @@
       }
     </section>
 
-    <nav class="abas" aria-label="Formas de ver o resultado">
-      <button type="button" [attr.aria-current]="aba() === 'unidades' ? 'page' : null" (click)="aba.set('unidades')">Unidades</button>
-      <button type="button" [attr.aria-current]="aba() === 'predios' ? 'page' : null" (click)="aba.set('predios')">Prédios <span>{{ predios().length }}</span></button>
-      <button type="button" [attr.aria-current]="aba() === 'bairros' ? 'page' : null" (click)="aba.set('bairros')">Comparar bairros</button>
-      <button type="button" [attr.aria-current]="aba() === 'entregas' ? 'page' : null" (click)="aba.set('entregas')">Entregas</button>
-      <button type="button" [attr.aria-current]="aba() === 'renda' ? 'page' : null" (click)="aba.set('renda')">Entrada e renda</button>
+    <div class="barra-abas">
+      <nav class="abas" aria-label="Formas de ver o resultado">
+        <button type="button" [attr.aria-current]="aba() === 'unidades' ? 'page' : null" (click)="aba.set('unidades')">Unidades</button>
+        <button type="button" [attr.aria-current]="aba() === 'predios' ? 'page' : null" (click)="aba.set('predios')">Prédios <span>{{ predios().length }}</span></button>
+        <button type="button" [attr.aria-current]="aba() === 'bairros' ? 'page' : null" (click)="aba.set('bairros')">Comparar bairros</button>
+        <button type="button" [attr.aria-current]="aba() === 'entregas' ? 'page' : null" (click)="aba.set('entregas')">Entregas</button>
+        <button type="button" [attr.aria-current]="aba() === 'renda' ? 'page' : null" (click)="aba.set('renda')">Entrada e renda</button>
+      </nav>
       @if (aba() === 'unidades') {
         <label class="ordem"><span>Ordenar</span>
           <select (change)="ordem.set($any(texto($event)))">
@@ -162,7 +164,7 @@
           </select>
         </label>
       }
-    </nav>
+    </div>
 
     @switch (aba()) {
       @case ('unidades') {
@@ -251,18 +253,18 @@
 
       @case ('bairros') {
         <div class="tabela-wrap">
-          <table class="tabela clicavel">
+          <table class="tabela clicavel tabela-cartao">
             <thead><tr><th>Bairro</th><th class="r">Prédios</th><th class="r">Unidades</th><th class="r">Menor valor</th><th class="r">Valor médio</th><th class="r">R$/m² médio</th><th class="r">Maior valor</th></tr></thead>
             <tbody>
               @for (b of bairros(); track b.lugar) {
                 <tr [class.on]="fl.lugares.includes(b.lugar)" (click)="alternarLugares([b.lugar])" tabindex="0" (keydown.enter)="alternarLugares([b.lugar])">
-                  <td><b>{{ b.lugar }}</b></td>
-                  <td class="r num">{{ b.predios }}</td>
-                  <td class="r num">{{ b.n }}</td>
-                  <td class="r num"><b class="mk">{{ fmt.brl(b.min) }}</b></td>
-                  <td class="r num">{{ fmt.brl(b.media) }}</td>
-                  <td class="r num">{{ fmt.brl(b.m2) }}</td>
-                  <td class="r num">{{ fmt.brl(b.max) }}</td>
+                  <td class="c-tit"><b>{{ b.lugar }}</b></td>
+                  <td class="r num" data-rot="Prédios">{{ b.predios }}</td>
+                  <td class="r num" data-rot="Unidades">{{ b.n }}</td>
+                  <td class="r num" data-rot="Menor valor"><b class="mk">{{ fmt.brl(b.min) }}</b></td>
+                  <td class="r num" data-rot="Valor médio">{{ fmt.brl(b.media) }}</td>
+                  <td class="r num" data-rot="R$/m² médio">{{ fmt.brl(b.m2) }}</td>
+                  <td class="r num" data-rot="Maior valor">{{ fmt.brl(b.max) }}</td>
                 </tr>
               }
             </tbody>
@@ -293,17 +295,17 @@
 
       @case ('renda') {
         <div class="tabela-wrap">
-          <table class="tabela clicavel">
+          <table class="tabela clicavel tabela-cartao">
             <thead><tr><th>Empreendimento</th><th>Pagamento</th><th class="r">Entrada a partir de</th><th class="r">Renda a partir de</th><th class="r">Valor a partir de</th><th class="r">Disp.</th></tr></thead>
             <tbody>
               @for (x of renda(); track x.r.p.id) {
                 <tr (click)="abrir(x.r.p)" tabindex="0" (keydown.enter)="abrir(x.r.p)">
-                  <td><b>{{ x.r.p.nome }}</b><small>{{ x.r.p.bairro }}</small></td>
-                  <td>{{ x.mod === 'direto' ? 'Direto c/ construtora' : x.mod === 'ambos' ? 'Banco ou direto' : 'Bancário' }}</td>
-                  <td class="r num"><b class="mk">{{ fmt.brl(x.entrada) }}</b></td>
-                  <td class="r num">{{ x.mod === 'direto' ? '—' : fmt.brl(x.renda) }}</td>
-                  <td class="r num">{{ fmt.brl(x.valor) }}</td>
-                  <td class="r num">{{ x.n }}</td>
+                  <td class="c-tit"><b>{{ x.r.p.nome }}</b><small>{{ x.r.p.bairro }}</small></td>
+                  <td data-rot="Pagamento">{{ x.mod === 'direto' ? 'Direto c/ construtora' : x.mod === 'ambos' ? 'Banco ou direto' : 'Bancário' }}</td>
+                  <td class="r num" data-rot="Entrada desde"><b class="mk">{{ fmt.brl(x.entrada) }}</b></td>
+                  <td class="r num" data-rot="Renda desde">{{ x.mod === 'direto' ? '—' : fmt.brl(x.renda) }}</td>
+                  <td class="r num" data-rot="Valor desde">{{ fmt.brl(x.valor) }}</td>
+                  <td class="r num" data-rot="Disponíveis">{{ x.n }}</td>
                 </tr>
               } @empty {
                 <tr><td colspan="6" class="obs">Nenhum lançamento com esses filtros.</td></tr>

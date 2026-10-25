@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, effect, inject, signal, untracked } from '@angular/core';
+import { ChangeDetectionStrategy, Component, afterRenderEffect, computed, effect, inject, signal, untracked } from '@angular/core';
 import {
   DORM_ROTULO,
   FASE_ROTULO,
@@ -272,6 +272,17 @@ export class App {
       history.replaceState(history.state, '', url);
     });
     addEventListener('popstate', () => this.predioAberto.set(lerUrl(location.search).predio));
+    // no celular a faixa de abas rola para o lado: a aba ativa fica sempre à vista
+    afterRenderEffect(() => {
+      this.aba();
+      this.estoque.carregando();
+      const nav = document.querySelector<HTMLElement>('.abas');
+      const ativa = nav?.querySelector<HTMLElement>('[aria-current]');
+      if (!nav || !ativa) return;
+      const n = nav.getBoundingClientRect();
+      const a = ativa.getBoundingClientRect();
+      if (a.left < n.left || a.right > n.right - 24) nav.scrollLeft += a.left - n.left - 16;
+    });
   }
 
   /* ---------- ações ---------- */

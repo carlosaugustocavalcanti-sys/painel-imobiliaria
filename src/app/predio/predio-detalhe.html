@@ -51,7 +51,7 @@
         }
       </div>
       <div class="tabela-wrap">
-        <table class="tabela">
+        <table class="tabela tabela-un tabela-cartao">
           <thead>
             <tr>
               <th>Unid.</th>
@@ -78,18 +78,18 @@
           <tbody>
             @for (u of unidades(); track u.ref) {
               <tr [attr.data-ref]="u.ref" [class.destaque]="u.ref === destaque()" [class.vendida]="u.status === 'vendido'">
-                <td class="num"><b>{{ u.unidade || '—' }}</b></td>
-                @if (c.final) { <td class="num">{{ u.final ? 'F' + u.final : '' }}</td> }
-                @if (c.andar) { <td class="num">{{ u.andar ?? '' }}</td> }
-                <td>{{ u.tipologia || '—' }}@if (u.det) {<small>{{ u.det }}</small>}</td>
-                <td class="r num">{{ u.area ? fmt.num(u.area) : '' }}</td>
-                <td class="r num"><b>{{ u.valor ? fmt.brl(u.valor) : 'Consultar' }}</b></td>
-                @if (c.fin) { <td class="r num">{{ fmt.brl(u.vfin ?? u.vp) }}</td> }
-                @if (c.direto) { <td class="r num">{{ fmt.brl(u.valorDireto) }}</td> }
-                @if (c.entrada) { <td class="r num">{{ fmt.brl(u.entrada) }}</td> }
-                @if (c.chaves) { <td class="r num">{{ fmt.brl(u.chaves) }}</td> }
+                <td class="num c-un" data-rot="Unid."><b>{{ u.unidade || '—' }}</b></td>
+                @if (c.final) { <td class="num" data-rot="Final">{{ u.final ? 'F' + u.final : '' }}</td> }
+                @if (c.andar) { <td class="num" data-rot="Andar">{{ u.andar ?? '' }}</td> }
+                <td class="c-tipo" data-rot="Tipologia">{{ u.tipologia || '—' }}@if (u.det) {<small>{{ u.det }}</small>}</td>
+                <td class="r num" data-rot="m²">{{ u.area ? fmt.num(u.area) : '' }}</td>
+                <td class="r num c-valor" data-rot="Valor"><b>{{ u.valor ? fmt.brl(u.valor) : 'Consultar' }}</b></td>
+                @if (c.fin) { <td class="r num" data-rot="Banco / a prazo">{{ fmt.brl(u.vfin ?? u.vp) }}</td> }
+                @if (c.direto) { <td class="r num" data-rot="Direto">{{ fmt.brl(u.valorDireto) }}</td> }
+                @if (c.entrada) { <td class="r num" data-rot="Entrada">{{ fmt.brl(u.entrada) }}</td> }
+                @if (c.chaves) { <td class="r num" data-rot="Chaves">{{ fmt.brl(u.chaves) }}</td> }
                 @if (c.fluxo) {
-                  <td class="r num fluxo">
+                  <td class="r num fluxo" data-rot="Fluxo">
                     @if (u.fluxo; as fl) {
                       @if (fl.chaves) {chaves {{ fmt.brl(fl.chaves) }}}
                       @if (fl.anualQtd) {<small>{{ fl.anualQtd }} × {{ fmt.brl(fl.anualVal) }} anuais</small>}
@@ -98,16 +98,16 @@
                     }
                   </td>
                 }
-                @if (c.renda) { <td class="r num">{{ p.lanc?.modalidade === 'direto' ? '—' : fmt.brl(u.renda) }}</td> }
-                @if (c.laudo) { <td class="r num">{{ fmt.brl(u.laudo) }}</td> }
-                @if (c.cond) { <td class="r num">{{ fmt.brl2(u.cond) }}</td> }
-                @if (c.iptu) { <td class="r num">{{ fmt.brl2(u.iptu) }}</td> }
-                @if (c.vagas) { <td>{{ u.vagas }}</td> }
-                <td>
+                @if (c.renda) { <td class="r num" data-rot="Renda est.">{{ p.lanc?.modalidade === 'direto' ? '—' : fmt.brl(u.renda) }}</td> }
+                @if (c.laudo) { <td class="r num" data-rot="Laudo Caixa">{{ fmt.brl(u.laudo) }}</td> }
+                @if (c.cond) { <td class="r num" data-rot="Condomínio">{{ fmt.brl2(u.cond) }}</td> }
+                @if (c.iptu) { <td class="r num" data-rot="IPTU">{{ fmt.brl2(u.iptu) }}</td> }
+                @if (c.vagas) { <td data-rot="Vagas">{{ u.vagas }}</td> }
+                <td class="c-sit">
                   <span class="tag" [class.amarela]="u.status === 'disponivel'" [class.tracejada]="u.status !== 'disponivel'">{{ STATUS_ROTULO[u.status] }}</span>
                   @if (u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela: conferir na fonte">Confirmar</span> }
                 </td>
-                <td class="obs">
+                <td class="obs c-obs">
                   @if (u.promo) { <b class="mk">Promoção {{ u.promo }}</b> }
                   @if (u.vistaMar) { <span class="tag amarela">{{ u.vista || 'Vista mar' }}</span> }
                   @if (u.acesso) { <span class="tag">{{ u.acesso === 'elevador' ? 'Elevador' : 'Escada' }}</span> }
@@ -126,7 +126,7 @@
                     </div>
                   }
                 </td>
-                <td>
+                <td class="c-acoes">
                   <div class="acoes-un">
                     <button type="button" class="btn mini amarelo" (click)="cardDe.set(u)">Gerar card</button>
                     <button type="button" class="btn mini" (click)="copiar(u)">{{ copiado() === u.ref ? 'Copiado ✓' : 'Copiar p/ cliente' }}</button>
