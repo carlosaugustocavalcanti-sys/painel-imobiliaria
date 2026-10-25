@@ -11,6 +11,8 @@ export interface CardDados {
   /** "79 m² · 2 vagas · lazer completo". */
   subtitulo: string;
   lazer: string[];
+  /** Usados no lugar das fotos quando o prédio não tem nenhuma: até 3, numerados. */
+  diferenciais: { titulo: string; detalhe: string }[];
   /** Um bloco preto, ou dois lado a lado (financiamento bancário e direto). */
   pagamentos: Pagamento[];
   rodape: string;
@@ -24,6 +26,9 @@ export interface Pagamento {
   linhas: { rotulo: string; valor: string }[];
   totalRotulo: string;
   totalValor: string;
+  /** Linha opcional abaixo do total (ex.: "À vista"). */
+  depoisRotulo?: string;
+  depoisValor?: string;
 }
 
 /** Itens de lazer reconhecidos no texto das tabelas (quando o lançamento não traz a lista do book). */
@@ -170,14 +175,40 @@ function dataTabela(p: Predio, u: Unidade): string {
   return '';
 }
 
+/** "Localização: Guilhermina, perto da praia" → título "Localização", detalhe "Guilhermina, perto da praia". */
+function diferencial(texto: string): { titulo: string; detalhe: string } {
+  const t = texto.trim();
+  const p = t.match(/^(.{4,60}?)\s*\(([^()]+)\)$/); // "Unidades com porcelanato (pisos e revestimentos)"
+  if (p) return { titulo: p[1], detalhe: p[2].charAt(0).toUpperCase() + p[2].slice(1) };
+  const m =t.match(/^(.{4,40}?)\s*(?::|—|–| - |;)\s+(.+)$/) ?? (t.length > 38 ? t.match(/^(.{6,38}?),\s+(.+)$/) : null);
+  if (!m) return { titulo: t, detalhe: '' };
+  return { titulo: m[1], detalhe: m[2].charAt(0).toUpperCase() + m[2].slice(1) };
+}
+function diferenciaisDe(p: Predio): CardDados['diferenciais'] {
+  return (p.lanc?.diferenciais ?? [])
+    .filter((d) => !/comiss|^pronto para morar$|^\s*$/i.test(d))
+    .slice(0, 3)
+    .map(diferencial);
+}
+
 export function cardDe(p: Predio, u: Unidade): CardDados {
-  const { titulo, destaque } = dormitorios(u);
+  let { titulo, destaque } = dormitorios(u);
   const lazer = lazerDe(p, u);
-  const sub = [u.area ? `${u.area.toLocaleString('pt-BR', { maximumFractionDigits: 0 })} m²` : '', vagas(u.vagas)];
+  const area = u.area ? `${u.area.toLocaleString('pt-BR', { maximumFractionDigits: 2 })} m²` : '';
+  // sem suíte para destacar, o destaque amarelo vira a área ("2 DORMS · 63,61 M²")
+  const areaNoTitulo = !titulo && !!destaque && !!area && u.dm !== 'k';
+  if (areaNoTitulo) [titulo, destaque] = [destaque, area];
+
+  const entregaTxt = p.entrega || u.entregaUnidade || '';
+  const sub = [
+    u.fase !== 'pronto' ? FASE_LONGA[u.fase] : '',
+    areaNoTitulo || !u.area ? '' : `${Math.round(u.area)} m²`,
+    vagas(u.vagas),
+  ];
   if (u.vistaMar) sub.push(/frente/i.test(u.vista ?? '') ? 'frente mar' : 'vista mar');
   else if (lazer.length >= 5) sub.push('lazer completo');
 
-  const entrega = p.entrega && u.fase !== 'pronto' ? ` · entrega ${p.entrega}` : '';
+  const entrega = entregaTxt && u.fase !== 'pronto' ? ` · entrega ${entregaTxt}` : '';
   const local = [p.bairro !== 'A confirmar' ? p.bairro : '', p.cidade].filter(Boolean).join(' · ');
   const data = dataTabela(p, u);
   const fase =
@@ -185,11 +216,12 @@ export function cardDe(p: Predio, u: Unidade): CardDados {
   const estimativa = !u.fluxo && u.parcela ? ' Parcela e renda estimadas (SAC, Caixa SBPE), sujeitas à análise de crédito.' : '';
 
   return {
-    etiqueta: `${local} · ${FASE_LONGA[u.fase]}`,
+    etiqueta: u.fase !== 'pronto' && entregaTxt ? `${local} · Entrega ${entregaTxt}` : `${local} · ${FASE_LONGA[u.fase]}`,
     titulo,
     destaque,
     subtitulo: sub.filter(Boolean).join(' · '),
     lazer,
+    diferenciais: diferenciaisDe(p),
     pagamentos: pagamentosDe(p, u),
     rodape: `${fase}${estimativa} Valores sujeitos a alteração.${data ? ` Fonte: tabela de preços (${data}).` : ' Fonte: tabela de preços.'}`,
   };

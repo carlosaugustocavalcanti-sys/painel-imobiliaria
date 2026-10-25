@@ -17,7 +17,7 @@
       </div>
       @if (aviso(); as a) { <p class="ger-aviso" role="status">{{ a }}</p> }
       @if (dados() && faltaFoto()) {
-        <p class="ger-aviso"><b>Sem fotos:</b> o card sai com as áreas marcadas “FOTO” e não está pronto para publicar. Adicione fotos ao lado.</p>
+        <p class="ger-aviso"><b>Sem fotos:</b> o card mostra os diferenciais no lugar da grade. Se quiser fotos, adicione ao lado.</p>
       }
     </div>
 
@@ -58,6 +58,16 @@
         </fieldset>
 
         <fieldset>
+          <legend>Diferenciais <small>aparecem quando o card não tem fotos</small></legend>
+          @for (x of difs(); track $index; let i = $index) {
+            <div class="ger-2">
+              <input [value]="x.titulo" (input)="dif(i, 'titulo', valor($event))" [placeholder]="'Diferencial ' + (i + 1)" [attr.aria-label]="'Diferencial ' + (i + 1) + ': título'" />
+              <input [value]="x.detalhe" (input)="dif(i, 'detalhe', valor($event))" placeholder="Detalhe (opcional)" [attr.aria-label]="'Diferencial ' + (i + 1) + ': detalhe'" />
+            </div>
+          }
+        </fieldset>
+
+        <fieldset>
           <legend>Pagamento</legend>
           <label class="campo marca-campo">
             <input type="checkbox" [checked]="d.pagamentos.length > 1" (change)="separarFluxos(d.pagamentos.length < 2)" />
@@ -82,6 +92,10 @@
               <div class="ger-2">
                 <label class="campo"><span class="rot">Total: texto</span><input [value]="p.totalRotulo" (input)="pag(i, 'totalRotulo', valor($event))" /></label>
                 <label class="campo"><span class="rot">Total: valor</span><input [value]="p.totalValor" (input)="pag(i, 'totalValor', valor($event))" /></label>
+              </div>
+              <div class="ger-2">
+                <label class="campo"><span class="rot">Depois do total</span><input [value]="p.depoisRotulo ?? ''" (input)="pag(i, 'depoisRotulo', valor($event))" placeholder="Ex.: À vista" /></label>
+                <label class="campo"><span class="rot">Valor</span><input [value]="p.depoisValor ?? ''" (input)="pag(i, 'depoisValor', valor($event))" placeholder="R$ 0,00" /></label>
               </div>
             </div>
           }

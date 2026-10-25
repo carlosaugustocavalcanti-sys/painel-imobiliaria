@@ -129,6 +129,18 @@ export class CardGerador {
   protected lazerTexto() {
     return this.dados()?.lazer.join('\n') ?? '';
   }
+  protected difs() {
+    const l = (this.dados()?.diferenciais ?? []).slice(0, 3);
+    while (l.length < 3) l.push({ titulo: '', detalhe: '' });
+    return l;
+  }
+  protected dif(i: number, k: 'titulo' | 'detalhe', v: string) {
+    this.dados.update((d) => {
+      if (!d) return d;
+      const diferenciais = this.difs().map((x, j) => (j === i ? { ...x, [k]: v } : x));
+      return { ...d, diferenciais };
+    });
+  }
   protected pag<K extends keyof Pagamento>(i: number, k: K, v: Pagamento[K]) {
     this.dados.update((d) => (d ? { ...d, pagamentos: d.pagamentos.map((p, j) => (j === i ? { ...p, [k]: v } : p)) } : d));
   }

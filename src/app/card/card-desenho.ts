@@ -134,19 +134,48 @@ function foto(ctx: Ctx, img: CanvasImageSource & { width: number; height: number
   ctx.drawImage(img, (img.width - sw) / 2, (img.height - sh) / 2, sw, sh, ret.x, ret.y, ret.w, ret.h);
   ctx.restore();
 }
-function vagaFoto(ctx: Ctx, ret: Ret) {
+
+/* ---------- diferenciais (card sem fotos) ---------- */
+/** Caixa cinza com número em marca-texto, título e detalhe. Devolve a altura usada. */
+function desenharDiferencial(ctx: Ctx, d: { titulo: string; detalhe: string }, n: number, topo: number) {
+  const xTexto = M + 128;
+  const larg = M + CW - 36 - xTexto;
+  fonte(ctx, 800, 32);
+  const titulo = quebrar(ctx, d.titulo.trim(), larg).slice(0, 2);
+  fonte(ctx, 500, 27);
+  const detalhe = d.detalhe.trim() ? quebrar(ctx, d.detalhe.trim(), larg).slice(0, 2) : [];
+  const altura = Math.max(118, 34 + titulo.length * 40 + detalhe.length * 36 + 26);
+
   ctx.fillStyle = COR.claro;
   ctx.beginPath();
-  ctx.roundRect(ret.x, ret.y, ret.w, ret.h, 24);
+  ctx.roundRect(M, topo, CW, altura, 24);
   ctx.fill();
+  const numTopo = topo + (altura - 58) / 2;
+  ctx.fillStyle = COR.amarelo;
+  ctx.fillRect(M + 32, numTopo, 64, 58);
+  ctx.fillStyle = COR.preto;
+  fonte(ctx, 900, 34);
+  const num = String(n).padStart(2, '0');
+  escrever(ctx, num, M + 32 + (64 - medir(ctx, num, -0.03)) / 2, numTopo + 41, -0.03);
+
+  let ty = topo + (altura - (titulo.length * 40 + detalhe.length * 36)) / 2 + 30;
+  fonte(ctx, 800, 32);
+  for (const l of titulo) {
+    escrever(ctx, l, xTexto, ty, -0.01);
+    ty += 40;
+  }
   ctx.fillStyle = COR.cinza;
-  fonte(ctx, 800, 20);
-  const w = medir(ctx, 'FOTO', 0.12);
-  escrever(ctx, 'FOTO', ret.x + (ret.w - w) / 2, ret.y + ret.h / 2 + 7, 0.12);
+  fonte(ctx, 500, 27);
+  for (const l of detalhe) {
+    escrever(ctx, l, xTexto, ty + 2);
+    ty += 36;
+  }
+  return altura;
 }
 
 /* ---------- bloco de pagamento ---------- */
 const temTotal = (pg: Pagamento) => !!(pg.totalRotulo.trim() || pg.totalValor.trim());
+const temDepois = (pg: Pagamento) => !!(pg.depoisRotulo?.trim() || pg.depoisValor?.trim());
 const linhasDe = (pg: Pagamento) => pg.linhas.filter((l) => l.rotulo.trim() || l.valor.trim());
 /** Medidas do bloco: cheio (largura toda) ou compacto (dois lado a lado). */
 const MEDIDA = {
@@ -157,7 +186,7 @@ function alturaPagamento(pg: Pagamento, compacto: boolean) {
   const m = compacto ? MEDIDA.compacto : MEDIDA.cheio;
   const rotulo = compacto ? 2 * m.rot + 10 : m.rot + 4;
   const sufixo = compacto && pg.sufixo.trim() ? m.suf + 10 : 0;
-  return m.pad + rotulo + 24 + m.grande + sufixo + 28 + linhasDe(pg).length * m.linha + (temTotal(pg) ? m.linha + 8 : 0) + m.pad - 18;
+  return m.pad + rotulo + 24 + m.grande + sufixo + 28 + linhasDe(pg).length * m.linha + (temTotal(pg) ? m.linha + 8 : 0) + (temDepois(pg) ? m.linha : 0) + m.pad - 18;
 }
 function desenharPagamento(ctx: Ctx, pg: Pagamento, x: number, topo: number, w: number, altura: number, compacto: boolean) {
   const m = compacto ? MEDIDA.compacto : MEDIDA.cheio;
@@ -227,6 +256,18 @@ function desenharPagamento(ctx: Ctx, pg: Pagamento, x: number, topo: number, w: 
     escrever(ctx, pg.totalValor, xf, py + m.linha * 0.8, -0.045, 'right');
     caber(ctx, caixa(pg.totalRotulo), 900, m.totRot, xf - xi - wv - 16, -0.02, 14);
     escrever(ctx, caixa(pg.totalRotulo), xi, py + m.linha * 0.78, -0.02);
+    py += m.linha + 8;
+  }
+  if (temDepois(pg)) {
+    // linha depois do total (ex.: "À vista"), no mesmo estilo das linhas de cima
+    ctx.fillStyle = BRANCO_25;
+    ctx.fillRect(xi, py, xf - xi, 1.5);
+    ctx.fillStyle = COR.branco;
+    fonte(ctx, 800, m.val);
+    const wv = medir(ctx, pg.depoisValor ?? '', -0.02);
+    escrever(ctx, pg.depoisValor ?? '', xf, py + m.linha * 0.7, -0.02, 'right');
+    caber(ctx, pg.depoisRotulo ?? '', 500, m.txt, xf - xi - wv - 16, 0, 14);
+    escrever(ctx, pg.depoisRotulo ?? '', xi, py + m.linha * 0.7);
   }
 }
 
@@ -334,15 +375,31 @@ export function desenharCard(ctx: Ctx, d: CardDados, fotos: (CanvasImageSource &
 
   const assinaturaTopo = ALTURA - 72 - 66;
   const sobra = assinaturaTopo - 40 - altRodape - 36 - altPg - 32 - altChips - y;
-  const altFotos = Math.max(0, Math.min(744, sobra));
+  /** Onde o bloco de pagamento fica quando não há fotos: mais para baixo, deixando ar acima da assinatura. */
+  let topoMinimoPg = 0;
 
-  /* fotos */
-  if (altFotos >= 200) {
-    const n = fotos.length || 6;
-    const grade = gradeFotos(Math.min(6, n), y, altFotos);
-    grade.forEach((ret, i) => (fotos[i] ? foto(ctx, fotos[i], ret) : vagaFoto(ctx, ret)));
-    y += altFotos + 28;
+  if (fotos.length) {
+    /* fotos: a grade usa só as que existem, sem nenhuma vaga vazia */
+    const altFotos = Math.max(0, Math.min(744, sobra));
+    if (altFotos >= 200) {
+      gradeFotos(Math.min(6, fotos.length), y, altFotos).forEach((ret, i) => foto(ctx, fotos[i], ret));
+      y += altFotos + 28;
+    }
+  } else {
+    /* sem fotos: diferenciais numerados no lugar da grade */
+    const difs = d.diferenciais.filter((x) => x.titulo.trim()).slice(0, 3);
+    if (difs.length) {
+      y += 42;
+      ctx.fillStyle = COR.cinza;
+      fonte(ctx, 800, 20);
+      escrever(ctx, 'DIFERENCIAIS', M, y + 18, 0.12);
+      y += 42;
+      for (const [i, dif] of difs.entries()) y += desenharDiferencial(ctx, dif, i + 1, y) + 20;
+    }
+    topoMinimoPg = assinaturaTopo - 200 - altRodape - 36 - altPg - altChips;
   }
+
+  y = Math.max(y, topoMinimoPg);
 
   /* lazer */
   if (linhasChips.length) {

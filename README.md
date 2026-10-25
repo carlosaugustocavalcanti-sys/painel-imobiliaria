@@ -52,7 +52,7 @@ node scripts/importar-books.mjs    # padrão: ~/Downloads
 
 Hoje há Harmony Residence (19 fotos do book em PDF), Personnalité (13 páginas recortadas) e a fachada noturna do Max 10. Fátima II, Bella Collina e Porto Marina continuam com as fotos de 640 px do artefato, porque os books deles não estão no computador.
 
-Prédio sem fotos: o card sai com as áreas marcadas "FOTO", e você adiciona as suas pelo botão "Adicionar fotos do computador".
+Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 
 ## Painéis antigos
 

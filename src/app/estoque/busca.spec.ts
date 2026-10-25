@@ -81,6 +81,26 @@ describe('card', () => {
     expect(cardDe(p, { ...base, fase: 'lancamento', tipologia: '3 dorms (1 suíte + 2 demi)', dm: '3' })).toMatchObject({ titulo: '3 dorms', destaque: '1 suíte' });
     expect(cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2' })).toMatchObject({ titulo: '', destaque: '2 dorms' });
   });
+  it('sem suíte, o destaque amarelo é a área; a entrega vai na etiqueta', () => {
+    const p = predio({ fase: 'lancamento', entrega: 'Dez/2026' });
+    const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2', area: 63.61 });
+    expect(c).toMatchObject({ titulo: '2 dorms', destaque: '63,61 m²' });
+    expect(c.etiqueta).toBe('Guilhermina · Praia Grande · Entrega Dez/2026');
+    expect(c.subtitulo).toBe('Na planta');
+  });
+  it('diferenciais: até 3, sem comissão, título e detalhe separados', () => {
+    const p = predio({
+      lanc: {
+        gravacao: 'a_gravar',
+        diferenciais: ['Comissão 5%', 'Localização: Guilhermina, perto da praia', 'Unidades com porcelanato (pisos e revestimentos)', 'Pronto para morar', 'Fechadura digital', 'Quarto item'],
+      },
+    });
+    expect(cardDe(p, { ...base, fase: 'pronto', tipologia: '2 dorms' }).diferenciais).toEqual([
+      { titulo: 'Localização', detalhe: 'Guilhermina, perto da praia' },
+      { titulo: 'Unidades com porcelanato', detalhe: 'Pisos e revestimentos' },
+      { titulo: 'Fechadura digital', detalhe: '' },
+    ]);
+  });
   it('fluxo direto vira o bloco de parcelas, sem inventar valores', () => {
     const p = predio({ fase: 'lancamento' });
     const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', valor: 800000, fluxo: { entrada: 200000, chaves: 0, anualQtd: 10, anualVal: 15000, parcQtd: 120, parcVal: 3750 } });
