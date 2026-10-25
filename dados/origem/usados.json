@@ -33,16 +33,6 @@
    ]
   },
   {
-   "id": "dumont-residence-aviacao",
-   "nome": "Dumont Residence",
-   "bairro": "Aviação",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "abc-boqueirao",
    "nome": "Ed. ABC",
    "bairro": "Boqueirão",
@@ -179,7 +169,6 @@
    "cat": "pronto",
    "entrega": "Entregue",
    "fontes": [
-    "Isildo",
     "Nova Casarão"
    ]
   },
@@ -774,16 +763,6 @@
    ]
   },
   {
-   "id": "saraiva-aviacao",
-   "nome": "Ed. Saraiva",
-   "bairro": "Aviação",
-   "cat": "pronto",
-   "entrega": "Entregue",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "siroco-ocian",
    "nome": "Ed. Siroco",
    "bairro": "Ocian",
@@ -982,7 +961,6 @@
    "cat": "pronto",
    "entrega": "Entregue",
    "fontes": [
-    "Isildo",
     "Kalyl Imóveis"
    ]
   },
@@ -997,56 +975,6 @@
    ]
   },
   {
-   "id": "primor-square-garden-canto-do-forte",
-   "nome": "Primor Square Garden",
-   "bairro": "Canto do Forte",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
-   "id": "primicia-plaza-guilhermina",
-   "nome": "Primícia Plaza",
-   "bairro": "Guilhermina",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
-   "id": "14-bis-aviacao",
-   "nome": "Res. 14 Bis",
-   "bairro": "Aviação",
-   "cat": "obra",
-   "entrega": "2º sem/2027",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
-   "id": "acquamare-aviacao",
-   "nome": "Res. Acquamare",
-   "bairro": "Aviação",
-   "cat": "pronto",
-   "entrega": "Entregue",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
-   "id": "atlantico-ii-guilhermina",
-   "nome": "Res. Atlântico II",
-   "bairro": "Guilhermina",
-   "cat": "pronto",
-   "entrega": "Entregue",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "attrative-guilhermina",
    "nome": "Res. Attrative",
    "bairro": "Guilhermina",
@@ -1054,16 +982,6 @@
    "entrega": "Entregue",
    "fontes": [
     "D&S Investimentos"
-   ]
-  },
-  {
-   "id": "bellagio-guilhermina",
-   "nome": "Res. Bellagio",
-   "bairro": "Guilhermina",
-   "cat": "obra",
-   "entrega": "Mai/2027",
-   "fontes": [
-    "Isildo"
    ]
   },
   {
@@ -1139,16 +1057,6 @@
    ]
   },
   {
-   "id": "laura-aviacao",
-   "nome": "Res. Laura",
-   "bairro": "Aviação",
-   "cat": "pronto",
-   "entrega": "Entregue",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "maragogi-aviacao",
    "nome": "Res. Maragogi",
    "bairro": "Aviação",
@@ -1199,16 +1107,6 @@
    ]
   },
   {
-   "id": "pedro-tupi",
-   "nome": "Res. Pedro",
-   "bairro": "Tupi",
-   "cat": "obra",
-   "entrega": "Out/2026",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "portugal-caicara",
    "nome": "Res. Portugal",
    "bairro": "Caiçara",
@@ -1239,16 +1137,6 @@
    ]
   },
   {
-   "id": "raimundo-gomes-aviacao",
-   "nome": "Res. Raimundo Gomes",
-   "bairro": "Aviação",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "raquel-chini-boqueirao",
    "nome": "Res. Raquel Chini",
    "bairro": "Boqueirão",
@@ -1256,16 +1144,6 @@
    "entrega": "Entregue",
    "fontes": [
     "D&S Investimentos"
-   ]
-  },
-  {
-   "id": "torres-caicara",
-   "nome": "Res. Torres",
-   "bairro": "Caiçara",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
    ]
   },
   {
@@ -1279,16 +1157,6 @@
    ]
   },
   {
-   "id": "unique-canto-do-forte",
-   "nome": "Res. Unique",
-   "bairro": "Canto do Forte",
-   "cat": "obra",
-   "entrega": "Abr/2027",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
    "id": "veneza-jardim-real",
    "nome": "Res. Veneza",
    "bairro": "Jardim Real",
@@ -1296,26 +1164,6 @@
    "entrega": "2030",
    "fontes": [
     "D&S Investimentos"
-   ]
-  },
-  {
-   "id": "veraneio-guilhermina",
-   "nome": "Res. Veraneio",
-   "bairro": "Guilhermina",
-   "cat": "pronto",
-   "entrega": "Entregue",
-   "fontes": [
-    "Isildo"
-   ]
-  },
-  {
-   "id": "volpi-caicara",
-   "nome": "Res. Volpi",
-   "bairro": "Caiçara",
-   "cat": "obra",
-   "entrega": "Fim/2026",
-   "fontes": [
-    "Isildo"
    ]
   },
   {
@@ -1999,29 +1847,13 @@
      "obs": "Cód. 2256. Exclusividade Francisco (13) 98207-3688. À vista R$ 500 mil; R$ 525 mil na permuta (estuda pequeno parcelamento direto). Sacada gourmet, lazer completo, pronto para morar.",
      "conf": false,
      "acesso": ""
-    },
-    {
-     "unidade": "137 A",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, vista mar, terraço gourmet",
-     "area": 80.18,
-     "valor": 550000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Valor à vista. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
     }
    ],
    "endereco": "Rua Comendador Otto Carlos Golanda, 200 · Ocian",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Comendador+Otto+Carlos+Golanda%2C+200%2C+Ocian+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076 | Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
-   "fonte": "Isildo, Kalyl Imóveis (Comissão 5%; Comissão não informada na tabela)",
-   "atualizadoEm": "03/10/2026 / 05/10/2026"
+   "contato": "Kalyl Imóveis (13) 98850-1016 · Francisco (13) 98207-3688 · Roberto (13) 99711-1983",
+   "fonte": "Kalyl Imóveis (Comissão 5%)",
+   "atualizadoEm": "03/10/2026"
   },
   "epic-canto-do-forte": {
    "itens": [
@@ -4025,45 +3857,13 @@
      "obs": "REF AP31877. Salão de jogos e festas, ginástica, sauna, espaço kids, piscina. Chaves: unidade Boqueirão 1 (Av. Pres. Castelo Branco, 1330). Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
      "conf": false,
      "acesso": "elevador"
-    },
-    {
-     "unidade": "57 B",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, vista livre, terraço gourmet",
-     "area": 57.03,
-     "valor": 470000,
-     "vfin": null,
-     "cond": 580,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 210 mil + 4 anuais de R$ 10 mil + 48x R$ 4.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "58 B",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, vista livre, terraço gourmet",
-     "area": 57.03,
-     "valor": 470000,
-     "vfin": null,
-     "cond": 580,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 210 mil + 4 anuais de R$ 10 mil + 48x R$ 4.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
     }
    ],
    "endereco": "Rua Cornélio Procópio, 202 · Boqueirão",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Corn%C3%A9lio+Proc%C3%B3pio%2C+202%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076 | Corretor indicado em cada imóvel",
-   "fonte": "Isildo, Nova Casarão (Comissão 5%; Comissão não informada na tabela)",
-   "atualizadoEm": "01/10/2026 / 05/10/2026"
+   "contato": "Corretor indicado em cada imóvel",
+   "fonte": "Nova Casarão (Comissão 5%)",
+   "atualizadoEm": "01/10/2026"
   },
   "miami-beach-boqueirao": {
    "itens": [
@@ -4580,653 +4380,6 @@
    "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
    "fonte": "Imigrantes Imóveis (Comissão 5%)",
    "atualizadoEm": "07/10/2026"
-  },
-  "saraiva-aviacao": {
-   "itens": [
-    {
-     "unidade": "23",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 87.21,
-     "valor": 610000,
-     "vfin": null,
-     "cond": 665,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 280 mil + 5 anuais de R$ 12 mil + 60x R$ 4.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Pero Vaz de Caminha, 285 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Pero+Vaz+de+Caminha%2C+285%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "laura-aviacao": {
-   "itens": [
-    {
-     "unidade": "32",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 77.41,
-     "valor": 560000,
-     "vfin": null,
-     "cond": 700,
-     "iptu": 398,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 10 mil + 60x R$ 4.333,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "113",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 76.38,
-     "valor": 570000,
-     "vfin": null,
-     "cond": 700,
-     "iptu": 380,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 255 mil + 5 anuais de R$ 10 mil + 60x R$ 4.416,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "104",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, lavabo, terraço gourmet",
-     "area": 62.19,
-     "valor": 490000,
-     "vfin": null,
-     "cond": 600,
-     "iptu": 320,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 220 mil + 5 anuais de R$ 10 mil + 60x R$ 3.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Carlos Martiniano de Andrade Bittencourt, 290 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Carlos+Martiniano+de+Andrade+Bittencourt%2C+290%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "veraneio-guilhermina": {
-   "itens": [
-    {
-     "unidade": "82",
-     "tipologia": "3 dorms",
-     "det": "3 suítes, terraço gourmet",
-     "area": 95.68,
-     "valor": 750000,
-     "vfin": null,
-     "cond": 975.41,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Condomínio entregue mobiliado pela construtora. Entrada R$ 335 mil + 5 anuais de R$ 15 mil + 60x R$ 5.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Doutor Júlio de Mesquita Filho, 227 · Guilhermina",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Doutor+J%C3%BAlio+de+Mesquita+Filho%2C+227%2C+Guilhermina+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "atlantico-ii-guilhermina": {
-   "itens": [
-    {
-     "unidade": "91",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 76.31,
-     "valor": 560000,
-     "vfin": null,
-     "cond": 620,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 12 mil + 60x R$ 4.166,66, ou financiamento bancário. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "72",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 76.31,
-     "valor": 550000,
-     "vfin": null,
-     "cond": 620,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 250 mil + 5 anuais de R$ 12 mil + 60x R$ 4.000, ou financiamento bancário. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Panamá, 487 · Guilhermina",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Panam%C3%A1%2C+487%2C+Guilhermina+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "acquamare-aviacao": {
-   "itens": [
-    {
-     "unidade": "107 (Bl. B)",
-     "tipologia": "1 dorm",
-     "det": "1 suíte, semimobiliado, móveis planejados",
-     "area": 55.58,
-     "valor": 520000,
-     "vfin": null,
-     "cond": 472.27,
-     "iptu": 400.36,
-     "vg": "1 demarcada",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Valor à vista. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Caribas, 200 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caribas%2C+200%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "pedro-tupi": {
-   "itens": [
-    {
-     "unidade": "23",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, vista mar, terraço gourmet, 4º pavimento",
-     "area": 75.76,
-     "valor": 530000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 240 mil + 5 anuais de R$ 10 mil + 60x R$ 4.000. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "25",
-     "tipologia": "3 dorms",
-     "det": "2 suítes, terraço gourmet, 4º pavimento",
-     "area": 97.42,
-     "valor": 730000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 330 mil + 5 anuais de R$ 12 mil + 60x R$ 5.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Uirapuru · Tupi",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Uirapuru%2C+Tupi+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "raimundo-gomes-aviacao": {
-   "itens": [
-    {
-     "unidade": "92",
-     "tipologia": "3 dorms",
-     "det": "3 suítes, vista mar",
-     "area": 121.45,
-     "valor": 1100000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "3",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Em frente ao futuro píer da Aviação. Entrada R$ 275 mil + chaves R$ 140 mil + 5 anuais de R$ 20 mil + 60x R$ 9.750. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "93",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, vista mar",
-     "area": 93.28,
-     "valor": 840000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Em frente ao futuro píer da Aviação. Entrada R$ 210 mil + chaves R$ 110 mil + 5 anuais de R$ 15 mil + 60x R$ 7.416,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Alberto Santos Dumont, 113 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+113%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "primicia-plaza-guilhermina": {
-   "itens": [
-    {
-     "unidade": "52",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 63.42,
-     "valor": 475000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 120 mil + chaves R$ 75 mil + 5 anuais de R$ 10 mil + 60x R$ 3.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "173",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 63.42,
-     "valor": 540000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 150 mil + chaves R$ 85 mil + 5 anuais de R$ 12 mil + 60x R$ 4.083,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "125",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 65.07,
-     "valor": 500000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 140 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 3.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "158",
-     "tipologia": "2 dorms",
-     "det": "1 suíte, terraço gourmet",
-     "area": 65.07,
-     "valor": 490000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora JR. Fração ideal já registrada na matrícula-mãe. Entrada R$ 140 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 3.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Botafogo, 217 · Guilhermina",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Botafogo%2C+217%2C+Guilhermina+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "torres-caicara": {
-   "itens": [
-    {
-     "unidade": "61 A",
-     "tipologia": "3 dorms",
-     "det": "1 suíte, frente mar, terraço gourmet",
-     "area": 111.49,
-     "valor": 960000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 280 mil + chaves R$ 130 mil + 5 anuais de R$ 15 mil + 60x R$ 7.916,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Av. Pres. Castelo Branco (esq. Av. São Romério) · Caiçara",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco+%28esq.+Av.+S%C3%A3o+Rom%C3%A9rio%29%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "volpi-caicara": {
-   "itens": [
-    {
-     "unidade": "123",
-     "tipologia": "3 dorms",
-     "det": "2 dorms + 1 suíte, terraço gourmet",
-     "area": 102,
-     "valor": 690000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 170 mil + chaves R$ 80 mil + 6 anuais de R$ 12 mil + 72x R$ 5.111,11. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua São Domingos, 875 · Caiçara",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Domingos%2C+875%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "dumont-residence-aviacao": {
-   "itens": [
-    {
-     "unidade": "161",
-     "tipologia": "3 dorms",
-     "det": "3 suítes, vista mar",
-     "area": 132.16,
-     "valor": 1220000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 300 mil + chaves R$ 190 mil + 5 anuais de R$ 20 mil + 60x R$ 10.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "132",
-     "tipologia": "3 dorms",
-     "det": "3 suítes, vista mar",
-     "area": 140.83,
-     "valor": 1267000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 315 mil + chaves R$ 190 mil + 5 anuais de R$ 25 mil + 60x R$ 10.616,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "163",
-     "tipologia": "2 dorms",
-     "det": "2 suítes",
-     "area": 97.34,
-     "valor": 760000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 115 mil + 5 anuais de R$ 15 mil + 60x R$ 6.333,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "164",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, vista mar",
-     "area": 96.1,
-     "valor": 815000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 7.000. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "85",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, vista mar",
-     "area": 94.65,
-     "valor": 810000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.916,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "146",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, vista mar",
-     "area": 96.34,
-     "valor": 830000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 130 mil + 5 anuais de R$ 15 mil + 60x R$ 7.083,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "147",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, vista mar",
-     "area": 101.56,
-     "valor": 795000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.666,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "148",
-     "tipologia": "2 dorms",
-     "det": "2 suítes",
-     "area": 100.32,
-     "valor": 790000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 200 mil + chaves R$ 120 mil + 5 anuais de R$ 15 mil + 60x R$ 6.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Alberto Santos Dumont, 111 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+111%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "primor-square-garden-canto-do-forte": {
-   "itens": [
-    {
-     "unidade": "193",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 85.58,
-     "valor": 840000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 180 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 9.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "196",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 93.06,
-     "valor": 910000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 10.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    },
-    {
-     "unidade": "199",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 91.95,
-     "valor": 910000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 190 mil + chaves R$ 100 mil + 4 anuais de R$ 25 mil + 48x R$ 10.833,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Av. Costa Machado, 440 · Canto do Forte",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Costa+Machado%2C+440%2C+Canto+do+Forte+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "14-bis-aviacao": {
-   "itens": [
-    {
-     "unidade": "53",
-     "tipologia": "2 dorms",
-     "det": "2 suítes, terraço gourmet",
-     "area": 69.32,
-     "valor": 520000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "1 demarcada",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Construtora MGQ. Entrada R$ 120 mil + chaves R$ 80 mil + 5 anuais de R$ 10 mil + 60x R$ 4.500. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua Alberto Santos Dumont, 205 · Aviação",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alberto+Santos+Dumont%2C+205%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "unique-canto-do-forte": {
-   "itens": [
-    {
-     "unidade": "23",
-     "tipologia": "3 dorms",
-     "det": "3 suítes, terraço gourmet",
-     "area": 149.85,
-     "valor": 1350000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 350 mil + chaves R$ 230 mil + 5 anuais de R$ 20 mil + 60x R$ 11.166,66. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Rua General Otelo Rodrigues Franco, 310 · Canto do Forte",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+General+Otelo+Rodrigues+Franco%2C+310%2C+Canto+do+Forte+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
-  },
-  "bellagio-guilhermina": {
-   "itens": [
-    {
-     "unidade": "45",
-     "tipologia": "3 dorms",
-     "det": "1 suíte, vista mar, terraço gourmet",
-     "area": 100.73,
-     "valor": 920000,
-     "vfin": null,
-     "cond": null,
-     "iptu": null,
-     "vg": "2 demarcadas",
-     "fonte": "Isildo",
-     "status": "disponivel",
-     "obs": "Entrada R$ 220 mil + chaves R$ 110 mil + 5 anuais de R$ 15 mil + 60x R$ 8.583,33. Parcelas corrigidas pela poupança + 0,5%. Aceita permuta e aberto a outras condições. Para visita, avisar um dia antes. ",
-     "conf": false,
-     "acesso": ""
-    }
-   ],
-   "endereco": "Alameda das Américas, 162 · Guilhermina",
-   "mapa": "https://www.google.com/maps/search/?api=1&query=Alameda+das+Am%C3%A9ricas%2C+162%2C+Guilhermina+Praia+Grande%2C+SP",
-   "contato": "Isildo (11) 98484-2632 · Guilherme (11) 98314-0076",
-   "fonte": "Isildo (Comissão não informada na tabela)",
-   "atualizadoEm": "05/10/2026"
   }
  }
 }
