@@ -248,7 +248,7 @@ export class App {
     if (f.fase) a.push({ rotulo: FASE_ROTULO[f.fase], limpar: { fase: '' } });
     if (f.acesso) a.push({ rotulo: { elevador: 'Com elevador', escada: 'Só escada', nd: 'Acesso não informado' }[f.acesso], limpar: { acesso: '' } });
     if (f.fonte) a.push({ rotulo: `Tabela: ${f.fonte}`, limpar: { fonte: '' } });
-    if (f.pagamento) a.push({ rotulo: f.pagamento === 'direto' ? 'Direto c/ construtora' : 'Financ. bancário', limpar: { pagamento: '' } });
+    if (f.pagamento) a.push({ rotulo: f.pagamento === 'direto' ? 'Direto c/ construtora/investidor' : 'Financ. bancário', limpar: { pagamento: '' } });
     if (f.entrega) a.push({ rotulo: `Entrega: ${f.entrega}`, limpar: { entrega: '' } });
     if (f.gravacao) a.push({ rotulo: f.gravacao === 'pend' ? 'Gravação pendente' : 'Já gravado', limpar: { gravacao: '' } });
     if (f.todas) a.push({ rotulo: 'Inclui reservadas e vendidas', limpar: { todas: false } });
@@ -257,7 +257,7 @@ export class App {
   });
   protected readonly qtdMaisFiltros = computed(() => {
     const f = this.f();
-    return [f.fase, f.acesso, f.fonte, f.pagamento, f.entrega, f.gravacao, f.todas, f.origem].filter(Boolean).length;
+    return [f.fase, f.acesso, f.fonte, f.entrega, f.gravacao, f.todas, f.origem].filter(Boolean).length;
   });
 
   protected readonly aberto = computed(() => {

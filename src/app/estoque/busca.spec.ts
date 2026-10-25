@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, entregaPrevista, lugarDe, montarLinhas, ordenar, passa } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -165,5 +165,16 @@ describe('pasta Lançamentos', () => {
     const lesan = montarLinhas([predio({ unidades: [{ ...base, fase: 'lancamento', unidade: '1', status: 'disponivel' }] })]);
     expect(lesan.filter((l) => passa(l, F({ origem: 'lesan' }))).length).toBe(1);
     expect(lesan.filter((l) => passa(l, F({ origem: 'usados' }))).length).toBe(0);
+  });
+});
+
+describe('forma de pagamento dos usados', () => {
+  it('lê banco, direto e negações do texto da tabela', () => {
+    expect(pagamentosDeTexto('Financia: Aceita financiamento bancário | Comissão 5%')).toEqual(['bancario']);
+    expect(pagamentosDeTexto('Parcelamento direto: 70% de entrada e o restante em 24x')).toEqual(['direto']);
+    expect(pagamentosDeTexto('Aceita financiamento bancário e direto, e permuta.')).toEqual(['direto', 'bancario']);
+    expect(pagamentosDeTexto('Permuta ou carro R$ 355 mil (sem banco)')).toEqual([]);
+    expect(pagamentosDeTexto('Financia: Somente à vista')).toEqual([]);
+    expect(pagamentosDeTexto('Valor à vista ou financiamento bancário; NÃO aceita parcelamento direto')).toEqual(['bancario']);
   });
 });

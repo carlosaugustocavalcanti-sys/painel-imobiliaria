@@ -72,6 +72,40 @@ export interface Linha {
   mercados: Mercado[];
   entrega: string;
   texto: string;
+  /** Formas de pagamento aceitas: lançamentos pela modalidade do prédio, usados pelo texto da tabela. */
+  pagamentos: Pagto[];
+}
+
+export type Pagto = 'bancario' | 'direto';
+
+/** Lê o texto livre de um usado e diz se aceita banco, parcelamento direto com o vendedor, ou os dois. */
+export function pagamentosDeTexto(obs: string | undefined): Pagto[] {
+  const t = normalizar(obs);
+  // frases separadas por . ; | para que "NÃO aceita parcelamento direto" não contamine a frase vizinha
+  const frases = t.split(/[.;|]/);
+  const r = new Set<Pagto>();
+  for (const f of frases) {
+    const negada = (re: RegExp) => new RegExp('(nao aceita|\\bsem\\b|nao permite|nao tem)[^,]*(?:' + re.source + ')').test(f);
+    const direto = /parcelamento direto|financiamento direto|parcelas? (corrigidas?|a prazo)|parcelad|estuda parcelamento|e direto\b|entrada \+|entrada r\$[^+]*\+/;
+    const banco = /financ(ia|iamento|iar)?\b|\bbancos?\b|bancari/;
+    if (direto.test(f) && !negada(direto)) r.add('direto');
+    const semDireto = f.replace(/financiamento direto/g, '');
+    if (banco.test(semDireto) && !negada(banco) && !/financia:\s*(somente )?(a vista|valor a vista|troca|estuda veiculo|aceita permuta)\s*$/.test(f)) r.add('bancario');
+  }
+  return [...r];
+}
+
+/** Formas de pagamento de uma unidade (juntando as tabelas em que ela aparece). */
+export function pagamentosDe(u: Unidade, p: Predio): Pagto[] {
+  const r = new Set<Pagto>();
+  for (const reg of [u, ...(u.outras ?? [])]) {
+    if (reg.mercado === 'construtora') {
+      const mod = p.lanc?.modalidade ?? 'bancario';
+      if (mod !== 'direto') r.add('bancario');
+      if (mod !== 'bancario') r.add('direto');
+    } else for (const x of pagamentosDeTexto(reg.obs)) r.add(x);
+  }
+  return [...r];
 }
 
 export function montarLinhas(predios: Predio[]): Linha[] {
@@ -88,6 +122,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         lugar: lugarDe(p),
         mercados: [...new Set(regs.map((r) => r.mercado))],
         entrega: anoEntrega(u.entregaUnidade || p.entrega, u.fase),
+        pagamentos: pagamentosDe(u, p),
         texto:
           textoPredio +
           ' ' +
@@ -164,8 +199,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('acesso') && f.acesso && (f.acesso === 'nd' ? !!u.acesso : u.acesso !== f.acesso)) return false;
   if (usa('fonte') && f.fonte && ![u, ...(u.outras ?? [])].some((r) => r.fonte === f.fonte)) return false;
   if (usa('pagamento') && f.pagamento) {
-    const mod = p.lanc?.modalidade ?? 'bancario';
-    if (u.mercado !== 'construtora' || ![f.pagamento, 'ambos'].includes(mod)) return false;
+    if (!l.pagamentos.includes(f.pagamento)) return false;
   }
   if (usa('entrega') && f.entrega && l.entrega !== f.entrega) return false;
   if (usa('gravacao') && f.gravacao) {

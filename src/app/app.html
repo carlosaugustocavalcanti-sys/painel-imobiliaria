@@ -25,6 +25,11 @@
         <button type="button" role="radio" [attr.aria-checked]="fl.tipo === 'usados'" (click)="mudar({ tipo: 'usados' })" title="Revenda: tabelas das imobiliárias parceiras">Usados <span>{{ fmt.num(contagemTipo().usados) }}</span></button>
         <button type="button" role="radio" [attr.aria-checked]="fl.tipo === 'lancamentos'" (click)="mudar({ tipo: 'lancamentos' })" title="Tabelas das construtoras: na planta, em obra e prontos">Lançamentos <span>{{ fmt.num(contagemTipo().lancamentos) }}</span></button>
       </div>
+      <div class="seg" role="radiogroup" aria-label="Forma de pagamento">
+        <button type="button" role="radio" [attr.aria-checked]="!fl.pagamento" (click)="mudar({ pagamento: '' })" title="Sem filtrar pela forma de pagamento">Qualquer forma</button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.pagamento === 'bancario'" (click)="mudar({ pagamento: 'bancario' })" title="Aceita financiamento bancário">Banco</button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.pagamento === 'direto'" (click)="mudar({ pagamento: 'direto' })" title="Parcelamento direto com a construtora ou o investidor">Direto</button>
+      </div>
       <button type="button" class="chave" [attr.aria-pressed]="fl.vista" (click)="mudar({ vista: !fl.vista })">
         <span class="chave-bola" aria-hidden="true"></span> Só vista mar <span class="n">{{ fmt.num(contagemVista()) }}</span>
       </button>
@@ -88,12 +93,6 @@
             <option value="elevador" [selected]="fl.acesso === 'elevador'">Com elevador</option>
             <option value="escada" [selected]="fl.acesso === 'escada'">Só escada</option>
             <option value="nd" [selected]="fl.acesso === 'nd'">Não informado</option>
-          </select></label>
-        <label class="campo"><span class="rot">Pagamento (lançamentos)</span>
-          <select (change)="mudar({ pagamento: $any(texto($event)) })">
-            <option value="" [selected]="!fl.pagamento">Qualquer</option>
-            <option value="bancario" [selected]="fl.pagamento === 'bancario'">Financiamento bancário</option>
-            <option value="direto" [selected]="fl.pagamento === 'direto'">Direto com a construtora</option>
           </select></label>
         <label class="campo"><span class="rot">Tabela de origem</span>
           <select (change)="mudar({ fonte: texto($event) })">
