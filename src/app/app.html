@@ -168,15 +168,15 @@
       @case ('unidades') {
         <ol class="lista-un">
           @for (l of visiveis(); track l.u.ref) {
-            <li>
-              <button type="button" class="un" (click)="abrir(l.p, l.u.ref)">
+            <li class="linha-un">
+              <button type="button" class="un" (click)="abrir(l.p, l.u.ref)" [attr.aria-label]="'Ver ' + l.p.nome + ', ' + (l.u.tipologia || 'unidade')">
                 <span class="un-valor num">
                   <b [class.mk]="!!l.u.valor">{{ l.u.valor ? fmt.brl(l.u.valor) : 'Consultar' }}</b>
                   @if (l.u.valor && l.u.area) { <small>{{ fmt.brl(l.u.valor / l.u.area) }}/m²</small> }
                 </span>
                 <span class="un-info">
                   <b>{{ l.u.tipologia || 'Tipologia não informada' }}</b>
-                  <small>{{ l.u.area ? fmt.m2(l.u.area) : 'área não informada' }}@if (l.u.vagas) { · {{ l.u.vagas }} vaga(s) }@if (l.u.cond) { · cond. {{ fmt.brl(l.u.cond) }} }@if (l.u.entrada) { · entrada {{ fmt.brlK(l.u.entrada) }} }</small>
+                  <small>{{ l.u.area ? fmt.m2(l.u.area) : 'área não informada' }}@if (l.u.vagas) { · {{ fmt.vagasTexto(l.u.vagas) }} }@if (l.u.cond) { · cond. {{ fmt.brl(l.u.cond) }} }@if (l.u.entrada) { · entrada {{ fmt.brlK(l.u.entrada) }} }</small>
                 </span>
                 <span class="un-predio">
                   <b>{{ l.p.nome }}</b>
@@ -190,8 +190,11 @@
                   @if (l.u.divergencias?.length) { <span class="tag tracejada" title="Tabelas com valores diferentes">2 valores</span> }
                   @if (l.u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela">Confirmar</span> }
                 </span>
-                <span class="un-seta" aria-hidden="true">›</span>
               </button>
+              <div class="un-acoes">
+                <button type="button" class="btn mini amarelo" (click)="gerarCard(l)">Gerar card</button>
+                <button type="button" class="btn mini contorno" (click)="copiar(l)" [attr.aria-live]="copiado() === l.u.ref ? 'polite' : null">{{ copiado() === l.u.ref ? 'Copiado ✓' : copiado() === 'erro:' + l.u.ref ? 'Não copiou' : 'Copiar p/ cliente' }}</button>
+              </div>
             </li>
           } @empty {
             <li class="vazio">
@@ -318,6 +321,10 @@
     <span>Fonte: tabelas de imobiliárias e construtoras parceiras, set. e out./2026. Valores e disponibilidade sujeitos a confirmação.</span>
   </footer>
 </main>
+
+@if (cardAberto(); as c) {
+  <app-card-gerador [predio]="c.p" [unidade]="c.u" (fechar)="cardAberto.set(null)" />
+}
 
 @if (aberto(); as p) {
   <app-predio-detalhe [predio]="p" [filtros]="f()" [destaque]="destaque()" (fechar)="fechar()" />

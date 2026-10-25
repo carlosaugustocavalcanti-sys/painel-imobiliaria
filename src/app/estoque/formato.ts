@@ -24,3 +24,12 @@ export function faixa(min?: number | null, max?: number | null, fmt: (v: number)
 }
 
 export const plural = (n: number, um: string, varios: string) => `${NUM.format(n)} ${n === 1 ? um : varios}`;
+
+/** "1" → "1 vaga", "2 demarcadas" → "2 vagas demarcadas", "coletiva" → "Vaga coletiva", "Sem vaga" fica como está. */
+export function vagasTexto(v?: string): string {
+  if (!v || v === '—') return '';
+  const m = v.match(/^(\d+)\s*(.*)$/);
+  if (!m) return /vaga/i.test(v) ? v.charAt(0).toUpperCase() + v.slice(1) : `Vaga ${v.toLowerCase()}`;
+  const n = +m[1];
+  return `${n} vaga${n === 1 ? '' : 's'}${m[2] ? ' ' + m[2] : ''}`;
+}

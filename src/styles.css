@@ -128,20 +128,24 @@ select:hover { border-color: var(--preto); }
 
 /* ---------- lista de unidades ---------- */
 .lista-un { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
-.un { width: 100%; display: grid; grid-template-columns: 150px minmax(0, 1.3fr) minmax(0, 1.1fr) minmax(0, 1fr) 16px; gap: 16px; align-items: center; text-align: left; background: var(--branco); border: var(--borda); border-radius: 14px; padding: 12px 16px; transition: border-color 0.15s; }
-.un:hover { border-color: var(--preto); }
+.linha-un { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; background: var(--branco); border: var(--borda); border-radius: 14px; transition: border-color 0.15s; }
+.linha-un:hover { border-color: var(--preto); }
+.un { width: 100%; display: grid; grid-template-columns: 150px minmax(0, 1.3fr) minmax(0, 1.1fr) minmax(0, 1fr); gap: 16px; align-items: center; text-align: left; background: none; border: 0; border-radius: 14px 0 0 14px; padding: 12px 16px; }
+.un-acoes { display: flex; flex-direction: column; gap: 6px; padding: 10px 14px 10px 4px; }
+.un-acoes .btn { min-width: 132px; }
 .un small { display: block; color: var(--cinza); font-size: 12.5px; margin-top: 2px; }
 .un-valor b { font-size: 18px; font-weight: 900; letter-spacing: -0.02em; }
 .un-info b, .un-predio b { font-weight: 800; }
 .un-tags { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
-.un-seta { font-size: 22px; color: var(--cinza); }
 @media (max-width: 860px) {
+  .linha-un { grid-template-columns: 1fr; }
+  .un-acoes { flex-direction: row; padding: 0 14px 12px; }
+  .un-acoes .btn { flex: 1; min-width: 0; min-height: 40px; }
   .un { grid-template-columns: 1fr auto; gap: 6px 12px; }
   .un-valor { order: 2; text-align: right; }
   .un-predio { order: 1; }
   .un-info { order: 3; grid-column: 1 / -1; }
   .un-tags { order: 4; grid-column: 1 / -1; justify-content: flex-start; }
-  .un-seta { display: none; }
 }
 .mais-res { display: flex; gap: 14px; align-items: center; justify-content: center; margin-top: 16px; color: var(--cinza); font-size: 13px; }
 

@@ -22,11 +22,13 @@ import {
   valLabel,
 } from './estoque/busca';
 import { EstoqueService } from './estoque/estoque.service';
-import { brl, brlK, faixa, m2, num, plural } from './estoque/formato';
-import { Dorm, Predio } from './estoque/modelo';
+import { brl, brlK, faixa, m2, num, plural, vagasTexto } from './estoque/formato';
+import { Dorm, Predio, Unidade } from './estoque/modelo';
 import { Aba, escreverUrl, lerUrl } from './estoque/url';
 import { Orla, TrechoOrla } from './orla/orla';
 import { PredioDetalhe } from './predio/predio-detalhe';
+import { CardGerador } from './card/card-gerador';
+import { copiarParaCliente } from './estoque/cliente';
 
 const POR_PAGINA = 40;
 const MESES = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
@@ -41,7 +43,7 @@ interface ResumoPredio {
 
 @Component({
   selector: 'app-root',
-  imports: [Orla, PredioDetalhe],
+  imports: [Orla, PredioDetalhe, CardGerador],
   templateUrl: './app.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
@@ -56,8 +58,12 @@ export class App {
   protected readonly destaque = signal<string | null>(null);
   protected readonly limite = signal(POR_PAGINA);
   protected readonly maisFiltros = signal(false);
+  /** Unidade com o gerador de card aberto direto da lista de resultados. */
+  protected readonly cardAberto = signal<{ p: Predio; u: Unidade } | null>(null);
+  /** Ref da unidade recém-copiada (ou "erro:<ref>"), para o retorno no botão. */
+  protected readonly copiado = signal<string | null>(null);
 
-  protected readonly fmt = { brl, brlK, faixa, m2, num, plural, valLabel };
+  protected readonly fmt = { brl, brlK, faixa, m2, num, plural, valLabel, vagasTexto };
   protected readonly Math = Math;
   protected readonly ORDENS = ORDENS;
   protected readonly VAL_STEPS = VAL_STEPS;
@@ -301,6 +307,13 @@ export class App {
       this.predioAberto.set(null);
       history.replaceState(null, '', escreverUrl({ f: this.f(), aba: this.aba(), ordem: this.ordem(), predio: null }));
     }
+  }
+  protected gerarCard(l: Linha) {
+    this.cardAberto.set({ p: l.p, u: l.u });
+  }
+  protected async copiar(l: Linha) {
+    this.copiado.set((await copiarParaCliente(l.p, l.u)) ? l.u.ref : 'erro:' + l.u.ref);
+    setTimeout(() => this.copiado.set(null), 2200);
   }
   protected texto(ev: Event) {
     return (ev.target as HTMLInputElement).value;

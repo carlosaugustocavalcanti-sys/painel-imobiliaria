@@ -13,6 +13,7 @@ import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, passa, montarLinhas
 import { brl, brl2, brlK, faixa, m2, num } from '../estoque/formato';
 import { Predio, RegistroUnidade, Unidade } from '../estoque/modelo';
 import { CardGerador } from '../card/card-gerador';
+import { copiarParaCliente } from '../estoque/cliente';
 
 const CAMPO_ROTULO: Record<string, string> = { valor: 'valor', status: 'status', area: 'área', cond: 'condomínio', iptu: 'IPTU' };
 
@@ -116,27 +117,8 @@ export class PredioDetalhe {
     return r.valor ? brl(r.valor) : 'sem valor';
   }
 
-  /** Texto pronto para mandar ao cliente: sem número da unidade, sem dados internos. */
   protected async copiar(u: Unidade) {
-    const p = this.predio();
-    const linhas = [
-      `${p.nome} · ${p.bairro !== 'A confirmar' ? p.bairro + ', ' : ''}${p.cidade}`,
-      [u.tipologia, u.area ? m2(u.area) : '', u.vagas ? `${u.vagas} vaga(s)` : ''].filter(Boolean).join(' · '),
-      u.vistaMar ? (u.vista || 'Vista para o mar') : '',
-      u.valor ? `Valor: ${brl(u.valor)}` : 'Valor sob consulta',
-      u.entrada ? `Entrada a partir de ${brl(u.entrada)}` : '',
-      u.cond ? `Condomínio: ${brl2(u.cond)}` : '',
-      u.iptu ? `IPTU: ${brl2(u.iptu)}` : '',
-      FASE_ROTULO[u.fase] + (p.entrega && u.fase !== 'pronto' ? ` · entrega ${p.entrega}` : ''),
-      'Valores sujeitos a confirmação.',
-      'Carlos Cavalcanti · CRECI 331032 · @carlos_cavalcanti_imoveis_',
-    ].filter(Boolean);
-    try {
-      await navigator.clipboard.writeText(linhas.join('\n'));
-      this.copiado.set(u.ref);
-      setTimeout(() => this.copiado.set(null), 2200);
-    } catch {
-      this.copiado.set('erro');
-    }
+    this.copiado.set((await copiarParaCliente(this.predio(), u)) ? u.ref : 'erro');
+    setTimeout(() => this.copiado.set(null), 2200);
   }
 }

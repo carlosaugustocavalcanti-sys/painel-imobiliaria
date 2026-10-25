@@ -115,3 +115,29 @@ describe('card', () => {
     expect(c.pagamentos[1].grande.replace(/\s/g, ' ')).toBe('R$ 635.239,00');
   });
 });
+
+import { vagasTexto } from './formato';
+import { textoCliente } from './cliente';
+describe('copiar para o cliente', () => {
+  it('vagas legíveis', () => {
+    expect(['1', '2', '2 demarcadas', 'Sem vaga', 'coletiva', '—', undefined].map((v) => vagasTexto(v))).toEqual([
+      '1 vaga',
+      '2 vagas',
+      '2 vagas demarcadas',
+      'Sem vaga',
+      'Vaga coletiva',
+      '',
+      '',
+    ]);
+  });
+  it('texto sem número da unidade nem dados internos', () => {
+    const p = predio({});
+    const u = P.unidades![0];
+    const t = textoCliente(p, { ...u, vagas: '1', fonte: 'Imobiliária X', contato: '(13) 9999-0000' });
+    expect(t).toContain('Ed. Teste · Guilhermina, Praia Grande');
+    expect(t).toContain('2 dorms · 70 m² · 1 vaga');
+    expect(t).not.toContain('14');
+    expect(t).not.toContain('Imobiliária X');
+    expect(t).not.toContain('9999');
+  });
+});
