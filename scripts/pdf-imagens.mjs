@@ -97,8 +97,11 @@ function png(largura, altura, rgba) {
   return Buffer.concat([Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]), bloco('IHDR', ihdr), bloco('IDAT', deflateSync(cru)), bloco('IEND', Buffer.alloc(0))]);
 }
 
+/** Verde de chroma key dos books em vídeo (#1ED73C e parecidos): conta como "vazio", não como foto. */
+const verde = (r, g, b) => g >= 200 && g <= 240 && r <= 30 && b <= 30; // só o verde puro do chroma key, não gramado de foto
+
 /**
- * Maior retângulo totalmente opaco da imagem (borda esfumaçada ou recorte em diagonal ficam de fora).
+ * Maior retângulo totalmente opaco da imagem (borda esfumaçada, recorte em diagonal e fundo verde ficam de fora).
  * Trabalha numa grade de blocos de 8 px e usa o "maior retângulo no histograma" linha a linha. [x, y, largura, altura]
  */
 function caixaOpaca(rgba, w, h) {
@@ -109,11 +112,13 @@ function caixaOpaca(rgba, w, h) {
     for (let gx = 0; gx < gw; gx++) {
       let ok = 1;
       for (let y = gy * B; y < gy * B + B && ok; y++)
-        for (let x = gx * B; x < gx * B + B; x++)
-          if (rgba[(y * w + x) * 4 + 3] < 245) {
+        for (let x = gx * B; x < gx * B + B; x++) {
+          const k = (y * w + x) * 4;
+          if (rgba[k + 3] < 245 || verde(rgba[k], rgba[k + 1], rgba[k + 2])) {
             ok = 0;
             break;
           }
+        }
       cheio[gy * gw + gx] = ok;
     }
   const alt = new Int32Array(gw);
@@ -196,7 +201,11 @@ export function imagensDoPdf(buffer, minLado = 900) {
         /* sem máscara legível: fica opaca */
       }
     }
-    lista.push({ indice, largura: w, altura: h, tipo: 'png', dados: png(w, h, rgba), transparencia, opaco: transparencia ? caixaOpaca(rgba, w, h) : null });
+    // fundo verde de chroma key ocupando uma parte da imagem (mais de 2% dos pixels)
+    let verdes = 0;
+    for (let i = 0; i < w * h; i += 7) if (verde(rgba[i * 4], rgba[i * 4 + 1], rgba[i * 4 + 2])) verdes++;
+    const comVerde = verdes * 7 > 0.02 * w * h;
+    lista.push({ indice, largura: w, altura: h, tipo: 'png', dados: png(w, h, rgba), transparencia, opaco: transparencia || comVerde ? caixaOpaca(rgba, w, h) : null });
   }
   return lista;
 }

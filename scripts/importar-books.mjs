@@ -16,6 +16,10 @@ const estoque = JSON.parse(readFileSync('public/dados/estoque.json', 'utf8'));
 const tmp = mkdtempSync(join(tmpdir(), 'books-'));
 const MAX = 1600;
 const sips = (...args) => execFileSync('sips', args, { stdio: 'pipe' });
+const dimensoes = (arq) => {
+  const t = sips('-g', 'pixelWidth', '-g', 'pixelHeight', arq).toString();
+  return [+t.match(/pixelWidth: (\d+)/)[1], +t.match(/pixelHeight: (\d+)/)[1]];
+};
 const ladoMaior = (arq) =>
   Math.max(...[...sips('-g', 'pixelWidth', '-g', 'pixelHeight', arq).toString().matchAll(/pixel(?:Width|Height): (\d+)/g)].map((x) => +x[1]));
 
@@ -34,8 +38,11 @@ for (const [chave, book] of Object.entries(books.predios)) {
   const novas = book.fotos.map((f, i) => {
     let origem;
     let corte = f.corte;
-    const pdf = f.pdf ?? book.pdf;
-    if (pdf) {
+    const pdf = f.arquivo ? undefined : (f.pdf ?? book.pdf);
+    if (f.arquivo) {
+      // imagem solta (JPEG/PNG) dentro da pasta do book
+      origem = caminho(f.pasta ?? book.pasta, f.arquivo);
+    } else if (pdf) {
       const img = imagensDe(f.pasta ?? book.pasta, pdf).find((x) => x.indice === f.imagem);
       if (!img) throw new Error(`${chave}: imagem ${f.imagem} não encontrada em ${pdf}`);
       origem = join(tmp, `${chave}-${f.imagem}.${img.tipo}`);
@@ -50,18 +57,28 @@ for (const [chave, book] of Object.entries(books.predios)) {
       if (!nome) throw new Error(`${chave}: página ${f.pagina} não encontrada`);
       origem = join(caminho(book.pasta, book.paginas), nome);
     }
-    const slug = f.rotulo.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    const slug = f.rotulo.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     const arquivo = `${destino}/hd_${String(i + 1).padStart(2, '0')}_${slug}.jpg`;
     const trabalho = join(tmp, `t-${chave}-${i}.png`);
     sips('-s', 'format', 'png', origem, '--out', trabalho);
     if (corte) {
-      const [x, y, w, h] = corte.map(Math.round);
-      sips('-c', String(h), String(w), '--cropOffset', String(y), String(x), trabalho);
+      let [x, y, w, h] = corte.map(Math.round);
+      const [W, H] = dimensoes(trabalho);
+      if (x === 0 && y === 0) {
+        // O sips trata "--cropOffset 0 0" como "sem offset" e centraliza o recorte. Com folga de 1 px no eixo que sobrar, o recorte sai do canto.
+        if (w >= W && h >= H) w = h = 0;
+        else if (W - w >= 1) x = 1;
+        else y = 1;
+      }
+      // o sips também ignora o recorte quando ele encosta exatamente na borda: 1 px de folga
+      if (x + w >= W) w = W - x - 1;
+      if (y + h >= H) h = H - y - 1;
+      if (w && h) sips('-c', String(h), String(w), '--cropOffset', String(y), String(x), trabalho);
     }
     // só reduz: ampliar não ganha nitidez e pesa mais
     const reduzir = ladoMaior(trabalho) > MAX ? ['-Z', String(MAX)] : [];
     sips(...reduzir, '-s', 'format', 'jpeg', '-s', 'formatOptions', '82', trabalho, '--out', arquivo);
-    return { arquivo: arquivo.replace(/^public\//, ''), rotulo: f.rotulo, hd: true };
+    return { arquivo: arquivo.replace(/^public\//, ''), rotulo: f.rotulo, hd: true, ...(f.real ? { real: true } : {}) };
   });
 
   const atual = manifesto.predios[chave] ?? { nome: book.nome, noEstoque, fotos: [] };

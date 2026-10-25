@@ -6,68 +6,75 @@
    "noEstoque": true,
    "fotos": [
     {
-     "arquivo": "fotos/fatima/fatima_01.jpg",
+     "arquivo": "fotos/fatima/hd_01_fachada.jpg",
      "rotulo": "Fachada",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_02.jpg",
+     "arquivo": "fotos/fatima/hd_02_piscina.jpg",
      "rotulo": "Piscina",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_03.jpg",
+     "arquivo": "fotos/fatima/hd_03_salao-de-festas.jpg",
      "rotulo": "Salão de festas",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_04.jpg",
+     "arquivo": "fotos/fatima/hd_04_salao-de-festas-externo.jpg",
      "rotulo": "Salão de festas externo",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_05.jpg",
+     "arquivo": "fotos/fatima/hd_05_academia.jpg",
      "rotulo": "Academia",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_06.jpg",
+     "arquivo": "fotos/fatima/hd_06_sala-de-jogos.jpg",
      "rotulo": "Sala de jogos",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_07.jpg",
+     "arquivo": "fotos/fatima/hd_07_sala-de-jogos-com-ping-pong.jpg",
      "rotulo": "Sala de jogos com ping-pong",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_08.jpg",
+     "arquivo": "fotos/fatima/hd_08_espaco-gamer.jpg",
      "rotulo": "Espaço gamer",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_09.jpg",
+     "arquivo": "fotos/fatima/hd_09_brinquedoteca.jpg",
      "rotulo": "Brinquedoteca",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_10.jpg",
+     "arquivo": "fotos/fatima/hd_10_playground.jpg",
      "rotulo": "Playground",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_11.jpg",
+     "arquivo": "fotos/fatima/hd_11_sala-de-estar.jpg",
      "rotulo": "Sala de estar",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_12.jpg",
+     "arquivo": "fotos/fatima/hd_12_espaco-gourmet.jpg",
      "rotulo": "Espaço gourmet",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/fatima/fatima_13.jpg",
+     "arquivo": "fotos/fatima/hd_13_obra-foto-real.jpg",
      "rotulo": "Obra (foto real)",
+     "hd": true,
+     "real": true
+    },
+    {
+     "arquivo": "fotos/fatima/hd_14_sacada-da-obra-foto-real.jpg",
+     "rotulo": "Sacada da obra (foto real)",
+     "hd": true,
      "real": true
     }
    ]
@@ -190,7 +197,7 @@
   },
   "harmony-residence": {
    "nome": "Harmony Residence",
-   "noEstoque": false,
+   "noEstoque": true,
    "fotos": [
     {
      "arquivo": "fotos/harmony-residence/hd_01_fachada-e-praia.jpg",
@@ -557,6 +564,87 @@
     },
     {
      "arquivo": "fotos/personnalite/hd_13_suite.jpg",
+     "rotulo": "Suíte",
+     "hd": true
+    }
+   ]
+  },
+  "seven-guilhermina": {
+   "nome": "Seven Guilhermina",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_01_fachada.jpg",
+     "rotulo": "Fachada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_02_fachada-vista-da-rua.jpg",
+     "rotulo": "Fachada vista da rua",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_03_piscina-borda-infinita.jpg",
+     "rotulo": "Piscina borda infinita",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_04_piscina-e-deck.jpg",
+     "rotulo": "Piscina e deck",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_05_terraco-lounge.jpg",
+     "rotulo": "Terraço lounge",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_06_terraco-com-pergolado.jpg",
+     "rotulo": "Terraço com pergolado",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_07_academia.jpg",
+     "rotulo": "Academia",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_08_salao-de-jogos.jpg",
+     "rotulo": "Salão de jogos",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_09_salao-de-festas.jpg",
+     "rotulo": "Salão de festas",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_10_salao-de-festas-outro-angulo.jpg",
+     "rotulo": "Salão de festas (outro ângulo)",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_11_varanda-gourmet.jpg",
+     "rotulo": "Varanda gourmet",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_12_sala-de-estar-e-jantar.jpg",
+     "rotulo": "Sala de estar e jantar",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_13_cozinha.jpg",
+     "rotulo": "Cozinha",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_14_area-de-servico.jpg",
+     "rotulo": "Área de serviço",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/seven-guilhermina/hd_15_suite.jpg",
      "rotulo": "Suíte",
      "hd": true
     }

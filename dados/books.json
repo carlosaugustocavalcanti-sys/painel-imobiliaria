@@ -1,5 +1,5 @@
 {
-  "sobre": "Fotos em alta resolução tiradas dos books das construtoras (pastas Downloads e OneDrive do Carlos, 24 e 25/10/2026). 'imagem' = número da imagem no PDF, na contagem de scripts/pdf-imagens.mjs; 'pasta' troca a pasta padrão (~/Downloads); 'pagina' = arquivo da pasta de páginas. 'corte' = [x, y, largura, altura] em pixels da imagem original, para tirar logos, legendas, moldura e texto. Ficaram de fora: plantas, implantação, fotos com o apresentador e repetidas.",
+  "sobre": "Fotos em alta resolução tiradas dos books das construtoras (pastas Downloads e OneDrive do Carlos, 24 e 25/10/2026). 'imagem' = número da imagem no PDF, na contagem de scripts/pdf-imagens.mjs; 'pasta' troca a pasta padrão (~/Downloads); 'pagina' = arquivo da pasta de páginas; 'arquivo' = imagem solta dentro da pasta do book; 'real' = foto real (não é render). 'corte' = [x, y, largura, altura] em pixels da imagem original, para tirar logos, legendas, moldura e texto. Ficaram de fora: plantas, implantação, fotos com o apresentador e repetidas.",
   "predios": {
     "harmony-residence": {
       "nome": "Harmony Residence",
@@ -352,6 +352,140 @@
             1023,
             934
           ]
+        }
+      ]
+    },
+    "seven-guilhermina": {
+      "nome": "Seven Guilhermina",
+      "pasta": "~/OneDrive/Outros/Lesan/Lançamentos/SEVEN - GUILHERMINA",
+      "pdf": "Book Seven_Lesan.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 5,
+          "rotulo": "Fachada"
+        },
+        {
+          "imagem": 4,
+          "rotulo": "Fachada vista da rua"
+        },
+        {
+          "imagem": 17,
+          "rotulo": "Piscina borda infinita"
+        },
+        {
+          "imagem": 28,
+          "rotulo": "Piscina e deck"
+        },
+        {
+          "imagem": 15,
+          "rotulo": "Terraço lounge"
+        },
+        {
+          "imagem": 40,
+          "rotulo": "Terraço com pergolado"
+        },
+        {
+          "imagem": 43,
+          "rotulo": "Academia"
+        },
+        {
+          "imagem": 19,
+          "rotulo": "Salão de jogos"
+        },
+        {
+          "imagem": 21,
+          "rotulo": "Salão de festas"
+        },
+        {
+          "imagem": 46,
+          "rotulo": "Salão de festas (outro ângulo)"
+        },
+        {
+          "imagem": 9,
+          "rotulo": "Varanda gourmet"
+        },
+        {
+          "imagem": 30,
+          "rotulo": "Sala de estar e jantar"
+        },
+        {
+          "imagem": 33,
+          "rotulo": "Cozinha"
+        },
+        {
+          "imagem": 36,
+          "rotulo": "Área de serviço"
+        },
+        {
+          "imagem": 12,
+          "rotulo": "Suíte"
+        }
+      ]
+    },
+    "fatima": {
+      "nome": "Fátima II",
+      "pasta": "~/OneDrive/Outros/Lesan/Lançamentos/FATIMA II",
+      "pdf": "BOOK COMPLETO_FATIMA II.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 34,
+          "rotulo": "Fachada"
+        },
+        {
+          "imagem": 37,
+          "rotulo": "Piscina"
+        },
+        {
+          "imagem": 39,
+          "rotulo": "Salão de festas"
+        },
+        {
+          "imagem": 40,
+          "rotulo": "Salão de festas externo"
+        },
+        {
+          "imagem": 41,
+          "rotulo": "Academia"
+        },
+        {
+          "imagem": 42,
+          "rotulo": "Sala de jogos"
+        },
+        {
+          "imagem": 43,
+          "rotulo": "Sala de jogos com ping-pong"
+        },
+        {
+          "imagem": 44,
+          "rotulo": "Espaço gamer"
+        },
+        {
+          "imagem": 45,
+          "rotulo": "Brinquedoteca"
+        },
+        {
+          "imagem": 46,
+          "rotulo": "Playground"
+        },
+        {
+          "imagem": 47,
+          "rotulo": "Sala de estar"
+        },
+        {
+          "imagem": 49,
+          "rotulo": "Espaço gourmet"
+        },
+        {
+          "imagem": 62,
+          "rotulo": "Obra (foto real)",
+          "real": true
+        },
+        {
+          "arquivo": "FOTOS CONSTRUÇÃO/SACADA.jpeg",
+          "rotulo": "Sacada da obra (foto real)",
+          "real": true
         }
       ]
     }
