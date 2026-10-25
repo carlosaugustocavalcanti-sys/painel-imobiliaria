@@ -13,3 +13,5 @@ O Carlos avisa quando não quiser isso numa alteração específica. Sem aviso, 
 ## Ambiente
 
 O Node não está no PATH padrão. Use `export PATH=$HOME/.local/node-v24.21.0-darwin-arm64/bin:$PATH` (ou `~/.local/node/bin`) antes de rodar `npx`/`npm`.
+
+O push usa o `gh` como credencial (configurado em `.git/config` deste repositório). Se pedir usuário/senha, rode `git config --local credential.https://github.com.helper '!/Users/carloscavalcanti/.local/bin/gh auth git-credential'`.
