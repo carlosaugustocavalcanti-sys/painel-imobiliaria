@@ -89,11 +89,12 @@
                 @if (c.entrada) { <td class="r num">{{ fmt.brl(u.entrada) }}</td> }
                 @if (c.chaves) { <td class="r num">{{ fmt.brl(u.chaves) }}</td> }
                 @if (c.fluxo) {
-                  <td class="r num">
+                  <td class="r num fluxo">
                     @if (u.fluxo; as fl) {
-                      chaves {{ fmt.brl(fl.chaves) }}
+                      @if (fl.chaves) {chaves {{ fmt.brl(fl.chaves) }}}
                       @if (fl.anualQtd) {<small>{{ fl.anualQtd }} × {{ fmt.brl(fl.anualVal) }} anuais</small>}
                       @if (fl.parcQtd) {<small>{{ fl.parcQtd }} × {{ fmt.brl2(fl.parcVal) }}</small>}
+                      @if (fl.unica) {<small>parcela única {{ fmt.brl(fl.unica) }}</small>}
                     }
                   </td>
                 }
@@ -140,6 +141,20 @@
       </div>
     } @else {
       <p class="vazio"><b>Tabela ainda não recebida.</b> Este empreendimento está na lista de lançamentos, mas ainda não tem unidades e valores.</p>
+    }
+
+    @if (p.lazer?.length || p.notas?.length || (p.diferenciais?.length && !p.lanc)) {
+      <section class="bloco">
+        <h3>Sobre o prédio</h3>
+        @if (p.lazer?.length) { <p><b>Lazer</b> · {{ p.lazer!.join(' · ') }}</p> }
+        @if (p.diferenciais?.length && !p.lanc) {
+          <ul class="pontos">@for (d of p.diferenciais; track $index) {<li>{{ d }}</li>}</ul>
+        }
+        @if (p.notas?.length) {
+          <p><b>Observações das tabelas</b></p>
+          <ul class="lista">@for (n of p.notas; track $index) {<li>{{ n }}</li>}</ul>
+        }
+      </section>
     }
 
     @if (p.lanc; as L) {

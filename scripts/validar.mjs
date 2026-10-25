@@ -1,4 +1,4 @@
-// Confere public/dados/estoque.json contra os dados originais dos três painéis (dados/origem/*.json).
+// Confere public/dados/estoque.json contra os dados originais dos três painéis e da pasta Lançamentos (dados/origem/*.json).
 // Falha (exit 1) se algum registro de origem sumiu, foi duplicado, teve valor alterado ou tem um campo sem destino.
 // Uso: node scripts/validar.mjs
 import { readFileSync } from 'node:fs';
@@ -8,6 +8,7 @@ const ler = (p) => JSON.parse(readFileSync(p, 'utf8'));
 const USADOS = ler('dados/origem/usados.json');
 const LANC = ler('dados/origem/lancamentos.json');
 const VISTA = ler('dados/origem/vista-mar.json');
+const PASTA = ler('dados/origem/pasta-lancamentos.json');
 const ESTOQUE = ler('public/dados/estoque.json');
 
 const erros = [];
@@ -112,8 +113,6 @@ for (const [id, t] of Object.entries(LANC.units)) {
   });
 }
 
-const totalUnificado = porRef.size;
-if (totalUnificado !== refsOrigem.length) erro(`Registros: origem ${refsOrigem.length}, unificado ${totalUnificado}`);
 
 /* ---------- prédios e tabelas ---------- */
 const temTabela = (p, origem, t) =>
@@ -149,6 +148,33 @@ for (const g of VISTA.G) {
   if (!(p.bairroTextos ?? []).includes(g.bairro)) erro(`vista-mar:${g.id}: bairro`);
 }
 
+/* ---------- pasta Lançamentos (OneDrive) ---------- */
+for (const b of PASTA.predios) {
+  const p = predioPorOrigem.get(`lesan:${b.id}`);
+  if (!p) {
+    erro(`Prédio lesan:${b.id} sumiu`);
+    continue;
+  }
+  b.unidades.forEach((x, i) => {
+    const ref = `lesan:${b.id}:${i}`;
+    refsOrigem.push(ref);
+    const achado = porRef.get(ref);
+    if (!achado) return erro(`${ref} sumiu`);
+    // os campos da pasta têm o mesmo nome no estoque unificado
+    conferir(ref, { status: 'disponivel', ...x }, achado.r, Object.fromEntries(Object.keys({ status: 0, ...x }).map((k) => [k, k])));
+    if (!achado.r.mercado || !achado.r.fase) erro(`${ref}: sem segmento/fase`);
+  });
+  for (const t of b.tabelas) {
+    if (!(p.tabelas ?? []).some((x) => x.origem === 'lesan' && igual(x.fonte, t.fonte) && igual(x.contato, t.contato) && igual(x.atualizadoEm, t.atualizadoEm))) erro(`lesan:${b.id}: tabela ${t.fonte}`);
+  }
+  for (const n of b.notas ?? []) if (!(p.notas ?? []).includes(n)) erro(`lesan:${b.id}: nota perdida "${n.slice(0, 40)}"`);
+  for (const l of b.lazer ?? []) if (!(p.lazer ?? []).includes(l) && !p.lanc?.book?.lazer) erro(`lesan:${b.id}: lazer ${l}`);
+}
+
+// todo registro de origem tem exatamente um destino (e nenhum registro do estoque vem de lugar nenhum)
+const totalUnificado = porRef.size;
+if (totalUnificado !== refsOrigem.length) erro(`Registros: origem ${refsOrigem.length}, unificado ${totalUnificado}`);
+
 /* ---------- os painéis antigos continuam reproduzíveis ---------- */
 // Para cada painel: unidades disponíveis, soma e menor valor calculados direto dos dados brutos
 // devem bater com os registros do estoque unificado daquela origem.
@@ -162,6 +188,7 @@ const brutos = {
   usados: Object.values(USADOS.units).flatMap((t) => t.itens.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   lancamentos: Object.values(LANC.units).flatMap((t) => t.itens.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'vista-mar': VISTA.U.map((x) => ({ disp: x.st === 'd', valor: x.valor })),
+  lesan: PASTA.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
 };
 for (const [origem, regs] of Object.entries(brutos)) {
   const unif = [...porRef.values()].filter(({ r }) => r.origem === origem).map(({ r }) => ({ disp: r.status === 'disponivel', valor: r.valor }));

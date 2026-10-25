@@ -9,7 +9,8 @@
     "test": "ng test",
     "dados": "node scripts/unificar.mjs && node scripts/validar.mjs",
     "dados:validar": "node scripts/validar.mjs",
-    "dados:extrair": "node scripts/extrair-origem.mjs"
+    "dados:extrair": "node scripts/extrair-origem.mjs",
+    "dados:pasta": "node scripts/ler-pasta-lancamentos.mjs"
   },
   "private": true,
   "packageManager": "npm@11.19.0",

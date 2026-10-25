@@ -1,8 +1,8 @@
-// Gera public/dados/estoque.json a partir de dados/origem/*.json (os três painéis antigos).
+// Gera public/dados/estoque.json a partir de dados/origem/*.json (os três painéis antigos e a pasta Lançamentos do OneDrive).
 // Regras de unificação (documentadas em dados/README.md):
 // - um prédio que aparece em mais de um painel vira um só quando nome, bairro e endereço são compatíveis;
 // - a mesma unidade em duas tabelas vira uma só: o registro reservado tem prioridade, senão a ordem
-//   lançamentos > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
+//   lançamentos > pasta Lançamentos (lesan) > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
 // - nenhum registro de origem é descartado: cada um mantém `ref` = "<painel>:<id do prédio>:<índice>".
 // Uso: node scripts/unificar.mjs
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -10,6 +10,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 const ler = (n) => JSON.parse(readFileSync(`dados/origem/${n}.json`, 'utf8'));
 const USADOS = ler('usados');
 const LANC = ler('lancamentos');
+const PASTA = ler('pasta-lancamentos');
 const VISTA = ler('vista-mar');
 
 /* ---------- normalização ---------- */
@@ -274,13 +275,56 @@ for (const g of VISTA.G) {
   });
 }
 
+// Pasta Lançamentos (OneDrive): Harmony, Parque das Araucárias, Seven, Toninho, Ectual e Gomes Pacheco.
+// Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
+const mapsPasta = (b) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(b.endereco || `${b.nome}, ${b.cidade}, SP`);
+for (const b of PASTA.predios) {
+  predios.push({
+    origem: 'lesan',
+    origemId: b.id,
+    nome: b.nome,
+    cidade: b.cidade,
+    bairroTexto: b.bairro || 'A confirmar',
+    endereco: b.endereco || '',
+    mapa: mapsPasta(b),
+    mapaPorNome: !b.endereco,
+    entrega: b.entrega || '',
+    fase: b.fase,
+    tabelas: b.tabelas.map((t) => ({ origem: 'lesan', fonte: t.fonte || '', contato: t.contato || '', atualizadoEm: t.atualizadoEm || '' })),
+    fontes: [...new Set(b.tabelas.map((t) => t.fonte).filter(Boolean))],
+    lazer: b.lazer ?? [],
+    diferenciais: b.diferenciais ?? [],
+    notas: b.notas ?? [],
+    ...(b.lanc ? { lanc: { ...b.lanc, diferenciais: b.diferenciais ?? [] } } : {}),
+    unidades: b.unidades.map((x, i) => {
+      const fase = x.fase ?? b.fase;
+      const texto = [x.tipologia, x.det, x.obs, x.vista].join(' ');
+      // vistaMar explícito na origem vale; sem ele, a menção a vista/frente para o mar no texto da tabela
+      const vm = x.vistaMar !== undefined ? !!x.vistaMar : VISTA_RE.test(texto) && !SEM_VISTA_RE.test(texto);
+      return {
+        ref: `lesan:${b.id}:${i}`,
+        origem: 'lesan',
+        mercado: fase === 'pronto' ? 'revenda' : 'construtora',
+        fase,
+        ...x,
+        dm: dmFromNum(x.dorm),
+        vistaMar: vm,
+        vistaFonte: vm ? 'texto' : null,
+        status: x.status || 'disponivel',
+      };
+    }),
+  });
+}
+
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, usados: 1, 'vista-mar': 2 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, usados: 2, 'vista-mar': 3 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [
   // Mesmo prédio na Av. Pres. Castelo Branco, 16.140: Lançamentos diz Imperador, Vista Mar diz Jardim Real.
   ['lancamentos:melissa-miyazi', 'vista-mar:g107'],
+  // Costa do Mar: a Ectual escreve "Rua Maria de Lourdes Simões e Simões" e o painel Vista Mar, "R. Maria Simões, 50".
+  ['lesan:costa-do-mar', 'vista-mar:g136'],
 ];
 const grupos = [];
 for (const p of predios) {
@@ -372,6 +416,9 @@ const saida = grupos.map(({ membros }) => {
     tabelas: membros.flatMap((m) => m.tabelas),
     fontes: [...new Set(membros.flatMap((m) => m.fontes))],
     ...(lanc ? { lanc } : {}),
+    lazer: membros.find((m) => m.lazer?.length)?.lazer ?? [],
+    diferenciais: membros.find((m) => m.diferenciais?.length)?.diferenciais ?? [],
+    notas: membros.flatMap((m) => m.notas ?? []),
     unidades,
   };
 });
@@ -379,7 +426,7 @@ const saida = grupos.map(({ membros }) => {
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
 const estoque = {
-  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'] },
+  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta },
   predios: saida,
 };
 // Campos vazios (null, '', false, []) são omitidos para o arquivo ficar menor; o app trata ausência como vazio.

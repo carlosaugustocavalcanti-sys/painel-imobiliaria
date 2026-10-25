@@ -72,7 +72,7 @@ function vagas(v?: string): string {
 }
 
 function lazerDe(p: Predio, u: Unidade): string[] {
-  const book = p.lanc?.book?.lazer;
+  const book = p.lanc?.book?.lazer ?? (p.lazer?.length ? p.lazer : undefined);
   if (book?.length) return book.map((x) => x.replace(/\s*\(.*?\)\s*/g, ' ').trim()).slice(0, 8);
   const texto = [u.obs, u.det, ...(u.outras ?? []).map((o) => o.obs)].join(' ');
   return LAZER.filter(([, re]) => re.test(texto)).map(([nome]) => nome).slice(0, 8);
@@ -132,6 +132,7 @@ function pagamentoDe(p: Predio, u: Unidade): Pagamento {
     const linhas = [{ rotulo: 'Entrada', valor: brl2(fl.entrada) }];
     if (fl.chaves) linhas.push({ rotulo: 'Nas chaves', valor: brl2(fl.chaves) });
     if (fl.anualQtd && fl.anualVal) linhas.push({ rotulo: `${fl.anualQtd} anuais de`, valor: brl2(fl.anualVal) });
+    if (fl.unica) linhas.push({ rotulo: 'Parcela única', valor: brl2(fl.unica) });
     return {
       rotulo: 'Fluxo de pagamento · parcelamento direto',
       grande: brl2(fl.parcVal),
@@ -185,7 +186,7 @@ function diferencial(texto: string): { titulo: string; detalhe: string } {
   return { titulo: m[1], detalhe: m[2].charAt(0).toUpperCase() + m[2].slice(1) };
 }
 function diferenciaisDe(p: Predio): CardDados['diferenciais'] {
-  return (p.lanc?.diferenciais ?? [])
+  return (p.lanc?.diferenciais?.length ? p.lanc.diferenciais : (p.diferenciais ?? []))
     .filter((d) => !/comiss|^pronto para morar$|^\s*$/i.test(d))
     .slice(0, 3)
     .map(diferencial);

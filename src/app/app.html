@@ -106,12 +106,13 @@
             <option value="pend" [selected]="fl.gravacao === 'pend'">Pendente</option>
             <option value="grav" [selected]="fl.gravacao === 'grav'">Gravado</option>
           </select></label>
-        <label class="campo"><span class="rot">Painel antigo</span>
+        <label class="campo"><span class="rot">Origem dos dados</span>
           <select (change)="mudar({ origem: $any(texto($event)) })">
             <option value="" [selected]="!fl.origem">Todos</option>
             <option value="usados" [selected]="fl.origem === 'usados'">Apartamentos usados</option>
             <option value="lancamentos" [selected]="fl.origem === 'lancamentos'">Lançamentos</option>
             <option value="vista-mar" [selected]="fl.origem === 'vista-mar'">Vista mar</option>
+            <option value="lesan" [selected]="fl.origem === 'lesan'">Pasta Lançamentos (OneDrive)</option>
           </select></label>
         <label class="campo marca-campo">
           <input type="checkbox" [checked]="fl.todas" (change)="mudar({ todas: !fl.todas })" />

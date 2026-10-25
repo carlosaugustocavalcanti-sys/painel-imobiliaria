@@ -1,6 +1,7 @@
 /** Formato de public/dados/estoque.json, gerado por scripts/unificar.mjs. Campos vazios vêm omitidos. */
 
-export type Origem = 'usados' | 'lancamentos' | 'vista-mar';
+/** Os três painéis antigos e a pasta Lançamentos do OneDrive (lesan). */
+export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan';
 export type Mercado = 'revenda' | 'construtora';
 export type Fase = 'pronto' | 'obra' | 'lancamento';
 export type Status = 'disponivel' | 'reservado' | 'vendido' | 'suspenso';
@@ -9,11 +10,13 @@ export type Dorm = 'k' | '1' | '2' | '3' | '4';
 
 export interface Fluxo {
   entrada: number;
-  chaves: number;
-  anualQtd: number;
-  anualVal: number;
+  chaves?: number;
+  anualQtd?: number;
+  anualVal?: number;
   parcQtd: number;
   parcVal: number;
+  /** "Parcela única" da tabela (Seven), sem data informada. */
+  unica?: number;
 }
 
 /** Um registro de unidade como veio de uma tabela. */
@@ -120,6 +123,10 @@ export interface Predio {
   tabelas?: Tabela[];
   fontes?: string[];
   lanc?: InfoLancamento;
+  /** Itens de lazer, diferenciais e observações das tabelas (pasta Lançamentos). */
+  lazer?: string[];
+  diferenciais?: string[];
+  notas?: string[];
   unidades?: Unidade[];
 }
 

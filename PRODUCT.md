@@ -42,7 +42,7 @@ Marca pessoal Carlos Cavalcanti Imóveis (skill `marca-carlos-cavalcanti`): só 
 
 ## Evidence on Hand
 
-Histórico git (commit `cdf415c`): painéis antigos `vista-mar/`, `apartamentos-usados/` e `lancamentos/`, cada um com os dados embutidos (tabelas de 26/09 a 08/10/2026). Não há foto oficial do Carlos no repositório; o círculo da assinatura fica marcado "FOTO".
+Pasta `OneDrive/Outros/Lesan/Lançamentos`: tabelas em PDF de Harmony, Parque das Araucárias, Seven, Toninho, Ectual e Gomes Pacheco, além dos books usados nas fotos dos cards. Histórico git (commit `cdf415c`): painéis antigos `vista-mar/`, `apartamentos-usados/` e `lancamentos/`, cada um com os dados embutidos (tabelas de 26/09 a 08/10/2026). Não há foto oficial do Carlos no repositório; o círculo da assinatura fica marcado "FOTO".
 
 ## Product Principles
 

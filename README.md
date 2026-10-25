@@ -17,8 +17,10 @@ npm run build      # versão de produção em dist/
 
 | Arquivo | O que é |
 |---|---|
-| `dados/origem/*.json` | Dados originais dos três painéis, extraídos sem alteração do commit `cdf415c` |
+| `dados/origem/{usados,lancamentos,vista-mar}.json` | Dados originais dos três painéis, extraídos sem alteração do commit `cdf415c` |
+| `dados/origem/pasta-lancamentos.json` | Tabelas da pasta `OneDrive/Outros/Lesan/Lançamentos` que ainda não eram painéis (28 prédios, 236 unidades) |
 | `public/dados/estoque.json` | Estoque unificado que o app carrega (gerado, não editar à mão) |
+| `scripts/ler-pasta-lancamentos.mjs` | Lê as tabelas em PDF da pasta Lançamentos (texto pelo PDFKit do macOS, `scripts/pdf-texto.swift`) e gera `pasta-lancamentos.json`; falha se alguma contagem ou soma não bater |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
@@ -32,7 +34,10 @@ Regras de unificação:
 - **A mesma unidade em duas tabelas** vira uma linha. O registro **reservado** tem prioridade; sem reserva, vale a ordem lançamentos > usados > vista mar. Os outros registros ficam visíveis na ficha do prédio, e as diferenças aparecem como **divergência** (8 casos).
 - **Vista mar**: todas as unidades do antigo painel Vista Mar, mais as unidades cujas tabelas mencionam vista ou frente para o mar.
 - Bairros com grafias diferentes ("Vila Tupi" / "Tupi", "Forte" / "Canto do Forte") usam um nome único. O texto original fica guardado em `bairroTextos`.
-- Nenhum registro é descartado: 1.795 registros de origem → 1.770 unidades, e o validador falha se algum sumir ou mudar de valor.
+- Nenhum registro é descartado: 2.031 registros de origem → 2.005 unidades, e o validador falha se algum sumir ou mudar de valor.
+- **Pasta Lançamentos**: Harmony, Parque das Araucárias, Seven, Toninho (12 prédios), Ectual (15) e a tabela da Gomes Pacheco (Raimundo Gomes). Doze desses prédios já existiam no painel e receberam as unidades novas (Costa do Mar, Costa Maggiore, Ocean Park, Parque dos Coqueiros, Personnalité, Raimundo Gomes, Bellagio, Matteo, Pedro, Platinum, Unique, Torres). Em caso de conflito na mesma unidade, o registro reservado vence; depois vale a ordem lançamentos > pasta Lançamentos > usados > vista mar.
+- Reservado e vendido da Seven e da Ectual aparecem só por cor ou carimbo na imagem do PDF; foram conferidos página a página e estão nas constantes `STATUS_*` do leitor. Se a tabela mudar, refaça essa conferência.
+- Ficaram de fora a casa do Tupi da Ectual (indisponível por reforma, sem valores) e as senhas de fechadura que as tabelas trazem.
 
 ## Card da unidade
 

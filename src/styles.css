@@ -178,6 +178,7 @@ select:hover { border-color: var(--preto); }
 .tabela .r { text-align: right; }
 .tabela tr:last-child td { border-bottom: 0; }
 .tabela td small { display: block; color: var(--cinza); font-size: 11.5px; white-space: normal; }
+.tabela td.fluxo small { white-space: nowrap; }
 .tabela td.obs { white-space: normal; min-width: 300px; font-size: 12.5px; }
 .tabela.clicavel tbody tr { cursor: pointer; }
 .tabela.clicavel tbody tr:hover td, .tabela tr.on td { background: var(--gelo); }
@@ -218,6 +219,7 @@ select:hover { border-color: var(--preto); }
 .ficha-loc { margin: 8px 0 0; color: var(--branco-65); font-size: 13.5px; }
 .ficha-end { margin: 4px 0 0; font-size: 13.5px; font-weight: 700; }
 .ficha-corpo { overflow: auto; flex: 1; min-height: 0; padding: 18px 22px 32px; display: flex; flex-direction: column; gap: 16px; }
+.ficha-corpo > * { flex-shrink: 0; }
 .numeros { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
 .numeros div { background: var(--branco); border: var(--borda); border-radius: 18px; padding: 12px 14px; }
 .numeros b { display: block; font-weight: 900; font-size: 26px; letter-spacing: -0.04em; line-height: 1; }

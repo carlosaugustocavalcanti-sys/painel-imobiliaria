@@ -141,3 +141,29 @@ describe('copiar para o cliente', () => {
     expect(t).not.toContain('9999');
   });
 });
+
+describe('pasta Lançamentos', () => {
+  const base: Pick<Unidade, 'ref' | 'origem' | 'origens' | 'mercado' | 'status'> = {
+    ref: 'lesan:seven:0',
+    origem: 'lesan',
+    origens: ['lesan'],
+    mercado: 'construtora',
+    status: 'disponivel',
+  };
+  it('card mostra a parcela única como linha própria, sem chamá-la de "chaves"', () => {
+    const p = predio({ fase: 'lancamento' });
+    const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2', valor: 597000, fluxo: { entrada: 40000, anualQtd: 2, anualVal: 12000, parcQtd: 24, parcVal: 2308.33, unica: 470600 } });
+    expect(c.pagamentos[0].linhas.map((l) => l.rotulo)).toEqual(['Entrada', '2 anuais de', 'Parcela única']);
+  });
+  it('lazer e diferenciais vêm do prédio quando não há book', () => {
+    const p = predio({ lazer: ['Piscina borda infinita', 'Sauna'], diferenciais: ['Lazer completo', 'Comissão 5%', '1 vaga'] });
+    const c = cardDe(p, { ...base, fase: 'lancamento', tipologia: '2 dorms', dm: '2' });
+    expect(c.lazer).toEqual(['Piscina borda infinita', 'Sauna']);
+    expect(c.diferenciais.map((d) => d.titulo)).toEqual(['Lazer completo', '1 vaga']);
+  });
+  it('filtro de origem separa a pasta Lançamentos dos painéis antigos', () => {
+    const lesan = montarLinhas([predio({ unidades: [{ ...base, fase: 'lancamento', unidade: '1', status: 'disponivel' }] })]);
+    expect(lesan.filter((l) => passa(l, F({ origem: 'lesan' }))).length).toBe(1);
+    expect(lesan.filter((l) => passa(l, F({ origem: 'usados' }))).length).toBe(0);
+  });
+});
