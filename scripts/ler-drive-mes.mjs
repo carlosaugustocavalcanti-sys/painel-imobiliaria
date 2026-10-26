@@ -23,6 +23,8 @@ const rv = (fonteRef, x) => ({
   contato: fonteRef.contato,
   tabela: fonteRef.data,
   ...(x.vistaMar ? { vistaMar: true } : {}),
+  ...(x.conf ? { conf: true } : {}),
+  ...(x.fluxo ? { entrada: x.fluxo.entrada, fluxo: x.fluxo } : {}),
 });
 const tab = (f, arquivo) => [{ fonte: f.fonte, contato: f.contato, atualizadoEm: f.data, arquivo }];
 
@@ -32,6 +34,12 @@ const PG = { fonte: 'P&G Construtora (revenda)', contato: 'Pereira (13) 99764-15
 const AEJ = { fonte: 'AEJ (tabela de revenda de 13/10/2026)', contato: 'Afonso Paiva (13) 99661-0903', data: '13/10/2026' };
 const JSANTOS = { fonte: 'J Santos Construtora (revenda de 09/10/2026)', contato: '(13) 3494-3976 · WhatsApp (13) 99753-4833', data: '09/10/2026' };
 const GRAFFIT = { fonte: 'Graffit (Cicero)', contato: 'Cicero (13) 99156-9953', data: 'sem data (arquivo de 23/10/2026)' };
+const RGON = { fonte: 'R Gonçalves Construtora (portal de revendas, out/2026)', contato: '(13) 99661-0903', data: 'Portal de revendas (out/2026)' };
+const FORTALEZA = { fonte: 'Fortaleza Incorporações (tabela de revendas)', contato: 'Diego (13) 98146-4275 · escritório (13) 99636-2004', data: '25/09/2026' };
+const PUDDO = { fonte: 'Puddo Construtora (revenda)', contato: 'Leandro (13) 99612-7171 · escritório (13) 3474-1919', data: 'sem data (arquivo de 21/10/2026)' };
+const MEC = { fonte: 'MEC Empreendimentos (tabela de revenda)', contato: '(13) 97414-3059 · (13) 99677-3493', data: 'sem data (arquivo de 21/10/2026)' };
+const JM = { fonte: 'JM Incorporadora (tabela de imóveis diversos)', contato: '(13) 3477-6021 · agendar (13) 99123-0704', data: '21/07/2026' };
+const RE = { fonte: 'R.E. Empreendimentos (tabela de vendas)', contato: '', data: '01/07/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -191,6 +199,125 @@ const predios = [
     notas: ['Prédio sem nome na tabela da Graffit; identificado pelo endereço. A tabela traz também um aluguel (2 dorms, frente mar, Caiçara), fora do painel de venda.'],
     tabelas: tab(GRAFFIT, PREFIXO + 'GRAFFIT - Apto 2 dorm (Caiçara) + Apto 3 dorm (Guilhermina).pdf'),
     unidades: [rv(GRAFFIT, { un: '31', dorm: 3, suites: 2, area: 156, vagas: '2', valor: 950000, cond: 1422.5, iptu: 626.3, obs: 'Quarto de serviço com banheiro, sacadas na sala e nos 3 dormitórios, móveis planejados, 4 banheiros, porcelanato, portaria 24h, acesso cadeirante.' })],
+  },
+  {
+    id: 'res-santorini',
+    nome: 'Res. Santorini',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua Bahia, 255 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(RGON, PREFIXO + 'R GONÇALVES - Aptos 2 dorm (Forte-Aviação) + Aptos 3 dorm (Forte-Ocian) + Aptos 4 dorm (Forte).pdf'),
+    notas: ['Revenda da R Gonçalves. O apto 181 (2 dorms, 1 suíte) aparece na tabela sem valor legível; não entrou. Chave na portaria com CRECI.'],
+    unidades: [
+      rv(RGON, { un: 'Cobertura 221', dorm: 4, suites: 4, area: 252, vagas: '4', valor: 4250000, cond: 1720, iptu: 1440, vistaMar: true, tipologia: 'Cobertura 4 dorms (4 suítes)', obs: 'Sala de 3 ambientes integrada à varanda gourmet; um banheiro com hidromassagem. Chave na portaria (apresentar CRECI).' }),
+      rv(RGON, { un: '82', dorm: 3, suites: 1, area: 126, vagas: '2', valor: 1600000, cond: 884, iptu: 777, obs: 'Móveis planejados (cozinha e quartos). Chave na portaria (apresentar CRECI).' }),
+      rv(RGON, { un: '43', dorm: 2, suites: 2, area: 103, vagas: '2', valor: 1100000, cond: 768, iptu: 630, obs: 'Móveis planejados, cooktop, forno e aquecedor. Chave na portaria (apresentar CRECI).' }),
+    ],
+  },
+  {
+    id: 'mariana-miyazi',
+    nome: 'Mariana Miyazi',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Avenida Paris, 454 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(RGON, PREFIXO + 'R GONÇALVES - Aptos 2 dorm (Forte-Aviação) + Aptos 3 dorm (Forte-Ocian) + Aptos 4 dorm (Forte).pdf'),
+    unidades: [rv(RGON, { un: '91', dorm: 3, suites: 2, area: 116, vagas: '2', valor: 830000, conf: true, obs: 'Semimobiliado, lazer na cobertura. À vista, banco ou permuta + à vista/banco. Comissão 5%. Confirmar: a página do portal mostra "disponível" e "reservado" junto a essa unidade.' })],
+  },
+  {
+    id: 'res-jc-dos-santos',
+    nome: 'Res. JC dos Santos',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Pedro Florindo, 111 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(FORTALEZA, PREFIXO + 'FORTALEZA - Aptos 3 dorm (Forte-Guilhermina).pdf'),
+    unidades: [rv(FORTALEZA, { un: '101', tipologia: 'Cobertura 3 suítes', dorm: 3, suites: 3, area: 260.58, vagas: '2 demarcadas (nº 17 e 29)', valor: 1850000, cond: 2516.4, iptu: 1117.79, fluxo: { entrada: 740000, anualQtd: 5, anualVal: 59200, parcQtd: 100, parcVal: 8140 }, obs: 'Revenda da Fortaleza. Entrada R$ 740.000; 100 mensais de R$ 8.140; 5 anuais de R$ 59.200. Correção: poupança acumulativa + 0,5%. Área gourmet com churrasqueira e piscina; dependência de empregada.' })],
+  },
+  {
+    id: 'res-vaz-300',
+    nome: 'Res. Vaz 300',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua Major Rubens Vaz, 298 - Canto do Forte - Praia Grande/SP',
+    fase: 'obra',
+    tabelas: tab(FORTALEZA, PREFIXO + 'FORTALEZA - Aptos 3 dorm (Forte-Guilhermina).pdf'),
+    unidades: [rv(FORTALEZA, { un: '171', dorm: 3, suites: 3, area: 119.77, vagas: '2 privativas', valor: 1250000, fluxo: { entrada: 375000, anualQtd: 5, anualVal: 40000, parcQtd: 60, parcVal: 9166.67 }, obs: 'Em construção. Entrada R$ 375.000; 60 mensais de R$ 9.166,67; 5 anuais de R$ 40.000. Correção: poupança acumulativa + 0,5%.' })],
+  },
+  {
+    id: 'res-eduardo-alciati',
+    nome: 'Res. Eduardo Alciati',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Av. Marechal Hermes, 126 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(PUDDO, PREFIXO + 'PUDDO - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte).pdf'),
+    unidades: [rv(PUDDO, { un: '20º andar', dorm: 2, suites: 0, area: 99, vagas: '1 privativa', valor: 950000, cond: 677.69, iptu: 553.21, obs: 'Apartamento no 20º andar, 50 m da praia, 3 banheiros, móveis planejados. Ligar para agendar visita. A tabela não informa o número do apartamento.' })],
+  },
+  {
+    id: 'res-lusa-telles',
+    nome: 'Res. Lusa Telles',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Itamacás, 171 - Vila Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(PUDDO, PREFIXO + 'PUDDO - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte).pdf'),
+    unidades: [rv(PUDDO, { un: '23', dorm: 1, suites: 0, area: 54.86, vagas: '1', valor: 380000, cond: 715.04, iptu: 268.07, obs: 'Sacada, lazer completo. Ligar para agendar visita.' })],
+  },
+  {
+    id: 'res-eduardo-macedo',
+    nome: 'Res. Eduardo Macedo',
+    cidade: 'Praia Grande',
+    bairro: 'Ocian',
+    endereco: 'Rua Guimarães Rosa, 205 - Ocian - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(MEC, PREFIXO + 'MEC - Apto 2 dorm (Ocian).pdf'),
+    unidades: [
+      rv(MEC, { un: '83', dorm: 2, suites: 1, area: 74.47, vagas: '1 (coletiva)', valor: 450000, cond: 790.19, iptu: 389.91, obs: 'À vista ou financiamento bancário. Chaves na portaria.' }),
+      rv(MEC, { un: '25', dorm: 2, suites: 1, area: 70.45, vagas: '1 (coletiva)', valor: 430000, cond: 737.65, obs: 'À vista ou financiamento bancário. IPTU 2026 pago. Chaves na portaria.' }),
+    ],
+  },
+  {
+    id: 'res-ravena',
+    nome: 'Res. Ravena',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Martim Afonso de Souza, 456 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(MEC, PREFIXO + 'MEC - Apto 2 dorm (Ocian).pdf'),
+    unidades: [rv(MEC, { un: '105', dorm: 1, suites: 1, area: 52.63, vagas: '1 (coletiva)', valor: 320000, cond: 689.21, iptu: 367.93, obs: 'À vista ou financiamento bancário. Chaves na MEC.' })],
+  },
+  {
+    id: 'fontana-di-trevi',
+    nome: 'Fontana di Trevi',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Av. Nossa Senhora de Fátima, 100 - Vila Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(JM, PREFIXO + 'JM - Coberturas 3 dorm (Caiçara).pdf'),
+    unidades: [rv(JM, { un: 'Cobertura 153', tipologia: 'Cobertura 3 dorms (2 suítes)', dorm: 3, suites: 2, area: 300.53, vagas: '3', valor: 1900000, cond: 1575.76, iptu: 1261.42, obs: 'Terraço coberto e descoberto com piscina, 2 salas, 2 lavabos, dependência de empregada. Financiamento direto. Tabela de 21/07/2026 (confirmar valor).', conf: true })],
+  },
+  {
+    id: 'praia-pacce',
+    nome: 'Praia Pacce',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Rua José Carlos Pacce, 91 - Vila Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(JM, PREFIXO + 'JM - Coberturas 3 dorm (Caiçara).pdf'),
+    unidades: [rv(JM, { un: 'Cobertura duplex 135', tipologia: 'Cobertura duplex 3 dorms (3 suítes)', dorm: 3, suites: 3, area: 182.34, vagas: '3', valor: 1450000, cond: 1580, iptu: 1051.3, obs: '2 salas com sacadas envidraçadas, churrasqueira a gás, móveis planejados. Financiamento direto. Tabela de 21/07/2026 (confirmar valor).', conf: true })],
+  },
+  {
+    id: 'res-seixeiro-e-saraiva',
+    nome: 'Res. Seixeiro e Saraiva',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Pero Vaz de Caminha, 315 - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(RE, PREFIXO + 'RE - Apto 2 dorm (Aviação) + Casas em Cond 2 dorm (Sítio do Campo).pdf'),
+    notas: ['As casas sobrepostas do Res. Eloy Mendes (Sítio do Campo) da mesma tabela entram na etapa de casas.'],
+    unidades: [rv(RE, { un: '171', dorm: 2, suites: 2, area: 84.34, vagas: '2', valor: 620000, cond: 663.26, obs: 'Edifício Saraiva. Tabela de 01/07/2026 (confirmar valor).', conf: true })],
   },
 ];
 

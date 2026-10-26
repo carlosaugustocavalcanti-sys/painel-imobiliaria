@@ -615,6 +615,449 @@
      "tabela": "sem data (arquivo de 23/10/2026)"
     }
    ]
+  },
+  {
+   "id": "res-santorini",
+   "nome": "Res. Santorini",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Rua Bahia, 255 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "atualizadoEm": "Portal de revendas (out/2026)",
+     "arquivo": "9. REVENDAS/R GONÇALVES - Aptos 2 dorm (Forte-Aviação) + Aptos 3 dorm (Forte-Ocian) + Aptos 4 dorm (Forte).pdf"
+    }
+   ],
+   "notas": [
+    "Revenda da R Gonçalves. O apto 181 (2 dorms, 1 suíte) aparece na tabela sem valor legível; não entrou. Chave na portaria com CRECI."
+   ],
+   "unidades": [
+    {
+     "unidade": "Cobertura 221",
+     "tipologia": "Cobertura 4 dorms (4 suítes)",
+     "dorm": 4,
+     "suites": 4,
+     "area": 252,
+     "vagas": "4",
+     "valor": 4250000,
+     "cond": 1720,
+     "iptu": 1440,
+     "status": "disponivel",
+     "obs": "Sala de 3 ambientes integrada à varanda gourmet; um banheiro com hidromassagem. Chave na portaria (apresentar CRECI).",
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "tabela": "Portal de revendas (out/2026)",
+     "vistaMar": true
+    },
+    {
+     "unidade": "82",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 126,
+     "vagas": "2",
+     "valor": 1600000,
+     "cond": 884,
+     "iptu": 777,
+     "status": "disponivel",
+     "obs": "Móveis planejados (cozinha e quartos). Chave na portaria (apresentar CRECI).",
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "tabela": "Portal de revendas (out/2026)"
+    },
+    {
+     "unidade": "43",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 103,
+     "vagas": "2",
+     "valor": 1100000,
+     "cond": 768,
+     "iptu": 630,
+     "status": "disponivel",
+     "obs": "Móveis planejados, cooktop, forno e aquecedor. Chave na portaria (apresentar CRECI).",
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "tabela": "Portal de revendas (out/2026)"
+    }
+   ]
+  },
+  {
+   "id": "mariana-miyazi",
+   "nome": "Mariana Miyazi",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Paris, 454 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "atualizadoEm": "Portal de revendas (out/2026)",
+     "arquivo": "9. REVENDAS/R GONÇALVES - Aptos 2 dorm (Forte-Aviação) + Aptos 3 dorm (Forte-Ocian) + Aptos 4 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "91",
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 116,
+     "vagas": "2",
+     "valor": 830000,
+     "status": "disponivel",
+     "obs": "Semimobiliado, lazer na cobertura. À vista, banco ou permuta + à vista/banco. Comissão 5%. Confirmar: a página do portal mostra \"disponível\" e \"reservado\" junto a essa unidade.",
+     "fonte": "R Gonçalves Construtora (portal de revendas, out/2026)",
+     "contato": "(13) 99661-0903",
+     "tabela": "Portal de revendas (out/2026)",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "res-jc-dos-santos",
+   "nome": "Res. JC dos Santos",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Pedro Florindo, 111 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Fortaleza Incorporações (tabela de revendas)",
+     "contato": "Diego (13) 98146-4275 · escritório (13) 99636-2004",
+     "atualizadoEm": "25/09/2026",
+     "arquivo": "9. REVENDAS/FORTALEZA - Aptos 3 dorm (Forte-Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "101",
+     "tipologia": "Cobertura 3 suítes",
+     "dorm": 3,
+     "suites": 3,
+     "area": 260.58,
+     "vagas": "2 demarcadas (nº 17 e 29)",
+     "valor": 1850000,
+     "cond": 2516.4,
+     "iptu": 1117.79,
+     "status": "disponivel",
+     "obs": "Revenda da Fortaleza. Entrada R$ 740.000; 100 mensais de R$ 8.140; 5 anuais de R$ 59.200. Correção: poupança acumulativa + 0,5%. Área gourmet com churrasqueira e piscina; dependência de empregada.",
+     "fonte": "Fortaleza Incorporações (tabela de revendas)",
+     "contato": "Diego (13) 98146-4275 · escritório (13) 99636-2004",
+     "tabela": "25/09/2026",
+     "entrada": 740000,
+     "fluxo": {
+      "entrada": 740000,
+      "anualQtd": 5,
+      "anualVal": 59200,
+      "parcQtd": 100,
+      "parcVal": 8140
+     }
+    }
+   ]
+  },
+  {
+   "id": "res-vaz-300",
+   "nome": "Res. Vaz 300",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Rua Major Rubens Vaz, 298 - Canto do Forte - Praia Grande/SP",
+   "fase": "obra",
+   "tabelas": [
+    {
+     "fonte": "Fortaleza Incorporações (tabela de revendas)",
+     "contato": "Diego (13) 98146-4275 · escritório (13) 99636-2004",
+     "atualizadoEm": "25/09/2026",
+     "arquivo": "9. REVENDAS/FORTALEZA - Aptos 3 dorm (Forte-Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "171",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 119.77,
+     "vagas": "2 privativas",
+     "valor": 1250000,
+     "status": "disponivel",
+     "obs": "Em construção. Entrada R$ 375.000; 60 mensais de R$ 9.166,67; 5 anuais de R$ 40.000. Correção: poupança acumulativa + 0,5%.",
+     "fonte": "Fortaleza Incorporações (tabela de revendas)",
+     "contato": "Diego (13) 98146-4275 · escritório (13) 99636-2004",
+     "tabela": "25/09/2026",
+     "entrada": 375000,
+     "fluxo": {
+      "entrada": 375000,
+      "anualQtd": 5,
+      "anualVal": 40000,
+      "parcQtd": 60,
+      "parcVal": 9166.67
+     }
+    }
+   ]
+  },
+  {
+   "id": "res-eduardo-alciati",
+   "nome": "Res. Eduardo Alciati",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Av. Marechal Hermes, 126 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Puddo Construtora (revenda)",
+     "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/PUDDO - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "20º andar",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "area": 99,
+     "vagas": "1 privativa",
+     "valor": 950000,
+     "cond": 677.69,
+     "iptu": 553.21,
+     "status": "disponivel",
+     "obs": "Apartamento no 20º andar, 50 m da praia, 3 banheiros, móveis planejados. Ligar para agendar visita. A tabela não informa o número do apartamento.",
+     "fonte": "Puddo Construtora (revenda)",
+     "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "res-lusa-telles",
+   "nome": "Res. Lusa Telles",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Itamacás, 171 - Vila Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Puddo Construtora (revenda)",
+     "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/PUDDO - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "23",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 54.86,
+     "vagas": "1",
+     "valor": 380000,
+     "cond": 715.04,
+     "iptu": 268.07,
+     "status": "disponivel",
+     "obs": "Sacada, lazer completo. Ligar para agendar visita.",
+     "fonte": "Puddo Construtora (revenda)",
+     "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "res-eduardo-macedo",
+   "nome": "Res. Eduardo Macedo",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "Rua Guimarães Rosa, 205 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "MEC Empreendimentos (tabela de revenda)",
+     "contato": "(13) 97414-3059 · (13) 99677-3493",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/MEC - Apto 2 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "83",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 74.47,
+     "vagas": "1 (coletiva)",
+     "valor": 450000,
+     "cond": 790.19,
+     "iptu": 389.91,
+     "status": "disponivel",
+     "obs": "À vista ou financiamento bancário. Chaves na portaria.",
+     "fonte": "MEC Empreendimentos (tabela de revenda)",
+     "contato": "(13) 97414-3059 · (13) 99677-3493",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    },
+    {
+     "unidade": "25",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 70.45,
+     "vagas": "1 (coletiva)",
+     "valor": 430000,
+     "cond": 737.65,
+     "status": "disponivel",
+     "obs": "À vista ou financiamento bancário. IPTU 2026 pago. Chaves na portaria.",
+     "fonte": "MEC Empreendimentos (tabela de revenda)",
+     "contato": "(13) 97414-3059 · (13) 99677-3493",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "res-ravena",
+   "nome": "Res. Ravena",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Martim Afonso de Souza, 456 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "MEC Empreendimentos (tabela de revenda)",
+     "contato": "(13) 97414-3059 · (13) 99677-3493",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/MEC - Apto 2 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "105",
+     "tipologia": "1 dorm (1 suíte)",
+     "dorm": 1,
+     "suites": 1,
+     "area": 52.63,
+     "vagas": "1 (coletiva)",
+     "valor": 320000,
+     "cond": 689.21,
+     "iptu": 367.93,
+     "status": "disponivel",
+     "obs": "À vista ou financiamento bancário. Chaves na MEC.",
+     "fonte": "MEC Empreendimentos (tabela de revenda)",
+     "contato": "(13) 97414-3059 · (13) 99677-3493",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "fontana-di-trevi",
+   "nome": "Fontana di Trevi",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Av. Nossa Senhora de Fátima, 100 - Vila Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "JM Incorporadora (tabela de imóveis diversos)",
+     "contato": "(13) 3477-6021 · agendar (13) 99123-0704",
+     "atualizadoEm": "21/07/2026",
+     "arquivo": "9. REVENDAS/JM - Coberturas 3 dorm (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Cobertura 153",
+     "tipologia": "Cobertura 3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 300.53,
+     "vagas": "3",
+     "valor": 1900000,
+     "cond": 1575.76,
+     "iptu": 1261.42,
+     "status": "disponivel",
+     "obs": "Terraço coberto e descoberto com piscina, 2 salas, 2 lavabos, dependência de empregada. Financiamento direto. Tabela de 21/07/2026 (confirmar valor).",
+     "fonte": "JM Incorporadora (tabela de imóveis diversos)",
+     "contato": "(13) 3477-6021 · agendar (13) 99123-0704",
+     "tabela": "21/07/2026",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "praia-pacce",
+   "nome": "Praia Pacce",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua José Carlos Pacce, 91 - Vila Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "JM Incorporadora (tabela de imóveis diversos)",
+     "contato": "(13) 3477-6021 · agendar (13) 99123-0704",
+     "atualizadoEm": "21/07/2026",
+     "arquivo": "9. REVENDAS/JM - Coberturas 3 dorm (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Cobertura duplex 135",
+     "tipologia": "Cobertura duplex 3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 182.34,
+     "vagas": "3",
+     "valor": 1450000,
+     "cond": 1580,
+     "iptu": 1051.3,
+     "status": "disponivel",
+     "obs": "2 salas com sacadas envidraçadas, churrasqueira a gás, móveis planejados. Financiamento direto. Tabela de 21/07/2026 (confirmar valor).",
+     "fonte": "JM Incorporadora (tabela de imóveis diversos)",
+     "contato": "(13) 3477-6021 · agendar (13) 99123-0704",
+     "tabela": "21/07/2026",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "res-seixeiro-e-saraiva",
+   "nome": "Res. Seixeiro e Saraiva",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Pero Vaz de Caminha, 315 - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "R.E. Empreendimentos (tabela de vendas)",
+     "contato": "",
+     "atualizadoEm": "01/07/2026",
+     "arquivo": "9. REVENDAS/RE - Apto 2 dorm (Aviação) + Casas em Cond 2 dorm (Sítio do Campo).pdf"
+    }
+   ],
+   "notas": [
+    "As casas sobrepostas do Res. Eloy Mendes (Sítio do Campo) da mesma tabela entram na etapa de casas."
+   ],
+   "unidades": [
+    {
+     "unidade": "171",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 84.34,
+     "vagas": "2",
+     "valor": 620000,
+     "cond": 663.26,
+     "status": "disponivel",
+     "obs": "Edifício Saraiva. Tabela de 01/07/2026 (confirmar valor).",
+     "fonte": "R.E. Empreendimentos (tabela de vendas)",
+     "contato": "",
+     "tabela": "01/07/2026",
+     "conf": true
+    }
+   ]
   }
  ]
 }
