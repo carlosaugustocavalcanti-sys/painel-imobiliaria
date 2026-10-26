@@ -40,6 +40,7 @@ a { color: inherit; text-underline-offset: 3px; }
 .busca input { width: 100%; min-height: 52px; border: 0; border-radius: var(--r-tag); padding: 12px 16px 12px 46px; font-size: 17px; font-weight: 700; background: var(--branco); color: var(--preto); caret-color: var(--preto); }
 .busca input::placeholder { color: var(--cinza); font-weight: 500; }
 .rapidos { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.chaves-mar { display: flex; flex-wrap: wrap; gap: 10px; }
 .seg { display: inline-flex; background: var(--branco-18); border-radius: var(--r-tag); padding: 3px; }
 .seg button { border: 0; background: transparent; color: var(--branco); padding: 8px 14px; border-radius: 4px; font-weight: 800; font-size: 14px; min-height: 40px; }
 .seg button span, .chave .n { font-weight: 700; font-size: 12px; opacity: 0.7; margin-left: 4px; font-variant-numeric: tabular-nums; }

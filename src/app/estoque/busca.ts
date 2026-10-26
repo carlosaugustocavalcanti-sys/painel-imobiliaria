@@ -74,6 +74,18 @@ export interface Linha {
   texto: string;
   /** Formas de pagamento aceitas: lançamentos pela modalidade do prédio, usados pelo texto da tabela. */
   pagamentos: Pagto[];
+  /** A tabela diz "frente mar" (ou frente ao mar / frente praia), ou o prédio fica na Av. Castelo Branco. */
+  frenteMar: boolean;
+}
+
+const FRENTE_MAR = /frente\s*(ao\s+|para\s+o\s+|p\/\s*o\s+)?(mar|praia)/;
+const CASTELO_BRANCO = /castelo\s+branco/;
+
+/** Frente mar: o texto da unidade ou o nome do prédio diz frente mar, o endereço é a Av. Castelo Branco, ou veio da pasta Frente Mar. */
+export function ehFrenteMar(u: Unidade, p: Predio): boolean {
+  if (u.origens.includes('frente-mar') || CASTELO_BRANCO.test(normalizar(p.endereco))) return true;
+  const regs = [u, ...(u.outras ?? [])];
+  return FRENTE_MAR.test(normalizar([p.nome, ...regs.flatMap((r) => [r.vista, r.obs, r.det, r.tipologia, r.promo])].join(' ')));
 }
 
 export type Pagto = 'bancario' | 'direto';
@@ -123,6 +135,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         mercados: [...new Set(regs.map((r) => r.mercado))],
         entrega: anoEntrega(u.entregaUnidade || p.entrega, u.fase),
         pagamentos: pagamentosDe(u, p),
+        frenteMar: ehFrenteMar(u, p),
         texto:
           textoPredio +
           ' ' +
@@ -143,6 +156,8 @@ export interface Filtros {
   /** Usados (revenda das imobiliárias) ou Lançamentos (tabela da construtora). */
   tipo: Tipo;
   vista: boolean;
+  /** Só frente mar (texto da tabela ou Av. Castelo Branco). */
+  frente: boolean;
   dm: '' | Dorm;
   vmin: number;
   vmax: number;
@@ -161,6 +176,7 @@ export const FILTROS_VAZIOS: Filtros = {
   q: '',
   tipo: '',
   vista: false,
+  frente: false,
   dm: '',
   vmin: 0,
   vmax: 0,
@@ -189,6 +205,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('todas') && !f.todas && u.status !== 'disponivel') return false;
   if (usa('tipo') && f.tipo && !l.mercados.includes(f.tipo === 'usados' ? 'revenda' : 'construtora')) return false;
   if (usa('vista') && f.vista && !u.vistaMar) return false;
+  if (usa('frente') && f.frente && !l.frenteMar) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;
   if (usa('vmin') && usa('vmax') && (f.vmin || f.vmax)) {
     const v = u.valor ?? 0;
@@ -215,7 +232,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
 
 /** Algum filtro que olha para a unidade (e não só para o prédio) está ligado? */
 export const filtroDeUnidade = (f: Filtros) =>
-  !!(f.vista || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
+  !!(f.vista || f.frente || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
 
 /* ---------- ordenação ---------- */
 

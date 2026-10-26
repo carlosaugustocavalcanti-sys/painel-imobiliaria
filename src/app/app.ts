@@ -103,6 +103,7 @@ export class App {
     lancamentos: this.contar({ tipo: 'lancamentos' }),
   }));
   protected readonly contagemVista = computed(() => this.contar({ vista: true }));
+  protected readonly contagemFrente = computed(() => this.contar({ frente: true }));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
 
   /* ---------- orla ---------- */
@@ -238,6 +239,7 @@ export class App {
     if (f.q.trim()) a.push({ rotulo: `“${f.q.trim()}”`, limpar: { q: '' } });
     if (f.tipo) a.push({ rotulo: f.tipo === 'usados' ? 'Usados' : 'Lançamentos', limpar: { tipo: '' } });
     if (f.vista) a.push({ rotulo: 'Vista mar', limpar: { vista: false } });
+    if (f.frente) a.push({ rotulo: 'Frente mar', limpar: { frente: false } });
     if (f.dm) a.push({ rotulo: DORM_ROTULO[f.dm], limpar: { dm: '' } });
     if (f.vmin || f.vmax)
       a.push({

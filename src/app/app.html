@@ -30,9 +30,14 @@
         <button type="button" role="radio" [attr.aria-checked]="fl.pagamento === 'bancario'" (click)="mudar({ pagamento: 'bancario' })" title="Aceita financiamento bancário">Banco</button>
         <button type="button" role="radio" [attr.aria-checked]="fl.pagamento === 'direto'" (click)="mudar({ pagamento: 'direto' })" title="Parcelamento direto com a construtora ou o investidor">Direto</button>
       </div>
+      <div class="chaves-mar" role="group" aria-label="Mar">
       <button type="button" class="chave" [attr.aria-pressed]="fl.vista" (click)="mudar({ vista: !fl.vista })">
         <span class="chave-bola" aria-hidden="true"></span> Só vista mar <span class="n">{{ fmt.num(contagemVista()) }}</span>
       </button>
+      <button type="button" class="chave" [attr.aria-pressed]="fl.frente" (click)="mudar({ frente: !fl.frente })" title="Tabela diz frente mar, ou o prédio fica na Av. Castelo Branco">
+        <span class="chave-bola" aria-hidden="true"></span> Só frente mar <span class="n">{{ fmt.num(contagemFrente()) }}</span>
+      </button>
+      </div>
     </div>
   </div>
 </header>
@@ -189,7 +194,7 @@
                 <span class="un-tags">
                   <span class="tag" [class.preta]="l.u.mercado === 'revenda'">{{ l.u.mercado === 'revenda' ? 'Usado' : 'Lançamento' }}</span>
                   @if (l.u.fase !== 'pronto') { <span class="tag">{{ FASE_ROTULO[l.u.fase] }}</span> }
-                  @if (l.u.vistaMar) { <span class="tag amarela">Vista mar</span> }
+                  @if (l.frenteMar) { <span class="tag amarela">Frente mar</span> } @else if (l.u.vistaMar) { <span class="tag amarela">Vista mar</span> }
                   @if (l.u.status !== 'disponivel') { <span class="tag tracejada">{{ STATUS_ROTULO[l.u.status] }}</span> }
                   @if (l.u.divergencias?.length) { <span class="tag tracejada" title="Tabelas com valores diferentes">2 valores</span> }
                   @if (l.u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela">Confirmar</span> }
