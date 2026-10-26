@@ -3504,6 +3504,515 @@
     }
    ],
    "notas": []
+  },
+  {
+   "id": "sobrados-tupa-193",
+   "nome": "Sobrados Rua Tupã, 193/197",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Tupã, 193 / 197 - Vila Tupi - Praia Grande/SP",
+   "fase": "lancamento",
+   "tabelas": [
+    {
+     "fonte": "Construlibera (tabela válida até 31/10/2026)",
+     "contato": "(13) 99607-2296 · (13) 99610-9657",
+     "atualizadoEm": "31/10/2026 (validade)",
+     "arquivo": "9. REVENDAS/2. CASAS/CONSTRULIBERA - Sobrados 3 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "193/197",
+     "tipologia": "Sobrado novo 3 suítes",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 3,
+     "area": 147,
+     "vagas": "3",
+     "valor": 1390000,
+     "status": "disponivel",
+     "obs": "Lançamento. Piscina e churrasqueira à carvão, sala e cozinha em conceito aberto. Área construída 147 m². Imagem ilustrativa; tabela válida até 31/10/2026.",
+     "fonte": "Construlibera (tabela válida até 31/10/2026)",
+     "contato": "(13) 99607-2296 · (13) 99610-9657",
+     "tabela": "31/10/2026 (validade)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casas-mario-daige",
+   "nome": "Casas Rua Mario Daige, 507 e 513",
+   "cidade": "Praia Grande",
+   "bairro": "Maracanã",
+   "endereco": "Rua Mario Daige, 507 e 513 - Balneário Maracanã - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "J Martins Construtora",
+     "contato": "Gabriel (13) 99633-4328",
+     "atualizadoEm": "sem data (arquivo de 26/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/Mario Daige - Casas Geminadas 2 dorm (Maracanã).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "507",
+     "tipologia": "Casa geminada 2 suítes",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "area": 73,
+     "vagas": "2",
+     "valor": 650000,
+     "status": "disponivel",
+     "obs": "Fase final de acabamento, com habite-se. Churrasqueira, lavabo, porcelanato. Financiamento bancário ou à vista.",
+     "fonte": "J Martins Construtora",
+     "contato": "Gabriel (13) 99633-4328",
+     "tabela": "sem data (arquivo de 26/10/2026)"
+    },
+    {
+     "unidade": "513",
+     "tipologia": "Casa geminada 2 suítes",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "area": 73,
+     "vagas": "2",
+     "valor": 650000,
+     "status": "disponivel",
+     "obs": "Fase final de acabamento, com habite-se. Churrasqueira, lavabo, porcelanato. Financiamento bancário ou à vista.",
+     "fonte": "J Martins Construtora",
+     "contato": "Gabriel (13) 99633-4328",
+     "tabela": "sem data (arquivo de 26/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-abdias-pedrosa-633",
+   "nome": "Casa Rua Abdias Pedrosa, 633",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua Abdias Pedrosa, 633 (esquina com Av. Pres. Kennedy) - Vila Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Guiomar Imóveis & Assessoria Jurídica",
+     "contato": "Alexandre (13) 99752-1747 · Guiomar (13) 99704-4479",
+     "atualizadoEm": "sem data (arquivo de 23/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/GUIOMAR - Casa 2 dorm (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa isolada 2 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 1,
+     "area": 136,
+     "vagas": "2",
+     "valor": 750000,
+     "iptu": 242.8,
+     "status": "disponivel",
+     "obs": "Residencial e comercial, zona 1, terreno de 170 m², lavanderia e despensa. Aceita financiamento, imóvel de menor valor e veículo como parte do pagamento.",
+     "fonte": "Guiomar Imóveis & Assessoria Jurídica",
+     "contato": "Alexandre (13) 99752-1747 · Guiomar (13) 99704-4479",
+     "tabela": "sem data (arquivo de 23/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-parque-das-americas",
+   "nome": "Casa Av. Almeida Júnior, 845",
+   "cidade": "Praia Grande",
+   "bairro": "Parque das Américas",
+   "endereco": "Avenida Almeida Júnior, 845, casa 2 - Parque das Américas - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/JEFFERSON EDUARDO - Casa 2 dorm (Maracanã).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa 2",
+     "tipologia": "Casa de condomínio sobreposta 2 dorms",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 0,
+     "area": 48,
+     "vagas": "1",
+     "valor": 215000,
+     "iptu": 164,
+     "status": "disponivel",
+     "obs": "Apenas 3 casas no condomínio. Aceita financiamento bancário.",
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-jose-demar-peres-509",
+   "nome": "Casa Rua José Demar Peres, 509",
+   "cidade": "Praia Grande",
+   "bairro": "Maracanã",
+   "endereco": "Rua José Demar Peres, 509 - Maracanã - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/JEFFERSON EDUARDO - Casa 2 dorm (Maracanã).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa 2 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 1,
+     "area": 74,
+     "vagas": "2 cobertas",
+     "valor": 430000,
+     "iptu": 280,
+     "status": "disponivel",
+     "obs": "450 m da praia, churrasqueira nos fundos. Financiamento somente por banco privado.",
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "ed-santa-clara-ocian",
+   "nome": "Ed. Santa Clara",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "Rua Kikusaburo Tanaka, 188 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/JEFFERSON EDUARDO - Casa 2 dorm (Maracanã).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "107",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "vagas": "",
+     "valor": 140000,
+     "cond": 341,
+     "iptu": 68,
+     "status": "disponivel",
+     "obs": "Primeiro andar, última do corredor, porteira fechada. À vista ou financiamento bancário com 50% de entrada.",
+     "fonte": "Jefferson Eduardo (tabela de setembro/2026)",
+     "contato": "(13) 97403-4056",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "sobrado-tupi-zona-2",
+   "nome": "Sobrado Rua Rubens Gonçalves de Freitas, 28.360",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Rubens Gonçalves de Freitas, 28.360 - Zona 02 - Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/PAPITO - Sobrado 6 dorm (Tupi) + Casa para Comércio 1 dorm (Mirim) + Casa 3 dorm (Peruíbe-SP).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado isolado 6 dorms (2 suítes)",
+     "categoria": "casa",
+     "dorm": 6,
+     "suites": 2,
+     "area": 500,
+     "vagas": "8 cobertas",
+     "valor": 2600000,
+     "status": "disponivel",
+     "obs": "Alugado no momento (investimento com retorno imediato). Salão de jogos e de festas, piscina, 3 lavabos. A área de 500 m² é a total.",
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "tabela": "21/10/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-vila-mirim-31-de-marco",
+   "nome": "Casa Av. 31 de Março, 751",
+   "cidade": "Praia Grande",
+   "bairro": "Mirim",
+   "endereco": "Av. 31 de Março, 751 - Vila Mirim - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/PAPITO - Sobrado 6 dorm (Tupi) + Casa para Comércio 1 dorm (Mirim) + Casa 3 dorm (Peruíbe-SP).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa 1 dorm (terreno 125 m²)",
+     "categoria": "casa",
+     "dorm": 1,
+     "suites": 0,
+     "area": 125,
+     "vagas": "",
+     "valor": 450000,
+     "iptu": 219.09,
+     "status": "disponivel",
+     "obs": "Alugada (bom para investidor). Terreno de 125 m².",
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "tabela": "21/10/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "kitnet-caicara-praia-grande-849",
+   "nome": "Kitnet Av. N. Sra. de Praia Grande, 849",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Av. Nossa Senhora de Praia Grande, 849 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/PAPITO - Sobrado 6 dorm (Tupi) + Casa para Comércio 1 dorm (Mirim) + Casa 3 dorm (Peruíbe-SP).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Kit 21",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "area": 20,
+     "vagas": "1 rotativa",
+     "valor": 155000,
+     "cond": 270,
+     "iptu": 200,
+     "status": "disponivel",
+     "obs": "Segundo andar. À vista R$ 155.000; financiamento bancário R$ 160.000. Perto da UPA do Samambaia.",
+     "fonte": "Papito Imóveis (tabela atualizada em 21/10/2026)",
+     "contato": "(13) 97416-2396",
+     "tabela": "21/10/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-imperador-companhia",
+   "nome": "Casa 3 suítes - Imperador",
+   "cidade": "Praia Grande",
+   "bairro": "Imperador",
+   "endereco": "Jardim Imperador - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Endereço não informado na tabela; mapa por nome."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Companhia Imóveis",
+     "contato": "www.imoveiscompanhia.com.br",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/IMÓVEIS COMPANHIA - Casa 3 dorm (Imperador).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa isolada 3 suítes",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 3,
+     "vagas": "4",
+     "valor": 1190000,
+     "status": "disponivel",
+     "obs": "Isolada da praia, piscina com cascata e hidromassagem, varanda gourmet com churrasqueira, quintal amplo, forro de drywall. Aceita financiamento bancário. Comissão de 5%.",
+     "fonte": "Companhia Imóveis",
+     "contato": "www.imoveiscompanhia.com.br",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "sobrado-rio-branco-1097",
+   "nome": "Sobrado Av. Rio Branco, 1097",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Rio Branco, 1097 - Canto do Forte - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "12/2026",
+   "tabelas": [
+    {
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/DANIEL MAIORANO - Sobrado 3 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado 3 suítes",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 3,
+     "area": 134,
+     "vagas": "2",
+     "valor": 1650000,
+     "status": "disponivel",
+     "obs": "Em construção, entrega 12/2026. Suíte com closet e sacada, piscina, espaço gourmet com churrasqueira, 2 lavabos, ponto de recarga para carro elétrico. Imóvel próprio do Maiorano.",
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "santo-antonio-6-maiorano",
+   "nome": "Santo Antônio 6",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua Isis, 58 - Caiçara - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "12/2026",
+   "tabelas": [
+    {
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/DANIEL MAIORANO - Sobrado 3 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "104",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 46.14,
+     "vagas": "1",
+     "valor": 395000,
+     "status": "disponivel",
+     "obs": "Sacada gourmet vista mar, andar alto, a 1 quadra da praia. Aceita carro. Parcelamento direto: entrada R$ 229.531,94 + 48 mensais de R$ 2.585,44 + 4 anuais de R$ 10.341,71 (correção 0,7% a.m.).",
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "tabela": "setembro/2026",
+     "vistaMar": true,
+     "entrada": 229531.94,
+     "fluxo": {
+      "entrada": 229531.94,
+      "anualQtd": 4,
+      "anualVal": 10341.71,
+      "parcQtd": 48,
+      "parcVal": 2585.44
+     }
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "ed-torres-148a",
+   "nome": "Res. Torres",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua São Romério, 15 - Caiçara - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "12/2026",
+   "tabelas": [
+    {
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/DANIEL MAIORANO - Sobrado 3 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "148 A",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79,
+     "vagas": "1",
+     "valor": 580000,
+     "status": "disponivel",
+     "obs": "Prédio frente mar, sacada gourmet vista mar, lazer completo. Entrega 12/2026.",
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Daniel Maiorano (13) 98226-6837 · Marcelo (13) 99164-6148",
+     "tabela": "setembro/2026",
+     "vistaMar": true
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "res-rosas-kitao",
+   "nome": "Residencial Rosas",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua Flauzina de Oliveira Rosa, 141 - Vila Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Marcelo (13) 99164-6148",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/DANIEL MAIORANO - Sobrado 3 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "12 (bloco Pernambuco)",
+     "tipologia": "Kitão",
+     "dorm": 0,
+     "suites": 0,
+     "area": 28.36,
+     "vagas": "1",
+     "valor": 230000,
+     "cond": 470,
+     "iptu": 102.11,
+     "status": "disponivel",
+     "obs": "Térreo, mobiliado, portão eletrônico, portaria noturna, a 100 m da praia. Exclusividade.",
+     "fonte": "Maiorano Imóveis (tabela de setembro/2026)",
+     "contato": "Marcelo (13) 99164-6148",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
   }
  ]
 }

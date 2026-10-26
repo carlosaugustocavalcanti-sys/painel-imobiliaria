@@ -338,6 +338,7 @@ const FUNDIR_MANUAL = [
   // Tabelas do Drive (mês): mesmo prédio com nome/endereço escrito de outro jeito.
   ['lancamentos:primicia-plaza', 'drive-mes:primicia-plaza-m2'],
   ['lancamentos:costa-atlantica', 'drive-mes:costa-atlantica-fazio'],
+  ['isildo:res-torres', 'drive-mes:ed-torres-148a'],
   ['usados:praia-grande-residencial-aviacao', 'drive-mes:ed-praia-grande-marcondes'],
 ];
 const grupos = [];
