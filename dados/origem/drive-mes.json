@@ -1615,6 +1615,585 @@
      "vistaMar": true
     }
    ]
+  },
+  {
+   "id": "res-triumph",
+   "nome": "Residencial Triumph",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Vila Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Endereço não informado na tabela; mapa por nome."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Construlibera",
+     "contato": "(13) 99610-9657",
+     "atualizadoEm": "sem data (arquivo de 26/10/2026)",
+     "arquivo": "9. REVENDAS/CONSTRULIBERA - Apto 3 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "12º andar",
+     "andar": 12,
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 145.13,
+     "vagas": "2 demarcadas",
+     "valor": 1050000,
+     "status": "disponivel",
+     "obs": "Residencial frente ao mar, lazer completo, vista para o mar, 3 banheiros. Valor já inclui comissão de 5%. A tabela não informa o número do apartamento.",
+     "fonte": "Construlibera",
+     "contato": "(13) 99610-9657",
+     "tabela": "sem data (arquivo de 26/10/2026)",
+     "vistaMar": true
+    }
+   ]
+  },
+  {
+   "id": "ed-sao-ignes",
+   "nome": "Ed. São Ignes",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "R. Dom Pedro II, 600 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "209",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "area": 24,
+     "vagas": "",
+     "valor": 160000,
+     "cond": 210,
+     "iptu": 98,
+     "status": "disponivel",
+     "obs": "Kitnet no 2º andar de escada, frente para a rua. Chaves com Rodney (13) 98837-7235. Paga 5%.",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-veneza-ocian",
+   "nome": "Ed. Veneza",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "Rua Oceânica Amabile, 749 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "43",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 48,
+     "vagas": "1",
+     "valor": null,
+     "cond": 559,
+     "iptu": 225,
+     "status": "reservado",
+     "obs": "Reservado na tabela de 10/10/2026 (sem valor). Sacada, prédio com elevador e lazer completo. À vista ou banco. Chaves na Tempone Imóveis (Ocian).",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-antonio-room-ocian",
+   "nome": "Ed. Antonio Room",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "Rua Guimarães Rosa, 45 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "83",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "area": 88,
+     "vagas": "1",
+     "valor": null,
+     "cond": 950,
+     "iptu": 198,
+     "status": "reservado",
+     "obs": "Reservado na tabela da Junior Ramos de 10/10/2026 (a tabela MA Imóveis de 05/10 o dava como disponível por R$ 325 mil). Vista mar, porteira fechada.",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026",
+     "vistaMar": true
+    }
+   ]
+  },
+  {
+   "id": "ed-medeiros",
+   "nome": "Ed. Medeiros",
+   "cidade": "Praia Grande",
+   "bairro": "Mirim",
+   "endereco": "Rua XV de Novembro, 101 - Mirim - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "41",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 68,
+     "vagas": "1",
+     "valor": 420000,
+     "cond": 657,
+     "iptu": 356,
+     "status": "disponivel",
+     "obs": "Mobiliado, a 150 m do mar, lazer completo, portaria 24h. À vista ou banco.",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-essence",
+   "nome": "Ed. Essence",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Bolívia, 454 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "26",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 83,
+     "vagas": "1",
+     "valor": 560000,
+     "cond": 850,
+     "iptu": 577,
+     "status": "disponivel",
+     "obs": "2 sacadas com churrasqueira a carvão, 3 banheiros, lazer completo. À vista ou banco.",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ocean-park-56a",
+   "nome": "Ocean Park",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "R. Comendador Otto Carlos Golanda, 200 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "56 A",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 83,
+     "vagas": "1",
+     "valor": 470000,
+     "cond": 550,
+     "status": "disponivel",
+     "obs": "Sacada gourmet, lazer completo. Somente à vista; aceita carro ou imóvel como parte do pagamento. Chaves na Mérito Imóveis (Av. Castelo Branco, 7.942).",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-maria-rosa",
+   "nome": "Res. Maria Rosa",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "R. Salvador Molinari, 291 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "atualizadoEm": "10/10/2026",
+     "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "56",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 120,
+     "vagas": "2 (uma demarcada e escriturada)",
+     "valor": 680000,
+     "cond": 1077,
+     "iptu": 448,
+     "status": "disponivel",
+     "obs": "Prédio com lazer, portaria 24h e elevador; planejados ficam. À vista ou financiamento.",
+     "fonte": "Junior Ramos Investimentos (tabela atualizada em 10/10/2026)",
+     "contato": "(13) 99643-4540",
+     "tabela": "10/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-areal",
+   "nome": "Ed. Areal",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Colômbia, 161 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "notas": [
+    "O texto da tabela cita a Rua Fumio Miyazi, 498, Boqueirão, junto ao kit; o endereço do prédio é Rua Colômbia, 161 (confirmar)."
+   ],
+   "unidades": [
+    {
+     "unidade": "8",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "area": 30,
+     "vagas": "1 (coletiva)",
+     "valor": 220000,
+     "cond": 180,
+     "iptu": 364,
+     "status": "disponivel",
+     "obs": "Preço baixou de R$ 230 mil para R$ 220 mil. 100 m da praia. Chaves na K. Iannelli. À vista ou financiamento bancário.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "res-santo-expedito-ii",
+   "nome": "Res. Santo Expedito II",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Potiguares, 348 - Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "33",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 55,
+     "vagas": "1",
+     "valor": 335000,
+     "cond": 480,
+     "iptu": 236,
+     "status": "disponivel",
+     "obs": "Preço baixou de R$ 340 mil para R$ 335 mil. Será entregue reformado, sacada vista livre, lazer completo. 300 m da praia. Chaves na portaria.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-alfa",
+   "nome": "Residencial Alfa",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Costa Machado, 292 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "84",
+     "andar": 8,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 86,
+     "vagas": "1",
+     "valor": 460000,
+     "cond": 720,
+     "iptu": 380,
+     "status": "disponivel",
+     "obs": "150 m da praia, 2 elevadores, lazer com sauna, academia, salão de jogos e de festas.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-gramado-xiii",
+   "nome": "Res. Gramado XIII",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Doutor João Sampaio, 553 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "15",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 86,
+     "vagas": "1 coberta",
+     "valor": 550000,
+     "cond": 720,
+     "iptu": 360,
+     "status": "disponivel",
+     "obs": "Sacada gourmet com churrasqueira envidraçada, móveis planejados, 450 m da orla. Lazer: piscina adulto e infantil, academia, salão de jogos, sauna, brinquedoteca, salão de festas.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "paradise-revenda-26",
+   "nome": "Paradise",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Alberto Santos Dumont, 141 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "26",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 76,
+     "vagas": "2",
+     "valor": 590000,
+     "status": "disponivel",
+     "obs": "Entregue em setembro de 2026. Lazer: salão de jogos, salão de festas, fitness, espaço kids, sauna, piscina. Agendar visita.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "napoli-revenda",
+   "nome": "Napoli",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Copacabana, 333 - Guilhermina - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Dez/2027",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "84",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 90.83,
+     "vagas": "1",
+     "valor": 780000,
+     "status": "disponivel",
+     "obs": "Entrega em dezembro de 2027. Lazer: salão de jogos e de festas, academia, spa, espaço gourmet, pet care, sauna, piscina adulto e infantil.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    },
+    {
+     "unidade": "83",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 77.76,
+     "vagas": "1",
+     "valor": 770000,
+     "status": "disponivel",
+     "obs": "Entrega em dezembro de 2027. Mesmo lazer do apto 84.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "funchal-revenda",
+   "nome": "Funchal Residence",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Doutor João Sampaio, 429 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "atualizadoEm": "12/09/2026",
+     "arquivo": "9. REVENDAS/K IANNELLI - Apto 2 dorm (Guilhermina-Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "121",
+     "andar": 12,
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 110,
+     "vagas": "2",
+     "valor": 950000,
+     "cond": 550,
+     "status": "disponivel",
+     "obs": "126 m² no total, 100 m da praia, 2 apartamentos por andar, churrasqueira, box privativo. Somente à vista; enviar CRECI à K. Iannelli para liberar. IPTU ainda não lançado.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026"
+    },
+    {
+     "unidade": "2 dorms (sem nº)",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 77,
+     "vagas": "2",
+     "valor": 780000,
+     "cond": 550,
+     "status": "disponivel",
+     "obs": "Ampla varanda gourmet com churrasqueira elétrica, 400 m da praia, lazer completo. Somente à vista. A tabela não informa o número do apartamento.",
+     "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
+     "contato": "(13) 99721-2868 · (13) 97407-2868",
+     "tabela": "12/09/2026",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "royale-revenda",
+   "nome": "Royale",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "R. Dr. João Sampaio, 167 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "GB Menezes Imóveis (tabela atualizada em 19/10/2026)",
+     "contato": "Guga Menezes (13) 97404-6043",
+     "atualizadoEm": "19/10/2026",
+     "arquivo": "9. REVENDAS/GB MENEZES - Aptos 1, 2 e 3 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "61",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 125,
+     "vagas": "2",
+     "valor": 900000,
+     "cond": 627.21,
+     "iptu": 590,
+     "status": "disponivel",
+     "obs": "Mobiliado, sacada gourmet. Prédio com piscina, churrasqueira, salões, sauna, academia e espaço kids. Aceita financiamento e apto 2 dorms de menor valor. Comissão 5% (Fifty).",
+     "fonte": "GB Menezes Imóveis (tabela atualizada em 19/10/2026)",
+     "contato": "Guga Menezes (13) 97404-6043",
+     "tabela": "19/10/2026"
+    }
+   ]
   }
  ]
 }
