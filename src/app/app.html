@@ -37,6 +37,11 @@
       <button type="button" class="chave" [attr.aria-pressed]="fl.frente" (click)="mudar({ frente: !fl.frente })" title="Tabela diz frente mar, ou o prédio fica na Av. Castelo Branco">
         <span class="chave-bola" aria-hidden="true"></span> Só frente mar <span class="n">{{ fmt.num(contagemFrente()) }}</span>
       </button>
+      <div class="seg" role="radiogroup" aria-label="Comissão">
+        <button type="button" role="radio" [attr.aria-checked]="!fl.comissao" (click)="mudar({ comissao: '' })" title="Sem filtrar pela comissão">Qualquer comissão</button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.comissao === 'cinco'" (click)="mudar({ comissao: 'cinco' })" title="A tabela informa comissão de 5% sobre o valor da tabela">5% <span>{{ fmt.num(contagemComissao().cinco) }}</span></button>
+        <button type="button" role="radio" [attr.aria-checked]="fl.comissao === 'fifty'" (click)="mudar({ comissao: 'fifty' })" title="A tabela informa comissão fifty (metade com o parceiro)">Fifty <span>{{ fmt.num(contagemComissao().fifty) }}</span></button>
+      </div>
       </div>
     </div>
   </div>

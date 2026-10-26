@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -202,5 +202,34 @@ describe('forma de pagamento dos usados', () => {
     expect(pagamentosDeTexto('Permuta ou carro R$ 355 mil (sem banco)')).toEqual([]);
     expect(pagamentosDeTexto('Financia: Somente à vista')).toEqual([]);
     expect(pagamentosDeTexto('Valor à vista ou financiamento bancário; NÃO aceita parcelamento direto')).toEqual(['bancario']);
+  });
+});
+
+describe('comissão', () => {
+  it('lê 5% e fifty do texto da tabela', () => {
+    expect(comissoesDeTexto('Aceita financiamento | Comissão: 5%')).toEqual(['cinco']);
+    expect(comissoesDeTexto('Comissão fifty 6%')).toEqual(['fifty']);
+    expect(comissoesDeTexto('Parceria fifty')).toEqual(['fifty']);
+    expect(comissoesDeTexto('5% de comissão')).toEqual(['cinco']);
+    expect(comissoesDeTexto('Comissão: 5% (abaixo: fifty)')).toEqual(['cinco']);
+    expect(comissoesDeTexto('Comissão: R$ 15 mil')).toEqual([]);
+    expect(comissoesDeTexto('Parcela de R$ 1.500,00 e 15%')).toEqual([]);
+  });
+
+  it('filtra pela comissão da unidade; sem informação na unidade, vale a do prédio', () => {
+    const base: Omit<Unidade, 'ref'> = { origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel' };
+    const ls = montarLinhas([
+      predio({
+        notas: ['Comissão 5%'],
+        unidades: [
+          { ...base, ref: 'a:0', unidade: '1', obs: 'Comissão fifty 6%' },
+          { ...base, ref: 'a:1', unidade: '2', obs: 'Sacada' },
+        ],
+      }),
+      predio({ id: 'y', unidades: [{ ...base, ref: 'b:0', unidade: '3', obs: 'Comissão: 5%' }, { ...base, ref: 'b:1', unidade: '4' }] }),
+    ]);
+    expect(ls.filter((l) => passa(l, F({ comissao: 'fifty' }))).map((l) => l.u.unidade)).toEqual(['1']);
+    expect(ls.filter((l) => passa(l, F({ comissao: 'cinco' }))).map((l) => l.u.unidade)).toEqual(['2', '3']);
+    expect(ls.filter((l) => passa(l, F({}))).length).toBe(4);
   });
 });

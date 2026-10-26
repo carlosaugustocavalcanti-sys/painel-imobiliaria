@@ -76,6 +76,8 @@ export interface Linha {
   pagamentos: Pagto[];
   /** A tabela diz "frente mar" (ou frente ao mar / frente praia), ou o prédio fica na Av. Castelo Branco. */
   frenteMar: boolean;
+  /** Comissão que a tabela informa: 5% sobre o valor da tabela, ou fifty (metade com o parceiro). Vazio = a tabela não diz. */
+  comissoes: Comissao[];
 }
 
 const FRENTE_MAR = /frente\s*(ao\s+|para\s+o\s+|p\/\s*o\s+)?(mar|praia)/;
@@ -86,6 +88,28 @@ export function ehFrenteMar(u: Unidade, p: Predio): boolean {
   if (u.origens.includes('frente-mar') || CASTELO_BRANCO.test(normalizar(p.endereco))) return true;
   const regs = [u, ...(u.outras ?? [])];
   return FRENTE_MAR.test(normalizar([p.nome, ...regs.flatMap((r) => [r.vista, r.obs, r.det, r.tipologia, r.promo])].join(' ')));
+}
+
+export type Comissao = 'cinco' | 'fifty';
+
+const COMISSAO_5 = /comiss[a-z]*[^|;]{0,40}?(?<![\d,.])5\s*%|(?<![\d,.])5\s*%\s*(de\s+)?comiss/;
+const COMISSAO_FIFTY = /fif(t|i)y|fyfty/;
+
+/** Lê a comissão no texto livre de uma tabela. "5% (abaixo do valor: fifty)" é 5%: o fifty só vale para proposta abaixo da tabela. */
+export function comissoesDeTexto(texto: string | undefined): Comissao[] {
+  const t = normalizar(texto).replace(/abaixo[^|;.]{0,60}fif(t|i)y/g, '');
+  const r: Comissao[] = [];
+  if (COMISSAO_5.test(t)) r.push('cinco');
+  if (COMISSAO_FIFTY.test(t)) r.push('fifty');
+  return r;
+}
+
+/** Comissão de uma unidade: o que as tabelas dela dizem; sem isso, o que a tabela do prédio diz. */
+export function comissoesDe(u: Unidade, p: Predio): Comissao[] {
+  const regs = [u, ...(u.outras ?? [])];
+  const daUnidade = new Set(regs.flatMap((r) => comissoesDeTexto([r.obs, r.det, r.promo].join(' | '))));
+  if (daUnidade.size) return [...daUnidade];
+  return comissoesDeTexto([...(p.notas ?? []), ...(p.diferenciais ?? [])].join(' | '));
 }
 
 export type Pagto = 'bancario' | 'direto';
@@ -136,6 +160,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         entrega: anoEntrega(u.entregaUnidade || p.entrega, u.fase),
         pagamentos: pagamentosDe(u, p),
         frenteMar: ehFrenteMar(u, p),
+        comissoes: comissoesDe(u, p),
         texto:
           textoPredio +
           ' ' +
@@ -162,6 +187,8 @@ export interface Filtros {
   vista: boolean;
   /** Só frente mar (texto da tabela ou Av. Castelo Branco). */
   frente: boolean;
+  /** Só unidades cuja tabela informa essa comissão (vazio = todas). */
+  comissao: '' | Comissao;
   dm: '' | Dorm;
   vmin: number;
   vmax: number;
@@ -182,6 +209,7 @@ export const FILTROS_VAZIOS: Filtros = {
   categoria: '',
   vista: false,
   frente: false,
+  comissao: '',
   dm: '',
   vmin: 0,
   vmax: 0,
@@ -212,6 +240,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('categoria') && f.categoria && (u.categoria ?? 'apartamento') !== f.categoria) return false;
   if (usa('vista') && f.vista && !u.vistaMar) return false;
   if (usa('frente') && f.frente && !l.frenteMar) return false;
+  if (usa('comissao') && f.comissao && !l.comissoes.includes(f.comissao)) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;
   if (usa('vmin') && usa('vmax') && (f.vmin || f.vmax)) {
     const v = u.valor ?? 0;
@@ -238,7 +267,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
 
 /** Algum filtro que olha para a unidade (e não só para o prédio) está ligado? */
 export const filtroDeUnidade = (f: Filtros) =>
-  !!(f.categoria || f.vista || f.frente || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
+  !!(f.categoria || f.vista || f.frente || f.comissao || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
 
 /* ---------- ordenação ---------- */
 

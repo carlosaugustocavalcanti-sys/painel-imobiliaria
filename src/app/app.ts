@@ -106,6 +106,11 @@ export class App {
   }));
   protected readonly contagemVista = computed(() => this.contar({ vista: true }));
   protected readonly contagemFrente = computed(() => this.contar({ frente: true }));
+  protected readonly contagemComissao = computed(() => ({
+    '': this.contar({ comissao: '' }),
+    cinco: this.contar({ comissao: 'cinco' }),
+    fifty: this.contar({ comissao: 'fifty' }),
+  }));
   protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
 
@@ -244,6 +249,7 @@ export class App {
     if (f.categoria) a.push({ rotulo: CATEGORIA_ROTULO[f.categoria], limpar: { categoria: '' } });
     if (f.vista) a.push({ rotulo: 'Vista mar', limpar: { vista: false } });
     if (f.frente) a.push({ rotulo: 'Frente mar', limpar: { frente: false } });
+    if (f.comissao) a.push({ rotulo: f.comissao === 'cinco' ? 'Comissão 5%' : 'Comissão fifty', limpar: { comissao: '' } });
     if (f.dm) a.push({ rotulo: DORM_ROTULO[f.dm], limpar: { dm: '' } });
     if (f.vmin || f.vmax)
       a.push({
