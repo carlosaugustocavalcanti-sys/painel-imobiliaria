@@ -1,9 +1,14 @@
 {
-  "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura. Ver dados/SINCRONIZACAO.md.",
+  "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
   "ultimaVarredura": "2026-10-26T00:00:00Z",
-  "pastasVigiadas": [
-    { "nome": "7. LANÇAMENTOS (com 2026, 2027, 2028, 2029 e Entregues)", "id": "1_kO_BtozkJEJW8vzPB1_Hc1awjSzFaw-", "origem": "dados/origem/lancamentos-drive.json" },
-    { "nome": "5. FRENTE MAR", "id": "1-12foTPr2hgKNyatWgRJGZ1wW7uQm3u5", "origem": "dados/origem/frente-mar.json" }
+  "pastaDoMes": {
+    "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
+    "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
+    "mesDoId": "2026-10"
+  },
+  "subpastasMapeadas": [
+    { "nomeComeçaCom": "7. LANÇAMENTOS", "origem": "dados/origem/lancamentos-drive.json" },
+    { "nomeComeçaCom": "5. FRENTE MAR", "origem": "dados/origem/frente-mar.json" }
   ],
   "historico": []
 }
