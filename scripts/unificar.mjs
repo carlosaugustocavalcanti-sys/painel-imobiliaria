@@ -335,6 +335,9 @@ const FUNDIR_MANUAL = [
   ['lancamentos:melissa-miyazi', 'frente-mar:melissa-miyazi-frente-mar'],
   // Res. Turim (Construmoura, Rua José Alexandre Có): o usado cita o nº 160 e a tabela do proprietário, o nº 213.
   ['usados:turim-caicara', 'drive-mes:res-turim'],
+  // Tabelas do Drive (mês): mesmo prédio com nome/endereço escrito de outro jeito.
+  ['lancamentos:primicia-plaza', 'drive-mes:primicia-plaza-m2'],
+  ['usados:praia-grande-residencial-aviacao', 'drive-mes:ed-praia-grande-marcondes'],
 ];
 const grupos = [];
 for (const p of predios) {

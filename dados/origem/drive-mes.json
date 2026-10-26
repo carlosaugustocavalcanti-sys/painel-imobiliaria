@@ -1803,6 +1803,12 @@
      "contato": "(13) 99643-4540",
      "atualizadoEm": "10/10/2026",
      "arquivo": "9. REVENDAS/JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf"
+    },
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
     }
    ],
    "unidades": [
@@ -2108,6 +2114,22 @@
      "fonte": "K. Iannelli Imóveis (tabela de 12/09/2026)",
      "contato": "(13) 99721-2868 · (13) 97407-2868",
      "tabela": "12/09/2026"
+    },
+    {
+     "unidade": "47",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 75.6,
+     "vagas": "2",
+     "valor": 580000,
+     "cond": 780,
+     "iptu": 530,
+     "status": "disponivel",
+     "obs": "3 banheiros, mobiliado, portaria 24h, lazer completo. À vista ou financiamento bancário.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
     }
    ]
   },
@@ -2192,6 +2214,644 @@
      "fonte": "GB Menezes Imóveis (tabela atualizada em 19/10/2026)",
      "contato": "Guga Menezes (13) 97404-6043",
      "tabela": "19/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-safira-boqueirao",
+   "nome": "Ed. Safira",
+   "cidade": "Praia Grande",
+   "bairro": "Boqueirão",
+   "endereco": "Rua Jaú, 815 - Boqueirão - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "211",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "area": 31,
+     "vagas": "1",
+     "valor": 235000,
+     "cond": 380,
+     "iptu": 103,
+     "status": "disponivel",
+     "obs": "Sala, cozinha, mobiliado. À vista ou financiamento bancário; aceita carro sob avaliação. Chaves: agendar.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-rosales",
+   "nome": "Res. Rosales",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Pero Vaz de Caminha, 69 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "63",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 60,
+     "vagas": "1",
+     "valor": 360000,
+     "cond": 590,
+     "iptu": 248,
+     "status": "disponivel",
+     "obs": "Mobiliado, vista mar, salão de jogos e de festas, elevador, portaria 24h. À vista ou financiamento bancário; aceita carro sob avaliação.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Bárbara (13) 99615-4928 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true
+    }
+   ]
+  },
+  {
+   "id": "primicia-plaza-m2",
+   "nome": "Primícia Plaza",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Botafogo, 617 - Guilhermina - Praia Grande/SP",
+   "fase": "obra",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "128",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 65,
+     "vagas": "1",
+     "valor": 600000,
+     "status": "disponivel",
+     "obs": "Entrega em 07/2026 (chaves na obra). Entrada R$ 180 mil + chaves R$ 70 mil + saldo em 48 parcelas. Comissão Fifty.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
+    },
+    {
+     "unidade": "191",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 65,
+     "vagas": "2 privativas",
+     "valor": 630000,
+     "status": "disponivel",
+     "obs": "Entrega em 07/2026 (chaves na obra). Entrada R$ 180 mil + chaves R$ 70 mil + saldo em 48 parcelas. Comissão Fifty.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-vermont",
+   "nome": "Res. Vermont",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Av. Juscelino Kubitschek de Oliveira, 1751 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "77",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67,
+     "vagas": "1",
+     "valor": 590000,
+     "cond": 515,
+     "iptu": 280,
+     "status": "disponivel",
+     "obs": "Vista mar, em reforma. Financiamento direto: entrada R$ 180.000 + 103x de R$ 3.200 + 8 anuais de R$ 10.000. Mini mercado e lavanderia no prédio. Comissão Fifty.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "entrada": 180000,
+     "fluxo": {
+      "entrada": 180000,
+      "anualQtd": 8,
+      "anualVal": 10000,
+      "parcQtd": 103,
+      "parcVal": 3200
+     }
+    },
+    {
+     "unidade": "54",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67,
+     "vagas": "1",
+     "valor": 685000,
+     "cond": 515,
+     "iptu": 280,
+     "status": "disponivel",
+     "obs": "Mobiliado, vista mar. Financiamento direto: entrada R$ 250.000 + 85x de R$ 3.421 + 8 anuais de R$ 18.000. Comissão Fifty.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "entrada": 250000,
+     "fluxo": {
+      "entrada": 250000,
+      "anualQtd": 8,
+      "anualVal": 18000,
+      "parcQtd": 85,
+      "parcVal": 3421
+     }
+    }
+   ]
+  },
+  {
+   "id": "res-lorena",
+   "nome": "Res. Lorena",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Balneário Camboriú, 316 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "75",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 89.42,
+     "vagas": "1",
+     "valor": 690000,
+     "cond": 792,
+     "iptu": 560,
+     "status": "disponivel",
+     "obs": "Alto padrão, sacada gourmet, 3 banheiros, lazer completo. À vista, financiamento bancário ou direto. O nome \"Res. Lorena\" e o valor R$ 690 mil vêm do cabeçalho vizinho na tabela (confirmar).",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "ed-francisco-camargo-m2",
+   "nome": "Ed. Francisco Camargo",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Rua General Osório, 57 - Canto do Forte - Praia Grande/SP",
+   "fase": "obra",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "25",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 125,
+     "vagas": "2",
+     "valor": 1199000,
+     "status": "disponivel",
+     "obs": "Em obras (chaves na obra). Varanda gourmet, lazer completo, portaria 24h. Somente à vista; aceita carro sob avaliação. Comissão Fifty.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-copacabana-beach-m2",
+   "nome": "Res. Copacabana Beach",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Copacabana, 80 - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "142",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 141,
+     "vagas": "2",
+     "valor": 1450000,
+     "status": "disponivel",
+     "obs": "5 banheiros, sacada gourmet, lazer completo, portaria 24h. À vista ou financiamento bancário; aceita carro sob avaliação. Chaves: agendar.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-vasco-da-gama",
+   "nome": "Ed. Vasco da Gama",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Vasco da Gama, 80 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "144",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 134,
+     "vagas": "2",
+     "valor": 1200000,
+     "cond": 882.05,
+     "iptu": 738.84,
+     "status": "disponivel",
+     "obs": "Voltou ao mercado e baixou de R$ 1.250.000 para R$ 1.200.000. Varanda gourmet vista mar, 80 m da praia, andar alto, lavabo, gás encanado. Ref. 1917.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026",
+     "vistaMar": true
+    }
+   ]
+  },
+  {
+   "id": "ed-praia-grande-marcondes",
+   "nome": "Ed. Praia Grande",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua General Marcondes Salgado, 292 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "92 JR",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 48.74,
+     "vagas": "1",
+     "valor": 340000,
+     "cond": 562,
+     "iptu": 265.07,
+     "status": "disponivel",
+     "obs": "Totalmente reformado, sacada frente rua, 290 m da praia, portaria 24h. Valor baixou. Ref. 12681.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    },
+    {
+     "unidade": "45 MG",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 48.74,
+     "vagas": "1",
+     "valor": 330000,
+     "cond": 562,
+     "iptu": 265.07,
+     "status": "reservado",
+     "obs": "Reservado. Ref. 12351.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-barra-da-tijuca-bl",
+   "nome": "Ed. Barra da Tijuca",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Peru, 334 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "28",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 54.76,
+     "vagas": "1",
+     "valor": 450000,
+     "cond": 665,
+     "iptu": 322.45,
+     "status": "disponivel",
+     "obs": "Mobiliado (retira TVs, alguns eletrodomésticos e objetos pessoais). Lazer completo, 2 elevadores. Visitas com acompanhamento. Ref. 13204.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-monte-castelo-i",
+   "nome": "Ed. Monte Castelo I",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Monte Castelo, 295 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "25",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 85,
+     "vagas": "1",
+     "valor": 530000,
+     "cond": 625.6,
+     "iptu": 443.16,
+     "status": "disponivel",
+     "obs": "Sacada gourmet, mobiliado, 300 m da praia, lazer completo, portaria digital, gás encanado. Ref. 11915.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-henrique-magno-i",
+   "nome": "Ed. Henrique Magno I",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua José Calixto do Carmo, 295 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "105",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 52,
+     "vagas": "1",
+     "valor": 350000,
+     "cond": 549,
+     "iptu": 294.11,
+     "status": "reservado",
+     "obs": "Reservado. Semimobiliado, varanda gourmet. Ref. 13325.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    },
+    {
+     "unidade": "85",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 52,
+     "vagas": "1",
+     "valor": 360000,
+     "cond": 549,
+     "iptu": 294.11,
+     "status": "reservado",
+     "obs": "Reservado. Mobiliado, varanda gourmet. Ref. 13338.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    },
+    {
+     "unidade": "34",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 54,
+     "vagas": "1",
+     "valor": 360000,
+     "cond": 527,
+     "iptu": 304,
+     "status": "reservado",
+     "obs": "Reservado. Mobiliado, varanda gourmet. Ref. 13290.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-saint-louis",
+   "nome": "Ed. Saint Louis",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Panamá, 346 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "atualizadoEm": "26/10/2026",
+     "arquivo": "9. REVENDAS/BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "72",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 76,
+     "vagas": "1",
+     "valor": 460000,
+     "cond": 713.44,
+     "iptu": 355.86,
+     "status": "suspenso",
+     "obs": "Suspenso, em reforma. Sacada, 2 elevadores. Ref. 11337.",
+     "fonte": "Bom Lugar Imóveis (tabela de 26/10/2026)",
+     "contato": "Edmilson (13) 97405-1465",
+     "tabela": "26/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-brisamar",
+   "nome": "Ed. Brisamar",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Chile, 425 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "atualizadoEm": "10/09/2026",
+     "arquivo": "9. REVENDAS/TIO WILLIAM - Apto 2 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "52",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 105,
+     "vagas": "2",
+     "valor": 700000,
+     "cond": 700,
+     "iptu": 480,
+     "status": "disponivel",
+     "obs": "148 m² totais, sacada gourmet, 500 m da praia, lazer completo. Aceita financiamento direto. Comissão Fifty 5%.",
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "tabela": "10/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-aruba-e-cancun",
+   "nome": "Ed. Aruba & Cancun",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Caiapós, 883 - Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "atualizadoEm": "10/09/2026",
+     "arquivo": "9. REVENDAS/TIO WILLIAM - Apto 2 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "46 C",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 126,
+     "vagas": "2",
+     "valor": 830000,
+     "cond": 944.23,
+     "iptu": 505.06,
+     "status": "disponivel",
+     "obs": "Baixou de R$ 960.000 para R$ 830.000. 148 m² totais, sacada gourmet envidraçada, planejados, 50 m da praia, mini mercado. Aceita financiamento bancário. Comissão Fifty 5%.",
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "tabela": "10/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-blue-star",
+   "nome": "Ed. Blue Star",
+   "cidade": "Praia Grande",
+   "bairro": "Itararé",
+   "endereco": "Rua João José Florindo da Silva - Itararé - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "atualizadoEm": "10/09/2026",
+     "arquivo": "9. REVENDAS/TIO WILLIAM - Apto 2 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Kitnet",
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "suites": 0,
+     "area": 27.83,
+     "vagas": "1 (coletiva)",
+     "valor": 220000,
+     "cond": 470,
+     "iptu": 126,
+     "status": "disponivel",
+     "obs": "Vista mar, 33,36 m² totais. Aceita financiamento bancário. A tabela não informa o número da unidade.",
+     "fonte": "Tio William Imóveis (tabela atualizada em 10/09/2026)",
+     "contato": "William e Thais (agendar chaves)",
+     "tabela": "10/09/2026",
+     "vistaMar": true
     }
    ]
   }

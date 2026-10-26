@@ -49,6 +49,10 @@ const JR = { fonte: 'Junior Ramos Investimentos (tabela atualizada em 10/10/2026
 const KI = { fonte: 'K. Iannelli Imóveis (tabela de 12/09/2026)', contato: '(13) 99721-2868 · (13) 97407-2868', data: '12/09/2026' };
 const GBM = { fonte: 'GB Menezes Imóveis (tabela atualizada em 19/10/2026)', contato: 'Guga Menezes (13) 97404-6043', data: '19/10/2026' };
 const CONSTRULIBERA = { fonte: 'Construlibera', contato: '(13) 99610-9657', data: 'sem data (arquivo de 26/10/2026)' };
+const M2 = { fonte: 'M² Imóveis (tabela de 23/10/2026)', contato: 'Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322', data: '23/10/2026' };
+const M2V = { ...M2, contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322' };
+const BL = { fonte: 'Bom Lugar Imóveis (tabela de 26/10/2026)', contato: 'Edmilson (13) 97405-1465', data: '26/10/2026' };
+const TW = { fonte: 'Tio William Imóveis (tabela atualizada em 10/09/2026)', contato: 'William e Thais (agendar chaves)', data: '10/09/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -514,7 +518,7 @@ const predios = [
     bairro: 'Guilhermina',
     endereco: 'Rua Bolívia, 454 - Guilhermina - Praia Grande/SP',
     fase: 'pronto',
-    tabelas: tab(JR, PREFIXO + 'JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf'),
+    tabelas: [...tab(JR, PREFIXO + 'JUNIOR RAMOS - Aptos 2 dorm (Ocian-Caiçara).pdf'), ...tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf')],
     unidades: [rv(JR, { un: '26', dorm: 2, suites: 2, area: 83, vagas: '1', valor: 560000, cond: 850, iptu: 577, obs: '2 sacadas com churrasqueira a carvão, 3 banheiros, lazer completo. À vista ou banco.' })],
   },
   {
@@ -600,6 +604,7 @@ const predios = [
     unidades: [
       rv(KI, { un: '84', dorm: 2, suites: 1, area: 90.83, vagas: '1', valor: 780000, obs: 'Entrega em dezembro de 2027. Lazer: salão de jogos e de festas, academia, spa, espaço gourmet, pet care, sauna, piscina adulto e infantil.' }),
       rv(KI, { un: '83', dorm: 2, suites: 1, area: 77.76, vagas: '1', valor: 770000, obs: 'Entrega em dezembro de 2027. Mesmo lazer do apto 84.' }),
+      rv(M2, { un: '47', dorm: 2, suites: 2, area: 75.6, vagas: '2', valor: 580000, cond: 780, iptu: 530, obs: '3 banheiros, mobiliado, portaria 24h, lazer completo. À vista ou financiamento bancário.' }),
     ],
   },
   {
@@ -624,6 +629,203 @@ const predios = [
     fase: 'pronto',
     tabelas: tab(GBM, PREFIXO + 'GB MENEZES - Aptos 1, 2 e 3 dorm (Guilhermina).pdf'),
     unidades: [rv(GBM, { un: '61', dorm: 3, suites: 1, area: 125, vagas: '2', valor: 900000, cond: 627.21, iptu: 590, obs: 'Mobiliado, sacada gourmet. Prédio com piscina, churrasqueira, salões, sauna, academia e espaço kids. Aceita financiamento e apto 2 dorms de menor valor. Comissão 5% (Fifty).' })],
+  },
+  {
+    id: 'ed-safira-boqueirao',
+    nome: 'Ed. Safira',
+    cidade: 'Praia Grande',
+    bairro: 'Boqueirão',
+    endereco: 'Rua Jaú, 815 - Boqueirão - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2, { un: '211', tipologia: 'Kitnet', dorm: 0, suites: 0, area: 31, vagas: '1', valor: 235000, cond: 380, iptu: 103, obs: 'Sala, cozinha, mobiliado. À vista ou financiamento bancário; aceita carro sob avaliação. Chaves: agendar.' }),
+    ],
+  },
+  {
+    id: 'res-rosales',
+    nome: 'Res. Rosales',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Pero Vaz de Caminha, 69 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv({ ...M2, contato: 'Bárbara (13) 99615-4928 · M² Imóveis (13) 3596-1322' }, { un: '63', dorm: 1, suites: 0, area: 60, vagas: '1', valor: 360000, cond: 590, iptu: 248, vistaMar: true, obs: 'Mobiliado, vista mar, salão de jogos e de festas, elevador, portaria 24h. À vista ou financiamento bancário; aceita carro sob avaliação.' }),
+    ],
+  },
+  {
+    id: 'primicia-plaza-m2',
+    nome: 'Primícia Plaza',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Botafogo, 617 - Guilhermina - Praia Grande/SP',
+    fase: 'obra',
+    tabelas: tab(M2V, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2V, { un: '128', dorm: 2, suites: 1, area: 65, vagas: '1', valor: 600000, obs: 'Entrega em 07/2026 (chaves na obra). Entrada R$ 180 mil + chaves R$ 70 mil + saldo em 48 parcelas. Comissão Fifty.' }),
+      rv(M2V, { un: '191', dorm: 2, suites: 1, area: 65, vagas: '2 privativas', valor: 630000, obs: 'Entrega em 07/2026 (chaves na obra). Entrada R$ 180 mil + chaves R$ 70 mil + saldo em 48 parcelas. Comissão Fifty.' }),
+    ],
+  },
+  {
+    id: 'res-vermont',
+    nome: 'Res. Vermont',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Av. Juscelino Kubitschek de Oliveira, 1751 - Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2, { un: '77', dorm: 2, suites: 1, area: 67, vagas: '1', valor: 590000, cond: 515, iptu: 280, vistaMar: true, fluxo: { entrada: 180000, anualQtd: 8, anualVal: 10000, parcQtd: 103, parcVal: 3200 }, obs: 'Vista mar, em reforma. Financiamento direto: entrada R$ 180.000 + 103x de R$ 3.200 + 8 anuais de R$ 10.000. Mini mercado e lavanderia no prédio. Comissão Fifty.' }),
+      rv(M2, { un: '54', dorm: 2, suites: 1, area: 67, vagas: '1', valor: 685000, cond: 515, iptu: 280, vistaMar: true, fluxo: { entrada: 250000, anualQtd: 8, anualVal: 18000, parcQtd: 85, parcVal: 3421 }, obs: 'Mobiliado, vista mar. Financiamento direto: entrada R$ 250.000 + 85x de R$ 3.421 + 8 anuais de R$ 18.000. Comissão Fifty.' }),
+    ],
+  },
+  {
+    id: 'res-lorena',
+    nome: 'Res. Lorena',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Balneário Camboriú, 316 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2, { un: '75', dorm: 2, suites: 2, area: 89.42, vagas: '1', valor: 690000, cond: 792, iptu: 560, conf: true, obs: 'Alto padrão, sacada gourmet, 3 banheiros, lazer completo. À vista, financiamento bancário ou direto. O nome "Res. Lorena" e o valor R$ 690 mil vêm do cabeçalho vizinho na tabela (confirmar).' }),
+    ],
+  },
+  {
+    id: 'ed-francisco-camargo-m2',
+    nome: 'Ed. Francisco Camargo',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua General Osório, 57 - Canto do Forte - Praia Grande/SP',
+    fase: 'obra',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2, { un: '25', dorm: 3, suites: 3, area: 125, vagas: '2', valor: 1199000, obs: 'Em obras (chaves na obra). Varanda gourmet, lazer completo, portaria 24h. Somente à vista; aceita carro sob avaliação. Comissão Fifty.' }),
+    ],
+  },
+  {
+    id: 'res-copacabana-beach-m2',
+    nome: 'Res. Copacabana Beach',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Copacabana, 80 - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(M2, PREFIXO + 'METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf'),
+    unidades: [
+      rv(M2, { un: '142', dorm: 3, suites: 3, area: 141, vagas: '2', valor: 1450000, obs: '5 banheiros, sacada gourmet, lazer completo, portaria 24h. À vista ou financiamento bancário; aceita carro sob avaliação. Chaves: agendar.' }),
+    ],
+  },
+  {
+    id: 'ed-vasco-da-gama',
+    nome: 'Ed. Vasco da Gama',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Vasco da Gama, 80 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '144', dorm: 3, suites: 3, area: 134, vagas: '2', valor: 1200000, cond: 882.05, iptu: 738.84, vistaMar: true, obs: 'Voltou ao mercado e baixou de R$ 1.250.000 para R$ 1.200.000. Varanda gourmet vista mar, 80 m da praia, andar alto, lavabo, gás encanado. Ref. 1917.' }),
+    ],
+  },
+  {
+    id: 'ed-praia-grande-marcondes',
+    nome: 'Ed. Praia Grande',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua General Marcondes Salgado, 292 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '92 JR', dorm: 1, suites: 0, area: 48.74, vagas: '1', valor: 340000, cond: 562, iptu: 265.07, obs: 'Totalmente reformado, sacada frente rua, 290 m da praia, portaria 24h. Valor baixou. Ref. 12681.' }),
+      rv(BL, { un: '45 MG', dorm: 1, suites: 0, area: 48.74, vagas: '1', valor: 330000, status: 'reservado', cond: 562, iptu: 265.07, obs: 'Reservado. Ref. 12351.' }),
+    ],
+  },
+  {
+    id: 'ed-barra-da-tijuca-bl',
+    nome: 'Ed. Barra da Tijuca',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Peru, 334 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '28', dorm: 2, suites: 1, area: 54.76, vagas: '1', valor: 450000, cond: 665, iptu: 322.45, obs: 'Mobiliado (retira TVs, alguns eletrodomésticos e objetos pessoais). Lazer completo, 2 elevadores. Visitas com acompanhamento. Ref. 13204.' }),
+    ],
+  },
+  {
+    id: 'ed-monte-castelo-i',
+    nome: 'Ed. Monte Castelo I',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Monte Castelo, 295 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '25', dorm: 2, suites: 1, area: 85, vagas: '1', valor: 530000, cond: 625.6, iptu: 443.16, obs: 'Sacada gourmet, mobiliado, 300 m da praia, lazer completo, portaria digital, gás encanado. Ref. 11915.' }),
+    ],
+  },
+  {
+    id: 'ed-henrique-magno-i',
+    nome: 'Ed. Henrique Magno I',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua José Calixto do Carmo, 295 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '105', dorm: 1, suites: 0, area: 52, vagas: '1', valor: 350000, status: 'reservado', cond: 549, iptu: 294.11, obs: 'Reservado. Semimobiliado, varanda gourmet. Ref. 13325.' }),
+      rv(BL, { un: '85', dorm: 1, suites: 0, area: 52, vagas: '1', valor: 360000, status: 'reservado', cond: 549, iptu: 294.11, obs: 'Reservado. Mobiliado, varanda gourmet. Ref. 13338.' }),
+      rv(BL, { un: '34', dorm: 1, suites: 0, area: 54, vagas: '1', valor: 360000, status: 'reservado', cond: 527, iptu: 304, obs: 'Reservado. Mobiliado, varanda gourmet. Ref. 13290.' }),
+    ],
+  },
+  {
+    id: 'ed-saint-louis',
+    nome: 'Ed. Saint Louis',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Panamá, 346 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(BL, PREFIXO + 'BOM LUGAR - Apto 2 dorm (Tupi) + Apto 3 dorm (Aviação-Caiçara).pdf'),
+    unidades: [
+      rv(BL, { un: '72', dorm: 2, suites: 1, area: 76, vagas: '1', valor: 460000, status: 'suspenso', cond: 713.44, iptu: 355.86, obs: 'Suspenso, em reforma. Sacada, 2 elevadores. Ref. 11337.' }),
+    ],
+  },
+  {
+    id: 'ed-brisamar',
+    nome: 'Ed. Brisamar',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Chile, 425 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(TW, PREFIXO + 'TIO WILLIAM - Apto 2 dorm (Ocian).pdf'),
+    unidades: [
+      rv(TW, { un: '52', dorm: 3, suites: 1, area: 105, vagas: '2', valor: 700000, cond: 700, iptu: 480, obs: '148 m² totais, sacada gourmet, 500 m da praia, lazer completo. Aceita financiamento direto. Comissão Fifty 5%.' }),
+    ],
+  },
+  {
+    id: 'ed-aruba-e-cancun',
+    nome: 'Ed. Aruba & Cancun',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Caiapós, 883 - Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(TW, PREFIXO + 'TIO WILLIAM - Apto 2 dorm (Ocian).pdf'),
+    unidades: [
+      rv(TW, { un: '46 C', dorm: 3, suites: 1, area: 126, vagas: '2', valor: 830000, cond: 944.23, iptu: 505.06, obs: 'Baixou de R$ 960.000 para R$ 830.000. 148 m² totais, sacada gourmet envidraçada, planejados, 50 m da praia, mini mercado. Aceita financiamento bancário. Comissão Fifty 5%.' }),
+    ],
+  },
+  {
+    id: 'ed-blue-star',
+    nome: 'Ed. Blue Star',
+    cidade: 'Praia Grande',
+    bairro: 'Itararé',
+    endereco: 'Rua João José Florindo da Silva - Itararé - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(TW, PREFIXO + 'TIO WILLIAM - Apto 2 dorm (Ocian).pdf'),
+    unidades: [
+      rv(TW, { un: 'Kitnet', tipologia: 'Kitnet', dorm: 0, suites: 0, area: 27.83, vagas: '1 (coletiva)', valor: 220000, cond: 470, iptu: 126, vistaMar: true, obs: 'Vista mar, 33,36 m² totais. Aceita financiamento bancário. A tabela não informa o número da unidade.' }),
+    ],
   },
 ];
 
