@@ -40,6 +40,9 @@ const PUDDO = { fonte: 'Puddo Construtora (revenda)', contato: 'Leandro (13) 996
 const MEC = { fonte: 'MEC Empreendimentos (tabela de revenda)', contato: '(13) 97414-3059 · (13) 99677-3493', data: 'sem data (arquivo de 21/10/2026)' };
 const JM = { fonte: 'JM Incorporadora (tabela de imóveis diversos)', contato: '(13) 3477-6021 · agendar (13) 99123-0704', data: '21/07/2026' };
 const RE = { fonte: 'R.E. Empreendimentos (tabela de vendas)', contato: '', data: '01/07/2026' };
+const ARCO = { fonte: 'Construtora Arco-Íris Mar (revendas, atualizada 08/10/2026)', contato: 'Zelador Lucas (13) 99638-1869 (visitas); material para corretores credenciados', data: '08/10/2026' };
+const NASCIMAR = { fonte: 'Nascimar Construtora (tabela atualizada em 03/09/2026)', contato: '(13) 99797-1007 · (13) 3471-1897', data: '03/09/2026' };
+const SHOPHOUSE = { fonte: 'Shop House (tabela Últimas Unidades, outubro/2026)', contato: '', data: 'outubro/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -318,6 +321,102 @@ const predios = [
     tabelas: tab(RE, PREFIXO + 'RE - Apto 2 dorm (Aviação) + Casas em Cond 2 dorm (Sítio do Campo).pdf'),
     notas: ['As casas sobrepostas do Res. Eloy Mendes (Sítio do Campo) da mesma tabela entram na etapa de casas.'],
     unidades: [rv(RE, { un: '171', dorm: 2, suites: 2, area: 84.34, vagas: '2', valor: 620000, cond: 663.26, obs: 'Edifício Saraiva. Tabela de 01/07/2026 (confirmar valor).', conf: true })],
+  },
+  {
+    id: 'res-ipe',
+    nome: 'Residencial Ipê',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Colômbia, 665 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    lazer: ['Espaço churrasqueira (5)', 'Espaço fitness', 'Salão de jogos', 'Brinquedoteca', 'Salão de festas', 'Piscina adulto/infantil', 'Sauna'],
+    tabelas: tab(ARCO, PREFIXO + 'ARCO IRIS - Apto 2 dorm (Guilhermina) + Apto 3 dorm (Caiçara).pdf'),
+    notas: ['Visitas seg-sáb, 9h às 17h, apresentando CRECI; pedir autorização ao zelador. Proibido Airbnb.'],
+    unidades: [rv(ARCO, { un: '1104', andar: 11, dorm: 2, suites: 1, area: 94.6, vagas: '2', valor: 800000, cond: 713.05, iptu: 612.08, fluxo: { entrada: 320000, parcQtd: 100, parcVal: 4800 }, obs: 'Pronto para morar, móveis planejados. Entrada R$ 320.000 + 100x de R$ 4.800 (poupança + 0,3% a.m.). Aceita financiamento bancário.' })],
+  },
+  {
+    id: 'jardim-das-tulipas',
+    nome: 'Jardim das Tulipas',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Av. Nossa Senhora de Fátima, 171 - Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ARCO, PREFIXO + 'ARCO IRIS - Apto 2 dorm (Guilhermina) + Apto 3 dorm (Caiçara).pdf'),
+    unidades: [rv(ARCO, { un: '101', andar: 1, dorm: 3, suites: 2, area: 107.73, vagas: '3 (nº 29 no subsolo)', valor: 1250000, cond: 859.1, iptu: 826.96, fluxo: { entrada: 500000, parcQtd: 100, parcVal: 7500 }, obs: 'Pronto para morar, sacada gourmet, móveis planejados. Entrada R$ 500.000 + 100x de R$ 7.500 (poupança + 0,3% a.m.). Aceita financiamento bancário.' })],
+  },
+  {
+    id: 'ed-caratinga',
+    nome: 'Ed. Caratinga',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Av. Pres. Castelo Branco, 3.782 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: [rv(NASCIMAR, { un: '65', dorm: 1, suites: 0, area: 49.01, vagas: '1', valor: 359900, cond: 607.69, iptu: 256.19, fluxo: { entrada: 159900, anualQtd: 5, anualVal: 5000, parcQtd: 60, parcVal: 3416.67 }, obs: 'À vista R$ 359.900; a prazo R$ 389.900 (entrada R$ 159.900 + 60 mensais de R$ 3.416,67 + 5 anuais de R$ 5.000).' })],
+  },
+  {
+    id: 'res-gabriel',
+    nome: 'Gabriel',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Av. Rio Branco, 449 - Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: [rv(NASCIMAR, { un: '92', dorm: 3, area: 131.8, vagas: '2', valor: 989000, cond: 871.64, iptu: 477.26, fluxo: { entrada: 249900, anualQtd: 7, anualVal: 25000, parcQtd: 84, parcVal: 9822.62 }, obs: 'À vista R$ 989.000; a prazo R$ 1.250.000 (entrada R$ 249.900 + 84 mensais de R$ 9.822,62 + 7 anuais de R$ 25.000).' })],
+  },
+  {
+    id: 'res-fortvillage',
+    nome: 'Res. Fortvillage',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Av. Marechal Mallet, 1380 - Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: ['4', '8'].map((un) => rv(NASCIMAR, { un, dorm: 3, area: 132, vagas: '2', valor: 799800, cond: 642.05, iptu: 463.62, fluxo: { entrada: 297000, anualQtd: 7, anualVal: 15000, parcQtd: 84, parcVal: 7000 }, obs: 'À vista R$ 799.800; a prazo R$ 990.000 (entrada R$ 297.000 + 84 mensais de R$ 7.000 + 7 anuais de R$ 15.000).' })),
+  },
+  {
+    id: 'ed-roviaki',
+    nome: 'Ed. Roviaki',
+    cidade: 'Praia Grande',
+    bairro: 'Ocian',
+    endereco: 'Rua Emílio de Menezes, 39 - Ocian - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: [rv(NASCIMAR, { un: '62', dorm: 3, area: 89.55, vagas: '1', valor: 498000, cond: 895.53, iptu: 270.87, fluxo: { entrada: 150000, anualQtd: 7, anualVal: 15000, parcQtd: 84, parcVal: 4105.36 }, obs: 'À vista R$ 498.000; a prazo R$ 599.850 (entrada R$ 150.000 + 84 mensais de R$ 4.105,36 + 7 anuais de R$ 15.000).' })],
+  },
+  {
+    id: 'res-nieto',
+    nome: 'Residencial Nieto',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Copacabana, 411 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: [rv(NASCIMAR, { un: '61', dorm: 3, area: 203.8, vagas: '2', valor: 898000, cond: 1646.34, iptu: 993.9, fluxo: { entrada: 249000, anualQtd: 7, anualVal: 20000, parcQtd: 84, parcVal: 6678.57 }, obs: 'À vista R$ 898.000; a prazo R$ 950.000 (entrada R$ 249.000 + 84 mensais de R$ 6.678,57 + 7 anuais de R$ 20.000).' })],
+  },
+  {
+    id: 'ed-hortencia',
+    nome: 'Ed. Hortência',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Av. Costa Machado, 400 - Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(NASCIMAR, PREFIXO + 'NASCIMAR - Apto 1 dorm (Aviação) + Aptos 3 dorm (Forte-Guilhermina-Ocian) + Coberturas (Forte).pdf'),
+    unidades: [rv(NASCIMAR, { un: 'Cobertura 171', tipologia: 'Cobertura', dorm: 3, area: 633.15, vagas: '5', valor: 6900000, cond: 4082, iptu: 913.81, conf: true, fluxo: { entrada: 2070000, anualQtd: 10, anualVal: 98000, parcQtd: 120, parcVal: 32083.33 }, obs: 'Área de laje de 633,15 m². Entrada R$ 2.070.000 + 120 mensais de R$ 32.083,33 + 10 anuais de R$ 98.000. Prêmio de R$ 10 mil ao corretor. A tabela cita "Blue Garden em reforma": confirmar o prédio e a tipologia.' })],
+  },
+  {
+    id: 'atlantic-house',
+    nome: 'Atlantic House',
+    cidade: 'Praia Grande',
+    bairro: 'Maracanã',
+    endereco: 'Av. Pres. Castelo Branco, 11030 - Balneário Maracanã - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(SHOPHOUSE, PREFIXO + 'Shop House - Aptos 1 e 2 dorm (Maracanã).pdf'),
+    notas: ['Chaves na portaria do Atlantic House Residence. Parcelas corrigidas pela poupança ou 0,7% a.m. (o maior).'],
+    unidades: [
+      rv(SHOPHOUSE, { un: '203', dorm: 2, suites: 0, area: 53.86, vagas: '', valor: 450000, cond: 892.53, iptu: 387.64, fluxo: { entrada: 250000, parcQtd: 100, parcVal: 2450 }, obs: 'À vista ou financiamento bancário R$ 450.000; a prazo R$ 495.000 (entrada R$ 250.000 + 100x de R$ 2.450).' }),
+      rv(SHOPHOUSE, { un: '804', dorm: 1, suites: 0, area: 39.06, vagas: '', valor: 315000, cond: 676.03, iptu: 297.48, fluxo: { entrada: 105000, parcQtd: 80, parcVal: 3000 }, obs: 'À vista ou financiamento bancário R$ 315.000; a prazo R$ 345.000 (entrada R$ 105.000 + 80x de R$ 3.000).' }),
+    ],
   },
 ];
 
