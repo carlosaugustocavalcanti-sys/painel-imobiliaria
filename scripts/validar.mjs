@@ -10,6 +10,7 @@ const LANC = ler('dados/origem/lancamentos.json');
 const VISTA = ler('dados/origem/vista-mar.json');
 const PASTA = ler('dados/origem/pasta-lancamentos.json');
 const ISILDO = ler('dados/origem/isildo.json');
+const FRENTE = ler('dados/origem/frente-mar.json');
 const ESTOQUE = ler('public/dados/estoque.json');
 
 const erros = [];
@@ -150,7 +151,7 @@ for (const g of VISTA.G) {
 }
 
 /* ---------- pasta Lançamentos (OneDrive) e tabela do Isildo: mesmo formato ---------- */
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b])]) {
   const p = predioPorOrigem.get(`${origem}:${b.id}`);
   if (!p) {
     erro(`Prédio ${origem}:${b.id} sumiu`);
@@ -191,6 +192,7 @@ const brutos = {
   'vista-mar': VISTA.U.map((x) => ({ disp: x.st === 'd', valor: x.valor })),
   lesan: PASTA.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   isildo: ISILDO.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
+  'frente-mar': FRENTE.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
 };
 for (const [origem, regs] of Object.entries(brutos)) {
   const unif = [...porRef.values()].filter(({ r }) => r.origem === origem).map(({ r }) => ({ disp: r.status === 'disponivel', valor: r.valor }));

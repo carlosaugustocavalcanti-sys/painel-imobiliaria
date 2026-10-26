@@ -258,6 +258,7 @@ export const ORIGEM_ROTULO: Record<Origem, string> = {
   'vista-mar': 'Painel vista mar',
   lesan: 'Pasta Lançamentos (OneDrive)',
   isildo: 'Tabela do Isildo',
+  'frente-mar': 'Pasta Frente Mar (Drive)',
 };
 export const valLabel = (v: number) =>
   v >= 1e6 ? 'R$ ' + (v / 1e6).toLocaleString('pt-BR') + ' mi' : 'R$ ' + v / 1e3 + ' mil';

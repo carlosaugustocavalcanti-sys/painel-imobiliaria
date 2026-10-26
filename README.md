@@ -22,6 +22,7 @@ npm run build      # versão de produção em dist/
 | `public/dados/estoque.json` | Estoque unificado que o app carrega (gerado, não editar à mão) |
 | `scripts/ler-pasta-lancamentos.mjs` | Lê as tabelas em PDF da pasta Lançamentos (texto pelo PDFKit do macOS, `scripts/pdf-texto.swift`) e gera `pasta-lancamentos.json`; falha se alguma contagem ou soma não bater |
 | `dados/origem/isildo.json` | Tabela do Isildo e do Guilherme de 20/10/2026 (19 prédios, 38 unidades), lida do PDF por `scripts/ler-tabela-isildo.mjs` (`node scripts/ler-tabela-isildo.mjs [pdf]`, padrão `~/Downloads/Tabela Isildo.pdf`) |
+| `dados/origem/frente-mar.json` | Apartamentos "frente mar" ou na Av. Pres. Castelo Branco das tabelas em PDF da pasta "5. FRENTE MAR" do Google Drive (50 prédios, 58 unidades), gerado por `scripts/ler-pasta-frente-mar.mjs` (os valores estão transcritos no próprio script, porque o texto veio pelo conector do Drive) |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
@@ -39,6 +40,7 @@ Regras de unificação:
 - **Pasta Lançamentos**: Harmony, Parque das Araucárias, Seven, Toninho (12 prédios), Ectual (15) e a tabela da Gomes Pacheco (Raimundo Gomes). Doze desses prédios já existiam no painel e receberam as unidades novas (Costa do Mar, Costa Maggiore, Ocean Park, Parque dos Coqueiros, Personnalité, Raimundo Gomes, Bellagio, Matteo, Pedro, Platinum, Unique, Torres). Em caso de conflito na mesma unidade, o registro reservado vence; depois vale a ordem lançamentos > pasta Lançamentos > usados > vista mar.
 - Reservado e vendido da Seven e da Ectual aparecem só por cor ou carimbo na imagem do PDF; foram conferidos página a página e estão nas constantes `STATUS_*` do leitor. Se a tabela mudar, refaça essa conferência.
 - **Tabela do Isildo (origem `isildo`)**: entra depois da pasta Lançamentos e antes dos usados na ordem de prioridade. A versão de 05/10 dessa mesma tabela foi retirada de `usados.json` (35 registros) porque a de 20/10 a substitui; as unidades de outras imobiliárias nos mesmos prédios (Kalyl, Nova Casarão) ficaram. Cada unidade guarda o link do álbum de fotos do slide (`fotos`). Os slides só com imagens (fachadas, plantas) não entram.
+- **Pasta Frente Mar (origem `frente-mar`)**: entra depois do Isildo e antes dos usados na prioridade. Só apartamentos e coberturas escritos "frente mar"/"frente ao mar" (ou "frente praia", nos casos da Jean Diegues) ou com endereço na Av. Pres. Castelo Branco; casas, locações e unidades só com "vista mar" fora dessa avenida não entram. Prédio sem nome na tabela recebe o código do anúncio (AP3753, KF050, Ref. 682). As tabelas da Ectual dessa pasta já estavam na pasta Lançamentos e não foram repetidas. As tabelas Erick Pereira, Kamila Amancio e William Buongiovanni têm texto embaralhado ou só imagem; só a unidade clara da William entrou (ver resumo da importação no commit).
 - Ficaram de fora a casa do Tupi da Ectual (indisponível por reforma, sem valores) e as senhas de fechadura que as tabelas trazem.
 
 ## Card da unidade

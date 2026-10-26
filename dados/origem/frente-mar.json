@@ -1,0 +1,2158 @@
+{
+ "arquivo": "Google Drive/5. FRENTE MAR",
+ "lidoEm": "2026-10-26",
+ "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (50 prédios, 58 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
+ "predios": [
+  {
+   "id": "guayi-frente-mar",
+   "nome": "Guayi",
+   "bairro": "Aviação",
+   "endereco": "Av. Pres. Castelo Branco, 3.972 - Campo da Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "141",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "status": "disponivel",
+     "area": 173.13,
+     "vagas": "2",
+     "valor": 1807600,
+     "entrada": 903800,
+     "iptu": 857,
+     "cond": 1195,
+     "fluxo": {
+      "entrada": 903800,
+      "parcQtd": 60,
+      "parcVal": 15063.33
+     },
+     "obs": "Final 1: 3 suítes, 173,13 m² + 0,8 m² de depósito. Ato + 60 parcelas mensais (IPCA + 1% ao mês).",
+     "det": "Final 1 · 3 suítes · beach box independente",
+     "fonte": "Terral (Guayi, tabela de agosto/2026)",
+     "contato": "Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075",
+     "tabela": "08/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "161",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "status": "disponivel",
+     "area": 173.13,
+     "vagas": "2",
+     "valor": 1851600,
+     "entrada": 925800,
+     "iptu": 857,
+     "cond": 1195,
+     "fluxo": {
+      "entrada": 925800,
+      "parcQtd": 60,
+      "parcVal": 15430
+     },
+     "obs": "Final 1: 3 suítes, 173,13 m² + 0,8 m² de depósito. Ato + 60 parcelas mensais (IPCA + 1% ao mês).",
+     "det": "Final 1 · 3 suítes · beach box independente",
+     "fonte": "Terral (Guayi, tabela de agosto/2026)",
+     "contato": "Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075",
+     "tabela": "08/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "201",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "status": "disponivel",
+     "area": 173.13,
+     "vagas": "2",
+     "valor": 1939600,
+     "entrada": 969800,
+     "iptu": 857,
+     "cond": 1195,
+     "fluxo": {
+      "entrada": 969800,
+      "parcQtd": 60,
+      "parcVal": 16163.33
+     },
+     "obs": "Final 1: 3 suítes, 173,13 m² + 0,8 m² de depósito. Ato + 60 parcelas mensais (IPCA + 1% ao mês).",
+     "det": "Final 1 · 3 suítes · beach box independente",
+     "fonte": "Terral (Guayi, tabela de agosto/2026)",
+     "contato": "Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075",
+     "tabela": "08/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "135",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "status": "disponivel",
+     "area": 106.02,
+     "vagas": "2",
+     "valor": 950000,
+     "entrada": 475000,
+     "iptu": 550,
+     "cond": 776,
+     "fluxo": {
+      "entrada": 475000,
+      "parcQtd": 60,
+      "parcVal": 7916.67
+     },
+     "obs": "Final 5: 2 suítes, 106,02 m² + 0,8 m² de depósito. Ato + 60 parcelas mensais (IPCA + 1% ao mês).",
+     "det": "Final 5 · 2 suítes · beach box independente",
+     "fonte": "Terral (Guayi, tabela de agosto/2026)",
+     "contato": "Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075",
+     "tabela": "08/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [
+    "Pronto para morar, frente para o mar. Chaves no stand de vendas (Av. Pres. Castelo Branco, 3.996).",
+    "5% de desconto para pagamento à vista ou financiamento bancário.",
+    "Tabela sujeita a alterações; IPTU e condomínio são valores estimados."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Terral (Guayi, tabela de agosto/2026)",
+     "contato": "Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075",
+     "atualizadoEm": "08/2026",
+     "arquivo": "Guayi - Aptos 2 e 3 dorm (Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "costareal-costa real 1 dorm",
+   "nome": "Prédio frente mar · Costa Real 1 dorm",
+   "bairro": "A confirmar",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "vagas": "1",
+     "valor": 336000,
+     "iptu": 250,
+     "cond": 500,
+     "det": "sala 2 ambientes, sacada envidraçada com churrasqueira, cozinha, área de serviço",
+     "obs": "Aceita financiamento bancário. A tabela não nomeia o prédio nem informa a área. Estuda imóvel e veículo como parte do pagamento. Comissão 5%.",
+     "fonte": "Costa Real Imóveis",
+     "contato": "Samir (13) 97405-3825",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Frente ao mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Costa Real Imóveis",
+     "contato": "Samir (13) 97405-3825",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "COSTA REAL - Apto 1 dorm (Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "atlantic-house-frente-mar",
+   "nome": "Atlantic House",
+   "bairro": "Maracanã",
+   "endereco": "Av. Pres. Castelo Branco, 11.030 - Maracanã - Praia Grande/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 75,
+     "vagas": "1",
+     "valor": 685000,
+     "cond": 986,
+     "iptu": 512,
+     "det": "sacada gourmet envidraçada, decorado",
+     "obs": "Porteira fechada. Aceita financiamento bancário. Lazer: piscina, salão de festas, salão de jogos e brinquedoteca. Comissão 5%.",
+     "fonte": "GrandLar Imóveis (tabela de 08/10/2026)",
+     "contato": "Angelica Klein (13) 97405-5450",
+     "tabela": "08/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "701",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 66.25,
+     "vagas": "1",
+     "valor": 650000,
+     "iptu": 451.52,
+     "cond": 967.1,
+     "det": "mobiliado (fica como está), sacada gourmet envidraçada, cozinha planejada, lazer completo",
+     "obs": "Preço reduzido. R$ 680 mil no financiamento bancário ou permuta. Condomínio R$ 967,10 (+ taxa de renovação do AVCB R$ 92,22). Chaves: enviar CRECI para autorizar. Comissão 5%.",
+     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "contato": "Kalyl Imóveis (13) 98850-1016",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "GrandLar Imóveis (tabela de 08/10/2026)",
+     "contato": "Angelica Klein (13) 97405-5450",
+     "atualizadoEm": "08/10/2026",
+     "arquivo": "GRANDLAR - Apto 2 dorm (Mirim).pdf"
+    },
+    {
+     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "contato": "Kalyl Imóveis (13) 98850-1016",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-hugo-navarro-frente-mar",
+   "nome": "Res. Hugo Navarro",
+   "bairro": "Mirim",
+   "endereco": "Av. Pres. Castelo Branco, 10676",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "103",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "suspenso",
+     "area": 69,
+     "vagas": "1",
+     "valor": 600000,
+     "cond": 754.37,
+     "iptu": 401.11,
+     "det": "sacada gourmet envidraçada, mobiliado",
+     "obs": "Suspenso temporariamente. Condomínio R$ 754,37 + taxa extra R$ 265,78. Aceita financiamento bancário. Comissão R$ 20 mil.",
+     "fonte": "GrandLar Imóveis (tabela de 08/10/2026)",
+     "contato": "Angelica Klein (13) 97405-5450",
+     "tabela": "08/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "GrandLar Imóveis (tabela de 08/10/2026)",
+     "contato": "Angelica Klein (13) 97405-5450",
+     "atualizadoEm": "08/10/2026",
+     "arquivo": "GRANDLAR - Apto 2 dorm (Mirim).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-rei-david-frente-mar",
+   "nome": "Res. Rei David",
+   "bairro": "Aviação",
+   "endereco": "Av. Pres. Castelo Branco, 4304",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "305 A",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 45,
+     "vagas": "1",
+     "valor": 285000,
+     "iptu": 228,
+     "cond": 581,
+     "det": "sala, cozinha, mobiliado; salão de jogos e de festas, elevador, portaria 24h",
+     "obs": "Chaves: agendar. À vista ou financiamento bancário; aceita carro sob avaliação. Comissão 5%.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "704 A",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 76,
+     "vagas": "1",
+     "valor": 360000,
+     "iptu": 262,
+     "cond": 871,
+     "det": "sala, cozinha, mobiliado; salão de jogos e de festas, elevador, portaria 24h",
+     "obs": "Visitas de segunda a sexta, das 9h às 17h, e sábado até 12h. À vista ou financiamento bancário; aceita carro sob avaliação. Comissão 5%.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Vista mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-rei-salomao-frente-mar",
+   "nome": "Res. Rei Salomão",
+   "bairro": "Aviação",
+   "endereco": "Av. Pres. Castelo Branco, 4284",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "104",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 72,
+     "vagas": "1",
+     "valor": 380000,
+     "iptu": 180,
+     "cond": 1080,
+     "det": "sala, cozinha, área de serviço, semi mobiliado; elevador, lazer, portaria 24h",
+     "obs": "À vista ou financiamento bancário; aceita carro sob avaliação. Comissão 5%.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-angela-frente-mar",
+   "nome": "Res. Angela",
+   "bairro": "Aviação",
+   "endereco": "Av. Pres. Castelo Branco, 4424",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "1102",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 100,
+     "vagas": "1",
+     "valor": 670000,
+     "iptu": 400,
+     "cond": 1200,
+     "det": "sacada, mobiliado; portaria 24h, lazer completo",
+     "obs": "À vista ou financiamento bancário. Comissão 5%.",
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Vista mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "M² Imóveis (tabela de 23/10/2026)",
+     "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "pico-dos-andes-frente-mar",
+   "nome": "Pico dos Andes",
+   "bairro": "Ocian",
+   "endereco": "Av. Pres. Castelo Branco, 7140",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "502",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 55,
+     "vagas": "1",
+     "valor": 390000,
+     "iptu": 280,
+     "cond": 620,
+     "det": "apenas planejados",
+     "obs": "Aceita financiamento. Comissão 5%.",
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf"
+    }
+   ]
+  },
+  {
+   "id": "braganca-frente-mar",
+   "nome": "Bragança",
+   "bairro": "Guilhermina",
+   "endereco": "Av. Castelo Branco, 3278",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "81",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 72,
+     "vagas": "1",
+     "valor": 650000,
+     "iptu": 370,
+     "cond": 793.83,
+     "det": "sacada frente mar",
+     "obs": "Condomínio R$ 793,83 + R$ 150 de salão de festas e jogos (fundo de obras). Aceita financiamento. Comissão 5%.",
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf"
+    }
+   ]
+  },
+  {
+   "id": "nicolas-frente-mar",
+   "nome": "Nicolas",
+   "bairro": "Guilhermina",
+   "endereco": "Av. Castelo Branco, 3236",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "1305",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 84,
+     "vagas": "2",
+     "valor": 627000,
+     "iptu": 517.65,
+     "cond": 871.59,
+     "det": "sacada, lazer completo, mobiliado",
+     "obs": "Aceita financiamento. Comissão 5%.",
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "tabela": "23/10/2026",
+     "vistaMar": true,
+     "vista": "Vista mar · Av. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Vista Atlântico Imóveis (tabela de 23/10/2026)",
+     "contato": "Vista Atlântico (13) 3494-5840",
+     "atualizadoEm": "23/10/2026",
+     "arquivo": "VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf"
+    }
+   ]
+  },
+  {
+   "id": "villagio-di-napoli-frente-mar",
+   "nome": "Villagio di Napoli",
+   "bairro": "Maracanã",
+   "endereco": "Av. Pres. Castelo Branco, 11.590 · Maracanã",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "601",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 85.41,
+     "vagas": "2",
+     "valor": 550000,
+     "iptu": 449.73,
+     "cond": 1180.77,
+     "det": "sacada envidraçada com vista mar, lazer completo, portaria 24h, pintura nova",
+     "obs": "Preço reduzido. Condomínio R$ 1.180,77 + rateio do elevador R$ 148,53. À vista; aceita financiamento bancário e permuta. Chaves: apartamento aberto; enviar CRECI para fotos. Comissão 5%.",
+     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "contato": "Kalyl Imóveis (13) 98850-1016",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "contato": "Kalyl Imóveis (13) 98850-1016",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-julio-cesar-frente-mar",
+   "nome": "Res. Julio Cesar",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Peru, 53, esquina com Av. Pres. Castelo Branco, 3220 - Vila Guilhermina",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "404",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 48,
+     "vagas": "1",
+     "valor": 330000,
+     "iptu": 82.81,
+     "cond": 507.98,
+     "det": "sala, cozinha, área de serviço; 2 elevadores, bicicletário, lavanderia no térreo",
+     "obs": "Lazer: piscina, salão de jogos, salão de festas, churrasqueira, solarium. À vista ou financiamento bancário. Comissão parceria fifty 6%.",
+     "fonte": "Lucato Imóveis (tabela de 24/10/2026)",
+     "contato": "Lucato (13) 98835-4051 · (13) 99161-8893",
+     "tabela": "24/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Lucato Imóveis (tabela de 24/10/2026)",
+     "contato": "Lucato (13) 98835-4051 · (13) 99161-8893",
+     "atualizadoEm": "24/10/2026",
+     "arquivo": "LUCATO - Apto 1 dorm (Guilhermina).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-bela-vista-frente-mar",
+   "nome": "Res. Bela Vista",
+   "bairro": "Real",
+   "endereco": "Av. Pres. Castelo Branco, 16578",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "76",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 76,
+     "vagas": "1",
+     "valor": 545000,
+     "det": "varanda gourmet, sala 2 ambientes, lazer completo",
+     "obs": "Aceita financiamento bancário. Chaves: agendar. Comissão 5%; o sinal da proposta vai para a conta da Veraneio.",
+     "fonte": "Veraneio Imóveis (tabela de 22/10/2026)",
+     "contato": "Veraneio (13) 97405-5688 (gerente de vendas)",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Veraneio Imóveis (tabela de 22/10/2026)",
+     "contato": "Veraneio (13) 97405-5688 (gerente de vendas)",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "VERANEIO - Apto 2 dorm (Jd. Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "ed-verde-mar-frente-mar",
+   "nome": "Ed. Verde Mar",
+   "bairro": "Canto do Forte",
+   "endereco": "Av. Pres. Castelo Branco, 340 (portaria) · 2ª entrada R. General Euclides Figueiredo, 340 - Canto do Forte",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "324 · bloco 6",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "andar": 3,
+     "area": 52,
+     "vagas": "1",
+     "valor": 325000,
+     "iptu": 209.65,
+     "cond": 491.82,
+     "acesso": "escada",
+     "det": "100% reformado, cozinha grande",
+     "obs": "3º andar por escada, prédio com portaria 24h, salão de festas e duas entradas. Documentação ok para financiamento; aceita financiamento bancário e estuda imóvel de menor valor. Chaves na portaria. Comissão 5%.",
+     "fonte": "Imóveis Leandro Carvalho (Cabelo)",
+     "contato": "Leandro Carvalho (Cabelo)",
+     "tabela": "19/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Imóveis Leandro Carvalho (Cabelo)",
+     "contato": "Leandro Carvalho (Cabelo)",
+     "atualizadoEm": "19/10/2026",
+     "arquivo": "LEANDRO CABELO - Apto 2 dorm (Forte).pdf"
+    }
+   ]
+  },
+  {
+   "id": "ed-jeanete-mariano-frente-mar",
+   "nome": "Ed. Jeanete Mariano",
+   "bairro": "Maracanã",
+   "endereco": "Rua Mario Daige, 108 · Maracanã",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "502 B",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 59.51,
+     "valor": 339000,
+     "iptu": 269.75,
+     "cond": 519,
+     "det": "duas sacadas, na sala e no quarto",
+     "obs": "Aceita financiamento bancário. O proprietário retira TV, máquina de lavar e micro-ondas. Comissão 5%.",
+     "fonte": "PGI (tabela de 05/10/2026)",
+     "contato": "Luis Moraes (13) 97600-2278",
+     "tabela": "05/10/2026",
+     "vistaMar": true,
+     "vista": "Frente ao mar · duas sacadas com vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "PGI (tabela de 05/10/2026)",
+     "contato": "Luis Moraes (13) 97600-2278",
+     "atualizadoEm": "05/10/2026",
+     "arquivo": "PGI - Apto 1 dorm (Maracanã).pdf"
+    }
+   ]
+  },
+  {
+   "id": "melissa-miyazi-frente-mar",
+   "nome": "Melissa Miyazi",
+   "bairro": "Imperador",
+   "endereco": "Av. Presidente Castelo Branco, 16.140 - Praia Grande/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "21",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 127,
+     "vagas": "2",
+     "valor": 998000,
+     "iptu": 853.91,
+     "cond": 1391.21,
+     "det": "mobiliado, sacada envidraçada, piscina na cobertura, lazer completo",
+     "obs": "À vista, financiamento bancário ou permuta. Chaves: agendar com o Júlio. Comissão 5%.",
+     "fonte": "C2X Investimentos (tabela de 16/10/2026)",
+     "contato": "Júlio (13) 99733-7800",
+     "tabela": "16/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar · Maracanã",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "—",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 127,
+     "vagas": "2",
+     "valor": 990000,
+     "iptu": 760,
+     "cond": 1100,
+     "det": "porteira fechada",
+     "obs": "Unidade sem número na tabela. Estuda veículo como parte do pagamento. Comissão fifty.",
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "tabela": "16/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar total",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "C2X Investimentos (tabela de 16/10/2026)",
+     "contato": "Júlio (13) 99733-7800",
+     "atualizadoEm": "16/10/2026",
+     "arquivo": "C2X - Apto 3 dorm (Maracanã).pdf"
+    },
+    {
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "atualizadoEm": "16/10/2026",
+     "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "ed-mirza-frente-mar",
+   "nome": "Ed. Mirza",
+   "bairro": "Maracanã",
+   "endereco": "Av. Pres. Castelo Branco, 12000",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 35,
+     "vagas": "1",
+     "valor": 340000,
+     "iptu": 180,
+     "cond": 426,
+     "det": "sacada, garagem rotativa, porteira fechada",
+     "obs": "Unidade sem número na tabela. Comissão 5%.",
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "tabela": "16/10/2026",
+     "vistaMar": true,
+     "vista": "Vista mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "atualizadoEm": "16/10/2026",
+     "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "ilha-home-resort-frente-mar",
+   "nome": "Ilha Home Resort",
+   "bairro": "Guilhermina",
+   "endereco": "Av. Pres. Castelo Branco, 1990",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "3 dorms",
+     "dorm": 3,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 92,
+     "vagas": "2",
+     "valor": 1100000,
+     "iptu": 520,
+     "cond": 980,
+     "det": "mobiliado, portaria 24h, lazer completo",
+     "obs": "De R$ 1.200.000 por R$ 1.100.000. Unidade sem número na tabela. Estuda veículo como parte do pagamento. Comissão fifty.",
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "tabela": "16/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar total",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Nova Home (tabela de 16/10/2026)",
+     "contato": "Daniela (13) 97409-3105",
+     "atualizadoEm": "16/10/2026",
+     "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-lucas-frente-mar",
+   "nome": "Res. Lucas",
+   "bairro": "Flórida",
+   "endereco": "Rua Íris, 28",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "11",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 115,
+     "vagas": "2",
+     "valor": 990000,
+     "iptu": 712,
+     "cond": 1050,
+     "det": "lazer: piscina adulto e infantil, academia, brinquedoteca, espaço de descanso e spa",
+     "obs": "Lançamento. Comissão de 4% sobre o valor da tabela.",
+     "fonte": "Márcio Masumoto Jr (tabela de 22/09/2026)",
+     "contato": "Márcio Masumoto Jr (Instagram @marciomasumotojr)",
+     "tabela": "22/09/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Márcio Masumoto Jr (tabela de 22/09/2026)",
+     "contato": "Márcio Masumoto Jr (Instagram @marciomasumotojr)",
+     "atualizadoEm": "22/09/2026",
+     "arquivo": "MÁRCIO MASUMOTO JR - Apto 3 dorm (Flórida).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-nelson-crevatin-frente-mar",
+   "nome": "Res. Nelson Crevatin",
+   "bairro": "Tupi",
+   "endereco": "Rua José da Silva Machado, 21 - Vila Tupi",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "Cobertura 71/72",
+     "tipologia": "Cobertura · 6 dorms (1 suíte)",
+     "dorm": 6,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 235,
+     "vagas": "2",
+     "valor": 1390000,
+     "iptu": 771,
+     "cond": 1350,
+     "det": "cobertura duplex, espaço gourmet com churrasqueira e forno a lenha, sauna",
+     "obs": "Visitas com agendamento. Comissão 5%.",
+     "fonte": "Saga Imóveis (tabela de 19/10/2026)",
+     "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
+     "tabela": "19/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Saga Imóveis (tabela de 19/10/2026)",
+     "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
+     "atualizadoEm": "19/10/2026",
+     "arquivo": "SAGA - Cobertura 6 dorm (Tupi).pdf"
+    }
+   ]
+  },
+  {
+   "id": "costa-do-mar-frente-mar",
+   "nome": "Costa do Mar",
+   "bairro": "Caiçara",
+   "endereco": "Rua Maria de Lourdes Simões e Simões, 50 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "156",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 83.61,
+     "vagas": "2",
+     "valor": 750000,
+     "cond": 634,
+     "det": "lavabo, lazer completo, pronto para morar",
+     "obs": "10% de desconto à vista.",
+     "fonte": "Gomes e Ferreira",
+     "contato": "(13) 99149-9526 · Reinaldo (13) 99183-0576",
+     "tabela": "20/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "157",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 86.52,
+     "vagas": "2",
+     "valor": 770000,
+     "cond": 656.35,
+     "det": "lavabo, lazer completo, pronto para morar",
+     "obs": "10% de desconto à vista.",
+     "fonte": "Gomes e Ferreira",
+     "contato": "(13) 99149-9526 · Reinaldo (13) 99183-0576",
+     "tabela": "20/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Gomes e Ferreira",
+     "contato": "(13) 99149-9526 · Reinaldo (13) 99183-0576",
+     "atualizadoEm": "20/10/2026",
+     "arquivo": "GOMES E FERREIRA - Aptos 2 e 3 dorm (Caiçara).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-laus-ramos-frente-mar",
+   "nome": "Res. Laus Ramos",
+   "bairro": "Flórida",
+   "endereco": "Av. Pres. Castelo Branco, 19.684",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "11",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 64,
+     "vagas": "1",
+     "valor": 365000,
+     "iptu": 272,
+     "cond": 643,
+     "acesso": "escada",
+     "det": "varanda, semi mobiliado, sem elevador",
+     "obs": "Com proposta. Aceita financiamento bancário. Enviar foto do CRECI para autorizar visita. Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-solarium-frente-mar",
+   "nome": "Res. Solarium",
+   "bairro": "Flórida",
+   "endereco": "Av. Pres. Castelo Branco, 18.358",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "127",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 72,
+     "vagas": "1",
+     "valor": 565000,
+     "iptu": 412.75,
+     "cond": 511.52,
+     "det": "mobiliado, cozinha planejada, varanda gourmet, vaga coletiva",
+     "obs": "Aceita financiamento bancário. Visitas aos sábados só até as 14h. Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Vista mar · Av. Pres. Castelo Branco",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-matteo-frente-mar",
+   "nome": "Res. Matteo",
+   "bairro": "Vila Dinápolis",
+   "endereco": "Av. Gov. Mario Covas Júnior, 4778 - Mongaguá/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "73",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 74,
+     "vagas": "1",
+     "valor": 425000,
+     "iptu": 366,
+     "cond": 730,
+     "det": "varanda gourmet, lazer completo",
+     "obs": "Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Edifício frente mar · vista mar definitiva",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Mongaguá",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-porto-bello-frente-mar",
+   "nome": "Res. Porto Bello",
+   "bairro": "Jardim Lunamar",
+   "endereco": "Av. Gov. Mário Covas Jr, 594",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "35-B",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 75,
+     "vagas": "1",
+     "valor": 570000,
+     "cond": 485,
+     "det": "varanda gourmet, lazer completo",
+     "obs": "Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Edifício frente mar · vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Mongaguá",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    }
+   ]
+  },
+  {
+   "id": "res-splendour-frente-mar",
+   "nome": "Res. Splendour",
+   "bairro": "Vila São Paulo",
+   "endereco": "Rua João Zarzur, 55",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "156-A",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 79,
+     "vagas": "1",
+     "valor": 510000,
+     "iptu": 490,
+     "cond": 640,
+     "det": "varanda gourmet, lazer completo",
+     "obs": "Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Edifício frente mar · vista mar definitiva",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "155-B",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 79,
+     "vagas": "1",
+     "valor": 510000,
+     "iptu": 410,
+     "cond": 581,
+     "det": "varanda gourmet, lazer completo",
+     "obs": "Comissão 5%.",
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Edifício frente mar · vista mar definitiva",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Mongaguá",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Eduardo Stefano Negócios Imobiliários",
+     "contato": "Eduardo Stefano (meuzap.in/stefano)",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    }
+   ]
+  },
+  {
+   "id": "william-william flórida 4 suítes",
+   "nome": "Prédio frente mar · William Flórida 4 suítes",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "4 dorms (4 suítes)",
+     "dorm": 4,
+     "suites": 4,
+     "status": "disponivel",
+     "area": 148,
+     "vagas": "2",
+     "valor": 1100000,
+     "iptu": 704,
+     "cond": 1800,
+     "acesso": "elevador",
+     "andar": 4,
+     "det": "piscina, salão de jogos, salão de festas com área gourmet",
+     "obs": "A tabela não nomeia o prédio. 4º andar com elevador. Comissão fifty 6%.",
+     "fonte": "William Buongiovanni (tabela de 14/10/2026)",
+     "contato": "Raquel Correia (13) 99735-2597 · William (13) 99770-0999",
+     "tabela": "14/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "William Buongiovanni (tabela de 14/10/2026)",
+     "contato": "Raquel Correia (13) 99735-2597 · William (13) 99770-0999",
+     "atualizadoEm": "14/10/2026",
+     "arquivo": "WILLIAM BUONGIOVANNI - Aptos 1 dorm (Mongaguá-SP) + Apto 2 dorm (Imperador) + Apto 3 dorm (Mongaguá).pdf"
+    }
+   ]
+  },
+  {
+   "id": "jean-ref. 682",
+   "nome": "Prédio frente mar · Ref. 682",
+   "bairro": "Tupi",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "status": "disponivel",
+     "area": 113,
+     "vagas": "1",
+     "valor": 850000,
+     "iptu": 535,
+     "cond": 1368,
+     "det": "área gourmet, lazer completo",
+     "obs": "À vista ou financiamento. Comissão 6%. A tabela não nomeia o prédio.",
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
+    }
+   ]
+  },
+  {
+   "id": "jean-ref. 713",
+   "nome": "Prédio frente mar · Ref. 713",
+   "bairro": "Guilhermina",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "Kitnet · 1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 30,
+     "vagas": "1",
+     "valor": 250000,
+     "iptu": 90,
+     "cond": 328.5,
+     "andar": 1,
+     "det": "mobiliado, bicicletário",
+     "obs": "Tabela diz \"frente praia\". 1º andar. À vista ou financiamento. Comissão 5%.",
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente praia",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
+    }
+   ]
+  },
+  {
+   "id": "jean-ref. 716",
+   "nome": "Prédio frente mar · Ref. 716",
+   "bairro": "Guilhermina",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 37,
+     "vagas": "1",
+     "valor": 320000,
+     "iptu": 105,
+     "cond": 440,
+     "andar": 11,
+     "det": "mobiliado, bicicletário",
+     "obs": "Tabela diz \"frente praia\". 11º andar. À vista ou financiamento. Comissão 5%.",
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente praia",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
+    }
+   ]
+  },
+  {
+   "id": "jean-ref. 712",
+   "nome": "Prédio frente mar · Ref. 712",
+   "bairro": "Guilhermina",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 38,
+     "vagas": "1",
+     "valor": 315000,
+     "iptu": 150,
+     "cond": 500,
+     "andar": 5,
+     "det": "mobiliado, bicicletário",
+     "obs": "Tabela diz \"frente praia\". 5º andar. À vista ou financiamento. Comissão fifty.",
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "tabela": "22/10/2026",
+     "vistaMar": true,
+     "vista": "Frente praia",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Jean Diegues Imóveis",
+     "contato": "(13) 99807-8987 · (13) 98156-9018",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfflavio-kf050",
+   "nome": "Prédio frente mar · KF050",
+   "bairro": "Caiçara",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF050",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 57,
+     "vagas": "1",
+     "valor": 250000,
+     "iptu": 208,
+     "cond": 300,
+     "andar": 2,
+     "acesso": "escada",
+     "det": "mobiliado",
+     "obs": "2º andar sem elevador. Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · varanda frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfflavio-kf354",
+   "nome": "Prédio frente mar · KF354",
+   "bairro": "Maracanã",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF354",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 62,
+     "vagas": "1",
+     "valor": 500000,
+     "iptu": 350,
+     "cond": 650,
+     "det": "varanda com churrasqueira a carvão, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfflavio-kf080",
+   "nome": "Prédio frente mar · KF080",
+   "bairro": "Mongaguá",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF080",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 81,
+     "vagas": "1",
+     "valor": 510000,
+     "iptu": 425,
+     "cond": 796,
+     "det": "lazer (sem piscina)",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · varanda vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Mongaguá",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfkatia-kf401",
+   "nome": "Prédio frente mar · KF401",
+   "bairro": "Real",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF401",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 81,
+     "vagas": "1",
+     "valor": 520000,
+     "iptu": 546,
+     "cond": 905,
+     "det": "varanda gourmet, semi mobiliado, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfkatia-kf057",
+   "nome": "Prédio frente mar · KF057",
+   "bairro": "Maracanã",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF057",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 63,
+     "vagas": "1",
+     "valor": 520000,
+     "iptu": 328,
+     "cond": 477,
+     "det": "varanda com churrasqueira a carvão, mobiliado, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfflavio-kf608",
+   "nome": "Prédio frente mar · KF608",
+   "bairro": "Imperador",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF608",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 86,
+     "vagas": "1",
+     "valor": 530000,
+     "iptu": 278,
+     "cond": 1044,
+     "det": "mobiliado, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · varanda vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Flávio (13) 99782-6694",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfkatia-kf033",
+   "nome": "Prédio frente mar · KF033",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF033",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "status": "disponivel",
+     "area": 98,
+     "vagas": "2",
+     "valor": 1080000,
+     "iptu": 562,
+     "cond": 715,
+     "det": "varanda gourmet, sala 3 ambientes, mobiliado",
+     "obs": "Planta original de 3 suítes, que pode ser revertida. Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfkatia-kf323",
+   "nome": "Prédio frente mar · KF323",
+   "bairro": "Caiçara",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF323",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 94,
+     "vagas": "2",
+     "valor": 750000,
+     "iptu": 465,
+     "cond": 1200,
+     "det": "varanda gourmet com churrasqueira a carvão, mobiliado, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "kfkatia-kf390",
+   "nome": "Prédio frente mar · KF390",
+   "bairro": "Real",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "KF390",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 128,
+     "vagas": "2",
+     "valor": 950000,
+     "iptu": 850,
+     "cond": 1560,
+     "det": "varanda gourmet, mobiliado, lazer",
+     "obs": "Comissão fifty 6%.",
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "tabela": "15/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)",
+     "contato": "Kátia (13) 99679-4782",
+     "atualizadoEm": "15/10/2026",
+     "arquivo": "KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap3753",
+   "nome": "Prédio frente mar · AP3753",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP3753",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 76,
+     "vagas": "1",
+     "valor": 490000,
+     "iptu": 365.82,
+     "cond": 596.43,
+     "det": "varanda gourmet envidraçada",
+     "obs": "Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap4016",
+   "nome": "Prédio frente mar · AP4016",
+   "bairro": "Aviação",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP4016",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 84,
+     "vagas": "1",
+     "valor": 440000,
+     "iptu": 365.82,
+     "cond": 596.43,
+     "det": "mobiliado; lazer completo (piscina, quadra, espaço gourmet)",
+     "obs": "Chaves: agendar. Condomínio e IPTU saem iguais aos do AP3753 na tabela. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · sacadas com vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap4203",
+   "nome": "Prédio frente mar · AP4203",
+   "bairro": "Vila Assunção",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP4203",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 62,
+     "vagas": "1",
+     "valor": 480000,
+     "iptu": 324,
+     "cond": 600,
+     "det": "sacada, mobiliado; elevador e salão de jogos",
+     "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap4204",
+   "nome": "Prédio frente mar · AP4204",
+   "bairro": "Vila Assunção",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP4204",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 60,
+     "vagas": "1",
+     "valor": 500000,
+     "iptu": 302.98,
+     "cond": 587,
+     "det": "elevador e salão de jogos",
+     "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar · sacadas vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap4184",
+   "nome": "Prédio frente mar · AP4184",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP4184",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 86,
+     "vagas": "1",
+     "valor": 550000,
+     "iptu": 440,
+     "cond": 740,
+     "det": "sacada gourmet envidraçada; salão de festas e piscina",
+     "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · vista para o mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap3996",
+   "nome": "Prédio frente mar · AP3996",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP3996",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 77,
+     "vagas": "1",
+     "valor": 580000,
+     "iptu": 350,
+     "cond": 600,
+     "det": "sacada gourmet envidraçada; salão de festas e piscina",
+     "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · vista livre",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap3893",
+   "nome": "Prédio frente mar · AP3893",
+   "bairro": "Vila Assunção",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP3893",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 85,
+     "vagas": "1",
+     "valor": 620000,
+     "iptu": 281.87,
+     "cond": 773.8,
+     "det": "lazer com elevador, salão de jogos e salão de festas",
+     "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Em frente ao mar · vista para o mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap1990",
+   "nome": "Prédio frente mar · AP1990",
+   "bairro": "Solemar",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP1990",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 105,
+     "vagas": "2",
+     "valor": 665000,
+     "iptu": 500,
+     "cond": 1200,
+     "det": "varanda gourmet, elevador, lazer",
+     "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-ap4019",
+   "nome": "Prédio frente mar · AP4019",
+   "bairro": "Flórida",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "AP4019",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 102,
+     "vagas": "2",
+     "valor": 895000,
+     "det": "mobiliado; portaria 24h, piscina, academia, playground, churrasqueira, brinquedoteca, salão de festas",
+     "obs": "Aceita financiamento. Chaves: agendar. Comissão fifty.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Prédio frente mar · varanda com vista mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  },
+  {
+   "id": "coliseum-kn0383",
+   "nome": "Prédio frente mar · KN0383",
+   "bairro": "Guilhermina",
+   "endereco": null,
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "—",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 38,
+     "vagas": "1",
+     "valor": 275000,
+     "iptu": 117,
+     "cond": 521,
+     "det": "mobiliado e todo reformado, portaria 24h, vaga rotativa",
+     "obs": "Aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "tabela": "21/10/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
+     "atualizadoEm": "21/10/2026",
+     "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
+    }
+   ]
+  }
+ ]
+}

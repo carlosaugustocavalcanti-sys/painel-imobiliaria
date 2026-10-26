@@ -2,7 +2,7 @@
 // Regras de unificação (documentadas em dados/README.md):
 // - um prédio que aparece em mais de um painel vira um só quando nome, bairro e endereço são compatíveis;
 // - a mesma unidade em duas tabelas vira uma só: o registro reservado tem prioridade, senão a ordem
-//   lançamentos > pasta Lançamentos (lesan) > tabela do Isildo > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
+//   lançamentos > pasta Lançamentos (lesan) > tabela do Isildo > pasta Frente Mar > usados > vista mar; o outro registro fica em `outras` e as diferenças em `divergencias`;
 // - nenhum registro de origem é descartado: cada um mantém `ref` = "<painel>:<id do prédio>:<índice>".
 // Uso: node scripts/unificar.mjs
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -12,6 +12,7 @@ const USADOS = ler('usados');
 const LANC = ler('lancamentos');
 const PASTA = ler('pasta-lancamentos');
 const ISILDO = ler('isildo');
+const FRENTE = ler('frente-mar');
 const VISTA = ler('vista-mar');
 
 /* ---------- normalização ---------- */
@@ -280,7 +281,7 @@ for (const g of VISTA.G) {
 // Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
 const mapsPasta = (b) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(b.endereco || `${b.nome}, ${b.cidade}, SP`);
 // A tabela do Isildo (20/10/2026) tem o mesmo formato e entra pelo mesmo caminho, com origem 'isildo'.
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b])]) {
   predios.push({
     origem,
     origemId: b.id,
@@ -319,7 +320,7 @@ for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.
 }
 
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, usados: 3, 'vista-mar': 4 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'frente-mar': 3, usados: 4, 'vista-mar': 5 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [
@@ -327,6 +328,9 @@ const FUNDIR_MANUAL = [
   ['lancamentos:melissa-miyazi', 'vista-mar:g107'],
   // Costa do Mar: a Ectual escreve "Rua Maria de Lourdes Simões e Simões" e o painel Vista Mar, "R. Maria Simões, 50".
   ['lesan:costa-do-mar', 'vista-mar:g136'],
+  ['lesan:costa-do-mar', 'frente-mar:costa-do-mar-frente-mar'],
+  // Melissa Miyazi também aparece na pasta Frente Mar (C2X e Nova Home), com o mesmo endereço.
+  ['lancamentos:melissa-miyazi', 'frente-mar:melissa-miyazi-frente-mar'],
 ];
 const grupos = [];
 for (const p of predios) {
@@ -428,7 +432,7 @@ const saida = grupos.map(({ membros }) => {
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
 const estoque = {
-  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo },
+  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo, frenteMar: FRENTE.arquivo },
   predios: saida,
 };
 // Campos vazios (null, '', false, []) são omitidos para o arquivo ficar menor; o app trata ausência como vazio.
