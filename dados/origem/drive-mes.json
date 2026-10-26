@@ -4013,6 +4013,718 @@
     }
    ],
    "notas": []
+  },
+  {
+   "id": "casa-eucaliptos-samambaia",
+   "nome": "Casa Rua dos Eucaliptos (Samambaia)",
+   "cidade": "Praia Grande",
+   "bairro": "Samambaia",
+   "endereco": "Rua dos Eucaliptos - Samambaia - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Código 331 na tabela. Número da casa não informado; mapa por nome."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Marcelo Moraes (exclusividade, comissão 6% Fifty)",
+     "contato": "(13) 98119-9327",
+     "atualizadoEm": "sem data (arquivo de 20/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MARCELO MORAES - Casa 2 dorm (Samambaia) + Casa 3 dorm (Imperador).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Cód. 331",
+     "tipologia": "Casa sobreposta 2 dorms",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 0,
+     "vagas": "1",
+     "valor": 225000,
+     "status": "disponivel",
+     "obs": "Exclusividade, comissão de 6% Fifty. Aceita veículo como parte do pagamento; à vista. Texto da tabela com leitura embaralhada (confirmar).",
+     "fonte": "Marcelo Moraes (exclusividade, comissão 6% Fifty)",
+     "contato": "(13) 98119-9327",
+     "tabela": "sem data (arquivo de 20/10/2026)",
+     "conf": true
+    }
+   ]
+  },
+  {
+   "id": "casa-jd-imperador-sao-leopoldo",
+   "nome": "Casa Rua Visconde de São Leopoldo (Imperador)",
+   "cidade": "Praia Grande",
+   "bairro": "Imperador",
+   "endereco": "Rua Visconde de São Leopoldo - Jardim Imperador - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Número da casa não informado na tabela."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Marcelo Moraes (exclusividade, comissão 6% Fifty)",
+     "contato": "(13) 98119-9327",
+     "atualizadoEm": "sem data (arquivo de 20/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MARCELO MORAES - Casa 2 dorm (Samambaia) + Casa 3 dorm (Imperador).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Cód. (3 dorms)",
+     "tipologia": "Casa isolada 3 dorms (1 suíte) + edícula com suíte",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 2,
+     "vagas": "2",
+     "valor": 750000,
+     "status": "disponivel",
+     "obs": "Exclusividade, comissão de 6% Fifty. 300 m do mar, sala de 2 ambientes, garagem. À vista ou financiamento bancário.",
+     "fonte": "Marcelo Moraes (exclusividade, comissão 6% Fifty)",
+     "contato": "(13) 98119-9327",
+     "tabela": "sem data (arquivo de 20/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "res-backdoor",
+   "nome": "Residencial Backdoor",
+   "cidade": "Praia Grande",
+   "bairro": "Mirim",
+   "endereco": "Vila Mirim - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Mar/2027",
+   "notas": [
+    "New Start Home. Condomínio de 4 casas de 55 a 77 m², 2 suítes, lavabo, piscina e churrasqueira. Obras iniciadas em maio/2026. Endereço não informado; mapa por nome."
+   ],
+   "tabelas": [
+    {
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "atualizadoEm": "2026",
+     "arquivo": "9. REVENDAS/2. CASAS/NSH - Casa 3 dorm (Mirim).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "01",
+     "tipologia": "Casa 2 suítes (Padrão)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "valor": 379990,
+     "status": "disponivel",
+     "obs": "Acabamento premium, lavabo, churrasqueira. Entrega prevista em março/2027.",
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "tabela": "2026"
+    },
+    {
+     "unidade": "02",
+     "tipologia": "Casa 2 suítes (Padrão)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "valor": 399990,
+     "status": "disponivel",
+     "obs": "Acabamento premium, lavabo, churrasqueira. Entrega prevista em março/2027.",
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "tabela": "2026"
+    },
+    {
+     "unidade": "03",
+     "tipologia": "Casa 2 suítes (Padrão)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "valor": 399990,
+     "status": "disponivel",
+     "obs": "Acabamento premium, lavabo, churrasqueira. Entrega prevista em março/2027.",
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "tabela": "2026"
+    },
+    {
+     "unidade": "04",
+     "tipologia": "Casa 2 suítes (Piscina privativa)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "valor": 479990,
+     "status": "disponivel",
+     "obs": "Acabamento premium, lavabo, churrasqueira. Entrega prevista em março/2027.",
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "tabela": "2026"
+    }
+   ]
+  },
+  {
+   "id": "casa-nsh-maracana-esquina",
+   "nome": "Casa de esquina - Maracanã (New Start Home)",
+   "cidade": "Praia Grande",
+   "bairro": "Maracanã",
+   "endereco": "Balneário Maracanã - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Out/2026",
+   "notas": [
+    "Endereço não informado na tabela; mapa por nome."
+   ],
+   "tabelas": [
+    {
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "atualizadoEm": "2026",
+     "arquivo": "9. REVENDAS/2. CASAS/NSH - Casa 3 dorm (Mirim).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa de esquina 3 dorms (2 suítes)",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 2,
+     "area": 137.44,
+     "vagas": "",
+     "valor": 1100000,
+     "status": "disponivel",
+     "obs": "A 100 m do mar, piscina com jacuzzi, churrasqueira, 4 banheiros, alto padrão. Obras iniciadas em maio/2026, entrega prevista em outubro/2026.",
+     "fonte": "New Start Home Construtora (tabela 2026)",
+     "contato": "New Start Home",
+     "tabela": "2026"
+    }
+   ]
+  },
+  {
+   "id": "sobrados-jardim-matilde",
+   "nome": "Sobrados Jardim Matilde",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Jardim Matilde - Canto do Forte - Praia Grande/SP",
+   "fase": "obra",
+   "notas": [
+    "Sobrados com 4 suítes, piscina, área gourmet, climatização VRF, persianas automatizadas e decoração da arquiteta Larissa Ceccon. Pagamento: entrada 25%, chaves 25%, saldo 50% em 36x. Áreas: construída / terreno. Dois blocos de endereços: Rua Tiradentes e Rua H. Sanches."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "atualizadoEm": "sem data (arquivo de 19/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/Jardim Matilde - Sobrados 4 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Tiradentes 704",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 355,
+     "vagas": "",
+     "valor": 5000000,
+     "status": "disponivel",
+     "obs": "Terreno 322 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1250000,
+     "fluxo": {
+      "entrada": 1250000,
+      "chaves": 1250000,
+      "parcQtd": 36,
+      "parcVal": 69444.44
+     }
+    },
+    {
+     "unidade": "Tiradentes 718",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 355,
+     "vagas": "",
+     "valor": 5300000,
+     "status": "disponivel",
+     "obs": "Terreno 331 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1325000,
+     "fluxo": {
+      "entrada": 1325000,
+      "chaves": 1325000,
+      "parcQtd": 36,
+      "parcVal": 73611.11
+     }
+    },
+    {
+     "unidade": "Tiradentes 732",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 355,
+     "vagas": "",
+     "valor": 5700000,
+     "status": "disponivel",
+     "obs": "Terreno 339 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1425000,
+     "fluxo": {
+      "entrada": 1425000,
+      "chaves": 1425000,
+      "parcQtd": 36,
+      "parcVal": 79166.67
+     }
+    },
+    {
+     "unidade": "Tiradentes 760",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 355,
+     "vagas": "",
+     "valor": 6100000,
+     "status": "disponivel",
+     "obs": "Terreno 354 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1525000,
+     "fluxo": {
+      "entrada": 1525000,
+      "chaves": 1525000,
+      "parcQtd": 36,
+      "parcVal": 84722.22
+     }
+    },
+    {
+     "unidade": "Tiradentes 774 (equipado e decorado)",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 355,
+     "vagas": "",
+     "valor": 8000000,
+     "status": "disponivel",
+     "obs": "Terreno 362 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 2000000,
+     "fluxo": {
+      "entrada": 2000000,
+      "chaves": 2000000,
+      "parcQtd": 36,
+      "parcVal": 111111.11
+     }
+    },
+    {
+     "unidade": "H. Sanches 715",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 351,
+     "vagas": "",
+     "valor": 5600000,
+     "status": "disponivel",
+     "obs": "Terreno 336 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1400000,
+     "fluxo": {
+      "entrada": 1400000,
+      "chaves": 1400000,
+      "parcQtd": 36,
+      "parcVal": 77777.78
+     }
+    },
+    {
+     "unidade": "H. Sanches 727",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 351,
+     "vagas": "",
+     "valor": 6000000,
+     "status": "disponivel",
+     "obs": "Terreno 336 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1500000,
+     "fluxo": {
+      "entrada": 1500000,
+      "chaves": 1500000,
+      "parcQtd": 36,
+      "parcVal": 83333.33
+     }
+    },
+    {
+     "unidade": "H. Sanches 739",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 351,
+     "vagas": "",
+     "valor": 6000000,
+     "status": "disponivel",
+     "obs": "Terreno 336 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1500000,
+     "fluxo": {
+      "entrada": 1500000,
+      "chaves": 1500000,
+      "parcQtd": 36,
+      "parcVal": 83333.33
+     }
+    },
+    {
+     "unidade": "H. Sanches 751",
+     "tipologia": "Sobrado 4 suítes",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 4,
+     "area": 351,
+     "vagas": "",
+     "valor": 5800000,
+     "status": "disponivel",
+     "obs": "Terreno 336 m². Entrada 25% + chaves 25% + saldo (50%) em 36x.",
+     "fonte": "Sobrados Jardim Matilde (tabela de valores)",
+     "contato": "sem contato na tabela",
+     "tabela": "sem data (arquivo de 19/10/2026)",
+     "entrada": 1450000,
+     "fluxo": {
+      "entrada": 1450000,
+      "chaves": 1450000,
+      "parcQtd": 36,
+      "parcVal": 80555.56
+     }
+    }
+   ]
+  },
+  {
+   "id": "maison-mylene-maria",
+   "nome": "Maison Mylene Maria",
+   "cidade": "Praia Grande",
+   "bairro": "Boqueirão",
+   "endereco": "Avenida Paris, 587 - Boqueirão - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "atualizadoEm": "sem data (arquivo de 12/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MAFRAN - Casa geminada 2 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "15",
+     "andar": 1,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 41.86,
+     "vagas": "1",
+     "valor": 330000,
+     "cond": 455.97,
+     "iptu": 175.65,
+     "status": "disponivel",
+     "obs": "Pós-reforma (antes da reforma R$ 275.000). Frente para a Av. Paris, 1º andar com elevador. Aceita financiamento bancário. Comissão 5%.",
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "tabela": "sem data (arquivo de 12/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "ilha-da-madeira-v",
+   "nome": "Ilha da Madeira V",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Copacabana, 623 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "atualizadoEm": "sem data (arquivo de 12/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MAFRAN - Casa geminada 2 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "141",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 99,
+     "vagas": "2 privativas (G1)",
+     "valor": 840000,
+     "cond": 1049.85,
+     "status": "disponivel",
+     "obs": "À vista R$ 840.000; com permuta R$ 875.000 (aceita imóvel em Praia Grande até R$ 450 mil no Forte, Boqueirão e Guilhermina). Contrato quitado (construtora RG). Sacadas envidraçadas, box instalado, porcelanato, vista livre, sala ampliada. Taxa extra R$ 550,14 (mobiliário das áreas comuns, parcela 4/12). Comissão 5%.",
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "tabela": "sem data (arquivo de 12/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-rua-honduras-533",
+   "nome": "Casa Rua Honduras, 533",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Honduras, 533 - Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "atualizadoEm": "sem data (arquivo de 12/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MAFRAN - Casa geminada 2 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa térrea geminada 2 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 1,
+     "area": 140,
+     "vagas": "3",
+     "valor": 1120000,
+     "iptu": 463.51,
+     "status": "disponivel",
+     "obs": "Mobiliada (só itens pessoais saem), piscina com cascata, espaço gourmet com churrasqueira e lounge no piso superior, cozinha com ilha. Aceita financiamento bancário; estuda permuta em Praia Grande até R$ 550 mil. Comissão 5%.",
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "tabela": "sem data (arquivo de 12/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "ilhas-de-salina",
+   "nome": "Ilhas de Salina",
+   "cidade": "Praia Grande",
+   "bairro": "Boqueirão",
+   "endereco": "Rua Duque de Caxias, 93 - Boqueirão - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "atualizadoEm": "sem data (arquivo de 12/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/MAFRAN - Casa geminada 2 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "72",
+     "tipologia": "2 dorms (2 suítes)",
+     "dorm": 2,
+     "suites": 2,
+     "area": 86,
+     "vagas": "2 privativas (G3)",
+     "valor": 1190000,
+     "cond": 820.73,
+     "iptu": 605.51,
+     "status": "disponivel",
+     "obs": "Vista mar de todos os cômodos, sacada com 2 pontos de churrasqueira a gás, lazer na cobertura. Aceita financiamento bancário ou permuta 50%. Taxa extra R$ 110,69 (parcela 2/15). Eletrodomésticos e eletrônicos saem. Comissão 5%.",
+     "fonte": "Mafran Junior",
+     "contato": "(13) 98847-1616",
+     "tabela": "sem data (arquivo de 12/10/2026)",
+     "vistaMar": true
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "sobrado-jardim-quietude",
+   "nome": "Sobrado Rua Edison de Oliveira (Quietude)",
+   "cidade": "Praia Grande",
+   "bairro": "Quietude",
+   "endereco": "Rua Edison de Oliveira - Jardim Quietude - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Número do sobrado não informado na tabela."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Bianca Santana (proprietária)",
+     "contato": "(13) 99104-3786",
+     "atualizadoEm": "22/09/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/BIANCA - Sobrado Geminado 2 dorm (Quietude).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado geminado 2 dorms",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 0,
+     "vagas": "",
+     "valor": 470000,
+     "status": "disponivel",
+     "obs": "Reformado, com churrasqueira e porcelanato. Matrícula 160.538. Proprietária. Aceita financiamento bancário.",
+     "fonte": "Bianca Santana (proprietária)",
+     "contato": "(13) 99104-3786",
+     "tabela": "22/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "galpao-antonio-correa-brasil-52",
+   "nome": "Galpão Rua Antonio Correa Brasil, 52",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua Antonio Correa Brasil, 52 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "WR Empreendimentos",
+     "contato": "(13) 3034-0548 · corretores (13) 98840-0654",
+     "atualizadoEm": "sem data (arquivo de 26/10/2026)",
+     "arquivo": "9. REVENDAS/3. COMERCIAL/WR - Galpões Comerciais (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Galpão",
+     "tipologia": "Galpão comercial",
+     "categoria": "comercial",
+     "dorm": 0,
+     "suites": 0,
+     "area": 190,
+     "vagas": "",
+     "valor": 1150000,
+     "status": "disponivel",
+     "obs": "190 m² construídos (projeto), pé-direito alto com possibilidade de mezanino, porta para caminhão sider, zoneamento CC-2. Venda inicial; não aceita troca de área. Locação R$ 8.000.",
+     "fonte": "WR Empreendimentos",
+     "contato": "(13) 3034-0548 · corretores (13) 98840-0654",
+     "tabela": "sem data (arquivo de 26/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "galpao-antonio-correa-brasil-68",
+   "nome": "Galpão Rua Antonio Correa Brasil, 68",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua Antonio Correa Brasil, 68 - Caiçara - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "WR Empreendimentos",
+     "contato": "(13) 3034-0548 · corretores (13) 98840-0654",
+     "atualizadoEm": "sem data (arquivo de 26/10/2026)",
+     "arquivo": "9. REVENDAS/3. COMERCIAL/WR - Galpões Comerciais (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Galpão",
+     "tipologia": "Galpão comercial",
+     "categoria": "comercial",
+     "dorm": 0,
+     "suites": 0,
+     "area": 130,
+     "vagas": "",
+     "valor": 750000,
+     "status": "disponivel",
+     "obs": "130 m² construídos (projeto), pé-direito alto com possibilidade de mezanino, porta para caminhão sider, zoneamento CC-2. Venda inicial; não aceita troca de área. Locação R$ 6.000.",
+     "fonte": "WR Empreendimentos",
+     "contato": "(13) 3034-0548 · corretores (13) 98840-0654",
+     "tabela": "sem data (arquivo de 26/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "res-acqua-mare",
+   "nome": "Residencial Acqua Mare",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Caribas, 200 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Cláudio Henrique (tabela de 09/07/2026)",
+     "contato": "(13) 98843-8891",
+     "atualizadoEm": "09/07/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/CLAUDIO HENRIQUE - Casa 1 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "25",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "vagas": "",
+     "valor": 909500,
+     "status": "disponivel",
+     "obs": "Construtora MGQ. Mobília planejada, churrasqueira na sacada, lazer completo. À vista. Tabela de 09/07/2026 (confirmar valor).",
+     "fonte": "Cláudio Henrique (tabela de 09/07/2026)",
+     "contato": "(13) 98843-8891",
+     "tabela": "09/07/2026",
+     "conf": true
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-de-vila-mauricio-cardoso-285",
+   "nome": "Casa de vila Av. Maurício José Cardoso, 285",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Av. Marechal Maurício José Cardoso, 285 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Cláudio Henrique (tabela de 09/07/2026)",
+     "contato": "(13) 98843-8891",
+     "atualizadoEm": "09/07/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/CLAUDIO HENRIQUE - Casa 1 dorm (Forte).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "8",
+     "tipologia": "Casa de vila 1 dorm",
+     "categoria": "casa",
+     "dorm": 1,
+     "suites": 0,
+     "vagas": "1",
+     "valor": 389900,
+     "status": "disponivel",
+     "obs": "Quintal grande e individual. À vista ou financiamento bancário. Chaves na Plaza Imóveis (Av. Pres. Castelo Branco, 700). Tabela de 09/07/2026 (confirmar valor).",
+     "fonte": "Cláudio Henrique (tabela de 09/07/2026)",
+     "contato": "(13) 98843-8891",
+     "tabela": "09/07/2026",
+     "conf": true
+    }
+   ],
+   "notas": []
   }
  ]
 }

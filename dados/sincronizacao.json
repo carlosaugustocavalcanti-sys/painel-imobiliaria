@@ -1,14 +1,555 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-10-26T00:00:00Z",
+  "ultimaVarredura": "2026-10-26T19:30:00Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
     "mesDoId": "2026-10"
   },
   "subpastasMapeadas": [
-    { "nomeComeçaCom": "7. LANÇAMENTOS", "origem": "dados/origem/lancamentos-drive.json" },
-    { "nomeComeçaCom": "5. FRENTE MAR", "origem": "dados/origem/frente-mar.json" }
+    {
+      "nomeComeçaCom": "7. LANÇAMENTOS",
+      "origem": "dados/origem/lancamentos-drive.json"
+    },
+    {
+      "nomeComeçaCom": "5. FRENTE MAR",
+      "origem": "dados/origem/frente-mar.json"
+    }
   ],
-  "historico": []
+  "historico": [
+    {
+      "data": "2026-10-26",
+      "resumo": "Carga inicial das pastas 4, 9, 10, 11, 12, investidores e parte das 2 e 3 (casas e comerciais): origem drive-mes com 105 prédios e 148 unidades; filtro de tipo de imóvel criado."
+    }
+  ],
+  "pendentes": {
+    "sobre": "Arquivos do Drive de 26/10/2026 que a carga inicial não leu. A rotina processa estes primeiro; ao concluir cada um, remove da lista e registra em historico.",
+    "apartamentos": [
+      {
+        "id": "1V46FcH56bF6zkto40vzo_OfI18_-ZIeF",
+        "titulo": "ALTO ASTRAL - Apto 3 dorm (Guilhermina)",
+        "pasta": "9. REVENDAS",
+        "motivo": "só imagem (.cdr)"
+      },
+      {
+        "id": "1ChhbXiajumtfiZbmM4aaIb_2n-AcKh6X",
+        "titulo": "IVONE CONCEIÇÃO - Apto 2 e 3 dorm (Tupi)",
+        "pasta": "10. VISTA MAR",
+        "motivo": "valores só em imagem"
+      },
+      {
+        "id": "1Lu2HIOSDGhG7pAhRTs5Czwq4fZZHl0uh",
+        "titulo": "Torres Elevadores (investidor) - Aptos 1, 2 e 3 dorm",
+        "pasta": "investidor Torres Elevadores",
+        "motivo": "texto sem valores"
+      },
+      {
+        "id": "19py6zsK6ugPWa8GxEWgG5y2KOIhrBPsz",
+        "titulo": "Doido (investidor) - Aptos 1, 2 e 3 dorm + sobrado + comerciais",
+        "pasta": "investidor Alexandre Doido",
+        "motivo": "43 MB"
+      },
+      {
+        "id": "13zRp2gzprwjiIXH22AX6uVvZyEmRl043",
+        "titulo": "Negrão Júnior (investidor) - Kit + Aptos 2 e 3 dorm",
+        "pasta": "investidor Negrão Júnior",
+        "motivo": "13 MB"
+      },
+      {
+        "id": "1aedNHfal4DVYh6QzxwC86uYwxaPXy9XP",
+        "titulo": "MA Imóveis (investidor) - Kit + Aptos 1 e 2 dorm",
+        "pasta": "investidor MA Imóveis",
+        "motivo": "comparar com 05/10"
+      },
+      {
+        "id": "1GGD_TZrZsvY-mNe4HZrAsWhNRyy9-Xbw",
+        "titulo": "ARJONAS - Aptos 1, 2 e 3 dorm + Sala comercial",
+        "pasta": "9. REVENDAS",
+        "motivo": "painel tem 04-05/2026"
+      },
+      {
+        "id": "137sYNR1MyOqhOTuNn-MWQgeSmtLnhet8",
+        "titulo": "CASA GRANDE - Aptos 1, 2 e 3 dorm (Caiçara)",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar"
+      },
+      {
+        "id": "1smO8QfODTWhWo4pGtei7M3txklgKrrGK",
+        "titulo": "BELLEVILLE - Aptos 2 e 3 dorm + Casa em cond",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar"
+      },
+      {
+        "id": "1jPdv_Jd-Ic4OEbCySZFeCaIYx5WwNOko",
+        "titulo": "AIRES - Apto 3 dorm (Aviação)",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar"
+      },
+      {
+        "id": "1r9Pr1j5mfXHW2-U2cc7Q8KwuQWJR5DxW",
+        "titulo": "RA GOMES - Aptos 2 e 3 dorm",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar (painel 20/10)"
+      },
+      {
+        "id": "1VY-ozKAFVnsAb3u_lK-pXv9Fgio8xOtc",
+        "titulo": "GOMES E FERREIRA - Aptos 2 e 3 dorm",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar (painel 20/10)"
+      },
+      {
+        "id": "17o51dVKaqmbZxts0bwKAB6uNwpn9vy2k",
+        "titulo": "GMV - Aptos 2 e 3 dorm",
+        "pasta": "9. REVENDAS",
+        "motivo": "comparar"
+      },
+      {
+        "id": "1WQBnhmpSKehOlcx9jV0d-tF3AjLV7FdH",
+        "titulo": "SMA - Apto 2 dorm (São Vicente-SP)",
+        "pasta": "9. REVENDAS",
+        "motivo": "Santos/São Vicente fora da região"
+      },
+      {
+        "id": "1B6dZkgInOxp-pyUMVjNyai_ABWUtNV1G",
+        "titulo": "PETTRA - Apto 2 dorm (Boqueirão)",
+        "pasta": "9. REVENDAS",
+        "motivo": "21 MB, comparar"
+      }
+    ],
+    "casasEComerciais": [
+      {
+        "id": "1M9ETsxm8QyQMtYAjUyXxbNqCzVY5Wxmx",
+        "titulo": "EDUARDO STEFANO - Casa 2 dorm (Flórida)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 7.2
+      },
+      {
+        "id": "1WcdVb624G0M2IlfBr9dvy29jgtseKSOj",
+        "titulo": "IVONE CONCEIÇÃO - Casas 2 dorm (Ocian/Tupi/Mirim) + Casa 3 dorm (Ocian)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 9.1
+      },
+      {
+        "id": "1er7stWcLm3_X2KjrWqJT52NAfv3qCFvu",
+        "titulo": "FLÁVIO PASSOS - Casa 2 dorm (Itanhaém-SP) + Sobrado 2 dorm (Peruíbe-SP)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 16.7
+      },
+      {
+        "id": "1_7iBglNb7EbUm-xyXRSKL6_vyGbwZd-_",
+        "titulo": "FLÁVIO PASSOS - Sala Comercial (Santos-SP)",
+        "pasta": "3. COMERCIAL",
+        "mb": 16.7
+      },
+      {
+        "id": "1qVcF-JxQS4tT4EX14cskWEppojaJXwIE",
+        "titulo": "FMOREIRA - Casa 3 dorm (Boqueirão)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 18.2
+      },
+      {
+        "id": "1mVZBK5huqJccVMD6YKgaqBvNAB3jYmPe",
+        "titulo": "ALÔ - Loja (Guilhermina) + Ponto Comercial (Sítio do Campo)",
+        "pasta": "3. COMERCIAL",
+        "mb": 2.4
+      },
+      {
+        "id": "12r35qhA3YYx2klDbYFM4HiNcqBw2L2he",
+        "titulo": "BOM LUGAR - Casa 2 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 22.3
+      },
+      {
+        "id": "11P7HwzJIIy7AfcekITxVESCYelDyDrgr",
+        "titulo": "METRO QUADRADO - Sala Comercial (Caiçara)",
+        "pasta": "3. COMERCIAL",
+        "mb": 5.9
+      },
+      {
+        "id": "1uEwuoaZuHJon_S6nTg_vm9rnEUoqwDnw",
+        "titulo": "PRAIA Imóveis - Casas 1 dorm (Aviação/Tupiry) + Casas 2 dorm (Imperador/Vilamar) + Casas 3 dorm (Forte/Mirim/Caiçara/Flórida/Jd Real/Imperador/Solemar) + Casas 4 dorm (Boqueirão/Flórida/Imperador)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 21.4
+      },
+      {
+        "id": "1ZJCduHnXoFlebHewOpTjvq6d3gJfVJqB",
+        "titulo": "K IANNELLI - Casas 2 dorm (Guilhermina/Caiçara) + Sobrado 3 dorm (Forte)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 14.6
+      },
+      {
+        "id": "13z-Jn_iAxE5IRM9YC3rAkBz0pUkgUnt0",
+        "titulo": "CONSAGRADA - Casa 3 dorm (Jd Matilde)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 45.8
+      },
+      {
+        "id": "1YRwh5-TTTDAdr74sgSKM6HzgEw0QB68p",
+        "titulo": "LA TORRACA - Casa 2 dorm (Tupi)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 4.2
+      },
+      {
+        "id": "16KgQpeOc-eSfawDYgs4djR4DMIc7EvQ6",
+        "titulo": "DAVINO - Casas 2 dorm (Guilhermina/Tupi/Mirim) + Sobrado 3 dorm (Melvi) + Casa 4 dorm (Flórida)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 18.2
+      },
+      {
+        "id": "1JPiX6wus81xqQFH_3ye-1ekOZOwNA8KS",
+        "titulo": "LUCATO - Casa 2 dorm (Tupi)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 5.3
+      },
+      {
+        "id": "19Pai072hTiuwAcLbNJtu6KWapeLS1k8c",
+        "titulo": "IMIGRANTES - Casas 2 dorm (Caiçara) + Casa 4 dorm (Solemar)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 8.7
+      },
+      {
+        "id": "1Z8VL2WApiQj_14UBHjjDSYX9zY-XR2R9",
+        "titulo": "RIOS - Sobrado 2 dorm (Ocian) + Casa 3 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 18.6
+      },
+      {
+        "id": "1hcTvz97Ba-a2ELsIfyGVMJr7mx5GJg9T",
+        "titulo": "EXITO - Casa 3 dorm (Guilhermina)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 0.0
+      },
+      {
+        "id": "10GIXQpr23DIOznq9XPw_zMpKITqa8Iy4",
+        "titulo": "ORTEGA - Imóvel Comercial (Caiçara)",
+        "pasta": "3. COMERCIAL",
+        "mb": 10.1
+      },
+      {
+        "id": "1MtxajdYi4pnGj53TEX0dnnpLG5LOoSHI",
+        "titulo": "ASHOW - Casas 2 dorm (Guilhermina) + Casas 3 dorm (Guilhermina/Mirim) + Casa 4 dorm (Aviação)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 30.2
+      },
+      {
+        "id": "1mjr1NLv70PKcBdk2o6VYk8mjtqZC-JEK",
+        "titulo": "PARISI - Casas 2 dorm (Tupi/Maracanã/Melvi) + Locação - Casa 1 dorm (Aviação) + Casa 2 dorm (Ocian) + Casas 4 dorm (Aviação/Ocian)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 31.7
+      },
+      {
+        "id": "1tE0theiM86QfLewVzzcpkum2DGtdzsym",
+        "titulo": "VISTA ATLÂNTICO - Casa 2 dorm (Tupi) + Sobrado 2 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 14.1
+      },
+      {
+        "id": "13keel41I6l-dpIMKLrYDadSvDUshdBt0",
+        "titulo": "DIOGO COUTO - Casa Geminada 2 dorm (Maracanã) + Casa 3 dorm (Guilhermina)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 8.6
+      },
+      {
+        "id": "1jfF3Sf60emSMp8UGDs0tgmp2Jx9PS_64",
+        "titulo": "KALYL - Casa 1 dorm (Guilhermina) + Casas 2 e 3 dorm (Guilhermina) + Sobrado 4 dorm (Aviação)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 20.9
+      },
+      {
+        "id": "1XxjEPYSUkl9sK7TiFANiNpleJXZe3mUo",
+        "titulo": "ERICK PEREIRA - Triplex geminado 3 dorm (Nova Mirim)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 2.7
+      },
+      {
+        "id": "1g69s4x3uF-G1vjTlQpje6VKZy87JzKZh",
+        "titulo": "JEAN DIEGUES - Casas 2 dorm (Ocian/Maracanã) + Casa 3 dorm (Tupi/Tude Bastos) + Casa 4 dorm (Tupiry)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 23.7
+      },
+      {
+        "id": "1PF98ARqgfnJMJmU7qQ4tfzu93UysvNgI",
+        "titulo": "KF - Casa 1 dorm (Caiçara) + Casas 2 dorm (Tupi/Ocian/Maracanã/Caiçara/Jd.Real/Jd.Imperador) + Casas 3 dorm (Tupi/Ocian/Caiçara/Maracanã/Jd.Real/Jd.Imperador/Solemar/Flórida) + Sobrados 3 dorm (Tupi/Caiçara) + Casas 4 dorm (Caiçara/Maracanã/Flórida/Jd.Real) + Sobrado 4 dorm (Flórida)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 51.4
+      },
+      {
+        "id": "1MQNDvSoUQ6ooHhLeR9wljtyh1BqNBD9U",
+        "titulo": "COLISEUM - Casas 2 dorm (Forte/Caiçara/Ocian/Vilamar/Jd.Imperador/Mongaguá-SP) + Casas 3 dorm (Guilhermina/Caiçara/Maracanã/Jd.Real/Solemar) + Sobrados 3 dorm (Boqueirão/Ocian)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 45.7
+      },
+      {
+        "id": "1r5Iu7e9Af-QN5Hk_pbwSUmutUpRqTcMe",
+        "titulo": "OCEANIC - Sobrado 2 dorm (Jd.Real)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 1.8
+      },
+      {
+        "id": "1QTAtAYNqFXj2sVaSZvfnXj3V1RjMGg1_",
+        "titulo": "MARALTO - Casa geminada 2 dorm (Melvi) + Casa Geminada 3 dorm (Aviação)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 40.2
+      },
+      {
+        "id": "1y9D4UcEAP9j4RFCR4GTivpyaHQUwGCro",
+        "titulo": "ADEMILSON CRUZ - Sobrado 2 dorm (Esmeralda)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 1.8
+      },
+      {
+        "id": "1QkMVcAh_lAD_jW8CBkQ0SRFTSxtuUCyJ",
+        "titulo": "GÊNESIS - Casa 3 dorm (Florida)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 6.1
+      },
+      {
+        "id": "1JUA9Jlt6fOvxuVpSzehrqXeDDJsTuYwJ",
+        "titulo": "KAMILA AMANCIO - Casas 2 dorm (Itanhaém-SP) + Casa 3 dorm (Imperador)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 157.0
+      },
+      {
+        "id": "1Q9wdVf819Z6pDmj4WuctK54iVsmDfwIp",
+        "titulo": "ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 2.4
+      },
+      {
+        "id": "1vwce5WIaFhm7JF60S1m_xa1-DY2ZkFvp",
+        "titulo": "ADRIANOS - Loja (Aviação)",
+        "pasta": "3. COMERCIAL",
+        "mb": 2.4
+      },
+      {
+        "id": "1kNj7LHVyoUQEGcUMaC8D7PFkNqeDG46x",
+        "titulo": "VANDERLEI - Loja (Tupi)",
+        "pasta": "3. COMERCIAL",
+        "mb": 16.5
+      },
+      {
+        "id": "1ZmQocmwmgfYat05D46OuXLObEGLj4z5c",
+        "titulo": "MORADA NA PRAIA - Sobrado 3 dorm (Forte)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 6.4
+      },
+      {
+        "id": "1DiZqJRZjPV8hbRBRPtLwNp0ZGzJX-a_A",
+        "titulo": "VANDERLEI - Casa 2 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 16.5
+      },
+      {
+        "id": "1OaNJ8KGAD-dVnyaTpqCU23roVZh6M5lN",
+        "titulo": "SAFIRA - Loja (Forte)",
+        "pasta": "3. COMERCIAL",
+        "mb": 6.7
+      },
+      {
+        "id": "1sWojgwgJtiWUWWS1OSDLcIZn7ev1P1f3",
+        "titulo": "TALISMÃ -  Ponto Comercial (Caiçara)",
+        "pasta": "3. COMERCIAL",
+        "mb": 1.6
+      },
+      {
+        "id": "1MAatMsYSwY08CjrFbQrscFaZHDJ4YTno",
+        "titulo": "NOVA CASARÃO - Casas 2 dorm (Mirim/Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 11.5
+      },
+      {
+        "id": "1I36E6hZQlwkrgY03zC6FcirHw7fU_lfF",
+        "titulo": "NOVA CASARÃO - Galpão comercial (Tupi)",
+        "pasta": "3. COMERCIAL",
+        "mb": 11.5
+      },
+      {
+        "id": "1dw1yxRjPEeLCUBVl2HPUv8fRKGXl4dR3",
+        "titulo": "DECK - Sobrado 2 dorm (V. Assunção)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 21.6
+      },
+      {
+        "id": "1zzlJzroaiy_cBwirMTuKG75Bh7ELT0_W",
+        "titulo": "ROYAL HOUSE - Sobrado 2 dorm (Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 8.4
+      },
+      {
+        "id": "1YFnQtWjqNCWx6yctQYEBNk5AvKgX6TOi",
+        "titulo": "ARJONAS - Sala comercial (Tupi)",
+        "pasta": "3. COMERCIAL",
+        "mb": 7.5
+      },
+      {
+        "id": "1_3NnSwC87wdBNTVNjGuDFsToj8JfePIk",
+        "titulo": "SAGA - Sobrado 3 dorm (Guilhermina)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 7.5
+      },
+      {
+        "id": "1FToR5617hRfzhiVdc57u8Xb_IpRNEOgn",
+        "titulo": "AGÊNCIA DA PRAIA - Casas 2 dorm (Guilhermina/Ocian) + Casa 3 dorm (Solemar)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 20.9
+      },
+      {
+        "id": "13PhW1wx3hcRA-7gWC0mLV50UCOWMVemw",
+        "titulo": "C2X - Sobrado 2 dorm (Tupi)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 10.5
+      },
+      {
+        "id": "1wAKyLFSdMHFMLTEQkAg5sJuXklrlNQKS",
+        "titulo": "WILLIAM BUONGIOVANNI - Loja (Solemar)",
+        "pasta": "3. COMERCIAL",
+        "mb": 18.7
+      },
+      {
+        "id": "1pNrMXj-EJQEUV-77y0-5-tB8vyNrHCpc",
+        "titulo": "WILLIAM BUONGIOVANNI - Casa geminada 1 dorm (Caiçara) + Casa 2 dorm (Maracanã) + Casas geminadas 2 dorm (Caiçara) + Casa 3 dorm (Aviação/Flórida) + Sobrado 3 dorm (Vila Antártica) + Triplex 3 dorm (Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 18.7
+      },
+      {
+        "id": "1bzQXhg1n413m1PSdWb5_YJhw5Lf8s7xj",
+        "titulo": "TEMPONE - Sala Comercial (Aviação)",
+        "pasta": "3. COMERCIAL",
+        "mb": 69.7
+      },
+      {
+        "id": "1SmJIfztyd5MAQGQS6CyM2l3_GoWWpRG0",
+        "titulo": "TEMPONE - Casa 1 dorm (Maracanã) + Casa em Cond 1 dorm (Jd Real) + Casas 2 dorm (Ocian/Maracanã/Tude/Vila Sônia) + Sobrados 2 dorm (Jd Glória/Pq das Américas) + Casas 3 dorm (Tupi/Caiçara\"/Florida/Solemar/Anhaguanhera) + Casa 4 dorm (Tupi/Solemar) + Sobrados 4 dorm (Solemar) + Casa 5 dorm (Peruíbe - SP)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 69.7
+      },
+      {
+        "id": "1XmdDnv67_TBwpuFvXOURRyRbvxHtfG-y",
+        "titulo": "A&S - Casa 3 dorm (Vilamar) + Casa 4 dorm (Aviação/Flórida)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 21.2
+      },
+      {
+        "id": "1uDlriq1rgsJ51E2-Bl6d-Fn3GU-8Xq54",
+        "titulo": "LEONARDO SILVA - Casa 3 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 4.1
+      },
+      {
+        "id": "1_86-_sdeXgFjRDhSgdQpz-g3J-v7Iitw",
+        "titulo": "APÊ E CASA - Casas 3 dorm (Ocian/Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 7.3
+      },
+      {
+        "id": "1zwpQ876AtpdXBJXmlLsa2NOhc3NcFi2c",
+        "titulo": "TONY ANDRADE - Loja (Boqueirão)",
+        "pasta": "3. COMERCIAL",
+        "mb": 54.9
+      },
+      {
+        "id": "1ORsDAcsyTM7IqoTKwkFphpHZ9jYqLNjn",
+        "titulo": "TONY ANDRADE - Casa 2 dorm (São Vicente-SP) + Casa 3 dorm (São Vicente-SP) + Casa 4 dorm (São Vicente-SP) + Sobrado 3 dorm (SãoVicente-SP)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 54.9
+      },
+      {
+        "id": "1KtYXnJ58gyzX7i-xALP0TsF1HXBKcgQH",
+        "titulo": "WELLINGTON LA BAMBA - Casa 2 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 16.7
+      },
+      {
+        "id": "1gUbA7LMdhrVS8tedVd2Jvk07LU_3x1Ma",
+        "titulo": "Nathaniel Andrade -  Casas 2 dorm (Pq. Das Américas/Samambaia)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 20.4
+      },
+      {
+        "id": "1pUvJ05buiVtZwgIuZtdNuOKGP1yzO-ek",
+        "titulo": "SAMANTHA GLÓRIA - Casa 1 dorm (Guilhermina)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 7.8
+      },
+      {
+        "id": "1w3ATEWoMeUfK_0tgDCPJiZYZjXqEM7_a",
+        "titulo": "MARCOS NASCIMENTO - Lojas (Paquetá/São Vicente-SP) + Terreno (Paquetá) + Galpão (Paquetá)",
+        "pasta": "3. COMERCIAL",
+        "mb": 0.1
+      },
+      {
+        "id": "1hmaV2NgVwusVYUc2bnjrz77yLelh5JB6",
+        "titulo": "MARCOS NASCIMENTO - Casa 3 dorm (Maracanã)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 0.0
+      },
+      {
+        "id": "1jEfPUBfLR5op36C0ofVsD-HD8BNMqrDg",
+        "titulo": "LITORAL EXCLUSIVE IMÓVEIS - Casas 2 dorm (Mirim/Caiçara/Jd Imperador/São Vicente - SP) + Casas 3 dorm (Caiçara/Sítio do Campo) + Casa 4 dorm (Itanhaém - SP) + Chácara 6 dorm (Itanhaém - SP) + Sobrado 8 dom (Itanhaém - SP)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 46.3
+      },
+      {
+        "id": "1X7gC0G9zhTDSGXQ3L5vIEKwOUkboiyP8",
+        "titulo": "DANIELA PEREZ - Casas 3, 4 e 5 dorm (Forte) + Casa 4 dorm (Caiçara) + Sobrado 3 dorm (Boqueirão) + Sobrado 5 dorm (Forte)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 38.8
+      },
+      {
+        "id": "1Gt1GToCHc9MisIDy1vNf0RQJ_FchTjek",
+        "titulo": "LEONARDO YATSU - Casa 1 dorm (Mirim) + Casas 2 dorm (Tupi/Mongaguá-SP) + Sobrado 2 dorm (V. Sônia)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 5.6
+      },
+      {
+        "id": "1g_zWRcKpDQvS5AV5jJ5OP76cT82auK02",
+        "titulo": "PLAZA - Casa 2 dorm (Aviação) + Sobrado 3 dorm (Boqueirão)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 11.7
+      },
+      {
+        "id": "1cP_dDY18zRoxwSuYIP9Ovm9_qtjXiXAd",
+        "titulo": "AT IMÓVEIS - Casa 3 dorm (Forte)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 12.9
+      },
+      {
+        "id": "1VMcaHZ1BV6WBXa_Kg-6z41aaEIrIdlqK",
+        "titulo": "MÁRCIO MASUMOTO JR - Casas 2 dorm (Boqueirão) + Casas 3 dorm (Forte/Guilhermina/Solemar) + Sobrado 3 dorm (Boqueirão) + Sobrado 4 dorm (Caiçara) + Locação - Sobrado 2 dorm (Forte)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 24.7
+      },
+      {
+        "id": "1vj4HbncVirKdBaBrte-cqndfgz-Ju-yL",
+        "titulo": "FR SANTOS - Casa 3 dorm (Caiçara) + Locação - Casa 4 dorm (Peruíbe-SP)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 14.8
+      },
+      {
+        "id": "1RH9iRrrElhleN3XGqKT4tO8k45zfQaRQ",
+        "titulo": "TOPO IMOVEIS - Sobrado 2 dorm (Jd Quietude) + Sobrado 3 dorm (Aviação)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 10.0
+      },
+      {
+        "id": "1NmkqcfULLyJ7SXbajzVUGDnsS-NjW_yR",
+        "titulo": "SÉRGIO - Casa 3 dorm (Tupi)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 1.7
+      },
+      {
+        "id": "1u-fqnwXsS9eahSY7rxBC507yAztSJqA-",
+        "titulo": "THIAGO MALOSSI - Sobrado 2 dorm (Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 5.6
+      },
+      {
+        "id": "1vq5gtqMJ1gFFeTeAahQD_675E4X2SO3C",
+        "titulo": "VILLAGE CAIÇARA - Triplex 3 dorm (Caiçara)",
+        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
+        "mb": 13.9
+      }
+    ],
+    "locacao": "Tudo da pasta 8. LOCAÇÃO e as locações dentro de outras pastas ficam de fora (o painel é de venda)."
+  }
 }
