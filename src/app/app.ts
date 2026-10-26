@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, afterRenderEffect, computed, effect, inject, signal, untracked } from '@angular/core';
 import {
+  CATEGORIA_ROTULO,
   DORM_ROTULO,
   FASE_ROTULO,
   FILTROS_VAZIOS,
@@ -23,7 +24,7 @@ import {
 } from './estoque/busca';
 import { EstoqueService } from './estoque/estoque.service';
 import { brl, brlK, faixa, m2, num, plural, vagasTexto } from './estoque/formato';
-import { Dorm, Predio, Unidade } from './estoque/modelo';
+import { Categoria, Dorm, Predio, Unidade } from './estoque/modelo';
 import { Aba, escreverUrl, lerUrl } from './estoque/url';
 import { Orla, TrechoOrla } from './orla/orla';
 import { PredioDetalhe } from './predio/predio-detalhe';
@@ -70,6 +71,7 @@ export class App {
   protected readonly FASE_ROTULO = FASE_ROTULO;
   protected readonly STATUS_ROTULO = STATUS_ROTULO;
   protected readonly ORIGEM_ROTULO = ORIGEM_ROTULO;
+  protected readonly CATEGORIAS: ['' | Categoria, string][] = [['', 'Todos'], ...(Object.entries(CATEGORIA_ROTULO) as [Categoria, string][])];
   protected readonly DORMS: ['' | Dorm, string][] = [['', 'Qualquer'], ...(Object.entries(DORM_ROTULO) as [Dorm, string][])];
 
   /* ---------- resultados ---------- */
@@ -104,6 +106,7 @@ export class App {
   }));
   protected readonly contagemVista = computed(() => this.contar({ vista: true }));
   protected readonly contagemFrente = computed(() => this.contar({ frente: true }));
+  protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
 
   /* ---------- orla ---------- */
@@ -238,6 +241,7 @@ export class App {
     const a: { rotulo: string; limpar: Partial<Filtros> }[] = [];
     if (f.q.trim()) a.push({ rotulo: `“${f.q.trim()}”`, limpar: { q: '' } });
     if (f.tipo) a.push({ rotulo: f.tipo === 'usados' ? 'Usados' : 'Lançamentos', limpar: { tipo: '' } });
+    if (f.categoria) a.push({ rotulo: CATEGORIA_ROTULO[f.categoria], limpar: { categoria: '' } });
     if (f.vista) a.push({ rotulo: 'Vista mar', limpar: { vista: false } });
     if (f.frente) a.push({ rotulo: 'Frente mar', limpar: { frente: false } });
     if (f.dm) a.push({ rotulo: DORM_ROTULO[f.dm], limpar: { dm: '' } });

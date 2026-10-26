@@ -42,6 +42,15 @@ describe('busca', () => {
     expect(L.filter((l) => passa(l, F({ vmax: 400000 }))).map((l) => l.u.unidade)).toEqual(['14']);
   });
 
+  it('categoria: registro sem o campo é apartamento; casa e comercial só aparecem quando pedidos', () => {
+    const u = (ref: string, extra: Partial<Unidade>): Unidade => ({ ref, origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
+    const ls = montarLinhas([predio({ id: 'c', unidades: [u('c:0', {}), u('c:1', { categoria: 'casa' }), u('c:2', { categoria: 'comercial' })] })]);
+    expect(ls.filter((l) => passa(l, F({}))).length).toBe(3);
+    expect(ls.filter((l) => passa(l, F({ categoria: 'apartamento' }))).map((l) => l.u.ref)).toEqual(['c:0']);
+    expect(ls.filter((l) => passa(l, F({ categoria: 'casa' }))).map((l) => l.u.ref)).toEqual(['c:1']);
+    expect(ls.filter((l) => passa(l, F({ categoria: 'comercial' }))).map((l) => l.u.ref)).toEqual(['c:2']);
+  });
+
   it('frente mar: texto da tabela ou endereço na Av. Castelo Branco', () => {
     const u = (ref: string, extra: Partial<Unidade>): Unidade => ({ ref, origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
     const ls = montarLinhas([

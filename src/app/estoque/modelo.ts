@@ -5,6 +5,8 @@ export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan' | 'isildo'
 export type Mercado = 'revenda' | 'construtora';
 export type Fase = 'pronto' | 'obra' | 'lancamento';
 export type Status = 'disponivel' | 'reservado' | 'vendido' | 'suspenso';
+/** Natureza do imóvel; registro sem o campo é apartamento. */
+export type Categoria = 'apartamento' | 'casa' | 'comercial';
 /** Dormitórios: k = kitnet/studio/flat, 4 = 4 ou mais. */
 export type Dorm = 'k' | '1' | '2' | '3' | '4';
 
@@ -27,6 +29,8 @@ export interface RegistroUnidade {
   fase: Fase;
   unidade?: string;
   tipologia?: string;
+  /** Apartamento (padrão), casa/sobrado ou imóvel comercial (sala, loja, galpão). */
+  categoria?: Categoria;
   dm?: Dorm;
   dorm?: number;
   suites?: number;

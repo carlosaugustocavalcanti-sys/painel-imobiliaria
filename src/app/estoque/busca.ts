@@ -1,4 +1,4 @@
-import { Dorm, Fase, Mercado, Origem, Predio, Unidade } from './modelo';
+import { Categoria, Dorm, Fase, Mercado, Origem, Predio, Unidade } from './modelo';
 
 /* ---------- lugares: a orla de Praia Grande em ordem geográfica ---------- */
 
@@ -150,11 +150,15 @@ export function montarLinhas(predios: Predio[]): Linha[] {
 
 export type Tipo = '' | 'usados' | 'lancamentos';
 export type Acesso = '' | 'elevador' | 'escada' | 'nd';
+export type FiltroCategoria = '' | Categoria;
+export const CATEGORIA_ROTULO: Record<Categoria, string> = { apartamento: 'Apartamentos', casa: 'Casas e sobrados', comercial: 'Comerciais' };
 
 export interface Filtros {
   q: string;
   /** Usados (revenda das imobiliárias) ou Lançamentos (tabela da construtora). */
   tipo: Tipo;
+  /** Apartamentos, casas/sobrados ou comerciais (vazio = todos). */
+  categoria: FiltroCategoria;
   vista: boolean;
   /** Só frente mar (texto da tabela ou Av. Castelo Branco). */
   frente: boolean;
@@ -175,6 +179,7 @@ export interface Filtros {
 export const FILTROS_VAZIOS: Filtros = {
   q: '',
   tipo: '',
+  categoria: '',
   vista: false,
   frente: false,
   dm: '',
@@ -204,6 +209,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   const usa = (k: ChaveFiltro) => k !== ignorar;
   if (usa('todas') && !f.todas && u.status !== 'disponivel') return false;
   if (usa('tipo') && f.tipo && !l.mercados.includes(f.tipo === 'usados' ? 'revenda' : 'construtora')) return false;
+  if (usa('categoria') && f.categoria && (u.categoria ?? 'apartamento') !== f.categoria) return false;
   if (usa('vista') && f.vista && !u.vistaMar) return false;
   if (usa('frente') && f.frente && !l.frenteMar) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;
@@ -232,7 +238,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
 
 /** Algum filtro que olha para a unidade (e não só para o prédio) está ligado? */
 export const filtroDeUnidade = (f: Filtros) =>
-  !!(f.vista || f.frente || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
+  !!(f.categoria || f.vista || f.frente || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
 
 /* ---------- ordenação ---------- */
 

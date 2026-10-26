@@ -49,6 +49,16 @@
 <main class="pagina">
   <section class="filtros" aria-label="Refinar a busca">
     <div class="filtro">
+      <span class="rot">Imóvel</span>
+      <div class="chips">
+        @for (c of CATEGORIAS; track c[0]) {
+          <button type="button" class="chip" [attr.aria-pressed]="fl.categoria === c[0]" (click)="mudar({ categoria: c[0] })">
+            {{ c[1] }} <span>{{ fmt.num(contagemCategoria()[c[0]]) }}</span>
+          </button>
+        }
+      </div>
+    </div>
+    <div class="filtro">
       <span class="rot">Dormitórios</span>
       <div class="chips">
         @for (d of DORMS; track d[0]) {
