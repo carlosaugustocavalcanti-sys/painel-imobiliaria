@@ -5345,19 +5345,6 @@
      "renda": 21400
     },
     {
-     "unidade": "145",
-     "andar": 14,
-     "tipologia": "2 suítes",
-     "area": 76.38,
-     "valor": 796868,
-     "entrada": 39843.4,
-     "financ": 565944.96,
-     "status": "disponivel",
-     "obs": "Área exclusiva 2 m²; Vagas privativas (subsolo)",
-     "parcela": 6695.16,
-     "renda": 22400
-    },
-    {
      "unidade": "16",
      "andar": 1,
      "tipologia": "2 suítes",
@@ -5434,10 +5421,90 @@
      "obs": "Área exclusiva 2 m²; Vagas privativas (terreo)",
      "parcela": 6695.16,
      "renda": 22400
+    },
+    {
+     "unidade": "122",
+     "andar": 12,
+     "final": 2,
+     "tipologia": "3 dorms (1 suíte + 2 demi)",
+     "area": 109.36,
+     "valor": 1100000,
+     "entrada": 55000,
+     "status": "disponivel",
+     "obs": "Vaga(s): 2 vagas privativas térreo. 25 parcelas fixas, 2 intermediárias fixas (jun/2027 a abr/2028), conclusão de obra e saldo final com correção de 0,7% ao mês após a assinatura.",
+     "fluxo": {
+      "entrada": 55000,
+      "chaves": 44000,
+      "anualQtd": 2,
+      "anualVal": 23800,
+      "parcQtd": 25,
+      "parcVal": 5650,
+      "saldoFinal": 812150
+     }
+    },
+    {
+     "unidade": "54",
+     "andar": 5,
+     "final": 4,
+     "tipologia": "2 dorms (2 suítes)",
+     "area": 74.29,
+     "valor": 731868,
+     "entrada": 36593.4,
+     "status": "disponivel",
+     "obs": "Vaga(s): 1 vaga privativa G1. 25 parcelas fixas, 2 intermediárias fixas (jun/2027 a abr/2028), conclusão de obra e saldo final com correção de 0,7% ao mês após a assinatura.",
+     "fluxo": {
+      "entrada": 36593.4,
+      "chaves": 36593.4,
+      "anualQtd": 2,
+      "anualVal": 16437.36,
+      "parcQtd": 25,
+      "parcVal": 3809.34,
+      "saldoFinal": 530572.98
+     }
+    },
+    {
+     "unidade": "55",
+     "andar": 5,
+     "final": 5,
+     "tipologia": "2 dorms (2 suítes)",
+     "area": 74.38,
+     "valor": 717420,
+     "entrada": 35871,
+     "status": "disponivel",
+     "obs": "Vaga(s): 1 vaga privativa G3. 25 parcelas fixas, 2 intermediárias fixas (jun/2027 a abr/2028), conclusão de obra e saldo final com correção de 0,7% ao mês após a assinatura.",
+     "fluxo": {
+      "entrada": 35871,
+      "chaves": 35871,
+      "anualQtd": 2,
+      "anualVal": 16148.4,
+      "parcQtd": 25,
+      "parcVal": 3737.1,
+      "saldoFinal": 519953.7
+     }
+    },
+    {
+     "unidade": "106",
+     "andar": 10,
+     "final": 6,
+     "tipologia": "2 dorms (2 suítes)",
+     "area": 72.52,
+     "valor": 756868,
+     "entrada": 37843.4,
+     "status": "disponivel",
+     "obs": "Vaga(s): 1 vaga privativa G2. 25 parcelas fixas, 2 intermediárias fixas (jun/2027 a abr/2028), conclusão de obra e saldo final com correção de 0,7% ao mês após a assinatura.",
+     "fluxo": {
+      "entrada": 37843.4,
+      "chaves": 37843.4,
+      "anualQtd": 2,
+      "anualVal": 16937.36,
+      "parcQtd": 25,
+      "parcVal": 3934.34,
+      "saldoFinal": 548947.98
+     }
     }
    ],
    "fonte": "Tabela de reservas GMV – Residencial Park Avenue",
-   "atualizadoEm": "23/09/2026",
+   "atualizadoEm": "23/10/2026",
    "entrega": "Jan/2029",
    "endereco": "Av. Guilhermina, 591 – Guilhermina",
    "contato": "",
@@ -5631,676 +5698,770 @@
      "andar": 1,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 998310,
-     "entrada": 99831,
-     "financ": 798648,
+     "valor": 1016400,
+     "entrada": 559020,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 9437.77,
-     "renda": 31500
+     "fluxo": {
+      "entrada": 559020,
+      "parcQtd": 6,
+      "parcVal": 16940
+     }
     },
     {
      "unidade": "21",
      "andar": 2,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 1535383.6,
+     "valor": 1553542.34,
      "entrada": 153538.36,
-     "financ": 1228306.88,
      "status": "disponivel",
-     "obs": "1 vaga; Apartamento decorado (mobília inclusa)",
-     "parcela": 14501.68,
-     "renda": 48400
+     "obs": "1 vaga; Apartamento decorado (mobília inclusa)"
     },
     {
      "unidade": "31",
      "andar": 3,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 914749.64,
-     "entrada": 91474.96,
-     "financ": 731799.71,
+     "valor": 933017.33,
+     "entrada": 513159.53,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8649.9,
-     "renda": 28900
+     "fluxo": {
+      "entrada": 513159.53,
+      "parcQtd": 6,
+      "parcVal": 15550.29
+     }
     },
     {
      "unidade": "41",
      "andar": 4,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 920202.13,
-     "entrada": 92020.21,
-     "financ": 736161.71,
+     "valor": 938579.43,
+     "entrada": 516218.69,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8701.31,
-     "renda": 29100
+     "fluxo": {
+      "entrada": 516218.69,
+      "parcQtd": 6,
+      "parcVal": 15642.99
+     }
     },
     {
      "unidade": "51",
      "andar": 5,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 925687.35,
-     "entrada": 92568.73,
-     "financ": 740549.88,
+     "valor": 944174.91,
+     "entrada": 519296.2,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8753.03,
-     "renda": 29200
+     "fluxo": {
+      "entrada": 519296.2,
+      "parcQtd": 6,
+      "parcVal": 15736.25
+     }
     },
     {
      "unidade": "61",
      "andar": 6,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 931205.47,
-     "entrada": 93120.55,
-     "financ": 744964.38,
+     "valor": 949803.96,
+     "entrada": 522392.18,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8805.06,
-     "renda": 29400
+     "fluxo": {
+      "entrada": 522392.18,
+      "parcQtd": 6,
+      "parcVal": 15830.07
+     }
     },
     {
      "unidade": "71",
      "andar": 7,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 936756.7,
-     "entrada": 93675.67,
-     "financ": 749405.36,
+     "valor": 955466.78,
+     "entrada": 525506.73,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8857.4,
-     "renda": 29600
+     "fluxo": {
+      "entrada": 525506.73,
+      "parcQtd": 6,
+      "parcVal": 15924.45
+     }
     },
     {
      "unidade": "81",
      "andar": 8,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 942341.24,
-     "entrada": 94234.12,
-     "financ": 753872.99,
+     "valor": 961163.58,
+     "entrada": 528639.97,
      "status": "disponivel",
      "obs": "1 vaga; Sigla WJR na tabela – confirmar se está reservado",
-     "parcela": 8910.06,
-     "renda": 29800
+     "fluxo": {
+      "entrada": 528639.97,
+      "parcQtd": 6,
+      "parcVal": 16019.39
+     }
     },
     {
      "unidade": "91",
      "andar": 9,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 947959.29,
-     "entrada": 94795.93,
-     "financ": 758367.43,
+     "valor": 966894.57,
+     "entrada": 531792.01,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8963.03,
-     "renda": 29900
+     "fluxo": {
+      "entrada": 531792.01,
+      "parcQtd": 6,
+      "parcVal": 16114.91
+     }
     },
     {
      "unidade": "101",
      "andar": 10,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 953611.05,
-     "entrada": 95361.1,
-     "financ": 762888.84,
+     "valor": 972659.93,
+     "entrada": 534962.96,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9016.32,
-     "renda": 30100
+     "fluxo": {
+      "entrada": 534962.96,
+      "parcQtd": 6,
+      "parcVal": 16211
+     }
     },
     {
      "unidade": "111",
      "andar": 11,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 959296.71,
-     "entrada": 95929.67,
-     "financ": 767437.37,
+     "valor": 978459.89,
+     "entrada": 538152.94,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9069.92,
-     "renda": 30300
+     "fluxo": {
+      "entrada": 538152.94,
+      "parcQtd": 6,
+      "parcVal": 16307.66
+     }
     },
     {
      "unidade": "121",
      "andar": 12,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 1005016.49,
-     "entrada": 100501.65,
-     "financ": 804013.19,
+     "valor": 1024294.65,
+     "entrada": 563362.06,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 9501,
-     "renda": 31700
+     "fluxo": {
+      "entrada": 563362.06,
+      "parcQtd": 6,
+      "parcVal": 17071.58
+     }
     },
     {
      "unidade": "131",
      "andar": 13,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 1010770.59,
-     "entrada": 101077.06,
-     "financ": 808616.47,
+     "valor": 1030164.42,
+     "entrada": 566590.43,
      "status": "disponivel",
      "obs": "2 vagas; Sigla PG na tabela – confirmar se está reservado",
-     "parcela": 9555.26,
-     "renda": 31900
+     "fluxo": {
+      "entrada": 566590.43,
+      "parcQtd": 6,
+      "parcVal": 17169.41
+     }
     },
     {
      "unidade": "141",
      "andar": 14,
      "tipologia": "2 suítes – frente",
      "area": 90,
-     "valor": 1016559.22,
-     "entrada": 101655.92,
-     "financ": 813247.37,
+     "valor": 1036069.41,
+     "entrada": 569838.17,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 9609.83,
-     "renda": 32100
+     "fluxo": {
+      "entrada": 569838.17,
+      "parcQtd": 6,
+      "parcVal": 17267.82
+     }
     },
     {
      "unidade": "12",
      "andar": 1,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1112936.94,
-     "entrada": 111293.69,
-     "financ": 890349.55,
+     "valor": 1133652,
+     "entrada": 623508.6,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 10518.55,
-     "renda": 35100
+     "fluxo": {
+      "entrada": 623508.6,
+      "parcQtd": 6,
+      "parcVal": 18894.2
+     }
     },
     {
      "unidade": "22",
      "andar": 2,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1809309.56,
+     "valor": 1830103.34,
      "entrada": 180930.96,
-     "financ": 1447447.65,
      "status": "disponivel",
-     "obs": "1 vaga; Apartamento decorado (mobília inclusa)",
-     "parcela": 17084.44,
-     "renda": 57000
+     "obs": "1 vaga; Apartamento decorado (mobília inclusa)"
     },
     {
      "unidade": "32",
      "andar": 3,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1048688.13,
-     "entrada": 104868.81,
-     "financ": 838950.5,
+     "valor": 1069648.26,
+     "entrada": 588306.54,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9912.77,
-     "renda": 33100
+     "fluxo": {
+      "entrada": 588306.54,
+      "parcQtd": 6,
+      "parcVal": 17827.47
+     }
     },
     {
      "unidade": "42",
      "andar": 4,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1057029.64,
-     "entrada": 105702.96,
-     "financ": 845623.71,
+     "valor": 1078157.44,
+     "entrada": 592986.59,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9991.42,
-     "renda": 33400
+     "fluxo": {
+      "entrada": 592986.59,
+      "parcQtd": 6,
+      "parcVal": 17969.29
+     }
     },
     {
      "unidade": "52",
      "andar": 5,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1065437.87,
-     "entrada": 106543.79,
-     "financ": 852350.3,
+     "valor": 1086734.7,
+     "entrada": 597704.09,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10070.7,
-     "renda": 33600
+     "fluxo": {
+      "entrada": 597704.09,
+      "parcQtd": 6,
+      "parcVal": 18112.25
+     }
     },
     {
      "unidade": "62",
      "andar": 6,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1073913.38,
-     "entrada": 107391.34,
-     "financ": 859130.7,
+     "valor": 1095380.58,
+     "entrada": 602459.32,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10150.61,
-     "renda": 33900
+     "fluxo": {
+      "entrada": 602459.32,
+      "parcQtd": 6,
+      "parcVal": 18256.34
+     }
     },
     {
      "unidade": "72",
      "andar": 7,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1082456.68,
-     "entrada": 108245.67,
-     "financ": 865965.35,
+     "valor": 1104095.63,
+     "entrada": 607252.59,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10231.16,
-     "renda": 34200
+     "fluxo": {
+      "entrada": 607252.59,
+      "parcQtd": 6,
+      "parcVal": 18401.59
+     }
     },
     {
      "unidade": "82",
      "andar": 8,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1091068.34,
-     "entrada": 109106.83,
-     "financ": 872854.67,
+     "valor": 1112880.39,
+     "entrada": 612084.22,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10312.36,
-     "renda": 34400
+     "fluxo": {
+      "entrada": 612084.22,
+      "parcQtd": 6,
+      "parcVal": 18548.01
+     }
     },
     {
      "unidade": "92",
      "andar": 9,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1100833.95,
-     "entrada": 110083.4,
-     "financ": 880667.16,
+     "valor": 1122842.31,
+     "entrada": 617563.27,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10404.44,
-     "renda": 34700
+     "fluxo": {
+      "entrada": 617563.27,
+      "parcQtd": 6,
+      "parcVal": 18714.04
+     }
     },
     {
      "unidade": "102",
      "andar": 10,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1115066.79,
-     "entrada": 111506.68,
-     "financ": 892053.43,
+     "valor": 1137361.26,
+     "entrada": 625548.7,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10538.63,
-     "renda": 35200
+     "fluxo": {
+      "entrada": 625548.7,
+      "parcQtd": 6,
+      "parcVal": 18956.02
+     }
     },
     {
      "unidade": "112",
      "andar": 11,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1131702.79,
-     "entrada": 113170.28,
-     "financ": 905362.24,
+     "valor": 1154331.68,
+     "entrada": 634882.43,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 10695.49,
-     "renda": 35700
+     "fluxo": {
+      "entrada": 634882.43,
+      "parcQtd": 6,
+      "parcVal": 19238.86
+     }
     },
     {
      "unidade": "122",
      "andar": 12,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1180595.85,
-     "entrada": 118059.58,
-     "financ": 944476.68,
+     "valor": 1203403.5,
+     "entrada": 661871.93,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 11156.49,
-     "renda": 37200
+     "fluxo": {
+      "entrada": 661871.93,
+      "parcQtd": 6,
+      "parcVal": 20056.73
+     }
     },
     {
      "unidade": "132",
      "andar": 13,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1186722.66,
-     "entrada": 118672.27,
-     "financ": 949378.13,
+     "valor": 1209653.48,
+     "entrada": 665309.42,
      "status": "disponivel",
      "obs": "2 vagas; Sigla MPJ na tabela – confirmar se está reservado",
-     "parcela": 11214.26,
-     "renda": 37400
+     "fluxo": {
+      "entrada": 665309.42,
+      "parcQtd": 6,
+      "parcVal": 20160.89
+     }
     },
     {
      "unidade": "142",
      "andar": 14,
      "tipologia": "2 suítes – frente",
      "area": 103.06,
-     "valor": 1193567,
-     "entrada": 119356.7,
-     "financ": 954853.6,
+     "valor": 1216635.4,
+     "entrada": 669149.47,
      "status": "disponivel",
      "obs": "2 vagas; Sigla PG na tabela – confirmar se está reservado",
-     "parcela": 11278.79,
-     "renda": 37600
+     "fluxo": {
+      "entrada": 669149.47,
+      "parcQtd": 6,
+      "parcVal": 20277.26
+     }
     },
     {
      "unidade": "13",
      "andar": 1,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 938992.93,
-     "entrada": 93899.29,
-     "financ": 751194.34,
+     "valor": 956494,
+     "entrada": 526071.7,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 8878.49,
-     "renda": 29600
+     "fluxo": {
+      "entrada": 526071.7,
+      "parcQtd": 6,
+      "parcVal": 15941.57
+     }
     },
     {
      "unidade": "23",
      "andar": 2,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 879921.26,
-     "entrada": 87992.13,
-     "financ": 703937.01,
+     "valor": 897488.83,
+     "entrada": 493618.86,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8321.52,
-     "renda": 27800
+     "fluxo": {
+      "entrada": 493618.86,
+      "parcQtd": 6,
+      "parcVal": 14958.15
+     }
     },
     {
      "unidade": "33",
      "andar": 3,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 886912.63,
-     "entrada": 88691.26,
-     "financ": 709530.1,
+     "valor": 904620.74,
+     "entrada": 497541.41,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8387.44,
-     "renda": 28000
+     "fluxo": {
+      "entrada": 497541.41,
+      "parcQtd": 6,
+      "parcVal": 15077.01
+     }
     },
     {
      "unidade": "43",
      "andar": 4,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 893959.93,
-     "entrada": 89395.99,
-     "financ": 715167.94,
+     "valor": 911809.71,
+     "entrada": 501495.34,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8453.88,
-     "renda": 28200
+     "fluxo": {
+      "entrada": 501495.34,
+      "parcQtd": 6,
+      "parcVal": 15196.83
+     }
     },
     {
      "unidade": "53",
      "andar": 5,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 901507.59,
-     "entrada": 90150.76,
-     "financ": 721206.07,
+     "valor": 919509.09,
+     "entrada": 505730,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8525.05,
-     "renda": 28500
+     "fluxo": {
+      "entrada": 505730,
+      "parcQtd": 6,
+      "parcVal": 15325.15
+     }
     },
     {
      "unidade": "63",
      "andar": 6,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 909567.16,
-     "entrada": 90956.72,
-     "financ": 727653.73,
+     "valor": 927730.67,
+     "entrada": 510251.87,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8601.04,
-     "renda": 28700
+     "fluxo": {
+      "entrada": 510251.87,
+      "parcQtd": 6,
+      "parcVal": 15462.18
+     }
     },
     {
      "unidade": "73",
      "andar": 7,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 918151.05,
-     "entrada": 91815.1,
-     "financ": 734520.84,
+     "valor": 936487.12,
+     "entrada": 515067.91,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8681.97,
-     "renda": 29000
+     "fluxo": {
+      "entrada": 515067.91,
+      "parcQtd": 6,
+      "parcVal": 15608.12
+     }
     },
     {
      "unidade": "83",
      "andar": 8,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 927181.34,
-     "entrada": 92718.13,
-     "financ": 741745.07,
+     "valor": 945698.94,
+     "entrada": 520134.42,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8767.12,
-     "renda": 29300
+     "fluxo": {
+      "entrada": 520134.42,
+      "parcQtd": 6,
+      "parcVal": 15761.65
+     }
     },
     {
      "unidade": "93",
      "andar": 9,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 937314.34,
-     "entrada": 93731.43,
-     "financ": 749851.47,
+     "valor": 956035.63,
+     "entrada": 525819.59,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8862.66,
-     "renda": 29600
+     "fluxo": {
+      "entrada": 525819.59,
+      "parcQtd": 6,
+      "parcVal": 15933.93
+     }
     },
     {
      "unidade": "123",
      "andar": 12,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 1004579.35,
-     "entrada": 100457.94,
-     "financ": 803663.48,
+     "valor": 1023848.72,
+     "entrada": 563116.8,
      "status": "disponivel",
      "obs": "2 vagas; Sigla SAP na tabela – confirmar se está reservado",
-     "parcela": 9496.88,
-     "renda": 31700
+     "fluxo": {
+      "entrada": 563116.8,
+      "parcQtd": 6,
+      "parcVal": 17064.15
+     }
     },
     {
      "unidade": "143",
      "andar": 14,
      "tipologia": "2 suítes – lateral",
      "area": 87.07,
-     "valor": 1016115.85,
-     "entrada": 101611.59,
-     "financ": 812892.68,
+     "valor": 1035617.13,
+     "entrada": 569589.42,
      "status": "disponivel",
      "obs": "2 vagas; Sigla SAP na tabela – confirmar se está reservado",
-     "parcela": 9605.65,
-     "renda": 32100
+     "fluxo": {
+      "entrada": 569589.42,
+      "parcQtd": 6,
+      "parcVal": 17260.29
+     }
     },
     {
      "unidade": "14",
      "andar": 1,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 1015889.89,
-     "entrada": 101588.99,
-     "financ": 812711.91,
+     "valor": 1034002,
+     "entrada": 568701.1,
      "status": "disponivel",
      "obs": "2 vagas",
-     "parcela": 9603.52,
-     "renda": 32100
+     "fluxo": {
+      "entrada": 568701.1,
+      "parcQtd": 6,
+      "parcVal": 17233.37
+     }
     },
     {
      "unidade": "24",
      "andar": 2,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 910433.73,
-     "entrada": 91043.37,
-     "financ": 728346.98,
+     "valor": 928614.66,
+     "entrada": 510738.06,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8609.21,
-     "renda": 28700
+     "fluxo": {
+      "entrada": 510738.06,
+      "parcQtd": 6,
+      "parcVal": 15476.91
+     }
     },
     {
      "unidade": "34",
      "andar": 3,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 917669.2,
-     "entrada": 91766.92,
-     "financ": 734135.36,
+     "valor": 935995.58,
+     "entrada": 514797.57,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8677.43,
-     "renda": 29000
+     "fluxo": {
+      "entrada": 514797.57,
+      "parcQtd": 6,
+      "parcVal": 15599.93
+     }
     },
     {
      "unidade": "44",
      "andar": 4,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 924962.55,
-     "entrada": 92496.26,
-     "financ": 739970.04,
+     "valor": 943435.55,
+     "entrada": 518889.55,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8746.2,
-     "renda": 29200
+     "fluxo": {
+      "entrada": 518889.55,
+      "parcQtd": 6,
+      "parcVal": 15723.93
+     }
     },
     {
      "unidade": "54",
      "andar": 5,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 932314.25,
-     "entrada": 93231.43,
-     "financ": 745851.4,
+     "valor": 950935.03,
+     "entrada": 523014.27,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8815.51,
-     "renda": 29400
+     "fluxo": {
+      "entrada": 523014.27,
+      "parcQtd": 6,
+      "parcVal": 15848.92
+     }
     },
     {
      "unidade": "64",
      "andar": 6,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 939724.77,
-     "entrada": 93972.48,
-     "financ": 751779.81,
+     "valor": 958494.51,
+     "entrada": 527171.98,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8885.39,
-     "renda": 29700
+     "fluxo": {
+      "entrada": 527171.98,
+      "parcQtd": 6,
+      "parcVal": 15974.91
+     }
     },
     {
      "unidade": "74",
      "andar": 7,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 947194.56,
-     "entrada": 94719.46,
-     "financ": 757755.65,
+     "valor": 966114.47,
+     "entrada": 531362.96,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 8955.82,
-     "renda": 29900
+     "fluxo": {
+      "entrada": 531362.96,
+      "parcQtd": 6,
+      "parcVal": 16101.91
+     }
     },
     {
      "unidade": "84",
      "andar": 8,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 954724.12,
-     "entrada": 95472.41,
-     "financ": 763779.3,
+     "valor": 973795.38,
+     "entrada": 535587.46,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9026.81,
-     "renda": 30100
+     "fluxo": {
+      "entrada": 535587.46,
+      "parcQtd": 6,
+      "parcVal": 16229.92
+     }
     },
     {
      "unidade": "94",
      "andar": 9,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 962313.91,
-     "entrada": 96231.39,
-     "financ": 769851.13,
+     "valor": 981537.75,
+     "entrada": 539845.76,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9098.37,
-     "renda": 30400
+     "fluxo": {
+      "entrada": 539845.76,
+      "parcQtd": 6,
+      "parcVal": 16358.96
+     }
     },
     {
      "unidade": "104",
      "andar": 10,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 969964.42,
-     "entrada": 96996.44,
-     "financ": 775971.54,
+     "valor": 989342.05,
+     "entrada": 544138.13,
      "status": "disponivel",
      "obs": "1 vaga; Sigla EPV na tabela – confirmar se está reservado",
-     "parcela": 9170.51,
-     "renda": 30600
+     "fluxo": {
+      "entrada": 544138.13,
+      "parcQtd": 6,
+      "parcVal": 16489.03
+     }
     },
     {
      "unidade": "114",
      "andar": 11,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 977676.14,
-     "entrada": 97767.61,
-     "financ": 782140.91,
+     "valor": 997208.78,
+     "entrada": 548464.83,
      "status": "disponivel",
      "obs": "1 vaga; Sigla PDL na tabela – confirmar se está reservado",
-     "parcela": 9243.22,
-     "renda": 30900
+     "fluxo": {
+      "entrada": 548464.83,
+      "parcQtd": 6,
+      "parcVal": 16620.15
+     }
     },
     {
      "unidade": "124",
      "andar": 12,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 985449.55,
-     "entrada": 98544.95,
-     "financ": 788359.64,
+     "valor": 1005138.45,
+     "entrada": 552826.15,
      "status": "disponivel",
      "obs": "1 vaga; Sigla DFF na tabela – confirmar se está reservado",
-     "parcela": 9316.51,
-     "renda": 31100
+     "fluxo": {
+      "entrada": 552826.15,
+      "parcQtd": 6,
+      "parcVal": 16752.31
+     }
     },
     {
      "unidade": "134",
      "andar": 13,
      "tipologia": "2 suítes – fundos",
      "area": 90.11,
-     "valor": 993285.15,
-     "entrada": 99328.51,
-     "financ": 794628.12,
+     "valor": 1013131.56,
+     "entrada": 557222.36,
      "status": "disponivel",
      "obs": "1 vaga",
-     "parcela": 9390.39,
-     "renda": 31400
+     "fluxo": {
+      "entrada": 557222.36,
+      "parcQtd": 6,
+      "parcVal": 16885.53
+     }
     },
     {
      "unidade": "133",
@@ -6340,7 +6501,7 @@
     }
    ],
    "fonte": "Tabela Pegrati – Residencial Berilo (V2026_11)",
-   "atualizadoEm": "03/08/2026",
+   "atualizadoEm": "22/10/2026 13:10 (V2026_14)",
    "entrega": "Set/2026",
    "endereco": "Rua Dr. João Sampaio, 430 – Guilhermina",
    "contato": "Plantão (13) 99661-5638",
@@ -6914,7 +7075,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.67,
      "valor": 585801.94,
-     "entrada": 36905.52,
+     "entrada": 36319.72,
      "financ": 408292.24,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -6927,7 +7088,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.67,
      "valor": 587524.52,
-     "entrada": 39951.67,
+     "entrada": 38189.09,
      "financ": 406559.65,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -6966,7 +7127,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.67,
      "valor": 550077.56,
-     "entrada": 35204.96,
+     "entrada": 34654.89,
      "financ": 382841.62,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -7018,7 +7179,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.37,
      "valor": 589952.75,
-     "entrada": 38936.88,
+     "entrada": 37756.98,
      "financ": 408824.12,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -7031,7 +7192,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.37,
      "valor": 596790.19,
-     "entrada": 39388.15,
+     "entrada": 38194.57,
      "financ": 414168.92,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -7096,7 +7257,7 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 63.81,
      "valor": 545746.21,
-     "entrada": 33290.52,
+     "entrada": 33836.27,
      "financ": 381471.53,
      "status": "disponivel",
      "obs": "1 vaga",
@@ -7754,21 +7915,6 @@
   "apolo": {
    "itens": [
     {
-     "unidade": "16",
-     "andar": 1,
-     "final": 6,
-     "tipologia": "Garden",
-     "area": 78,
-     "valor": 557825,
-     "entrada": 40325,
-     "financ": 517500,
-     "laudo": 575000,
-     "status": "disponivel",
-     "obs": "1 · Garden; entrada em até 24x",
-     "parcela": 6124.26,
-     "renda": 20500
-    },
-    {
      "unidade": "83",
      "andar": 8,
      "final": 3,
@@ -7864,8 +8010,8 @@
      "final": 8,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 78.79,
-     "valor": 690000,
-     "entrada": 138000,
+     "valor": 630000,
+     "entrada": 126000,
      "financ": 552000,
      "status": "disponivel",
      "obs": "1 vaga coletiva · Área total 117,33 m²; frente Rua Primeiro de Janeiro",
@@ -7874,7 +8020,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "16/09/2026",
+   "atualizadoEm": "01/10/2026",
    "modalidade": "bancario",
    "entrega": "Entregue",
    "endereco": "Rua Primeiro de Janeiro nº 110 - Vila Mirim / Praia Grande - SP",
@@ -11087,25 +11233,6 @@
      }
     },
     {
-     "unidade": "142",
-     "andar": 14,
-     "final": 2,
-     "tipologia": "3 dormitórios",
-     "area": 123.56,
-     "valor": 1320000,
-     "entrada": 396000,
-     "status": "disponivel",
-     "obs": "2 vagas · Sinal = entrada; parcela das chaves; saldo em 100x",
-     "fluxo": {
-      "entrada": 396000,
-      "chaves": 264000,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 100,
-      "parcVal": 6600
-     }
-    },
-    {
      "unidade": "152",
      "andar": 15,
      "final": 2,
@@ -11582,7 +11709,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "atualizada até 25/09/2026",
+   "atualizadoEm": "09/10/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "Vila Negro Velho - Quadra E - Lotes 01 pte, 02 pte, 03, 04 pte e 06 - Praia Grande-SP",
@@ -12811,32 +12938,10 @@
      },
      "parcela": 6130.15,
      "renda": 20500
-    },
-    {
-     "unidade": "156",
-     "andar": 15,
-     "final": 6,
-     "tipologia": "2 dormitórios (1 suíte)",
-     "area": 73.77,
-     "valor": 720815,
-     "entrada": 432489,
-     "financ": 452931.5,
-     "status": "disponivel",
-     "obs": "Valor bancário: R$ 647.045 · 1 vaga · Entrada bancária (ato/30 dias): R$ 194.113,50",
-     "fluxo": {
-      "entrada": 432489,
-      "chaves": null,
-      "anualQtd": 4,
-      "anualVal": 25000,
-      "parcQtd": 48,
-      "parcVal": 3923.46
-     },
-     "parcela": 5363.25,
-     "renda": 17900
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "19/09/2026",
+   "atualizadoEm": "30/09/2026",
    "modalidade": "ambos",
    "entrega": "Entregue",
    "endereco": "Av. Presidente Castelo Branco, 15.714 - Jd. Imperador, Praia Grande/SP",
@@ -16750,7 +16855,7 @@
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 71.47,
      "valor": 641000,
-     "status": "reservado",
+     "status": "disponivel",
      "obs": "2 vagas (20,70 m²) · Área total 146,86 m²; entrada + 120 prestações"
     },
     {
@@ -16760,7 +16865,7 @@
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 71.47,
      "valor": 641000,
-     "status": "reservado",
+     "status": "disponivel",
      "obs": "2 vagas (20,70 m²) · Área total 146,86 m²; entrada + 120 prestações"
     },
     {
@@ -16970,7 +17075,7 @@
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 66.98,
      "valor": 608000,
-     "status": "reservado",
+     "status": "disponivel",
      "obs": "2 vagas (20,70 m²) · Área total 140,085 m²; condição especial: entrada em dinheiro, válida para setembro/2026; entrada + 140 prestações"
     },
     {
@@ -17013,7 +17118,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "02/10/2026 18:09",
+   "atualizadoEm": "08/10/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "Rua Urca, 94 (esquina com R. Praia dos Sonhos), Jardim Guilhermina - Praia Grande/SP",
@@ -17322,25 +17427,6 @@
   "residencial-teresa": {
    "itens": [
     {
-     "unidade": "102",
-     "andar": 10,
-     "final": 2,
-     "tipologia": "2 dormitórios (1 suíte)",
-     "area": 70.92,
-     "valor": 673740,
-     "entrada": 269496,
-     "status": "disponivel",
-     "obs": "1 vaga coletiva · Final 2; condomínio R$ 654,65; IPTU R$ 431,12; frente lado praia",
-     "fluxo": {
-      "entrada": 269496,
-      "chaves": null,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 100,
-      "parcVal": 4042.44
-     }
-    },
-    {
      "unidade": "13",
      "andar": 1,
      "final": 3,
@@ -17379,27 +17465,35 @@
      }
     },
     {
-     "unidade": "94",
-     "andar": 9,
-     "final": 4,
-     "tipologia": "1 dormitório (suíte)",
-     "area": 57.32,
-     "valor": 487220,
-     "entrada": 194888,
+     "unidade": "22",
+     "andar": 2,
+     "tipologia": "2 dorms (1 suíte)",
+     "area": 70.92,
+     "valor": 602820,
      "status": "disponivel",
-     "obs": "1 vaga coletiva · Final 4; condomínio R$ 534,26; IPTU R$ 365,34; fundo lado Kennedy",
-     "fluxo": {
-      "entrada": 194888,
-      "chaves": null,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 100,
-      "parcVal": 2923.32
-     }
+     "obs": "Final 2 (frente lado praia). Condomínio R$ 698,51; IPTU R$ 431,12. Só valor total (sem fluxo)."
+    },
+    {
+     "unidade": "32",
+     "andar": 3,
+     "tipologia": "2 dorms (1 suíte)",
+     "area": 70.92,
+     "valor": 618000,
+     "status": "disponivel",
+     "obs": "Final 2 (frente lado praia). Condomínio R$ 698,51; IPTU R$ 431,12. Só valor total (sem fluxo)."
+    },
+    {
+     "unidade": "91",
+     "andar": 9,
+     "tipologia": "2 dorms (1 suíte)",
+     "area": 71.91,
+     "valor": 647190,
+     "status": "disponivel",
+     "obs": "Final 1 (frente lado Kennedy). Condomínio R$ 705,54; IPTU R$ 435,39. Só valor total (sem fluxo)."
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "atualizada 16/09/2026",
+   "atualizadoEm": "06/10/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "Rua São Benedito, 207, Vila Caiçara, Praia Grande/SP, CEP 11706-250",
@@ -19437,10 +19531,64 @@
      "valor": 1300000,
      "status": "disponivel",
      "obs": "3 privativas · 6 meses de condomínio pagos pela GMV; cond. R$ 1.651,75 | IPTU R$ 974,25"
+    },
+    {
+     "unidade": "134",
+     "andar": 13,
+     "tipologia": "2 dorms (1 suíte + 1 dorm)",
+     "area": 71.58,
+     "valor": 645000,
+     "status": "disponivel",
+     "obs": "Final 4. Correção 0,7% a.m. só sobre o saldo."
+    },
+    {
+     "unidade": "125",
+     "andar": 12,
+     "tipologia": "1 suíte",
+     "area": 47.62,
+     "valor": 480000,
+     "status": "disponivel",
+     "obs": "Final 5."
+    },
+    {
+     "unidade": "83",
+     "andar": 8,
+     "tipologia": "2 dorms (1 suíte + 1 dorm)",
+     "area": 69.28,
+     "valor": 610000,
+     "status": "disponivel",
+     "obs": "Só na tabela de junho/2026 (ausente da de out/2026). Final 3."
+    },
+    {
+     "unidade": "153",
+     "andar": 15,
+     "tipologia": "2 dorms (1 suíte + 1 dorm)",
+     "area": 69.28,
+     "valor": 640000,
+     "status": "disponivel",
+     "obs": "Só na tabela de junho/2026 (ausente da de out/2026). Final 3."
+    },
+    {
+     "unidade": "63",
+     "andar": 6,
+     "tipologia": "2 dorms (1 suíte + 1 dorm)",
+     "area": 69.28,
+     "valor": null,
+     "status": "reservado",
+     "obs": "Tabela de junho/2026: \"COM PROPOSTA\", sem valor. Final 3."
+    },
+    {
+     "unidade": "142",
+     "andar": 14,
+     "tipologia": "2 dorms (1 suíte + 1 dorm)",
+     "area": 70.96,
+     "valor": null,
+     "status": "reservado",
+     "obs": "Tabela de junho/2026: \"COM PROPOSTA\", sem valor. Final 2."
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "Outubro 2026 (versão anterior: Junho 2026)",
+   "atualizadoEm": "outubro/2026",
    "modalidade": "ambos",
    "entrega": "Entregue",
    "endereco": "Rua Fumio Myazi, 1.202 - Guilhermina - Praia Grande",
@@ -20258,7 +20406,7 @@
      "area": 100.822,
      "valor": 945761.65,
      "entrada": 283728.5,
-     "status": "disponivel",
+     "status": "vendido",
      "obs": "1 demarcada (nº 40 T) · área útil apto+terraço+trasteiro 100.822 m²; garagem 10.350 m²; área total real global 164.192 m²",
      "fluxo": {
       "entrada": 283728.5,
