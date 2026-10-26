@@ -1,0 +1,225 @@
+{
+ "arquivo": "Google Drive/Outubro - Tabelas",
+ "lidoEm": "2026-10-26",
+ "sobre": "Prédios das tabelas da pasta do mês que ainda não estavam no painel ou estavam incompletos.",
+ "predios": [
+  {
+   "id": "res-turim",
+   "nome": "Res. Turim",
+   "cidade": "Praia Grande",
+   "bairro": "Caiçara",
+   "endereco": "Rua José Alexandre Có, 213 (esquina com Rua Salvador Molinari) - Caiçara - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "03/2026 (prevista na tabela)",
+   "diferenciais": [
+    "Uma quadra do centro do Caiçara e 200 m da praia; vista para o mar das duas ruas",
+    "Lazer completo: piscinas adulto e infantil, deck/solarium, prainha, coworking, sala movie, beauty spa, saunas",
+    "Áreas comuns entregues mobiliadas pela construtora",
+    "Terraço gourmet e terraço técnico para ar-condicionado; porcelanato em todo o apartamento"
+   ],
+   "notas": [
+    "Construmoura. Finais 1, 6 e 7 têm 3 dorms (2 suítes); finais 2, 3, 4 e 5 têm 2 dorms (1 suíte).",
+    "Aceita imóvel como parte do pagamento (até 40%) e financiamento bancário para quitação. Prêmio de 0,5% ao corretor. Comissão de 5% inclusa."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "atualizadoEm": "29/08/2026",
+     "arquivo": "4. FINANCIAMENTO DIRETO/MARCELUS CONDE - Aptos 2 e 3 dorm (Caiçara).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "142",
+     "andar": 18,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79.73,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 661760,
+     "entrada": 132352.02,
+     "chaves": 101175,
+     "fluxo": {
+      "entrada": 132352.02,
+      "entradaQtd": 6,
+      "chaves": 101175,
+      "anualQtd": 8,
+      "anualVal": 12500,
+      "parcQtd": 80,
+      "parcVal": 4102.91
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 22.058,67; 80 mensais; 8 anuais; chaves R$ 101.175. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "144",
+     "andar": 18,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79.73,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 662500,
+     "entrada": 132500.04,
+     "chaves": 101400,
+     "fluxo": {
+      "entrada": 132500.04,
+      "entradaQtd": 6,
+      "chaves": 101400,
+      "anualQtd": 8,
+      "anualVal": 12500,
+      "parcQtd": 80,
+      "parcVal": 4107.5
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 22.083,34; 80 mensais; 8 anuais; chaves R$ 101.400. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "146",
+     "andar": 18,
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 111.53,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 970311,
+     "entrada": 194062.02,
+     "chaves": 164975,
+     "fluxo": {
+      "entrada": 194062.02,
+      "entradaQtd": 6,
+      "chaves": 164975,
+      "anualQtd": 8,
+      "anualVal": 16250,
+      "parcQtd": 80,
+      "parcVal": 6015.92
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 32.343,67; 80 mensais; 8 anuais; chaves R$ 164.975. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "151",
+     "andar": 19,
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 99.34,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 814588,
+     "entrada": 162917.64,
+     "chaves": 122188.2,
+     "fluxo": {
+      "entrada": 162917.64,
+      "entradaQtd": 6,
+      "chaves": 122188.2,
+      "anualQtd": 8,
+      "anualVal": 15680,
+      "parcQtd": 80,
+      "parcVal": 5050.44
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 27.152,94; 80 mensais; 8 anuais; chaves R$ 122.188,2. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "153",
+     "andar": 19,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 80.31,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 670588,
+     "entrada": 134117.64,
+     "chaves": 104446.95,
+     "fluxo": {
+      "entrada": 134117.64,
+      "entradaQtd": 6,
+      "chaves": 104446.95,
+      "anualQtd": 8,
+      "anualVal": 12500,
+      "parcQtd": 80,
+      "parcVal": 4157.65
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 22.352,94; 80 mensais; 8 anuais; chaves R$ 104.446,95. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "164",
+     "andar": 20,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79.73,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 665745,
+     "entrada": 133149,
+     "chaves": 102385.8,
+     "fluxo": {
+      "entrada": 133149,
+      "entradaQtd": 6,
+      "chaves": 102385.8,
+      "anualQtd": 8,
+      "anualVal": 12500,
+      "parcQtd": 80,
+      "parcVal": 4127.62
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 22.191,50; 80 mensais; 8 anuais; chaves R$ 102.385,8. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "165",
+     "andar": 20,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79.73,
+     "vagas": "2 (garagem coletiva)",
+     "valor": 664150,
+     "entrada": 132828,
+     "chaves": 101907.6,
+     "fluxo": {
+      "entrada": 132828,
+      "entradaQtd": 6,
+      "chaves": 101907.6,
+      "anualQtd": 8,
+      "anualVal": 12500,
+      "parcQtd": 80,
+      "parcVal": 4117.68
+     },
+     "status": "disponivel",
+     "obs": "Entrada em 6x de R$ 22.138,00; 80 mensais; 8 anuais; chaves R$ 101.907,6. Parcelas corrigidas pela poupança + 0,5. Desconto de 15% à vista ou 10% com 50% de entrada e saldo em até 24x. Garagem coletiva.",
+     "fonte": "Proprietário Marcelus (tabela atualizada em 29/08/2026)",
+     "contato": "Marcelus (13) 97420-8586",
+     "tabela": "29/08/2026",
+     "vistaMar": true
+    }
+   ]
+  }
+ ]
+}

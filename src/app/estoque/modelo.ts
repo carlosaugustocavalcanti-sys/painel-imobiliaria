@@ -1,7 +1,7 @@
 /** Formato de public/dados/estoque.json, gerado por scripts/unificar.mjs. Campos vazios vêm omitidos. */
 
 /** Os três painéis antigos, a pasta Lançamentos do OneDrive (lesan) a tabela do Isildo e a pasta Frente Mar do Drive. */
-export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan' | 'isildo' | 'frente-mar' | 'lanc-drive';
+export type Origem = 'usados' | 'lancamentos' | 'vista-mar' | 'lesan' | 'isildo' | 'frente-mar' | 'lanc-drive' | 'drive-mes';
 export type Mercado = 'revenda' | 'construtora';
 export type Fase = 'pronto' | 'obra' | 'lancamento';
 export type Status = 'disponivel' | 'reservado' | 'vendido' | 'suspenso';

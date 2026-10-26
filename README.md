@@ -24,6 +24,7 @@ npm run build      # versão de produção em dist/
 | `dados/origem/isildo.json` | Tabela do Isildo e do Guilherme de 20/10/2026 (19 prédios, 38 unidades), lida do PDF por `scripts/ler-tabela-isildo.mjs` (`node scripts/ler-tabela-isildo.mjs [pdf]`, padrão `~/Downloads/Tabela Isildo.pdf`) |
 | `dados/origem/frente-mar.json` | Apartamentos "frente mar" ou na Av. Pres. Castelo Branco das tabelas em PDF da pasta "5. FRENTE MAR" do Google Drive (50 prédios, 58 unidades), gerado por `scripts/ler-pasta-frente-mar.mjs` (os valores estão transcritos no próprio script, porque o texto veio pelo conector do Drive) |
 | `dados/origem/lancamentos-drive.json` | Prédios da pasta "7. LANÇAMENTOS" do Google Drive (2027, 2028, 2029 e Entregues) que ainda não estavam no painel (46 prédios, 1.856 unidades), lidos dos PDFs pelo conector do Drive. Entra depois do Isildo na prioridade, com origem `lanc-drive` |
+| `dados/origem/drive-mes.json` | Prédios das tabelas da pasta do mês ("Outubro - Tabelas") do Drive que faltavam ou estavam incompletos, com origem `drive-mes`; gerado por `scripts/ler-drive-mes.mjs` (valores transcritos dos PDFs). Hoje: Res. Turim (7 unidades) |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
