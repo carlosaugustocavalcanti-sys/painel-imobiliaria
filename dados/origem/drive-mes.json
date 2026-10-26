@@ -220,6 +220,401 @@
      "vistaMar": true
     }
    ]
+  },
+  {
+   "id": "monaco-canto-do-forte",
+   "nome": "Mônaco",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Rua Tiradentes, 345 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Galcon Empreendimentos (proprietário)",
+     "contato": "(13) 3592-3093 · (13) 98172-7608",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/GALCON - Cobertura duplex 4 dorm (Forte) + Casa em Cond 2 dorm (Melvi).pdf"
+    }
+   ],
+   "notas": [
+    "Cobertura pronta, porteira fechada. Somente financiamento bancário ou à vista. A casa em condomínio da mesma tabela (Balneário Melvi, em construção) entra na etapa de casas."
+   ],
+   "unidades": [
+    {
+     "unidade": "162",
+     "tipologia": "Cobertura duplex 4 dorms (3 suítes)",
+     "dorm": 4,
+     "suites": 3,
+     "area": 166.26,
+     "vagas": "3 determinadas",
+     "valor": 2850000,
+     "status": "disponivel",
+     "obs": "Cobertura duplex, 166,26 m² + 5,1 m² de armário. Pronto, porteira fechada. Somente financiamento bancário ou à vista.",
+     "fonte": "Galcon Empreendimentos (proprietário)",
+     "contato": "(13) 3592-3093 · (13) 98172-7608",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "ed-las-vegas-ocian",
+   "nome": "Ed. Las Vegas",
+   "cidade": "Praia Grande",
+   "bairro": "Ocian",
+   "endereco": "Rua Mario de Andrade, 128 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Litoral Incorporadora",
+     "contato": "(13) 3471-4580",
+     "atualizadoEm": "13/10/2026",
+     "arquivo": "9. REVENDAS/LITORAL - Apto 3 dorm (Ocian).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "81",
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 114.1,
+     "vagas": "2",
+     "valor": 750000,
+     "cond": 1049.39,
+     "iptu": 754.51,
+     "status": "disponivel",
+     "obs": "Salão de festas, salão de jogos, piscinas, 2 elevadores, gás encanado. Aceita financiamento bancário. A tabela marca o apto 81 \"com proposta\" (confirmar disponibilidade).",
+     "fonte": "Litoral Incorporadora",
+     "contato": "(13) 3471-4580",
+     "tabela": "13/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-italia-canto-do-forte",
+   "nome": "Ed. Itália",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Mauricio José Cardoso, 574 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "lazer": [
+    "Piscina na cobertura",
+    "Salão de jogos",
+    "Academia",
+    "Brinquedoteca",
+    "Espaço gourmet",
+    "Sauna",
+    "Cinema"
+   ],
+   "tabelas": [
+    {
+     "fonte": "P&G Construtora (revenda)",
+     "contato": "Pereira (13) 99764-1519 · escritório (13) 3878-2700",
+     "atualizadoEm": "sem data (arquivo de 21/10/2026)",
+     "arquivo": "9. REVENDAS/P&G - Aptos 1 dorm (Forte).pdf"
+    }
+   ],
+   "notas": [
+    "A sala comercial 713 do Wave Offices (Santos) da mesma tabela entra na etapa de comerciais."
+   ],
+   "unidades": [
+    {
+     "unidade": "82",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 87.27,
+     "vagas": "2 (coletivas)",
+     "valor": 690000,
+     "cond": 954.03,
+     "iptu": 524.89,
+     "status": "disponivel",
+     "obs": "Sacada com churrasqueira. Aceita financiamento bancário. Chaves na Av. Paris, 245, Boqueirão.",
+     "fonte": "P&G Construtora (revenda)",
+     "contato": "Pereira (13) 99764-1519 · escritório (13) 3878-2700",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    },
+    {
+     "unidade": "84",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 59.37,
+     "vagas": "1 (coletiva)",
+     "valor": 450000,
+     "cond": 696.78,
+     "iptu": 346.41,
+     "status": "disponivel",
+     "obs": "Semimobiliado, com os planejados. Sacada com churrasqueira. Aceita financiamento bancário. Agendar visita.",
+     "fonte": "P&G Construtora (revenda)",
+     "contato": "Pereira (13) 99764-1519 · escritório (13) 3878-2700",
+     "tabela": "sem data (arquivo de 21/10/2026)"
+    }
+   ]
+  },
+  {
+   "id": "personnalite-aej",
+   "nome": "Personnalité",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua João Ramalho, nº 486 - Aviação - Praia Grande/SP",
+   "fase": "obra",
+   "tabelas": [
+    {
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "atualizadoEm": "13/10/2026",
+     "arquivo": "9. REVENDAS/AEJ - Aptos 2 dorm (Mirim-Mongaguá-SP).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "93",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 81.54,
+     "vagas": "2 livres",
+     "valor": 495000,
+     "cond": 582,
+     "status": "disponivel",
+     "obs": "Revenda. Varanda gourmet com churrasqueira. Somente à vista ou banco. Bonificação de R$ 10 mil ao corretor. Chaves no local da obra.",
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "tabela": "13/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "mr-seas-palace",
+   "nome": "Res. Mr. Seas Palace",
+   "cidade": "Praia Grande",
+   "bairro": "Mirim",
+   "endereco": "Rua 23 de Maio, 80 - Mirim - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Fev/2027",
+   "tabelas": [
+    {
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "atualizadoEm": "13/10/2026",
+     "arquivo": "9. REVENDAS/AEJ - Aptos 2 dorm (Mirim-Mongaguá-SP).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "104",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 57.72,
+     "vagas": "1 livre",
+     "valor": 395000,
+     "status": "disponivel",
+     "obs": "Revenda. Sacada gourmet com churrasqueira; 50 m da praia. Obra em alvenaria, entrega prevista para fev/2027. Somente à vista ou banco.",
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "tabela": "13/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-montreal-mongagua",
+   "nome": "Res. Montreal",
+   "cidade": "Mongaguá",
+   "bairro": "Centro",
+   "endereco": "Av. Gov. Mario Covas Jr., 6420 - Mongaguá/SP",
+   "fase": "pronto",
+   "lazer": [
+    "Prédio frente mar",
+    "Salão de festas",
+    "Salão de jogos",
+    "Terraço coberto",
+    "Brinquedoteca",
+    "Piscina adulto e infantil"
+   ],
+   "tabelas": [
+    {
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "atualizadoEm": "13/10/2026",
+     "arquivo": "9. REVENDAS/AEJ - Aptos 2 dorm (Mirim-Mongaguá-SP).pdf"
+    }
+   ],
+   "notas": [
+    "Prédio frente mar entregue em dez/2025, 144 apartamentos. Bônus de R$ 5 mil ao corretor. Aceita financiamento bancário."
+   ],
+   "unidades": [
+    {
+     "unidade": "35",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 68.21,
+     "vagas": "1 livre",
+     "valor": 389000,
+     "cond": 500,
+     "status": "disponivel",
+     "obs": "Varanda com vista mar. Chaves na portaria.",
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "tabela": "13/10/2026",
+     "vistaMar": true
+    },
+    {
+     "unidade": "44",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.55,
+     "vagas": "1 livre",
+     "valor": 389000,
+     "cond": 500,
+     "status": "disponivel",
+     "obs": "Varanda com vista mar. Chaves na portaria.",
+     "fonte": "AEJ (tabela de revenda de 13/10/2026)",
+     "contato": "Afonso Paiva (13) 99661-0903",
+     "tabela": "13/10/2026",
+     "vistaMar": true
+    }
+   ]
+  },
+  {
+   "id": "jocelino-viii",
+   "nome": "Jocelino VIII",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "R. Dr. Júlio de Mesquita Filho, 152 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "atualizadoEm": "09/10/2026",
+     "arquivo": "9. REVENDAS/J SANTOS - Aptos 1 e 2 dorm (Aviação) + Cobertura 4 dorm (Aviação).pdf"
+    }
+   ],
+   "notas": [
+    "Unidades de revenda da J Santos. Correção: poupança acumulativa + 0,5%. A comissão é dividida entre o corretor e a construtora."
+   ],
+   "unidades": [
+    {
+     "unidade": "53",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 80.03,
+     "vagas": "1 (coletiva)",
+     "valor": 550000,
+     "cond": 874.15,
+     "status": "disponivel",
+     "obs": "Sacada gourmet. Entrada e parcelas a combinar. Chaves na portaria.",
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "tabela": "09/10/2026"
+    },
+    {
+     "unidade": "66",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 80.03,
+     "vagas": "1 (coletiva)",
+     "valor": 550000,
+     "cond": 874.15,
+     "status": "disponivel",
+     "obs": "Sacada gourmet. Entrada e parcelas a combinar. Chaves na portaria.",
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "tabela": "09/10/2026"
+    },
+    {
+     "unidade": "161",
+     "tipologia": "Cobertura 4 dorms (2 suítes)",
+     "dorm": 4,
+     "suites": 2,
+     "area": 180.31,
+     "vagas": "3 demarcadas",
+     "valor": 1800000,
+     "cond": 1658.67,
+     "status": "disponivel",
+     "obs": "Cobertura com terraço gourmet e piscina. Entrada e parcelas a combinar. Chaves na portaria.",
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "tabela": "09/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "ed-itamaraca",
+   "nome": "Ed. Itamaracá",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Av. Castelo Branco, 4100 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "atualizadoEm": "09/10/2026",
+     "arquivo": "9. REVENDAS/J SANTOS - Aptos 1 e 2 dorm (Aviação) + Cobertura 4 dorm (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "34-A",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "area": 50,
+     "vagas": "1 (coletiva)",
+     "valor": 350000,
+     "cond": 620,
+     "iptu": 260,
+     "status": "disponivel",
+     "obs": "Somente à vista. Chaves na portaria (autorização no escritório da J Santos).",
+     "fonte": "J Santos Construtora (revenda de 09/10/2026)",
+     "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
+     "tabela": "09/10/2026"
+    }
+   ]
+  },
+  {
+   "id": "itarare-149",
+   "nome": "Rua Itararé, 149",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "R. Itararé, 149 - Vila Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Prédio sem nome na tabela da Graffit; identificado pelo endereço. A tabela traz também um aluguel (2 dorms, frente mar, Caiçara), fora do painel de venda."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Graffit (Cicero)",
+     "contato": "Cicero (13) 99156-9953",
+     "atualizadoEm": "sem data (arquivo de 23/10/2026)",
+     "arquivo": "9. REVENDAS/GRAFFIT - Apto 2 dorm (Caiçara) + Apto 3 dorm (Guilhermina).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "31",
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 156,
+     "vagas": "2",
+     "valor": 950000,
+     "cond": 1422.5,
+     "iptu": 626.3,
+     "status": "disponivel",
+     "obs": "Quarto de serviço com banheiro, sacadas na sala e nos 3 dormitórios, móveis planejados, 4 banheiros, porcelanato, portaria 24h, acesso cadeirante.",
+     "fonte": "Graffit (Cicero)",
+     "contato": "Cicero (13) 99156-9953",
+     "tabela": "sem data (arquivo de 23/10/2026)"
+    }
+   ]
   }
  ]
 }
