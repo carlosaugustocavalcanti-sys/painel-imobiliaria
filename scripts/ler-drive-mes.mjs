@@ -53,6 +53,8 @@ const M2 = { fonte: 'M² Imóveis (tabela de 23/10/2026)', contato: 'Gustavo (13
 const M2V = { ...M2, contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322' };
 const BL = { fonte: 'Bom Lugar Imóveis (tabela de 26/10/2026)', contato: 'Edmilson (13) 97405-1465', data: '26/10/2026' };
 const TW = { fonte: 'Tio William Imóveis (tabela atualizada em 10/09/2026)', contato: 'William e Thais (agendar chaves)', data: '10/09/2026' };
+const IMIG = { fonte: 'Imigrantes Imóveis (tabela atualizada em 24/10/2026)', contato: 'Tonon ou Erick (13) 99721-5859', data: '24/10/2026' };
+const IMOP = { fonte: 'Imoplanos (tabela de agosto/2026)', contato: 'João (13) 97405-0002 · (13) 97418-8080', data: 'agosto/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -826,6 +828,56 @@ const predios = [
     unidades: [
       rv(TW, { un: 'Kitnet', tipologia: 'Kitnet', dorm: 0, suites: 0, area: 27.83, vagas: '1 (coletiva)', valor: 220000, cond: 470, iptu: 126, vistaMar: true, obs: 'Vista mar, 33,36 m² totais. Aceita financiamento bancário. A tabela não informa o número da unidade.' }),
     ],
+  },
+  {
+    id: 'ed-blue-garden',
+    nome: 'Ed. Blue Garden',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Avenida Costa Machado, 400 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(IMIG, PREFIXO + 'Imigrantes Imóveis (investidor Tonon) - Kit + Aptos 2 dorm + Casas.pdf'),
+    unidades: [rv(IMIG, { un: '11', dorm: 3, suites: 2, area: 82, vagas: '1 (coletiva)', valor: 681000, cond: 1093.56, iptu: 361, fluxo: { entrada: 393000, parcQtd: 60, parcVal: 4375 }, obs: 'À vista R$ 681.000; a prazo/permuta R$ 708.000 (entrada R$ 393.000 + 60x de R$ 4.375, correção 1% a.m.). 400 m da praia, piscina, espaço fitness. Fundo de obra R$ 109,36. Financiamento bancário só com a correspondente deles.' })],
+  },
+  {
+    id: 'res-terrace',
+    nome: 'Res. Terrace',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Avenida Marechal Maurício José Cardoso, 891 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(IMOP, PREFIXO + 'Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf'),
+    unidades: [rv(IMOP, { un: '91', andar: 9, dorm: 2, suites: 1, area: 85, vagas: '2', valor: 800000, cond: 850, iptu: 435, obs: 'Varanda gourmet, mobiliado. À vista ou financiamento bancário.' })],
+  },
+  {
+    id: 'res-baia-branca',
+    nome: 'Res. Baía Branca',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua Rui Barbosa, 461 - Canto do Forte - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(IMOP, PREFIXO + 'Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf'),
+    unidades: [rv(IMOP, { un: '94', dorm: 2, suites: 1, area: 94, vagas: '1', valor: 550000, cond: 623.72, iptu: 355, obs: 'À vista R$ 550.000 ou R$ 560.000 com financiamento bancário. Sacada, cozinha planejada. Andar alto, 400 m do mar.' })],
+  },
+  {
+    id: 'res-cordoba',
+    nome: 'Res. Córdoba',
+    cidade: 'Praia Grande',
+    bairro: 'Boqueirão',
+    endereco: 'Rua Campinas, 564 - Boqueirão - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(IMOP, PREFIXO + 'Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf'),
+    unidades: [rv(IMOP, { un: '14', dorm: 2, suites: 0, area: 55, vagas: '1', valor: 335000, status: 'suspenso', cond: 557, iptu: 275, obs: 'Marcado como indisponível na tabela. Mobiliado.' })],
+  },
+  {
+    id: 'res-santa-maria',
+    nome: 'Res. Santa Maria',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Guaianazes, 292 - Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(IMOP, PREFIXO + 'Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf'),
+    unidades: [rv(IMOP, { un: '164', dorm: 3, suites: 3, area: 161.8, vagas: '2', valor: 1300000, cond: 1080.24, iptu: 680.86, vistaMar: true, obs: 'Vista livre e vista mar, mobiliado. À vista ou financiamento bancário. Preços abaixo da tabela a negociar.' })],
   },
 ];
 

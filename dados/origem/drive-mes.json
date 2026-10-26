@@ -2854,6 +2854,184 @@
      "vistaMar": true
     }
    ]
+  },
+  {
+   "id": "ed-blue-garden",
+   "nome": "Ed. Blue Garden",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Costa Machado, 400 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Imigrantes Imóveis (tabela atualizada em 24/10/2026)",
+     "contato": "Tonon ou Erick (13) 99721-5859",
+     "atualizadoEm": "24/10/2026",
+     "arquivo": "9. REVENDAS/Imigrantes Imóveis (investidor Tonon) - Kit + Aptos 2 dorm + Casas.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "11",
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 82,
+     "vagas": "1 (coletiva)",
+     "valor": 681000,
+     "cond": 1093.56,
+     "iptu": 361,
+     "status": "disponivel",
+     "obs": "À vista R$ 681.000; a prazo/permuta R$ 708.000 (entrada R$ 393.000 + 60x de R$ 4.375, correção 1% a.m.). 400 m da praia, piscina, espaço fitness. Fundo de obra R$ 109,36. Financiamento bancário só com a correspondente deles.",
+     "fonte": "Imigrantes Imóveis (tabela atualizada em 24/10/2026)",
+     "contato": "Tonon ou Erick (13) 99721-5859",
+     "tabela": "24/10/2026",
+     "entrada": 393000,
+     "fluxo": {
+      "entrada": 393000,
+      "parcQtd": 60,
+      "parcVal": 4375
+     }
+    }
+   ]
+  },
+  {
+   "id": "res-terrace",
+   "nome": "Res. Terrace",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Avenida Marechal Maurício José Cardoso, 891 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "atualizadoEm": "agosto/2026",
+     "arquivo": "9. REVENDAS/Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "91",
+     "andar": 9,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 85,
+     "vagas": "2",
+     "valor": 800000,
+     "cond": 850,
+     "iptu": 435,
+     "status": "disponivel",
+     "obs": "Varanda gourmet, mobiliado. À vista ou financiamento bancário.",
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "tabela": "agosto/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-baia-branca",
+   "nome": "Res. Baía Branca",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "endereco": "Rua Rui Barbosa, 461 - Canto do Forte - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "atualizadoEm": "agosto/2026",
+     "arquivo": "9. REVENDAS/Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "94",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 94,
+     "vagas": "1",
+     "valor": 550000,
+     "cond": 623.72,
+     "iptu": 355,
+     "status": "disponivel",
+     "obs": "À vista R$ 550.000 ou R$ 560.000 com financiamento bancário. Sacada, cozinha planejada. Andar alto, 400 m do mar.",
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "tabela": "agosto/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-cordoba",
+   "nome": "Res. Córdoba",
+   "cidade": "Praia Grande",
+   "bairro": "Boqueirão",
+   "endereco": "Rua Campinas, 564 - Boqueirão - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "atualizadoEm": "agosto/2026",
+     "arquivo": "9. REVENDAS/Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "14",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "suites": 0,
+     "area": 55,
+     "vagas": "1",
+     "valor": 335000,
+     "cond": 557,
+     "iptu": 275,
+     "status": "suspenso",
+     "obs": "Marcado como indisponível na tabela. Mobiliado.",
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "tabela": "agosto/2026"
+    }
+   ]
+  },
+  {
+   "id": "res-santa-maria",
+   "nome": "Res. Santa Maria",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Guaianazes, 292 - Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "atualizadoEm": "agosto/2026",
+     "arquivo": "9. REVENDAS/Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "164",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 161.8,
+     "vagas": "2",
+     "valor": 1300000,
+     "cond": 1080.24,
+     "iptu": 680.86,
+     "status": "disponivel",
+     "obs": "Vista livre e vista mar, mobiliado. À vista ou financiamento bancário. Preços abaixo da tabela a negociar.",
+     "fonte": "Imoplanos (tabela de agosto/2026)",
+     "contato": "João (13) 97405-0002 · (13) 97418-8080",
+     "tabela": "agosto/2026",
+     "vistaMar": true
+    }
+   ]
   }
  ]
 }
