@@ -55,6 +55,8 @@ const BL = { fonte: 'Bom Lugar Imóveis (tabela de 26/10/2026)', contato: 'Edmil
 const TW = { fonte: 'Tio William Imóveis (tabela atualizada em 10/09/2026)', contato: 'William e Thais (agendar chaves)', data: '10/09/2026' };
 const IMIG = { fonte: 'Imigrantes Imóveis (tabela atualizada em 24/10/2026)', contato: 'Tonon ou Erick (13) 99721-5859', data: '24/10/2026' };
 const IMOP = { fonte: 'Imoplanos (tabela de agosto/2026)', contato: 'João (13) 97405-0002 · (13) 97418-8080', data: 'agosto/2026' };
+const FAZIO = { fonte: 'Fazio Empreendimentos (tabela atualizada até 22/09/2026)', contato: 'Silvio (11) 99985-0421', data: '22/09/2026' };
+const LATORRACA = { fonte: 'La Torraca Imóveis (carteira exclusiva, atualização 15/09/2026)', contato: 'Thiago (13) 97411-4622', data: '15/09/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -878,6 +880,62 @@ const predios = [
     fase: 'pronto',
     tabelas: tab(IMOP, PREFIXO + 'Imoplanos - Aptos 2 dorm (Forte-Boqueirão) + Apto 3 dorm (Tupi) + Casas.pdf'),
     unidades: [rv(IMOP, { un: '164', dorm: 3, suites: 3, area: 161.8, vagas: '2', valor: 1300000, cond: 1080.24, iptu: 680.86, vistaMar: true, obs: 'Vista livre e vista mar, mobiliado. À vista ou financiamento bancário. Preços abaixo da tabela a negociar.' })],
+  },
+  {
+    id: 'res-infinity-caicara',
+    nome: 'Res. Infinity Caiçara',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Rua São Domingos, 669 - Vila Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(FAZIO, PREFIXO + 'Fazio (investidor) - Infinity Caiçara + Palazzo di Mare.pdf'),
+    unidades: [rv(FAZIO, { un: '141', dorm: 2, suites: 2, area: 89.05, vagas: '2', valor: 790000, cond: 729.81, iptu: 598.74, fluxo: { entrada: 390000, parcQtd: 80, parcVal: 5000 }, obs: 'Entrada R$ 390.000 + 80 mensais de R$ 5.000 (poupança + 0,5%). Mobiliário das áreas comuns rateado entre as unidades; taxa de água/esgoto R$ 80 no boleto.' })],
+  },
+  {
+    id: 'costa-atlantica-fazio',
+    nome: 'Costa Atlântica',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua Fritz Rogner, 56 - Vila Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(FAZIO, PREFIXO + 'Fazio (investidor) - Infinity Caiçara + Palazzo di Mare.pdf'),
+    unidades: [rv(FAZIO, { un: '168', dorm: 2, suites: 2, area: 88, vagas: '2', valor: 720000, cond: 443.88, iptu: 561.05, fluxo: { entrada: 320000, parcQtd: 80, parcVal: 5000 }, obs: 'Entrada R$ 320.000 + 80 mensais de R$ 5.000 (poupança + 0,5%). Mobiliário R$ 655 (21/30).' })],
+  },
+  {
+    id: 'palazzo-di-mare-fazio',
+    nome: 'Palazzo di Mare',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Av. Juscelino Kubitschek de Oliveira, 1301 - Vila Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(FAZIO, PREFIXO + 'Fazio (investidor) - Infinity Caiçara + Palazzo di Mare.pdf'),
+    notas: ['Tabela Fazio de 22/09/2026 (100 meses), entrega em dezembro de 2025. Mais recente que a tabela de 27/01/2026 já no painel.'],
+    unidades: [
+      rv(FAZIO, { un: '171', dorm: 2, suites: 2, area: 119.2, vagas: '1', valor: 1180000, cond: 471.74, fluxo: { entrada: 520000, anualQtd: 8, anualVal: 20000, parcQtd: 100, parcVal: 5000 }, obs: 'Entrada R$ 520.000 + 100 mensais de R$ 5.000 + 8 anuais de R$ 20.000 (poupança + 0,5%). Mobiliário R$ 1.000 (8/14).' }),
+      rv(FAZIO, { un: '173', dorm: 4, suites: 2, area: 182.97, vagas: '3', valor: 1980000, cond: 731.43, fluxo: { entrada: 800000, anualQtd: 8, anualVal: 35000, parcQtd: 100, parcVal: 9000 }, obs: 'Entrada R$ 800.000 + 100 mensais de R$ 9.000 + 8 anuais de R$ 35.000. Mobiliário R$ 1.000 (8/14).' }),
+      rv(FAZIO, { un: '174', dorm: 3, suites: 3, area: 145.19, vagas: '2', valor: 1780000, cond: 578.44, fluxo: { entrada: 700000, anualQtd: 8, anualVal: 35000, parcQtd: 100, parcVal: 8000 }, obs: 'Entrada R$ 700.000 + 100 mensais de R$ 8.000 + 8 anuais de R$ 35.000. Mobiliário R$ 1.000 (8/14).' }),
+    ],
+  },
+  {
+    id: 'ed-mirna',
+    nome: 'Ed. Mirna',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Leme, 140 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(LATORRACA, PREFIXO + 'La Torraca - Apto 1 dorm (Caiçara) + Cobertura 4 dorm (Tupi) + Casa 2 dorm (Tupi).pdf'),
+    unidades: [rv(LATORRACA, { un: '14', andar: 1, dorm: 1, suites: 0, area: 54.59, vagas: '1', valor: 269000, status: 'reservado', cond: 355, iptu: 284, obs: 'Reservado (imóvel em negociação). Zona 1, churrasqueira e salão de jogos. Chaves na Contemplar Imóveis (Av. Guilhermina, 702). Reserva só após aprovação do crédito.' })],
+  },
+  {
+    id: 'ed-jamil-issa',
+    nome: 'Rua Jamil Issa, 172',
+    cidade: 'Praia Grande',
+    bairro: 'Caiçara',
+    endereco: 'Rua Jamil Issa, 172 - Caiçara - Praia Grande/SP',
+    fase: 'pronto',
+    notas: ['Prédio sem nome na tabela; identificado pelo endereço.'],
+    tabelas: tab(LATORRACA, PREFIXO + 'La Torraca - Apto 1 dorm (Caiçara) + Cobertura 4 dorm (Tupi) + Casa 2 dorm (Tupi).pdf'),
+    unidades: [rv(LATORRACA, { un: '108', andar: 1, dorm: 1, suites: 0, area: 40, vagas: '1', valor: 250000, cond: 349, iptu: 190, obs: 'À vista; financiamento R$ 255 mil. Mobiliado, churrasqueira, 65 m² totais, pertinho da praia. Chaves na Impacto Imóveis (em frente à Feirinha do Caiçara).' })],
   },
 ];
 
