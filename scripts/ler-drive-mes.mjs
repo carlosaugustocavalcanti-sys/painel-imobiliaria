@@ -57,6 +57,7 @@ const IMIG = { fonte: 'Imigrantes Imóveis (tabela atualizada em 24/10/2026)', c
 const IMOP = { fonte: 'Imoplanos (tabela de agosto/2026)', contato: 'João (13) 97405-0002 · (13) 97418-8080', data: 'agosto/2026' };
 const FAZIO = { fonte: 'Fazio Empreendimentos (tabela atualizada até 22/09/2026)', contato: 'Silvio (11) 99985-0421', data: '22/09/2026' };
 const LATORRACA = { fonte: 'La Torraca Imóveis (carteira exclusiva, atualização 15/09/2026)', contato: 'Thiago (13) 97411-4622', data: '15/09/2026' };
+const MORAIS = { fonte: 'Morais Investimento (tabela de setembro/2026)', contato: 'Manccini (13) 97410-5109 · Morais (15) 98106-0706', data: 'setembro/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -937,7 +938,71 @@ const predios = [
     tabelas: tab(LATORRACA, PREFIXO + 'La Torraca - Apto 1 dorm (Caiçara) + Cobertura 4 dorm (Tupi) + Casa 2 dorm (Tupi).pdf'),
     unidades: [rv(LATORRACA, { un: '108', andar: 1, dorm: 1, suites: 0, area: 40, vagas: '1', valor: 250000, cond: 349, iptu: 190, obs: 'À vista; financiamento R$ 255 mil. Mobiliado, churrasqueira, 65 m² totais, pertinho da praia. Chaves na Impacto Imóveis (em frente à Feirinha do Caiçara).' })],
   },
+  {
+    id: 'ed-francisco-camargo-morais',
+    nome: 'Ed. Francisco Camargo',
+    cidade: 'Praia Grande',
+    bairro: 'Canto do Forte',
+    endereco: 'Rua General Osório, 57 - Canto do Forte - Praia Grande/SP',
+    fase: 'obra',
+    entrega: 'Jun/2026 (previsão da tabela)',
+    tabelas: tab(MORAIS, PREFIXO + 'Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf'),
+    unidades: [rv(MORAIS, { un: '122', dorm: 3, suites: 3, area: 105.96, vagas: '3', valor: 1197000, obs: 'Previsão de entrega jun/2026 (conferir). No dinheiro; aceita apartamento como parte do pagamento. Comissão 5%.' })],
+  },
+  {
+    id: 'legacy-residence-morais',
+    nome: 'Legacy Residence',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Dr. Júlio de Mesquita Filho, 110 - Aviação - Praia Grande/SP',
+    fase: 'obra',
+    entrega: 'Dez/2027',
+    tabelas: tab(MORAIS, PREFIXO + 'Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf'),
+    notas: ['Unidades do investidor Morais, mais baratas que as da construtora na tabela de 20/10/2026.'],
+    unidades: [
+      rv(MORAIS, { un: '82', dorm: 3, suites: 3, area: 137.83, vagas: '3', valor: 999000, obs: 'À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.' }),
+      rv(MORAIS, { un: '86', dorm: 3, suites: 3, area: 152.53, vagas: '3', valor: 1049000, obs: 'À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.' }),
+    ],
+  },
+  {
+    id: 'mr-seas-morais',
+    nome: 'Res. Mr. Seas Palace',
+    cidade: 'Praia Grande',
+    bairro: 'Mirim',
+    endereco: 'Rua 23 de Maio, 80 - Mirim - Praia Grande/SP',
+    fase: 'obra',
+    entrega: 'Mai/2027',
+    tabelas: tab(MORAIS, PREFIXO + 'Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf'),
+    notas: ['A tabela AEJ de 13/10/2026 dá entrega fev/2027; a do Morais, maio/2027.'],
+    unidades: [
+      rv(MORAIS, { un: '61', dorm: 2, suites: 1, area: 79, vagas: '2', valor: 477000, obs: 'À vista; estuda imóvel de menor valor e automóvel. Entrega maio/2027.' }),
+      rv(MORAIS, { un: '31', dorm: 2, suites: 1, area: 79, vagas: '2', valor: 457000, obs: 'De R$ 467.000 por R$ 457.000, à vista; estuda imóvel de menor valor e automóvel. Entrega maio/2027.' }),
+    ],
+  },
+  {
+    id: 'maresias-beach-guilhermina',
+    nome: 'Maresias Beach',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua João Sampaio, 532 - Guilhermina - Praia Grande/SP',
+    fase: 'obra',
+    entrega: 'Dez/2027',
+    tabelas: tab(MORAIS, PREFIXO + 'Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf'),
+    unidades: ['42:779000', '142:809000', '141:839000'].map((x) => { const [un, valor] = x.split(':'); return rv(MORAIS, { un, dorm: 3, suites: 1, area: 104.42, vagas: '3 privativas', valor: Number(valor), obs: 'À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.' }); }),
+  },
 ];
 
-writeFileSync('dados/origem/drive-mes.json', JSON.stringify({ arquivo: 'Google Drive/Outubro - Tabelas', lidoEm: '2026-10-26', sobre: 'Prédios das tabelas da pasta do mês que ainda não estavam no painel ou estavam incompletos.', predios }, null, 1) + '\n');
-console.log(predios.length, 'prédios,', predios.reduce((n, p) => n + p.unidades.length, 0), 'unidades');
+// Mesmo prédio citado por mais de um corretor: um só registro, com todas as tabelas e unidades.
+const porPredio = new Map();
+for (const p of predios) {
+  const k = `${p.nome}|${p.bairro}`;
+  const ja = porPredio.get(k);
+  if (!ja) { porPredio.set(k, { ...p, tabelas: [...p.tabelas], unidades: [...p.unidades], notas: [...(p.notas ?? [])] }); continue; }
+  ja.tabelas.push(...p.tabelas.filter((t) => !ja.tabelas.some((u) => u.fonte === t.fonte && u.arquivo === t.arquivo)));
+  ja.unidades.push(...p.unidades);
+  ja.notas.push(...(p.notas ?? []));
+  if (!ja.entrega && p.entrega) ja.entrega = p.entrega;
+}
+const unicos = [...porPredio.values()];
+writeFileSync('dados/origem/drive-mes.json', JSON.stringify({ arquivo: 'Google Drive/Outubro - Tabelas', lidoEm: '2026-10-26', sobre: 'Prédios das tabelas da pasta do mês que ainda não estavam no painel ou estavam incompletos.', predios: unicos }, null, 1) + '\n');
+console.log(unicos.length, 'prédios,', unicos.reduce((n, p) => n + p.unidades.length, 0), 'unidades');

@@ -288,7 +288,8 @@
      "contato": "(13) 3471-4580",
      "tabela": "13/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-italia-canto-do-forte",
@@ -383,7 +384,8 @@
      "contato": "Afonso Paiva (13) 99661-0903",
      "tabela": "13/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "mr-seas-palace",
@@ -399,6 +401,12 @@
      "contato": "Afonso Paiva (13) 99661-0903",
      "atualizadoEm": "13/10/2026",
      "arquivo": "9. REVENDAS/AEJ - Aptos 2 dorm (Mirim-Mongaguá-SP).pdf"
+    },
+    {
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf"
     }
    ],
    "unidades": [
@@ -415,7 +423,38 @@
      "fonte": "AEJ (tabela de revenda de 13/10/2026)",
      "contato": "Afonso Paiva (13) 99661-0903",
      "tabela": "13/10/2026"
+    },
+    {
+     "unidade": "61",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79,
+     "vagas": "2",
+     "valor": 477000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega maio/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    },
+    {
+     "unidade": "31",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 79,
+     "vagas": "2",
+     "valor": 457000,
+     "status": "disponivel",
+     "obs": "De R$ 467.000 por R$ 457.000, à vista; estuda imóvel de menor valor e automóvel. Entrega maio/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
     }
+   ],
+   "notas": [
+    "A tabela AEJ de 13/10/2026 dá entrega fev/2027; a do Morais, maio/2027."
    ]
   },
   {
@@ -577,7 +616,8 @@
      "contato": "(13) 3494-3976 · WhatsApp (13) 99753-4833",
      "tabela": "09/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "itarare-149",
@@ -717,7 +757,8 @@
      "tabela": "Portal de revendas (out/2026)",
      "conf": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-jc-dos-santos",
@@ -759,7 +800,8 @@
       "parcVal": 8140
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-vaz-300",
@@ -799,7 +841,8 @@
       "parcVal": 9166.67
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-eduardo-alciati",
@@ -833,7 +876,8 @@
      "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
      "tabela": "sem data (arquivo de 21/10/2026)"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-lusa-telles",
@@ -867,7 +911,8 @@
      "contato": "Leandro (13) 99612-7171 · escritório (13) 3474-1919",
      "tabela": "sem data (arquivo de 21/10/2026)"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-eduardo-macedo",
@@ -916,7 +961,8 @@
      "contato": "(13) 97414-3059 · (13) 99677-3493",
      "tabela": "sem data (arquivo de 21/10/2026)"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-ravena",
@@ -950,7 +996,8 @@
      "contato": "(13) 97414-3059 · (13) 99677-3493",
      "tabela": "sem data (arquivo de 21/10/2026)"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "fontana-di-trevi",
@@ -985,7 +1032,8 @@
      "tabela": "21/07/2026",
      "conf": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "praia-pacce",
@@ -1020,7 +1068,8 @@
      "tabela": "21/07/2026",
      "conf": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-seixeiro-e-saraiva",
@@ -1151,7 +1200,8 @@
       "parcVal": 7500
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-caratinga",
@@ -1193,7 +1243,8 @@
       "parcVal": 3416.67
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-gabriel",
@@ -1234,7 +1285,8 @@
       "parcVal": 9822.62
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-fortvillage",
@@ -1298,7 +1350,8 @@
       "parcVal": 7000
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-roviaki",
@@ -1339,7 +1392,8 @@
       "parcVal": 4105.36
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-nieto",
@@ -1380,7 +1434,8 @@
       "parcVal": 6678.57
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-hortencia",
@@ -1422,7 +1477,8 @@
       "parcVal": 32083.33
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "atlantic-house",
@@ -1567,7 +1623,8 @@
      "contato": "Gustavo (13) 99682-6115",
      "tabela": "09/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-pietra",
@@ -1614,7 +1671,8 @@
      "tabela": "sem data (arquivo de 23/10/2026)",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-triumph",
@@ -1685,7 +1743,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-veneza-ocian",
@@ -1719,7 +1778,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-antonio-room-ocian",
@@ -1754,7 +1814,8 @@
      "tabela": "10/10/2026",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-medeiros",
@@ -1788,7 +1849,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-essence",
@@ -1828,7 +1890,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ocean-park-56a",
@@ -1861,7 +1924,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-maria-rosa",
@@ -1895,7 +1959,8 @@
      "contato": "(13) 99643-4540",
      "tabela": "10/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-areal",
@@ -1967,7 +2032,8 @@
      "contato": "(13) 99721-2868 · (13) 97407-2868",
      "tabela": "12/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-alfa",
@@ -2002,7 +2068,8 @@
      "contato": "(13) 99721-2868 · (13) 97407-2868",
      "tabela": "12/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-gramado-xiii",
@@ -2036,7 +2103,8 @@
      "contato": "(13) 99721-2868 · (13) 97407-2868",
      "tabela": "12/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "paradise-revenda-26",
@@ -2068,7 +2136,8 @@
      "contato": "(13) 99721-2868 · (13) 97407-2868",
      "tabela": "12/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "napoli-revenda",
@@ -2131,7 +2200,8 @@
      "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
      "tabela": "23/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "funchal-revenda",
@@ -2181,7 +2251,8 @@
      "tabela": "12/09/2026",
      "conf": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "royale-revenda",
@@ -2215,7 +2286,8 @@
      "contato": "Guga Menezes (13) 97404-6043",
      "tabela": "19/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-safira-boqueirao",
@@ -2249,7 +2321,8 @@
      "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
      "tabela": "23/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-rosales",
@@ -2284,7 +2357,8 @@
      "tabela": "23/10/2026",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "primicia-plaza-m2",
@@ -2330,7 +2404,8 @@
      "contato": "Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322",
      "tabela": "23/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-vermont",
@@ -2398,7 +2473,8 @@
       "parcVal": 3421
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-lorena",
@@ -2433,7 +2509,8 @@
      "tabela": "23/10/2026",
      "conf": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-francisco-camargo-m2",
@@ -2448,6 +2525,12 @@
      "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
      "atualizadoEm": "23/10/2026",
      "arquivo": "9. REVENDAS/METRO QUADRADO - Aptos 1 dorm (Aviação-Ocian) + Aptos 2 dorm (Aviação).pdf"
+    },
+    {
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf"
     }
    ],
    "unidades": [
@@ -2464,8 +2547,24 @@
      "fonte": "M² Imóveis (tabela de 23/10/2026)",
      "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
      "tabela": "23/10/2026"
+    },
+    {
+     "unidade": "122",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 105.96,
+     "vagas": "3",
+     "valor": 1197000,
+     "status": "disponivel",
+     "obs": "Previsão de entrega jun/2026 (conferir). No dinheiro; aceita apartamento como parte do pagamento. Comissão 5%.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
     }
-   ]
+   ],
+   "notas": [],
+   "entrega": "Jun/2026 (previsão da tabela)"
   },
   {
    "id": "res-copacabana-beach-m2",
@@ -2497,7 +2596,8 @@
      "contato": "Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322",
      "tabela": "23/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-vasco-da-gama",
@@ -2532,7 +2632,8 @@
      "tabela": "26/10/2026",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-praia-grande-marcondes",
@@ -2582,7 +2683,8 @@
      "contato": "Edmilson (13) 97405-1465",
      "tabela": "26/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-barra-da-tijuca-bl",
@@ -2616,7 +2718,8 @@
      "contato": "Edmilson (13) 97405-1465",
      "tabela": "26/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-monte-castelo-i",
@@ -2650,7 +2753,8 @@
      "contato": "Edmilson (13) 97405-1465",
      "tabela": "26/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-henrique-magno-i",
@@ -2716,7 +2820,8 @@
      "contato": "Edmilson (13) 97405-1465",
      "tabela": "26/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-saint-louis",
@@ -2750,7 +2855,8 @@
      "contato": "Edmilson (13) 97405-1465",
      "tabela": "26/10/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-brisamar",
@@ -2784,7 +2890,8 @@
      "contato": "William e Thais (agendar chaves)",
      "tabela": "10/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-aruba-e-cancun",
@@ -2818,7 +2925,8 @@
      "contato": "William e Thais (agendar chaves)",
      "tabela": "10/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-blue-star",
@@ -2853,7 +2961,8 @@
      "tabela": "10/09/2026",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-blue-garden",
@@ -2893,7 +3002,8 @@
       "parcVal": 4375
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-terrace",
@@ -2928,7 +3038,8 @@
      "contato": "João (13) 97405-0002 · (13) 97418-8080",
      "tabela": "agosto/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-baia-branca",
@@ -2962,7 +3073,8 @@
      "contato": "João (13) 97405-0002 · (13) 97418-8080",
      "tabela": "agosto/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-cordoba",
@@ -2996,7 +3108,8 @@
      "contato": "João (13) 97405-0002 · (13) 97418-8080",
      "tabela": "agosto/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-santa-maria",
@@ -3031,7 +3144,8 @@
      "tabela": "agosto/2026",
      "vistaMar": true
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "res-infinity-caicara",
@@ -3071,7 +3185,8 @@
       "parcVal": 5000
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "costa-atlantica-fazio",
@@ -3111,7 +3226,8 @@
       "parcVal": 5000
      }
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "palazzo-di-mare-fazio",
@@ -3236,7 +3352,8 @@
      "contato": "Thiago (13) 97411-4622",
      "tabela": "15/09/2026"
     }
-   ]
+   ],
+   "notas": []
   },
   {
    "id": "ed-jamil-issa",
@@ -3275,6 +3392,118 @@
      "tabela": "15/09/2026"
     }
    ]
+  },
+  {
+   "id": "legacy-residence-morais",
+   "nome": "Legacy Residence",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua Dr. Júlio de Mesquita Filho, 110 - Aviação - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Dez/2027",
+   "tabelas": [
+    {
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf"
+    }
+   ],
+   "notas": [
+    "Unidades do investidor Morais, mais baratas que as da construtora na tabela de 20/10/2026."
+   ],
+   "unidades": [
+    {
+     "unidade": "82",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 137.83,
+     "vagas": "3",
+     "valor": 999000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    },
+    {
+     "unidade": "86",
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 152.53,
+     "vagas": "3",
+     "valor": 1049000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    }
+   ]
+  },
+  {
+   "id": "maresias-beach-guilhermina",
+   "nome": "Maresias Beach",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua João Sampaio, 532 - Guilhermina - Praia Grande/SP",
+   "fase": "obra",
+   "entrega": "Dez/2027",
+   "tabelas": [
+    {
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "atualizadoEm": "setembro/2026",
+     "arquivo": "9. REVENDAS/Morais (investidor) - Aptos 2 dorm (Mirim) + Aptos 3 dorm (Forte-Guilhermina-Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "42",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 104.42,
+     "vagas": "3 privativas",
+     "valor": 779000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    },
+    {
+     "unidade": "142",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 104.42,
+     "vagas": "3 privativas",
+     "valor": 809000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    },
+    {
+     "unidade": "141",
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 104.42,
+     "vagas": "3 privativas",
+     "valor": 839000,
+     "status": "disponivel",
+     "obs": "À vista; estuda imóvel de menor valor e automóvel. Entrega dez/2027.",
+     "fonte": "Morais Investimento (tabela de setembro/2026)",
+     "contato": "Manccini (13) 97410-5109 · Morais (15) 98106-0706",
+     "tabela": "setembro/2026"
+    }
+   ],
+   "notas": []
   }
  ]
 }
