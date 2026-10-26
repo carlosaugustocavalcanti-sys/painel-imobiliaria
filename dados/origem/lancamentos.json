@@ -20477,28 +20477,6 @@
      "renda": 18900
     },
     {
-     "unidade": "25",
-     "andar": 2,
-     "final": 5,
-     "tipologia": "2 dorm",
-     "area": 77.88,
-     "valor": 539900,
-     "entrada": 35000,
-     "financ": 478500,
-     "status": "disponivel",
-     "obs": "1 coletiva · garden; saldo financiado corrigido por INCC-DI",
-     "fluxo": {
-      "entrada": 35000,
-      "chaves": null,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 3,
-      "parcVal": 8800
-     },
-     "parcela": 5664.6,
-     "renda": 18900
-    },
-    {
      "unidade": "26",
      "andar": 2,
      "final": 6,
@@ -20566,7 +20544,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "16/09/2026",
+   "atualizadoEm": "13/10/2026",
    "modalidade": "bancario",
    "entrega": "Entregue",
    "endereco": "Rua Vinte e Três de Maio, nº 376 - Vila Mirim, Praia Grande/SP",
@@ -20875,8 +20853,19 @@
      "final": 4,
      "tipologia": "2 dorm",
      "area": 77.88,
-     "status": "reservado",
-     "obs": "1 coletiva · reservado (sem valores na tabela)"
+     "status": "disponivel",
+     "obs": "1 coletiva · saldo financiado corrigido por INCC-DI",
+     "valor": 524600,
+     "entrada": 35000,
+     "financ": 465600,
+     "fluxo": {
+      "entrada": 35000,
+      "chaves": null,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 3,
+      "parcVal": 8000
+     }
     },
     {
      "unidade": "75",
@@ -20946,7 +20935,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "16/09/2026",
+   "atualizadoEm": "13/10/2026",
    "modalidade": "bancario",
    "entrega": "Entregue",
    "endereco": "Rua Vinte e Três de Maio, nº 376 - Vila Mirim, Praia Grande/SP",
@@ -22499,16 +22488,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
      "valor": 740237.27,
-     "entrada": 222071.18,
+     "entrada": 370118.63,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 222071.18,
-      "chaves": 133242.71,
-      "anualQtd": 7,
-      "anualVal": 13324.27,
-      "parcQtd": 84,
-      "parcVal": 3472.07
+      "entrada": 370118.63,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14804.75,
+      "parcQtd": 60,
+      "parcVal": 4934.92
      }
     },
     {
@@ -22518,16 +22507,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
      "valor": 809407.45,
-     "entrada": 242822.24,
+     "entrada": 404703.73,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 242822.24,
-      "chaves": 145693.34,
-      "anualQtd": 7,
-      "anualVal": 14569.33,
-      "parcQtd": 84,
-      "parcVal": 3796.51
+      "entrada": 404703.73,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 16188.15,
+      "parcQtd": 60,
+      "parcVal": 5396.05
      }
     },
     {
@@ -22537,16 +22526,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
      "valor": 821548.57,
-     "entrada": 246464.57,
+     "entrada": 410774.28,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 246464.57,
-      "chaves": 147878.74,
-      "anualQtd": 7,
-      "anualVal": 14787.87,
-      "parcQtd": 84,
-      "parcVal": 3853.45
+      "entrada": 410774.28,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 16430.97,
+      "parcQtd": 60,
+      "parcVal": 5476.99
      }
     },
     {
@@ -22556,16 +22545,16 @@
      "tipologia": "2 suítes",
      "area": 101.29,
      "valor": 967549.63,
-     "entrada": 290264.89,
+     "entrada": 483774.81,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 290264.89,
-      "chaves": 174158.93,
-      "anualQtd": 7,
-      "anualVal": 17415.89,
-      "parcQtd": 84,
-      "parcVal": 4538.27
+      "entrada": 483774.81,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 19350.99,
+      "parcQtd": 60,
+      "parcVal": 6450.33
      }
     },
     {
@@ -22575,16 +22564,16 @@
      "tipologia": "2 suítes",
      "area": 101.29,
      "valor": 1042325.74,
-     "entrada": 312697.72,
+     "entrada": 521162.87,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 312697.72,
-      "chaves": 187618.63,
-      "anualQtd": 7,
-      "anualVal": 18761.86,
-      "parcQtd": 84,
-      "parcVal": 4889
+      "entrada": 521162.87,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 20846.51,
+      "parcQtd": 60,
+      "parcVal": 6948.84
      }
     },
     {
@@ -22594,16 +22583,16 @@
      "tipologia": "2 suítes",
      "area": 101.29,
      "valor": 1057960.62,
-     "entrada": 317388.19,
+     "entrada": 528980.31,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 317388.19,
-      "chaves": 190432.91,
-      "anualQtd": 7,
-      "anualVal": 19043.29,
-      "parcQtd": 84,
-      "parcVal": 4962.34
+      "entrada": 528980.31,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 21159.21,
+      "parcQtd": 60,
+      "parcVal": 7053.07
      }
     },
     {
@@ -22613,16 +22602,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.11,
      "valor": 738887.34,
-     "entrada": 221666.2,
+     "entrada": 369443.67,
      "status": "disponivel",
      "obs": "2 · Final 03",
      "fluxo": {
-      "entrada": 221666.2,
-      "chaves": 132999.72,
-      "anualQtd": 7,
-      "anualVal": 13299.97,
-      "parcQtd": 84,
-      "parcVal": 3465.73
+      "entrada": 369443.67,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14777.75,
+      "parcQtd": 60,
+      "parcVal": 4925.92
      }
     },
     {
@@ -22632,16 +22621,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.11,
      "valor": 772638.51,
-     "entrada": 231791.55,
+     "entrada": 386319.26,
      "status": "disponivel",
      "obs": "2 · Final 03",
      "fluxo": {
-      "entrada": 231791.55,
-      "chaves": 139074.93,
-      "anualQtd": 7,
-      "anualVal": 13907.49,
-      "parcQtd": 84,
-      "parcVal": 3624.04
+      "entrada": 386319.26,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15452.77,
+      "parcQtd": 60,
+      "parcVal": 5150.92
      }
     },
     {
@@ -22651,16 +22640,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 743409.63,
-     "entrada": 223022.89,
+     "entrada": 371704.82,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 223022.89,
-      "chaves": 133813.73,
-      "anualQtd": 7,
-      "anualVal": 13381.37,
-      "parcQtd": 84,
-      "parcVal": 3486.95
+      "entrada": 371704.82,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14868.19,
+      "parcQtd": 60,
+      "parcVal": 4956.06
      }
     },
     {
@@ -22670,16 +22659,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 754560.78,
-     "entrada": 226368.23,
+     "entrada": 377280.39,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 226368.23,
-      "chaves": 135820.94,
-      "anualQtd": 7,
-      "anualVal": 13582.09,
-      "parcQtd": 84,
-      "parcVal": 3539.25
+      "entrada": 377280.39,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15091.22,
+      "parcQtd": 60,
+      "parcVal": 5030.41
      }
     },
     {
@@ -22689,16 +22678,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 765879.19,
-     "entrada": 229763.76,
+     "entrada": 382939.59,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 229763.76,
-      "chaves": 137858.25,
-      "anualQtd": 7,
-      "anualVal": 13785.83,
-      "parcQtd": 84,
-      "parcVal": 3592.34
+      "entrada": 382939.59,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15317.58,
+      "parcQtd": 60,
+      "parcVal": 5105.86
      }
     },
     {
@@ -22708,16 +22697,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 777367.38,
-     "entrada": 233210.21,
+     "entrada": 388683.69,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 233210.21,
-      "chaves": 139926.13,
-      "anualQtd": 7,
-      "anualVal": 13992.61,
-      "parcQtd": 84,
-      "parcVal": 3646.22
+      "entrada": 388683.69,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15547.35,
+      "parcQtd": 60,
+      "parcVal": 5182.45
      }
     },
     {
@@ -22727,16 +22716,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 789027.89,
-     "entrada": 236708.37,
+     "entrada": 394513.94,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 236708.37,
-      "chaves": 142025.02,
-      "anualQtd": 7,
-      "anualVal": 14202.5,
-      "parcQtd": 84,
-      "parcVal": 3700.92
+      "entrada": 394513.94,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15780.56,
+      "parcQtd": 60,
+      "parcVal": 5260.19
      }
     },
     {
@@ -22746,16 +22735,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
      "valor": 800863.31,
-     "entrada": 240258.99,
+     "entrada": 400431.65,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 240258.99,
-      "chaves": 144155.39,
-      "anualQtd": 7,
-      "anualVal": 14415.54,
-      "parcQtd": 84,
-      "parcVal": 3756.43
+      "entrada": 400431.65,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 16017.27,
+      "parcQtd": 60,
+      "parcVal": 5339.09
      }
     },
     {
@@ -22765,16 +22754,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 718538.93,
-     "entrada": 215561.68,
+     "entrada": 359269.46,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 215561.68,
-      "chaves": 129337.01,
-      "anualQtd": 7,
-      "anualVal": 12933.7,
-      "parcQtd": 84,
-      "parcVal": 3370.29
+      "entrada": 359269.46,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14370.78,
+      "parcQtd": 60,
+      "parcVal": 4790.26
      }
     },
     {
@@ -22784,16 +22773,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 729317.01,
-     "entrada": 218795.1,
+     "entrada": 364658.51,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 218795.1,
-      "chaves": 131277.06,
-      "anualQtd": 7,
-      "anualVal": 13127.71,
-      "parcQtd": 84,
-      "parcVal": 3420.84
+      "entrada": 364658.51,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14586.34,
+      "parcQtd": 60,
+      "parcVal": 4862.11
      }
     },
     {
@@ -22803,16 +22792,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 740256.77,
-     "entrada": 222077.03,
+     "entrada": 370128.38,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 222077.03,
-      "chaves": 133246.22,
-      "anualQtd": 7,
-      "anualVal": 13324.62,
-      "parcQtd": 84,
-      "parcVal": 3472.16
+      "entrada": 370128.38,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 14805.14,
+      "parcQtd": 60,
+      "parcVal": 4935.05
      }
     },
     {
@@ -22822,16 +22811,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 751360.62,
-     "entrada": 225408.19,
+     "entrada": 375680.31,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 225408.19,
-      "chaves": 135244.91,
-      "anualQtd": 7,
-      "anualVal": 13524.49,
-      "parcQtd": 84,
-      "parcVal": 3524.24
+      "entrada": 375680.31,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15027.21,
+      "parcQtd": 60,
+      "parcVal": 5009.07
      }
     },
     {
@@ -22841,16 +22830,16 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 762631.03,
-     "entrada": 228789.31,
+     "entrada": 381315.51,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 228789.31,
-      "chaves": 137273.59,
-      "anualQtd": 7,
-      "anualVal": 13727.36,
-      "parcQtd": 84,
-      "parcVal": 3577.1
+      "entrada": 381315.51,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15252.62,
+      "parcQtd": 60,
+      "parcVal": 5084.21
      }
     },
     {
@@ -22860,22 +22849,22 @@
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
      "valor": 774070.49,
-     "entrada": 232221.15,
+     "entrada": 387035.25,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 232221.15,
-      "chaves": 139332.69,
-      "anualQtd": 7,
-      "anualVal": 13933.27,
-      "parcQtd": 84,
-      "parcVal": 3630.76
+      "entrada": 387035.25,
+      "chaves": 0,
+      "anualQtd": 5,
+      "anualVal": 15481.41,
+      "parcQtd": 60,
+      "parcVal": 5160.47
      }
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "Última atualização em 30/08/2026",
-   "modalidade": "direto",
+   "atualizadoEm": "Última atualização em 29/09/2026",
+   "modalidade": "Entrada + 60 mensais + 5 anuais (direto com a construtora; sem parcela de chaves)",
    "entrega": "2026",
    "endereco": "Rua Tiradentes (grafada \"Tirandentes\" no PDF), Canto do Forte, Praia Grande/SP (número não informado)",
    "contato": "WhatsApp (13) 99712-3431 / vendas@smaconstrutora.com.br",
