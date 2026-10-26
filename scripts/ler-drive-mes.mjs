@@ -43,6 +43,8 @@ const RE = { fonte: 'R.E. Empreendimentos (tabela de vendas)', contato: '', data
 const ARCO = { fonte: 'Construtora Arco-Íris Mar (revendas, atualizada 08/10/2026)', contato: 'Zelador Lucas (13) 99638-1869 (visitas); material para corretores credenciados', data: '08/10/2026' };
 const NASCIMAR = { fonte: 'Nascimar Construtora (tabela atualizada em 03/09/2026)', contato: '(13) 99797-1007 · (13) 3471-1897', data: '03/09/2026' };
 const SHOPHOUSE = { fonte: 'Shop House (tabela Últimas Unidades, outubro/2026)', contato: '', data: 'outubro/2026' };
+const SALES = { fonte: 'Sales Construtora (tabela de revendas atualizada em 09/10/2026)', contato: 'Gustavo (13) 99682-6115', data: '09/10/2026' };
+const CORALON = { fonte: 'Coralon (revenda)', contato: 'Claudio (13) 99639-2663', data: 'sem data (arquivo de 23/10/2026)' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -417,6 +419,38 @@ const predios = [
       rv(SHOPHOUSE, { un: '203', dorm: 2, suites: 0, area: 53.86, vagas: '', valor: 450000, cond: 892.53, iptu: 387.64, fluxo: { entrada: 250000, parcQtd: 100, parcVal: 2450 }, obs: 'À vista ou financiamento bancário R$ 450.000; a prazo R$ 495.000 (entrada R$ 250.000 + 100x de R$ 2.450).' }),
       rv(SHOPHOUSE, { un: '804', dorm: 1, suites: 0, area: 39.06, vagas: '', valor: 315000, cond: 676.03, iptu: 297.48, fluxo: { entrada: 105000, parcQtd: 80, parcVal: 3000 }, obs: 'À vista ou financiamento bancário R$ 315.000; a prazo R$ 345.000 (entrada R$ 105.000 + 80x de R$ 3.000).' }),
     ],
+  },
+  {
+    id: 'res-veraneio-aviacao',
+    nome: 'Res. Veraneio',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua Dr. Júlio de Mesquita, 277 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(SALES, PREFIXO + 'SALES - Aptos 2 dorm (Guilhermina) + Aptos 3 dorm (Aviação).pdf'),
+    notas: ['O apto 62 estava a R$ 780.000 na tabela Sales de 16/09/2026; a de 09/10/2026 baixou para R$ 735.000.'],
+    unidades: [rv(SALES, { un: '62', dorm: 3, suites: 3, area: 95, vagas: '2 coletivas', valor: 735000, cond: 975.4, iptu: 684, vistaMar: true, fluxo: { entrada: 367500, anualQtd: 4, anualVal: 18375, parcQtd: 60, parcVal: 4900 }, obs: 'Pronto para morar, vista para o mar, lazer completo. Entrada R$ 367.500 + 4 anuais de R$ 18.375 + 60x de R$ 4.900 (poupança + 0,5% a.m.). Aceita financiamento bancário e analisa veículo como parte do pagamento. Chaves na portaria.' })],
+  },
+  {
+    id: 'res-safira-guilhermina',
+    nome: 'Safira',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Guatemala, 189 - Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(SALES, PREFIXO + 'SALES - Aptos 2 dorm (Guilhermina) + Aptos 3 dorm (Aviação).pdf'),
+    unidades: [rv(SALES, { un: '53 (garden)', tipologia: 'Garden 2 dorms (1 suíte)', dorm: 2, suites: 1, area: 120, vagas: '2 coletivas', valor: 850000, cond: 721, iptu: 594.42, obs: 'Apartamento garden, lazer completo, 2 elevadores. Aceita financiamento bancário. Chaves na portaria.' })],
+  },
+  {
+    id: 'res-pietra',
+    nome: 'Residencial Pietra',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Tupinambás, 220 - Vila Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    lazer: ['Piscinas adulto e infantil', 'Academia e sauna', 'Espaço zen', 'Quadra poliesportiva', 'Salão de jogos e cinema', 'Salão de festas e espaço gourmet', 'Playground e brinquedoteca', 'Churrasqueiras', 'Armários de praia'],
+    tabelas: tab(CORALON, PREFIXO + 'CORALON - Apto 2 dorm (Tupi).pdf'),
+    unidades: [rv(CORALON, { un: '184', andar: 18, dorm: 2, suites: 2, area: 97, vagas: '2', valor: 1180000, cond: 765, iptu: 618, vistaMar: true, obs: 'Totalmente mobiliado e decorado, marcenaria planejada, automação via Alexa, ar-condicionado, som embutido, varanda gourmet com churrasqueira e cervejeira. Vista panorâmica, inclusive para o mar; cerca de 200 m da praia. Porteira fechada. À vista ou banco. Comissão de 6%. Visitas com aviso prévio e CRECI por WhatsApp.' })],
   },
 ];
 
