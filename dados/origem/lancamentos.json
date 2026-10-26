@@ -4322,7 +4322,7 @@
      "area": 91.22,
      "valor": 1003934.48,
      "entrada": 239940.34,
-     "status": "reservado",
+     "status": "vendido",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 239940.34,
@@ -4379,7 +4379,7 @@
      "area": 91.22,
      "valor": 1160327.63,
      "entrada": 277318.3,
-     "status": "vendido",
+     "status": "disponivel",
      "obs": "2 vagas",
      "fluxo": {
       "entrada": 277318.3,
@@ -4721,7 +4721,7 @@
      "area": 73.92,
      "valor": 675152.18,
      "entrada": 121527.39,
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 121527.39,
@@ -4873,7 +4873,7 @@
      "area": 73.92,
      "valor": 728554.2,
      "entrada": 131139.76,
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 131139.76,
@@ -4892,7 +4892,7 @@
      "area": 73.92,
      "valor": 743125.28,
      "entrada": 141193.8,
-     "status": "reservado",
+     "status": "vendido",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 141193.8,
@@ -4944,7 +4944,7 @@
     }
    ],
    "fonte": "Tabela Res. Porto Marina – atualizada em 22/09/2026 (Plascom Construtora)",
-   "atualizadoEm": "22/09/2026 (válida até 30/09/2026)",
+   "atualizadoEm": "05/10/2026 (válida até 31/10/2026)",
    "entrega": "Ago/2027",
    "endereco": "Av. Pres. Castelo Branco, 12.192 (esq. Av. Lincoln) – Vila Caiçara, Praia Grande",
    "contato": "Plantão de vendas (13) 3596-8587 · Gestor imobiliário (13) 99784-9019 · plascom@plascomconstrutora.com.br · @construtoraplacompg",
@@ -8089,7 +8089,7 @@
      "final": 2,
      "tipologia": "2 dorms, 1 suíte",
      "area": 67.72,
-     "valor": 622000,
+     "valor": 632500,
      "status": "disponivel",
      "obs": "1 · condomínio médio R$ 850,00"
     },
@@ -8099,7 +8099,7 @@
      "final": 1,
      "tipologia": "2 dorms, 1 suíte",
      "area": 68.13,
-     "valor": 632000,
+     "valor": 637600,
      "status": "disponivel",
      "obs": "1 · condomínio médio R$ 850,00"
     },
@@ -8109,7 +8109,7 @@
      "final": 3,
      "tipologia": "2 dorms",
      "area": 60.43,
-     "valor": 519000,
+     "valor": 539000,
      "status": "disponivel",
      "obs": "1 · condomínio médio R$ 850,00"
     },
@@ -8119,16 +8119,6 @@
      "final": 1,
      "tipologia": "2 dorms, 1 suíte",
      "area": 68.13,
-     "valor": 677000,
-     "status": "disponivel",
-     "obs": "1 · condomínio médio R$ 850,00"
-    },
-    {
-     "unidade": "122",
-     "andar": 12,
-     "final": 2,
-     "tipologia": "2 dorms, 1 suíte",
-     "area": 67.72,
      "valor": 679000,
      "status": "disponivel",
      "obs": "1 · condomínio médio R$ 850,00"
@@ -8139,13 +8129,13 @@
      "final": 3,
      "tipologia": "2 dorms",
      "area": 60.43,
-     "valor": 549000,
+     "valor": 554000,
      "status": "disponivel",
      "obs": "1 · condomínio médio R$ 850,00"
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "sem data",
+   "atualizadoEm": "Outubro/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "R. Tiradentes, 735 - Canto do Forte - Praia Grande/SP",
@@ -9782,7 +9772,7 @@
      "final": 2,
      "tipologia": "2 dormitórios",
      "area": 56.39,
-     "valor": 434000,
+     "valor": 459000,
      "status": "disponivel",
      "obs": "1 vaga · IPTU R$ 256,00; condomínio R$ 430,00"
     },
@@ -9792,7 +9782,7 @@
      "final": 2,
      "tipologia": "2 dormitórios",
      "area": 56.39,
-     "valor": 439000,
+     "valor": 467000,
      "status": "disponivel",
      "obs": "1 vaga · IPTU R$ 256,00; condomínio R$ 430,00"
     },
@@ -9802,13 +9792,13 @@
      "final": 7,
      "tipologia": "2 dormitórios",
      "area": 54.56,
-     "valor": 419000,
+     "valor": 445000,
      "status": "disponivel",
      "obs": "1 vaga · IPTU R$ 256,00; condomínio R$ 430,00"
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "(sem data)",
+   "atualizadoEm": "Outubro/2026",
    "modalidade": "ambos",
    "entrega": "Entregue",
    "endereco": "R. 23 de Maio, 488 - Vila Mirim - Praia Grande",
@@ -19631,7 +19621,7 @@
      "final": 5,
      "tipologia": "2 dormitórios",
      "area": 81.51,
-     "valor": 570900,
+     "valor": 639000,
      "status": "disponivel",
      "obs": "1 vaga · IPTU R$ 240,00; condomínio R$ 520,00"
     },
@@ -19641,7 +19631,7 @@
      "final": 4,
      "tipologia": "",
      "area": 60.89,
-     "valor": 443000,
+     "valor": 474000,
      "status": "disponivel",
      "obs": "1 vaga · Tabela diz finais 3&4 = 1 dorm; ver pendências"
     },
@@ -19651,7 +19641,7 @@
      "final": 3,
      "tipologia": "",
      "area": 60.89,
-     "valor": 454000,
+     "valor": 484000,
      "status": "disponivel",
      "obs": "1 vaga · Tabela diz finais 3&4 = 1 dorm; ver pendências"
     },
@@ -19661,13 +19651,13 @@
      "final": 4,
      "tipologia": "",
      "area": 60.89,
-     "valor": 454000,
+     "valor": 484000,
      "status": "disponivel",
      "obs": "1 vaga · Tabela diz finais 3&4 = 1 dorm; ver pendências"
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "(sem data)",
+   "atualizadoEm": "Outubro/2026",
    "modalidade": "ambos",
    "entrega": "Entregue",
    "endereco": "R. Guilherme de Almeida, 04 - Ocian - Praia Grande",

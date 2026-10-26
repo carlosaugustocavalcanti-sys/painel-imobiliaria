@@ -13,6 +13,7 @@ const LANC = ler('lancamentos');
 const PASTA = ler('pasta-lancamentos');
 const ISILDO = ler('isildo');
 const FRENTE = ler('frente-mar');
+const LANCD = ler('lancamentos-drive');
 const VISTA = ler('vista-mar');
 
 /* ---------- normalização ---------- */
@@ -281,7 +282,7 @@ for (const g of VISTA.G) {
 // Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
 const mapsPasta = (b) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(b.endereco || `${b.nome}, ${b.cidade}, SP`);
 // A tabela do Isildo (20/10/2026) tem o mesmo formato e entra pelo mesmo caminho, com origem 'isildo'.
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b])]) {
   predios.push({
     origem,
     origemId: b.id,
@@ -320,7 +321,7 @@ for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.
 }
 
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'frente-mar': 3, usados: 4, 'vista-mar': 5 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'lanc-drive': 2.5, 'frente-mar': 3, usados: 4, 'vista-mar': 5 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [
@@ -432,7 +433,7 @@ const saida = grupos.map(({ membros }) => {
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
 const estoque = {
-  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo, frenteMar: FRENTE.arquivo },
+  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo, frenteMar: FRENTE.arquivo, lancDrive: LANCD.arquivo },
   predios: saida,
 };
 // Campos vazios (null, '', false, []) são omitidos para o arquivo ficar menor; o app trata ausência como vazio.

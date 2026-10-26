@@ -119,6 +119,7 @@
             <option value="lesan" [selected]="fl.origem === 'lesan'">Pasta Lançamentos (OneDrive)</option>
             <option value="isildo" [selected]="fl.origem === 'isildo'">Tabela do Isildo</option>
             <option value="frente-mar" [selected]="fl.origem === 'frente-mar'">Pasta Frente Mar (Drive)</option>
+            <option value="lanc-drive" [selected]="fl.origem === 'lanc-drive'">Pasta Lançamentos (Drive)</option>
           </select></label>
         <label class="campo marca-campo">
           <input type="checkbox" [checked]="fl.todas" (change)="mudar({ todas: !fl.todas })" />
