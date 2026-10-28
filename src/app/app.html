@@ -160,6 +160,7 @@
             <option value="frente-mar" [selected]="fl.origem === 'frente-mar'">Pasta Frente Mar (Drive)</option>
             <option value="lanc-drive" [selected]="fl.origem === 'lanc-drive'">Pasta Lançamentos (Drive)</option>
             <option value="drive-mes" [selected]="fl.origem === 'drive-mes'">Tabelas do Drive (mês)</option>
+            <option value="site-lesan" [selected]="fl.origem === 'site-lesan'">Site da Lesan Imóveis</option>
           </select></label>
         <label class="campo marca-campo">
           <input type="checkbox" [checked]="fl.todas" (change)="mudar({ todas: !fl.todas })" />

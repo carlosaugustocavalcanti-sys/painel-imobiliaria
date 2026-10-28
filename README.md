@@ -25,12 +25,19 @@ npm run build      # versão de produção em dist/
 | `dados/origem/frente-mar.json` | Apartamentos "frente mar" ou na Av. Pres. Castelo Branco das tabelas em PDF da pasta "5. FRENTE MAR" do Google Drive (50 prédios, 58 unidades), gerado por `scripts/ler-pasta-frente-mar.mjs` (os valores estão transcritos no próprio script, porque o texto veio pelo conector do Drive) |
 | `dados/origem/lancamentos-drive.json` | Prédios da pasta "7. LANÇAMENTOS" do Google Drive (2027, 2028, 2029 e Entregues) que ainda não estavam no painel (46 prédios, 1.856 unidades), lidos dos PDFs pelo conector do Drive. Entra depois do Isildo na prioridade, com origem `lanc-drive` |
 | `dados/origem/drive-mes.json` | Prédios das tabelas da pasta do mês ("Outubro - Tabelas") do Drive que faltavam ou estavam incompletos, com origem `drive-mes`; gerado por `scripts/ler-drive-mes.mjs` (valores transcritos dos PDFs). Carga de 26/10/2026: pastas 4, 9, 10, 11, 12 e investidores, mais parte das casas e comerciais (105 prédios, 148 unidades). Unidades de casa/sobrado e comerciais levam `categoria` (o filtro "Imóvel" separa). Fora: locação, cidades fora da região e o que está em `pendentes` de `dados/sincronizacao.json` |
+| `dados/origem/site-lesan.json` | Imóveis à venda do site da Lesan Imóveis (www.lesanimoveis.com.br, 240 anúncios), gerado por `scripts/ler-site-lesan.mjs`, origem `site-lesan`. Da listagem e da ficha vêm o valor, a área, os dormitórios, a suíte, as vagas, o condomínio, o IPTU, o elevador, o lazer, o corretor e a vista mar. Cada unidade tem o link "Ver anúncio". Locação não entra |
+| `dados/origem/lesan-praedium.json` | Endereço de cada anúncio pelo código, transcrito do cadastro interno da Praedium (app.praedium.com.br, lido com o login do Carlos em 28/10/2026), sem dados de proprietário. O site não mostra endereço nem nome do prédio, então rua, número, apto, andar, bloco e edifício saem daqui. Anúncios no mesmo endereço viram um prédio; sem nome de edifício, o prédio se chama pelo endereço. Para atualizar, releia a lista de imóveis ativos da Praedium |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
 ```bash
 npm run dados      # regera public/dados/estoque.json e valida
+node scripts/ler-site-lesan.mjs   # relê o site da Lesan (páginas ficam em dados/cache/, fora do git)
 ```
+
+O site da Lesan tem verificação anti-robô (AWS WAF): depois de umas 40 páginas seguidas, ele passa a responder "Human Verification". O leitor baixa uma página a cada 6 s e para no primeiro desafio, sem tentar contorná-lo. As fichas que faltarem ficam só com os dados da listagem (valor, área, dormitórios, bairro), com a observação "Ficha do anúncio não lida". Rodar de novo mais tarde completa só o que falta. Anúncio com valor absurdo (acima de R$ 100 milhões, erro de digitação no site) entra sem valor e marcado "Confirmar".
+
+Na unificação, um anúncio da Lesan entra no prédio que já está no painel com a mesma rua e o mesmo número (27 prédios, como Max 10, Porto Marina, Personnalité e Park Avenue). Ele não entra quando o cadastro da Lesan dá ao prédio outro nome: o "Long Beach" fica separado do Ed. Miami Beach (Av. Pres. Costa e Silva, 293), com aviso na ficha. Os anúncios 280 e 281 estão com o nº 12.912 no cadastro; o certo é 12.192, o do Porto Marina (`CORRIGIR_NUMERO` no leitor).
 
 Regras de unificação:
 

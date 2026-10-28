@@ -13,6 +13,7 @@ const ISILDO = ler('dados/origem/isildo.json');
 const FRENTE = ler('dados/origem/frente-mar.json');
 const LANCD = ler('dados/origem/lancamentos-drive.json');
 const DRIVEMES = ler('dados/origem/drive-mes.json');
+const SITELESAN = ler('dados/origem/site-lesan.json');
 const ESTOQUE = ler('public/dados/estoque.json');
 
 const erros = [];
@@ -153,7 +154,7 @@ for (const g of VISTA.G) {
 }
 
 /* ---------- pasta Lançamentos (OneDrive) e tabela do Isildo: mesmo formato ---------- */
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b])]) {
   const p = predioPorOrigem.get(`${origem}:${b.id}`);
   if (!p) {
     erro(`Prédio ${origem}:${b.id} sumiu`);
@@ -165,7 +166,10 @@ for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.
     const achado = porRef.get(ref);
     if (!achado) return erro(`${ref} sumiu`);
     // os campos da pasta têm o mesmo nome no estoque unificado
-    conferir(ref, { status: 'disponivel', ...x }, achado.r, Object.fromEntries(Object.keys({ status: 0, ...x }).map((k) => [k, k])));
+    const bruto = { status: 'disponivel', ...x };
+    // vista para o mar vale se qualquer tabela da mesma unidade informa (regra do unificador)
+    if (bruto.vistaMar === false && achado.r.vistaMar && (achado.principal.outras ?? []).some((o) => o.vistaMar)) delete bruto.vistaMar;
+    conferir(ref, bruto, achado.r, Object.fromEntries(Object.keys(bruto).map((k) => [k, k])));
     if (!achado.r.mercado || !achado.r.fase) erro(`${ref}: sem segmento/fase`);
   });
   for (const t of b.tabelas) {
@@ -196,6 +200,7 @@ const brutos = {
   isildo: ISILDO.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'lanc-drive': LANCD.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'drive-mes': DRIVEMES.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
+  'site-lesan': SITELESAN.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'frente-mar': FRENTE.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
 };
 for (const [origem, regs] of Object.entries(brutos)) {

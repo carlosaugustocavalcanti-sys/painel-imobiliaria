@@ -112,6 +112,7 @@
                   @if (u.vistaMar) { <span class="tag amarela">{{ u.vista || 'Vista mar' }}</span> }
                   @if (u.acesso) { <span class="tag">{{ u.acesso === 'elevador' ? 'Elevador' : 'Escada' }}</span> }
                   @if (u.fotos) { <a class="tag link-fotos" [href]="u.fotos" target="_blank" rel="noopener" title="Abre o álbum de fotos da unidade (Flickr)">Fotos da unidade</a> }
+                  @if (anuncioDe(u); as anuncio) { <a class="tag link-fotos" [href]="anuncio" target="_blank" rel="noopener" title="Abre o anúncio no site da Lesan Imóveis, com fotos e descrição">Ver anúncio</a> }
                   {{ u.obs }}
                   <small>Tabela: {{ u.fonte || '—' }}{{ u.tabela ? ' · ' + u.tabela : '' }}{{ u.contato ? ' · ' + u.contato : '' }}</small>
                   @if (u.outras?.length) {

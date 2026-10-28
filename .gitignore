@@ -49,3 +49,6 @@ Thumbs.db
 # Impeccable (mocks e capturas locais)
 .impeccable/mocks/
 .impeccable/review/
+
+# Páginas baixadas do site da Lesan (scripts/ler-site-lesan.mjs)
+/dados/cache/

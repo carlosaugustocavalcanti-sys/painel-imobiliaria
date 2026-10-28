@@ -16,6 +16,7 @@ const FRENTE = ler('frente-mar');
 const LANCD = ler('lancamentos-drive');
 const DRIVEMES = ler('drive-mes');
 const VISTA = ler('vista-mar');
+const SITELESAN = ler('site-lesan');
 
 /* ---------- normalização ---------- */
 export const chave = (s) =>
@@ -43,6 +44,10 @@ const BAIRRO_ALIAS = {
   'jardim real': 'Real',
   florida: 'Flórida',
   'balneario florida': 'Flórida',
+  aviacao: 'Aviação',
+  'campo da aviacao': 'Aviação',
+  'cidade ocian': 'Ocian',
+  'balneario maracana': 'Maracanã',
   imperador: 'Imperador',
   'jardim imperador': 'Imperador',
 };
@@ -63,6 +68,23 @@ function enderecoChave(end) {
   const rua = s.replace(/\b\d[\d ]*\b.*$/, '').trim();
   if (!rua) return null;
   return { rua, num };
+}
+/** Mesma rua e mesmo número, os dois informados. */
+function mesmoEndereco(a, b) {
+  const A = enderecoChave(a),
+    B = enderecoChave(b);
+  return !!(A?.num && B?.num && A.num === B.num && (A.rua.includes(B.rua) || B.rua.includes(A.rua)));
+}
+const semPrefixo = (n) => chave(n).replace(/^(ed|edificio|res|residencial|cond|condominio) /, '');
+/**
+ * Anúncio do site da Lesan no endereço de um prédio que já está no painel: entra nele. Não entra quando o cadastro
+ * da Lesan dá ao prédio um nome que não lembra o do painel ("Long Beach" no número do "Miami Beach").
+ */
+function lesanNoEndereco(p, g) {
+  if (p.origem !== 'site-lesan' || g.membros.some((m) => m.origem === 'site-lesan')) return false;
+  if (!g.membros.some((m) => m.cidade === p.cidade && mesmoEndereco(m.endereco, p.endereco))) return false;
+  const semNome = p.nome === p.endereco.split(' - ')[0];
+  return semNome || g.membros.some((m) => semPrefixo(m.nome).slice(0, 5) === semPrefixo(p.nome).slice(0, 5));
 }
 function enderecosCompativeis(a, b) {
   const A = enderecoChave(a),
@@ -281,9 +303,12 @@ for (const g of VISTA.G) {
 
 // Pasta Lançamentos (OneDrive): Harmony, Parque das Araucárias, Seven, Toninho, Ectual e Gomes Pacheco.
 // Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
-const mapsPasta = (b) => 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(b.endereco || `${b.nome}, ${b.cidade}, SP`);
+// Anúncio do site da Lesan sem endereço: o nome é só o código do anúncio, então o mapa abre no bairro.
+const mapsPasta = (b) =>
+  'https://www.google.com/maps/search/?api=1&query=' +
+  encodeURIComponent(b.endereco || (b.id.startsWith('lesan-site-') ? `${b.bairro}, ${b.cidade}, SP` : `${b.nome}, ${b.cidade}, SP`));
 // A tabela do Isildo (20/10/2026) tem o mesmo formato e entra pelo mesmo caminho, com origem 'isildo'.
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b])]) {
   predios.push({
     origem,
     origemId: b.id,
@@ -322,7 +347,7 @@ for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.
 }
 
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'lanc-drive': 2.5, 'drive-mes': 2.6, 'frente-mar': 3, usados: 4, 'vista-mar': 5 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'lanc-drive': 2.5, 'drive-mes': 2.6, 'frente-mar': 3, usados: 4, 'vista-mar': 5, 'site-lesan': 6 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [
@@ -350,6 +375,14 @@ for (const p of predios) {
     alvoManual.membros.push(p);
     continue;
   }
+  const alvoLesan = grupos.find((g) => lesanNoEndereco(p, g));
+  if (alvoLesan) {
+    alvoLesan.membros.push(p);
+    continue;
+  }
+  // mesmo endereço com outro nome: fica separado, com o aviso na ficha
+  const vizinho = p.origem === 'site-lesan' && grupos.find((g) => g.membros.some((m) => m.cidade === p.cidade && mesmoEndereco(m.endereco, p.endereco)));
+  if (vizinho) p.notas = [...p.notas, `No mesmo endereço o painel tem o ${vizinho.membros[0].nome}; o cadastro da Lesan chama o prédio de ${p.nome}. Conferir se é o mesmo.`];
   const alvo = grupos.find(
     (g) =>
       !g.membros.some((m) => m.origem === p.origem) &&
@@ -441,7 +474,7 @@ const saida = grupos.map(({ membros }) => {
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
 const estoque = {
-  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo, frenteMar: FRENTE.arquivo, lancDrive: LANCD.arquivo, driveMes: DRIVEMES.arquivo },
+  geradoDe: { commit: USADOS.commit, paineis: ['apartamentos-usados', 'lancamentos', 'vista-mar'], pasta: PASTA.pasta, isildo: ISILDO.arquivo, frenteMar: FRENTE.arquivo, lancDrive: LANCD.arquivo, driveMes: DRIVEMES.arquivo, siteLesan: SITELESAN.arquivo },
   predios: saida,
 };
 // Campos vazios (null, '', false, []) são omitidos para o arquivo ficar menor; o app trata ausência como vazio.

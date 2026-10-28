@@ -117,6 +117,11 @@ export class PredioDetalhe {
     return r.valor ? brl(r.valor) : 'sem valor';
   }
 
+  /** Link do anúncio no site da Lesan, mesmo quando o registro principal da unidade veio de outra tabela. */
+  protected anuncioDe(u: Unidade) {
+    return u.anuncio ?? u.outras?.find((o) => o.anuncio)?.anuncio;
+  }
+
   protected async copiar(u: Unidade) {
     this.copiado.set((await copiarParaCliente(this.predio(), u)) ? u.ref : 'erro');
     setTimeout(() => this.copiado.set(null), 2200);
