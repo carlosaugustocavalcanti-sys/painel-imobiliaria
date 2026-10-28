@@ -78,6 +78,27 @@ export interface Linha {
   frenteMar: boolean;
   /** Comissão que a tabela informa: 5% sobre o valor da tabela, ou fifty (metade com o parceiro). Vazio = a tabela não diz. */
   comissoes: Comissao[];
+  /** Vagas de garagem lidas do texto da tabela ("2 privativas" = 2, "coletiva" = 1, "sem vaga" = 0). null = a tabela não diz. */
+  vagas: number | null;
+}
+
+/** Número de vagas num texto livre de tabela, ou null quando não dá para saber. "2 ou 3" conta 2. */
+export function vagasDeTexto(texto: string | undefined): number | null {
+  const t = normalizar(texto).trim();
+  if (!t || t === '—' || t === '-') return null;
+  if (/sem vaga|nao (tem|possui) vaga/.test(t)) return 0;
+  const n = t.match(/^(\d+)/);
+  if (n) return +n[1];
+  return /vaga|coletiva|privativa|rotativa|livre|demarcada|determinada|coberta/.test(t) ? 1 : null;
+}
+
+/** Vagas de uma unidade: a primeira tabela que informa. */
+export function vagasDe(u: Unidade): number | null {
+  for (const r of [u, ...(u.outras ?? [])]) {
+    const v = vagasDeTexto(r.vagas);
+    if (v != null) return v;
+  }
+  return null;
 }
 
 const FRENTE_MAR = /frente\s*(ao\s+|para\s+o\s+|p\/\s*o\s+)?(mar|praia)/;
@@ -161,6 +182,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         pagamentos: pagamentosDe(u, p),
         frenteMar: ehFrenteMar(u, p),
         comissoes: comissoesDe(u, p),
+        vagas: vagasDe(u),
         texto:
           textoPredio +
           ' ' +
@@ -190,6 +212,11 @@ export interface Filtros {
   /** Só unidades cuja tabela informa essa comissão (vazio = todas). */
   comissao: '' | Comissao;
   dm: '' | Dorm;
+  /** Pelo menos esse número de vagas de garagem (0 = qualquer). */
+  vagas: number;
+  /** Área útil/privativa em m², De/Até (0 = sem limite). */
+  amin: number;
+  amax: number;
   vmin: number;
   vmax: number;
   lugares: string[];
@@ -211,6 +238,9 @@ export const FILTROS_VAZIOS: Filtros = {
   frente: false,
   comissao: '',
   dm: '',
+  vagas: 0,
+  amin: 0,
+  amax: 0,
   vmin: 0,
   vmax: 0,
   lugares: [],
@@ -229,6 +259,16 @@ export const VAL_STEPS = [150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 700,
   (k) => k * 1e3,
 );
 
+/** Faixas De/Até de área útil ou privativa, em m². */
+export const AREA_STEPS = [30, 40, 50, 60, 70, 80, 90, 100, 120, 150, 200, 300];
+/** Opções do filtro de vagas: "pelo menos N". */
+export const VAGAS_OPCOES: [number, string][] = [
+  [0, 'Qualquer'],
+  [1, '1 ou mais'],
+  [2, '2 ou mais'],
+  [3, '3 ou mais'],
+];
+
 export type ChaveFiltro = keyof Filtros;
 
 /** A linha passa nos filtros? `ignorar` deixa um filtro de fora (para contar as opções dele). */
@@ -242,6 +282,11 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('frente') && f.frente && !l.frenteMar) return false;
   if (usa('comissao') && f.comissao && !l.comissoes.includes(f.comissao)) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;
+  if (usa('vagas') && f.vagas && !((l.vagas ?? 0) >= f.vagas)) return false;
+  if (usa('amin') && usa('amax') && (f.amin || f.amax)) {
+    const a = u.area ?? 0;
+    if (!(a > 0) || (f.amin && a < f.amin) || (f.amax && a > f.amax)) return false;
+  }
   if (usa('vmin') && usa('vmax') && (f.vmin || f.vmax)) {
     const v = u.valor ?? 0;
     if (!(v > 0) || (f.vmin && v < f.vmin) || (f.vmax && v > f.vmax)) return false;
@@ -267,7 +312,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
 
 /** Algum filtro que olha para a unidade (e não só para o prédio) está ligado? */
 export const filtroDeUnidade = (f: Filtros) =>
-  !!(f.categoria || f.vista || f.frente || f.comissao || f.dm || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
+  !!(f.categoria || f.vista || f.frente || f.comissao || f.dm || f.vagas || f.amin || f.amax || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
 
 /* ---------- ordenação ---------- */
 

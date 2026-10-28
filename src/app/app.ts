@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, afterRenderEffect, computed, effect, inject, signal, untracked } from '@angular/core';
 import {
+  AREA_STEPS,
   CATEGORIA_ROTULO,
   DORM_ROTULO,
   FASE_ROTULO,
@@ -13,6 +14,7 @@ import {
   Ordem,
   STATUS_ROTULO,
   VAL_STEPS,
+  VAGAS_OPCOES,
   entregaPrevista,
   filtroDeUnidade,
   lugarDe,
@@ -68,6 +70,8 @@ export class App {
   protected readonly Math = Math;
   protected readonly ORDENS = ORDENS;
   protected readonly VAL_STEPS = VAL_STEPS;
+  protected readonly AREA_STEPS = AREA_STEPS;
+  protected readonly VAGAS_OPCOES = VAGAS_OPCOES;
   protected readonly FASE_ROTULO = FASE_ROTULO;
   protected readonly STATUS_ROTULO = STATUS_ROTULO;
   protected readonly ORIGEM_ROTULO = ORIGEM_ROTULO;
@@ -113,6 +117,7 @@ export class App {
   }));
   protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
+  protected readonly contagemVagas = computed(() => Object.fromEntries(this.VAGAS_OPCOES.map(([n]) => [n, this.contar({ vagas: n })])));
 
   /* ---------- orla ---------- */
   protected readonly trechos = computed<TrechoOrla[]>(() => {
@@ -251,6 +256,12 @@ export class App {
     if (f.frente) a.push({ rotulo: 'Frente mar', limpar: { frente: false } });
     if (f.comissao) a.push({ rotulo: f.comissao === 'cinco' ? 'Comissão 5%' : 'Comissão fifty', limpar: { comissao: '' } });
     if (f.dm) a.push({ rotulo: DORM_ROTULO[f.dm], limpar: { dm: '' } });
+    if (f.vagas) a.push({ rotulo: `${f.vagas}+ ${f.vagas === 1 ? 'vaga' : 'vagas'}`, limpar: { vagas: 0 } });
+    if (f.amin || f.amax)
+      a.push({
+        rotulo: !f.amin ? `até ${f.amax} m²` : !f.amax ? `a partir de ${f.amin} m²` : `${f.amin} a ${f.amax} m²`,
+        limpar: { amin: 0, amax: 0 },
+      });
     if (f.vmin || f.vmax)
       a.push({
         rotulo: !f.vmin ? `até ${valLabel(f.vmax)}` : !f.vmax ? `a partir de ${valLabel(f.vmin)}` : `${valLabel(f.vmin)} a ${valLabel(f.vmax)}`,
@@ -318,6 +329,14 @@ export class App {
   protected valorMax(v: string) {
     const n = +v || 0;
     this.mudar({ vmax: n, vmin: this.f().vmin && n && n < this.f().vmin ? 0 : this.f().vmin });
+  }
+  protected areaMin(v: string) {
+    const n = +v || 0;
+    this.mudar({ amin: n, amax: this.f().amax && n > this.f().amax ? 0 : this.f().amax });
+  }
+  protected areaMax(v: string) {
+    const n = +v || 0;
+    this.mudar({ amax: n, amin: this.f().amin && n && n < this.f().amin ? 0 : this.f().amin });
   }
   protected abrir(p: Predio, ref?: string) {
     this.destaque.set(ref ?? null);

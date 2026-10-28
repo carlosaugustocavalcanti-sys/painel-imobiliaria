@@ -87,6 +87,30 @@
         </select>
       </div>
     </div>
+    <div class="filtro">
+      <span class="rot" title="Área útil ou privativa, como a tabela informa; unidades sem área saem quando o filtro está ligado">Área útil ou privativa</span>
+      <div class="valor">
+        <select aria-label="Área mínima" (change)="areaMin(texto($event))">
+          <option value="" [selected]="!fl.amin">De: qualquer</option>
+          @for (a of AREA_STEPS; track a) { <option [value]="a" [selected]="fl.amin === a">{{ a }} m²</option> }
+        </select>
+        <span>até</span>
+        <select aria-label="Área máxima" (change)="areaMax(texto($event))">
+          <option value="" [selected]="!fl.amax">Até: qualquer</option>
+          @for (a of AREA_STEPS; track a) { <option [value]="a" [selected]="fl.amax === a">{{ a }} m²</option> }
+        </select>
+      </div>
+    </div>
+    <div class="filtro">
+      <span class="rot" title="Vagas de garagem que a tabela informa; unidades sem essa informação saem quando o filtro está ligado">Vagas de garagem</span>
+      <div class="chips">
+        @for (o of VAGAS_OPCOES; track o[0]) {
+          <button type="button" class="chip" [attr.aria-pressed]="fl.vagas === o[0]" (click)="mudar({ vagas: o[0] })">
+            {{ o[1] }} @if (o[0]) { <span>{{ fmt.num(contagemVagas()[o[0]]) }}</span> }
+          </button>
+        }
+      </div>
+    </div>
     <div class="filtro fim">
       <button type="button" class="btn contorno" [attr.aria-expanded]="maisFiltros()" aria-controls="mais" (click)="maisFiltros.set(!maisFiltros())">
         Mais filtros @if (qtdMaisFiltros()) { <span class="bolha">{{ qtdMaisFiltros() }}</span> } <span aria-hidden="true">{{ maisFiltros() ? '▴' : '▾' }}</span>

@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -40,6 +40,30 @@ describe('busca', () => {
     expect(L.filter((l) => passa(l, F({ vista: true }))).length).toBe(1);
     expect(L.filter((l) => passa(l, F({ dm: '3' }))).map((l) => l.u.unidade)).toEqual(['125']);
     expect(L.filter((l) => passa(l, F({ vmax: 400000 }))).map((l) => l.u.unidade)).toEqual(['14']);
+  });
+
+  it('vagas: lê o número do texto da tabela', () => {
+    expect(vagasDeTexto('2 privativas')).toBe(2);
+    expect(vagasDeTexto('1 (coletiva)')).toBe(1);
+    expect(vagasDeTexto('2 ou 3')).toBe(2);
+    expect(vagasDeTexto('Coletiva')).toBe(1);
+    expect(vagasDeTexto('privativa 20,7 m²')).toBe(1);
+    expect(vagasDeTexto('Sem vaga')).toBe(0);
+    expect(vagasDeTexto('—')).toBeNull();
+    expect(vagasDeTexto(undefined)).toBeNull();
+  });
+
+  it('vagas (pelo menos N) e área De/Até; sem informação sai quando o filtro está ligado', () => {
+    const u = (ref: string, extra: Partial<Unidade>): Unidade => ({ ref, origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
+    const ls = montarLinhas([
+      predio({ id: 'v', unidades: [u('v:0', { vagas: '1', area: 45 }), u('v:1', { vagas: '2 privativas', area: 80 }), u('v:2', { area: 120 }), u('v:3', { vagas: 'sem vaga' })] }),
+    ]);
+    const refs = (f: Partial<Filtros>) => ls.filter((l) => passa(l, F(f))).map((l) => l.u.ref);
+    expect(refs({ vagas: 1 })).toEqual(['v:0', 'v:1']);
+    expect(refs({ vagas: 2 })).toEqual(['v:1']);
+    expect(refs({ amin: 60 })).toEqual(['v:1', 'v:2']);
+    expect(refs({ amax: 80 })).toEqual(['v:0', 'v:1']);
+    expect(refs({ amin: 50, amax: 100, vagas: 1 })).toEqual(['v:1']);
   });
 
   it('categoria: registro sem o campo é apartamento; casa e comercial só aparecem quando pedidos', () => {
