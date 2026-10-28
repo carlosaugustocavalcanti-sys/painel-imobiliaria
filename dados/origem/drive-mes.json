@@ -4725,6 +4725,317 @@
     }
    ],
    "notas": []
+  },
+  {
+   "id": "sobrado-jardim-real-oceanic",
+   "nome": "Sobrado individual Jardim Real (Oceanic)",
+   "cidade": "Praia Grande",
+   "bairro": "Jardim Real",
+   "endereco": "Jardim Real - Praia Grande/SP (a tabela não traz o endereço)",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Oceanic Imóveis (tabela de 22/10/2026)",
+     "contato": "(13) 99682-7045",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/OCEANIC - Sobrado 2 dorm (Jd.Real).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado individual 2 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 1,
+     "area": 69,
+     "vagas": "1",
+     "valor": 470000,
+     "status": "disponivel",
+     "obs": "150 m da praia. À vista ou financiamento bancário. Chaves: agendar. Comissão fifty.",
+     "fonte": "Oceanic Imóveis (tabela de 22/10/2026)",
+     "contato": "(13) 99682-7045",
+     "tabela": "22/10/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-jose-carlos-borstens-275",
+   "nome": "Casa Rua José Carlos Borstens, 275",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Rua José Carlos Borstens, 275 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Oceanic Imóveis (tabela de 22/10/2026)",
+     "contato": "(13) 99682-7045",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/OCEANIC - Sobrado 2 dorm (Jd.Real).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa 3 dorms (1 suíte) + edícula",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 1,
+     "area": 82.25,
+     "vagas": "2",
+     "valor": 740000,
+     "iptu": 380,
+     "status": "disponivel",
+     "obs": "Preço reduzido. 82,25 m² úteis + edícula com 1 dormitório e banheiro; churrasqueira e quintal; 200 m da praia. À vista; aceita permuta por imóvel e carro e pequeno financiamento direto. Imóvel com inquilino: avisar com antecedência. Comissão R$ 30 mil.",
+     "fonte": "Oceanic Imóveis (tabela de 22/10/2026)",
+     "contato": "(13) 99682-7045",
+     "tabela": "22/10/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-guaianazes-49",
+   "nome": "Casa geminada Rua Guaianazes, 49",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Guaianazes, 49 - Vila Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Sérgio Mendes",
+     "contato": "(13) 99724-0787",
+     "atualizadoEm": "sem data (arquivo de 27/10/2026)",
+     "arquivo": "9. REVENDAS/2. CASAS/SÉRGIO - Casa 3 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa geminada 3 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 1,
+     "area": 110,
+     "vagas": "",
+     "valor": 850000,
+     "iptu": 420,
+     "status": "disponivel",
+     "obs": "Portão automatizado, churrasqueira, terreno 5 x 32 m, 110 m² de área útil. A tabela não informa vagas.",
+     "fonte": "Sérgio Mendes",
+     "contato": "(13) 99724-0787",
+     "tabela": "sem data (arquivo de 27/10/2026)"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "sobrado-tamoios-guadalajara",
+   "nome": "Sobrado Rua Tamoios esq. Guadalajara",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Tamoios, esquina com Rua Guadalajara - Vila Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "atualizadoEm": "outubro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado 4 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 4,
+     "suites": 1,
+     "area": 135,
+     "vagas": "3",
+     "valor": 695000,
+     "iptu": 250,
+     "status": "disponivel",
+     "obs": "Terreno 10 x 15 m (150 m²), 2 banheiros, garagem para 3 carros, zona 2. Somente à vista. Chaves: agendar. Comissão 6% (fifty).",
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "tabela": "outubro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "sobrado-cond-milton-de-oliveira-112",
+   "nome": "Sobrado em condomínio Av. Milton de Oliveira, 112",
+   "cidade": "Praia Grande",
+   "bairro": "Melvi",
+   "endereco": "Av. Milton de Oliveira, 112 - Jardim Melvi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "atualizadoEm": "outubro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa 02",
+     "tipologia": "Sobrado em condomínio 2 dorms",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 0,
+     "vagas": "",
+     "valor": 225000,
+     "iptu": 190,
+     "status": "disponivel",
+     "obs": "Entrada lateral individual, mobiliado, lavabo no térreo; 100 m da pista. Sem condomínio. Estuda propostas; aceita financiamento bancário. Comissão 5%.",
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "tabela": "outubro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "sobrado-uruguai-162",
+   "nome": "Sobrado Rua Uruguai, 162",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "endereco": "Rua Uruguai, 162 - Vila Guilhermina - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "atualizadoEm": "outubro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado 2 suítes",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 2,
+     "vagas": "2",
+     "valor": 540000,
+     "status": "disponivel",
+     "obs": "150 m do mar. Portão automático, suítes com sacada, cozinha com copa, churrasqueira no fundo. Aceita financiamento bancário. Comissão 6% (fifty).",
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "tabela": "outubro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "loja-kennedy-3795",
+   "nome": "Loja Av. Pres. Kennedy, 3.795",
+   "cidade": "Praia Grande",
+   "bairro": "Aviação",
+   "endereco": "Av. Presidente Kennedy, 3.795 - Aviação - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "atualizadoEm": "outubro/2026",
+     "arquivo": "9. REVENDAS/3. COMERCIAL/ADRIANOS - Loja (Aviação).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Loja",
+     "tipologia": "Loja",
+     "categoria": "comercial",
+     "dorm": 0,
+     "suites": 0,
+     "area": 40,
+     "vagas": "",
+     "valor": 420000,
+     "iptu": 150,
+     "status": "disponivel",
+     "obs": "2 portas de aço, banheiro dividido em dois, 40 m² construídos. Imóvel escriturado. Comissão 6% (fifty).",
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "tabela": "outubro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "apto-guaianazes-292",
+   "nome": "Apto Rua Guaianazes, 292",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Guaianazes, 292 - Vila Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "atualizadoEm": "outubro/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Frente rua",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 90,
+     "vagas": "",
+     "valor": 540000,
+     "cond": 500,
+     "iptu": 370,
+     "status": "disponivel",
+     "obs": "200 m do mar, apartamento de frente para a rua. Lazer: piscina, salões, ginástica. Imóvel escriturado; aceita financiamento bancário. Comissão 6% (fifty).",
+     "fonte": "Adriano's Imóveis (tabela de exclusividades, outubro/2026)",
+     "contato": "(13) 97412-2695",
+     "tabela": "outubro/2026"
+    }
+   ],
+   "notas": []
+  },
+  {
+   "id": "casa-bestilleiro-lopes-685",
+   "nome": "Casa triplex Rua José Bestilleiro Lopes, 685",
+   "cidade": "Praia Grande",
+   "bairro": "Nova Mirim",
+   "endereco": "Rua José Bestilleiro Lopes, 685 - Nova Mirim (zona 3) - Praia Grande/SP",
+   "fase": "pronto",
+   "tabelas": [
+    {
+     "fonte": "Erick Pereira (tabela de 22/10/2026)",
+     "contato": "(13) 98127-8835",
+     "atualizadoEm": "22/10/2026",
+     "arquivo": "9. REVENDAS/2. CASAS/ERICK PEREIRA - Triplex geminado 3 dorm (Nova Mirim).pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa triplex geminada 3 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 3,
+     "suites": 1,
+     "area": 175,
+     "vagas": "1 coberta",
+     "valor": 440000,
+     "iptu": 284,
+     "status": "disponivel",
+     "obs": "Sala de TV com banheiro, 2 edículas assobradadas (1 dormitório, sala, cozinha e banheiro, acesso individual), espaço gourmet com churrasqueira no último pavimento. Terreno 5 x 25,90 m; 175 m² construídos. Fica mobiliada. Aceita financiamento bancário. Visitas agendadas e acompanhadas. Comissão 5%.",
+     "fonte": "Erick Pereira (tabela de 22/10/2026)",
+     "contato": "(13) 98127-8835",
+     "tabela": "22/10/2026"
+    }
+   ],
+   "notas": []
   }
  ]
 }

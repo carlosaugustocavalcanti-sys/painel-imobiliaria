@@ -1,6 +1,6 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-10-26T19:30:00Z",
+  "ultimaVarredura": "2026-10-28T10:02:17Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
@@ -20,6 +20,147 @@
     {
       "data": "2026-10-26",
       "resumo": "Carga inicial das pastas 4, 9, 10, 11, 12, investidores e parte das 2 e 3 (casas e comerciais): origem drive-mes com 105 prédios e 148 unidades; filtro de tipo de imóvel criado."
+    },
+    {
+      "data": "2026-10-28",
+      "arquivosLidos": [
+        "5. FRENTE MAR: RJ INVESTIMENTOS (novo), SAGA (27/10), LUCATO (27/10), VERANEIO (27/10), KALYL (26/10), COLISEUM (27/10), GOMES E FERREIRA, LEANDRO CABELO, ARIANI GALEANO (Boqueirão)",
+        "Pendentes (casas e comerciais): OCEANIC, SÉRGIO, ADRIANOS (casas e loja), ERICK PEREIRA, TALISMÃ, ADEMILSON CRUZ"
+      ],
+      "resumo": "Frente Mar: 3 unidades novas da RJ Investimentos (Ocean Park 72 B, Atlantic Flat Residence 184, Porto Marina 143); Coliseum AP4019 de R$ 895 mil para R$ 950 mil; datas de tabela de Saga, Lucato, Veraneio, Kalyl e Coliseum atualizadas, sem mudança de valor. Drive (mês): 9 unidades das pendências (Oceanic 2 casas, Sérgio 1 casa, Adriano's 3 casas + 1 loja + 1 apto, Erick Pereira 1 casa triplex). Pasta 7 (Lançamentos) sem PDF alterado. ECTUAL (pasta 5) segue fora, como na carga inicial.",
+      "pendentesDeConferencia": [
+        "RJ Investimentos, Costa do Mar apto 131 (3 dorms, frente mar): valor total ilegível no PDF (entrada R$ 963 mil + 91 x R$ 8.300); não entrou.",
+        "RJ Investimentos, Porto Marina 143 (Rua São José, 20, Maracanã): o painel tem um Porto Marina em Vila Caiçara sem endereço (lancamentos); ficaram separados. Conferir se é o mesmo prédio e, se for, acrescentar em FUNDIR_MANUAL.",
+        "Coliseum KN0383: a etiqueta da página diz R$ 270 mil e o texto, R$ 275.000; mantido R$ 275 mil.",
+        "Erick Pereira: Res. Davi Farias III casa 5 (R$ 285 mil) e Res. Punta Cana casa 7 (R$ 435 mil) têm carimbo \"PROPOSTA\" ilegível quanto à unidade; não entraram. Os aptos da mesma tabela (Village, Alexandre II, Hildegard Angel, Acauã, Roma, Viamar) não foram lançados.",
+        "ADEMILSON CRUZ (pendente de casas): o PDF é a tabela de aptos do Res. Rafaela (Randall Construtora, 21/08/2026), não um sobrado; o Rafaela já está no painel pela pasta Lançamentos e não foi comparado.",
+        "TALISMÃ: só terreno (R$ 1,5 mi, Sítio do Campo) e passe de ponto com mobília (R$ 250 mil); nada entrou."
+      ],
+      "semOrigemMapeada": [
+        "ADRIANOS - Apto 2 dorm (Tupi)",
+        "ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi)",
+        "ADRIANOS - Loja (Aviação)",
+        "ADRIANOS - Sobrado em Cond 2 dorm (Melvi)",
+        "AGÊNCIA DA PRAIA - Casas 2 dorm (Guilhermina/Ocian) + Casa 3 dorm (Solemar)",
+        "ANDARAGUÁ - Aptos 1 e 2 dorm (Jd. Real)",
+        "ARIANI GALEANO - Apto 2 dorm (Tupi')",
+        "ARJONAS - Aptos 1 dorm (Boqueirão/Aviação) + Aptos 2 dorm (Forte/Boqueirão/Guilhermina''/Aviação/Ocian/Caiçara) + Apto 3 dorm (Forte) + Sala comercial (Tupi)",
+        "ARJONAS - Sala comercial (Tupi)",
+        "Andaraguá - Aptos 1 e 2 dorm (Jd. Real)",
+        "Apartamento Casa Praia - Apto 2 dorm (Caiçara')",
+        "Apto 1 dorm (Aviação) + Apto 2 dorm (Guilhermina) + Aptos 3 dorm (Guilhermina) + Casa 3 dorm (Forte)",
+        "Apto 1 dorm (Aviação) + Apto 2 dorm (Tupi) + Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi) + Sobrado em Cond 2 dorm (Melvi) + Loja (Aviação) + LOCAÇÃO- Apto 2 dorm (Tupi)",
+        "Apto 1 dorm (Boqueirão) + Apto 2 dorm (Forte/Guilhermina/Aviação/Caiçara') + Aptos 3 dorm (Forte/Boqueirão)",
+        "Apto 1 dorm (Ocian) + Apto 2 dorm (Aviação) + Aptos 3 dorm (Guilhermina') + Casa em Cond 2 dorm (Pq.das Américas)",
+        "Apto 1 dorm (Ocian) + Aptos 2 dorm (Forte/Guilhermina/Ocian/Caiçara/Mongaguá-SP) + Aptos 3 dorm (Forte/Aviação/Ocian/Caiçara/Flórida\"/Mongaguá-SP) + Apto 4 dorm (Forte) + Casa 2 dorm (Maracanã)",
+        "Apto 1 dorm (Tupi) + Aptos 2 dorm (Boqueirão/Caiçara) + Aptos 3 dorm (Forte/Boqueirão'/Guilhermina/Tupi)",
+        "Apto 2 dorm (Caiçara')",
+        "Apto 2 dorm (Forte) + Sobrado 3 dorm (Forte)",
+        "Apto 2 dorm (Guilhermina) + Apto 3 dorm (Guilhermina) + Cobertura 3 dorm (Forte) + Cobertura 6 dorm (Tupi\") + Sobrado 3 dorm (Guilhermina)",
+        "Apto 2 dorm (Guilhermina) + LOCAÇÃO - Apto 3 dorm (Caiçara)",
+        "Apto 2 dorm (Jd. Princesa) + Casa 3 dorm (Maracanã)",
+        "Apto 3 dorm (Mongaguá-SP) + Casa 2 dorm (Samambaia) + Casa 3 dorm (Imperador)",
+        "Apto 3 dorm (Tupi) + Locação - Prédio Comercial (Antártica)",
+        "Aptos 1 dorm (Boqueirão/Guilhermina'/Aviação/Tupi) + Apto 2 dorm (Forte/Boqueirão/Tupi'/Ocian/Jd Real')",
+        "Aptos 1 dorm (Forte/Ocian/V.Assunção) + Aptos 2 dorm (Forte/Guilhermina/V.Assunção'*\"/Flórida\") + Aptos 3 dorm (Forte'/V.Assunção/Solemar\"/Vilamar\") + Sobrados 3 dorm (Boqueirão/Ocian) + Cobertura 3 dorm (Mirim) + Casas 2 dorm (Forte/Caiçara/Ocian/Vilamar/Jd.Imperador/Mongaguá-SP) + Casas 3 dorm (Guilhermina/Caiçara/Maracanã/Jd.Real/Solemar)",
+        "Aptos 1 dorm (Guilhermina)\" + Apto 2 dorm (Aviação'/Caiçara/Vila Sonia) + Apto 3 dorm (Aviação') + Casa 2 dorm (Tupi) + Casas em Cond 2 dorm (Caiçara) + Locação - Kit (Ocian) + Apto 2 dorm (Boqueirão/Caiçara) + Cobertura 2 dorm (Guilhermina)",
+        "Aptos 1 dorm (Guilhermina/Ocian/Tupi/Maracanã'/Caiçara) + Aptos 2 dorm (Forte/Guilhermina/Aviação/Tupi')",
+        "Aptos 2 dorm (Boqueirão\"/Tupi')",
+        "Aptos 2 dorm (Guilhermina/Jd. Real\") + Aptos 3 dorm (Guilhermina/Aviação/Caiçara) + Cobertura 4 dorm (Guilhermina’) + Casa em Cond 1 dorm (Joia) + Casas em Cond 2 dorm (Joia/Esmeralda) + Barra da Tijuca - Casas em Cond 2 e 3 dorm (Guilhermina/Caiçara)",
+        "Aptos 2 dorm (Mirim/Ocian\"/Maracanã/Imperador\") + Aptos 3 dorm (Caiçara\")",
+        "Azure (Fn.Direto) - Aptos 2 dorm (Guilhermina)",
+        "Azure - Aptos 2 dorm (Guilhermina)",
+        "BRUNO MASOTTI - Apto 2 dorm (Aviação)",
+        "Backdoor - Casas em Cond 2 dorm (Mirim)",
+        "Barra da Tijuca - Casas em Cond 2 e 3 dorm (Guilhermina)",
+        "COLISEUM - Aptos 2 dorm (V.Assunção'/Flórida') + Apto 3 dorm (Forte')",
+        "COLISEUM - Casas 2 dorm (Forte/Caiçara/Ocian/Vilamar/Jd.Imperador/Mongaguá-SP) + Casas 3 dorm (Guilhermina/Caiçara/Maracanã/Jd.Real/Solemar) + Sobrados 3 dorm (Boqueirão/Ocian)",
+        "Casa 2 dorm (Guarulhos-SP) + Sobrados 2 dorm (Tude) + Casa em Cond 2 dorm (Atlântica/Itanhaém - SP) + Casa 3 dorm (Antartica) + Casa em Cond 3 dorm (Tude) + Sobrado 4 dorm (Tude) + Casa Comercial 5 dorm (Jd Gloria)",
+        "Casa 3 dorm (Mirim) + Casas em Cond 2 dorm (Mirim)",
+        "Casas em Cond 2 dorm (Guilhermina/Tupi/Tude)",
+        "Costa Del Mare - Aptos 2 e 3 dorm (Aviação)",
+        "ECTUAL - Apto 1 dorm (Ocian) + Aptos 2 dorm (Forte/Guilhermina/Ocian/Caiçara/Mongaguá-SP) + Aptos 3 dorm (Forte/Aviação/Ocian/Caiçara/Flórida\"/Mongaguá-SP) + Apto 4 dorm (Forte)",
+        "ECTUAL - Apto 1 dorm (Ocian) + Aptos 2 dorm (Forte/Guilhermina/Ocian/Caiçara/Mongaguá-SP) + Aptos 3 dorm (Forte/Aviação/Ocian/Caiçara/Flórida\"/Mongaguá-SP) + Apto 4 dorm (Forte) + Casa 2 dorm (Maracanã)",
+        "ECTUAL - Casa 2 dorm (Maracanã)",
+        "Flat (Santos - SP) + Apto 1 dorm (Forte) + Aptos 2 dorm (Forte/Tupi/Ocian/Caiçara/São Vicente - SP)",
+        "GMV - Casas em Cond 2 dorm (Tude)",
+        "GMV - Casas em Cond 2 dorm (Tupi)",
+        "GOMES E FERREIRA - Aptos 2 dorm (Aviação/Caiçara\") + Aptos 3 dorm (Guilhermina'/Aviação/Caiçara\")",
+        "GOMES E FERREIRA - Aptos 3 dorm (Guilhermina')",
+        "Grená - Aptos 1 e 2 dorm (Caiçara)",
+        "HLA - Sobrados em Cond 2 dorm (Jd.real)",
+        "Harmony - Aptos 2 e 3 dorm (Aviação)",
+        "Haus - Apto 2 dorm (Aviação)",
+        "Haus - Aptos 2 dorm (Aviação) + Vêneto - Casas em Cond 2 e 3 dorm (V. Sônia)",
+        "Havana - Aptos 2 dorm (Tupi) + Cobertura 4 dorm (Tupi) + Tupi - Aptos 2 e 3 dorm (Tupi) + Revenda - Aptos 2 dorm (Tupi)",
+        "Havana - Aptos 2 dorm (Tupi) + Tupi - Aptos 2 e 3 dorm (Tupi)",
+        "House Garden (Apoio a Produção) - Aptos 2 dorm (Forte)",
+        "House Garden (Habite-se) - Aptos 2 dorm (Forte)",
+        "IMIGRANTES - Kit (Guilhermina) + Aptos 2 dorm (Guilhermina/Aviação/Tupi'/Caiçara') + Apto 3 dorm (Forte) + Casas 2 dorm (Caiçara) + Casa 4 dorm (Solemar)",
+        "KALYL - Aptos 2 dorm (Forte'/Guilhermina'/Ocian'/Mirim'/Aviação/Caiçara') + Apto 3 dorm (Caiçara'/Jd Real')",
+        "KALYL - Casa 1 dorm (Guilhermina) + Casas 2 e 3 dorm (Guilhermina) + Sobrado 4 dorm (Aviação)",
+        "KALYL - Casas em Cond 2 dorm (Tupi)",
+        "Kit (Boqueirão/Caiçara) + Aptos 1 dorm (Mirim/Tupi/Caiçara)+ Aptos 2 dorm (Forte'/Boqueirão/Guilhermina'/Ocian'/Tupi/Mirim'/Aviação/Caiçara'/Maracanã\") + Apto 3 dorm (Guilhermina\"/Aviação\"/Caiçara'/Jd Real') + Casa 1 dorm (Guilhermina) + Casas 2 e 3 dorm (Guilhermina) + Sobrado 4 dorm (Aviação) + Casas em Cond 2 dorm (Tupi)",
+        "Kit (Forte/Aviação/Tupi) + Aptos 1 dorm (Boqueirão/Aviação/Guilhermina\"/Caiçara/V. Assunção) + Aptos 2 dorm (Tupi) + Apto 3 dorm (Aviação/Tupi) + Casas 2 dorm (Guilhermina/Ocian) + Casa 3 dorm (Solemar)",
+        "Kit (Guilhermina) + Aptos 2 dorm (Guilhermina/Aviação/Tupi'/Caiçara') + Apto 3 dorm (Forte) + Casas 2 dorm (Caiçara) + Casa 4 dorm (Solemar)",
+        "Kit (Ocian) + Apto 1 dorm (Boqueirão) + Aptos 2 dorm (Forte'/Aviação/Tupi/Caiçara) + Aptos 3 dorm (Forte/Guilhermina) + Casa 1 dorm (Forte) + Casas 2 dorm (Boqueirão/Guilhermina/Esmeralda/Assunção) + Sobrado em Cond 2 dorm (Imperador) + Casa 3 dorm (Caiçara/Jd Princesa) + LOCAÇÃO - Apto 2 dorm (Boqueirão) + Apto 3 dorm (Forte) + Cobertura 3 dorm (Forte) + Casa 2 dorm (Boqueirão)",
+        "Kit (Ocian) + Aptos 2 dorm (Tupi/Santos-SP) + Casa em Cond 3 dorm (São Vicente-SP)",
+        "Kit (Tupi) + Apto 2 dorm (Aviação) + Casa em Cond 1 dorm (Ribeirópolis) + Casa 2 dorm (Tupi) + Terreno (São Vicente - SP)",
+        "Kits (Boqueirão/Tupi) + Aptos 1 dorm (Forte/Boqueirão/Guilhermina/V.Assunção/Aviação/Tupi) + Aptos 2 dorm (Forte/Boqueirão/Guilhermina/Aviação/Tupi/Ocian) + Aptos 3 dorm (Forte/Guilhermina'/Aviação/V.assunção/Tupi) + Cobertura 3 dorm (Aviação) + Casa em Cond 2 dorm (Tupiry) + Casas 2 dorm (Mirim/Caiçara) + Galpão comercial (Tupi)",
+        "LEANDRO CABELO - Apto 2 dorm (Forte\")",
+        "LEC - Aptos 1 dorm (Boqueirão/Guilhermina'/Aviação/Tupi) + Apto 2 dorm (Forte/Boqueirão/Tupi'/Ocian/Jd Real')",
+        "LEC - Aptos 1 dorm (Guilhermina') + Apto 2 dorm (Tupi'/Jd Real')",
+        "LEON GURGEL - Apto 1 dorm (Maracanã') + Apto 2 dorm (Tupi')",
+        "LEON GURGEL - Aptos 1 dorm (Guilhermina/Ocian/Tupi/Maracanã'/Caiçara) + Aptos 2 dorm (Forte/Guilhermina/Aviação/Tupi')",
+        "LEONARDO SILVA - Casa 3 dorm (Maracanã)",
+        "LUCATO - Apto 2 dorm (Aviação') + Apto 3 dorm (Aviação')",
+        "LUCATO - Casa 2 dorm (Tupi)",
+        "LUCATO - Casas em Cond 2 dorm (Caiçara)",
+        "LUCATO - Kit (Ocian) + Apto 2 dorm (Boqueirão/Caiçara) + Cobertura 2 dorm (Guilhermina)",
+        "Lagos - Aptos 2 dorm (Guilhermina)",
+        "Luxmar XVI - Casas em Cond 1 e 2 dorm (Mirim)",
+        "MARCELO MORAES - Casa 2 dorm (Samambaia) + Casa 3 dorm (Imperador)",
+        "MAZOTTI - Prédio Comercial (Antártica)",
+        "MORADA NA PRAIA - Sobrado 3 dorm (Forte)",
+        "MS IMÓVEIS - Apto 3 dorm (Caiçara)",
+        "Mainá - Aptos 2 dorm (Guilhermina)",
+        "Maresias Beach - Aptos 2 e 3 dorm (Guilhermina)",
+        "Marino - Aptos 2 dorm (Forte)",
+        "Maya - Aptos 2 e 3 Dorm (Jd Real)",
+        "Maya - Casas em Cond 2 dorm (Guilhermina)",
+        "Miosotis - Aptos 1, 2 e 3 dorm (Flórida)",
+        "Mr Village III - Casas em Cond 1 e 2 dorm (Joia)",
+        "MÉRITO - Aptos 3 dorm (Guilhermina')",
+        "MÉRITO - Casa em Cond 2 dorm (Pq.das Américas)",
+        "NICOLAS SAVINI - Casa em Cond 1 dorm (Ribeirópolis)",
+        "NOVA CASARÃO - Aptos 2 e 3 dorm (Guilhermina')",
+        "NOVA CASARÃO - Casas 2 dorm (Mirim/Caiçara)",
+        "NOVA CASARÃO - Casas em Cond 2 dorm (Tupiry)",
+        "NOVA CASARÃO - Galpão comercial (Tupi)",
+        "NOVA CPI IMÓVEIS - Apto 2 dorm (Caiçara')",
+        "NSH - Casa 3 dorm (Mirim)",
+        "Park Avenue - Aptos 2 e 3 dorm (Guilhermina)",
+        "Porto Ravello - Sobrados em Cond 2 e 3 dorm (Aviação)",
+        "Pq. das Amoreiras - Aptos 3 e 4 dorm (Forte)",
+        "Praça dos Ipês (FN Bancário) - Aptos 2 dorm (Caiçara)",
+        "Primor (Alice) - Aptos 3 dorm (Forte)",
+        "Primor (Antonela) - Aptos 2 e 3 dorm (Forte)",
+        "Revenda - Apto 1 dorm (Forte) + Galpão Comercial (Caiçara)",
+        "Revenda - Ponto Comercial (Caiçara)",
+        "Riviera Palace - Aptos 2 e 3 dorm (Ocian)",
+        "SAGA - Sobrado 3 dorm (Guilhermina)",
+        "SEI - Aptos 2 dorm (Tupi)",
+        "Safira Logan - Casas em Cond 2 dorm (Tude Bastos)",
+        "Sobrados em Cond 2 dorm (Jd.real)",
+        "TALISMÃ - Ponto Comercial (Caiçara)",
+        "TALISMÃ - Ponto Comercial (Caiçara)",
+        "Terrenos (V. Atlântica/Santos-SP/São Vicente -SP/Guarujá-SP)",
+        "The One - Aptos 2 dorm (Guilhermina)",
+        "VERANEIO - Cobertura 4 dorm (Guilhermina')",
+        "Versalhes - Aptos 2 e 3 dorm (Forte)",
+        "Viva Melvi - Casa em Cond 2 dorm (Melvi)",
+        "VÊNETO - Casas em Cond 2 e 3 dorm (V. Sônia)"
+      ]
     }
   ],
   "pendentes": {
@@ -256,12 +397,6 @@
         "mb": 20.9
       },
       {
-        "id": "1XxjEPYSUkl9sK7TiFANiNpleJXZe3mUo",
-        "titulo": "ERICK PEREIRA - Triplex geminado 3 dorm (Nova Mirim)",
-        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 2.7
-      },
-      {
         "id": "1g69s4x3uF-G1vjTlQpje6VKZy87JzKZh",
         "titulo": "JEAN DIEGUES - Casas 2 dorm (Ocian/Maracanã) + Casa 3 dorm (Tupi/Tude Bastos) + Casa 4 dorm (Tupiry)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
@@ -280,22 +415,10 @@
         "mb": 45.7
       },
       {
-        "id": "1r5Iu7e9Af-QN5Hk_pbwSUmutUpRqTcMe",
-        "titulo": "OCEANIC - Sobrado 2 dorm (Jd.Real)",
-        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 1.8
-      },
-      {
         "id": "1QTAtAYNqFXj2sVaSZvfnXj3V1RjMGg1_",
         "titulo": "MARALTO - Casa geminada 2 dorm (Melvi) + Casa Geminada 3 dorm (Aviação)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
         "mb": 40.2
-      },
-      {
-        "id": "1y9D4UcEAP9j4RFCR4GTivpyaHQUwGCro",
-        "titulo": "ADEMILSON CRUZ - Sobrado 2 dorm (Esmeralda)",
-        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 1.8
       },
       {
         "id": "1QkMVcAh_lAD_jW8CBkQ0SRFTSxtuUCyJ",
@@ -308,18 +431,6 @@
         "titulo": "KAMILA AMANCIO - Casas 2 dorm (Itanhaém-SP) + Casa 3 dorm (Imperador)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
         "mb": 157.0
-      },
-      {
-        "id": "1Q9wdVf819Z6pDmj4WuctK54iVsmDfwIp",
-        "titulo": "ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi)",
-        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 2.4
-      },
-      {
-        "id": "1vwce5WIaFhm7JF60S1m_xa1-DY2ZkFvp",
-        "titulo": "ADRIANOS - Loja (Aviação)",
-        "pasta": "3. COMERCIAL",
-        "mb": 2.4
       },
       {
         "id": "1kNj7LHVyoUQEGcUMaC8D7PFkNqeDG46x",
@@ -344,12 +455,6 @@
         "titulo": "SAFIRA - Loja (Forte)",
         "pasta": "3. COMERCIAL",
         "mb": 6.7
-      },
-      {
-        "id": "1sWojgwgJtiWUWWS1OSDLcIZn7ev1P1f3",
-        "titulo": "TALISMÃ -  Ponto Comercial (Caiçara)",
-        "pasta": "3. COMERCIAL",
-        "mb": 1.6
       },
       {
         "id": "1MAatMsYSwY08CjrFbQrscFaZHDJ4YTno",
@@ -530,12 +635,6 @@
         "titulo": "TOPO IMOVEIS - Sobrado 2 dorm (Jd Quietude) + Sobrado 3 dorm (Aviação)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
         "mb": 10.0
-      },
-      {
-        "id": "1NmkqcfULLyJ7SXbajzVUGDnsS-NjW_yR",
-        "titulo": "SÉRGIO - Casa 3 dorm (Tupi)",
-        "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 1.7
       },
       {
         "id": "1u-fqnwXsS9eahSY7rxBC507yAztSJqA-",

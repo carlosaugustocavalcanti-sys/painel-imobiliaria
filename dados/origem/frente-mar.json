@@ -1,7 +1,7 @@
 {
  "arquivo": "Google Drive/5. FRENTE MAR",
- "lidoEm": "2026-10-26",
- "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (50 prédios, 58 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
+ "lidoEm": "2026-10-28",
+ "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (53 prédios, 61 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
  "predios": [
   {
    "id": "guayi-frente-mar",
@@ -208,9 +208,9 @@
      "cond": 967.1,
      "det": "mobiliado (fica como está), sacada gourmet envidraçada, cozinha planejada, lazer completo",
      "obs": "Preço reduzido. R$ 680 mil no financiamento bancário ou permuta. Condomínio R$ 967,10 (+ taxa de renovação do AVCB R$ 92,22). Chaves: enviar CRECI para autorizar. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 26/10/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "22/10/2026",
+     "tabela": "26/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -226,9 +226,9 @@
      "arquivo": "GRANDLAR - Apto 2 dorm (Mirim).pdf"
     },
     {
-     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 26/10/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "22/10/2026",
+     "atualizadoEm": "26/10/2026",
      "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
     }
    ]
@@ -546,9 +546,9 @@
      "cond": 1180.77,
      "det": "sacada envidraçada com vista mar, lazer completo, portaria 24h, pintura nova",
      "obs": "Preço reduzido. Condomínio R$ 1.180,77 + rateio do elevador R$ 148,53. À vista; aceita financiamento bancário e permuta. Chaves: apartamento aberto; enviar CRECI para fotos. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 26/10/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "22/10/2026",
+     "tabela": "26/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -558,9 +558,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Kalyl Imóveis (tabela de 22/10/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 26/10/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "22/10/2026",
+     "atualizadoEm": "26/10/2026",
      "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
     }
    ]
@@ -585,9 +585,9 @@
      "cond": 507.98,
      "det": "sala, cozinha, área de serviço; 2 elevadores, bicicletário, lavanderia no térreo",
      "obs": "Lazer: piscina, salão de jogos, salão de festas, churrasqueira, solarium. À vista ou financiamento bancário. Comissão parceria fifty 6%.",
-     "fonte": "Lucato Imóveis (tabela de 24/10/2026)",
+     "fonte": "Lucato Imóveis (tabela de 27/10/2026)",
      "contato": "Lucato (13) 98835-4051 · (13) 99161-8893",
-     "tabela": "24/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar · Av. Pres. Castelo Branco",
      "fase": "pronto"
@@ -597,9 +597,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Lucato Imóveis (tabela de 24/10/2026)",
+     "fonte": "Lucato Imóveis (tabela de 27/10/2026)",
      "contato": "Lucato (13) 98835-4051 · (13) 99161-8893",
-     "atualizadoEm": "24/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "LUCATO - Apto 1 dorm (Guilhermina).pdf"
     }
    ]
@@ -622,9 +622,9 @@
      "valor": 545000,
      "det": "varanda gourmet, sala 2 ambientes, lazer completo",
      "obs": "Aceita financiamento bancário. Chaves: agendar. Comissão 5%; o sinal da proposta vai para a conta da Veraneio.",
-     "fonte": "Veraneio Imóveis (tabela de 22/10/2026)",
+     "fonte": "Veraneio Imóveis (tabela de 27/10/2026)",
      "contato": "Veraneio (13) 97405-5688 (gerente de vendas)",
-     "tabela": "22/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -634,9 +634,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Veraneio Imóveis (tabela de 22/10/2026)",
+     "fonte": "Veraneio Imóveis (tabela de 27/10/2026)",
      "contato": "Veraneio (13) 97405-5688 (gerente de vendas)",
-     "atualizadoEm": "22/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "VERANEIO - Apto 2 dorm (Jd. Real).pdf"
     }
    ]
@@ -922,9 +922,9 @@
      "cond": 1350,
      "det": "cobertura duplex, espaço gourmet com churrasqueira e forno a lenha, sauna",
      "obs": "Visitas com agendamento. Comissão 5%.",
-     "fonte": "Saga Imóveis (tabela de 19/10/2026)",
+     "fonte": "Saga Imóveis (tabela de 27/10/2026)",
      "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
-     "tabela": "19/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -934,9 +934,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Saga Imóveis (tabela de 19/10/2026)",
+     "fonte": "Saga Imóveis (tabela de 27/10/2026)",
      "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
-     "atualizadoEm": "19/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "SAGA - Cobertura 6 dorm (Tupi).pdf"
     }
    ]
@@ -1786,9 +1786,9 @@
      "cond": 596.43,
      "det": "varanda gourmet envidraçada",
      "obs": "Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista mar",
      "fase": "pronto"
@@ -1798,9 +1798,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -1825,9 +1825,9 @@
      "cond": 596.43,
      "det": "mobiliado; lazer completo (piscina, quadra, espaço gourmet)",
      "obs": "Chaves: agendar. Condomínio e IPTU saem iguais aos do AP3753 na tabela. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · sacadas com vista mar",
      "fase": "pronto"
@@ -1837,9 +1837,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -1864,9 +1864,9 @@
      "cond": 600,
      "det": "sacada, mobiliado; elevador e salão de jogos",
      "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -1876,9 +1876,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -1903,9 +1903,9 @@
      "cond": 587,
      "det": "elevador e salão de jogos",
      "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar · sacadas vista mar",
      "fase": "pronto"
@@ -1915,9 +1915,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -1942,9 +1942,9 @@
      "cond": 740,
      "det": "sacada gourmet envidraçada; salão de festas e piscina",
      "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista para o mar",
      "fase": "pronto"
@@ -1954,9 +1954,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -1981,9 +1981,9 @@
      "cond": 600,
      "det": "sacada gourmet envidraçada; salão de festas e piscina",
      "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista livre",
      "fase": "pronto"
@@ -1993,9 +1993,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2020,9 +2020,9 @@
      "cond": 773.8,
      "det": "lazer com elevador, salão de jogos e salão de festas",
      "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Em frente ao mar · vista para o mar",
      "fase": "pronto"
@@ -2032,9 +2032,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2059,9 +2059,9 @@
      "cond": 1200,
      "det": "varanda gourmet, elevador, lazer",
      "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -2071,9 +2071,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2093,12 +2093,12 @@
      "status": "disponivel",
      "area": 102,
      "vagas": "2",
-     "valor": 895000,
+     "valor": 950000,
      "det": "mobiliado; portaria 24h, piscina, academia, playground, churrasqueira, brinquedoteca, salão de festas",
      "obs": "Aceita financiamento. Chaves: agendar. Comissão fifty.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · varanda com vista mar",
      "fase": "pronto"
@@ -2108,9 +2108,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2135,9 +2135,9 @@
      "cond": 521,
      "det": "mobiliado e todo reformado, portaria 24h, vaga rotativa",
      "obs": "Aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "21/10/2026",
+     "tabela": "27/10/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -2147,12 +2147,150 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 21/10/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 27/10/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "21/10/2026",
+     "atualizadoEm": "27/10/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
+  },
+  {
+   "id": "ocean-park-rj-frente-mar",
+   "nome": "Ocean Park",
+   "bairro": "Ocian",
+   "endereco": "Rua Comendador Otto Carlos Golanda, 200 - Ocian - Praia Grande/SP",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "72 B",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 102,
+     "vagas": "1",
+     "valor": 724000,
+     "entrada": 345000,
+     "cond": 650,
+     "fluxo": {
+      "entrada": 345000,
+      "parcQtd": 55,
+      "parcVal": 4166.66
+     },
+     "det": "piso vinílico, móveis planejados",
+     "obs": "Pronto para morar; chaves na portaria (ligar para autorização). Entrada R$ 345 mil + 55 mensais de R$ 4.166,66 + 10 semestrais de R$ 15 mil (IPCA + 0,7%). Reserva só com sinal na conta do investidor. Aceita permuta e carro como parte do pagamento. Comissão 5%.",
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "tabela": "sem data (arquivo de 27/10/2026)",
+     "vistaMar": true,
+     "vista": "Vista para o mar (frente)",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "atualizadoEm": "sem data (arquivo de 27/10/2026)",
+     "arquivo": "RJ INVESTIMENTOS - Aptos 2 dorm (Ocian-Imperador) + Aptos 3 dorm (Caiçara).pdf"
+    }
+   ]
+  },
+  {
+   "id": "atlantic-flat-residence-frente-mar",
+   "nome": "Atlantic Flat Residence",
+   "bairro": "Jardim Imperador",
+   "endereco": "Av. Pres. Castelo Branco, 16.600 - Jardim Imperador - Praia Grande/SP",
+   "fase": "obra",
+   "unidades": [
+    {
+     "unidade": "184",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 62,
+     "vagas": "1",
+     "valor": 738000,
+     "entrada": 320000,
+     "chaves": 62000,
+     "fluxo": {
+      "entrada": 320000,
+      "parcQtd": 112,
+      "parcVal": 2066.67,
+      "anualQtd": 10,
+      "anualVal": 12400,
+      "chaves": 62000
+     },
+     "obs": "Em obras, entrega prevista em julho/2028. Entrada R$ 320 mil + 112 mensais de R$ 2.066,67 + 10 anuais de R$ 12.400 + chaves R$ 62 mil (poupança na obra; poupança + 0,5% após as chaves). Reserva só com sinal na conta do investidor. Comissão 5%.",
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "tabela": "sem data (arquivo de 27/10/2026)",
+     "vistaMar": true,
+     "vista": "Frente ao mar com vista livre",
+     "fase": "obra"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "atualizadoEm": "sem data (arquivo de 27/10/2026)",
+     "arquivo": "RJ INVESTIMENTOS - Aptos 2 dorm (Ocian-Imperador) + Aptos 3 dorm (Caiçara).pdf"
+    }
+   ],
+   "entrega": "07/2028 (prevista na tabela)"
+  },
+  {
+   "id": "porto-marina-rj-frente-mar",
+   "nome": "Porto Marina",
+   "bairro": "Maracanã",
+   "endereco": "Rua São José, 20 - Maracanã - Praia Grande/SP",
+   "fase": "obra",
+   "unidades": [
+    {
+     "unidade": "143",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 70,
+     "vagas": "1",
+     "valor": 908000,
+     "entrada": 332000,
+     "chaves": 144400,
+     "fluxo": {
+      "entrada": 332000,
+      "parcQtd": 90,
+      "parcVal": 4037.5,
+      "anualQtd": 8,
+      "anualVal": 8550,
+      "chaves": 144400
+     },
+     "obs": "Em obras, entrega prevista em outubro/2027. Entrada R$ 332 mil + 90 mensais de R$ 4.037,50 + 8 anuais de R$ 8.550 + chaves R$ 144.400 (poupança + 0,5%). Reserva só com sinal na conta do investidor. Comissão 5%.",
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "tabela": "sem data (arquivo de 27/10/2026)",
+     "vistaMar": true,
+     "vista": "Frente ao mar com vista livre",
+     "fase": "obra"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)",
+     "contato": "Diego Xavier (13) 98854-7879",
+     "atualizadoEm": "sem data (arquivo de 27/10/2026)",
+     "arquivo": "RJ INVESTIMENTOS - Aptos 2 dorm (Ocian-Imperador) + Aptos 3 dorm (Caiçara).pdf"
+    }
+   ],
+   "entrega": "10/2027 (prevista na tabela)"
   }
  ]
 }

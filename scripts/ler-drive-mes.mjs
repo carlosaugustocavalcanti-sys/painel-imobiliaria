@@ -73,6 +73,10 @@ const MAFRAN = { fonte: 'Mafran Junior', contato: '(13) 98847-1616', data: 'sem 
 const BIANCA = { fonte: 'Bianca Santana (proprietária)', contato: '(13) 99104-3786', data: '22/09/2026' };
 const WR = { fonte: 'WR Empreendimentos', contato: '(13) 3034-0548 · corretores (13) 98840-0654', data: 'sem data (arquivo de 26/10/2026)' };
 const CHENRIQUE = { fonte: 'Cláudio Henrique (tabela de 09/07/2026)', contato: '(13) 98843-8891', data: '09/07/2026' };
+const OCEANIC = { fonte: 'Oceanic Imóveis (tabela de 22/10/2026)', contato: '(13) 99682-7045', data: '22/10/2026' };
+const SERGIO = { fonte: 'Sérgio Mendes', contato: '(13) 99724-0787', data: 'sem data (arquivo de 27/10/2026)' };
+const ADRIANOS = { fonte: "Adriano's Imóveis (tabela de exclusividades, outubro/2026)", contato: '(13) 97412-2695', data: 'outubro/2026' };
+const ERICK = { fonte: 'Erick Pereira (tabela de 22/10/2026)', contato: '(13) 98127-8835', data: '22/10/2026' };
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -1299,6 +1303,96 @@ const predios = [
     fase: 'pronto',
     tabelas: tab(CHENRIQUE, PREFIXO + '2. CASAS/CLAUDIO HENRIQUE - Casa 1 dorm (Forte).pdf'),
     unidades: [rv(CHENRIQUE, { un: '8', categoria: 'casa', tipologia: 'Casa de vila 1 dorm', dorm: 1, suites: 0, vagas: '1', valor: 389900, conf: true, obs: 'Quintal grande e individual. À vista ou financiamento bancário. Chaves na Plaza Imóveis (Av. Pres. Castelo Branco, 700). Tabela de 09/07/2026 (confirmar valor).' })],
+  },
+  {
+    id: 'sobrado-jardim-real-oceanic',
+    nome: 'Sobrado individual Jardim Real (Oceanic)',
+    cidade: 'Praia Grande',
+    bairro: 'Jardim Real',
+    endereco: 'Jardim Real - Praia Grande/SP (a tabela não traz o endereço)',
+    fase: 'pronto',
+    tabelas: tab(OCEANIC, PREFIXO + '2. CASAS/OCEANIC - Sobrado 2 dorm (Jd.Real).pdf'),
+    unidades: [rv(OCEANIC, { un: 'Sobrado', categoria: 'casa', tipologia: 'Sobrado individual 2 dorms (1 suíte)', dorm: 2, suites: 1, area: 69, vagas: '1', valor: 470000, obs: '150 m da praia. À vista ou financiamento bancário. Chaves: agendar. Comissão fifty.' })],
+  },
+  {
+    id: 'casa-jose-carlos-borstens-275',
+    nome: 'Casa Rua José Carlos Borstens, 275',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Rua José Carlos Borstens, 275 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(OCEANIC, PREFIXO + '2. CASAS/OCEANIC - Sobrado 2 dorm (Jd.Real).pdf'),
+    unidades: [rv(OCEANIC, { un: 'Casa', categoria: 'casa', tipologia: 'Casa 3 dorms (1 suíte) + edícula', dorm: 3, suites: 1, area: 82.25, vagas: '2', valor: 740000, iptu: 380, obs: 'Preço reduzido. 82,25 m² úteis + edícula com 1 dormitório e banheiro; churrasqueira e quintal; 200 m da praia. À vista; aceita permuta por imóvel e carro e pequeno financiamento direto. Imóvel com inquilino: avisar com antecedência. Comissão R$ 30 mil.' })],
+  },
+  {
+    id: 'casa-guaianazes-49',
+    nome: 'Casa geminada Rua Guaianazes, 49',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Guaianazes, 49 - Vila Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(SERGIO, PREFIXO + '2. CASAS/SÉRGIO - Casa 3 dorm (Tupi).pdf'),
+    unidades: [rv(SERGIO, { un: 'Casa', categoria: 'casa', tipologia: 'Casa geminada 3 dorms (1 suíte)', dorm: 3, suites: 1, area: 110, vagas: '', valor: 850000, iptu: 420, obs: 'Portão automatizado, churrasqueira, terreno 5 x 32 m, 110 m² de área útil. A tabela não informa vagas.' })],
+  },
+  {
+    id: 'sobrado-tamoios-guadalajara',
+    nome: 'Sobrado Rua Tamoios esq. Guadalajara',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Tamoios, esquina com Rua Guadalajara - Vila Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ADRIANOS, PREFIXO + '2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf'),
+    unidades: [rv(ADRIANOS, { un: 'Sobrado', categoria: 'casa', tipologia: 'Sobrado 4 dorms (1 suíte)', dorm: 4, suites: 1, area: 135, vagas: '3', valor: 695000, iptu: 250, obs: 'Terreno 10 x 15 m (150 m²), 2 banheiros, garagem para 3 carros, zona 2. Somente à vista. Chaves: agendar. Comissão 6% (fifty).' })],
+  },
+  {
+    id: 'sobrado-cond-milton-de-oliveira-112',
+    nome: 'Sobrado em condomínio Av. Milton de Oliveira, 112',
+    cidade: 'Praia Grande',
+    bairro: 'Melvi',
+    endereco: 'Av. Milton de Oliveira, 112 - Jardim Melvi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ADRIANOS, PREFIXO + '2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf'),
+    unidades: [rv(ADRIANOS, { un: 'Casa 02', categoria: 'casa', tipologia: 'Sobrado em condomínio 2 dorms', dorm: 2, suites: 0, vagas: '', valor: 225000, iptu: 190, obs: 'Entrada lateral individual, mobiliado, lavabo no térreo; 100 m da pista. Sem condomínio. Estuda propostas; aceita financiamento bancário. Comissão 5%.' })],
+  },
+  {
+    id: 'sobrado-uruguai-162',
+    nome: 'Sobrado Rua Uruguai, 162',
+    cidade: 'Praia Grande',
+    bairro: 'Guilhermina',
+    endereco: 'Rua Uruguai, 162 - Vila Guilhermina - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ADRIANOS, PREFIXO + '2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf'),
+    unidades: [rv(ADRIANOS, { un: 'Sobrado', categoria: 'casa', tipologia: 'Sobrado 2 suítes', dorm: 2, suites: 2, vagas: '2', valor: 540000, obs: '150 m do mar. Portão automático, suítes com sacada, cozinha com copa, churrasqueira no fundo. Aceita financiamento bancário. Comissão 6% (fifty).' })],
+  },
+  {
+    id: 'loja-kennedy-3795',
+    nome: 'Loja Av. Pres. Kennedy, 3.795',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Av. Presidente Kennedy, 3.795 - Aviação - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ADRIANOS, PREFIXO + '3. COMERCIAL/ADRIANOS - Loja (Aviação).pdf'),
+    unidades: [rv(ADRIANOS, { un: 'Loja', categoria: 'comercial', tipologia: 'Loja', dorm: 0, suites: 0, area: 40, vagas: '', valor: 420000, iptu: 150, obs: '2 portas de aço, banheiro dividido em dois, 40 m² construídos. Imóvel escriturado. Comissão 6% (fifty).' })],
+  },
+  {
+    id: 'apto-guaianazes-292',
+    nome: 'Apto Rua Guaianazes, 292',
+    cidade: 'Praia Grande',
+    bairro: 'Tupi',
+    endereco: 'Rua Guaianazes, 292 - Vila Tupi - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ADRIANOS, PREFIXO + '2. CASAS/ADRIANOS - Casa 2 dorm (Caiçara) + Sobrado 2 dorm (Guilhermina) + Sobrado 4 dorm (Tupi).pdf'),
+    unidades: [rv(ADRIANOS, { un: 'Frente rua', dorm: 2, suites: 1, area: 90, vagas: '', valor: 540000, cond: 500, iptu: 370, obs: '200 m do mar, apartamento de frente para a rua. Lazer: piscina, salões, ginástica. Imóvel escriturado; aceita financiamento bancário. Comissão 6% (fifty).' })],
+  },
+  {
+    id: 'casa-bestilleiro-lopes-685',
+    nome: 'Casa triplex Rua José Bestilleiro Lopes, 685',
+    cidade: 'Praia Grande',
+    bairro: 'Nova Mirim',
+    endereco: 'Rua José Bestilleiro Lopes, 685 - Nova Mirim (zona 3) - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(ERICK, PREFIXO + '2. CASAS/ERICK PEREIRA - Triplex geminado 3 dorm (Nova Mirim).pdf'),
+    unidades: [rv(ERICK, { un: 'Casa', categoria: 'casa', tipologia: 'Casa triplex geminada 3 dorms (1 suíte)', dorm: 3, suites: 1, area: 175, vagas: '1 coberta', valor: 440000, iptu: 284, obs: 'Sala de TV com banheiro, 2 edículas assobradadas (1 dormitório, sala, cozinha e banheiro, acesso individual), espaço gourmet com churrasqueira no último pavimento. Terreno 5 x 25,90 m; 175 m² construídos. Fica mobiliada. Aceita financiamento bancário. Visitas agendadas e acompanhadas. Comissão 5%.' })],
   },
 ];
 
