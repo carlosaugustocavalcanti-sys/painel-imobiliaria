@@ -161,6 +161,18 @@
         "Viva Melvi - Casa em Cond 2 dorm (Melvi)",
         "VÊNETO - Casas em Cond 2 e 3 dorm (V. Sônia)"
       ]
+    },
+    {
+      "data": "2026-10-28",
+      "arquivosLidos": [
+        "TABELA MÉRITO IMÓVEIS - OUTUBRO ATUALIZADA.pdf (atualização 24/10/2026), enviada pelo Carlos fora do Drive"
+      ],
+      "resumo": "Mérito Imóveis: 6 imóveis novos na origem drive-mes (Ed. São Clemente AP 34 R$ 219 mil, Ed. Adalgisa AP 711 R$ 260 mil, Ed. Santo Eugênio AP 6 kitnet R$ 135 mil, apto 1 dorm Aviação R$ 320 mil, casa em condomínio Parque das Américas R$ 270 mil, Ed. De Lucca AP 33 em construção R$ 600 mil). O Residencial Copacabana Beach (R$ 1,85 mi) já estava no painel Vista Mar com os mesmos valores.",
+      "pendentesDeConferencia": [
+        "Mérito, apto 1 dorm na Aviação (R$ 320 mil): a tabela não traz prédio nem endereço, e a área (37,24 m²) é igual à do Ed. Adalgisa na mesma tabela; marcado Confirmar.",
+        "Mérito, Ed. De Lucca AP 33 (Av. Alberto Santos Dumont, 324, Aviação): o painel tem o lançamento De Lucca na mesma avenida, nº 161, Guilhermina. Ficaram separados; se for o mesmo prédio, acrescentar em FUNDIR_MANUAL.",
+        "Mérito, Ed. Adalgisa AP 711: a senha da fechadura eletrônica ficou só no PDF (o painel é público)."
+      ]
     }
   ],
   "pendentes": {

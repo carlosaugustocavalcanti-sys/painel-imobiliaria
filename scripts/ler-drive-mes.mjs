@@ -25,6 +25,9 @@ const rv = (fonteRef, x) => ({
   tabela: fonteRef.data,
   ...(x.vistaMar ? { vistaMar: true } : {}),
   ...(x.conf ? { conf: true } : {}),
+  ...(x.acesso ? { acesso: x.acesso } : {}),
+  ...(x.fotos ? { fotos: x.fotos } : {}),
+  ...(x.mercado ? { mercado: x.mercado } : {}),
   ...(x.fluxo ? { entrada: x.fluxo.entrada, fluxo: x.fluxo } : {}),
 });
 const tab = (f, arquivo) => [{ fonte: f.fonte, contato: f.contato, atualizadoEm: f.data, arquivo }];
@@ -77,6 +80,8 @@ const OCEANIC = { fonte: 'Oceanic Imóveis (tabela de 22/10/2026)', contato: '(1
 const SERGIO = { fonte: 'Sérgio Mendes', contato: '(13) 99724-0787', data: 'sem data (arquivo de 27/10/2026)' };
 const ADRIANOS = { fonte: "Adriano's Imóveis (tabela de exclusividades, outubro/2026)", contato: '(13) 97412-2695', data: 'outubro/2026' };
 const ERICK = { fonte: 'Erick Pereira (tabela de 22/10/2026)', contato: '(13) 98127-8835', data: '22/10/2026' };
+const MERITO = { fonte: 'Mérito Imóveis (tabela atualizada em 24/10/2026)', contato: 'Marta (13) 99793-5554 · Beatriz (13) 98881-8770 · Mérito (13) 3491-1001', data: '24/10/2026' };
+const MERITO_PDF = 'Downloads/TABELA MÉRITO IMÓVEIS - OUTUBRO ATUALIZADA.pdf (enviada pelo Carlos em 28/10/2026)';
 const PREFIXO = '9. REVENDAS/';
 
 const turim = (un, andar, area, entradaParc, mensal, chaves, total, dorm, suites) => ({
@@ -1393,6 +1398,68 @@ const predios = [
     fase: 'pronto',
     tabelas: tab(ERICK, PREFIXO + '2. CASAS/ERICK PEREIRA - Triplex geminado 3 dorm (Nova Mirim).pdf'),
     unidades: [rv(ERICK, { un: 'Casa', categoria: 'casa', tipologia: 'Casa triplex geminada 3 dorms (1 suíte)', dorm: 3, suites: 1, area: 175, vagas: '1 coberta', valor: 440000, iptu: 284, obs: 'Sala de TV com banheiro, 2 edículas assobradadas (1 dormitório, sala, cozinha e banheiro, acesso individual), espaço gourmet com churrasqueira no último pavimento. Terreno 5 x 25,90 m; 175 m² construídos. Fica mobiliada. Aceita financiamento bancário. Visitas agendadas e acompanhadas. Comissão 5%.' })],
+  },
+  // Tabela da Mérito Imóveis (atualização 24/10/2026). O Copacabana Beach dela (R$ 1,85 mi) já estava no painel Vista Mar.
+  {
+    id: 'ed-sao-clemente-ocian',
+    nome: 'Ed. São Clemente',
+    cidade: 'Praia Grande',
+    bairro: 'Ocian',
+    endereco: 'Rua Carlos Vanderlinde, 105 - Ocian - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(MERITO, MERITO_PDF),
+    unidades: [rv(MERITO, { un: '34', andar: 3, dorm: 1, suites: 0, area: 43, vagas: '1', valor: 219000, cond: 495.89, iptu: 109.04, fotos: 'https://photos.app.goo.gl/2uPFCG2vjwtpqBPk6', obs: 'Recém-reformado, semi-mobiliado; sala, cozinha, 1 banheiro; 3º andar. Condomínio com rateio. Aceita financiamento bancário. Chaves na portaria e na Mérito Imóveis (Av. Pres. Castelo Branco, 7.942 · (13) 3491-1001). Comissão 5%.' })],
+  },
+  {
+    id: 'ed-adalgisa-ocian',
+    nome: 'Ed. Adalgisa',
+    cidade: 'Praia Grande',
+    bairro: 'Ocian',
+    endereco: 'Rua Teófila Vanderlinde, 174 - Ocian - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(MERITO, MERITO_PDF),
+    unidades: [rv(MERITO, { un: '711', andar: 7, dorm: 1, suites: 0, area: 37.24, vagas: '1', valor: 260000, cond: 404, iptu: 155.57, acesso: 'elevador', fotos: 'https://photos.app.goo.gl/XxhBXRVopt3gnr1n6', obs: '100 m da praia, semi-mobiliado; sala, cozinha, 1 banheiro; 7º andar; portaria 24 h e elevador. Aceita financiamento bancário. Chaves: fechadura eletrônica (senha na tabela da Mérito); levar autorização. Comissão 5%.' })],
+  },
+  {
+    id: 'ed-santo-eugenio-ocian',
+    nome: 'Ed. Santo Eugênio',
+    cidade: 'Praia Grande',
+    bairro: 'Ocian',
+    endereco: 'Rua Kikusaburo Tanaka, 3.880 - Ocian - Praia Grande/SP',
+    fase: 'pronto',
+    tabelas: tab(MERITO, MERITO_PDF),
+    unidades: [rv(MERITO, { un: '6', andar: 'Térreo', tipologia: 'Kitnet', dorm: 0, suites: 0, area: 18, vagas: '', valor: 135000, cond: 308.16, iptu: 75.51, fotos: 'https://photos.app.goo.gl/CRK2kRM5ZyNtv6Fy5', obs: 'Dormitório/sala, cozinha, 1 banheiro; térreo; semi-mobiliada. Aceita financiamento bancário. Chaves: Imob. Selma Morgado (R. Kikusaburo Tanaka, 151 - Ocian) ou Mérito Imóveis. A tabela não informa vagas. Comissão 5%.' })],
+  },
+  {
+    id: 'apto-1-dorm-aviacao-merito',
+    nome: 'Apto 1 dorm Aviação (Mérito)',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    fase: 'pronto',
+    tabelas: tab(MERITO, MERITO_PDF),
+    notas: ['A tabela da Mérito não traz o nome do prédio nem o endereço; visitas agendadas com Beatriz (13) 98881-8770.'],
+    unidades: [rv(MERITO, { un: '1 dorm', dorm: 1, suites: 0, area: 37.24, vagas: '1', valor: 320000, cond: 608, iptu: 283, acesso: 'elevador', conf: true, fotos: 'https://photos.app.goo.gl/d8adD97XAmLLdmGZ9', obs: '300 m da praia, semi-mobiliado; sala com sacada, cozinha, 1 banheiro; portaria 24 h e elevador; salão de jogos e brinquedoteca. Aceita financiamento bancário. Área de 37,24 m² igual à do Ed. Adalgisa na mesma tabela: confirmar. Sem endereço na tabela; visitas com Beatriz (13) 98881-8770. Comissão 4%.' })],
+  },
+  {
+    id: 'casa-cond-parque-das-americas-merito',
+    nome: 'Casa em condomínio Parque das Américas (Mérito)',
+    cidade: 'Praia Grande',
+    bairro: 'Parque das Américas',
+    fase: 'pronto',
+    tabelas: tab(MERITO, MERITO_PDF),
+    notas: ['A tabela da Mérito não traz o endereço; chaves na Mérito, agendar com Marta (13) 99793-5554.'],
+    unidades: [rv(MERITO, { un: 'Casa', categoria: 'casa', tipologia: 'Casa em condomínio 2 dorms', dorm: 2, suites: 0, vagas: '1', valor: 270000, fotos: 'https://photos.app.goo.gl/LoXaLju6BSTCidBZ6', obs: 'Com quintal; sala, cozinha, área de serviço, 1 banheiro; zona 3. Aceita financiamento bancário. Sem endereço na tabela; chaves na Mérito (agendar com Marta). Comissão 6% (fifty).' })],
+  },
+  {
+    id: 'ed-de-lucca-aviacao',
+    nome: 'Ed. De Lucca',
+    cidade: 'Praia Grande',
+    bairro: 'Aviação',
+    endereco: 'Av. Alberto Santos Dumont, 324 - Aviação - Praia Grande/SP',
+    fase: 'obra',
+    tabelas: tab(MERITO, MERITO_PDF),
+    notas: ['O painel tem o lançamento De Lucca na Av. Alberto Santos Dumont, 161 (Guilhermina), com 2 dorms de 77,71 m²; a Mérito escreve nº 324, Aviação. Conferir se é o mesmo prédio.'],
+    unidades: [rv(MERITO, { un: '33', mercado: 'revenda', dorm: 2, suites: 1, area: 77, vagas: '1', valor: 600000, obs: 'Em construção. Suíte, banheiro social, área de serviço, sacada, lazer completo; quadra da praia. Ainda sem fotos. Ligar antes para liberar a entrada. Comissão 5%.' })],
   },
 ];
 
