@@ -392,109 +392,109 @@
    "noEstoque": true,
    "fotos": [
     {
-     "arquivo": "fotos/porto-marina/porto_01.jpg",
+     "arquivo": "fotos/porto-marina/hd_01_piscina.jpg",
      "rotulo": "Piscina",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_02.jpg",
+     "arquivo": "fotos/porto-marina/hd_02_varanda-gourmet.jpg",
      "rotulo": "Varanda gourmet",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_03.jpg",
+     "arquivo": "fotos/porto-marina/hd_03_fachada.jpg",
      "rotulo": "Fachada",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_04.jpg",
+     "arquivo": "fotos/porto-marina/hd_04_sala-de-jantar.jpg",
      "rotulo": "Sala de jantar",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_05.jpg",
+     "arquivo": "fotos/porto-marina/hd_05_suite.jpg",
      "rotulo": "Suíte",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_06.jpg",
+     "arquivo": "fotos/porto-marina/hd_06_quarto.jpg",
      "rotulo": "Quarto",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_07.jpg",
+     "arquivo": "fotos/porto-marina/hd_07_cozinha.jpg",
      "rotulo": "Cozinha",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_08.jpg",
+     "arquivo": "fotos/porto-marina/hd_08_salao.jpg",
      "rotulo": "Salão",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_09.jpg",
+     "arquivo": "fotos/porto-marina/hd_09_sala-de-estar.jpg",
      "rotulo": "Sala de estar",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_10.jpg",
+     "arquivo": "fotos/porto-marina/hd_10_varanda-vista-mar.jpg",
      "rotulo": "Varanda vista mar",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_11.jpg",
+     "arquivo": "fotos/porto-marina/hd_11_academia.jpg",
      "rotulo": "Academia",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_12.jpg",
+     "arquivo": "fotos/porto-marina/hd_12_sala-de-jogos.jpg",
      "rotulo": "Sala de jogos",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_13.jpg",
+     "arquivo": "fotos/porto-marina/hd_13_quadra-na-cobertura.jpg",
      "rotulo": "Quadra na cobertura",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_14.jpg",
+     "arquivo": "fotos/porto-marina/hd_14_terraco.jpg",
      "rotulo": "Terraço",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_15.jpg",
+     "arquivo": "fotos/porto-marina/hd_15_bicicletario.jpg",
      "rotulo": "Bicicletário",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_16.jpg",
+     "arquivo": "fotos/porto-marina/hd_16_espaco-gamer.jpg",
      "rotulo": "Espaço gamer",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_17.jpg",
+     "arquivo": "fotos/porto-marina/hd_17_playground.jpg",
      "rotulo": "Playground",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_18.jpg",
+     "arquivo": "fotos/porto-marina/hd_18_brinquedoteca.jpg",
      "rotulo": "Brinquedoteca",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_19.jpg",
+     "arquivo": "fotos/porto-marina/hd_19_espaco-gourmet-externo.jpg",
      "rotulo": "Espaço gourmet externo",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_20.jpg",
+     "arquivo": "fotos/porto-marina/hd_20_sauna.jpg",
      "rotulo": "Sauna",
-     "real": false
+     "hd": true
     },
     {
-     "arquivo": "fotos/porto-marina/porto_21.jpg",
+     "arquivo": "fotos/porto-marina/hd_21_sala-integrada.jpg",
      "rotulo": "Sala integrada",
-     "real": false
+     "hd": true
     }
    ]
   },

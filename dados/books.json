@@ -488,6 +488,218 @@
           "real": true
         }
       ]
+    },
+    "porto-marina": {
+      "nome": "Porto Marina",
+      "pasta": "~/OneDrive/Outros/Lesan/Lançamentos/PORTO MARINA",
+      "pdf": "Book porto marina.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 3,
+          "rotulo": "Piscina",
+          "corte": [
+            0,
+            0,
+            1587,
+            745
+          ]
+        },
+        {
+          "imagem": 4,
+          "rotulo": "Varanda gourmet",
+          "corte": [
+            0,
+            0,
+            1587,
+            780
+          ]
+        },
+        {
+          "imagem": 5,
+          "rotulo": "Fachada",
+          "corte": [
+            0,
+            0,
+            1588,
+            795
+          ]
+        },
+        {
+          "imagem": 14,
+          "rotulo": "Sala de jantar",
+          "corte": [
+            0,
+            140,
+            1587,
+            700
+          ]
+        },
+        {
+          "imagem": 15,
+          "rotulo": "Suíte",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 16,
+          "rotulo": "Quarto",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 17,
+          "rotulo": "Cozinha",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 18,
+          "rotulo": "Salão",
+          "corte": [
+            0,
+            140,
+            1587,
+            700
+          ]
+        },
+        {
+          "imagem": 19,
+          "rotulo": "Sala de estar",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 20,
+          "rotulo": "Varanda vista mar",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 21,
+          "rotulo": "Academia",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 22,
+          "rotulo": "Sala de jogos",
+          "corte": [
+            0,
+            170,
+            1588,
+            610
+          ]
+        },
+        {
+          "imagem": 23,
+          "rotulo": "Quadra na cobertura",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 24,
+          "rotulo": "Terraço"
+        },
+        {
+          "imagem": 38,
+          "rotulo": "Bicicletário",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 39,
+          "rotulo": "Espaço gamer",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 40,
+          "rotulo": "Playground",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 41,
+          "rotulo": "Brinquedoteca",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 42,
+          "rotulo": "Espaço gourmet externo",
+          "corte": [
+            0,
+            170,
+            830,
+            865
+          ]
+        },
+        {
+          "imagem": 43,
+          "rotulo": "Sauna",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        },
+        {
+          "imagem": 44,
+          "rotulo": "Sala integrada",
+          "corte": [
+            0,
+            170,
+            1587,
+            870
+          ]
+        }
+      ]
     }
   }
 }

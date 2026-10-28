@@ -1,16 +1,19 @@
 // Tira fotos em alta resolução dos books (PDF ou pasta de páginas) conforme dados/books.json,
 // recorta (logos, legendas, molduras, bordas transparentes), reduz para no máximo 1600 px
 // e atualiza public/dados/fotos.json. Usa o `sips` do macOS.
-// Uso: node scripts/importar-books.mjs [pasta padrão dos books, padrão ~/Downloads]
+// Uso: node scripts/importar-books.mjs [pasta padrão dos books, padrão ~/Downloads] [prédios, ex.: porto-marina]
 import { execFileSync } from 'node:child_process';
 import { mkdirSync, mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { homedir, tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { imagensDoPdf } from './pdf-imagens.mjs';
 
-const pastaPadrao = process.argv[2] ?? join(homedir(), 'Downloads');
-const caminho = (pasta, arquivo) => join((pasta ?? pastaPadrao).replace(/^~(?=\/|$)/, homedir()), arquivo);
 const books = JSON.parse(readFileSync('dados/books.json', 'utf8'));
+const args = process.argv.slice(2);
+// argumento com nome de prédio do books.json importa só ele; os outros ficam como estão
+const so = args.filter((a) => a in books.predios);
+const pastaPadrao = args.find((a) => !(a in books.predios)) ?? join(homedir(), 'Downloads');
+const caminho = (pasta, arquivo) => join((pasta ?? pastaPadrao).replace(/^~(?=\/|$)/, homedir()), arquivo);
 const manifesto = JSON.parse(readFileSync('public/dados/fotos.json', 'utf8'));
 const estoque = JSON.parse(readFileSync('public/dados/estoque.json', 'utf8'));
 const tmp = mkdtempSync(join(tmpdir(), 'books-'));
@@ -24,6 +27,7 @@ const ladoMaior = (arq) =>
   Math.max(...[...sips('-g', 'pixelWidth', '-g', 'pixelHeight', arq).toString().matchAll(/pixel(?:Width|Height): (\d+)/g)].map((x) => +x[1]));
 
 for (const [chave, book] of Object.entries(books.predios)) {
+  if (so.length && !so.includes(chave)) continue;
   const noEstoque = estoque.predios.some((p) => p.id === chave);
   const destino = `public/fotos/${chave}`;
   mkdirSync(destino, { recursive: true });

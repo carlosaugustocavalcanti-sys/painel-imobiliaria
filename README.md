@@ -65,10 +65,11 @@ node scripts/importar-fotos.mjs <html do artefato salvo>
 Fotos em alta resolução (até 1.600 px) saem dos books em PDF e das páginas de book (pastas Downloads e OneDrive). O `scripts/pdf-imagens.mjs` lê tanto JPEG quanto imagens compactadas do PDF e corta as bordas transparentes. A lista do que usar, o rótulo de cada foto e o recorte (para tirar logo, legenda, moldura e texto) ficam em `dados/books.json`:
 
 ```bash
-node scripts/importar-books.mjs    # padrão: ~/Downloads
+node scripts/importar-books.mjs                  # padrão: ~/Downloads
+node scripts/importar-books.mjs porto-marina     # só um prédio
 ```
 
-Hoje há Harmony Residence (19 fotos), Max 10 (22), Seven Guilhermina (15), Fátima II (14, com a obra e a sacada em foto real) e Personnalité (13 páginas recortadas), todos em alta resolução. Bella Collina e Porto Marina continuam com as fotos de 640 px do artefato, porque o OneDrive só tem o PDF de valores deles, sem book. O leitor trata o fundo verde de chroma key dos books em vídeo como vazio e contorna dois limites do `sips` (recorte `0 0` centraliza; recorte encostado na borda é ignorado).
+Hoje há Harmony Residence (19 fotos), Max 10 (22), Seven Guilhermina (15), Fátima II (14, com a obra e a sacada em foto real), Personnalité (13 páginas recortadas) e Porto Marina (21, do book na pasta Lesan/Lançamentos do OneDrive), todos em alta resolução. Bella Collina continua com as fotos de 640 px do artefato, porque o OneDrive só tem o PDF de valores dele, sem book. O leitor trata o fundo verde de chroma key dos books em vídeo como vazio e contorna dois limites do `sips` (recorte `0 0` centraliza; recorte encostado na borda é ignorado).
 
 Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 
