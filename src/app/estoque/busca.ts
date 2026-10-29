@@ -111,6 +111,17 @@ export function ehFrenteMar(u: Unidade, p: Predio): boolean {
   return FRENTE_MAR.test(normalizar([p.nome, ...regs.flatMap((r) => [r.vista, r.obs, r.det, r.tipologia, r.promo])].join(' ')));
 }
 
+/** Etiqueta de mar da unidade: "Frente mar" (com o detalhe da tabela, se houver), a vista da tabela, ou vazio.
+ *  Prédio na Av. Castelo Branco sem "frente" no texto vira "Frente mar"; "Sacada vista mar" vira "Frente mar · Sacada vista mar". */
+export function rotuloMar(u: Unidade, p: Predio): string {
+  const vista = u.vistaMar ? u.vista?.trim() || '' : '';
+  if (!ehFrenteMar(u, p)) return u.vistaMar ? vista || 'Vista mar' : '';
+  const t = normalizar(vista);
+  if (FRENTE_MAR.test(t)) return vista;
+  if (!t || CASTELO_BRANCO.test(t) || /^vista (para o )?mar$/.test(t)) return 'Frente mar';
+  return `Frente mar · ${vista}`;
+}
+
 export type Comissao = 'cinco' | 'fifty';
 
 const COMISSAO_5 = /comiss[a-z]*[^|;]{0,40}?(?<![\d,.])5\s*%|(?<![\d,.])5\s*%\s*(de\s+)?comiss/;

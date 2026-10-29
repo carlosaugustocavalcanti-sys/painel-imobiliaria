@@ -9,7 +9,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
-import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, passa, montarLinhas } from '../estoque/busca';
+import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, passa, montarLinhas, rotuloMar } from '../estoque/busca';
 import { brl, brl2, brlK, faixa, m2, num } from '../estoque/formato';
 import { Predio, RegistroUnidade, Unidade } from '../estoque/modelo';
 import { CardGerador } from '../card/card-gerador';
@@ -120,6 +120,11 @@ export class PredioDetalhe {
   /** Link do anúncio no site da Lesan, mesmo quando o registro principal da unidade veio de outra tabela. */
   protected anuncioDe(u: Unidade) {
     return u.anuncio ?? u.outras?.find((o) => o.anuncio)?.anuncio;
+  }
+
+  /** Frente mar (texto da tabela ou prédio na Av. Castelo Branco) ou a vista que a tabela informa. */
+  protected marDe(u: Unidade) {
+    return rotuloMar(u, this.predio());
   }
 
   protected async copiar(u: Unidade) {

@@ -1,4 +1,4 @@
-import { FASE_ROTULO } from './busca';
+import { FASE_ROTULO, rotuloMar } from './busca';
 import { brl, brl2, m2, vagasTexto } from './formato';
 import { Predio, Unidade } from './modelo';
 
@@ -7,7 +7,7 @@ export function textoCliente(p: Predio, u: Unidade): string {
   return [
     `${p.nome} · ${p.bairro !== 'A confirmar' ? p.bairro + ', ' : ''}${p.cidade}`,
     [u.tipologia, u.area ? m2(u.area) : '', vagasTexto(u.vagas)].filter(Boolean).join(' · '),
-    u.vistaMar ? u.vista || 'Vista para o mar' : '',
+    rotuloMar(u, p),
     u.valor ? `Valor: ${brl(u.valor)}` : 'Valor sob consulta',
     u.entrada ? `Entrada a partir de ${brl(u.entrada)}` : '',
     u.cond ? `Condomínio: ${brl2(u.cond)}` : '',

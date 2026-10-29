@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto, rotuloMar } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -83,6 +83,18 @@ describe('busca', () => {
     ]);
     expect(ls.filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['a:0', 'a:1', 'b:0']);
     expect(L.filter((l) => passa(l, F({ frente: true }))).length).toBe(0);
+  });
+
+  it('rótulo de mar: prédio na Av. Castelo Branco é sempre frente mar, mesmo sem vista na tabela', () => {
+    const u = (extra: Partial<Unidade>): Unidade => ({ ref: 'x:0', origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
+    const cb = predio({ endereco: 'Avenida Presidente Castelo Branco, 2808 - Vila Guilhermina' });
+    const rua = predio({ endereco: 'Rua Peru, 100' });
+    expect(rotuloMar(u({}), cb)).toBe('Frente mar');
+    expect(rotuloMar(u({ vistaMar: true, vista: 'Vista mar · Av. Pres. Castelo Branco' }), cb)).toBe('Frente mar');
+    expect(rotuloMar(u({ vistaMar: true, vista: 'Sacada vista mar' }), cb)).toBe('Frente mar · Sacada vista mar');
+    expect(rotuloMar(u({ vistaMar: true, vista: 'Frente mar total' }), cb)).toBe('Frente mar total');
+    expect(rotuloMar(u({ vistaMar: true, vista: 'Vista para o mar' }), rua)).toBe('Vista para o mar');
+    expect(rotuloMar(u({}), rua)).toBe('');
   });
 
   it('a busca ignora acentos e procura em observações', () => {
