@@ -169,9 +169,8 @@ export function pagamentosDe(u: Unidade, p: Predio): Pagto[] {
 export function montarLinhas(predios: Predio[]): Linha[] {
   const linhas: Linha[] = [];
   for (const p of predios) {
-    const textoPredio = normalizar(
-      [p.nome, p.bairro, ...(p.bairroTextos ?? []), p.cidade, p.endereco, ...(p.fontes ?? [])].join(' '),
-    );
+    // Sem as fontes do prédio: buscar "lesan" traz só as unidades que a Lesan anuncia, não o prédio inteiro.
+    const textoPredio = normalizar([p.nome, p.bairro, ...(p.bairroTextos ?? []), p.cidade, p.endereco].join(' '));
     for (const u of p.unidades ?? []) {
       const regs = [u, ...(u.outras ?? [])];
       linhas.push({
