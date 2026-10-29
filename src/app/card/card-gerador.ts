@@ -79,7 +79,8 @@ export class CardGerador {
       await Promise.all([carregarFontes(), this.fotosSrv.carregar()]);
       const book = this.fotosSrv.doPredio(p);
       const d = cardDe(p, u);
-      if (book.length) d.rodape = d.rodape.replace(' Valores sujeitos', ' Imagens ilustrativas. Valores sujeitos');
+      // fotos reais (obra, anúncio do site) não são ilustrativas: a frase só entra com render do book
+      if (book.some((f) => !f.real)) d.rodape = d.rodape.replace(' Valores sujeitos', ' Imagens ilustrativas. Valores sujeitos');
       // sem lista de lazer na tabela: usa os espaços de lazer que aparecem nas fotos do book
       if (!d.lazer.length) d.lazer = lazerDasFotos(book);
       this.dados.set(d);

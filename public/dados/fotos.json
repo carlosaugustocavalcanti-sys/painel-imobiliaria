@@ -1,5 +1,5 @@
 {
- "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px.",
+ "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px. Fotos \"site_\" vêm da galeria do anúncio no site da Lesan Imóveis (1024 px, fotos reais do imóvel).",
  "predios": {
   "fatima": {
    "nome": "Fátima II",
@@ -647,6 +647,122 @@
      "arquivo": "fotos/seven-guilhermina/hd_15_suite.jpg",
      "rotulo": "Suíte",
      "hd": true
+    }
+   ]
+  },
+  "lesan-site-178": {
+   "nome": "Avenida Presidente Castelo Branco, 2808",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/lesan-site-178/site_01_vista-para-o-mar.jpg",
+     "rotulo": "Vista para o mar",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_02_varanda-envidracada-com-vista-para-o-mar.jpg",
+     "rotulo": "Varanda envidraçada com vista para o mar",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_03_varanda-lateral.jpg",
+     "rotulo": "Varanda lateral",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_04_sala-de-estar.jpg",
+     "rotulo": "Sala de estar",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_05_sala-de-jantar.jpg",
+     "rotulo": "Sala de jantar",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_06_suite.jpg",
+     "rotulo": "Suíte",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_07_suite.jpg",
+     "rotulo": "Suíte",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_08_banheiro-da-suite.jpg",
+     "rotulo": "Banheiro da suíte",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_09_quarto-com-vista-para-o-mar.jpg",
+     "rotulo": "Quarto com vista para o mar",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_10_banheiro.jpg",
+     "rotulo": "Banheiro",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_11_terceiro-quarto.jpg",
+     "rotulo": "Terceiro quarto",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_12_terceiro-quarto.jpg",
+     "rotulo": "Terceiro quarto",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_13_cozinha.jpg",
+     "rotulo": "Cozinha",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_14_cozinha.jpg",
+     "rotulo": "Cozinha",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_15_cozinha.jpg",
+     "rotulo": "Cozinha",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_16_area-de-servico.jpg",
+     "rotulo": "Área de serviço",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_17_hall-social.jpg",
+     "rotulo": "Hall social",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_18_hall-social.jpg",
+     "rotulo": "Hall social",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_19_academia.jpg",
+     "rotulo": "Academia",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_20_piscina.jpg",
+     "rotulo": "Piscina",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_21_salao-de-festas.jpg",
+     "rotulo": "Salão de festas",
+     "real": true
+    },
+    {
+     "arquivo": "fotos/lesan-site-178/site_22_sauna.jpg",
+     "rotulo": "Sauna",
+     "real": true
     }
    ]
   }

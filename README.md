@@ -71,6 +71,8 @@ node scripts/importar-books.mjs porto-marina     # só um prédio
 
 Hoje há Harmony Residence (19 fotos), Max 10 (22), Seven Guilhermina (15), Fátima II (14, com a obra e a sacada em foto real), Personnalité (13 páginas recortadas) e Porto Marina (21, do book na pasta Lesan/Lançamentos do OneDrive), todos em alta resolução. Bella Collina continua com as fotos de 640 px do artefato, porque o OneDrive só tem o PDF de valores dele, sem book. O leitor trata o fundo verde de chroma key dos books em vídeo como vazio e contorna dois limites do `sips` (recorte `0 0` centraliza; recorte encostado na borda é ignorado).
 
+Anúncios do site da Lesan podem ganhar as fotos da galeria do próprio anúncio (1.024 px, o maior tamanho que a Praedium serve), na pasta `public/fotos/lesan-site-<cód>/` com o prefixo `site_`, marcadas como foto real. Hoje há o cód. 178 (Av. Presidente Castelo Branco, 2808, 22 fotos).
+
 Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 
 ## Painéis antigos

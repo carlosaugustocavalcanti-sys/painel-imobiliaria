@@ -5,7 +5,7 @@ import { Predio } from '../estoque/modelo';
 export interface FotoBook {
   arquivo: string;
   rotulo: string;
-  /** Foto real (ex.: obra); as demais são renders do book: "Imagem ilustrativa". */
+  /** Foto real (ex.: obra, galeria do anúncio no site); as demais são renders do book: "Imagem ilustrativa". */
   real?: boolean;
 }
 
