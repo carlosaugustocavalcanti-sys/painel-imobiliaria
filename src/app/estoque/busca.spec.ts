@@ -256,4 +256,19 @@ describe('comissão', () => {
     expect(ls.filter((l) => passa(l, F({ comissao: 'cinco' }))).map((l) => l.u.unidade)).toEqual(['2', '3']);
     expect(ls.filter((l) => passa(l, F({}))).length).toBe(4);
   });
+
+  it('unidade da Lesan nunca é fifty, nem quando outra imobiliária oferece fifty', () => {
+    const base: Omit<Unidade, 'ref'> = { origem: 'site-lesan', origens: ['site-lesan', 'vista-mar'], mercado: 'revenda', fase: 'pronto', status: 'disponivel' };
+    const outra = { ...base, ref: 'g:0', origem: 'vista-mar' as const, obs: 'Comissão: Fifty (5%)' };
+    const ls = montarLinhas([
+      predio({
+        notas: ['Parceria fifty'],
+        unidades: [
+          { ...base, ref: 'a:0', unidade: '1', outras: [outra] },
+          { ...base, ref: 'a:1', unidade: '2' },
+        ],
+      }),
+    ]);
+    expect(ls.map((l) => l.comissoes)).toEqual([['cinco'], []]);
+  });
 });

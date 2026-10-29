@@ -125,12 +125,13 @@ export function comissoesDeTexto(texto: string | undefined): Comissao[] {
   return r;
 }
 
-/** Comissão de uma unidade: o que as tabelas dela dizem; sem isso, o que a tabela do prédio diz. */
+/** Comissão de uma unidade: o que as tabelas dela dizem; sem isso, o que a tabela do prédio diz.
+ *  A Lesan não trabalha com fifty: unidade anunciada por ela é comissão normal, mesmo que outra imobiliária ofereça fifty. */
 export function comissoesDe(u: Unidade, p: Predio): Comissao[] {
   const regs = [u, ...(u.outras ?? [])];
   const daUnidade = new Set(regs.flatMap((r) => comissoesDeTexto([r.obs, r.det, r.promo].join(' | '))));
-  if (daUnidade.size) return [...daUnidade];
-  return comissoesDeTexto([...(p.notas ?? []), ...(p.diferenciais ?? [])].join(' | '));
+  const r = daUnidade.size ? [...daUnidade] : comissoesDeTexto([...(p.notas ?? []), ...(p.diferenciais ?? [])].join(' | '));
+  return regs.some((x) => x.origem === 'lesan' || x.origem === 'site-lesan') ? r.filter((c) => c !== 'fifty') : r;
 }
 
 export type Pagto = 'bancario' | 'direto';
