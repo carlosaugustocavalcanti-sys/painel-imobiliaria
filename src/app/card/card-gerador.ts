@@ -21,7 +21,7 @@ type Imagem = CanvasImageSource & { width: number; height: number };
 /** Ambientes de lazer reconhecidos nos rótulos das fotos do book (sem repetir: "Cinema" e "Home theater" contam uma vez). */
 const LAZER_FOTO: [string, RegExp][] = [
   ['Piscina', /piscina/i],
-  ['Spa', /spa\b|sauna/i],
+  ['Spa', /\bspa\b|sauna/i], // \b antes: "Espaço gamer" não é spa
   ['Cinema', /cinema|home theater/i],
   ['Academia', /academia/i],
   ['Espaço gourmet', /gourmet|grill|churrasq/i],
