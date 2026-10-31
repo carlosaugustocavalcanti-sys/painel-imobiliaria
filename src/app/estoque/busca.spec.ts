@@ -80,6 +80,8 @@ describe('busca', () => {
     const ls = montarLinhas([
       predio({ id: 'a', unidades: [u('a:0', { vista: 'Frente ao mar' }), u('a:1', { obs: 'Prédio frente mar · sacada' }), u('a:2', { obs: 'Em frente ao futuro píer' })] }),
       predio({ id: 'b', endereco: 'Av. Pres. Castelo Branco, 12000', unidades: [u('b:0', { obs: 'Lado rua' })] }),
+      // Seven Guilhermina: posição da unidade no prédio, longe da praia
+      predio({ id: 'c', endereco: 'Rua Dr. João Sampaio, 840', unidades: [u('c:0', { det: 'Frente, lado praia' })] }),
     ]);
     expect(ls.filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['a:0', 'a:1', 'b:0']);
     expect(L.filter((l) => passa(l, F({ frente: true }))).length).toBe(0);

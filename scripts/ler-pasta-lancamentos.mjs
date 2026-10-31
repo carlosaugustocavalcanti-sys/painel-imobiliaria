@@ -192,7 +192,9 @@ function seven() {
     const m = l.match(re);
     if (!m) continue;
     const [, unidade, area, posicao, valor, entrada, parcela, anual, unica] = m;
-    const v = { valor: dinheiro(valor), entrada: dinheiro(entrada), parcVal: dinheiro(parcela), anualVal: dinheiro(anual), unica: dinheiro(unica) };
+    // "FRENTE PRAIA" é o lado do prédio, não frente mar (fica na Rua Dr. João Sampaio): sai "Frente, lado praia"
+    const [onde, lado] = posicao.toLowerCase().split(' ');
+    const v ={ valor: dinheiro(valor), entrada: dinheiro(entrada), parcVal: dinheiro(parcela), anualVal: dinheiro(anual), unica: dinheiro(unica) };
     folgas.push(arred(v.valor - (v.entrada + 24 * v.parcVal + 2 * v.anualVal + v.unica)));
     unidades.push({
       unidade,
@@ -201,7 +203,7 @@ function seven() {
       tipologia: '2 dorms',
       dorm: 2,
       area: decimal(area),
-      det: posicao.charAt(0) + posicao.slice(1).toLowerCase(),
+      det: `${onde.charAt(0).toUpperCase() + onde.slice(1)}, lado ${lado === 'kennedy' ? 'Av. Kennedy' : lado}`,
       vagas: '1',
       valor: v.valor,
       entrada: v.entrada,
