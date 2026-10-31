@@ -117,6 +117,12 @@ describe('busca', () => {
     expect(L.filter((l) => passa(l, F({ q: 'teste' }))).length).toBe(2);
   });
 
+  it('a busca não exige o tipo do prédio: "Residencial Teste" acha o Ed. Teste', () => {
+    expect(L.filter((l) => passa(l, F({ q: 'Residencial Teste' }))).length).toBe(2);
+    expect(L.filter((l) => passa(l, F({ q: 'Edifício teste' }))).length).toBe(2);
+    expect(L.filter((l) => passa(l, F({ q: 'ed.' }))).length).toBe(2);
+  });
+
   it('buscar uma imobiliária traz só as unidades que ela anuncia, não o prédio inteiro', () => {
     const base: Omit<Unidade, 'ref'> = { origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel' };
     const ls = montarLinhas([

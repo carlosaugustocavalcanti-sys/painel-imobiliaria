@@ -101,6 +101,7 @@ export function vagasDe(u: Unidade): number | null {
   return null;
 }
 
+const PREFIXO_PREDIO = /^(residencial|res\.?|edificio|ed\.?|condominio|cond\.?)$/;
 const FRENTE_MAR = /frente\s*(ao\s+|para\s+o\s+|p\/\s*o\s+)?(mar|praia)/;
 const CASTELO_BRANCO = /castelo\s+branco/;
 
@@ -320,7 +321,10 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   }
   if (usa('origem') && f.origem && !u.origens.includes(f.origem)) return false;
   if (usa('q') && f.q.trim()) {
-    for (const termo of normalizar(f.q).split(/\s+/).filter(Boolean)) if (!l.texto.includes(termo)) return false;
+    const termos = normalizar(f.q).split(/\s+/).filter(Boolean);
+    // "Residencial Torres" acha o prédio cadastrado como "Torres" ou "Ed. Torres": o tipo do prédio não precisa bater
+    const nomes = termos.filter((t) => !PREFIXO_PREDIO.test(t));
+    for (const termo of nomes.length ? nomes : termos) if (!l.texto.includes(termo)) return false;
   }
   return true;
 }

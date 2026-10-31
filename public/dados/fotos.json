@@ -847,6 +847,28 @@
      "rotulo": "Living decorado"
     }
    ]
+  },
+  "torres": {
+   "nome": "Torres",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/torres/01_fachada.jpg",
+     "rotulo": "Fachada"
+    },
+    {
+     "arquivo": "fotos/torres/02_piscina-borda-infinita.jpg",
+     "rotulo": "Piscina com borda infinita"
+    },
+    {
+     "arquivo": "fotos/torres/03_varanda-gourmet.jpg",
+     "rotulo": "Varanda gourmet"
+    },
+    {
+     "arquivo": "fotos/torres/04_planta-3-dorms.jpg",
+     "rotulo": "Planta 3 dorms"
+    }
+   ]
   }
  }
 }

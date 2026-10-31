@@ -363,6 +363,11 @@ const FUNDIR_MANUAL = [
   // Tabelas do Drive (mês): mesmo prédio com nome/endereço escrito de outro jeito.
   ['lancamentos:primicia-plaza', 'drive-mes:primicia-plaza-m2'],
   ['lancamentos:costa-atlantica', 'drive-mes:costa-atlantica-fazio'],
+  // Residencial Torres (esquina da Av. Pres. Castelo Branco com a Av. São Romério): a tabela da construtora
+  // e a Ectual dão o nº 15 da São Romério (Bloco B); o Isildo, a esquina. O apto 148 A está nas duas.
+  ['lancamentos:torres', 'isildo:res-torres'],
+  ['lancamentos:torres', 'vista-mar:g59'],
+  ['lancamentos:torres', 'vista-mar:g147'],
   ['isildo:res-torres', 'drive-mes:ed-torres-148a'],
   ['usados:praia-grande-residencial-aviacao', 'drive-mes:ed-praia-grande-marcondes'],
 ];
@@ -453,15 +458,17 @@ const saida = grupos.map(({ membros }) => {
     cidade: base.cidade,
     bairro: membros.find((m) => m.bairro !== 'A confirmar')?.bairro ?? 'A confirmar',
     bairroTextos: bairros,
-    endereco: membros.find((m) => m.endereco)?.endereco || '',
+    // endereço na Av. Castelo Branco ganha: é o que marca o prédio como frente mar (ex.: Torres, na esquina)
+    endereco: membros.find((m) => /castelo branco/i.test(m.endereco))?.endereco || membros.find((m) => m.endereco)?.endereco || '',
     mapa: membros.find((m) => m.mapa && !m.mapaPorNome)?.mapa || membros.find((m) => m.mapa)?.mapa || '',
     mapaPorNome: !membros.some((m) => m.endereco),
     entrega: membros.find((m) => m.entrega)?.entrega || '',
     entregaSort: membros.find((m) => m.entregaSort)?.entregaSort || '',
     fase: base.fase,
     construtora: '',
-    origens: membros.map((m) => m.origem),
-    origemIds: Object.fromEntries(membros.map((m) => [m.origem, m.origemId])),
+    origens: [...new Set(membros.map((m) => m.origem))],
+    // mesmo painel duas vezes no prédio (fusão manual): ids separados por vírgula
+    origemIds: membros.reduce((ids, m) => ({ ...ids, [m.origem]: ids[m.origem] ? `${ids[m.origem]},${m.origemId}` : m.origemId }), {}),
     tabelas: membros.flatMap((m) => m.tabelas),
     fontes: [...new Set(membros.flatMap((m) => m.fontes))],
     ...(lanc ? { lanc } : {}),

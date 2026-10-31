@@ -33,7 +33,7 @@ const igual = (a, b) =>
 const porRef = new Map();
 const predioPorOrigem = new Map();
 for (const p of ESTOQUE.predios) {
-  for (const [o, id] of Object.entries(p.origemIds)) {
+  for (const [o, id] of Object.entries(p.origemIds).flatMap(([o, ids]) => ids.split(',').map((id) => [o, id]))) {
     const k = `${o}:${id}`;
     if (predioPorOrigem.has(k)) erro(`Prédio de origem ${k} aparece em mais de um prédio unificado`);
     predioPorOrigem.set(k, p);
