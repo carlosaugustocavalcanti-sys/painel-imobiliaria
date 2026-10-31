@@ -1,5 +1,5 @@
 {
- "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px. Fotos \"site_\" vêm da galeria do anúncio no site da Lesan Imóveis (1024 px, fotos reais do imóvel).",
+ "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px. Fotos \"site_\" vêm da galeria do anúncio no site da Lesan Imóveis (1024 px, fotos reais do imóvel) ou do site da construtora (perspectivas, até 1600 px).",
  "predios": {
   "fatima": {
    "nome": "Fátima II",
@@ -763,6 +763,88 @@
      "arquivo": "fotos/lesan-site-178/site_22_sauna.jpg",
      "rotulo": "Sauna",
      "real": true
+    }
+   ]
+  },
+  "res-turim": {
+   "nome": "Res. Turim",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/res-turim/site_01_fachada.jpg",
+     "rotulo": "Fachada"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_02_deck-e-piscina.jpg",
+     "rotulo": "Deck e piscina"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_03_playground.jpg",
+     "rotulo": "Playground"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_04_beauty-spa.jpg",
+     "rotulo": "Beauty spa"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_05_area-fitness.jpg",
+     "rotulo": "Área fitness"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_06_area-pet.jpg",
+     "rotulo": "Área pet"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_07_brinquedoteca.jpg",
+     "rotulo": "Brinquedoteca"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_08_pet-place.jpg",
+     "rotulo": "Pet place"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_09_cinema.jpg",
+     "rotulo": "Cinema"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_10_coworking.jpg",
+     "rotulo": "Coworking"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_11_academia.jpg",
+     "rotulo": "Academia"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_12_espaco-grill.jpg",
+     "rotulo": "Espaço grill"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_13_salao-de-festas.jpg",
+     "rotulo": "Salão de festas"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_14_salao-de-jogos.jpg",
+     "rotulo": "Salão de jogos"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_15_sauna.jpg",
+     "rotulo": "Sauna"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_16_bicicletario.jpg",
+     "rotulo": "Bicicletário"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_17_hall-social.jpg",
+     "rotulo": "Hall social"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_18_varanda-decorada.jpg",
+     "rotulo": "Varanda decorada"
+    },
+    {
+     "arquivo": "fotos/res-turim/site_19_living-decorado.jpg",
+     "rotulo": "Living decorado"
     }
    ]
   }

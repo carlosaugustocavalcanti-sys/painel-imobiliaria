@@ -73,6 +73,8 @@ Hoje há Harmony Residence (19 fotos), Max 10 (22), Seven Guilhermina (15), Fát
 
 Anúncios do site da Lesan podem ganhar as fotos da galeria do próprio anúncio (1.024 px, o maior tamanho que a Praedium serve), na pasta `public/fotos/lesan-site-<cód>/` com o prefixo `site_`, marcadas como foto real. Hoje há o cód. 178 (Av. Presidente Castelo Branco, 2808, 22 fotos).
 
+Prédio sem book pode ganhar as perspectivas da galeria do site da construtora, também com o prefixo `site_` (até 1.600 px, sem plantas e implantação), como imagens ilustrativas. Hoje há o Res. Turim (Construmoura, 19 fotos, em `public/fotos/res-turim/`).
+
 Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 
 ## Painéis antigos
