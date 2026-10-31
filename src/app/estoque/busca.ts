@@ -76,6 +76,8 @@ export interface Linha {
   pagamentos: Pagto[];
   /** A tabela diz "frente mar" (ou frente ao mar / frente praia), ou o prédio fica na Av. Castelo Branco. */
   frenteMar: boolean;
+  /** Vista para o mar: a tabela diz, ou a posição na planta da construtora (frente mar ou lateral). */
+  vistaMar: boolean;
   /** Comissão que a tabela informa: 5% sobre o valor da tabela, ou fifty (metade com o parceiro). Vazio = a tabela não diz. */
   comissoes: Comissao[];
   /** Vagas de garagem lidas do texto da tabela ("2 privativas" = 2, "coletiva" = 1, "sem vaga" = 0). null = a tabela não diz. */
@@ -114,11 +116,18 @@ export function ehFrenteMar(u: Unidade, p: Predio): boolean {
   return FRENTE_MAR.test(normalizar([p.nome, ...regs.flatMap((r) => [r.vista, r.obs, r.det, r.tipologia, r.promo])].join(' ')));
 }
 
+/** Vista mar: com posição na planta da construtora, só frente mar e lateral (fundos e o lado de outra torre, não),
+ *  mesmo que a tabela diga outra coisa. Sem posição, vale a tabela. */
+export function ehVistaMar(u: Unidade): boolean {
+  if (u.posicao) return /^(frente mar|lateral)/i.test(u.posicao);
+  return !!u.vistaMar;
+}
+
 /** Etiqueta de mar da unidade: "Frente mar" (com o detalhe da tabela, se houver), a vista da tabela, ou vazio.
  *  Prédio na Av. Castelo Branco sem "frente" no texto vira "Frente mar"; "Sacada vista mar" vira "Frente mar · Sacada vista mar". */
 export function rotuloMar(u: Unidade, p: Predio): string {
   const vista = u.vistaMar ? u.vista?.trim() || '' : '';
-  if (u.posicao) return [u.posicao, !ehFrenteMar(u, p) && u.vistaMar ? vista || 'Vista mar' : ''].filter(Boolean).join(' · ');
+  if (u.posicao) return [!ehFrenteMar(u, p) && ehVistaMar(u) ? 'Vista mar' : '', u.posicao].filter(Boolean).join(' · ');
   if (!ehFrenteMar(u, p)) return u.vistaMar ? vista || 'Vista mar' : '';
   const t = normalizar(vista);
   if (FRENTE_MAR.test(t)) return vista;
@@ -196,6 +205,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         entrega: anoEntrega(u.entregaUnidade || p.entrega, u.fase),
         pagamentos: pagamentosDe(u, p),
         frenteMar: ehFrenteMar(u, p),
+        vistaMar: ehVistaMar(u),
         comissoes: comissoesDe(u, p),
         vagas: vagasDe(u),
         texto:
@@ -296,7 +306,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('todas') && !f.todas && u.status !== 'disponivel') return false;
   if (usa('tipo') && f.tipo && !l.mercados.includes(f.tipo === 'usados' ? 'revenda' : 'construtora')) return false;
   if (usa('categoria') && f.categoria && (u.categoria ?? 'apartamento') !== f.categoria) return false;
-  if (usa('vista') && f.vista && !u.vistaMar) return false;
+  if (usa('vista') && f.vista && !l.vistaMar) return false;
   if (usa('frente') && f.frente && !l.frenteMar) return false;
   if (usa('comissao') && f.comissao && !l.comissoes.includes(f.comissao)) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;

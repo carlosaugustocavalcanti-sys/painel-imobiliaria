@@ -1,4 +1,4 @@
-import { ehFrenteMar } from '../estoque/busca';
+import { ehFrenteMar, ehVistaMar } from '../estoque/busca';
 import { brl2 } from '../estoque/formato';
 import { Predio, Unidade } from '../estoque/modelo';
 
@@ -208,7 +208,7 @@ export function cardDe(p: Predio, u: Unidade): CardDados {
     vagas(u.vagas),
   ];
   if (ehFrenteMar(u, p)) sub.push('frente mar');
-  else if (u.vistaMar) sub.push('vista mar');
+  else if (ehVistaMar(u)) sub.push('vista mar');
   else if (lazer.length >= 5) sub.push('lazer completo');
 
   const entrega = entregaTxt && u.fase !== 'pronto' ? ` · entrega ${entregaTxt}` : '';

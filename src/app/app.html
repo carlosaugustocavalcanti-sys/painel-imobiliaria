@@ -243,7 +243,7 @@
                 <span class="un-tags">
                   <span class="tag" [class.preta]="l.u.mercado === 'revenda'">{{ l.u.mercado === 'revenda' ? 'Usado' : 'Lançamento' }}</span>
                   @if (l.u.fase !== 'pronto') { <span class="tag">{{ FASE_ROTULO[l.u.fase] }}</span> }
-                  @if (l.frenteMar) { <span class="tag amarela">Frente mar</span> } @else if (l.u.vistaMar) { <span class="tag amarela">Vista mar</span> }
+                  @if (l.frenteMar) { <span class="tag amarela">Frente mar</span> } @else if (l.vistaMar) { <span class="tag amarela">Vista mar</span> }
                   @if (l.u.status !== 'disponivel') { <span class="tag tracejada">{{ STATUS_ROTULO[l.u.status] }}</span> }
                   @if (l.u.divergencias?.length) { <span class="tag tracejada" title="Tabelas com valores diferentes">2 valores</span> }
                   @if (l.u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela">Confirmar</span> }

@@ -94,7 +94,7 @@ export class App {
       max: vals.length ? Math.max(...vals) : null,
       media: vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : null,
       m2: m2s.length ? m2s.reduce((a, b) => a + b, 0) / m2s.length : null,
-      vista: ls.filter((l) => l.u.vistaMar).length,
+      vista: ls.filter((l) => l.vistaMar).length,
     };
   });
 
@@ -134,7 +134,7 @@ export class App {
     for (const l of base) {
       const o = por.get(l.lugar) ?? { total: 0, vista: 0 };
       o.total++;
-      if (l.u.vistaMar) o.vista++;
+      if (l.vistaMar) o.vista++;
       por.set(l.lugar, o);
     }
     const trecho = (lugares: string[], nome: string): TrechoOrla => ({

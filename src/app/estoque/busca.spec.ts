@@ -121,11 +121,16 @@ describe('busca', () => {
         u('t:0', { posicao: 'Frente mar, Torre A' }),
         u('t:1', { posicao: 'Lateral, Torre A', obs: 'Sacada gourmet com vista mar em prédio frente mar', vistaMar: true }),
         u('t:2', { posicao: 'Frente da Torre B, voltado para a Torre A' }),
+        u('t:3', { posicao: 'Lateral, Torre B' }),
+        u('t:4', { posicao: 'Fundos da Torre A, voltado para a Torre B', vistaMar: true }),
       ],
     });
+    // lateral é vista mar; fundos não, mesmo com vista mar na tabela
+    expect(montarLinhas([torres]).filter((l) => passa(l, F({ vista: true }))).map((l) => l.u.ref)).toEqual(['t:0', 't:1', 't:3']);
+    expect(rotuloMar(torres.unidades![4], torres)).toBe('Fundos da Torre A, voltado para a Torre B');
     expect(montarLinhas([torres]).filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['t:0']);
     expect(rotuloMar(torres.unidades![0], torres)).toBe('Frente mar, Torre A');
-    expect(rotuloMar(torres.unidades![1], torres)).toBe('Lateral, Torre A · Vista mar');
+    expect(rotuloMar(torres.unidades![1], torres)).toBe('Vista mar · Lateral, Torre A');
     expect(rotuloMar(torres.unidades![2], torres)).toBe('Frente da Torre B, voltado para a Torre A');
   });
 

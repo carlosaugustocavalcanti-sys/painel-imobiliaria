@@ -9,7 +9,7 @@ import {
   signal,
   viewChild,
 } from '@angular/core';
-import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, passa, montarLinhas, rotuloMar } from '../estoque/busca';
+import { FASE_ROTULO, Filtros, ORIGEM_ROTULO, STATUS_ROTULO, ehVistaMar, passa, montarLinhas, rotuloMar } from '../estoque/busca';
 import { brl, brl2, brlK, faixa, m2, num } from '../estoque/formato';
 import { Predio, RegistroUnidade, Unidade } from '../estoque/modelo';
 import { CardGerador } from '../card/card-gerador';
@@ -71,7 +71,7 @@ export class PredioDetalhe {
       emin: min(d.map((u) => u.entrada ?? 0).filter((v) => v > 0)),
       rmin: min(d.map((u) => u.renda ?? 0).filter((v) => v > 0)),
       rmax: max(d.map((u) => u.renda ?? 0).filter((v) => v > 0)),
-      vista: d.filter((u) => u.vistaMar).length,
+      vista: d.filter(ehVistaMar).length,
       conf: us.filter((u) => u.conf).length,
       div: us.filter((u) => u.divergencias?.length).length,
     };
