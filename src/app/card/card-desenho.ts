@@ -123,7 +123,26 @@ export function gradeFotos(n: number, topo: number, altura: number): Ret[] {
     }
   }
 }
-function foto(ctx: Ctx, img: CanvasImageSource & { width: number; height: number }, ret: Ret) {
+export interface FotoCard {
+  img: CanvasImageSource & { width: number; height: number };
+  /** Planta: inteira sobre fundo branco, em vez de cortada para preencher o espaço. */
+  inteira?: boolean;
+}
+function foto(ctx: Ctx, { img, inteira }: FotoCard, ret: Ret) {
+  if (inteira) {
+    const pad = 16;
+    const escala = Math.min((ret.w - 2 * pad) / img.width, (ret.h - 2 * pad) / img.height);
+    const w = img.width * escala;
+    const h = img.height * escala;
+    ctx.save();
+    ctx.fillStyle = COR.branco;
+    ctx.beginPath();
+    ctx.roundRect(ret.x, ret.y, ret.w, ret.h, 24);
+    ctx.fill();
+    ctx.drawImage(img, ret.x + (ret.w - w) / 2, ret.y + (ret.h - h) / 2, w, h);
+    ctx.restore();
+    return;
+  }
   const escala = Math.max(ret.w / img.width, ret.h / img.height);
   const sw = ret.w / escala;
   const sh = ret.h / escala;
@@ -272,7 +291,7 @@ function desenharPagamento(ctx: Ctx, pg: Pagamento, x: number, topo: number, w: 
 }
 
 /* ---------- card ---------- */
-export function desenharCard(ctx: Ctx, d: CardDados, fotos: (CanvasImageSource & { width: number; height: number })[]) {
+export function desenharCard(ctx: Ctx, d: CardDados, fotos: FotoCard[]) {
   ctx.save();
   ctx.textBaseline = 'alphabetic';
   ctx.fillStyle = COR.gelo;

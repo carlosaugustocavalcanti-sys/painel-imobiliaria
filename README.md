@@ -75,7 +75,9 @@ Anúncios do site da Lesan podem ganhar as fotos da galeria do próprio anúncio
 
 Prédio sem book pode ganhar as perspectivas da galeria do site da construtora, também com o prefixo `site_` (até 1.600 px, sem plantas e implantação), como imagens ilustrativas. Hoje há o Res. Turim (Construmoura, 19 fotos, em `public/fotos/res-turim/`).
 
-O Carlos também pode mandar as imagens do material de venda direto no chat: entram em `public/fotos/<id do prédio>/`, sem prefixo, como imagens ilustrativas. Hoje há o Torres (fachada, piscina, varanda gourmet e planta, em `public/fotos/torres/`).
+O Carlos também pode mandar as imagens do material de venda direto no chat: entram em `public/fotos/<id do prédio>/`, sem prefixo, como imagens ilustrativas.
+
+Plantas entram marcadas com o final (e a torre, quando só vale para uma) em `planta` no `fotos.json`. O card só usa a planta do final da unidade (o apto 61 A é o final 1 da torre A; sem torre no número, vale a planta com os mesmos dormitórios), no 2º espaço da grade e inteira, sem corte. As outras plantas ficam na lista de fotos para marcar à mão. Hoje há o Torres (Construmoura, 24 perspectivas, 10 plantas e a implantação, em `public/fotos/torres/`).
 
 Prédio sem fotos: no lugar da grade, o card mostra até 3 diferenciais numerados, tirados da tabela e editáveis. Com poucas fotos, a grade usa só as que existem, sem espaço vazio.
 

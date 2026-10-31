@@ -14,7 +14,7 @@ import {
 import { Predio, Unidade } from '../estoque/modelo';
 import { CardDados, Pagamento, cardDe } from './card-dados';
 import { ALTURA, LARGURA, carregarFontes, desenharCard } from './card-desenho';
-import { FotoBook, FotosService, escolherFotos } from './fotos.service';
+import { FotoBook, FotosService, ehPlanta, escolherFotos, plantaDaUnidade } from './fotos.service';
 
 type Imagem = CanvasImageSource & { width: number; height: number };
 
@@ -39,6 +39,8 @@ interface Foto {
   rotulo: string;
   url: string;
   real: boolean;
+  /** Planta: aparece inteira no card, sem corte. */
+  inteira?: boolean;
   img?: Imagem;
 }
 
@@ -84,9 +86,9 @@ export class CardGerador {
       // sem lista de lazer na tabela: usa os espaços de lazer que aparecem nas fotos do book
       if (!d.lazer.length) d.lazer = lazerDasFotos(book);
       this.dados.set(d);
-      const fotos = book.map((f: FotoBook) => ({ id: f.arquivo, rotulo: f.rotulo, url: f.arquivo, real: !!f.real }));
+      const fotos = book.map((f: FotoBook) => ({ id: f.arquivo, rotulo: f.rotulo, url: f.arquivo, real: !!f.real, inteira: ehPlanta(f) }));
       this.biblioteca.set(fotos);
-      this.escolhidas.set(escolherFotos(book).map((f) => f.arquivo));
+      this.escolhidas.set(escolherFotos(book, 6, plantaDaUnidade(book, u)).map((f) => f.arquivo));
       await Promise.all(fotos.map((f) => this.carregarImagem(f)));
       this.versao.update((v) => v + 1);
     });
@@ -100,7 +102,7 @@ export class CardGerador {
       requestAnimationFrame(() => {
         const c = this.tela().nativeElement;
         const ctx = c.getContext('2d');
-        if (ctx) desenharCard(ctx, d, fotos.map((f) => f.img).filter((i): i is Imagem => !!i));
+        if (ctx) desenharCard(ctx, d, fotos.flatMap((f) => (f.img ? [{ img: f.img, inteira: f.inteira }] : [])));
       });
     });
   }

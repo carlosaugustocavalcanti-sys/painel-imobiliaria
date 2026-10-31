@@ -853,20 +853,208 @@
    "noEstoque": true,
    "fotos": [
     {
-     "arquivo": "fotos/torres/01_fachada.jpg",
-     "rotulo": "Fachada"
+     "arquivo": "fotos/torres/site_01_fachada-frente-mar.jpg",
+     "rotulo": "Fachada frente mar"
     },
     {
-     "arquivo": "fotos/torres/02_piscina-borda-infinita.jpg",
+     "arquivo": "fotos/torres/site_02_varanda-gourmet-vista-mar.jpg",
+     "rotulo": "Varanda gourmet com vista mar"
+    },
+    {
+     "arquivo": "fotos/torres/site_03_sala-vista-mar.jpg",
+     "rotulo": "Sala de estar com vista mar"
+    },
+    {
+     "arquivo": "fotos/torres/site_04_piscina-borda-infinita.jpg",
      "rotulo": "Piscina com borda infinita"
     },
     {
-     "arquivo": "fotos/torres/03_varanda-gourmet.jpg",
-     "rotulo": "Varanda gourmet"
+     "arquivo": "fotos/torres/site_05_fachada-torres-a-e-b.jpg",
+     "rotulo": "Fachada das torres A e B"
     },
     {
-     "arquivo": "fotos/torres/04_planta-3-dorms.jpg",
-     "rotulo": "Planta 3 dorms"
+     "arquivo": "fotos/torres/site_06_espaco-gourmet.jpg",
+     "rotulo": "Espaço gourmet"
+    },
+    {
+     "arquivo": "fotos/torres/site_07_salao-de-festas.jpg",
+     "rotulo": "Salão de festas"
+    },
+    {
+     "arquivo": "fotos/torres/site_08_espaco-grill.jpg",
+     "rotulo": "Espaço grill"
+    },
+    {
+     "arquivo": "fotos/torres/site_09_lounge.jpg",
+     "rotulo": "Lounge"
+    },
+    {
+     "arquivo": "fotos/torres/site_10_fitness.jpg",
+     "rotulo": "Fitness"
+    },
+    {
+     "arquivo": "fotos/torres/site_11_crossfit.jpg",
+     "rotulo": "Espaço crossfit"
+    },
+    {
+     "arquivo": "fotos/torres/site_12_spa.jpg",
+     "rotulo": "Spa"
+    },
+    {
+     "arquivo": "fotos/torres/site_13_sauna.jpg",
+     "rotulo": "Sauna"
+    },
+    {
+     "arquivo": "fotos/torres/site_14_beauty-center.jpg",
+     "rotulo": "Beauty center"
+    },
+    {
+     "arquivo": "fotos/torres/site_15_cinema.jpg",
+     "rotulo": "Cinema"
+    },
+    {
+     "arquivo": "fotos/torres/site_16_coworking.jpg",
+     "rotulo": "Coworking"
+    },
+    {
+     "arquivo": "fotos/torres/site_17_sala-multiuso.jpg",
+     "rotulo": "Sala multiuso"
+    },
+    {
+     "arquivo": "fotos/torres/site_18_salao-de-jogos.jpg",
+     "rotulo": "Salão de jogos"
+    },
+    {
+     "arquivo": "fotos/torres/site_19_espaco-teen.jpg",
+     "rotulo": "Espaço teen"
+    },
+    {
+     "arquivo": "fotos/torres/site_20_brinquedoteca.jpg",
+     "rotulo": "Brinquedoteca"
+    },
+    {
+     "arquivo": "fotos/torres/site_21_playground.jpg",
+     "rotulo": "Playground"
+    },
+    {
+     "arquivo": "fotos/torres/site_22_quadra.jpg",
+     "rotulo": "Quadra poliesportiva"
+    },
+    {
+     "arquivo": "fotos/torres/site_23_praca.jpg",
+     "rotulo": "Praça"
+    },
+    {
+     "arquivo": "fotos/torres/site_24_pet-place.jpg",
+     "rotulo": "Pet place"
+    },
+    {
+     "arquivo": "fotos/torres/site_25_planta-final-1-torre-a.jpg",
+     "rotulo": "Planta final 1, Torre A: 3 dorms, 111 m²",
+     "planta": {
+      "finais": [
+       1
+      ],
+      "dorms": 3,
+      "torre": "A"
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_26_planta-final-2-torre-a.jpg",
+     "rotulo": "Planta final 2, Torre A: 3 dorms, 111 m²",
+     "planta": {
+      "finais": [
+       2
+      ],
+      "dorms": 3,
+      "torre": "A"
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_27_planta-final-1-torre-b.jpg",
+     "rotulo": "Planta final 1, Torre B: 2 dorms, 79 m²",
+     "planta": {
+      "finais": [
+       1
+      ],
+      "dorms": 2,
+      "torre": "B"
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_28_planta-final-2-torre-b.jpg",
+     "rotulo": "Planta final 2, Torre B: 2 dorms, 79 m²",
+     "planta": {
+      "finais": [
+       2
+      ],
+      "dorms": 2,
+      "torre": "B"
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_29_planta-final-3.jpg",
+     "rotulo": "Planta final 3, torres A e B: 2 dorms, 71 m²",
+     "planta": {
+      "finais": [
+       3
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_30_planta-final-4.jpg",
+     "rotulo": "Planta final 4, torres A e B: 2 dorms, 71 m²",
+     "planta": {
+      "finais": [
+       4
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_31_planta-final-5.jpg",
+     "rotulo": "Planta final 5, torres A e B: 2 dorms, 71 m²",
+     "planta": {
+      "finais": [
+       5
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_32_planta-final-6.jpg",
+     "rotulo": "Planta final 6, torres A e B: 2 dorms, 71 m²",
+     "planta": {
+      "finais": [
+       6
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_33_planta-final-7.jpg",
+     "rotulo": "Planta final 7, torres A e B: 2 dorms, 79 m²",
+     "planta": {
+      "finais": [
+       7
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_34_planta-final-8.jpg",
+     "rotulo": "Planta final 8, torres A e B: 2 dorms, 79 m²",
+     "planta": {
+      "finais": [
+       8
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/torres/site_35_implantacao-area-comum.jpg",
+     "rotulo": "Implantação da área comum"
     }
    ]
   }
