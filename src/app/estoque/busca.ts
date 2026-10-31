@@ -105,8 +105,10 @@ const PREFIXO_PREDIO = /^(residencial|res\.?|edificio|ed\.?|condominio|cond\.?)$
 const FRENTE_MAR = /frente\s*(ao\s+|para\s+o\s+|p\/\s*o\s+)?(mar|praia)/;
 const CASTELO_BRANCO = /castelo\s+branco/;
 
-/** Frente mar: o texto da unidade ou o nome do prédio diz frente mar, o endereço é a Av. Castelo Branco, ou veio da pasta Frente Mar. */
+/** Frente mar: a posição na planta da construtora diz (e só ela, quando existe), o texto da unidade ou o nome do prédio
+ *  diz frente mar, o endereço é a Av. Castelo Branco, ou veio da pasta Frente Mar. */
 export function ehFrenteMar(u: Unidade, p: Predio): boolean {
+  if (u.posicao) return /^frente mar/i.test(u.posicao);
   if (u.origens.includes('frente-mar') || CASTELO_BRANCO.test(normalizar(p.endereco))) return true;
   const regs = [u, ...(u.outras ?? [])];
   return FRENTE_MAR.test(normalizar([p.nome, ...regs.flatMap((r) => [r.vista, r.obs, r.det, r.tipologia, r.promo])].join(' ')));
@@ -116,6 +118,7 @@ export function ehFrenteMar(u: Unidade, p: Predio): boolean {
  *  Prédio na Av. Castelo Branco sem "frente" no texto vira "Frente mar"; "Sacada vista mar" vira "Frente mar · Sacada vista mar". */
 export function rotuloMar(u: Unidade, p: Predio): string {
   const vista = u.vistaMar ? u.vista?.trim() || '' : '';
+  if (u.posicao) return [u.posicao, !ehFrenteMar(u, p) && u.vistaMar ? vista || 'Vista mar' : ''].filter(Boolean).join(' · ');
   if (!ehFrenteMar(u, p)) return u.vistaMar ? vista || 'Vista mar' : '';
   const t = normalizar(vista);
   if (FRENTE_MAR.test(t)) return vista;

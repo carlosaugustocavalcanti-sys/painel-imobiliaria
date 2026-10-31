@@ -479,6 +479,32 @@ const saida = grupos.map(({ membros }) => {
   };
 });
 
+/* ---------- posição da unidade no prédio ---------- */
+// Planta de implantação da construtora: quando o prédio tem, a posição decide se a unidade é frente mar
+// (o app deixa de olhar o endereço e o texto da tabela). Começa com "Frente mar" só a unidade de frente para o mar.
+const POSICAO = {
+  // Residencial Torres: a Torre A fica na Av. Pres. Castelo Branco e a B, atrás dela, na Av. Juscelino Kubitschek.
+  // Só os finais 1 e 2 da Torre A são frente mar.
+  torres(u) {
+    const m = String(u.unidade ?? '').trim().match(/^(\d+)\s*([ab])?$/i);
+    if (!m) return null;
+    const final = +m[1] % 10;
+    // sem torre no número: a tabela da construtora é do Bloco B; nos finais 1 e 2, 3 dorms é a Torre A
+    const torre = m[2]?.toUpperCase() ?? (u.origem === 'lancamentos' ? 'B' : final <= 2 ? (u.dm === '3' ? 'A' : 'B') : null);
+    if (final < 1 || final > 8) return null;
+    if (final <= 2) return torre === 'A' ? 'Frente mar, Torre A' : 'Frente da Torre B, voltado para a Torre A';
+    const t = torre ? `, Torre ${torre}` : '';
+    if (final <= 6) return `Lateral${t}`;
+    if (torre === 'A') return 'Fundos da Torre A, voltado para a Torre B';
+    return torre === 'B' ? 'Fundos, lado Av. Juscelino Kubitschek' : 'Fundos';
+  },
+};
+for (const p of saida)
+  for (const u of POSICAO[p.id] ? p.unidades : []) {
+    const posicao = POSICAO[p.id](u);
+    if (posicao) u.posicao = posicao;
+  }
+
 /* ---------- construtora ---------- */
 // dados/construtoras.json: nome curto da construtora → ids dos prédios (levantado à mão das tabelas e books).
 const CONSTRUTORAS = JSON.parse(readFileSync('dados/construtoras.json', 'utf8')).construtoras;

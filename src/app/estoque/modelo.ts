@@ -80,6 +80,8 @@ export interface Unidade extends RegistroUnidade {
   outras?: RegistroUnidade[];
   /** Campos com valores diferentes entre as tabelas. */
   divergencias?: string[];
+  /** Posição na planta de implantação da construtora (Residencial Torres). Quando existe, só é frente mar a que começa com "Frente mar". */
+  posicao?: string;
 }
 
 export interface Tabela {

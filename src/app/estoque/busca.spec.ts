@@ -112,6 +112,23 @@ describe('busca', () => {
     expect(rotuloMar(u({}), rua)).toBe('');
   });
 
+  it('posição na planta da construtora decide o frente mar, mesmo na Av. Castelo Branco', () => {
+    const u = (ref: string, extra: Partial<Unidade>): Unidade => ({ ref, origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
+    const torres = predio({
+      id: 't',
+      endereco: 'Av. Presidente Castelo Branco, esquina com Av. São Romério',
+      unidades: [
+        u('t:0', { posicao: 'Frente mar, Torre A' }),
+        u('t:1', { posicao: 'Lateral, Torre A', obs: 'Sacada gourmet com vista mar em prédio frente mar', vistaMar: true }),
+        u('t:2', { posicao: 'Frente da Torre B, voltado para a Torre A' }),
+      ],
+    });
+    expect(montarLinhas([torres]).filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['t:0']);
+    expect(rotuloMar(torres.unidades![0], torres)).toBe('Frente mar, Torre A');
+    expect(rotuloMar(torres.unidades![1], torres)).toBe('Lateral, Torre A · Vista mar');
+    expect(rotuloMar(torres.unidades![2], torres)).toBe('Frente da Torre B, voltado para a Torre A');
+  });
+
   it('a busca ignora acentos e procura em observações', () => {
     expect(L.filter((l) => passa(l, F({ q: 'CHURRASQUEIRA guilhermina' }))).length).toBe(1);
     expect(L.filter((l) => passa(l, F({ q: 'teste' }))).length).toBe(2);
