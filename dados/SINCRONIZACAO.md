@@ -13,3 +13,5 @@ Rotina diária (tarefa agendada `sincronizar-drive-painel`) que mantém o painel
 Regras: nunca apagar unidade que sumiu de uma tabela sem registrar em `historico`; nunca inventar valor; arquivo ilegível vira pendência, não palpite.
 
 Casas, sobrados e imóveis comerciais entram com `categoria: 'casa'` ou `'comercial'` (registro sem o campo é apartamento). Locação não entra. Prédio repetido em dois corretores vira um só dentro de `scripts/ler-drive-mes.mjs`; se o mesmo prédio já existir em outra origem com nome ou endereço diferente, acrescente o par em `FUNDIR_MANUAL` (`scripts/unificar.mjs`).
+
+Prédio novo com a construtora na tabela ou no book: acrescente o id dele em `dados/construtoras.json`, no nome curto da construtora. O `npm run dados` avisa quantos prédios com tabela de construtora ainda estão sem nome e se algum id do arquivo não existe mais.

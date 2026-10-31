@@ -31,7 +31,7 @@ Um estoque cruzado de várias imobiliárias e construtoras parceiras, com a orig
 
 ## Capabilities and Constraints
 
-- Filtros: segmento (usado, lançamento, em obra), vista mar, cidade (Praia Grande, Mongaguá), bairro, valor, dormitórios, área útil/privativa, vagas de garagem, acesso (elevador/escada), tabela de origem, financiamento (bancário/direto), ano de entrega e gravação.
+- Filtros: segmento (usado, lançamento, em obra), vista mar, cidade (Praia Grande, Mongaguá), bairro, valor, dormitórios, área útil/privativa, vagas de garagem, construtora, acesso (elevador/escada), tabela de origem, financiamento (bancário/direto), ano de entrega e gravação.
 - Por unidade: valor à vista, valor a prazo/banco/permuta, entrada, renda estimada, laudo Caixa, fluxo de pagamento, condomínio, IPTU, vagas, vista, status (disponível, reservado, vendido, suspenso) e observações.
 - Renda estimada: 1ª parcela SAC (Caixa SBPE ~11,49% a.a. + TR, 420 meses) comprometendo até 30% da renda; é estimativa, não aprovação.
 - Uso interno: comissão, contatos de tabela e status de gravação podem aparecer.

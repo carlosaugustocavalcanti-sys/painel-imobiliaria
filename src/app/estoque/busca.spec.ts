@@ -42,6 +42,19 @@ describe('busca', () => {
     expect(L.filter((l) => passa(l, F({ vmax: 400000 }))).map((l) => l.u.unidade)).toEqual(['14']);
   });
 
+  it('construtora: filtra pelo prédio, prédio sem construtora sai, e a busca por texto acha o nome', () => {
+    const u: Unidade = { ref: 'c:0', origem: 'lancamentos', origens: ['lancamentos'], mercado: 'construtora', fase: 'obra', status: 'disponivel' };
+    const ls = montarLinhas([
+      predio({ id: 'a', construtora: 'Martino', unidades: [u] }),
+      predio({ id: 'b', construtora: 'GMV', unidades: [{ ...u, ref: 'c:1' }] }),
+      predio({ id: 'c', unidades: [{ ...u, ref: 'c:2' }] }),
+    ]);
+    const ids = (f: Partial<Filtros>) => ls.filter((l) => passa(l, F(f))).map((l) => l.p.id);
+    expect(ids({ construtora: 'Martino' })).toEqual(['a']);
+    expect(ids({})).toEqual(['a', 'b', 'c']);
+    expect(ids({ q: 'gmv' })).toEqual(['b']);
+  });
+
   it('vagas: lê o número do texto da tabela', () => {
     expect(vagasDeTexto('2 privativas')).toBe(2);
     expect(vagasDeTexto('1 (coletiva)')).toBe(1);

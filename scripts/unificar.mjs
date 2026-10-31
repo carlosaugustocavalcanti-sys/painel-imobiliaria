@@ -459,6 +459,7 @@ const saida = grupos.map(({ membros }) => {
     entrega: membros.find((m) => m.entrega)?.entrega || '',
     entregaSort: membros.find((m) => m.entregaSort)?.entregaSort || '',
     fase: base.fase,
+    construtora: '',
     origens: membros.map((m) => m.origem),
     origemIds: Object.fromEntries(membros.map((m) => [m.origem, m.origemId])),
     tabelas: membros.flatMap((m) => m.tabelas),
@@ -470,6 +471,18 @@ const saida = grupos.map(({ membros }) => {
     unidades,
   };
 });
+
+/* ---------- construtora ---------- */
+// dados/construtoras.json: nome curto da construtora → ids dos prédios (levantado à mão das tabelas e books).
+const CONSTRUTORAS = JSON.parse(readFileSync('dados/construtoras.json', 'utf8')).construtoras;
+const porId = new Map(saida.map((p) => [p.id, p]));
+for (const [nome, ids] of Object.entries(CONSTRUTORAS))
+  for (const id of ids) {
+    const p = porId.get(id);
+    if (!p) console.warn(`construtoras.json: prédio "${id}" (${nome}) não existe no estoque`);
+    else if (p.construtora) console.warn(`construtoras.json: prédio "${id}" está em ${p.construtora} e em ${nome}`);
+    else p.construtora = nome;
+  }
 
 saida.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 mkdirSync('public/dados', { recursive: true });
@@ -490,3 +503,5 @@ console.log(`Prédios: ${saida.length} (${fundidos.length} reunidos de mais de u
 console.log(`Unidades: ${nUn} (${nRef} registros de origem, ${nRef - nUn} repetidos entre painéis)`);
 console.log(`Divergências: ${saida.flatMap((p) => p.unidades.filter((u) => u.divergencias.length)).length}`);
 for (const p of fundidos) console.log('  reunido:', p.nome, '←', JSON.stringify(p.origemIds));
+const lancSem = saida.filter((p) => !p.construtora && p.unidades.some((u) => u.mercado === 'construtora'));
+console.log(`Construtora: ${saida.filter((p) => p.construtora).length} prédios; ${lancSem.length} com tabela de construtora ainda sem nome (dados/construtoras.json)`);

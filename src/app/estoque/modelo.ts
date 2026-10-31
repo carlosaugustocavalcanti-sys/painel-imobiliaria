@@ -126,6 +126,8 @@ export interface Predio {
   entrega?: string;
   entregaSort?: string;
   fase: Fase;
+  /** Nome curto da construtora (dados/construtoras.json). Vazio = a tabela não diz. */
+  construtora?: string;
   origens: Origem[];
   origemIds: Partial<Record<Origem, string>>;
   tabelas?: Tabela[];

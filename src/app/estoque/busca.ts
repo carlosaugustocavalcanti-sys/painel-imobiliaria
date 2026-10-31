@@ -181,7 +181,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
   const linhas: Linha[] = [];
   for (const p of predios) {
     // Sem as fontes do prédio: buscar "lesan" traz só as unidades que a Lesan anuncia, não o prédio inteiro.
-    const textoPredio = normalizar([p.nome, p.bairro, ...(p.bairroTextos ?? []), p.cidade, p.endereco].join(' '));
+    const textoPredio = normalizar([p.nome, p.construtora, p.bairro, ...(p.bairroTextos ?? []), p.cidade, p.endereco].join(' '));
     for (const u of p.unidades ?? []) {
       const regs = [u, ...(u.outras ?? [])];
       linhas.push({
@@ -234,6 +234,8 @@ export interface Filtros {
   fase: '' | Fase;
   acesso: Acesso;
   fonte: string;
+  /** Nome curto da construtora do prédio (vazio = todas). */
+  construtora: string;
   pagamento: '' | 'bancario' | 'direto';
   entrega: string;
   gravacao: '' | 'pend' | 'grav';
@@ -258,6 +260,7 @@ export const FILTROS_VAZIOS: Filtros = {
   fase: '',
   acesso: '',
   fonte: '',
+  construtora: '',
   pagamento: '',
   entrega: '',
   gravacao: '',
@@ -306,6 +309,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('fase') && f.fase && u.fase !== f.fase) return false;
   if (usa('acesso') && f.acesso && (f.acesso === 'nd' ? !!u.acesso : u.acesso !== f.acesso)) return false;
   if (usa('fonte') && f.fonte && ![u, ...(u.outras ?? [])].some((r) => r.fonte === f.fonte)) return false;
+  if (usa('construtora') && f.construtora && p.construtora !== f.construtora) return false;
   if (usa('pagamento') && f.pagamento) {
     if (!l.pagamentos.includes(f.pagamento)) return false;
   }

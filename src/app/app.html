@@ -111,6 +111,13 @@
         }
       </div>
     </div>
+    <label class="filtro">
+      <span class="rot" title="Construtora ou incorporadora do prédio, como as tabelas e os books informam; prédios sem essa informação saem quando o filtro está ligado">Construtora</span>
+      <select (change)="mudar({ construtora: texto($event) })">
+        <option value="" [selected]="!fl.construtora">Todas</option>
+        @for (c of construtoras(); track c[0]) { <option [value]="c[0]" [selected]="fl.construtora === c[0]">{{ c[0] }} ({{ fmt.num(c[1]) }})</option> }
+      </select>
+    </label>
     <div class="filtro fim">
       <button type="button" class="btn contorno" [attr.aria-expanded]="maisFiltros()" aria-controls="mais" (click)="maisFiltros.set(!maisFiltros())">
         Mais filtros @if (qtdMaisFiltros()) { <span class="bolha">{{ qtdMaisFiltros() }}</span> } <span aria-hidden="true">{{ maisFiltros() ? '▴' : '▾' }}</span>
@@ -271,7 +278,7 @@
             <article class="predio">
               <header>
                 <h3>{{ r.p.nome }}</h3>
-                <p>{{ r.p.bairro !== 'A confirmar' ? r.p.bairro : 'Bairro a confirmar' }} · {{ r.p.cidade }}</p>
+                <p>{{ r.p.bairro !== 'A confirmar' ? r.p.bairro : 'Bairro a confirmar' }} · {{ r.p.cidade }}@if (r.p.construtora) { · construtora {{ r.p.construtora }} }</p>
               </header>
               <div class="tags">
                 <span class="tag" [class.preta]="r.p.fase === 'pronto'" [class.amarela]="r.p.fase !== 'pronto'">{{ FASE_ROTULO[r.p.fase] }}</span>

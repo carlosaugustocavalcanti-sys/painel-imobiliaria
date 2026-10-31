@@ -118,6 +118,14 @@ export class App {
   protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
   protected readonly contagemVagas = computed(() => Object.fromEntries(this.VAGAS_OPCOES.map(([n]) => [n, this.contar({ vagas: n })])));
+  /** Construtoras com unidades no recorte atual (mantendo os outros filtros), em ordem alfabética. A escolhida fica mesmo com zero. */
+  protected readonly construtoras = computed(() => {
+    const f = this.f();
+    const n = new Map<string, number>();
+    for (const l of this.estoque.linhas()) if (l.p.construtora && passa(l, f, 'construtora')) n.set(l.p.construtora, (n.get(l.p.construtora) ?? 0) + 1);
+    if (f.construtora && !n.has(f.construtora)) n.set(f.construtora, 0);
+    return [...n].sort((a, b) => a[0].localeCompare(b[0], 'pt-BR'));
+  });
 
   /* ---------- orla ---------- */
   protected readonly trechos = computed<TrechoOrla[]>(() => {
@@ -163,6 +171,7 @@ export class App {
         if (q.some((t) => !txt.includes(t))) continue;
         if (f.lugares.length && !f.lugares.includes(lugarDe(p))) continue;
         if (f.fase && p.fase !== f.fase) continue;
+        if (f.construtora && p.construtora !== f.construtora) continue;
         if (f.origem && !p.origens.includes(f.origem)) continue;
         lista.push({ p, linhas: [], disp: 0 });
       }
@@ -271,6 +280,7 @@ export class App {
     if (f.fase) a.push({ rotulo: FASE_ROTULO[f.fase], limpar: { fase: '' } });
     if (f.acesso) a.push({ rotulo: { elevador: 'Com elevador', escada: 'Só escada', nd: 'Acesso não informado' }[f.acesso], limpar: { acesso: '' } });
     if (f.fonte) a.push({ rotulo: `Tabela: ${f.fonte}`, limpar: { fonte: '' } });
+    if (f.construtora) a.push({ rotulo: `Construtora ${f.construtora}`, limpar: { construtora: '' } });
     if (f.pagamento) a.push({ rotulo: f.pagamento === 'direto' ? 'Direto c/ construtora/investidor' : 'Financ. bancário', limpar: { pagamento: '' } });
     if (f.entrega) a.push({ rotulo: `Entrega: ${f.entrega}`, limpar: { entrega: '' } });
     if (f.gravacao) a.push({ rotulo: f.gravacao === 'pend' ? 'Gravação pendente' : 'Já gravado', limpar: { gravacao: '' } });

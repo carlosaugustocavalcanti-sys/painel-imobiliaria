@@ -8,6 +8,7 @@
       <p class="ficha-loc">
         {{ p.bairro !== 'A confirmar' ? p.bairro : 'Bairro a confirmar' }} · {{ p.cidade }} · {{ FASE_ROTULO[p.fase] }}
         @if (p.entrega && p.fase !== 'pronto') { · entrega {{ p.entrega }} }
+        @if (p.construtora) { · construtora {{ p.construtora }} }
       </p>
       <p class="ficha-end">
         <a [href]="linkMapa()" target="_blank" rel="noopener">{{ p.endereco || 'Endereço a confirmar' }} · abrir no mapa ↗</a>
