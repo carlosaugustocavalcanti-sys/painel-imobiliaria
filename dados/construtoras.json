@@ -16,6 +16,7 @@
     "Coralon": ["le-jardin"],
     "Credlar": ["chopin", "paolo-veronese"],
     "DDB": ["versalhes-residence"],
+    "Facttum": ["maya"],
     "Fortaleza": ["parque-dos-coqueiros", "praia-do-sancho", "res-vaz-300"],
     "Fortcon": ["trivento-residence", "vision"],
     "Galcon": ["flamboyant", "monaco-canto-do-forte"],
@@ -68,7 +69,6 @@
     "Terrace": ["funchal-residence"],
     "Terranova": ["bela-colina", "harmony-residence", "liberty"],
     "Vila Verde": ["nicolas"],
-    "Viamar": ["maya"],
     "WR Empreendimentos": ["galpao-antonio-correa-brasil-52", "galpao-antonio-correa-brasil-68"]
   }
 }

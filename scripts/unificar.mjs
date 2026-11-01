@@ -498,6 +498,14 @@ const POSICAO = {
     if (torre === 'A') return 'Fundos da Torre A, voltado para a Torre B';
     return torre === 'B' ? 'Fundos, lado Av. Juscelino Kubitschek' : 'Fundos';
   },
+  // Residencial Maya (Facttum), torre única na esquina da Av. Pres. Castelo Branco com a Rua das Papoulas:
+  // pela planta, os finais 1 e 2 dão para a avenida; o 3 e o 4 ficam nos fundos.
+  maya(u) {
+    const final = +String(u.unidade ?? '').trim() % 10;
+    if (final === 1 || final === 2) return 'Frente mar';
+    if (final === 3) return 'Fundos, lado Rua das Papoulas';
+    return final === 4 ? 'Fundos' : null;
+  },
 };
 for (const p of saida)
   for (const u of POSICAO[p.id] ? p.unidades : []) {

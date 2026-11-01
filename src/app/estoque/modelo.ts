@@ -15,11 +15,18 @@ export interface Fluxo {
   chaves?: number;
   anualQtd?: number;
   anualVal?: number;
+  /** As parcelas "anuais" são semestrais (Maya, Palazzo, Xixová). */
+  periodo?: 'semestral';
   parcQtd: number;
   parcVal: number;
   /** "Parcela única" da tabela (Seven), sem data informada. */
   unica?: number;
+  /** Saldo por financiamento bancário que faz parte do mesmo fluxo (Maya: 65% depois das parcelas de obra). */
+  financiamento?: number;
 }
+
+/** "2 semestrais" ou "2 anuais". */
+export const rotuloPeriodicas = (fl: Fluxo) => `${fl.anualQtd} ${fl.periodo === 'semestral' ? 'semestrais' : 'anuais'}`;
 
 /** Um registro de unidade como veio de uma tabela. */
 export interface RegistroUnidade {

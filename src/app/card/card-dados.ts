@@ -1,6 +1,6 @@
 import { ehFrenteMar, ehVistaMar } from '../estoque/busca';
 import { brl2 } from '../estoque/formato';
-import { Predio, Unidade } from '../estoque/modelo';
+import { Predio, Unidade, rotuloPeriodicas } from '../estoque/modelo';
 
 /** Tudo o que o card mostra, já em texto. O gerador deixa editar cada campo antes de exportar. */
 export interface CardDados {
@@ -109,7 +109,7 @@ function pagamentosDe(p: Predio, u: Unidade): Pagamento[] {
           linhas: [
             { rotulo: 'Entrada', valor: brl2(fl.entrada) },
             ...(fl.chaves ? [{ rotulo: 'Nas chaves', valor: brl2(fl.chaves) }] : []),
-            ...(fl.anualQtd && fl.anualVal ? [{ rotulo: `${fl.anualQtd} anuais de`, valor: brl2(fl.anualVal) }] : []),
+            ...(fl.anualQtd && fl.anualVal ? [{ rotulo: `${rotuloPeriodicas(fl)} de`, valor: brl2(fl.anualVal) }] : []),
           ],
           totalRotulo: 'Total',
           totalValor: totalDireto ? brl2(totalDireto) : '',
@@ -132,8 +132,9 @@ function pagamentoDe(p: Predio, u: Unidade): Pagamento {
   if (fl && fl.parcQtd && fl.parcVal) {
     const linhas = [{ rotulo: 'Entrada', valor: brl2(fl.entrada) }];
     if (fl.chaves) linhas.push({ rotulo: 'Nas chaves', valor: brl2(fl.chaves) });
-    if (fl.anualQtd && fl.anualVal) linhas.push({ rotulo: `${fl.anualQtd} anuais de`, valor: brl2(fl.anualVal) });
+    if (fl.anualQtd && fl.anualVal) linhas.push({ rotulo: `${rotuloPeriodicas(fl)} de`, valor: brl2(fl.anualVal) });
     if (fl.unica) linhas.push({ rotulo: 'Parcela única', valor: brl2(fl.unica) });
+    if (fl.financiamento) linhas.push({ rotulo: 'Financiamento bancário', valor: brl2(fl.financiamento) });
     return {
       rotulo: 'Fluxo de pagamento · parcelamento direto',
       grande: brl2(fl.parcVal),

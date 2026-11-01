@@ -1057,6 +1057,68 @@
      "rotulo": "Implantação da área comum"
     }
    ]
+  },
+  "maya": {
+   "nome": "Residencial Maya",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/maya/site_01_fachada-frente-mar.jpg",
+     "rotulo": "Fachada frente mar"
+    },
+    {
+     "arquivo": "fotos/maya/site_02_piscina-cobertura-vista-mar.jpg",
+     "rotulo": "Piscina na cobertura com vista mar"
+    },
+    {
+     "arquivo": "fotos/maya/site_03_academia.jpg",
+     "rotulo": "Academia"
+    },
+    {
+     "arquivo": "fotos/maya/site_04_brinquedoteca.jpg",
+     "rotulo": "Brinquedoteca"
+    },
+    {
+     "arquivo": "fotos/maya/site_05_planta-final-1.jpg",
+     "rotulo": "Planta final 1: 2 dorms, 79,34 m²",
+     "planta": {
+      "finais": [
+       1
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/maya/site_06_planta-final-2.jpg",
+     "rotulo": "Planta final 2: 3 dorms, 107,92 m²",
+     "planta": {
+      "finais": [
+       2
+      ],
+      "dorms": 3
+     }
+    },
+    {
+     "arquivo": "fotos/maya/site_07_planta-final-3.jpg",
+     "rotulo": "Planta final 3: 2 dorms, 72,99 m²",
+     "planta": {
+      "finais": [
+       3
+      ],
+      "dorms": 2
+     }
+    },
+    {
+     "arquivo": "fotos/maya/site_08_planta-final-4.jpg",
+     "rotulo": "Planta final 4: 2 dorms, 67,95 m²",
+     "planta": {
+      "finais": [
+       4
+      ],
+      "dorms": 2
+     }
+    }
+   ]
   }
  }
 }

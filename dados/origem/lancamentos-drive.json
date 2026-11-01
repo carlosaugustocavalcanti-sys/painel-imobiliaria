@@ -1625,6 +1625,7 @@
       "chaves": 60000,
       "anualQtd": 1,
       "anualVal": 15000,
+      "periodo": "semestral",
       "parcQtd": 10,
       "parcVal": 2500
      },
@@ -1652,6 +1653,7 @@
       "chaves": 60000,
       "anualQtd": 1,
       "anualVal": 15000,
+      "periodo": "semestral",
       "parcQtd": 10,
       "parcVal": 2500
      },
@@ -1679,6 +1681,7 @@
       "chaves": 60000,
       "anualQtd": 1,
       "anualVal": 15000,
+      "periodo": "semestral",
       "parcQtd": 10,
       "parcVal": 2500
      },
@@ -1706,6 +1709,7 @@
       "chaves": 60000,
       "anualQtd": 1,
       "anualVal": 15000,
+      "periodo": "semestral",
       "parcQtd": 10,
       "parcVal": 2500
      },
@@ -1733,6 +1737,7 @@
       "chaves": 60000,
       "anualQtd": 1,
       "anualVal": 15000,
+      "periodo": "semestral",
       "parcQtd": 10,
       "parcVal": 2500
      },
@@ -2985,13 +2990,16 @@
    "fase": "obra",
    "entrega": "Out/2027",
    "diferenciais": [
-    "Apartamentos de 2 e 3 dormitórios com 1 suíte",
-    "1 a 2 vagas de garagem",
-    "À vista: 5% de desconto"
+    "Frente mar: torre única na Av. Pres. Castelo Branco",
+    "Varanda gourmet em todas as unidades",
+    "Lazer completo na cobertura, com piscina vista mar"
    ],
    "notas": [
-    "Parcelamento direto com a Viamar Construtora; saldo e valores finais (financiamento bancário) reajustados por poupança + 0,7% ao mês.",
-    "Disponibilidade marcada por cor na tabela do PDF (não aparece no texto): confira antes de oferecer."
+    "Torre única com 48 unidades de 2 e 3 dorms (1 suíte), 67,95 a 107,92 m² úteis, 1 vaga cada. Lazer na cobertura.",
+    "Condição padrão: 20% no ato, 5% em 2 semestrais e 10% em 15 mensais durante a obra, 65% por financiamento bancário. A tabela de novembro não informa o índice de reajuste das parcelas de obra: confirmar com a Facttum antes de apresentar ao cliente. Condições válidas até 30/11/2026.",
+    "Acabamento: porcelanato em todo o apartamento, bancadas em granito, louças e metais Deca/Docol, cuba inox na cozinha e na varanda gourmet, infraestrutura para ar-condicionado, forro de gesso nas áreas molhadas e na varanda.",
+    "Tour virtual 360° (áreas comuns e decorado): https://criandotecnologia.com.br/tourvirtual/residencialmaya/",
+    "A tabela de 01/09/2026 (Viamar) tinha as unidades 61, 71, 42, 52, 62, 72, 53 e 63, que não constam da tabela oficial de novembro."
    ],
    "lanc": {
     "gravacao": "a_gravar",
@@ -3000,221 +3008,428 @@
    },
    "tabelas": [
     {
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "contato": "Vitor (13) 97402-9914",
-     "atualizadoEm": "01/09/2026",
-     "arquivo": "Maya - Aptos 2 e 3 Dorm (Jd Real).pdf"
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "contato": "(13) 99655-4096 · vendas@facttumconstrutora.com.br",
+     "atualizadoEm": "01/11/2026",
+     "arquivo": "https://tabelamaya.grupoviguer.co/"
     }
    ],
    "unidades": [
     {
-     "unidade": "61",
-     "andar": 6,
+     "unidade": "11",
+     "andar": 1,
+     "final": 1,
      "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
      "suites": 1,
      "area": 79.34,
-     "vagas": "2",
-     "valor": 873350,
-     "entrada": 174670,
+     "vagas": "1",
+     "valor": 836434,
+     "entrada": 167286.8,
      "chaves": 0,
      "fluxo": {
-      "entrada": 174670,
+      "entrada": 167286.8,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 21833.75,
+      "anualVal": 20910.85,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 5822.33,
-      "financiamento": 567677.5
+      "parcVal": 5576.23,
+      "financiamento": 543682.1
      },
-     "status": "disponivel",
-     "obs": "Final 1. Área total 133,2 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "status": "reservado",
+     "obs": "Final 1. 79,34 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%. Reservada (reserva vigente).",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "71",
-     "andar": 7,
+     "unidade": "12",
+     "andar": 1,
+     "final": 2,
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 107.92,
+     "vagas": "1",
+     "valor": 1136635,
+     "entrada": 227327,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 227327,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 28415.88,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 7577.57,
+      "financiamento": 738812.75
+     },
+     "status": "disponivel",
+     "obs": "Final 2. 107,92 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "13",
+     "andar": 1,
+     "final": 3,
      "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
      "suites": 1,
-     "area": 79.34,
-     "vagas": "2",
-     "valor": 897615,
-     "entrada": 179523,
+     "area": 72.99,
+     "vagas": "1",
+     "valor": 641737,
+     "entrada": 128347.4,
      "chaves": 0,
      "fluxo": {
-      "entrada": 179523,
+      "entrada": 128347.4,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 22440.38,
+      "anualVal": 16043.43,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 5984.1,
-      "financiamento": 590449.75
+      "parcVal": 4278.25,
+      "financiamento": 417129.05
      },
      "status": "disponivel",
-     "obs": "Final 1. Área total 133,2 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 3. 72,99 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "42",
+     "unidade": "24",
+     "andar": 2,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 611281,
+     "entrada": 122256.2,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 122256.2,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 15282.03,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4075.21,
+      "financiamento": 397332.65
+     },
+     "status": "disponivel",
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "34",
+     "andar": 3,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 622158,
+     "entrada": 124431.6,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 124431.6,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 15553.95,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4147.72,
+      "financiamento": 404402.7
+     },
+     "status": "disponivel",
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "43",
      "andar": 4,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
+     "final": 3,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
      "suites": 1,
-     "area": 107.92,
-     "vagas": "2",
-     "valor": 1176196,
-     "entrada": 235239.2,
+     "area": 72.99,
+     "vagas": "1",
+     "valor": 696121,
+     "entrada": 139224.2,
      "chaves": 0,
      "fluxo": {
-      "entrada": 235239.2,
+      "entrada": 139224.2,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 29404.9,
+      "anualVal": 17403.03,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 7841.31,
-      "financiamento": 764527.4
+      "parcVal": 4640.81,
+      "financiamento": 452478.65
      },
      "status": "disponivel",
-     "obs": "Final 2. Área total 194,3 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 3. 72,99 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "52",
+     "unidade": "44",
+     "andar": 4,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 653701,
+     "entrada": 130740.2,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 130740.2,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 16342.53,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4358.01,
+      "financiamento": 424905.65
+     },
+     "status": "disponivel",
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "54",
      "andar": 5,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
      "suites": 1,
-     "area": 107.92,
-     "vagas": "2",
-     "valor": 1179396,
-     "entrada": 235879.2,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 658053,
+     "entrada": 131610.6,
      "chaves": 0,
      "fluxo": {
-      "entrada": 235879.2,
+      "entrada": 131610.6,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 29484.9,
+      "anualVal": 16451.33,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 7862.64,
-      "financiamento": 766607.4
+      "parcVal": 4387.02,
+      "financiamento": 427734.45
      },
      "status": "disponivel",
-     "obs": "Final 2. Área total 194,3 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "62",
+     "unidade": "64",
      "andar": 6,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
      "suites": 1,
-     "area": 107.92,
-     "vagas": "2",
-     "valor": 1185794,
-     "entrada": 237158.8,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 661315,
+     "entrada": 132263,
      "chaves": 0,
      "fluxo": {
-      "entrada": 237158.8,
+      "entrada": 132263,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 29644.85,
+      "anualVal": 16532.88,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 7905.29,
-      "financiamento": 770766.1
+      "parcVal": 4408.77,
+      "financiamento": 429854.75
      },
      "status": "disponivel",
-     "obs": "Final 2. Área total 194,3 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "72",
+     "unidade": "74",
      "andar": 7,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
      "suites": 1,
-     "area": 107.92,
-     "vagas": "2",
-     "valor": 1193259,
-     "entrada": 238651.8,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 664578,
+     "entrada": 132915.6,
      "chaves": 0,
      "fluxo": {
-      "entrada": 238651.8,
+      "entrada": 132915.6,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 29831.48,
+      "anualVal": 16614.45,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 7955.06,
-      "financiamento": 775618.35
+      "parcVal": 4430.52,
+      "financiamento": 431975.7
      },
      "status": "disponivel",
-     "obs": "Final 2. Área total 194,3 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "53",
-     "andar": 5,
+     "unidade": "84",
+     "andar": 8,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 667840,
+     "entrada": 133568,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 133568,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 16696,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4452.27,
+      "financiamento": 434096
+     },
+     "status": "reservado",
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%. Com proposta em análise, sujeita a aprovação.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "103",
+     "andar": 10,
+     "final": 3,
      "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
      "suites": 1,
      "area": 72.99,
      "vagas": "1",
-     "valor": 685670,
-     "entrada": 137134,
+     "valor": 720050,
+     "entrada": 144010,
      "chaves": 0,
      "fluxo": {
-      "entrada": 137134,
+      "entrada": 144010,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 17141.75,
+      "anualVal": 18001.25,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 4571.13,
-      "financiamento": 445685.5
+      "parcVal": 4800.33,
+      "financiamento": 468032.5
      },
      "status": "disponivel",
-     "obs": "Final 3. Área total 111,91 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 3. 72,99 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     },
     {
-     "unidade": "63",
-     "andar": 6,
+     "unidade": "113",
+     "andar": 11,
+     "final": 3,
      "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
      "suites": 1,
      "area": 72.99,
      "vagas": "1",
-     "valor": 698870,
-     "entrada": 139774,
+     "valor": 730927,
+     "entrada": 146185.4,
      "chaves": 0,
      "fluxo": {
-      "entrada": 139774,
+      "entrada": 146185.4,
       "chaves": 0,
       "anualQtd": 2,
-      "anualVal": 17471.75,
+      "anualVal": 18273.18,
+      "periodo": "semestral",
       "parcQtd": 15,
-      "parcVal": 4659.13,
-      "financiamento": 454265.5
+      "parcVal": 4872.85,
+      "financiamento": 475102.55
      },
      "status": "disponivel",
-     "obs": "Final 3. Área total 111,91 m². Entrada 20% + 2 semestrais (5% no total) + 15 parcelas (10% no total) + financiamento bancário 65% (poupança + 0,7% ao mês). À vista: 5% de desconto.",
-     "fonte": "Viamar Construtora (parcelamento direto, tabela de 01/09/2026)",
-     "tabela": "01/09/2026",
-     "vistaMar": false
+     "obs": "Final 3. 72,99 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "123",
+     "andar": 12,
+     "final": 3,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 72.99,
+     "vagas": "1",
+     "valor": 741803,
+     "entrada": 148360.6,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 148360.6,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 18545.08,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4945.35,
+      "financiamento": 482171.95
+     },
+     "status": "disponivel",
+     "obs": "Final 3. 72,99 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
+    },
+    {
+     "unidade": "124",
+     "andar": 12,
+     "final": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67.95,
+     "vagas": "1",
+     "valor": 698296,
+     "entrada": 139659.2,
+     "chaves": 0,
+     "fluxo": {
+      "entrada": 139659.2,
+      "chaves": 0,
+      "anualQtd": 2,
+      "anualVal": 17457.4,
+      "periodo": "semestral",
+      "parcQtd": 15,
+      "parcVal": 4655.31,
+      "financiamento": 453892.4
+     },
+     "status": "disponivel",
+     "obs": "Final 4. 67,95 m² úteis. Entrada 20% no ato + 2 semestrais (5% no total) + 15 mensais (10% no total) durante a obra + financiamento bancário 65%.",
+     "fonte": "Facttum Construtora / Grupo Viguer (tabela oficial de novembro/2026, tabelamaya.grupoviguer.co)",
+     "tabela": "01/11/2026"
     }
+   ],
+   "lazer": [
+    "Piscina adulta com vista mar",
+    "Piscina infantil",
+    "Solário",
+    "Salão de festas",
+    "Academia",
+    "Sauna",
+    "Sala de jogos adulto",
+    "Brinquedoteca"
    ]
   },
   {
@@ -4600,6 +4815,7 @@
       "chaves": 1024288.65,
       "anualQtd": 3,
       "anualVal": 170714.77,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 36581.74
      },
@@ -4626,6 +4842,7 @@
       "chaves": 902718.08,
       "anualQtd": 3,
       "anualVal": 150453.01,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 32239.93
      },
@@ -4652,6 +4869,7 @@
       "chaves": 902718.08,
       "anualQtd": 3,
       "anualVal": 150453.01,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 32239.93
      },
@@ -4678,6 +4896,7 @@
       "chaves": 1043817.75,
       "anualQtd": 3,
       "anualVal": 173969.62,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 37279.21
      },
@@ -4704,6 +4923,7 @@
       "chaves": 837499.13,
       "anualQtd": 3,
       "anualVal": 139583.19,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 29910.68
      },
@@ -4730,6 +4950,7 @@
       "chaves": 902718.08,
       "anualQtd": 3,
       "anualVal": 150453.01,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 32239.93
      },
@@ -4756,6 +4977,7 @@
       "chaves": 837499.13,
       "anualQtd": 3,
       "anualVal": 139583.19,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 29910.68
      },
@@ -4782,6 +5004,7 @@
       "chaves": 902718.08,
       "anualQtd": 3,
       "anualVal": 150453.01,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 32239.93
      },
@@ -4808,6 +5031,7 @@
       "chaves": 902718.08,
       "anualQtd": 3,
       "anualVal": 150453.01,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 32239.93
      },
@@ -4834,6 +5058,7 @@
       "chaves": 873252.22,
       "anualQtd": 3,
       "anualVal": 145542.04,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 31187.58
      },
@@ -4860,6 +5085,7 @@
       "chaves": 2011544.14,
       "anualQtd": 3,
       "anualVal": 335257.36,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 71840.86
      },
@@ -4886,6 +5112,7 @@
       "chaves": 873252.22,
       "anualQtd": 3,
       "anualVal": 145542.04,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 31187.58
      },
@@ -4912,6 +5139,7 @@
       "chaves": 939852.77,
       "anualQtd": 3,
       "anualVal": 156642.13,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33566.17
      },
@@ -4938,6 +5166,7 @@
       "chaves": 939852.77,
       "anualQtd": 3,
       "anualVal": 156642.13,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33566.17
      },
@@ -4964,6 +5193,7 @@
       "chaves": 873252.22,
       "anualQtd": 3,
       "anualVal": 145542.04,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 31187.58
      },
@@ -4990,6 +5220,7 @@
       "chaves": 939852.77,
       "anualQtd": 3,
       "anualVal": 156642.13,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33566.17
      },
@@ -5016,6 +5247,7 @@
       "chaves": 873252.22,
       "anualQtd": 3,
       "anualVal": 145542.04,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 31187.58
      },
@@ -5042,6 +5274,7 @@
       "chaves": 1001114.28,
       "anualQtd": 3,
       "anualVal": 166852.38,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 35754.08
      },
@@ -5068,6 +5301,7 @@
       "chaves": 939852.77,
       "anualQtd": 3,
       "anualVal": 156642.13,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33566.17
      },
@@ -5094,6 +5328,7 @@
       "chaves": 1075383.66,
       "anualQtd": 3,
       "anualVal": 179230.61,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 38406.56
      },
@@ -5120,6 +5355,7 @@
       "chaves": 1014122.14,
       "anualQtd": 3,
       "anualVal": 169020.36,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 36218.65
      },
@@ -5146,6 +5382,7 @@
       "chaves": 1014122.14,
       "anualQtd": 3,
       "anualVal": 169020.36,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 36218.65
      },
@@ -5172,6 +5409,7 @@
       "chaves": 1014122.14,
       "anualQtd": 3,
       "anualVal": 169020.36,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 36218.65
      },
@@ -5197,6 +5435,7 @@
       "chaves": 944758.2,
       "anualQtd": 3,
       "anualVal": 157459.7,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33741.36
      },
@@ -5223,6 +5462,7 @@
       "chaves": 944758.2,
       "anualQtd": 3,
       "anualVal": 157459.7,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 33741.36
      },
@@ -5249,6 +5489,7 @@
       "chaves": 1088391.52,
       "anualQtd": 3,
       "anualVal": 181398.59,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 38871.13
      },
@@ -5275,6 +5516,7 @@
       "chaves": 980510.92,
       "anualQtd": 3,
       "anualVal": 163418.49,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 35018.25
      },
@@ -5301,6 +5543,7 @@
       "chaves": 1088391.52,
       "anualQtd": 3,
       "anualVal": 181398.59,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 38871.13
      },
@@ -5327,6 +5570,7 @@
       "chaves": 980510.92,
       "anualQtd": 3,
       "anualVal": 163418.49,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 35018.25
      },
@@ -5353,6 +5597,7 @@
       "chaves": 980510.92,
       "anualQtd": 3,
       "anualVal": 163418.49,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 35018.25
      },
@@ -5379,6 +5624,7 @@
       "chaves": 980510.92,
       "anualQtd": 3,
       "anualVal": 163418.49,
+      "periodo": "semestral",
       "parcQtd": 14,
       "parcVal": 35018.25
      },
@@ -8216,6 +8462,7 @@
       "chaves": 34500,
       "anualQtd": 2,
       "anualVal": 10350,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4140
      },
@@ -8244,6 +8491,7 @@
       "chaves": 34500,
       "anualQtd": 2,
       "anualVal": 10350,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4140
      },
@@ -8272,6 +8520,7 @@
       "chaves": 36800,
       "anualQtd": 2,
       "anualVal": 11040,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4416
      },
@@ -8300,6 +8549,7 @@
       "chaves": 39100,
       "anualQtd": 2,
       "anualVal": 11730,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4692
      },
@@ -8328,6 +8578,7 @@
       "chaves": 39100,
       "anualQtd": 2,
       "anualVal": 11730,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4692
      },
@@ -8356,6 +8607,7 @@
       "chaves": 30700,
       "anualQtd": 2,
       "anualVal": 9210,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3684
      },
@@ -8384,6 +8636,7 @@
       "chaves": 31200,
       "anualQtd": 2,
       "anualVal": 9360,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3744
      },
@@ -8412,6 +8665,7 @@
       "chaves": 33200,
       "anualQtd": 2,
       "anualVal": 9960,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3984
      },
@@ -8440,6 +8694,7 @@
       "chaves": 33700,
       "anualQtd": 2,
       "anualVal": 10110,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4044
      },
@@ -8468,6 +8723,7 @@
       "chaves": 30150,
       "anualQtd": 2,
       "anualVal": 9045,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3618
      },
@@ -8496,6 +8752,7 @@
       "chaves": 32250,
       "anualQtd": 2,
       "anualVal": 9675,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3870
      },
@@ -8524,6 +8781,7 @@
       "chaves": 43400,
       "anualQtd": 2,
       "anualVal": 13020,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 5208
      },
@@ -8552,6 +8810,7 @@
       "chaves": 43600,
       "anualQtd": 2,
       "anualVal": 13080,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 5232
      },
@@ -8580,6 +8839,7 @@
       "chaves": 32250,
       "anualQtd": 2,
       "anualVal": 9675,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3870
      },
@@ -8608,6 +8868,7 @@
       "chaves": 33500,
       "anualQtd": 2,
       "anualVal": 10050,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4020
      },
@@ -8636,6 +8897,7 @@
       "chaves": 33750,
       "anualQtd": 2,
       "anualVal": 10125,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 4050
      },
@@ -8664,6 +8926,7 @@
       "chaves": 30250,
       "anualQtd": 2,
       "anualVal": 9075,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3630
      },
@@ -8692,6 +8955,7 @@
       "chaves": 30750,
       "anualQtd": 2,
       "anualVal": 9225,
+      "periodo": "semestral",
       "parcQtd": 15,
       "parcVal": 3690
      },
