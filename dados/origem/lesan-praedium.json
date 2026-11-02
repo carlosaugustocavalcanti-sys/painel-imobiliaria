@@ -1,8 +1,10 @@
 {
  "arquivo": "Praedium (app.praedium.com.br/imoveis, imóveis ativos da Lesan)",
- "lidoEm": "2026-10-28",
+ "lidoEm": "2026-11-02",
  "sobre": "Endereço de cada imóvel anunciado no site da Lesan, pelo código do anúncio, como está no cadastro interno da Praedium (lido com o login do Carlos). Sem dados de proprietário.",
  "enderecos": {
+  "305": "Guilhermina, Praia Grande/SP - Avenida Presidente Castelo Branco, 3236, 801 - 8º Andar",
+  "304": "Vila Caiçara, Praia Grande/SP - Rua São Domingos, 458, 43 - 4º Andar",
   "303": "Boqueirão, Praia Grande/SP - Avenida Presidente Castelo Branco, 1168, 214 - 2º Andar - Edifício gaivotas",
   "302": "Boqueirão, Praia Grande/SP - Avenida Presidente Castelo Branco, 1168, 08 - Térreo - Edifício gaivotas - B",
   "301": "Boqueirão, Praia Grande/SP - Avenida Duque de Caxias, 93, 34",

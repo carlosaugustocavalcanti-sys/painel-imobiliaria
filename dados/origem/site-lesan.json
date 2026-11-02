@@ -1,8 +1,174 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-10-29",
+ "lidoEm": "2026-11-02",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-68",
+   "nome": "Avenida Presidente Castelo Branco, 17690",
+   "cidade": "Praia Grande",
+   "bairro": "Balneário Flórida",
+   "fase": "pronto",
+   "endereco": "Avenida Presidente Castelo Branco, 17690 - Balneário Flórida - Praia Grande/SP",
+   "lazer": [
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 68)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "02/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "64",
+     "andar": 6,
+     "tipologia": "1 dorm (1 suíte)",
+     "dorm": 1,
+     "suites": 1,
+     "area": 43.65,
+     "vagas": "1",
+     "valor": 349000,
+     "cond": 330,
+     "iptu": 350,
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento Frente Mar no Balneário Flórida – Mobiliado e Exclusivo. Área total 68,78 m². Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Frente para o mar, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar, Semimobiliado, Varanda, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 68)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "02/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-43m2-id-68"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-304",
+   "nome": "Rua São Domingos, 458",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Caiçara",
+   "fase": "pronto",
+   "endereco": "Rua São Domingos, 458 - Vila Caiçara - Praia Grande/SP",
+   "lazer": [],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 304)",
+     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
+     "atualizadoEm": "02/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "43",
+     "andar": 4,
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "area": 84,
+     "vagas": "1",
+     "valor": 380000,
+     "cond": 479,
+     "iptu": 290,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda com 2 Dormitórios, 70m² e 1 Vaga na Vila Caiçara. Ar condicionado, Armário de Cozinha, Box Blindex",
+     "fonte": "Site Lesan Imóveis (cód. 304)",
+     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
+     "tabela": "02/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-84m2-id-304"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-183",
+   "nome": "Rua dos Alecrins, 60",
+   "cidade": "Praia Grande",
+   "bairro": "Balneário Flórida",
+   "fase": "pronto",
+   "endereco": "Rua dos Alecrins, 60 - Balneário Flórida - Praia Grande/SP",
+   "lazer": [
+    "Piscina"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 183)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "atualizadoEm": "02/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "Cód. 183",
+     "tipologia": "Casa 5 dorms (5 suítes)",
+     "categoria": "casa",
+     "dorm": 5,
+     "suites": 5,
+     "area": 175,
+     "vagas": "3",
+     "valor": 1450000,
+     "iptu": 450,
+     "status": "disponivel",
+     "obs": "A 50m do mar: sobrado de alto padrão com 5 suítes e piscina. Armário Embutido, Armário no Banheiro, Banheira, Box Blindex, Cozinha Gourmet, Cozinha Grande, Lavabo, Lavanderia, Quintal, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar",
+     "fonte": "Site Lesan Imóveis (cód. 183)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "tabela": "02/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-5-quartos-balneario-florida-praia-grande-sp-175m2-id-183"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-305",
+   "nome": "Avenida Presidente Castelo Branco, 3236",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "fase": "pronto",
+   "endereco": "Avenida Presidente Castelo Branco, 3236 - Guilhermina - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 305)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "02/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "801",
+     "andar": 8,
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 145,
+     "vagas": "3",
+     "valor": 1298000,
+     "cond": 1196,
+     "iptu": 800,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "More de Frente para o Mar: 145 m², 3 Vagas e Lazer Completo. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista Panorâmica, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 305)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "02/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-guilhermina-praia-grande-sp-145m2-id-305"
+    }
+   ]
+  },
   {
    "id": "lesan-site-302",
    "nome": "Ed. Gaivotas",
@@ -481,44 +647,6 @@
    ]
   },
   {
-   "id": "lesan-site-183",
-   "nome": "Rua dos Alecrins, 60",
-   "cidade": "Praia Grande",
-   "bairro": "Balneário Flórida",
-   "fase": "pronto",
-   "endereco": "Rua dos Alecrins, 60 - Balneário Flórida - Praia Grande/SP",
-   "lazer": [
-    "Piscina"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 183)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "Cód. 183",
-     "tipologia": "Casa 5 dorms (5 suítes)",
-     "categoria": "casa",
-     "dorm": 5,
-     "suites": 5,
-     "area": 175,
-     "vagas": "3",
-     "valor": 1599000,
-     "iptu": 450,
-     "status": "disponivel",
-     "obs": "A 50m do mar: sobrado de alto padrão com 5 suítes e piscina. Armário Embutido, Armário no Banheiro, Banheira, Box Blindex, Cozinha Gourmet, Cozinha Grande, Lavabo, Lavanderia, Quintal, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar",
-     "fonte": "Site Lesan Imóveis (cód. 183)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-5-quartos-balneario-florida-praia-grande-sp-175m2-id-183"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-285",
    "nome": "Avenida 31 de Março, 126",
    "cidade": "Praia Grande",
@@ -718,85 +846,6 @@
      "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-aviacao-praia-grande-sp-35m2-id-171"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-160",
-   "nome": "Rua Paulino Borrelli, 43",
-   "cidade": "Praia Grande",
-   "bairro": "Maracanã",
-   "fase": "pronto",
-   "endereco": "Rua Paulino Borrelli, 43 - Maracanã - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Churrasqueira",
-    "Deck Molhado",
-    "Espaço Fitness",
-    "Espaço Gourmet",
-    "Espaço Pet",
-    "Piscina",
-    "Piscina Infantil",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Sauna",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 160)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 159)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "102",
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 86.57,
-     "vagas": "2",
-     "valor": 760000,
-     "cond": 819,
-     "iptu": 520,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento Mobiliado com Vista Mar e Condição Especial de Pagamento. Ambientes Integrados, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
-     "fonte": "Site Lesan Imóveis (cód. 160)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-maracana-praia-grande-sp-86m2-id-160"
-    },
-    {
-     "unidade": "402",
-     "andar": 4,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 86.57,
-     "vagas": "2",
-     "valor": 800000,
-     "cond": 795,
-     "iptu": 520,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Frente para o Mar: Apartamento de 86m² com 2 Vagas no Maracanã. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 159)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-maracana-praia-grande-sp-86m2-id-159"
     }
    ]
   },
@@ -6927,48 +6976,6 @@
      "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-52m2-id-105"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-68",
-   "nome": "Avenida Presidente Castelo Branco, 17690",
-   "cidade": "Praia Grande",
-   "bairro": "Balneário Flórida",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 17690 - Balneário Flórida - Praia Grande/SP",
-   "lazer": [
-    "Piscina",
-    "Salão de Festas",
-    "Salão de Jogos"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 68)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "64",
-     "andar": 6,
-     "tipologia": "1 dorm (1 suíte)",
-     "dorm": 1,
-     "suites": 1,
-     "area": 43.65,
-     "vagas": "1",
-     "valor": 380000,
-     "cond": 330,
-     "iptu": 350,
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento Frente Mar no Balneário Flórida – Mobiliado e Exclusivo. Área total 68,78 m². Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Frente para o mar, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar, Semimobiliado, Varanda, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 68)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-43m2-id-68"
     }
    ]
   },
