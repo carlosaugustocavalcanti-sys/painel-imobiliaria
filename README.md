@@ -33,7 +33,10 @@ npm run build      # versão de produção em dist/
 ```bash
 npm run dados      # regera public/dados/estoque.json e valida
 node scripts/ler-site-lesan.mjs   # relê o site da Lesan (páginas ficam em dados/cache/, fora do git)
+node scripts/ler-site-lesan.mjs --atualizar   # baixa a listagem de novo e lista novos, retirados e valores alterados
 ```
+
+Toda quarta às 9h, a tarefa agendada `atualizar-site-lesan` segue o roteiro de `dados/ATUALIZACAO-LESAN.md`: valores alterados, anúncios novos (com o endereço da Praedium) e retirados. Anúncio sem mudança mantém a data da leitura anterior.
 
 O site da Lesan tem verificação anti-robô (AWS WAF): depois de umas 40 páginas seguidas, ele passa a responder "Human Verification". O leitor baixa uma página a cada 6 s e para no primeiro desafio, sem tentar contorná-lo. As fichas que faltarem ficam só com os dados da listagem (valor, área, dormitórios, bairro), com a observação "Ficha do anúncio não lida". Rodar de novo mais tarde completa só o que falta. Anúncio com valor absurdo (acima de R$ 100 milhões, erro de digitação no site) entra sem valor e marcado "Confirmar".
 

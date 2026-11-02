@@ -1,7 +1,9 @@
 // Gera dados/origem/site-lesan.json: os imóveis à venda do site da Lesan Imóveis (www.lesanimoveis.com.br, plataforma Praedium).
 // O site não mostra nome do prédio nem endereço: eles vêm do cadastro interno da Praedium, transcrito em
 // dados/origem/lesan-praedium.json pelo código do anúncio. Anúncios no mesmo endereço viram um prédio só. Locação não entra.
-// Uso: node scripts/ler-site-lesan.mjs [pasta] [--sem-baixar]   (padrão: dados/cache/site-lesan, fora do git)
+// Uso: node scripts/ler-site-lesan.mjs [pasta] [--sem-baixar] [--atualizar]   (padrão: dados/cache/site-lesan, fora do git)
+// --atualizar baixa de novo a listagem (valores, anúncios novos e retirados); as fichas já baixadas continuam valendo.
+// No fim, compara com o site-lesan.json anterior: anúncios novos, retirados e com valor alterado.
 // Baixa o que falta na pasta (listagem e fichas, uma página a cada 6 s) e para no primeiro desafio anti-robô do site:
 // as fichas que não vierem usam só os dados do card da listagem. Rode de novo mais tarde para completar.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync } from 'node:fs';
@@ -11,14 +13,15 @@ const SITE = 'https://www.lesanimoveis.com.br';
 const args = process.argv.slice(2);
 const PASTA = args.find((a) => !a.startsWith('--')) ?? 'dados/cache/site-lesan';
 let bloqueado = args.includes('--sem-baixar');
+const atualizar = args.includes('--atualizar');
 const HOJE = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
 mkdirSync(join(PASTA, 'fichas'), { recursive: true });
 
 /* ---------- download ---------- */
 const desafio = (html) => /<title>Human Verification/.test(html);
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
-async function baixar(url, arquivo) {
-  if (existsSync(arquivo) && !desafio(readFileSync(arquivo, 'utf8'))) return readFileSync(arquivo, 'utf8');
+async function baixar(url, arquivo, renovar = false) {
+  if (!renovar && existsSync(arquivo) && !desafio(readFileSync(arquivo, 'utf8'))) return readFileSync(arquivo, 'utf8');
   if (bloqueado) return null;
   const html = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } }).then((r) => r.text());
   await espera(6000);
@@ -244,7 +247,9 @@ function predio(card, f) {
 /* ---------- execução ---------- */
 const cards = [];
 for (let p = 1; ; p++) {
-  const html = await baixar(`${SITE}/imoveis/a-venda?pagina=${p}`, join(PASTA, `pagina-${p}.html`));
+  const html = await baixar(`${SITE}/imoveis/a-venda?pagina=${p}`, join(PASTA, `pagina-${p}.html`), atualizar);
+  // listagem incompleta não pode virar "anúncios retirados": para sem gravar nada
+  if (!html && atualizar) throw new Error(`A listagem parou na página ${p} (verificação do site); nada foi alterado. Rode de novo mais tarde.`);
   if (!html) break;
   const novos = lerCards(html);
   if (!novos.length) break;
@@ -285,8 +290,36 @@ for (const p of saida) {
     if (outro) u.obs = [u.obs, `Mesmo apartamento do anúncio ${outro.fonte.match(/cód\. \d+/)[0]}`].filter(Boolean).join('. ');
   }
 }
+// o que mudou desde a leitura anterior, pelo código do anúncio
+const ARQ = 'dados/origem/site-lesan.json';
+const codigo = (u) => u.fonte.match(/cód\. (\d+)/)[1];
+const porCodigo = (ps) => new Map(ps.flatMap((p) => p.unidades.map((u) => [codigo(u), { valor: u.valor, nome: p.nome, unidade: u.unidade }])));
+const anterior = existsSync(ARQ) ? JSON.parse(readFileSync(ARQ, 'utf8')) : null;
+const antes = anterior ? porCodigo(anterior.predios) : new Map();
+// anúncio sem nenhuma mudança fica com a data da leitura em que apareceu ou mudou pela última vez
+const semData = (u) => JSON.stringify({ ...u, tabela: '' });
+const unidadeAntes = new Map((anterior?.predios ?? []).flatMap((p) => p.unidades.map((u) => [codigo(u), u])));
+for (const p of saida)
+  for (const u of p.unidades) {
+    const velho = unidadeAntes.get(codigo(u));
+    if (!velho || semData(velho) !== semData(u)) continue;
+    u.tabela = velho.tabela;
+    const t = p.tabelas.find((x) => x.fonte === u.fonte);
+    if (t) t.atualizadoEm = velho.tabela;
+  }
+const agora = porCodigo(saida);
+const brl = (v) => (v ? `R$ ${v.toLocaleString('pt-BR')}` : 'sem valor');
+const desc = (c, x) => `cód. ${c} (${x.nome}, ${x.unidade})`;
+const novos = [...agora].filter(([c]) => !antes.has(c));
+const retirados = [...antes].filter(([c]) => !agora.has(c));
+const valores = [...agora].filter(([c, x]) => antes.has(c) && antes.get(c).valor !== x.valor);
+if (antes.size) {
+  console.log(`Novos (${novos.length}):`, novos.map(([c, x]) => `${desc(c, x)} ${brl(x.valor)}`).join('; ') || '—');
+  console.log(`Retirados do site (${retirados.length}):`, retirados.map(([c, x]) => desc(c, x)).join('; ') || '—');
+  console.log(`Valor alterado (${valores.length}):`, valores.map(([c, x]) => `${desc(c, x)} ${brl(antes.get(c).valor)} → ${brl(x.valor)}`).join('; ') || '—');
+}
 writeFileSync(
-  'dados/origem/site-lesan.json',
+  ARQ,
   JSON.stringify({ arquivo: `${SITE}/imoveis/a-venda`, lidoEm: new Date().toISOString().slice(0, 10), sobre: 'Imóveis à venda no site da Lesan Imóveis.', predios: saida }, null, 1) + '\n',
 );
 console.log(`${unicos.length} anúncios → ${saida.length} prédios; ${semFicha} sem ficha lida${semFicha ? ' (rode de novo mais tarde)' : ''}.`);
