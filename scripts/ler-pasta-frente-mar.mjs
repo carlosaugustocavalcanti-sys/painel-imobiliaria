@@ -12,27 +12,27 @@ const FONTES = {
   terral: { fonte: 'Terral (Guayi, tabela de agosto/2026)', contato: 'Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075', data: '08/2026', arquivo: 'Guayi - Aptos 2 e 3 dorm (Aviação).pdf' },
   costaReal: { fonte: 'Costa Real Imóveis', contato: 'Samir (13) 97405-3825', data: '23/10/2026', arquivo: 'COSTA REAL - Apto 1 dorm (Aviação).pdf' },
   grandlar: { fonte: 'GrandLar Imóveis (tabela de 08/10/2026)', contato: 'Angelica Klein (13) 97405-5450', data: '08/10/2026', arquivo: 'GRANDLAR - Apto 2 dorm (Mirim).pdf' },
-  m2: { fonte: 'M² Imóveis (tabela de 23/10/2026)', contato: 'Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322', data: '23/10/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
-  m2vinicius: { fonte: 'M² Imóveis (tabela de 23/10/2026)', contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322', data: '23/10/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
-  vistaAtlantico: { fonte: 'Vista Atlântico Imóveis (tabela de 23/10/2026)', contato: 'Vista Atlântico (13) 3494-5840', data: '23/10/2026', arquivo: 'VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf' },
+  m2: { fonte: 'M² Imóveis (tabela de 30/10/2026)', contato: 'Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322', data: '30/10/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
+  m2vinicius: { fonte: 'M² Imóveis (tabela de 30/10/2026)', contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322', data: '30/10/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
+  vistaAtlantico: { fonte: 'Vista Atlântico Imóveis (tabela de 28/10/2026)', contato: 'Vista Atlântico (13) 3494-5840', data: '28/10/2026', arquivo: 'VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf' },
   kalyl: { fonte: 'Kalyl Imóveis (tabela de 26/10/2026)', contato: 'Kalyl Imóveis (13) 98850-1016', data: '26/10/2026', arquivo: 'KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf' },
   lucato: { fonte: 'Lucato Imóveis (tabela de 27/10/2026)', contato: 'Lucato (13) 98835-4051 · (13) 99161-8893', data: '27/10/2026', arquivo: 'LUCATO - Apto 1 dorm (Guilhermina).pdf' },
   veraneio: { fonte: 'Veraneio Imóveis (tabela de 27/10/2026)', contato: 'Veraneio (13) 97405-5688 (gerente de vendas)', data: '27/10/2026', arquivo: 'VERANEIO - Apto 2 dorm (Jd. Real).pdf' },
   leandro: { fonte: 'Imóveis Leandro Carvalho (Cabelo)', contato: 'Leandro Carvalho (Cabelo)', data: '19/10/2026', arquivo: 'LEANDRO CABELO - Apto 2 dorm (Forte).pdf' },
-  saga: { fonte: 'Saga Imóveis (tabela de 27/10/2026)', contato: 'Saga (13) 97411-3677 · (13) 97405-8119', data: '27/10/2026', arquivo: 'SAGA - Cobertura 6 dorm (Tupi).pdf' },
+  saga: { fonte: 'Saga Imóveis (tabela de 30/10/2026)', contato: 'Saga (13) 97411-3677 · (13) 97405-8119', data: '30/10/2026', arquivo: 'SAGA - Cobertura 6 dorm (Tupi).pdf' },
   pgi: { fonte: 'PGI (tabela de 05/10/2026)', contato: 'Luis Moraes (13) 97600-2278', data: '05/10/2026', arquivo: 'PGI - Apto 1 dorm (Maracanã).pdf' },
-  c2x: { fonte: 'C2X Investimentos (tabela de 16/10/2026)', contato: 'Júlio (13) 99733-7800', data: '16/10/2026', arquivo: 'C2X - Apto 3 dorm (Maracanã).pdf' },
+  c2x: { fonte: 'C2X Investimentos (tabela de 03/11/2026)', contato: 'Júlio (13) 99733-7800', data: '03/11/2026', arquivo: 'C2X - Apto 3 dorm (Maracanã).pdf' },
   novaHome: { fonte: 'Nova Home (tabela de 16/10/2026)', contato: 'Daniela (13) 97409-3105', data: '16/10/2026', arquivo: 'NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf' },
   marcio: { fonte: 'Márcio Masumoto Jr (tabela de 22/09/2026)', contato: 'Márcio Masumoto Jr (Instagram @marciomasumotojr)', data: '22/09/2026', arquivo: 'MÁRCIO MASUMOTO JR - Apto 3 dorm (Flórida).pdf' },
   ariani: { fonte: 'Ariani Galeano Imóveis', contato: 'Wellington (13) 99631-9271', data: '20/10/2026', arquivo: 'ARIANI GALEANO - Apto 2 dorm (Boqueirão).pdf' },
   jean: { fonte: 'Jean Diegues Imóveis', contato: '(13) 99807-8987 · (13) 98156-9018', data: '22/10/2026', arquivo: 'JEAN DIEGUES - Apto 3 dorm (Tupi).pdf' },
   kfKatia: { fonte: 'Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)', contato: 'Kátia (13) 99679-4782', data: '15/10/2026', arquivo: 'KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf' },
   kfFlavio: { fonte: 'Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)', contato: 'Flávio (13) 99782-6694', data: '15/10/2026', arquivo: 'KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf' },
-  coliseum: { fonte: 'Coliseum Imóveis (tabela de 27/10/2026)', contato: 'Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049', data: '27/10/2026', arquivo: 'COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf' },
+  coliseum: { fonte: 'Coliseum Imóveis (tabela de 03/11/2026)', contato: 'Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049', data: '03/11/2026', arquivo: 'COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf' },
   gomes: { fonte: 'Gomes e Ferreira', contato: '(13) 99149-9526 · Reinaldo (13) 99183-0576', data: '20/10/2026', arquivo: 'GOMES E FERREIRA - Aptos 2 e 3 dorm (Caiçara).pdf' },
-  stefano: { fonte: 'Eduardo Stefano Negócios Imobiliários', contato: 'Eduardo Stefano (meuzap.in/stefano)', data: '21/10/2026', arquivo: 'EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf' },
+  stefano: { fonte: 'Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)', contato: 'Eduardo Stefano (meuzap.in/stefano)', data: 'sem data (arquivo de 31/10/2026)', arquivo: 'EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf' },
   rj: { fonte: 'RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)', contato: 'Diego Xavier (13) 98854-7879', data: 'sem data (arquivo de 27/10/2026)', arquivo: 'RJ INVESTIMENTOS - Aptos 2 dorm (Ocian-Imperador) + Aptos 3 dorm (Caiçara).pdf' },
-  william: { fonte: 'William Buongiovanni (tabela de 14/10/2026)', contato: 'Raquel Correia (13) 99735-2597 · William (13) 99770-0999', data: '14/10/2026', arquivo: 'WILLIAM BUONGIOVANNI - Aptos 1 dorm (Mongaguá-SP) + Apto 2 dorm (Imperador) + Apto 3 dorm (Mongaguá).pdf' },
+  william: { fonte: 'William Buongiovanni (tabela de 31/10/2026)', contato: 'Raquel Correia (13) 99735-2597 · William (13) 99770-0999', data: '31/10/2026', arquivo: 'WILLIAM BUONGIOVANNI - Aptos 1 dorm (Mongaguá-SP) + Apto 2 dorm (Imperador) + Apto 3 dorm (Mongaguá).pdf' },
 };
 
 const plural = (n, s, p) => `${n} ${n === 1 ? s : p}`;
@@ -126,6 +126,7 @@ const predios = [
   ]),
   predio('nicolas-frente-mar', 'Nicolas', 'Guilhermina', 'Av. Castelo Branco, 3236', ['vistaAtlantico'], [
     un('vistaAtlantico', { unidade: '1305', dorm: 2, suites: 1, area: 84, vagas: '2', valor: 627000, iptu: 517.65, cond: 871.59, vista: 'Vista mar · Av. Castelo Branco', det: 'sacada, lazer completo, mobiliado', obs: 'Aceita financiamento. Comissão 5%.' }),
+    un('vistaAtlantico', { unidade: '1201', dorm: 3, suites: 1, area: 149, vagas: '3', valor: 1300000, iptu: 315, cond: 918.36, vista: 'Vista mar frontal · Av. Pres. Castelo Branco', det: 'dependência com WC, 3 vagas demarcadas, lazer completo, mobiliado', obs: 'Novo na tabela de 28/10/2026. Condomínio e IPTU saem iguais aos do Paulo Roberto VII na mesma tabela; confirmar com a imobiliária. Aceita financiamento. Comissão 5%.' }),
   ]),
 
   /* ---------- Kalyl ---------- */
@@ -184,20 +185,20 @@ const predios = [
 
   /* ---------- Eduardo Stefano ---------- */
   predio('res-laus-ramos-frente-mar', 'Res. Laus Ramos', 'Flórida', CB('19.684'), ['stefano'], [
-    un('stefano', { unidade: '11', dorm: 2, area: 64, vagas: '1', valor: 365000, iptu: 272, cond: 643, acesso: 'escada', vista: 'Frente mar · Av. Pres. Castelo Branco', det: 'varanda, semi mobiliado, sem elevador', obs: 'Com proposta. Aceita financiamento bancário. Enviar foto do CRECI para autorizar visita. Comissão 5%.' }),
+    un('stefano', { unidade: '11', dorm: 2, area: 64, vagas: '1', valor: 365000, iptu: 272, cond: 643, acesso: 'escada', status: 'vendido', vista: 'Frente mar · Av. Pres. Castelo Branco', det: 'varanda, semi mobiliado, sem elevador', obs: 'Vendido (tabela de 31/10/2026). Aceita financiamento bancário. Enviar foto do CRECI para autorizar visita. Comissão 5%.' }),
   ]),
   predio('res-solarium-frente-mar', 'Res. Solarium', 'Flórida', CB('18.358'), ['stefano'], [
     un('stefano', { unidade: '127', dorm: 2, suites: 1, area: 72, vagas: '1', valor: 565000, iptu: 412.75, cond: 511.52, vista: 'Vista mar · Av. Pres. Castelo Branco', det: 'mobiliado, cozinha planejada, varanda gourmet, vaga coletiva', obs: 'Aceita financiamento bancário. Visitas aos sábados só até as 14h. Comissão 5%.' }),
   ]),
   predio('res-matteo-frente-mar', 'Res. Matteo', 'Vila Dinápolis', 'Av. Gov. Mario Covas Júnior, 4778 - Mongaguá/SP', ['stefano'], [
-    un('stefano', { unidade: '73', dorm: 2, suites: 1, area: 74, vagas: '1', valor: 425000, iptu: 366, cond: 730, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
+    un('stefano', { unidade: '73', dorm: 2, suites: 1, area: 74, vagas: '1', valor: 430000, iptu: 366, cond: 730, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
   ], { cidade: 'Mongaguá' }),
   predio('res-porto-bello-frente-mar', 'Res. Porto Bello', 'Jardim Lunamar', 'Av. Gov. Mário Covas Jr, 594', ['stefano'], [
     un('stefano', { unidade: '35-B', dorm: 2, suites: 1, area: 75, vagas: '1', valor: 570000, cond: 485, vista: 'Edifício frente mar · vista mar', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
   ], { cidade: 'Mongaguá' }),
   predio('res-splendour-frente-mar', 'Res. Splendour', 'Vila São Paulo', 'Rua João Zarzur, 55', ['stefano'], [
     un('stefano', { unidade: '156-A', dorm: 2, suites: 1, area: 79, vagas: '1', valor: 510000, iptu: 490, cond: 640, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
-    un('stefano', { unidade: '155-B', dorm: 2, suites: 1, area: 79, vagas: '1', valor: 510000, iptu: 410, cond: 581, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
+    un('stefano', { unidade: '155-B', dorm: 2, suites: 1, area: 79, vagas: '1', valor: 540000, iptu: 410, cond: 581, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
   ], { cidade: 'Mongaguá' }),
 
   /* ---------- William Buongiovanni ---------- */
@@ -232,7 +233,7 @@ const predios = [
   semNome('coliseum', 'AP3893', 'Vila Assunção', null, un('coliseum', { unidade: 'AP3893', dorm: 2, suites: 1, area: 85, vagas: '1', valor: 620000, iptu: 281.87, cond: 773.8, vista: 'Em frente ao mar · vista para o mar', det: 'lazer com elevador, salão de jogos e salão de festas', obs: 'À vista ou financiamento bancário. Chaves: agendar. ' + COMISSAO_FIFTY })),
   semNome('coliseum', 'AP1990', 'Solemar', null, un('coliseum', { unidade: 'AP1990', dorm: 3, suites: 1, area: 105, vagas: '2', valor: 665000, iptu: 500, cond: 1200, det: 'varanda gourmet, elevador, lazer', obs: 'À vista ou financiamento bancário. Chaves: agendar. ' + COMISSAO_FIFTY })),
   semNome('coliseum', 'AP4019', 'Flórida', null, un('coliseum', { unidade: 'AP4019', dorm: 3, suites: 1, area: 102, vagas: '2', valor: 950000, vista: 'Prédio frente mar · varanda com vista mar', det: 'mobiliado; portaria 24h, piscina, academia, playground, churrasqueira, brinquedoteca, salão de festas', obs: 'Aceita financiamento. Chaves: agendar. Comissão fifty.' })),
-  semNome('coliseum', 'KN0383', 'Guilhermina', null, un('coliseum', { prefixo: '', dorm: 1, area: 38, vagas: '1', valor: 275000, iptu: 117, cond: 521, det: 'mobiliado e todo reformado, portaria 24h, vaga rotativa', obs: 'Aceita financiamento bancário. Chaves: agendar. ' + COMISSAO_FIFTY })),
+  semNome('coliseum', 'AP4321', 'Vila Assunção', null, un('coliseum', { unidade: 'AP4321', dorm: 1, area: 50, vagas: '1', valor: 350000, det: 'sala 2 ambientes, sacada com vista para o mar; portaria 24h, piscina, salão de jogos e de festas, espaço gourmet, elevador', obs: 'Novo na tabela de 03/11/2026. Também para locação (R$ 2.500/mês). À vista; aceita financiamento bancário. A tabela não traz condomínio nem IPTU. Chaves: agendar. ' + COMISSAO_FIFTY })),
   /* ---------- RJ Investimentos (Diego Xavier) ---------- */
   predio('ocean-park-rj-frente-mar', 'Ocean Park', 'Ocian', 'Rua Comendador Otto Carlos Golanda, 200 - Ocian - Praia Grande/SP', ['rj'], [
     un('rj', { unidade: '72 B', dorm: 2, suites: 1, area: 102, vagas: '1', valor: 724000, entrada: 345000, cond: 650, fluxo: { entrada: 345000, parcQtd: 55, parcVal: 4166.66 }, vista: 'Vista para o mar (frente)', det: 'piso vinílico, móveis planejados', obs: 'Pronto para morar; chaves na portaria (ligar para autorização). Entrada R$ 345 mil + 55 mensais de R$ 4.166,66 + 10 semestrais de R$ 15 mil (IPCA + 0,7%). Reserva só com sinal na conta do investidor. Aceita permuta e carro como parte do pagamento. Comissão 5%.' }),
@@ -265,7 +266,7 @@ for (const p of predios) {
 predios.forEach((p) => (p.notas = p.notas ?? []));
 const saida = {
   arquivo: 'Google Drive/5. FRENTE MAR',
-  lidoEm: '2026-10-28',
+  lidoEm: '2026-11-04',
   sobre: `Apartamentos escritos "frente mar" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta "5. FRENTE MAR" do Drive (${predios.length} prédios, ${n} unidades). Casas, locações e unidades só com "vista mar" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.`,
   predios,
 };
