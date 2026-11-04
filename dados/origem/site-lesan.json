@@ -1,8 +1,131 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-02",
+ "lidoEm": "2026-11-04",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-200",
+   "nome": "Avenida Rio Branco, 440",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Avenida Rio Branco, 440 - Canto do Forte - Praia Grande/SP",
+   "lazer": [],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 200)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 123)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 179)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "29",
+     "andar": 1,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 38,
+     "vagas": "1",
+     "valor": 270000,
+     "iptu": 150,
+     "status": "disponivel",
+     "obs": "Apartamento Compacto e Bem Localizado no Canto do Forte",
+     "fonte": "Site Lesan Imóveis (cód. 200)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-38m2-id-200"
+    },
+    {
+     "unidade": "44",
+     "andar": 2,
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "area": 48,
+     "vagas": "1",
+     "valor": 299000,
+     "cond": 413,
+     "iptu": 153,
+     "status": "disponivel",
+     "obs": "More no Canto do Forte | Apartamento com Vaga por R$ 299 Mil. Lavanderia",
+     "fonte": "Site Lesan Imóveis (cód. 123)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-48m2-id-123"
+    },
+    {
+     "unidade": "41",
+     "andar": 2,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 44,
+     "vagas": "1",
+     "valor": 270000,
+     "cond": 378,
+     "iptu": 147,
+     "status": "disponivel",
+     "obs": "More no Canto do Forte por Apenas R$ 270 Mil",
+     "fonte": "Site Lesan Imóveis (cód. 179)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-44m2-id-179"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-306",
+   "nome": "Avenida Duque de Caxias, 61",
+   "cidade": "Praia Grande",
+   "bairro": "Boqueirão",
+   "fase": "pronto",
+   "endereco": "Avenida Duque de Caxias, 61 - Boqueirão - Praia Grande/SP",
+   "lazer": [
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 306)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "04/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "68",
+     "andar": 6,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 71,
+     "vagas": "1",
+     "valor": 848000,
+     "cond": 789,
+     "iptu": 389,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Seu Novo Apartamento no Boqueirão: Mobiliado e com Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 306)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "04/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-71m2-id-306"
+    }
+   ]
+  },
   {
    "id": "lesan-site-68",
    "nome": "Avenida Presidente Castelo Branco, 17690",
@@ -3191,85 +3314,6 @@
      "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-38m2-id-184"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-123",
-   "nome": "Avenida Rio Branco, 440",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Avenida Rio Branco, 440 - Canto do Forte - Praia Grande/SP",
-   "lazer": [],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 123)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 200)",
-     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 179)",
-     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "44",
-     "andar": 2,
-     "tipologia": "2 dorms",
-     "dorm": 2,
-     "area": 48,
-     "vagas": "1",
-     "valor": 299000,
-     "cond": 413,
-     "iptu": 153,
-     "status": "disponivel",
-     "obs": "More no Canto do Forte | Apartamento com Vaga por R$ 299 Mil. Lavanderia",
-     "fonte": "Site Lesan Imóveis (cód. 123)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-48m2-id-123"
-    },
-    {
-     "unidade": "29",
-     "andar": 1,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 38,
-     "vagas": "1",
-     "valor": 270000,
-     "iptu": 150,
-     "status": "disponivel",
-     "obs": "Apartamento Compacto e Bem Localizado no Canto do Forte",
-     "fonte": "Site Lesan Imóveis (cód. 200)",
-     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-38m2-id-200"
-    },
-    {
-     "unidade": "41",
-     "andar": 2,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 44,
-     "vagas": "1",
-     "valor": 270000,
-     "cond": 378,
-     "iptu": 147,
-     "status": "disponivel",
-     "obs": "More no Canto do Forte por Apenas R$ 270 Mil",
-     "fonte": "Site Lesan Imóveis (cód. 179)",
-     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-44m2-id-179"
     }
    ]
   },
