@@ -3384,8 +3384,8 @@
      "area": 44.12,
      "valor": 352960,
      "entrada": 50000,
-     "status": "disponivel",
-     "obs": ""
+     "status": "reservado",
+     "obs": "Reservada (não vendida)"
     },
     {
      "unidade": "33",
@@ -3414,8 +3414,8 @@
      "area": 44.12,
      "valor": 361784,
      "entrada": 50000,
-     "status": "reservado",
-     "obs": "Reservada (não vendida)"
+     "status": "vendido",
+     "obs": "Não consta na tabela de 05/11/2026 (antes reservada): reservada ou vendida; confirmar"
     },
     {
      "unidade": "63",
@@ -3519,7 +3519,7 @@
     }
    ],
    "fonte": "Tabela Habitare – Res. Fátima II",
-   "atualizadoEm": "08/10/2026",
+   "atualizadoEm": "05/11/2026",
    "entrega": "Jul/2027",
    "endereco": "Rua 23 de Maio, 282 – Vila Mirim",
    "contato": "",
@@ -27900,14 +27900,6 @@
    120,
    2518.66
   ],
-  "53": [
-   50000,
-   50000,
-   8,
-   5000,
-   96,
-   2310.25
-  ],
   "55": [
    80000,
    80000,
@@ -28010,10 +28002,10 @@
   "Correção pela poupança, acumulada até a entrega das chaves; depois da entrega, poupança + 0,5% acumulativo.",
   "Modelo e condições de pagamento: plano negociável.",
   "Comissão de 5% desde que esteja de acordo com a tabela, paga em até 3 dias úteis após o pagamento total da entrada.",
-  "Unidade 53: reservada, não vendida.",
+  "Unidade 23: reservada, não vendida.",
   "Para reservar: sinal e proposta entregues de imediato no escritório; consulta Serasa nacional, cópia de CPF, RG, e-mail, telefone, comprovante de residência e certidão de casamento; somente pessoa física com residência e documentação no Brasil.",
   "Construtora não autoriza alterações antes da entrega das chaves e não fornece revestimentos para modificações.",
   "Conta da construtora (Habitare Construtora e Incorporadora Ltda-EPP, CNPJ 18.778.400/0001-98): Bradesco, ag. 1978, c/c 38056-3. PIX: habitare.construtora@hotmail.com",
-  "Tabela de fluxo de 08/10/2026; as informações desta tabela se sobrepõem às anteriores."
+  "Tabela de fluxo de 05/11/2026; as informações desta tabela se sobrepõem às anteriores."
  ]
 }
