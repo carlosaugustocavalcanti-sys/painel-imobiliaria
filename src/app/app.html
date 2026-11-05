@@ -111,6 +111,16 @@
         }
       </div>
     </div>
+    <div class="filtro lazer">
+      <span class="rot" title="Lazer do condomínio citado na tabela, na lista de lazer ou no book. Com mais de um item, o condomínio precisa ter todos. Prédios sem essa informação saem quando o filtro está ligado">Lazer do condomínio</span>
+      <div class="chips">
+        @for (o of LAZER; track o[0]) {
+          <button type="button" class="chip" [attr.aria-pressed]="fl.lazer.includes(o[0])" (click)="alternarLazer(o[0])">
+            {{ o[1] }} <span>{{ fmt.num(contagemLazer()[o[0]]) }}</span>
+          </button>
+        }
+      </div>
+    </div>
     <label class="filtro">
       <span class="rot" title="Construtora ou incorporadora do prédio, como as tabelas e os books informam; prédios sem essa informação saem quando o filtro está ligado">Construtora</span>
       <select (change)="mudar({ construtora: texto($event) })">

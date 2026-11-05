@@ -82,6 +82,10 @@ export interface Linha {
   comissoes: Comissao[];
   /** Vagas de garagem lidas do texto da tabela ("2 privativas" = 2, "coletiva" = 1, "sem vaga" = 0). null = a tabela não diz. */
   vagas: number | null;
+  /** Itens de lazer do condomínio que as tabelas, a lista de lazer ou o book citam. */
+  lazer: Lazer[];
+  /** O prédio tem algum lazer citado (inclui "área de lazer" sem a lista de itens). */
+  temLazer: boolean;
 }
 
 /** Número de vagas num texto livre de tabela, ou null quando não dá para saber. "2 ou 3" conta 2. */
@@ -190,11 +194,71 @@ export function pagamentosDe(u: Unidade, p: Predio): Pagto[] {
   return [...r];
 }
 
+export type Lazer = 'piscina' | 'festas' | 'jogos' | 'academia' | 'gourmet' | 'brinquedoteca' | 'playground' | 'sauna' | 'quadra' | 'cinema' | 'pet';
+/** Itens do filtro de lazer, na ordem da tela. */
+export const LAZER_ROTULO: Record<Lazer, string> = {
+  piscina: 'Piscina',
+  festas: 'Salão de festas',
+  jogos: 'Salão de jogos',
+  academia: 'Academia',
+  gourmet: 'Churrasqueira / gourmet',
+  brinquedoteca: 'Brinquedoteca',
+  playground: 'Playground',
+  sauna: 'Sauna / spa',
+  quadra: 'Quadra',
+  cinema: 'Cinema',
+  pet: 'Espaço pet',
+};
+const LAZER_RE: Record<Lazer, RegExp> = {
+  piscina: /piscina/,
+  festas: /(salao|saloes|sala|espaco)\b[^,.;|]{0,22}\bfestas?\b/,
+  jogos: /\bjogos\b|games? ?(room|station)|espaco (gamer|teen)|lan house/,
+  academia: /academia|fitness|ginastica|crossfit/,
+  gourmet: /churrasq|grill|barbecue|(espaco|salao|area|deck|terraco) gourmet/,
+  brinquedoteca: /brinquedoteca/,
+  playground: /playground|parquinho|recreacao infantil|espaco kids/,
+  sauna: /sauna|\bspa\b/,
+  quadra: /quadra/,
+  cinema: /cinema|espaco movie|home theater/,
+  pet: /pet (place|care|center|space|play)|(espaco|area) (de convivio )?pet/,
+};
+/** Lazer sem dizer quais itens ("área de lazer", "lazer completo"). */
+const LAZER_GERAL = /area de lazer|lazer completo|lazer na cobertura|\blazer:/;
+/** O que parece lazer mas não é do condomínio: a churrasqueira e o terraço gourmet do apartamento, a quadra da praia, e o que vem negado. */
+const NAO_LAZER = [
+  /\b(sem|nao tem|nao possui|nao ha)\b[^,.;|]*/g,
+  /churrasqueira[^,.;|]{0,25}\b(sacada|varanda|terraco|privativa|eletrica)|\b(sacada|varanda|terraco)\b[^,.;|]{0,25}churrasqueira|\b(varanda|sacada) gourmet/g,
+  /(sala|cozinha|lavabo|banheiro|servico)[^.;|]{0,40}terraco gourmet|terraco gourmet integrado/g,
+  /quadras? (da|do|ao) (praia|mar)/g,
+];
+
+/** Itens de lazer citados num texto de tabela, lista de lazer ou book. */
+export function lazerDeTexto(texto: string): { itens: Lazer[]; algum: boolean } {
+  let t = normalizar(texto);
+  for (const re of NAO_LAZER) t = t.replace(re, ' ');
+  const itens = (Object.keys(LAZER_RE) as Lazer[]).filter((k) => LAZER_RE[k].test(t));
+  return { itens, algum: itens.length > 0 || LAZER_GERAL.test(t) };
+}
+
+/** Lazer do condomínio: a lista de lazer e o book do prédio, os diferenciais, as notas e o que as tabelas das unidades dizem. */
+export function lazerDoPredio(p: Predio): { itens: Lazer[]; algum: boolean } {
+  const textos = [
+    ...(p.lazer ?? []),
+    ...(p.lanc?.book?.lazer ?? []),
+    ...(p.lanc?.diferenciais ?? []),
+    ...(p.diferenciais ?? []),
+    ...(p.notas ?? []),
+    ...(p.unidades ?? []).flatMap((u) => [u, ...(u.outras ?? [])].flatMap((r) => [r.obs, r.det])),
+  ];
+  return lazerDeTexto(textos.filter(Boolean).join(' | '));
+}
+
 export function montarLinhas(predios: Predio[]): Linha[] {
   const linhas: Linha[] = [];
   for (const p of predios) {
     // Sem as fontes do prédio: buscar "lesan" traz só as unidades que a Lesan anuncia, não o prédio inteiro.
     const textoPredio = normalizar([p.nome, p.construtora, p.bairro, ...(p.bairroTextos ?? []), p.cidade, p.endereco].join(' '));
+    const lazer = lazerDoPredio(p);
     for (const u of p.unidades ?? []) {
       const regs = [u, ...(u.outras ?? [])];
       linhas.push({
@@ -208,6 +272,8 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         vistaMar: ehVistaMar(u),
         comissoes: comissoesDe(u, p),
         vagas: vagasDe(u),
+        lazer: lazer.itens,
+        temLazer: lazer.algum,
         texto:
           textoPredio +
           ' ' +
@@ -250,6 +316,8 @@ export interface Filtros {
   fonte: string;
   /** Nome curto da construtora do prédio (vazio = todas). */
   construtora: string;
+  /** Itens de lazer que o condomínio precisa ter, todos ao mesmo tempo; "algum" = qualquer lazer. */
+  lazer: ('algum' | Lazer)[];
   pagamento: '' | 'bancario' | 'direto';
   entrega: string;
   gravacao: '' | 'pend' | 'grav';
@@ -275,6 +343,7 @@ export const FILTROS_VAZIOS: Filtros = {
   acesso: '',
   fonte: '',
   construtora: '',
+  lazer: [],
   pagamento: '',
   entrega: '',
   gravacao: '',
@@ -324,6 +393,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('acesso') && f.acesso && (f.acesso === 'nd' ? !!u.acesso : u.acesso !== f.acesso)) return false;
   if (usa('fonte') && f.fonte && ![u, ...(u.outras ?? [])].some((r) => r.fonte === f.fonte)) return false;
   if (usa('construtora') && f.construtora && p.construtora !== f.construtora) return false;
+  if (usa('lazer') && f.lazer.length && !f.lazer.every((x) => (x === 'algum' ? l.temLazer : l.lazer.includes(x)))) return false;
   if (usa('pagamento') && f.pagamento) {
     if (!l.pagamentos.includes(f.pagamento)) return false;
   }

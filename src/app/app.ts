@@ -6,6 +6,8 @@ import {
   FASE_ROTULO,
   FILTROS_VAZIOS,
   Filtros,
+  LAZER_ROTULO,
+  Lazer,
   Linha,
   MONGAGUA,
   ORDENS,
@@ -17,6 +19,7 @@ import {
   VAGAS_OPCOES,
   entregaPrevista,
   filtroDeUnidade,
+  lazerDoPredio,
   lugarDe,
   naOrla,
   normalizar,
@@ -77,6 +80,7 @@ export class App {
   protected readonly ORIGEM_ROTULO = ORIGEM_ROTULO;
   protected readonly CATEGORIAS: ['' | Categoria, string][] = [['', 'Todos'], ...(Object.entries(CATEGORIA_ROTULO) as [Categoria, string][])];
   protected readonly DORMS: ['' | Dorm, string][] = [['', 'Qualquer'], ...(Object.entries(DORM_ROTULO) as [Dorm, string][])];
+  protected readonly LAZER: ['algum' | Lazer, string][] = [['algum', 'Qualquer lazer'], ...(Object.entries(LAZER_ROTULO) as [Lazer, string][])];
 
   /* ---------- resultados ---------- */
   protected readonly linhas = computed(() => this.estoque.linhas().filter((l) => passa(l, this.f())));
@@ -118,6 +122,11 @@ export class App {
   protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
   protected readonly contagemVagas = computed(() => Object.fromEntries(this.VAGAS_OPCOES.map(([n]) => [n, this.contar({ vagas: n })])));
+  /** Cada item de lazer somado aos que já estão escolhidos (o condomínio precisa ter todos). */
+  protected readonly contagemLazer = computed(() => {
+    const atual = this.f().lazer;
+    return Object.fromEntries(this.LAZER.map(([k]) => [k, this.contar({ lazer: atual.includes(k) ? atual : [...atual, k] })]));
+  });
   /** Construtoras com unidades no recorte atual (mantendo os outros filtros), em ordem alfabética. A escolhida fica mesmo com zero. */
   protected readonly construtoras = computed(() => {
     const f = this.f();
@@ -172,6 +181,10 @@ export class App {
         if (f.lugares.length && !f.lugares.includes(lugarDe(p))) continue;
         if (f.fase && p.fase !== f.fase) continue;
         if (f.construtora && p.construtora !== f.construtora) continue;
+        if (f.lazer.length) {
+          const lz = lazerDoPredio(p);
+          if (!f.lazer.every((x) => (x === 'algum' ? lz.algum : lz.itens.includes(x)))) continue;
+        }
         if (f.origem && !p.origens.includes(f.origem)) continue;
         lista.push({ p, linhas: [], disp: 0 });
       }
@@ -281,6 +294,8 @@ export class App {
     if (f.acesso) a.push({ rotulo: { elevador: 'Com elevador', escada: 'Só escada', nd: 'Acesso não informado' }[f.acesso], limpar: { acesso: '' } });
     if (f.fonte) a.push({ rotulo: `Tabela: ${f.fonte}`, limpar: { fonte: '' } });
     if (f.construtora) a.push({ rotulo: `Construtora ${f.construtora}`, limpar: { construtora: '' } });
+    for (const x of f.lazer)
+      a.push({ rotulo: x === 'algum' ? 'Com lazer' : `Lazer: ${LAZER_ROTULO[x]}`, limpar: { lazer: f.lazer.filter((y) => y !== x) } });
     if (f.pagamento) a.push({ rotulo: f.pagamento === 'direto' ? 'Direto c/ construtora/investidor' : 'Financ. bancário', limpar: { pagamento: '' } });
     if (f.entrega) a.push({ rotulo: `Entrega: ${f.entrega}`, limpar: { entrega: '' } });
     if (f.gravacao) a.push({ rotulo: f.gravacao === 'pend' ? 'Gravação pendente' : 'Já gravado', limpar: { gravacao: '' } });
@@ -324,13 +339,17 @@ export class App {
     this.limite.set(POR_PAGINA);
   }
   protected limparTudo() {
-    this.f.set({ ...FILTROS_VAZIOS, lugares: [] });
+    this.f.set({ ...FILTROS_VAZIOS, lugares: [], lazer: [] });
     this.limite.set(POR_PAGINA);
   }
   protected alternarLugares(lugares: string[]) {
     const atual = this.f().lugares;
     const todos = lugares.every((l) => atual.includes(l));
     this.mudar({ lugares: todos ? atual.filter((l) => !lugares.includes(l)) : [...new Set([...atual, ...lugares])] });
+  }
+  protected alternarLazer(x: 'algum' | Lazer) {
+    const atual = this.f().lazer;
+    this.mudar({ lazer: atual.includes(x) ? atual.filter((y) => y !== x) : [...atual, x] });
   }
   protected valorMin(v: string) {
     const n = +v || 0;

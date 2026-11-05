@@ -56,6 +56,10 @@ Regras de unificação:
 - **Posição na planta de implantação** (`POSICAO` em `scripts/unificar.mjs`): quando a construtora mostra onde fica cada final, a unidade ganha `posicao`, e só ela decide o frente mar e a vista mar (o endereço na Castelo Branco e o texto da tabela deixam de valer). Hoje há o Residencial Torres: só os finais 1 e 2 da Torre A, de frente para a Castelo Branco, são frente mar; as laterais (finais 3 a 6 das duas torres) são vista mar; os fundos e a frente da Torre B, que dá para a Torre A, não têm etiqueta de mar, mesmo que a tabela diga vista mar. A Torre B fica atrás, do lado da Av. Juscelino Kubitschek. No Residencial Maya (torre única), os finais 1 e 2 dão para a Castelo Branco e são frente mar; o 3 (lado Rua das Papoulas) e o 4 ficam nos fundos.
 - Ficaram de fora a casa do Tupi da Ectual (indisponível por reforma, sem valores) e as senhas de fechadura que as tabelas trazem.
 
+## Filtro de lazer
+
+"Lazer do condomínio" filtra pelos itens que o prédio tem: piscina, salão de festas, salão de jogos, academia, churrasqueira/gourmet, brinquedoteca, playground, sauna/spa, quadra, cinema e espaço pet, ou "Qualquer lazer". Com mais de um item, o condomínio precisa ter todos. O lazer vem da lista de lazer e do book do prédio, dos diferenciais, das notas e do texto das tabelas de todas as unidades do prédio (`lazerDoPredio` em `src/app/estoque/busca.ts`). Não contam a churrasqueira e o terraço gourmet do próprio apartamento ("churrasqueira na sacada", "varanda gourmet"), a "quadra da praia" e o que vem negado ("sem piscina"). Prédio cuja tabela não cita lazer sai do resultado quando o filtro está ligado.
+
 ## Card da unidade
 
 Na ficha do prédio, cada unidade tem o botão **Gerar card**. Ele monta o story 1080×1920 na marca, já preenchido com tipologia, área, vagas, lazer, condição de pagamento (fluxo direto, entrada/banco ou os dois lado a lado; parcelas semestrais e o financiamento bancário que fecha o fluxo aparecem com esses nomes) e fonte da tabela. Antes de baixar, copiar ou compartilhar o PNG, dá para editar qualquer texto e escolher as fotos.

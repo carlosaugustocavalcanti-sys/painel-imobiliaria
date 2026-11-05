@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, Ordem, ORDENS } from './busca';
+import { FILTROS_VAZIOS, Filtros, LAZER_ROTULO, Ordem, ORDENS } from './busca';
 
 export type Aba = 'unidades' | 'predios' | 'bairros' | 'entregas' | 'renda';
 export const ABAS: Aba[] = ['unidades', 'predios', 'bairros', 'entregas', 'renda'];
@@ -13,7 +13,7 @@ export interface EstadoUrl {
 /** Lê a busca a partir de ?q=...&tipo=... para que uma pesquisa possa ser salva ou compartilhada. */
 export function lerUrl(search: string): EstadoUrl {
   const s = new URLSearchParams(search);
-  const f: Filtros = { ...FILTROS_VAZIOS, lugares: [] };
+  const f: Filtros = { ...FILTROS_VAZIOS, lugares: [], lazer: [] };
   for (const k of Object.keys(FILTROS_VAZIOS) as (keyof Filtros)[]) {
     const v = s.get(k);
     if (v == null) continue;
@@ -23,6 +23,7 @@ export function lerUrl(search: string): EstadoUrl {
     else if (typeof padrao === 'boolean') (f as unknown as Record<string, unknown>)[k] = v === '1';
     else (f as unknown as Record<string, unknown>)[k] = v;
   }
+  f.lazer = f.lazer.filter((x) => x === 'algum' || x in LAZER_ROTULO);
   const aba = s.get('aba') as Aba;
   const ordem = s.get('ordem') as Ordem;
   return {

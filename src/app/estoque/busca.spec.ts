@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto, rotuloMar } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, lazerDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto, rotuloMar } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -11,7 +11,7 @@ const predio = (p: Partial<Predio>): Predio => ({
   origemIds: { usados: 'x' },
   ...p,
 });
-const F = (f: Partial<Filtros>): Filtros => ({ ...FILTROS_VAZIOS, lugares: [], ...f });
+const F = (f: Partial<Filtros>): Filtros => ({ ...FILTROS_VAZIOS, lugares: [], lazer: [], ...f });
 
 const P = predio({
   unidades: [
@@ -339,5 +339,38 @@ describe('comissão', () => {
       }),
     ]);
     expect(ls.map((l) => l.comissoes)).toEqual([['cinco'], []]);
+  });
+});
+
+describe('lazer do condomínio', () => {
+  it('reconhece os itens nas listas e nos textos das tabelas', () => {
+    expect(lazerDeTexto('Piscina para Adulto | Salão de Festas | Espaço Fitness | Churrasqueira à Carvão').itens).toEqual(['piscina', 'festas', 'academia', 'gourmet']);
+    expect(lazerDeTexto('Prédio com salão de jogos e festas, sauna e brinquedoteca').itens).toEqual(['festas', 'jogos', 'brinquedoteca', 'sauna']);
+    expect(lazerDeTexto('Lazer completo').itens).toEqual([]);
+    expect(lazerDeTexto('Lazer completo').algum).toBe(true);
+  });
+
+  it('não conta o que é do apartamento, a quadra da praia nem o que vem negado', () => {
+    expect(lazerDeTexto('Área total 80 m². Churrasqueira na varanda.').algum).toBe(false);
+    expect(lazerDeTexto('Sacada com churrasqueira elétrica; varanda gourmet').itens).toEqual([]);
+    expect(lazerDeTexto('Sala, cozinha, lavabo, terraço gourmet').itens).toEqual([]);
+    expect(lazerDeTexto('Primeira quadra da praia, 2 quadras do mar').itens).toEqual([]);
+    expect(lazerDeTexto('Prédio sem piscina; salão de festas').itens).toEqual(['festas']);
+    expect(lazerDeTexto('Espaço gourmet, terraço grill, mini quadra').itens).toEqual(['gourmet', 'quadra']);
+  });
+
+  it('filtra pelo lazer do prédio, juntando as tabelas das unidades; com dois itens, precisa ter os dois', () => {
+    const base: Omit<Unidade, 'ref'> = { origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel' };
+    const ls = montarLinhas([
+      predio({ id: 'a', lazer: ['Piscina', 'Salão de Festas'], unidades: [{ ...base, ref: 'a:0', unidade: '1' }] }),
+      predio({ id: 'b', unidades: [{ ...base, ref: 'b:0', unidade: '2', obs: 'Prédio com piscina' }, { ...base, ref: 'b:1', unidade: '3' }] }),
+      predio({ id: 'c', unidades: [{ ...base, ref: 'c:0', unidade: '4', obs: 'Área de lazer' }] }),
+      predio({ id: 'd', unidades: [{ ...base, ref: 'd:0', unidade: '5', obs: 'Churrasqueira na sacada' }] }),
+    ]);
+    const un = (f: Partial<Filtros>) => ls.filter((l) => passa(l, F(f))).map((l) => l.u.unidade);
+    expect(un({ lazer: ['piscina'] })).toEqual(['1', '2', '3']);
+    expect(un({ lazer: ['piscina', 'festas'] })).toEqual(['1']);
+    expect(un({ lazer: ['algum'] })).toEqual(['1', '2', '3', '4']);
+    expect(un({})).toEqual(['1', '2', '3', '4', '5']);
   });
 });
