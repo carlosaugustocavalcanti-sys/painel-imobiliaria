@@ -1571,7 +1571,10 @@
    "bairro": "Vila Guilhermina",
    "fase": "pronto",
    "endereco": "Rua Copacabana, 483 - Vila Guilhermina - Praia Grande/SP",
-   "lazer": [],
+   "lazer": [
+    "Salão de Festas",
+    "Churrasqueira"
+   ],
    "tabelas": [
     {
      "fonte": "Site Lesan Imóveis (cód. 236)",
@@ -3804,7 +3807,8 @@
     "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Churrasqueira"
    ],
    "tabelas": [
     {
@@ -4374,6 +4378,7 @@
     "Salão de Jogos",
     "Sauna",
     "Área de Lazer",
+    "Cinema",
     "Piscina Infantil"
    ],
    "tabelas": [
@@ -5764,7 +5769,11 @@
     "Piscina para Adulto",
     "Salão de Festas",
     "Salão de Jogos",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Espaço Gourmet",
+    "Churrasqueira",
+    "Playground",
+    "Sauna"
    ],
    "tabelas": [
     {
@@ -5838,7 +5847,8 @@
     "Salão de Festas",
     "Salão de Jogos",
     "Sauna",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Espaço Gourmet"
    ],
    "tabelas": [
     {
@@ -6090,7 +6100,8 @@
     "Piscina para Adulto",
     "Salão de Festas",
     "Salão de Jogos",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Espaço Gourmet"
    ],
    "tabelas": [
     {
@@ -6826,7 +6837,11 @@
     "Salão de Festas",
     "Salão de Jogos",
     "Aceita Pet",
-    "Piscina para Adulto"
+    "Piscina para Adulto",
+    "Academia",
+    "Espaço Gourmet",
+    "Churrasqueira",
+    "Playground"
    ],
    "tabelas": [
     {
@@ -7041,7 +7056,9 @@
     "Salão de Festas",
     "Salão de Jogos",
     "Sauna",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Espaço Gourmet",
+    "Playground"
    ],
    "tabelas": [
     {
@@ -7169,7 +7186,9 @@
     "Piscina",
     "Salão de Festas",
     "Salão de Jogos",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Sauna",
+    "Quadra Poliesportiva"
    ],
    "tabelas": [
     {
@@ -7384,7 +7403,8 @@
     "Salão de Festas",
     "Salão de Jogos",
     "Sauna",
-    "Área de Lazer"
+    "Área de Lazer",
+    "Churrasqueira"
    ],
    "tabelas": [
     {
@@ -8650,7 +8670,8 @@
     "Piscina",
     "Piscina Infantil",
     "Salão de Festas",
-    "Sauna"
+    "Sauna",
+    "Salão de Jogos"
    ],
    "tabelas": [
     {
@@ -8759,7 +8780,9 @@
     "Espaço Fitness",
     "Piscina",
     "Salão de Festas",
-    "Salão de Jogos"
+    "Salão de Jogos",
+    "Espaço Gourmet",
+    "Playground"
    ],
    "tabelas": [
     {

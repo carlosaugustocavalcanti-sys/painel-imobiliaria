@@ -105,6 +105,34 @@ function lerFicha(html) {
   };
 }
 
+/* ---------- lazer citado na descrição ---------- */
+// A descrição às vezes cita lazer do condomínio que não está marcado na lista "Lazer e natureza" do anúncio.
+// Vale só a frase que fala do prédio (condomínio, moradores, empreendimento, lazer) e não do apartamento
+// ("sacada gourmet com churrasqueira") nem do bairro ("academias e opções de lazer na região").
+const LAZER_DESC = [
+  ['Piscina', /piscina/],
+  ['Salão de Festas', /sal(ao|oes) de festas/],
+  ['Salão de Jogos', /sal(ao|oes) de jogos/],
+  ['Academia', /academia|espaco fitness/],
+  ['Espaço Gourmet', /espaco gourmet/],
+  ['Churrasqueira', /churrasqueira/],
+  ['Brinquedoteca', /brinquedoteca/],
+  ['Playground', /playground/],
+  ['Sauna', /sauna/],
+  ['Quadra Poliesportiva', /quadra (poliesportiva|de futebol|esportiva)|mini ?quadra/],
+  ['Cinema', /cinema/],
+];
+const sem = (t) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const DO_PREDIO = /condominio|edificio|empreendimento|predio|moradores|lazer|diferenciais/;
+const NAO_DO_PREDIO = /apartamento|sacada|varanda|bairro|regiao|cidade|arredores|proxim|perto|vizinhanca|entorno|localiza/;
+export function lazerDaDescricao(desc, lista = []) {
+  const ja = sem(lista.join(' | '));
+  const achados = new Set();
+  for (const f of sem(desc ?? '').split(/[.!?;\n]/))
+    if (DO_PREDIO.test(f) && !NAO_DO_PREDIO.test(f)) for (const [nome, re] of LAZER_DESC) if (re.test(f) && !re.test(ja)) achados.add(nome);
+  return [...achados];
+}
+
 /* ---------- formato do painel ---------- */
 const CASA = /casa|sobrado|sobreposta|geminada/i;
 const VISTA_RE = /(vista\s+(?:para\s+o\s+|pro\s+|ao\s+|total\s+|livre\s+|frontal\s+|lateral\s+)?(?:do\s+|para\s+o\s+)?mar|frente\s+(?:ao\s+|para\s+o\s+)?mar|frente\s+(?:à\s+|a\s+)?praia|p[ée]\s+na\s+areia)/i;
@@ -214,7 +242,7 @@ function predio(card, f) {
     fase,
     ...(rua ? { endereco: `${rua} - ${card.bairro} - ${card.cidade}/SP` } : {}),
     ...(fase !== 'pronto' && f?.entrega ? { entrega: f.entrega } : {}),
-    lazer: f?.itens['Lazer e natureza'] ?? [],
+    lazer: [...(f?.itens['Lazer e natureza'] ?? []), ...lazerDaDescricao(f?.desc, f?.itens['Lazer e natureza'])],
     tabelas: [{ fonte, contato, atualizadoEm: HOJE }],
     notas: [...(linha ? [] : ['Anúncio sem endereço no cadastro da Praedium.']), ...(correcao ? [correcao.nota] : [])],
     unidades: [
