@@ -72,6 +72,7 @@ Anúncios de **proprietários** (particulares) à venda na OLX em Praia Grande, 
 - Leitura: a lista de particulares (`?f=p`, ~609 anúncios) e as fichas são lidas no navegador do app, com o login do Carlos na OLX, uma página a cada 2,5 s, parando no primeiro bloqueio. O resultado sai do navegador como texto `INICIO{...}FIM` e vira `captacao/bruto/olx-*.json` com `scripts/captacao/extrair-resultado.mjs`.
 - `node scripts/captacao/montar.mjs` gera `captacao/olx-praia-grande.json` e `captacao/index.html` (filtros por tipo, quartos, bairro, valor, celular/fixo e andamento; status e anotação de cada anúncio ficam no navegador).
 - Para ver: abra `captacao/index.html` no navegador, ou use a configuração `captacao` do `.claude/launch.json` (http://localhost:8790).
+- Releitura semanal (tarefa agendada do app, segunda 9h): `scripts/captacao/navegador-olx.js` é colado no navegador; lê a lista inteira (vira `captacao/bruto/ativos.json`), `node scripts/captacao/novos.mjs` diz quais ids ainda não têm ficha, só esses são lidos (`captacao/bruto/olx-praia-grande-AAAA-MM-DD.json`) e o `montar.mjs` refaz a página. Anúncio que saiu da OLX some da página; se a lista não terminou inteira, nada some.
 
 ## Filtro de lazer
 

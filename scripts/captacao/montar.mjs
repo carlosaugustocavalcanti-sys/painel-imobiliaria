@@ -3,6 +3,8 @@
 //
 // Entradas (em captacao/):
 //   bruto/olx-*.json   fichas lidas da OLX pelo navegador do app (um objeto { id: ficha } ou uma lista de fichas)
+//   bruto/ativos.json  opcional: ids de particulares na última leitura da lista ({ lidoEm, completo, ids });
+//                      anúncio que saiu da OLX some da página (só quando a leitura da lista terminou inteira)
 // Só entram anúncios com o telefone do proprietário escrito no título ou na descrição: a OLX não mostra telefone
 // cadastrado de particular (o contato é pelo chat), e o "ver número" da ficha é o número da própria descrição.
 // Saídas (em captacao/):
@@ -10,7 +12,7 @@
 //   index.html              página "Captação" (abre direto no navegador, sem servidor)
 //
 // Uso: node scripts/captacao/montar.mjs
-import { readFileSync, writeFileSync, readdirSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { paginaCaptacao } from './pagina.mjs';
 
@@ -63,7 +65,15 @@ const textoPuro = (s) =>
 
 /* ---------- consolidação ---------- */
 const BAIRRO_NOME = { Forte: 'Canto do Forte', Tupi: 'Vila Tupi', Mirim: 'Vila Mirim', Caicara: 'Caiçara' };
-const lidos = [...fichas.values()].filter((f) => !f.removido && !f.profissional);
+let ativos = null;
+const ARQ_ATIVOS = join(BRUTO, 'ativos.json');
+if (existsSync(ARQ_ATIVOS)) {
+  const a = JSON.parse(readFileSync(ARQ_ATIVOS, 'utf8'));
+  // Lista incompleta ou bem menor que o normal: melhor mostrar anúncio antigo do que esconder anúncio vivo.
+  if (a.completo && a.ids?.length >= fichas.size * 0.5) ativos = new Set(a.ids.map(Number));
+  else console.warn(`ativos.json ignorado (completo: ${a.completo}, ${a.ids?.length ?? 0} ids)`);
+}
+const lidos = [...fichas.values()].filter((f) => !f.removido && !f.profissional && (!ativos || ativos.has(+f.id)));
 const anuncios = lidos
   .map((f) => {
     const descricao = textoPuro(f.descricao);
