@@ -42,6 +42,13 @@ export function telefonesDoTexto(texto, dddPadrao = '13') {
     if (/^(\d)\1+$/.test(corpo)) continue;
     achados.add((ddd ?? dddPadrao) + corpo);
   }
+  // Número disfarçado para escapar da máscara da OLX: "13.9.9.6.7.6.6.8.9.8", "1.3 9.9.6...", "013 99...".
+  if (!achados.size) {
+    for (const m of String(texto ?? '').matchAll(/(?<!\d|\$\s?)\d(?:[\s.()-]{0,2}\d){9,12}(?!\d)/g)) {
+      const d = m[0].replace(/\D/g, '').replace(/^55(?=\d{10,11}$)/, '').replace(/^0(?=\d{10,11}$)/, '');
+      if (/^(1[1-9]|[2-9]\d)9\d{8}$/.test(d) || /^(1[1-9]|[2-9]\d)[2-5]\d{7}$/.test(d)) achados.add(d);
+    }
+  }
   return [...achados];
 }
 

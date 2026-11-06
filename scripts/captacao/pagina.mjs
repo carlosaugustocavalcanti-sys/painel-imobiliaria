@@ -219,7 +219,7 @@ function chips(grupo, lista, contar) {
 const $ = (s) => document.querySelector(s);
 function render() {
   const res = anuncios.filter((a) => passa(a));
-  $('#cats').innerHTML = CATS.map(([v, t]) => '<button type="button" role="radio" data-grupo="cat" data-v="' + v + '" aria-checked="' + (f.cat === v) + '">' + t + ' <span>' + conta('cat', v, (a, x) => !x || a._cat === x) + '</span></button>').join('');
+  $('#cats').innerHTML = CATS.filter(([v]) => !v || anuncios.some((a) => a._cat === v)).map(([v, t]) => '<button type="button" role="radio" data-grupo="cat" data-v="' + v + '" aria-checked="' + (f.cat === v) + '">' + t + ' <span>' + conta('cat', v, (a, x) => !x || a._cat === x) + '</span></button>').join('');
   $('#quartos').innerHTML = chips('quartos', QUARTOS, (v) => conta('quartos', v, (a, x) => x === '4' ? a.quartos >= 4 : a.quartos === +x));
   $('#fones').innerHTML = chips('zap', ZAPS, (v) => conta('zap', v, (a, x) => (x === 'cel') === celular(a)));
   $('#status').innerHTML = chips('status', [['', 'Todos'], ...STATUS], (v) => conta('status', v, (a, x) => statusDe(a) === x));
