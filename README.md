@@ -27,6 +27,8 @@ npm run build      # versão de produção em dist/
 | `dados/origem/drive-mes.json` | Prédios das tabelas da pasta do mês ("Outubro - Tabelas") do Drive que faltavam ou estavam incompletos, com origem `drive-mes`; gerado por `scripts/ler-drive-mes.mjs` (valores transcritos dos PDFs). Carga de 26/10/2026: pastas 4, 9, 10, 11, 12 e investidores, mais parte das casas e comerciais (105 prédios, 148 unidades). Unidades de casa/sobrado e comerciais levam `categoria` (o filtro "Imóvel" separa). Fora: locação, cidades fora da região e o que está em `pendentes` de `dados/sincronizacao.json` |
 | `dados/origem/site-lesan.json` | Imóveis à venda do site da Lesan Imóveis (www.lesanimoveis.com.br, 240 anúncios), gerado por `scripts/ler-site-lesan.mjs`, origem `site-lesan`. Da listagem e da ficha vêm o valor, a área, os dormitórios, a suíte, as vagas, o condomínio, o IPTU, o elevador, o lazer, o corretor e a vista mar. O lazer é a lista "Lazer e natureza" do anúncio mais o que a descrição cita numa frase sobre o condomínio ("o condomínio oferece piscina, sauna..."); frase sobre o apartamento ("sacada com churrasqueira") ou sobre o bairro não conta. Cada unidade tem o link "Ver anúncio". Locação não entra |
 | `dados/origem/lesan-praedium.json` | Endereço de cada anúncio pelo código, transcrito do cadastro interno da Praedium (app.praedium.com.br, lido com o login do Carlos em 28/10/2026), sem dados de proprietário. O site não mostra endereço nem nome do prédio, então rua, número, apto, andar, bloco e edifício saem daqui. Anúncios no mesmo endereço viram um prédio; sem nome de edifício, o prédio se chama pelo endereço. Para atualizar, releia a lista de imóveis ativos da Praedium |
+| `dados/origem/site-arthur-paraguay.json` | Imóveis à venda do site da Arthur Paraguay (arthurparaguay.com.br, outra imobiliária, mesma plataforma Praedium), origem `site-arthur-paraguay`. Importado **aos poucos**: o site tem Cloudflare e bloqueia leitura em massa (HTTP 405 após ~10 páginas), então a tarefa diária `importar-site-arthur-paraguay` (ver `dados/ATUALIZACAO-ARTHUR.md`) retoma do cache e traz mais um pedaço por dia. Enquanto a listagem (1.768 anúncios) não fecha, o JSON tem `"publicado": false` e esta origem fica **fora** do painel; ao fechar, vira `true` e entra. Sem endereço nem telefone de proprietário (o site não mostra, e não se busca no cadastro de outra imobiliária): o prédio leva o nome que a descrição cita ("Edifício X"), senão "Arthur Paraguay cód. N"; o contato é a própria Arthur Paraguay, em parceria. Gerado por `scripts/ler-site-arthur-paraguay.mjs` |
+| `scripts/praedium.mjs` | Leitura compartilhada dos sites na plataforma Praedium (Lesan, Arthur Paraguay): download com pausa e parada no bloqueio anti-robô, card da listagem, ficha do anúncio e lazer citado na descrição |
 | `scripts/unificar.mjs` | Gera o estoque unificado a partir da origem |
 | `scripts/validar.mjs` | Confere o unificado contra a origem, campo a campo |
 
@@ -37,6 +39,12 @@ node scripts/ler-site-lesan.mjs --atualizar   # baixa a listagem de novo e lista
 ```
 
 Toda quarta às 9h, a tarefa agendada `atualizar-site-lesan` segue o roteiro de `dados/ATUALIZACAO-LESAN.md`: valores alterados, anúncios novos (com o endereço da Praedium) e retirados. Anúncio sem mudança mantém a data da leitura anterior.
+
+```bash
+node scripts/ler-site-arthur-paraguay.mjs   # traz mais um pedaço do site da Arthur Paraguay (retoma do cache)
+```
+
+Todo dia às 8h, a tarefa agendada `importar-site-arthur-paraguay` segue o roteiro de `dados/ATUALIZACAO-ARTHUR.md`: por causa do bloqueio anti-robô do site, ela monta a listagem (1.768 anúncios) e depois as fichas aos poucos, um pedaço por dia. A origem só entra no painel quando a listagem fecha (`publicado: true`).
 
 O site da Lesan tem verificação anti-robô (AWS WAF): depois de umas 40 páginas seguidas, ele passa a responder "Human Verification". O leitor baixa uma página a cada 6 s e para no primeiro desafio, sem tentar contorná-lo. As fichas que faltarem ficam só com os dados da listagem (valor, área, dormitórios, bairro), com a observação "Ficha do anúncio não lida". Rodar de novo mais tarde completa só o que falta. Anúncio com valor absurdo (acima de R$ 100 milhões, erro de digitação no site) entra sem valor e marcado "Confirmar".
 

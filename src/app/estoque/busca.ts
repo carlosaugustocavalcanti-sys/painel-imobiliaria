@@ -461,6 +461,7 @@ export const ORIGEM_ROTULO: Record<Origem, string> = {
   'lanc-drive': 'Pasta Lançamentos (Drive)',
   'drive-mes': 'Tabelas do Drive (mês)',
   'site-lesan': 'Site da Lesan Imóveis',
+  'site-arthur-paraguay': 'Site da Arthur Paraguay',
 };
 export const valLabel = (v: number) =>
   v >= 1e6 ? 'R$ ' + (v / 1e6).toLocaleString('pt-BR') + ' mi' : 'R$ ' + v / 1e3 + ' mil';

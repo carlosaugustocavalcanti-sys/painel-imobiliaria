@@ -17,6 +17,10 @@ const LANCD = ler('lancamentos-drive');
 const DRIVEMES = ler('drive-mes');
 const VISTA = ler('vista-mar');
 const SITELESAN = ler('site-lesan');
+// A Arthur Paraguay está sendo importada aos poucos (o site bloqueia leitura em massa). Enquanto a listagem
+// não fecha, o JSON vem com `publicado: false` e esta origem fica fora do painel. Vira [] até lá.
+const SITEARTHUR = ler('site-arthur-paraguay');
+const ARTHUR_PREDIOS = SITEARTHUR.publicado ? SITEARTHUR.predios : [];
 
 /* ---------- normalização ---------- */
 export const chave = (s) =>
@@ -305,12 +309,13 @@ for (const g of VISTA.G) {
 
 // Pasta Lançamentos (OneDrive): Harmony, Parque das Araucárias, Seven, Toninho, Ectual e Gomes Pacheco.
 // Os registros já vêm no formato da unidade unificada; aqui entram só ref, origem, segmento e fase.
-// Anúncio do site da Lesan sem endereço: o nome é só o código do anúncio, então o mapa abre no bairro.
+// Anúncio de site sem endereço (Lesan, Arthur Paraguay): o nome pode ser só o código do anúncio, então o mapa abre no bairro.
+const semEnderecoAbreNoBairro = (b) => b.id.startsWith('lesan-site-') || b.id.startsWith('arthur-');
 const mapsPasta = (b) =>
   'https://www.google.com/maps/search/?api=1&query=' +
-  encodeURIComponent(b.endereco || (b.id.startsWith('lesan-site-') ? `${b.bairro}, ${b.cidade}, SP` : `${b.nome}, ${b.cidade}, SP`));
+  encodeURIComponent(b.endereco || (semEnderecoAbreNoBairro(b) ? `${b.bairro}, ${b.cidade}, SP` : `${b.nome}, ${b.cidade}, SP`));
 // A tabela do Isildo (20/10/2026) tem o mesmo formato e entra pelo mesmo caminho, com origem 'isildo'.
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b]), ...ARTHUR_PREDIOS.map((b) => ['site-arthur-paraguay', b])]) {
   predios.push({
     origem,
     origemId: b.id,
@@ -349,7 +354,7 @@ for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.
 }
 
 /* ---------- fusão de prédios entre painéis ---------- */
-const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'lanc-drive': 2.5, 'drive-mes': 2.6, 'frente-mar': 3, usados: 4, 'vista-mar': 5, 'site-lesan': 6 };
+const PRIORIDADE = { lancamentos: 0, lesan: 1, isildo: 2, 'lanc-drive': 2.5, 'drive-mes': 2.6, 'frente-mar': 3, usados: 4, 'vista-mar': 5, 'site-lesan': 6, 'site-arthur-paraguay': 7 };
 predios.forEach((p) => (p.bairro = bairroCanonico(p.bairroTexto)));
 /** Fusões conferidas à mão que a regra automática não pega (bairro divergente entre tabelas). */
 const FUNDIR_MANUAL = [

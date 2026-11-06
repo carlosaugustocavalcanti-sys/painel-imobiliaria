@@ -14,6 +14,9 @@ const FRENTE = ler('dados/origem/frente-mar.json');
 const LANCD = ler('dados/origem/lancamentos-drive.json');
 const DRIVEMES = ler('dados/origem/drive-mes.json');
 const SITELESAN = ler('dados/origem/site-lesan.json');
+const SITEARTHUR = ler('dados/origem/site-arthur-paraguay.json');
+// Importação em andamento: enquanto `publicado` não for true, a origem fica fora do painel (ver unificar.mjs).
+const ARTHUR_PREDIOS = SITEARTHUR.publicado ? SITEARTHUR.predios : [];
 const ESTOQUE = ler('public/dados/estoque.json');
 
 const erros = [];
@@ -155,7 +158,7 @@ for (const g of VISTA.G) {
 }
 
 /* ---------- pasta Lançamentos (OneDrive) e tabela do Isildo: mesmo formato ---------- */
-for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b])]) {
+for (const [origem, b] of [...PASTA.predios.map((b) => ['lesan', b]), ...ISILDO.predios.map((b) => ['isildo', b]), ...FRENTE.predios.map((b) => ['frente-mar', b]), ...LANCD.predios.map((b) => ['lanc-drive', b]), ...DRIVEMES.predios.map((b) => ['drive-mes', b]), ...SITELESAN.predios.map((b) => ['site-lesan', b]), ...ARTHUR_PREDIOS.map((b) => ['site-arthur-paraguay', b])]) {
   const p = predioPorOrigem.get(`${origem}:${b.id}`);
   if (!p) {
     erro(`Prédio ${origem}:${b.id} sumiu`);
@@ -202,6 +205,7 @@ const brutos = {
   'lanc-drive': LANCD.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'drive-mes': DRIVEMES.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'site-lesan': SITELESAN.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
+  'site-arthur-paraguay': ARTHUR_PREDIOS.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
   'frente-mar': FRENTE.predios.flatMap((b) => b.unidades.map((x) => ({ disp: (x.status || 'disponivel') === 'disponivel', valor: x.valor }))),
 };
 for (const [origem, regs] of Object.entries(brutos)) {
