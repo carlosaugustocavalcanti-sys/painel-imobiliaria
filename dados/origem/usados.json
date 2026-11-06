@@ -599,6 +599,7 @@
    "cat": "pronto",
    "entrega": "Entregue",
    "fontes": [
+    "D&S Investimentos",
     "Nova Casarão"
    ]
   },
@@ -1194,6 +1195,106 @@
    "entrega": "Entregue",
    "fontes": [
     "Kalyl Imóveis"
+   ]
+  },
+  {
+   "id": "helena-elaine-boqueirao",
+   "nome": "Res. Helena Elaine",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "villagio-di-marbelle-boqueirao",
+   "nome": "Villagio di Marbelle",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "sobrado-eurico-gaspar-dutra-canto-do-forte",
+   "nome": "Sobrado alto padrão (R. Mal. Eurico Gaspar Dutra)",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "taiti-tupi",
+   "nome": "Res. Taiti",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "kinbor-office-boqueirao",
+   "nome": "Kinbor Office",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "loja-milton-daniels-quietude",
+   "nome": "Loja (R. Milton Daniels)",
+   "bairro": "Quietude",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "casa-fumio-miyazi-boqueirao",
+   "nome": "Casa térrea (R. Fumio Miyazi)",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "sobrado-oswaldo-de-oliveira-boqueirao",
+   "nome": "Sobrado (R. Oswaldo de Oliveira)",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "torres-caicara",
+   "nome": "Res. Torres",
+   "bairro": "Caiçara",
+   "cat": "obra",
+   "entrega": "A confirmar",
+   "fontes": [
+    "D&S Investimentos"
+   ]
+  },
+  {
+   "id": "ilha-do-forte-canto-do-forte",
+   "nome": "Res. Ilha do Forte",
+   "bairro": "Canto do Forte",
+   "cat": "obra",
+   "entrega": "A confirmar",
+   "fontes": [
+    "D&S Investimentos"
    ]
   }
  ],
@@ -2644,14 +2745,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Vila Formosa (São Paulo/SP). Chaves: agendar.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1mIXiuxVwQo9EqopRddOwfA-vBlLuz5ZO"
     }
    ],
    "endereco": "Praça Leão X, 243 · São Paulo",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Pra%C3%A7a+Le%C3%A3o+X%2C+243%2C++S%C3%A3o+Paulo%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "marcella-caicara": {
    "itens": [
@@ -2669,14 +2771,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Impacto Imóveis (R. Maria Tognini, 458) ou CPI Imóveis (Av. Brasil, 927).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1OAUVzftHrdO0P2hEgxv2y_xI-vqWTBnd"
     }
    ],
    "endereco": "Rua Deputado Pinheiro Junior, 182 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Deputado+Pinheiro+Junior%2C+182%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "juliana-caicara": {
    "itens": [
@@ -2694,14 +2797,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Impacto Imóveis ou Costa do Sol (Av. Castelo Branco, 2758).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/10nrt9jXlWsECWPp0C0WOWrnWf8doZtLm"
     }
    ],
    "endereco": "Av. Juscelino Kubitschek de Oliveira, 894 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Juscelino+Kubitschek+de+Oliveira%2C+894%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "raquel-chini-boqueirao": {
    "itens": [
@@ -2719,14 +2823,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Costa do Sol ou Elite Imóveis (Av. Paris, 607).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1J4bEVfh75x6roESL7WtCdlT4o0MnhVIs"
     }
    ],
    "endereco": "Av. Paris, 729 · Boqueirão",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Paris%2C+729%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "gisele-aviacao": {
    "itens": [
@@ -2741,8 +2846,8 @@
      "iptu": 180,
      "vg": "rotativa",
      "fonte": "D&S Investimentos",
-     "status": "disponivel",
-     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Agência da Praia (Av. Castelo Branco, 4762) ou Costa do Sol.",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 03/11/2026 (antes disponível): reservada ou vendida; confirmar. Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Agência da Praia (Av. Castelo Branco, 4762) ou Costa do Sol.",
      "conf": false,
      "acesso": ""
     }
@@ -2751,7 +2856,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Vasco+da+Gama%2C+183%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "mexico-sao-bernardo-do-campo": {
    "itens": [
@@ -2769,14 +2874,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Jardim Santo Ignacio (São Bernardo do Campo/SP). Chaves: agendar.",
      "conf": false,
-     "acesso": "elevador"
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1QcoCub8potwn1h-J0ZBZYHDTWBlNfzti"
     }
    ],
    "endereco": "Rua México, 379 · São Bernardo do Campo",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+M%C3%A9xico%2C+379%2C++S%C3%A3o+Bernardo+do+Campo%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "praia-da-gloria-canto-do-forte": {
    "itens": [
@@ -2791,8 +2897,8 @@
      "iptu": null,
      "vg": "1",
      "fonte": "D&S Investimentos",
-     "status": "disponivel",
-     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo (tabela não cita financiamento). IPTU ainda não disponível. Porta aberta: enviar CRECI para cadastro antes da visita.",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 03/11/2026 (antes disponível): reservada ou vendida; confirmar. Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo (tabela não cita financiamento). IPTU ainda não disponível. Porta aberta: enviar CRECI para cadastro antes da visita.",
      "conf": false,
      "acesso": ""
     }
@@ -2801,7 +2907,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Costa+Machado%2C+659%2C+Canto+do+Forte+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "attrative-guilhermina": {
    "itens": [
@@ -2819,14 +2925,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Enviar CRECI antes da visita; visitas aos sábados até 13h.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1PZj_H-bvAq7a_MTheZn2AIldoaHCox66"
     }
    ],
    "endereco": "Rua das Antilhas, 523 · Guilhermina",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+das+Antilhas%2C+523%2C+Guilhermina+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "nathalia-salles-mendes-aviacao": {
    "itens": [
@@ -2844,14 +2951,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Chaves: Agência da Praia ou Costa do Sol.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1mcDHGLP5RExCiPBOiw7GMPLgm_VjLGPH"
     }
    ],
    "endereco": "Rua Vasco da Gama, 321 · Aviação",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Vasco+da+Gama%2C+321%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "monaco-caicara": {
    "itens": [
@@ -2860,7 +2968,7 @@
      "tipologia": "2 dorms",
      "det": "2 suítes, lazer completo",
      "area": 86,
-     "valor": 635000,
+     "valor": 695000,
      "vfin": null,
      "cond": 490,
      "iptu": 432,
@@ -2869,14 +2977,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Apartamento vazio, sem mobília. Enviar CRECI antes da visita; visitas aos sábados até 15h.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1dfm5IflrAQgN4IgjPvprG68tsiPGC0_v"
     }
    ],
    "endereco": "Rua Maria Beltrame Borloni, 77 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Maria+Beltrame+Borloni%2C+77%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "turim-caicara": {
    "itens": [
@@ -2885,7 +2994,7 @@
      "tipologia": "3 dorms",
      "det": "1 suíte, lazer completo, fase final de obra",
      "area": 111,
-     "valor": 895000,
+     "valor": 750000,
      "vfin": null,
      "cond": null,
      "iptu": null,
@@ -2894,14 +3003,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Só imóvel próprio. Aceita permuta, veículo e financiamento bancário. Fase final de obra, entrega em dezembro. Promoção: vendeu, ganhou iPhone.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1rj4k0_A091qoiNNa_rWNRxxRl2PPcfn0"
     }
    ],
    "endereco": "Rua José Alexandre Có, 160 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Alexandre+C%C3%B3%2C+160%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "maragogi-aviacao": {
    "itens": [
@@ -2919,14 +3029,15 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, proposta e financiamento bancário. Enviar CRECI para cadastro.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/11NHW4YlT9ojAE19XG0ufDpEJjYMNNg1N"
     }
    ],
    "endereco": "Rua Jorge Hagge, 296 · Aviação",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jorge+Hagge%2C+296%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "premiere-mediterranee-canto-do-forte": {
    "itens": [
@@ -2944,14 +3055,32 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Pronta para morar; será entregue com planejados e fechamento de sacada. Porta aberta: enviar CRECI. IPTU não informado.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1CTuynEShTaWGscUgNHFvHC2zjZGfyaOZ"
+    },
+    {
+     "unidade": "72",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, lazer completo",
+     "area": 174,
+     "valor": 1500000,
+     "vfin": null,
+     "cond": 1300,
+     "iptu": null,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Enviar CRECI para cadastro. Chaves na portaria. IPTU não informado.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/15u9xzLU9OKd8zWfZDhc4XohFwYvEKacz"
     }
    ],
    "endereco": "Rua Rui Barbosa, 825 · Canto do Forte",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Rui+Barbosa%2C+825%2C+Canto+do+Forte+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "ilha-de-salina-boqueirao": {
    "itens": [
@@ -2969,7 +3098,8 @@
      "status": "disponivel",
      "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, proposta e financiamento bancário. Reversão simples para a planta original de 3 dormitórios. Enviar CRECI; visitas aos sábados até 12h.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1ZrVG3r0PuUtlDz23RVs8Yn5ddmnNM1BU"
     },
     {
      "unidade": "43",
@@ -3001,16 +3131,17 @@
      "tipologia": "3 dorms",
      "det": "3 suítes, lazer completo",
      "area": 117,
-     "valor": 1450000,
+     "valor": 1300000,
      "vfin": null,
      "cond": 950,
      "iptu": 731,
      "vg": "2",
      "fonte": "D&S Investimentos",
      "status": "disponivel",
-     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Enviar CRECI para cadastro.",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Enviar CRECI para cadastro. Promoção: vendeu, ganhou iPhone.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1PSXLxucxKJeke9eFejS2nhyHH4p6unP8"
     },
     {
      "unidade": "112 C",
@@ -3048,8 +3179,8 @@
      "iptu": null,
      "vg": "2",
      "fonte": "D&S Investimentos",
-     "status": "disponivel",
-     "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta. Só imóvel próprio.",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 03/11/2026 (antes disponível): reservada ou vendida; confirmar. Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta. Só imóvel próprio.",
      "conf": false,
      "acesso": ""
     },
@@ -3067,7 +3198,8 @@
      "status": "disponivel",
      "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1rJcECYIZbO5qekyFbqqbUPjXj09jvc88"
     },
     {
      "unidade": "93",
@@ -3083,14 +3215,15 @@
      "status": "disponivel",
      "obs": "Condição: 50% de entrada e saldo em até 36x. Aceita permuta e proposta.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1rJcECYIZbO5qekyFbqqbUPjXj09jvc88"
     }
    ],
    "endereco": "Rua São Domingos, 875 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Domingos%2C+875%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "lagos-guilhermina": {
    "itens": [
@@ -3108,14 +3241,15 @@
      "status": "disponivel",
      "obs": "Valor a partir de R$ 565 mil (tabela traz um preço para 11 unidades). Aptos: 43 e 83 (55 m²); 104*, 124* e 134 (77 m²); 25, 55* e 75 (79 m²); 36 e 66 (73 m²); 27 (60 m²). Construtora Ática. Lazer: espaço gourmet, salão de festas e jogos, academia, piscinas adulta e infantil, deck, sauna.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1HFC2kE_RdW9BojUld5nvRL8KEDAjzMGi"
     }
    ],
    "endereco": "Rua Nicarágua, 486 · Guilhermina",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Nicar%C3%A1gua%2C+486%2C+Guilhermina+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "portugal-caicara": {
    "itens": [
@@ -3133,7 +3267,8 @@
      "status": "disponivel",
      "obs": "Valor a partir de R$ 680 mil. Torre B: aptos 44, 184* e 186* (85 m²). Aceita permuta e veículo. Entrega não informada na tabela.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/18zZ0ZmQgAPTelM10C1yxL4X-lAODUTCb"
     },
     {
      "unidade": "Torres A e B (9 aptos)",
@@ -3149,14 +3284,15 @@
      "status": "disponivel",
      "obs": "Valor a partir de R$ 1.190 mil. Torre A: 21* e 81* (117 m²), 123 (116 m²). Torre B: 62, 72, 121*, 181*, 191* e 192* (120 m²). Aceita permuta e veículo; estuda parcelamento até 36x. Entrega não informada na tabela.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/18zZ0ZmQgAPTelM10C1yxL4X-lAODUTCb"
     }
    ],
    "endereco": "Rua Maria Tognini, 222 · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Maria+Tognini%2C+222%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "veneza-jardim-real": {
    "itens": [
@@ -3174,14 +3310,15 @@
      "status": "disponivel",
      "obs": "Aceita permuta e veículo. Lazer: piscina prainha com cascata, sauna, academia, salões de jogos e festas.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1drXd9v641GtmmlB33n-cQOOgqEnPmquU"
     }
    ],
    "endereco": "Rua Azaléia, 30 · Jardim Real",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Azal%C3%A9ia%2C+30%2C+Jardim+Real+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "jardim-do-forte-canto-do-forte": {
    "itens": [
@@ -3199,14 +3336,15 @@
      "status": "disponivel",
      "obs": "Novidade, duplex. Aceita permuta e proposta. Lazer: piscinas, snack bar, salão de jogos e festas, área gourmet, deck, academia, brinquedoteca.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1mGRLKt0PDsa8d5A1cxCzf78cLgT8C3MP"
     }
    ],
    "endereco": "Av. Mal. Maurício José Cardoso, 1106 · Canto do Forte",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Mal.+Maur%C3%ADcio+Jos%C3%A9+Cardoso%2C+1106%2C+Canto+do+Forte+Praia+Grande%2C+SP",
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "03/11/2026"
   },
   "florida-boqueirao": {
    "itens": [
@@ -3457,12 +3595,29 @@
      "obs": "REF AP23865. Sala com varanda gourmet fechada em vidro, lavabo, totalmente mobiliado. Chaves com Lucimara (13) 99749-4626. Confirmar disponibilidade e valores (tabela Nova Casarão 01/10/2026). ",
      "conf": false,
      "acesso": "elevador"
+    },
+    {
+     "unidade": "64",
+     "tipologia": "1 dorm",
+     "det": "festas e jogos",
+     "area": 46.74,
+     "valor": 375000,
+     "vfin": null,
+     "cond": 690,
+     "iptu": 339,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, veículo e financiamento bancário. Porta aberta: enviar CRECI para cadastro antes da visita. A D&S chama o prédio de Residencial Pettra Guilhermina. O mesmo apto 64 está na tabela da Nova Casarão (01/10/2026) por R$ 334 mil; confirmar com as duas.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1mkeeCINoTeEZ7MH2jHsqzgMbpWmLwYpS"
     }
    ],
    "endereco": "Rua Itararé, 598 · Guilhermina",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Itarar%C3%A9%2C+598%2C+Guilhermina+Praia+Grande%2C+SP",
-   "contato": "Corretor indicado em cada imóvel",
-   "fonte": "Nova Casarão (Comissão 5%)",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700 | Corretor indicado em cada imóvel",
+   "fonte": "D&S Investimentos, Nova Casarão (Comissão 5%; Comissão paga após 100% do processo concluído)",
    "atualizadoEm": "01/10/2026"
   },
   "abc-boqueirao": {
@@ -4380,6 +4535,305 @@
    "contato": "Imigrantes Imóveis · propostas por WhatsApp com Tonon ou Erick · dúvidas dos imóveis: Camila",
    "fonte": "Imigrantes Imóveis (Comissão 5%)",
    "atualizadoEm": "07/10/2026"
+  },
+  "helena-elaine-boqueirao": {
+   "itens": [
+    {
+     "unidade": "83",
+     "tipologia": "1 dorm",
+     "det": "lazer completo",
+     "area": 45,
+     "valor": 420000,
+     "vfin": null,
+     "cond": 489,
+     "iptu": 274,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, veículo e financiamento bancário. Chaves: agendar. A tabela diz \"Forte\"; o mapa da tabela, Boqueirão.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1nArlh7HLXykWtKOfW8j9wqx3kdetKgpu"
+    }
+   ],
+   "endereco": "Av. Paris, 562 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Paris%2C+562%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "villagio-di-marbelle-boqueirao": {
+   "itens": [
+    {
+     "unidade": "Casa 06",
+     "tipologia": "Sobrado de condomínio 2 dorms",
+     "categoria": "casa",
+     "det": "2 banheiros, espaço gourmet e piscina no condomínio",
+     "area": 62,
+     "valor": 430000,
+     "vfin": null,
+     "cond": 406,
+     "iptu": 254,
+     "vg": "",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, veículo e financiamento bancário. Vagas não informadas. Chaves: Deck Imóveis (R. Itararé, 174) ou CPI Imóveis (Av. Brasil, 927).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1wmRfx0rhqw-AQLZxhPrCu_cfbN1xdZue"
+    }
+   ],
+   "endereco": "Rua Botafogo, 190 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Botafogo%2C+190%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "sobrado-eurico-gaspar-dutra-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado 4 dorms",
+     "categoria": "casa",
+     "det": "2 suítes, lazer completo, fase final da repaginação",
+     "area": 297,
+     "valor": 2850000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 890,
+     "vg": "",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta e veículo. Vagas e condomínio não informados. Chaves: Costa do Sol (Av. Castelo Branco, 2758) ou Satelis (Av. Costa Machado, 631).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1OIN9LAf6kGhkqqFaTAxKsM273rwWtswg"
+    }
+   ],
+   "endereco": "Rua Mal. Eurico Gaspar Dutra, 851 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Mal.+Eurico+Gaspar+Dutra%2C+851%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "taiti-tupi": {
+   "itens": [
+    {
+     "unidade": "207 C",
+     "tipologia": "Kitnet",
+     "det": "kit dividida, prédio frente mar",
+     "area": 34,
+     "valor": 235000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 124,
+     "vg": "sem vaga",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, veículo e financiamento bancário. Condomínio não informado. Chaves: Costa do Sol (Av. Castelo Branco, 2758) ou Nova Geração (Av. Castelo Branco, 5268).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1AqN2AWQl9lzPKG8iGOm7GCzasm4TD-Od"
+    },
+    {
+     "unidade": "305 B",
+     "tipologia": "Kitnet",
+     "det": "prédio frente mar",
+     "area": 28,
+     "valor": 235000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 124,
+     "vg": "sem vaga",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Aceita permuta, veículo e financiamento bancário. Condomínio não informado. Chaves: Costa do Sol (Av. Castelo Branco, 2758) ou Nova Geração (Av. Castelo Branco, 5268).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1aHX9Fqb0y3apEOub_bd0jqqHFj5xVozK"
+    }
+   ],
+   "endereco": "Av. Pres. Castelo Branco, 5580 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Pres.+Castelo+Branco%2C+5580%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "kinbor-office-boqueirao": {
+   "itens": [
+    {
+     "unidade": "Sala 609",
+     "tipologia": "Sala comercial",
+     "categoria": "comercial",
+     "det": "reformada: porcelanato, ar-condicionado e móveis",
+     "area": 35.97,
+     "valor": 525000,
+     "vfin": null,
+     "cond": 640,
+     "iptu": 261,
+     "vg": "",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Seção \"Comercial - aluguel e venda\" da tabela. Aceita permuta e veículo. Enviar CRECI para cadastro antes da visita.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1PUtJXVelngBRfl73n1lboBGc9zTnLMJN"
+    }
+   ],
+   "endereco": "Rua Luiz Antônio de Andrade Vieira, 216 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Luiz+Ant%C3%B4nio+de+Andrade+Vieira%2C+216%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "loja-milton-daniels-quietude": {
+   "itens": [
+    {
+     "unidade": "Loja",
+     "tipologia": "Loja",
+     "categoria": "comercial",
+     "det": "terreno 4,50 x 28,00 m",
+     "area": 126,
+     "valor": 800000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 440,
+     "vg": "",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Seção \"Comercial - aluguel e venda\" da tabela. Chaves: agendar.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1mz9I8xTfC5CwiQVfSJekXZlQd-3JdQMh"
+    }
+   ],
+   "endereco": "Rua Milton Daniels, 94 · Quietude",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Milton+Daniels%2C+94%2C+Quietude+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "casa-fumio-miyazi-boqueirao": {
+   "itens": [
+    {
+     "unidade": "Casa",
+     "tipologia": "Casa térrea 2 dorms",
+     "categoria": "comercial",
+     "det": "1 suíte",
+     "area": 201,
+     "valor": 950000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 890,
+     "vg": "2",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Seção \"Comercial - aluguel e venda\" da tabela. Venda R$ 950 mil ou aluguel R$ 6.000/mês. Chaves: Costa do Sol (Av. Castelo Branco, 2758).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1avu5AkHU8Z-K8L2LIQJmaIYEJ_SkvwKK"
+    }
+   ],
+   "endereco": "Rua Fumio Miyazi, 827 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Fumio+Miyazi%2C+827%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "sobrado-oswaldo-de-oliveira-boqueirao": {
+   "itens": [
+    {
+     "unidade": "Sobrado",
+     "tipologia": "Sobrado 3 dorms",
+     "categoria": "comercial",
+     "det": "1 salão",
+     "area": 123,
+     "valor": 950000,
+     "vfin": null,
+     "cond": null,
+     "iptu": 225,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Imóvel só é reservado mediante proposta assinada e sinal na conta da D&S. Seção \"Comercial - aluguel e venda\" da tabela. Venda R$ 950 mil ou aluguel R$ 6.500/mês. Chaves: Costa do Sol (Av. Castelo Branco, 2758).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1WYdXUvB7ae-MbrXQJ8UMvSPgU49aveq2"
+    }
+   ],
+   "endereco": "Rua Oswaldo de Oliveira, 423 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Oswaldo+de+Oliveira%2C+423%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "torres-caicara": {
+   "itens": [
+    {
+     "unidade": "55 e 75 (Torre A)",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, lazer completo",
+     "area": 71,
+     "valor": 535000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Aceita permuta e veículo. A tabela traz \"Apto 55/75 Torre A\" com um só valor. Lazer: piscinas adulta e infantil, deck/solarium, área de conveniência, descanso/spa, fitness, espaço crossfit, espaço pet, beauty center, coworking, playground, espaço grill, brinquedoteca, salão de jogos, espaço teen. Entrega não informada na tabela.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua São Romério, 15 · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Rom%C3%A9rio%2C+15%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
+  },
+  "ilha-do-forte-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "82 (2 dorms)",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, jogos, festas, academia",
+     "area": 61,
+     "valor": 485000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "1",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Aceita permuta e veículo. Construtora Melo. Lazer: salão de jogos, salão de festas, academia. Entrega não informada na tabela. A tabela traz duas páginas com \"Apto 82\" (2 dorms por R$ 485 mil e 3 dorms por R$ 695 mil); confirmar o número de cada uma.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1dTSC8q3QKwoRxFnMlvDohsOaFY335WSL"
+    },
+    {
+     "unidade": "82 (3 dorms)",
+     "tipologia": "3 dorms",
+     "det": "2 suítes, jogos, festas, academia",
+     "area": 95,
+     "valor": 695000,
+     "vfin": null,
+     "cond": null,
+     "iptu": null,
+     "vg": "2 demarcadas",
+     "fonte": "D&S Investimentos",
+     "status": "disponivel",
+     "obs": "Aceita permuta e veículo. Construtora Melo. Lazer: salão de jogos, salão de festas, academia. Entrega não informada na tabela. A tabela traz duas páginas com \"Apto 82\" (2 dorms por R$ 485 mil e 3 dorms por R$ 695 mil); confirmar o número de cada uma.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1dTSC8q3QKwoRxFnMlvDohsOaFY335WSL"
+    }
+   ],
+   "endereco": "Rua Gen. Humberto de Souza Mello, 150 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Gen.+Humberto+de+Souza+Mello%2C+150%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
+   "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
+   "atualizadoEm": "03/11/2026"
   }
  }
 }

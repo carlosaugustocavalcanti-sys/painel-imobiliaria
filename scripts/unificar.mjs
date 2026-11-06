@@ -143,6 +143,7 @@ for (const e of USADOS.emps) {
         fase: e.cat === 'obra' ? 'obra' : 'pronto',
         unidade: String(x.unidade ?? ''),
         tipologia: x.tipologia || '',
+        ...(x.categoria ? { categoria: x.categoria } : {}),
         dm: dmFromText(x.tipologia),
         det: x.det || '',
         area: num(x.area),
@@ -161,6 +162,7 @@ for (const e of USADOS.emps) {
         fonte: x.fonte || '',
         contato: '',
         tabela: t?.atualizadoEm || '',
+        ...(x.fotos ? { fotos: x.fotos } : {}),
       };
     }),
   });
@@ -369,6 +371,8 @@ const FUNDIR_MANUAL = [
   ['lancamentos:torres', 'vista-mar:g59'],
   ['lancamentos:torres', 'vista-mar:g147'],
   ['isildo:res-torres', 'drive-mes:ed-torres-148a'],
+  // A D&S (tabela de obras de 03/11/2026) dá o nº 15 da Rua São Romério, como a construtora.
+  ['lancamentos:torres', 'usados:torres-caicara'],
   ['usados:praia-grande-residencial-aviacao', 'drive-mes:ed-praia-grande-marcondes'],
 ];
 const grupos = [];

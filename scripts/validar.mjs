@@ -67,6 +67,7 @@ const refsOrigem = [];
 const M_USADOS = {
   unidade: ['unidade', String], tipologia: 'tipologia', det: 'det', area: 'area', valor: 'valor', vfin: 'vfin',
   cond: 'cond', iptu: 'iptu', vg: 'vagas', fonte: 'fonte', status: 'status', obs: 'obs', conf: 'conf', acesso: 'acesso',
+  categoria: 'categoria', fotos: 'fotos',
 };
 for (const [id, t] of Object.entries(USADOS.units)) {
   t.itens.forEach((x, i) => {
