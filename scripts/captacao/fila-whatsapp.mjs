@@ -22,6 +22,19 @@ const ler = (arq, padrao) => (existsSync(arq) ? JSON.parse(readFileSync(arq, 'ut
 
 /** Corretor ou imobiliária anunciando como particular: não faz sentido oferecer captação. */
 const PROFISSIONAL = /im[oó]ve|corretor|imobili|construtora|network|compras|vendas|morarna/i;
+/** Corretor que se apresenta na descrição ("CRECI 123", "sou corretora", "JADS IMOBILIÁRIA").
+ *  Não pega quem só fala de corretor ("não aceito corretores", "sem corretor", "corretores podem trabalhar"). */
+const CORRETOR_NO_TEXTO = [
+  /creci/i,
+  /sou corretor/i,
+  /corretora? de im[oó]veis/i,
+  /an[uú]ncio de imobili[aá]ria/i,
+  /[A-Z]{3,} (IMOBILI[AÁ]RIA|Imobili[aá]ria)/,
+  /Imobili[aá]ria [A-Z][a-z]+/,
+  /com o corretor\b/i,
+  /corretora? respons[aá]vel/i,
+];
+const corretorNoTexto = (a) => CORRETOR_NO_TEXTO.some((re) => re.test(`${a.titulo}\n${a.descricao}`));
 
 const minusculas = (s) => s.toLocaleLowerCase('pt-BR');
 const titulo = (s) => s.charAt(0).toLocaleUpperCase('pt-BR') + minusculas(s.slice(1));
@@ -69,9 +82,11 @@ function fila() {
     const telefone = a.telefones.find((t) => t.length === 11 && t[2] === '9'); // só celular tem WhatsApp
     if (!telefone || vistos.has(telefone)) continue;
     vistos.add(telefone);
-    if (enviados[telefone] || PROFISSIONAL.test(a.anunciante)) continue;
+    if (enviados[telefone] || PROFISSIONAL.test(a.anunciante) || corretorNoTexto(a)) continue;
     const nome = saudacao(a.anunciante, apelidos);
-    itens.push({ id: a.id, telefone, anunciante: a.anunciante, nome, url: a.url, texto: montarTexto(texto, a, nome) });
+    // Contato salvo no WhatsApp (e no celular): "Katy" + "OLX Aviação", para saber de onde veio.
+    const contato = { nome: nome || 'Proprietário', sobrenome: ['OLX', a.bairro].filter(Boolean).join(' ') };
+    itens.push({ id: a.id, telefone, anunciante: a.anunciante, nome, contato, url: a.url, texto: montarTexto(texto, a, nome) });
   }
   return itens;
 }
