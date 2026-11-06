@@ -3,6 +3,9 @@
  "lidoEm": "2026-11-06",
  "sobre": "Endereço de cada imóvel anunciado no site da Lesan, pelo código do anúncio, como está no cadastro interno da Praedium (lido com o login do Carlos). Sem dados de proprietário.",
  "enderecos": {
+  "309": "Canto do Forte, Praia Grande/SP - Avenida Marechal Hermes, 328, Térreo",
+  "308": "Vila Assunção, Praia Grande/SP - Avenida Osasco, 53, 114 - 1º Andar",
+  "307": "Canto do Forte, Praia Grande/SP - Rua General Osório, 57, 162 - 16º Andar",
   "156": "Guilhermina, Praia Grande/SP - Rua Copacabana, 651, 52 - 5º Andar",
   "306": "Boqueirão, Praia Grande/SP - Avenida Duque de Caxias, 61, 68 - 6º Andar",
   "305": "Guilhermina, Praia Grande/SP - Avenida Presidente Castelo Branco, 3236, 801 - 8º Andar",
