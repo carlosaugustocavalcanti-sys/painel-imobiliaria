@@ -52,3 +52,6 @@ Thumbs.db
 
 # Páginas baixadas do site da Lesan (scripts/ler-site-lesan.mjs)
 /dados/cache/
+
+# Captação OLX: nome e telefone de proprietários, NUNCA vai para o git nem para o Pages
+/captacao/

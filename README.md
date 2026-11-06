@@ -64,6 +64,15 @@ Regras de unificação:
 - **Posição na planta de implantação** (`POSICAO` em `scripts/unificar.mjs`): quando a construtora mostra onde fica cada final, a unidade ganha `posicao`, e só ela decide o frente mar e a vista mar (o endereço na Castelo Branco e o texto da tabela deixam de valer). Hoje há o Residencial Torres: só os finais 1 e 2 da Torre A, de frente para a Castelo Branco, são frente mar; as laterais (finais 3 a 6 das duas torres) são vista mar; os fundos e a frente da Torre B, que dá para a Torre A, não têm etiqueta de mar, mesmo que a tabela diga vista mar. A Torre B fica atrás, do lado da Av. Juscelino Kubitschek. No Residencial Maya (torre única), os finais 1 e 2 dão para a Castelo Branco e são frente mar; o 3 (lado Rua das Papoulas) e o 4 ficam nos fundos.
 - Ficaram de fora a casa do Tupi da Ectual (indisponível por reforma, sem valores) e as senhas de fechadura que as tabelas trazem.
 
+## Captação (OLX, fora do painel)
+
+Anúncios de **proprietários** (particulares) à venda na OLX em Praia Grande, para captação. Ficam numa página separada, `captacao/index.html`, que abre só no computador do Carlos: a pasta `captacao/` está no `.gitignore` e **nunca** vai para o GitHub nem para o Pages, porque traz nome e telefone de pessoas físicas. O painel imobiliário não muda.
+
+- Entram só anúncios com nome e telefone do proprietário. A OLX não mostra telefone cadastrado de particular (o contato é pelo chat); o telefone que aparece é o que o próprio dono escreveu no título ou na descrição (o "ver número" da ficha só desmascara esse texto).
+- Leitura: a lista de particulares (`?f=p`, ~609 anúncios) e as fichas são lidas no navegador do app, com o login do Carlos na OLX, uma página a cada 2,5 s, parando no primeiro bloqueio. O resultado sai do navegador como texto `INICIO{...}FIM` e vira `captacao/bruto/olx-*.json` com `scripts/captacao/extrair-resultado.mjs`.
+- `node scripts/captacao/montar.mjs` gera `captacao/olx-praia-grande.json` e `captacao/index.html` (filtros por tipo, quartos, bairro, valor, celular/fixo e andamento; status e anotação de cada anúncio ficam no navegador).
+- Para ver: abra `captacao/index.html` no navegador, ou use a configuração `captacao` do `.claude/launch.json` (http://localhost:8790).
+
 ## Filtro de lazer
 
 "Lazer do condomínio" filtra pelos itens que o prédio tem: piscina, salão de festas, salão de jogos, academia, churrasqueira/gourmet, brinquedoteca, playground, sauna/spa, quadra, cinema e espaço pet, ou "Qualquer lazer". Com mais de um item, o condomínio precisa ter todos. O lazer vem da lista de lazer e do book do prédio, dos diferenciais, das notas e do texto das tabelas de todas as unidades do prédio (`lazerDoPredio` em `src/app/estoque/busca.ts`). Não contam a churrasqueira e o terraço gourmet do próprio apartamento ("churrasqueira na sacada", "varanda gourmet"), a "quadra da praia" e o que vem negado ("sem piscina"). Prédio cuja tabela não cita lazer sai do resultado quando o filtro está ligado.
