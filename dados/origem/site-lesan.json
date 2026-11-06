@@ -1,8 +1,531 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-04",
+ "lidoEm": "2026-11-06",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-144",
+   "nome": "Rua Brigadeiro Faria Lima, 566",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Rua Brigadeiro Faria Lima, 566 - Canto do Forte - Praia Grande/SP",
+   "lazer": [],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 144)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "Cód. 144",
+     "tipologia": "Casa 1 dorm",
+     "categoria": "casa",
+     "dorm": 1,
+     "area": 55,
+     "vagas": "3",
+     "valor": 500000,
+     "iptu": 170,
+     "status": "disponivel",
+     "obs": "Oportunidade no Canto do Forte: Casa com 3 Vagas por R$ 550 mil. Terreno de 6 m². Área total 108 m². Cozinha Grande, Quintal, Sala Grande",
+     "fonte": "Site Lesan Imóveis (cód. 144)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-1-quarto-canto-do-forte-praia-grande-sp-id-144"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-106",
+   "nome": "Rua Rui Barbosa, 773",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Rua Rui Barbosa, 773 - Canto do Forte - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Salão de Jogos",
+    "Espaço Fitness"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 106)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 105)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "94",
+     "andar": 9,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 48,
+     "vagas": "1",
+     "valor": 355000,
+     "cond": 601,
+     "iptu": 269,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Oportunidade no Canto do Forte: ao lado da Av. Mallet e Dona Manuela. Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Semimobiliado, Varanda, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 106)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-48m2-id-106"
+    },
+    {
+     "unidade": "31",
+     "andar": 3,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 52,
+     "vagas": "1",
+     "valor": 375000,
+     "cond": 601,
+     "iptu": 269,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte | Ao Lado da Av. Marechal Mallet. Armário no Banheiro, Sacada, Semimobiliado, Varanda, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 105)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-52m2-id-105"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-156",
+   "nome": "Rua Copacabana, 651",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "fase": "pronto",
+   "endereco": "Rua Copacabana, 651 - Guilhermina - Praia Grande/SP",
+   "lazer": [
+    "Piscina",
+    "Playground",
+    "Salão de Festas"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 156)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "52",
+     "andar": 5,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 63.33,
+     "vagas": "1",
+     "valor": 650000,
+     "cond": 587,
+     "iptu": 377,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Imperdível na Guilhermina: 63m², 2 Quartos e Piscina no Condomínio. Armário no Banheiro, Cozinha Americana, Cozinha Grande, Móveis Planejados, Sacada, Semimobiliado",
+     "fonte": "Site Lesan Imóveis (cód. 156)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-63m2-id-156"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-55",
+   "nome": "Avenida Presidente Castelo Branco, 18580",
+   "cidade": "Praia Grande",
+   "bairro": "Balneário Flórida",
+   "fase": "pronto",
+   "endereco": "Avenida Presidente Castelo Branco, 18580 - Balneário Flórida - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Churrasqueira",
+    "Salão de Jogos"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 55)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 58)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "84",
+     "andar": 8,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 68,
+     "vagas": "1",
+     "valor": 415000,
+     "cond": 470,
+     "iptu": 353,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento no Balneário Flórida com Vista Mar e Porteira Fechada. Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Mobiliado, Sacada, Sacada Gourmet, Sala de jantar, Varanda, Varanda Gourmet, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 55)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-68m2-id-55"
+    },
+    {
+     "unidade": "34",
+     "andar": 3,
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 68,
+     "vagas": "1",
+     "valor": 405000,
+     "cond": 440,
+     "iptu": 230,
+     "acesso": "elevador",
+     "vista": "Frente mar",
+     "status": "disponivel",
+     "obs": "Vista para o Mar em Prédio Frente Mar no Balneário Flórida. Ar condicionado, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Lavanderia, Mobiliado, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 58)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-68m2-id-58"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-15",
+   "nome": "Rua Brigadeiro Faria Lima, 147",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Rua Brigadeiro Faria Lima, 147 - Canto do Forte - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Centro de Estética",
+    "Churrasqueira Ecológica",
+    "Cinema",
+    "Deck Molhado",
+    "Espaço Gourmet",
+    "Espaço Pet",
+    "Piscina",
+    "Piscina Climatizada",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
+    "Quadra Poliesportiva",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer",
+    "Beauty Care",
+    "Churrasqueira à Carvão",
+    "Espaço Fitness",
+    "Espaço Zen",
+    "Quadra de Futebol",
+    "Churrasqueira",
+    "Deck",
+    "Mini Quadra"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 15)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 101)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 84)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "61",
+     "andar": 6,
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 152,
+     "vagas": "3",
+     "valor": 1950000,
+     "cond": 1260,
+     "iptu": 850,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Viva no Melhor do Canto do Forte: Luxo, Espaço e Excelente localização. Área total 220 m². Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda Fechada com Vidro, Varanda Gourmet, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 15)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-152m2-id-15"
+    },
+    {
+     "unidade": "221",
+     "andar": 22,
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 182,
+     "vagas": "3",
+     "valor": 2300000,
+     "cond": 1300,
+     "iptu": 780,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento no Canto do Forte com Vista Mar e Montanhas | Andar alto. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Copa, Cozinha Gourmet, Cozinha Grande, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 101)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-182m2-id-101"
+    },
+    {
+     "unidade": "222",
+     "andar": 22,
+     "tipologia": "3 dorms (3 suítes)",
+     "dorm": 3,
+     "suites": 3,
+     "area": 195,
+     "vagas": "3",
+     "valor": 3300000,
+     "cond": 1400,
+     "iptu": 900,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento Porteira Fechada no Canto do Forte | 3 Suítes e Vista Mar. Área total 274,67 m². Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Closet, Cozinha Gourmet, Cozinha Grande, Escritório, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 84)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-195m2-id-84"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-25",
+   "nome": "Rua Xixová, 246",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Rua Xixová, 246 - Canto do Forte - Praia Grande/SP",
+   "lazer": [
+    "Brinquedoteca",
+    "Piscina",
+    "Salão de Jogos",
+    "Salão de Festas",
+    "Aceita Pet",
+    "Piscina para Adulto",
+    "Academia",
+    "Espaço Gourmet",
+    "Churrasqueira",
+    "Playground"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 25)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 26)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 100)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 99)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 18)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "94",
+     "andar": 9,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 94,
+     "vagas": "1",
+     "valor": 780000,
+     "cond": 990,
+     "iptu": 570,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e Suíte. Box Blindex, Churrasqueira na Varanda, Cozinha Grande, Fechadura Digital, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado",
+     "fonte": "Site Lesan Imóveis (cód. 25)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-94m2-id-25"
+    },
+    {
+     "unidade": "122",
+     "andar": 12,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 92,
+     "vagas": "1",
+     "valor": 750000,
+     "cond": 990,
+     "iptu": 570,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e 92m². Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda Fechada com Vidro, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 26)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-92m2-id-26"
+    },
+    {
+     "unidade": "41",
+     "andar": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 89.11,
+     "vagas": "1",
+     "valor": 790000,
+     "cond": 460,
+     "iptu": 437,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Vista para o Mar e Porteira Fechada no Canto do Forte. Aproveite!. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Closet, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 100)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-89m2-id-100"
+    },
+    {
+     "unidade": "71",
+     "andar": 7,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 89.11,
+     "vagas": "1",
+     "valor": 650000,
+     "cond": 460,
+     "iptu": 437,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte | Reformado e Perto da Praia ⭐. Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Fechadura Digital, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 99)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-89m2-id-99"
+    },
+    {
+     "unidade": "35",
+     "andar": 3,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 91,
+     "vagas": "1",
+     "valor": 715000,
+     "cond": 994,
+     "iptu": 518,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e 91m². Ambientes Integrados, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar",
+     "fonte": "Site Lesan Imóveis (cód. 18)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-91m2-id-18"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-178",
+   "nome": "Avenida Presidente Castelo Branco, 2808",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Guilhermina",
+   "fase": "pronto",
+   "endereco": "Avenida Presidente Castelo Branco, 2808 - Vila Guilhermina - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Espaço Fitness",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Sauna"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 178)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "06/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "132",
+     "andar": 13,
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 123.58,
+     "vagas": "2",
+     "valor": 1300000,
+     "cond": 1027,
+     "iptu": 633,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento Frente ao Mar na Guilhermina | 3 Dormitórios e Alto Padrão. Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavabo, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 178)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "06/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-vila-guilhermina-praia-grande-sp-123m2-id-178"
+    }
+   ]
+  },
   {
    "id": "lesan-site-200",
    "nome": "Avenida Rio Branco, 440",
@@ -240,55 +763,6 @@
      "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
      "tabela": "02/11/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-5-quartos-balneario-florida-praia-grande-sp-175m2-id-183"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-305",
-   "nome": "Avenida Presidente Castelo Branco, 3236",
-   "cidade": "Praia Grande",
-   "bairro": "Guilhermina",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 3236 - Guilhermina - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Brinquedoteca",
-    "Espaço Fitness",
-    "Espaço Gourmet",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 305)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "02/11/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "801",
-     "andar": 8,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "area": 145,
-     "vagas": "3",
-     "valor": 1298000,
-     "cond": 1196,
-     "iptu": 800,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "More de Frente para o Mar: 145 m², 3 Vagas e Lazer Completo. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista Panorâmica, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 305)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "02/11/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-guilhermina-praia-grande-sp-145m2-id-305"
     }
    ]
   },
@@ -537,52 +1011,6 @@
      "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-73m2-id-279"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-178",
-   "nome": "Avenida Presidente Castelo Branco, 2808",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Guilhermina",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 2808 - Vila Guilhermina - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Espaço Fitness",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Sauna"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 178)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "132",
-     "andar": 13,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "area": 123.58,
-     "vagas": "2",
-     "valor": 1260000,
-     "cond": 1027,
-     "iptu": 633,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento Frente ao Mar na Guilhermina | 3 Dormitórios e Alto Padrão. Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavabo, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 178)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-vila-guilhermina-praia-grande-sp-123m2-id-178"
     }
    ]
   },
@@ -2370,8 +2798,7 @@
     "Salão de Festas",
     "Salão de Jogos",
     "Churrasqueira à Carvão",
-    "Espaço Fitness",
-    "Área de Lazer"
+    "Espaço Fitness"
    ],
    "tabelas": [
     {
@@ -2386,11 +2813,6 @@
     },
     {
      "fonte": "Site Lesan Imóveis (cód. 120)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 119)",
      "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
      "atualizadoEm": "29/10/2026"
     }
@@ -2450,25 +2872,6 @@
      "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-boqueirao-praia-grande-sp-55m2-id-120"
-    },
-    {
-     "unidade": "52",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 80,
-     "vagas": "2",
-     "valor": 540000,
-     "cond": 600,
-     "iptu": 350,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Boqueirão na Avenida Marechal Mallet. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Varanda, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 119)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-80m2-id-119"
     }
    ]
   },
@@ -5409,196 +5812,6 @@
    ]
   },
   {
-   "id": "lesan-site-15",
-   "nome": "Rua Brigadeiro Faria Lima, 147",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Rua Brigadeiro Faria Lima, 147 - Canto do Forte - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Centro de Estética",
-    "Churrasqueira Ecológica",
-    "Cinema",
-    "Deck Molhado",
-    "Espaço Gourmet",
-    "Espaço Pet",
-    "Piscina",
-    "Piscina Climatizada",
-    "Piscina Infantil",
-    "Piscina para Adulto",
-    "Playground",
-    "Quadra Poliesportiva",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Sauna",
-    "Área de Lazer",
-    "Beauty Care",
-    "Churrasqueira à Carvão",
-    "Espaço Fitness",
-    "Mini Quadra",
-    "Quadra de Futebol",
-    "Espaço Zen",
-    "Churrasqueira",
-    "Deck"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 15)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 147)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 101)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 93)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 84)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 54)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "61",
-     "andar": 6,
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 152,
-     "vagas": "3",
-     "valor": 1800000,
-     "cond": 1260,
-     "iptu": 850,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Viva no Melhor do Canto do Forte: Luxo, Espaço e Excelente localização. Área total 220 m². Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda Fechada com Vidro, Varanda Gourmet, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 15)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-152m2-id-15"
-    },
-    {
-     "unidade": "221",
-     "andar": 22,
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 152,
-     "vagas": "3",
-     "valor": 2500000,
-     "cond": 1300,
-     "iptu": 780,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Alto Padrão no Canto do Forte: 3 Suítes e Lazer Completo. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Gourmet, Cozinha Grande, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista para a Montanha, Vista para o Mar. Mesmo apartamento do anúncio cód. 101",
-     "fonte": "Site Lesan Imóveis (cód. 147)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-152m2-id-147"
-    },
-    {
-     "unidade": "221",
-     "andar": 22,
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 182,
-     "vagas": "3",
-     "valor": 2300000,
-     "cond": 1300,
-     "iptu": 780,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento no Canto do Forte com Vista Mar e Montanhas | Andar alto. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Copa, Cozinha Gourmet, Cozinha Grande, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar. Mesmo apartamento do anúncio cód. 147",
-     "fonte": "Site Lesan Imóveis (cód. 101)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-182m2-id-101"
-    },
-    {
-     "unidade": "91",
-     "andar": 9,
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 182,
-     "vagas": "3",
-     "valor": 2400000,
-     "cond": 1300,
-     "iptu": 890,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento no Canto do Forte | Alto Padrão com 3 Suítes e 3 Vagas. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Copa, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 93)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-182m2-id-93"
-    },
-    {
-     "unidade": "222",
-     "andar": 22,
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 195,
-     "vagas": "3",
-     "valor": 3300000,
-     "cond": 1400,
-     "iptu": 900,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento Porteira Fechada no Canto do Forte | 3 Suítes e Vista Mar. Área total 274,67 m². Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Closet, Cozinha Gourmet, Cozinha Grande, Escritório, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 84)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-195m2-id-84"
-    },
-    {
-     "unidade": "72",
-     "tipologia": "3 dorms (3 suítes)",
-     "dorm": 3,
-     "suites": 3,
-     "area": 185,
-     "vagas": "3",
-     "valor": 2660000,
-     "cond": 1260,
-     "iptu": 980,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte | 3 Suítes e 185m² Exclusivos. Área total 230 m². Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Banheira, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Closet, Copa, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 54)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-185m2-id-54"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-151",
    "nome": "Rua Caribas, 354",
    "cidade": "Praia Grande",
@@ -6079,132 +6292,6 @@
      "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-balneario-maracana-praia-grande-sp-114m2-id-16"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-142",
-   "nome": "Rua Itamirim, 33",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Tupi",
-   "fase": "pronto",
-   "endereco": "Rua Itamirim, 33 - Vila Tupi - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Churrasqueira",
-    "Espaço Fitness",
-    "Piscina",
-    "Piscina Infantil",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer",
-    "Espaço Gourmet"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 142)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "92",
-     "andar": 9,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 88,
-     "vagas": "1",
-     "valor": 600000,
-     "cond": 695,
-     "iptu": 480,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Oportunidade na Vila Tupi: 2 Dormitórios, Suíte e Piscina. Ambientes Integrados, Ar condicionado, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro",
-     "fonte": "Site Lesan Imóveis (cód. 142)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-tupi-praia-grande-sp-88m2-id-142"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-145",
-   "nome": "Rua Gago Coutinho, 36",
-   "cidade": "Praia Grande",
-   "bairro": "Aviação",
-   "fase": "pronto",
-   "endereco": "Rua Gago Coutinho, 36 - Aviação - Praia Grande/SP",
-   "lazer": [
-    "Aceita Pet"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 145)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "33",
-     "andar": 3,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 75,
-     "vagas": "1",
-     "valor": 350000,
-     "cond": 450,
-     "iptu": 207,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Imperdível na Aviação: apartamento de 75m² por R$ 350 mil. Armário de Cozinha, Armário no Banheiro, Lavanderia, Mobiliado, Varanda, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 145)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-aviacao-praia-grande-sp-75m2-id-145"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-144",
-   "nome": "Rua Brigadeiro Faria Lima, 566",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Rua Brigadeiro Faria Lima, 566 - Canto do Forte - Praia Grande/SP",
-   "lazer": [],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 144)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "Cód. 144",
-     "tipologia": "Casa 1 dorm",
-     "categoria": "casa",
-     "dorm": 1,
-     "area": 55,
-     "vagas": "3",
-     "valor": 550000,
-     "iptu": 170,
-     "status": "disponivel",
-     "obs": "Oportunidade no Canto do Forte: Casa com 3 Vagas por R$ 550 mil. Terreno de 6 m². Área total 108 m². Cozinha Grande, Quintal, Sala Grande",
-     "fonte": "Site Lesan Imóveis (cód. 144)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-1-quarto-canto-do-forte-praia-grande-sp-id-144"
     }
    ]
   },
@@ -6825,220 +6912,6 @@
    ]
   },
   {
-   "id": "lesan-site-26",
-   "nome": "Rua Xixová, 246",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Rua Xixová, 246 - Canto do Forte - Praia Grande/SP",
-   "lazer": [
-    "Brinquedoteca",
-    "Piscina",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Aceita Pet",
-    "Piscina para Adulto",
-    "Academia",
-    "Espaço Gourmet",
-    "Churrasqueira",
-    "Playground"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 26)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 100)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 99)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 25)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 18)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "122",
-     "andar": 12,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 92,
-     "vagas": "1",
-     "valor": 750000,
-     "cond": 990,
-     "iptu": 570,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e 92m². Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda Fechada com Vidro, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 26)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-92m2-id-26"
-    },
-    {
-     "unidade": "41",
-     "andar": 4,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 89.11,
-     "vagas": "1",
-     "valor": 790000,
-     "cond": 460,
-     "iptu": 437,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Vista para o Mar e Porteira Fechada no Canto do Forte. Aproveite!. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Closet, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 100)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-89m2-id-100"
-    },
-    {
-     "unidade": "71",
-     "andar": 7,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 89.11,
-     "vagas": "1",
-     "valor": 650000,
-     "cond": 460,
-     "iptu": 437,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte | Reformado e Perto da Praia ⭐. Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Fechadura Digital, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 99)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-89m2-id-99"
-    },
-    {
-     "unidade": "94",
-     "andar": 9,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 94,
-     "vagas": "1",
-     "valor": 780000,
-     "cond": 990,
-     "iptu": 570,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e Suíte. Box Blindex, Churrasqueira na Varanda, Cozinha Grande, Fechadura Digital, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado",
-     "fonte": "Site Lesan Imóveis (cód. 25)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-94m2-id-25"
-    },
-    {
-     "unidade": "35",
-     "andar": 3,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 91,
-     "vagas": "1",
-     "valor": 715000,
-     "cond": 994,
-     "iptu": 518,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte em Praia Grande com 2 Quartos e 91m². Ambientes Integrados, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar",
-     "fonte": "Site Lesan Imóveis (cód. 18)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-91m2-id-18"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-106",
-   "nome": "Rua Rui Barbosa, 773",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Rua Rui Barbosa, 773 - Canto do Forte - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Churrasqueira",
-    "Salão de Jogos",
-    "Espaço Fitness"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 106)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 105)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "94",
-     "andar": 9,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 48,
-     "vagas": "1",
-     "valor": 355000,
-     "cond": 601,
-     "iptu": 269,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Oportunidade no Canto do Forte: ao lado da Av. Mallet e Dona Manuela. Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Semimobiliado, Varanda, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 106)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-48m2-id-106"
-    },
-    {
-     "unidade": "31",
-     "andar": 3,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 52,
-     "vagas": "1",
-     "valor": 350000,
-     "cond": 601,
-     "iptu": 269,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda no Canto do Forte | Ao Lado da Av. Marechal Mallet. Armário no Banheiro, Sacada, Semimobiliado, Varanda, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 105)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-canto-do-forte-praia-grande-sp-52m2-id-105"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-90",
    "nome": "Rua Monteiro Lobato, 647",
    "cidade": "Praia Grande",
@@ -7303,47 +7176,6 @@
    ]
   },
   {
-   "id": "lesan-site-34",
-   "nome": "Rua Monteiro Lobato, 411",
-   "cidade": "Praia Grande",
-   "bairro": "Cidade Ocian",
-   "fase": "pronto",
-   "endereco": "Rua Monteiro Lobato, 411 - Cidade Ocian - Praia Grande/SP",
-   "lazer": [
-    "Piscina",
-    "Salão de Festas"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 34)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "16",
-     "andar": 1,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 79,
-     "vagas": "1",
-     "valor": 370000,
-     "cond": 623,
-     "iptu": 380,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Cidade Ocian em Praia Grande com 2 Quartos e 79m². Armário de Cozinha, Box Blindex, Lavanderia, Mobiliado, Sacada, Sala de jantar",
-     "fonte": "Site Lesan Imóveis (cód. 34)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-79m2-id-34"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-89",
    "nome": "Rua Rui Barbosa, 682",
    "cidade": "Praia Grande",
@@ -7432,56 +7264,6 @@
      "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-123m2-id-88"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-83",
-   "nome": "Rua General Otelo Rodrigues Franco, 95",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Rua General Otelo Rodrigues Franco, 95 - Canto do Forte - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Espaço Fitness",
-    "Piscina",
-    "Piscina Infantil",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 83)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "72",
-     "andar": 7,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "area": 123,
-     "vagas": "2",
-     "valor": 920000,
-     "cond": 1089,
-     "iptu": 633,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento Mobiliado à Venda no Canto do Forte | 3 Quartos e 2 Vagas. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Closet, Cozinha Gourmet, Cozinha Grande, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 83)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-123m2-id-83"
     }
    ]
   },
@@ -8508,76 +8290,6 @@
    ]
   },
   {
-   "id": "lesan-site-58",
-   "nome": "Avenida Presidente Castelo Branco, 18580",
-   "cidade": "Praia Grande",
-   "bairro": "Balneário Flórida",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 18580 - Balneário Flórida - Praia Grande/SP",
-   "lazer": [
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Churrasqueira",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 58)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 55)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "34",
-     "andar": 3,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 68,
-     "vagas": "1",
-     "valor": 405000,
-     "cond": 440,
-     "iptu": 230,
-     "acesso": "elevador",
-     "vista": "Frente mar",
-     "status": "disponivel",
-     "obs": "Vista para o Mar em Prédio Frente Mar no Balneário Flórida. Ar condicionado, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Lavanderia, Mobiliado, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 58)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-68m2-id-58"
-    },
-    {
-     "unidade": "84",
-     "andar": 8,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 68,
-     "vagas": "1",
-     "valor": 415000,
-     "cond": 470,
-     "iptu": 353,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento no Balneário Flórida com Vista Mar e Porteira Fechada. Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Mobiliado, Sacada, Sacada Gourmet, Sala de jantar, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 55)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-balneario-florida-praia-grande-sp-68m2-id-55"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-56",
    "nome": "Rua Jaú, 421",
    "cidade": "Praia Grande",
@@ -8812,47 +8524,6 @@
      "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-80m2-id-36"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-38",
-   "nome": "Avenida Presidente Castelo Branco, 7238",
-   "cidade": "Praia Grande",
-   "bairro": "Cidade Ocian",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 7238 - Cidade Ocian - Praia Grande/SP",
-   "lazer": [
-    "Churrasqueira à Carvão",
-    "Espaço Gourmet",
-    "Salão de Jogos"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 38)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "Cód. 38",
-     "tipologia": "2 dorms",
-     "dorm": 2,
-     "area": 78,
-     "vagas": "2",
-     "valor": 450000,
-     "cond": 700,
-     "iptu": 350,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Cidade Ocian Frente Mar com 2 Vagas. Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Lavanderia, Mobiliado, Sacada, Sala de jantar, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 38)",
-     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-78m2-id-38"
     }
    ]
   },
