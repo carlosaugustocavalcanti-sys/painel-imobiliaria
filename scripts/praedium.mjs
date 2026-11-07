@@ -17,8 +17,16 @@ export function baixador({ pausa = 6000, semBaixar = false } = {}) {
   async function baixar(url, arquivo, renovar = false) {
     if (!renovar && existsSync(arquivo) && !desafio(readFileSync(arquivo, 'utf8'))) return readFileSync(arquivo, 'utf8');
     if (estado.bloqueado) return null;
-    const r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
-    const html = await r.text();
+    let r, html;
+    try {
+      r = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(60000) });
+      html = await r.text();
+    } catch (e) {
+      // Falha de rede (timeout, conexão cortada): para por hoje e grava o que já veio, em vez de derrubar o script.
+      estado.bloqueado = true;
+      console.warn(`Falha de rede em ${url} (${e.cause?.code ?? e.name}); o restante fica para a próxima execução.`);
+      return null;
+    }
     await espera(pausa);
     if (desafio(html) || r.status === 403 || r.status === 429 || r.status >= 500) {
       estado.bloqueado = true;
