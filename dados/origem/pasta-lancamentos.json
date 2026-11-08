@@ -1,6 +1,6 @@
 {
  "pasta": "OneDrive/Outros/Lesan/Lançamentos",
- "lidoEm": "2026-10-25",
+ "lidoEm": "2026-11-08",
  "sobre": "Tabelas da pasta Lançamentos que ainda não eram painéis: Harmony, Parque das Araucárias, Seven, Gomes Pacheco (Raimundo Gomes), Toninho e Ectual. Texto extraído dos PDFs por scripts/ler-pasta-lancamentos.mjs; reservado/vendido conferido nas imagens das páginas.",
  "predios": [
   {
@@ -2749,10 +2749,10 @@
      "arquivo": "GOMES PACHECO - AVIAÇÃO/TABELA GOMES PACHECO.pdf"
     },
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -2793,9 +2793,9 @@
      "vagas": "3",
      "valor": 1200000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Dez/2026",
      "fase": "obra"
@@ -2810,9 +2810,9 @@
      "vagas": "3",
      "valor": 1200000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Dez/2026",
      "fase": "obra"
@@ -3904,10 +3904,10 @@
      "arquivo": "TONINHO/TABELA TONINHO.pdf"
     },
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4173,9 +4173,9 @@
      "iptu": 1007,
      "cond": 1455,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -4441,10 +4441,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4456,11 +4456,11 @@
      "suites": 3,
      "area": 149.8,
      "vagas": "2",
-     "valor": 1390000,
+     "valor": 1650000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4472,11 +4472,11 @@
      "suites": 2,
      "area": 125.5,
      "vagas": "2",
-     "valor": 1250000,
+     "valor": 1500000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4488,11 +4488,11 @@
      "suites": 3,
      "area": 149.8,
      "vagas": "2",
-     "valor": 1400000,
+     "valor": 1670000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4504,11 +4504,11 @@
      "suites": 2,
      "area": 125.5,
      "vagas": "2",
-     "valor": 1360000,
+     "valor": 1620000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4520,11 +4520,11 @@
      "suites": 2,
      "area": 125.5,
      "vagas": "2",
-     "valor": 1190000,
+     "valor": 1420000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4536,11 +4536,11 @@
      "suites": 3,
      "area": 149.8,
      "vagas": "2",
-     "valor": 1730000,
+     "valor": 2050000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     },
@@ -4552,11 +4552,11 @@
      "suites": 3,
      "area": 149.8,
      "vagas": "2",
-     "valor": 1490000,
+     "valor": 1780000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Mar/2027"
     }
@@ -4576,10 +4576,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4596,9 +4596,9 @@
      "cond": 460,
      "status": "disponivel",
      "obs": "Financiamento direto: 50% de entrada e saldo em até 40 meses. Não aceita bancário.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -4612,15 +4612,15 @@
    "fase": "pronto",
    "notas": [
     "Venda somente à vista ou financiamento bancário. Visita com agendamento prévio.",
-    "Apto 112, matrícula 169.998: totalmente mobiliado e decorado; 3 suítes, adaptado para 1 suíte dupla + 1 suíte normal; 2 vagas demarcadas. Apto 171, matrícula 169.984: totalmente mobiliado; 3 suítes + dormitório + banheiro social; 3 vagas demarcadas.",
+    "Apto 112, matrícula 169.998: totalmente mobiliado e decorado; 3 suítes, adaptado para 1 suíte dupla + 1 suíte normal; 2 vagas demarcadas.",
     "Condição geral da tabela Ectual (vale onde não houver forma de pagamento própria): financiamento direto com entrada a partir de 40% e saldo em até 100x, corrigido pela poupança + 0,5% ao mês acumulativo; à vista com desconto a partir de 10%."
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4637,27 +4637,9 @@
      "cond": 1225,
      "status": "disponivel",
      "obs": "Totalmente mobiliado e decorado; 3 suítes, adaptado para 1 suíte dupla + 1 normal. 2 vagas demarcadas.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
-     "vistaMar": false
-    },
-    {
-     "unidade": "171",
-     "andar": 17,
-     "tipologia": "4 dorms (3 suítes)",
-     "dorm": 4,
-     "suites": 3,
-     "area": 200,
-     "vagas": "3",
-     "valor": 2650000,
-     "iptu": 923,
-     "cond": 1522,
-     "status": "reservado",
-     "obs": "Totalmente mobiliado. 3 suítes + dormitório + banheiro social. 3 vagas demarcadas.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
-     "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -4675,10 +4657,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4692,9 +4674,9 @@
      "vagas": "2",
      "valor": 1100000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Nov/2026"
     },
@@ -4708,9 +4690,9 @@
      "vagas": "2",
      "valor": 1100000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Nov/2026"
     }
@@ -4729,10 +4711,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4748,9 +4730,9 @@
      "valor": 874000,
      "cond": 708,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4765,9 +4747,9 @@
      "valor": 890000,
      "cond": 721,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4782,9 +4764,9 @@
      "valor": 610000,
      "cond": 488,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4798,10 +4780,10 @@
      "vagas": "1",
      "valor": 555000,
      "cond": 498,
-     "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "status": "reservado",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4816,9 +4798,9 @@
      "valor": 874000,
      "cond": 721,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4833,9 +4815,9 @@
      "valor": 874000,
      "cond": 708,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4850,9 +4832,9 @@
      "valor": 533000,
      "cond": 498,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4867,9 +4849,9 @@
      "valor": 900000,
      "cond": 721,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4884,26 +4866,9 @@
      "valor": 890000,
      "cond": 721,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
-     "vistaMar": false
-    },
-    {
-     "unidade": "163 B",
-     "andar": 16,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "area": 115,
-     "det": "Torre B",
-     "vagas": "2",
-     "valor": 910000,
-     "cond": 721,
-     "status": "vendido",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
-     "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -4918,9 +4883,45 @@
      "valor": 605000,
      "cond": 488,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
+     "vistaMar": false
+    }
+   ]
+  },
+  {
+   "id": "casa-rua-puri-59",
+   "nome": "Casa · Rua Puri, 59",
+   "cidade": "Praia Grande",
+   "bairro": "Tupi",
+   "endereco": "Rua Puri, 59 - Tupi - Praia Grande/SP",
+   "fase": "pronto",
+   "notas": [
+    "Casa, não apartamento, recém reformada (a Ectual não tem fotos). Venda somente à vista ou por financiamento bancário. Matrícula individualizada 27.546."
+   ],
+   "tabelas": [
+    {
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
+     "contato": "André (13) 98112-7028 · CRECI 028.493-J",
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
+    }
+   ],
+   "unidades": [
+    {
+     "unidade": "59",
+     "tipologia": "Casa · 2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 85,
+     "vagas": "3",
+     "valor": 750000,
+     "iptu": 380,
+     "status": "disponivel",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
+     "contato": "André (13) 98112-7028 · CRECI 028.493-J",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -4937,10 +4938,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4954,9 +4955,9 @@
      "valor": 550000,
      "iptu": 232,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -4969,14 +4970,14 @@
    "endereco": "Av. Presidente Castelo Branco, 13642 - Vila Caiçara, Praia Grande/SP",
    "fase": "pronto",
    "notas": [
-    "Usado. À vista com 10% de desconto ou 8% no financiamento bancário. Visita só com autorização. Apto 65 (com móveis planejados), matrícula 198.276: entrada de R$ 450.000 e saldo em até 100x. Apto 85, matrícula 198.728: entrada de R$ 400.000 e saldo em até 50x."
+    "Usado. À vista com 10% de desconto ou 8% no financiamento bancário. Visita só com autorização. Apto 65 (com móveis planejados), matrícula 198.276: entrada de R$ 500.000 e saldo em até 100x. Apto 85, matrícula 198.728: entrada de R$ 425.000 e saldo em até 50x."
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -4992,10 +4993,10 @@
      "iptu": 670,
      "cond": 759,
      "status": "disponivel",
-     "obs": "Móveis planejados. Entrada de R$ 450.000 e saldo em até 100x no financiamento direto.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "obs": "Móveis planejados. Entrada de R$ 500.000 e saldo em até 100x no financiamento direto.",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -5009,11 +5010,11 @@
      "valor": 850000,
      "iptu": 670,
      "cond": 759,
-     "status": "reservado",
-     "obs": "Entrada de R$ 400.000 e saldo em até 50x no financiamento direto.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "status": "disponivel",
+     "obs": "Entrada de R$ 425.000 e saldo em até 50x no financiamento direto.",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -5031,10 +5032,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -5049,9 +5050,9 @@
      "valor": 795000,
      "cond": 657,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -5065,9 +5066,9 @@
      "valor": 815000,
      "cond": 627,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
@@ -5085,10 +5086,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -5102,9 +5103,9 @@
      "vagas": "1",
      "valor": 550000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Dez/2026"
     }
@@ -5133,10 +5134,10 @@
    },
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -5151,9 +5152,9 @@
      "vagas": "2",
      "valor": 1250000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5169,9 +5170,9 @@
      "vagas": "2",
      "valor": 1260000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5187,9 +5188,9 @@
      "vagas": "2",
      "valor": 1250000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5205,9 +5206,9 @@
      "vagas": "1",
      "valor": 900000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5223,9 +5224,9 @@
      "vagas": "1",
      "valor": 810000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5241,9 +5242,9 @@
      "vagas": "1",
      "valor": 810000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5259,9 +5260,9 @@
      "vagas": "1",
      "valor": 900000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5277,9 +5278,9 @@
      "vagas": "2",
      "valor": 1300000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5295,9 +5296,9 @@
      "vagas": "2",
      "valor": 1310000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5313,9 +5314,9 @@
      "vagas": "2",
      "valor": 1300000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5331,9 +5332,9 @@
      "vagas": "1",
      "valor": 945000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5349,9 +5350,9 @@
      "vagas": "1",
      "valor": 830000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5367,9 +5368,9 @@
      "vagas": "1",
      "valor": 830000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5385,9 +5386,9 @@
      "vagas": "1",
      "valor": 945000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5403,9 +5404,9 @@
      "vagas": "2",
      "valor": 1330000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5421,9 +5422,9 @@
      "vagas": "2",
      "valor": 1350000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5439,9 +5440,9 @@
      "vagas": "2",
      "valor": 1330000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5457,9 +5458,9 @@
      "vagas": "1",
      "valor": 960000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5475,9 +5476,9 @@
      "vagas": "1",
      "valor": 845000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5493,9 +5494,9 @@
      "vagas": "1",
      "valor": 845000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5511,9 +5512,9 @@
      "vagas": "1",
      "valor": 960000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5529,9 +5530,9 @@
      "vagas": "1",
      "valor": 870000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5547,9 +5548,9 @@
      "vagas": "1",
      "valor": 850000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5565,9 +5566,9 @@
      "vagas": "1",
      "valor": 775000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5583,9 +5584,9 @@
      "vagas": "1",
      "valor": 870000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5601,9 +5602,9 @@
      "vagas": "1",
      "valor": 775000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5619,9 +5620,9 @@
      "vagas": "1",
      "valor": 870000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5637,9 +5638,9 @@
      "vagas": "1",
      "valor": 745000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5655,9 +5656,9 @@
      "vagas": "1",
      "valor": 870000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5673,9 +5674,9 @@
      "vagas": "1",
      "valor": 885000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5691,9 +5692,9 @@
      "vagas": "1",
      "valor": 865000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5709,9 +5710,9 @@
      "vagas": "1",
      "valor": 790000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5727,9 +5728,9 @@
      "vagas": "1",
      "valor": 885000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5745,9 +5746,9 @@
      "vagas": "1",
      "valor": 790000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5763,9 +5764,9 @@
      "vagas": "1",
      "valor": 885000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5781,9 +5782,9 @@
      "vagas": "1",
      "valor": 760000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5799,9 +5800,9 @@
      "vagas": "1",
      "valor": 885000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5817,9 +5818,9 @@
      "vagas": "1",
      "valor": 905000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5835,9 +5836,9 @@
      "vagas": "1",
      "valor": 880000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5853,9 +5854,9 @@
      "vagas": "1",
      "valor": 810000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5871,9 +5872,9 @@
      "vagas": "1",
      "valor": 905000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5889,9 +5890,9 @@
      "vagas": "1",
      "valor": 810000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5907,9 +5908,9 @@
      "vagas": "1",
      "valor": 905000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5925,9 +5926,9 @@
      "vagas": "1",
      "valor": 775000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5943,9 +5944,9 @@
      "vagas": "1",
      "valor": 905000,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Lançamento frente mar",
      "entregaUnidade": "Jul/2028"
@@ -5965,10 +5966,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -5986,9 +5987,9 @@
      "cond": 1046,
      "status": "disponivel",
      "obs": "Área total 168 m².",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": true,
      "vista": "Frente total para o mar"
     }
@@ -6006,10 +6007,10 @@
    ],
    "tabelas": [
     {
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "atualizadoEm": "16/10/2026",
-     "arquivo": "ECTUAL/TABELA ECTUAL LANÇAMENTOS.pdf"
+     "atualizadoEm": "05/11/2026",
+     "arquivo": "ECTUAL/Tabela Ectual - 05.11.26.pdf"
     }
    ],
    "unidades": [
@@ -6025,9 +6026,9 @@
      "iptu": 506,
      "cond": 882,
      "status": "disponivel",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     },
     {
@@ -6043,26 +6044,9 @@
      "cond": 882,
      "status": "disponivel",
      "obs": "Com porcelanato e varanda envidraçada.",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
+     "fonte": "Ectual Imóveis (tabela de 05/11/2026)",
      "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
-     "vistaMar": false
-    },
-    {
-     "unidade": "114",
-     "andar": 11,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 72,
-     "vagas": "1",
-     "valor": 430000,
-     "iptu": 360,
-     "cond": 682,
-     "status": "reservado",
-     "fonte": "Ectual Imóveis (tabela de 16/10/2026)",
-     "contato": "André (13) 98112-7028 · CRECI 028.493-J",
-     "tabela": "16/10/2026",
+     "tabela": "05/11/2026",
      "vistaMar": false
     }
    ]
