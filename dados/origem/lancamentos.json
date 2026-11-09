@@ -3384,8 +3384,8 @@
      "area": 44.12,
      "valor": 352960,
      "entrada": 50000,
-     "status": "reservado",
-     "obs": "Reservada (não vendida)"
+     "status": "vendido",
+     "obs": "Vendida (informado por Carlos em 08/11/2026; a tabela ainda a mostrava como reservada)"
     },
     {
      "unidade": "33",
@@ -3404,8 +3404,8 @@
      "area": 44.12,
      "valor": 361784,
      "entrada": 50000,
-     "status": "disponivel",
-     "obs": ""
+     "status": "vendido",
+     "obs": "Vendida (informado por Carlos em 08/11/2026; a tabela ainda a mostrava como reservada)"
     },
     {
      "unidade": "53",
@@ -3519,7 +3519,7 @@
     }
    ],
    "fonte": "Tabela Habitare – Res. Fátima II",
-   "atualizadoEm": "05/11/2026",
+   "atualizadoEm": "08/11/2026",
    "entrega": "Jul/2027",
    "endereco": "Rua 23 de Maio, 282 – Vila Mirim",
    "contato": "",
