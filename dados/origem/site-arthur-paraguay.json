@@ -1,6 +1,6 @@
 {
  "arquivo": "https://arthurparaguay.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-08",
+ "lidoEm": "2026-11-09",
  "sobre": "Imóveis à venda no site da Arthur Paraguay Investimentos Imobiliários (sem terrenos).",
  "publicado": false,
  "listagem": {
@@ -2864,18 +2864,24 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Jacuzzi",
     "Piscina",
+    "Piscina Infantil",
+    "Sala de Massagem",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna"
+    "Sauna",
+    "Área de Lazer",
+    "Brinquedoteca"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7257)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -2884,16 +2890,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7257",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (1 suíte)",
      "dorm": 3,
+     "suites": 1,
      "area": 114,
      "vagas": "2",
      "valor": 980000,
+     "cond": 835,
+     "iptu": 639,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Aviação com 3 dormitórios. Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 7257)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-aviacao-praia-grande-sp-114m2-id-7257"
     }
    ]
@@ -2905,18 +2915,25 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Churrasqueira",
+    "Área de Lazer",
     "Brinquedoteca"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5848)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -2925,16 +2942,19 @@
    "unidades": [
     {
      "unidade": "Cód. 5848",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "1",
      "valor": 510000,
+     "cond": 519,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda no bairro Aviação em Praia Grande. Andar alto. Ambientes Integrados, Churrasqueira na Sacada, Churrasqueira na Varanda, Janela Panorâmica, Lavanderia, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 5848)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-74m2-id-5848"
     }
    ]
@@ -2945,12 +2965,20 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Tupi",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5930)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -2959,16 +2987,20 @@
    "unidades": [
     {
      "unidade": "Cód. 5930",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 86,
      "vagas": "1",
      "valor": 510000,
+     "cond": 680,
+     "iptu": 395,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Vila Tupi com 2 dormitórios. Andar baixo. Ambientes Integrados, Armário Embutido, Armário de Cozinha, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 5930)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-tupi-praia-grande-sp-86m2-id-5930"
     }
    ]
@@ -2980,18 +3012,25 @@
    "bairro": "Guilhermina",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Minimercado",
     "Piscina",
+    "Playground",
+    "Sala de Massagem",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna"
+    "Sauna",
+    "Área de Lazer",
+    "Brinquedoteca"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 3507)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3000,16 +3039,20 @@
    "unidades": [
     {
      "unidade": "Cód. 3507",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (1 suíte)",
      "dorm": 3,
+     "suites": 1,
      "area": 122,
      "vagas": "1",
      "valor": 930000,
+     "cond": 798,
+     "iptu": 616,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Guilhermina 3 dormitórios. Andar baixo. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 3507)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-guilhermina-praia-grande-sp-122m2-id-3507"
     }
    ]
@@ -3020,12 +3063,21 @@
    "cidade": "Praia Grande",
    "bairro": "Aviação",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 4424)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3034,17 +3086,21 @@
    "unidades": [
     {
      "unidade": "Cód. 4424",
-     "tipologia": "4 dorms",
+     "tipologia": "4 dorms (3 suítes)",
      "dorm": 4,
+     "suites": 3,
      "area": 133,
      "vagas": "2",
      "valor": 850000,
+     "cond": 1283,
+     "iptu": 520,
+     "acesso": "elevador",
      "vista": "Vista mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Aviação com 133M². Andar alto. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Fechadura Digital, Lavanderia, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 4424)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-4-quartos-aviacao-praia-grande-sp-133m2-id-4424"
     }
    ]
@@ -3056,16 +3112,18 @@
    "bairro": "Vila Caiçara",
    "fase": "pronto",
    "lazer": [
+    "Aceita Pet",
     "Piscina",
     "Salão de Festas",
     "Salão de Jogos",
+    "Área de Lazer",
     "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5636)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3074,17 +3132,21 @@
    "unidades": [
     {
      "unidade": "Cód. 5636",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (1 suíte)",
      "dorm": 3,
+     "suites": 1,
      "area": 94,
      "vagas": "1",
      "valor": 585000,
+     "cond": 1283,
+     "iptu": 462,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Caiçara com 3 Dormitórios. Andar alto. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Cozinha Grande, Frente para o mar, Lavanderia, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda Fechada com Vidro, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 5636)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-vila-caicara-praia-grande-sp-94m2-id-5636"
     }
    ]
@@ -3096,16 +3158,21 @@
    "bairro": "Canto do Forte",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira à Gás",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina Climatizada",
     "Salão de Festas",
-    "Salão de Jogos",
-    "Academia"
+    "Salão de Jogos"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5805)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3114,16 +3181,20 @@
    "unidades": [
     {
      "unidade": "Cód. 5805",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "1",
      "valor": 610000,
+     "cond": 691,
+     "iptu": 446,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Canto do Forte com 2 Dormitórios. Andar alto. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Lavanderia, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Semimobiliado, Varanda, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 5805)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-74m2-id-5805"
     }
    ]
@@ -3140,8 +3211,8 @@
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5105)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3150,17 +3221,19 @@
    "unidades": [
     {
      "unidade": "Cód. 5105",
-     "tipologia": "Casa Geminada 3 dorms",
+     "tipologia": "Casa Geminada 3 dorms (2 suítes)",
      "categoria": "casa",
      "dorm": 3,
-     "area": 125,
+     "suites": 2,
+     "area": 120,
      "vagas": "2",
      "valor": 799000,
+     "iptu": 351,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Casa à venda em Praia Grande no Caiçara com 3 Dormitórios. Área total 125 m²",
      "fonte": "Site Arthur Paraguay (cód. 5105)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/casa-geminada-a-venda-3-quartos-caicara-praia-grande-sp-125m2-id-5105"
     }
    ]
@@ -3172,15 +3245,20 @@
    "bairro": "Vila Caiçara",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Piscina Climatizada",
+    "Piscina Coberta",
+    "Salão de Festas",
     "Salão de Jogos",
     "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6616)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3189,16 +3267,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6616",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
-     "area": 61,
+     "suites": 1,
+     "area": 61.85,
      "vagas": "1",
      "valor": 580000,
+     "cond": 646,
+     "iptu": 426,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Caiçara com 2 Dormitórios. Andar alto. Ambientes Integrados, Armário Embutido, Armário de Cozinha, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavabo, Lavanderia, Mobiliado, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6616)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-61m2-id-6616"
     }
    ]
@@ -3209,12 +3291,23 @@
    "cidade": "Praia Grande",
    "bairro": "Maracanã",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Gourmet",
+    "Minimercado",
+    "Piscina",
+    "Playground",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5508)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3223,17 +3316,21 @@
    "unidades": [
     {
      "unidade": "Cód. 5508",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 76,
      "vagas": "1",
      "valor": 695000,
+     "cond": 443,
+     "iptu": 625,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda com vista mar na Maracanã em Praia Grande. Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 5508)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-maracana-praia-grande-sp-76m2-id-5508"
     }
    ]
@@ -3245,15 +3342,17 @@
    "bairro": "Canto do Forte",
    "fase": "pronto",
    "lazer": [
-    "Salão de Festas",
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
     "Salão de Jogos",
-    "Academia"
+    "Salão de Festas"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 4931)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3262,16 +3361,21 @@
    "unidades": [
     {
      "unidade": "Cód. 4931",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 95,
      "vagas": "1",
      "valor": 600000,
+     "cond": 728,
+     "iptu": 350,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Canto do Forte. Andar alto. Ambientes Integrados, Armário no Banheiro, Box Blindex, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Varanda, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 4931)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-95m2-id-4931"
     }
    ]
@@ -3283,17 +3387,26 @@
    "bairro": "Canto do Forte",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
-    "Salão de Festas",
     "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Deck",
+    "Espaço Fitness",
     "Espaço Gourmet",
-    "Sauna"
+    "Minimercado",
+    "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Sauna",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7835)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3302,16 +3415,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7835",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 72,
      "vagas": "1",
      "valor": 520000,
+     "cond": 694,
+     "iptu": 393,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda no bairro Canto do Forte em Praia Grande. Andar baixo. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala de jantar, Semimobiliado, Solarium, Varanda, Varanda Fechada com Vidro, Varanda Gourmet. Entregue em 2012",
      "fonte": "Site Arthur Paraguay (cód. 7835)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-72m2-id-7835"
     }
    ]
@@ -3322,12 +3439,25 @@
    "cidade": "Praia Grande",
    "bairro": "Real",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6112)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3336,17 +3466,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6112",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 82,
      "vagas": "1",
      "valor": 590000,
+     "cond": 784,
+     "iptu": 508,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda Jardim Real em Praia Grande e com Vista Mar. Andar alto. Ambientes Integrados, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Frente para o mar, Janela Panorâmica, Lavanderia, Sacada, Sacada Gourmet, Sala de jantar, Varanda, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 6112)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-real-praia-grande-sp-82m2-id-6112"
     }
    ]
@@ -3357,12 +3491,16 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Mirim",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Piscina",
+    "Salão de Festas"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7991)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3371,16 +3509,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7991",
-     "tipologia": "Cobertura Duplex 3 dorms",
+     "tipologia": "Cobertura Duplex 3 dorms (2 suítes)",
      "dorm": 3,
+     "suites": 2,
      "area": 230,
      "vagas": "2",
      "valor": 1500000,
+     "cond": 1515,
+     "iptu": 622,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Cobertura à venda em Praia Grande no bairro da Mirim com 3 dormitórios. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Closet, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 7991)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/cobertura-duplex-a-venda-3-quartos-vila-mirim-praia-grande-sp-230m2-id-7991"
     }
    ]
@@ -3392,17 +3534,20 @@
    "bairro": "Cidade Ocian",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
     "Piscina",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
+    "Área de Lazer",
     "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 4873)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3416,11 +3561,14 @@
      "area": 58,
      "vagas": "1",
      "valor": 410000,
+     "cond": 338,
+     "iptu": 3956,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Cidade Ocian. Andar baixo. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Janela Panorâmica, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 4873)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-cidade-ocian-praia-grande-sp-58m2-id-4873"
     }
    ]
@@ -3432,16 +3580,20 @@
    "bairro": "Guilhermina",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Mini Quadra",
+    "Piscina para Adulto",
     "Salão de Festas",
-    "Salão de Jogos",
-    "Brinquedoteca"
+    "Salão de Jogos"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6095)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3450,16 +3602,19 @@
    "unidades": [
     {
      "unidade": "Cód. 6095",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (2 suítes)",
      "dorm": 3,
+     "suites": 2,
      "area": 126,
      "vagas": "3",
      "valor": 870000,
+     "cond": 800,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Guilhermina com 3 dormitórios. Andar baixo. Ambientes Integrados, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavanderia, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6095)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-guilhermina-praia-grande-sp-126m2-id-6095"
     }
    ]
@@ -3471,19 +3626,26 @@
    "bairro": "Boqueirão",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Cinema",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina para Adulto",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
     "Sauna",
-    "Cinema"
+    "Área de Lazer",
+    "Brinquedoteca"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5311)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3492,16 +3654,20 @@
    "unidades": [
     {
      "unidade": "Cód. 5311",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "2",
      "valor": 799000,
+     "cond": 960,
+     "iptu": 529,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Boqueirão com 2 Dormitórios. Andar alto. Ar condicionado, Armário Embutido, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Lavanderia, Mobiliado, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 5311)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-74m2-id-5311"
     }
    ]
@@ -3512,12 +3678,17 @@
    "cidade": "Praia Grande",
    "bairro": "Canto do Forte",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 3750)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3526,16 +3697,20 @@
    "unidades": [
     {
      "unidade": "Cód. 3750",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (1 suíte)",
      "dorm": 3,
+     "suites": 1,
      "area": 78,
      "vagas": "2",
      "valor": 620000,
+     "cond": 830,
+     "iptu": 380,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento 3 dormitórios à venda no Canto do Forte em Praia Grande. Andar alto. Ar condicionado, Armário Embutido, Armário de Cozinha, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Semimobiliado, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 3750)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-78m2-id-3750"
     }
    ]
@@ -3547,18 +3722,23 @@
    "bairro": "Jardim Real",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Espaço Fitness",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna"
+    "Sauna",
+    "Spa",
+    "Área de Lazer",
+    "Piscina",
+    "Brinquedoteca"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 4831)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3567,17 +3747,20 @@
    "unidades": [
     {
      "unidade": "Cód. 4831",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 82,
      "vagas": "1",
      "valor": 650000,
+     "cond": 708,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento no Jardim Real em Praia Grande a Venda Prédio Frente Mar. Andar alto. Ambientes Integrados, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Frente para o mar, Janela Panorâmica, Lavanderia, Sacada, Sacada Fechada com Vidro, Sala Grande, Varanda, Varanda Fechada com Vidro, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 4831)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-jardim-real-praia-grande-sp-82m2-id-4831"
     }
    ]
@@ -3589,18 +3772,24 @@
    "bairro": "Boqueirão",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Playground",
+    "Quadra Poliesportiva",
     "Salão de Festas",
     "Salão de Jogos",
-    "Espaço Gourmet",
-    "Brinquedoteca",
     "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 1517)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3609,16 +3798,20 @@
    "unidades": [
     {
      "unidade": "Cód. 1517",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 84,
      "vagas": "1",
      "valor": 800000,
+     "cond": 550,
+     "iptu": 450,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento 02 dormitórios - Mobiliado - Lazer Completo - Bairro Boqueirão. Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 1517)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-84m2-id-1517"
     }
    ]
@@ -3629,12 +3822,21 @@
    "cidade": "Praia Grande",
    "bairro": "Canto do Forte",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 3592)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3643,16 +3845,21 @@
    "unidades": [
     {
      "unidade": "Cód. 3592",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 87,
      "vagas": "2",
      "valor": 660000,
+     "cond": 600,
+     "iptu": 381,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Canto do Forte com 2 dormitórios, 2 vagas. Andar alto. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Lavabo, Lavanderia, Móveis Planejados, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 3592)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-87m2-id-3592"
     }
    ]
@@ -3664,17 +3871,22 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Espaço Gourmet"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6797)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3683,17 +3895,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6797",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (2 suítes)",
      "dorm": 3,
+     "suites": 2,
      "area": 116,
      "vagas": "2",
      "valor": 855000,
+     "cond": 587,
+     "iptu": 630,
      "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande com 3 dormitórios sendo 2 suítes e vista mar. Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Janela Panorâmica, Lavanderia, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 6797)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-aviacao-praia-grande-sp-116m2-id-6797"
     }
    ]
@@ -3705,19 +3920,28 @@
    "bairro": "Canto do Forte",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira Ecológica",
+    "Cinema",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina Climatizada",
+    "Piscina Coberta",
+    "Piscina Infantil",
+    "Piscina para Adulto",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
     "Sauna",
-    "Cinema"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 4185)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3726,16 +3950,21 @@
    "unidades": [
     {
      "unidade": "Cód. 4185",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (1 suíte)",
      "dorm": 3,
+     "suites": 1,
      "area": 129,
      "vagas": "3",
      "valor": 1200000,
+     "cond": 897,
+     "iptu": 765,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Canto do Forte com 3 dormitórios. Andar alto. Ambientes Integrados, Ar condicionado, Arandelas, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Grande, Fechadura Digital, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 4185)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-canto-do-forte-praia-grande-sp-129m2-id-4185"
     }
    ]
@@ -3747,16 +3976,21 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Espaço Fitness",
+    "Minimercado",
     "Piscina",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7800)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3765,16 +3999,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7800",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "1",
      "valor": 465000,
+     "cond": 756,
+     "iptu": 433,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento com 2 dormitórios à venda em Praia Grande no bairro da Aviação. Andar alto. Ambientes Integrados, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Gourmet, Fechadura Digital, Lavanderia, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica. Entregue em 2022",
      "fonte": "Site Arthur Paraguay (cód. 7800)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-74m2-id-7800"
     }
    ]
@@ -3786,17 +4024,31 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Cinema",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Mini Quadra",
+    "Muro de Escalada",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
+    "Quadra Poliesportiva",
+    "Quadra de Futebol",
     "Salão de Festas",
     "Salão de Jogos",
-    "Brinquedoteca",
-    "Cinema"
+    "Sauna",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7981)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3805,16 +4057,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7981",
-     "tipologia": "1 dorm",
+     "tipologia": "1 dorm (1 suíte)",
      "dorm": 1,
+     "suites": 1,
      "area": 52,
      "vagas": "1",
      "valor": 465000,
+     "cond": 371,
+     "iptu": 402,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Aviação a 200 metros da praia. Andar alto. Aquecedor, Armário Embutido, Armário de Cozinha, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Copa, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha",
      "fonte": "Site Arthur Paraguay (cód. 7981)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-aviacao-praia-grande-sp-52m2-id-7981"
     }
    ]
@@ -3825,12 +4081,16 @@
    "cidade": "Praia Grande",
    "bairro": "Maracanã",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7987)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3839,16 +4099,19 @@
    "unidades": [
     {
      "unidade": "Cód. 7987",
-     "tipologia": "Sobrado Triplex 3 dorms",
+     "tipologia": "Sobrado Triplex 3 dorms (2 suítes)",
      "categoria": "casa",
      "dorm": 3,
+     "suites": 2,
+     "area": 88,
      "vagas": "2",
      "valor": 550000,
+     "iptu": 380,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Sobrado Triplex à venda no Maracanã em Praia Grande, 3 quartos, 2 vagas e 88m². Área total 102 m². Cozinha Gourmet, Cozinha Grande, Lavanderia, Sacada, Sala Grande, Varanda, Vista para a Montanha",
      "fonte": "Site Arthur Paraguay (cód. 7987)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/sobrado-triplex-a-venda-3-quartos-maracana-praia-grande-sp-id-7987"
     }
    ]
@@ -3860,18 +4123,22 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira à Carvão",
     "Piscina",
+    "Quadra de Futebol",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
+    "Área de Lazer",
     "Cinema"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7979)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3880,16 +4147,19 @@
    "unidades": [
     {
      "unidade": "Cód. 7979",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 78,
      "vagas": "1",
      "valor": 480000,
+     "cond": 519,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Aviação, apenas 150 metros da praia. Andar baixo. Ambientes Integrados, Janela Panorâmica, Lavanderia, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 7979)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-78m2-id-7979"
     }
    ]
@@ -3900,12 +4170,14 @@
    "cidade": "Praia Grande",
    "bairro": "Aviação",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 8118)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3914,18 +4186,21 @@
    "unidades": [
     {
      "unidade": "Cód. 8118",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "1",
      "valor": 359000,
+     "cond": 977,
+     "iptu": 323,
      "acesso": "elevador",
      "vista": "Vista mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento com vista mar à venda em Praia Grande no bairro Aviação. Andar alto. Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavanderia, Mobiliado, Sacada, Sala Grande, Sala de jantar, Varanda, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 8118)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-74m2-id-8118"
     }
    ]
@@ -3936,12 +4211,14 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Tupi",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7975)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3950,17 +4227,19 @@
    "unidades": [
     {
      "unidade": "Cód. 7975",
-     "tipologia": "Casa Geminada 2 dorms",
+     "tipologia": "Casa Geminada 2 dorms (1 suíte)",
      "categoria": "casa",
      "dorm": 2,
+     "suites": 1,
      "area": 70,
      "vagas": "2",
      "valor": 495000,
+     "iptu": 220,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Casa geminada com 2 dormitórios sendo 1 suíte à venda em Praia Grande. Arandelas, Armário Embutido, Armário no Banheiro, Cozinha Grande, Lavanderia, Quintal, Sala Grande, Semimobiliado",
      "fonte": "Site Arthur Paraguay (cód. 7975)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/casa-geminada-a-venda-2-quartos-vila-tupi-praia-grande-sp-70m2-id-7975"
     }
    ]
@@ -3972,18 +4251,28 @@
    "bairro": "Boqueirão",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Espaço Pet",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna"
+    "Sauna",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7679)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -3992,16 +4281,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7679",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
-     "area": 60,
+     "suites": 1,
+     "area": 60.44,
      "vagas": "1",
      "valor": 560000,
+     "cond": 700,
+     "iptu": 440,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Boqueirão com lazer completo. Andar baixo. Ar condicionado, Armário de Cozinha, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar, Semimobiliado, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 7679)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-60m2-id-7679"
     }
    ]
@@ -4013,15 +4306,19 @@
    "bairro": "Maracanã",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Piscina Infantil",
     "Salão de Festas",
+    "Área de Lazer",
     "Salão de Jogos"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7973)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4035,12 +4332,15 @@
      "area": 32,
      "vagas": "1",
      "valor": 275000,
+     "cond": 450,
+     "iptu": 202,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Maracanã em prédio frente mar. Andar alto. Ambientes Integrados, Frente para o mar, Lavanderia, Mobiliado, Sacada, Varanda, Vista para o Mar. Entregue em 2002",
      "fonte": "Site Arthur Paraguay (cód. 7973)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-maracana-praia-grande-sp-32m2-id-7973"
     }
    ]
@@ -4051,12 +4351,14 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Caiçara",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7964)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4070,11 +4372,13 @@
      "area": 68,
      "vagas": "1",
      "valor": 260000,
+     "cond": 524,
+     "iptu": 179,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda na Vila Caiçara em Praia Grande. Andar baixo. Armário Embutido, Cozinha Grande, Lavanderia, Sala Grande, Semimobiliado",
      "fonte": "Site Arthur Paraguay (cód. 7964)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-vila-caicara-praia-grande-sp-68m2-id-7964"
     }
    ]
@@ -4086,20 +4390,35 @@
    "bairro": "Vila Mirim",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Beauty Care",
+    "Brinquedoteca",
+    "Centro de Estética",
+    "Churrasqueira",
+    "Cinema",
+    "Deck",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Pet",
+    "Espaço Zen",
+    "Mini Quadra",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
+    "Sala de Massagem",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
     "Sauna",
-    "Quadra Poliesportiva",
-    "Cinema"
+    "Spa",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7254)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4108,17 +4427,20 @@
    "unidades": [
     {
      "unidade": "Cód. 7254",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 75,
      "vagas": "1",
      "valor": 660000,
+     "cond": 615,
+     "iptu": 544,
      "vista": "Frente para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento com 2 dormitórios à venda em Praia Grande na Vila Mirim. Andar baixo. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 7254)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-mirim-praia-grande-sp-75m2-id-7254"
     }
    ]
@@ -4130,17 +4452,29 @@
    "bairro": "Vila Caiçara",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Deck",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Quadra Poliesportiva",
+    "Quadra de Futebol",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Sauna"
+    "Sauna",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7549)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4149,17 +4483,21 @@
    "unidades": [
     {
      "unidade": "Cód. 7549",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 70,
      "vagas": "1",
      "valor": 640000,
+     "cond": 570,
+     "iptu": 480,
+     "acesso": "elevador",
      "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande com vista mar, 2 dormitórios sendo 1 suíte. Andar alto. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 7549)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-70m2-id-7549"
     }
    ]
@@ -4171,17 +4509,24 @@
    "bairro": "Maracanã",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Espaço Fitness",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5778)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4190,17 +4535,21 @@
    "unidades": [
     {
      "unidade": "Cód. 5778",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 78,
      "vagas": "2",
      "valor": 650000,
+     "cond": 840,
+     "iptu": 560,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda no Maracanã em Praia Grande com 02 quartos frente mar. Andar alto. Ambientes Integrados, Ar condicionado, Arandelas, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Frente para o mar, Janela Panorâmica, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 5778)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-maracana-praia-grande-sp-78m2-id-5778"
     }
    ]
@@ -4212,15 +4561,16 @@
    "bairro": "Vila Caiçara",
    "fase": "pronto",
    "lazer": [
-    "Piscina",
+    "Aceita Pet",
     "Salão de Festas",
-    "Salão de Jogos"
+    "Salão de Jogos",
+    "Piscina"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7978)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4229,16 +4579,19 @@
    "unidades": [
     {
      "unidade": "Cód. 7978",
-     "tipologia": "1 dorm",
+     "tipologia": "1 dorm (1 suíte)",
      "dorm": 1,
+     "suites": 1,
      "area": 60,
      "vagas": "1",
      "valor": 375000,
+     "cond": 640,
+     "iptu": 340,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Vila Caiçara, 60m² com 1 dormitório suíte. Andar alto. Armário de Cozinha, Armário no Banheiro, Churrasqueira na Sacada, Lavanderia, Sacada, Semimobiliado, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 7978)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-vila-caicara-praia-grande-sp-60m2-id-7978"
     }
    ]
@@ -4249,12 +4602,21 @@
    "cidade": "Praia Grande",
    "bairro": "Canto do Forte",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Salão de Festas",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6349)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4263,16 +4625,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6349",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 75,
      "vagas": "1",
      "valor": 630000,
+     "cond": 700,
+     "iptu": 450,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda no Canto do Forte em Praia Grande. Andar baixo. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6349)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-75m2-id-6349"
     }
    ]
@@ -4283,12 +4649,14 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Caiçara",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7880)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4297,17 +4665,19 @@
    "unidades": [
     {
      "unidade": "Cód. 7880",
-     "tipologia": "Casa Geminada 2 dorms",
+     "tipologia": "Casa Geminada 2 dorms (1 suíte)",
      "categoria": "casa",
      "dorm": 2,
+     "suites": 1,
      "area": 88,
      "vagas": "4",
      "valor": 375000,
+     "iptu": 197,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Casa Geminada à venda com 2 quartos, 2 banheiros, 4 vagas e 88m² em Praia Grande. Armário de Cozinha, Lavanderia, Sala Grande",
      "fonte": "Site Arthur Paraguay (cód. 7880)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/casa-geminada-a-venda-2-quartos-vila-caicara-praia-grande-sp-88m2-id-7880"
     }
    ]
@@ -4318,12 +4688,21 @@
    "cidade": "Praia Grande",
    "bairro": "Ocian",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6376)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4332,16 +4711,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6376",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 80,
      "vagas": "2",
      "valor": 475000,
+     "cond": 660,
+     "iptu": 380,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande com 2 dormitórios no bairro Ocian. Andar baixo. Ambientes Integrados, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Lavanderia, Móveis Planejados, Sacada, Sacada Gourmet, Sala de jantar, Varanda, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6376)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-ocian-praia-grande-sp-80m2-id-6376"
     }
    ]
@@ -4352,12 +4735,25 @@
    "cidade": "Praia Grande",
    "bairro": "Ocian",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira à Gás",
+    "Espaço Fitness",
+    "Minimercado",
+    "Piscina",
+    "Piscina Infantil",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6375)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4366,16 +4762,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6375",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 70,
      "vagas": "1",
      "valor": 420000,
+     "cond": 670,
+     "iptu": 430,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro Ocian. Andar baixo. Lavanderia, Sacada, Sala Grande, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 6375)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-ocian-praia-grande-sp-70m2-id-6375"
     }
    ]
@@ -4387,19 +4787,29 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Cinema",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Espaço Zen",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna",
-    "Cinema"
+    "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5737)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4408,16 +4818,20 @@
    "unidades": [
     {
      "unidade": "Cód. 5737",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 75,
      "vagas": "2",
      "valor": 650000,
+     "cond": 777,
+     "iptu": 534,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda na Aviação em Praia Grande com 2 quartos e lazer completo. Andar baixo. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 5737)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-75m2-id-5737"
     }
    ]
@@ -4429,13 +4843,16 @@
    "bairro": "Canto do Forte",
    "fase": "pronto",
    "lazer": [
-    "Salão de Festas"
+    "Aceita Pet",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6170)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4444,16 +4861,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6170",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 74,
      "vagas": "1",
      "valor": 580000,
+     "cond": 690,
+     "iptu": 275,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no canto do Forte a 100m da praia. Andar baixo. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 6170)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-74m2-id-6170"
     }
    ]
@@ -4464,12 +4885,17 @@
    "cidade": "Praia Grande",
    "bairro": "Tupi",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7220)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4483,11 +4909,14 @@
      "area": 49,
      "vagas": "2",
      "valor": 300000,
+     "cond": 459,
+     "iptu": 259,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro da Tupi a 150m da praia. Andar alto. Armário de Cozinha, Armário no Banheiro, Box Blindex, Lavanderia, Sacada, Sacada Fechada com Vidro, Varanda, Varanda Fechada com Vidro",
      "fonte": "Site Arthur Paraguay (cód. 7220)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-tupi-praia-grande-sp-49m2-id-7220"
     }
    ]
@@ -4498,12 +4927,29 @@
    "cidade": "Praia Grande",
    "bairro": "Guilhermina",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Espaço Fitness",
+    "Minimercado",
+    "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
+    "Quadra de Futebol",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 8054)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4512,16 +4958,20 @@
    "unidades": [
     {
      "unidade": "Cód. 8054",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (2 suítes)",
      "dorm": 2,
+     "suites": 2,
      "area": 76,
      "vagas": "1",
      "valor": 510000,
+     "cond": 592,
+     "iptu": 414,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento com 2 dormitórios à venda em Praia Grande no bairro Guilhermina. Andar alto. Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Cozinha Gourmet, Cozinha Grande, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 8054)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-76m2-id-8054"
     }
    ]
@@ -4532,12 +4982,22 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Caiçara",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Espaço Gourmet",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6254)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4546,16 +5006,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6254",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 111,
      "vagas": "2",
      "valor": 630000,
+     "cond": 774,
+     "iptu": 534,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Caiçara, localizado a 50 metros da praia. Andar baixo. Área total 135 m². Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Fechadura Digital, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 6254)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-garden-a-venda-2-quartos-vila-caicara-praia-grande-sp-111m2-id-6254"
     }
    ]
@@ -4567,14 +5032,17 @@
    "bairro": "Jardim Imperador",
    "fase": "pronto",
    "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
     "Salão de Festas",
-    "Churrasqueira"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6325)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4583,17 +5051,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6325",
-     "tipologia": "3 dorms",
+     "tipologia": "3 dorms (3 suítes)",
      "dorm": 3,
+     "suites": 3,
      "area": 170,
      "vagas": "1",
      "valor": 955000,
+     "cond": 1100,
+     "iptu": 416,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Jd Imperador com 3 suítes frente mar. Andar alto. Ambientes Integrados, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Copa, Cozinha Gourmet, Cozinha Grande, Frente para o mar, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 6325)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-3-quartos-jardim-imperador-praia-grande-sp-170m2-id-6325"
     }
    ]
@@ -4605,19 +5077,30 @@
    "bairro": "Guilhermina",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Jacuzzi",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
     "Sauna",
+    "Área de Lazer",
     "Cinema"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6371)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4631,11 +5114,14 @@
      "area": 50,
      "vagas": "1",
      "valor": 410000,
+     "cond": 432,
+     "iptu": 373,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no bairro da Guilhermina. Andar alto. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Solarium, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6371)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-guilhermina-praia-grande-sp-50m2-id-6371"
     }
    ]
@@ -4647,16 +5133,24 @@
    "bairro": "Aviação",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Crossfit",
+    "Espaço Fitness",
+    "Espaço Gourmet",
     "Piscina",
+    "Piscina Infantil",
+    "Playground",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia"
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 2986)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4665,17 +5159,21 @@
    "unidades": [
     {
      "unidade": "Cód. 2986",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (2 suítes)",
      "dorm": 2,
+     "suites": 2,
      "area": 95,
      "vagas": "2",
      "valor": 629000,
+     "cond": 763,
+     "iptu": 543,
+     "acesso": "elevador",
      "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande na Aviação, 02 suítes, 02 vagas, vista mar. Andar alto. Box Blindex, Cozinha Grande, Janela Panorâmica, Lavabo, Lavanderia, Sacada, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 2986)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-aviacao-praia-grande-sp-95m2-id-2986"
     }
    ]
@@ -4687,14 +5185,17 @@
    "bairro": "Vila Tupi",
    "fase": "pronto",
    "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
     "Salão de Festas",
+    "Área de Lazer",
     "Salão de Jogos"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7559)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4708,11 +5209,14 @@
      "area": 56,
      "vagas": "1",
      "valor": 360000,
+     "cond": 484,
+     "iptu": 390,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande mobiliado com 1 quarto, 1 vaga e 56 m². Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 7559)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-1-quarto-vila-tupi-praia-grande-sp-56m2-id-7559"
     }
    ]
@@ -4723,12 +5227,30 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Caiçara",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Cinema",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Espaço Pet",
+    "Espaço Teen",
+    "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6411)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4737,16 +5259,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6411",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 95,
      "vagas": "3",
      "valor": 950000,
+     "cond": 800,
+     "iptu": 780,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda em Praia Grande no Caiçara, localizado a 50 metros da praia. Andar alto. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Grande, Janela Panorâmica, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 6411)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-95m2-id-6411"
     }
    ]
@@ -4757,12 +5284,24 @@
    "cidade": "Praia Grande",
    "bairro": "Maracanã",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Minimercado",
+    "Piscina",
+    "Playground",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6678)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4771,17 +5310,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6678",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 76,
      "vagas": "1",
      "valor": 695000,
+     "cond": 443,
+     "iptu": 625,
+     "acesso": "elevador",
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda com vista mar em Praia Grande, 2 dormitórios sendo 1 suíte. Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Fechadura Digital, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 6678)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-maracana-praia-grande-sp-76m2-id-6678"
     }
    ]
@@ -4792,12 +5335,21 @@
    "cidade": "Praia Grande",
    "bairro": "Boqueirão",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Churrasqueira",
+    "Espaço Crossfit",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6009)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4806,17 +5358,21 @@
    "unidades": [
     {
      "unidade": "Cód. 6009",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
-     "area": 70,
+     "suites": 1,
+     "area": 70.88,
      "vagas": "1",
      "valor": 849000,
+     "cond": 524,
+     "iptu": 399,
+     "acesso": "elevador",
      "vista": "Vista mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento com 2 dormitórios à venda em Praia Grande no Boqueirão. Andar alto. Ar condicionado, Armário de Cozinha, Box Blindex, Cozinha Gourmet, Fechadura Digital, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet",
      "fonte": "Site Arthur Paraguay (cód. 6009)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-boqueirao-praia-grande-sp-70m2-id-6009"
     }
    ]
@@ -4827,12 +5383,19 @@
    "cidade": "Praia Grande",
    "bairro": "Balneário Flórida",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Piscina",
+    "Piscina para Adulto",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6484)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4841,17 +5404,19 @@
    "unidades": [
     {
      "unidade": "Cód. 6484",
-     "tipologia": "Casa 3 dorms",
+     "tipologia": "Casa 3 dorms (3 suítes)",
      "categoria": "casa",
      "dorm": 3,
+     "suites": 3,
      "area": 160,
      "vagas": "5",
      "valor": 1250000,
+     "iptu": 590,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Casa à venda no Balneário Flórida em Praia Grande com 3 suítes e piscina. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário no Banheiro, Box Blindex, Closet, Cozinha Grande, Lavanderia, Móveis Planejados, Pé Direito Duplo, Quintal, Sala Grande, Sala de jantar, Semimobiliado",
      "fonte": "Site Arthur Paraguay (cód. 6484)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/casa-a-venda-3-quartos-balneario-florida-praia-grande-sp-160m2-id-6484"
     }
    ]
@@ -4862,12 +5427,16 @@
    "cidade": "Praia Grande",
    "bairro": "Guilhermina",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6533)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4876,16 +5445,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6533",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 90,
      "vagas": "1",
      "valor": 525000,
+     "cond": 561,
+     "iptu": 375,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda na Guilhermina em Praia Grande com 2 dormitórios e 90 m². Andar alto. Área total 111 m². Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala de jantar, Semimobiliado, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 6533)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-90m2-id-6533"
     }
    ]
@@ -4897,18 +5470,26 @@
    "bairro": "Vila Caiçara",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Gás",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Espaço Teen",
+    "Mini Quadra",
     "Piscina",
+    "Piscina para Adulto",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
     "Sauna"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6565)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4917,16 +5498,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6565",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (2 suítes)",
      "dorm": 2,
+     "suites": 2,
      "area": 84,
      "vagas": "2",
      "valor": 760000,
+     "cond": 850,
+     "iptu": 530,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda Caiçara em Praia Grande com2 dormitórios, 2 suítes, 2 vagas. Andar alto. Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Lavabo, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala de jantar, Semimobiliado, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha",
      "fonte": "Site Arthur Paraguay (cód. 6565)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-84m2-id-6565"
     }
    ]
@@ -4937,12 +5522,26 @@
    "cidade": "Praia Grande",
    "bairro": "Vila Tupi",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira à Carvão",
+    "Cinema",
+    "Deck Molhado",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Piscina Infantil",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 7509)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4951,17 +5550,21 @@
    "unidades": [
     {
      "unidade": "Cód. 7509",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 78,
      "vagas": "2",
      "valor": 550000,
+     "cond": 744,
+     "iptu": 580,
+     "acesso": "elevador",
      "vista": "Vista para o mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento mobiliado à venda na Vila Tupi em Praia Grande a 300 metros da Praia. Área total 145 m². Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Lavabo, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha. Entregue em 2015",
      "fonte": "Site Arthur Paraguay (cód. 7509)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-vila-tupi-praia-grande-sp-78m2-id-7509"
     }
    ]
@@ -4973,14 +5576,21 @@
    "bairro": "Jardim Imperador",
    "fase": "pronto",
    "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Espaço Gourmet",
+    "Espaço Teen",
     "Piscina",
-    "Churrasqueira"
+    "Piscina Privativa",
+    "Piscina para Adulto",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6644)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -4989,17 +5599,19 @@
    "unidades": [
     {
      "unidade": "Cód. 6644",
-     "tipologia": "Casa 4 dorms",
+     "tipologia": "Casa 4 dorms (2 suítes)",
      "categoria": "casa",
      "dorm": 4,
+     "suites": 2,
      "area": 144,
      "vagas": "4",
      "valor": 890000,
+     "iptu": 600,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Casa à venda no Jd. Imperador em Praia Grande com 4 dormitórios sendo 2 suítes. Terreno de 10 m². Ar condicionado, Arandelas, Armário de Cozinha, Box Blindex, Cozinha Grande, Lavabo, Lavanderia, Móveis Planejados, Quintal, Sala de jantar, Semimobiliado, Solarium, Varanda, Vista Panorâmica",
      "fonte": "Site Arthur Paraguay (cód. 6644)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/casa-a-venda-4-quartos-jardim-imperador-praia-grande-sp-144m2-id-6644"
     }
    ]
@@ -5011,13 +5623,14 @@
    "bairro": "Guilhermina",
    "fase": "pronto",
    "lazer": [
+    "Aceita Pet",
     "Salão de Jogos"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6287)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -5026,16 +5639,20 @@
    "unidades": [
     {
      "unidade": "Cód. 6287",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 82,
      "vagas": "1",
      "valor": 425000,
+     "cond": 488,
+     "iptu": 404,
+     "acesso": "elevador",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda na Guilhermina em Praia Grande. Andar baixo. Armário de Cozinha, Cozinha Grande, Lavanderia, Mobiliado, Sala de jantar",
      "fonte": "Site Arthur Paraguay (cód. 6287)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-82m2-id-6287"
     }
    ]
@@ -5046,12 +5663,14 @@
    "cidade": "Praia Grande",
    "bairro": "Guilhermina",
    "fase": "pronto",
-   "lazer": [],
+   "lazer": [
+    "Aceita Pet"
+   ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 6654)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -5065,11 +5684,13 @@
      "area": 62,
      "vagas": "1",
      "valor": 350000,
+     "cond": 536,
+     "iptu": 318,
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda na Guilhermina em Praia Grande, 2 dormitórios, 1 vaga e 62m². Andar baixo. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sala de jantar, Semimobiliado, Varanda",
      "fonte": "Site Arthur Paraguay (cód. 6654)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-62m2-id-6654"
     }
    ]
@@ -5081,18 +5702,31 @@
    "bairro": "Centro",
    "fase": "pronto",
    "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Deck",
+    "Espaço Fitness",
+    "Espaço Teen",
+    "Mini Quadra",
+    "Minimercado",
     "Piscina",
+    "Piscina Infantil",
+    "Piscina para Adulto",
+    "Sala de Massagem",
     "Salão de Festas",
     "Salão de Jogos",
-    "Academia",
-    "Brinquedoteca",
-    "Sauna"
+    "Sauna",
+    "Spa",
+    "Área de Lazer"
    ],
    "tabelas": [
     {
      "fonte": "Site Arthur Paraguay (cód. 5717)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "atualizadoEm": "06/11/2026"
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "atualizadoEm": "09/11/2026"
     }
    ],
    "notas": [
@@ -5101,17 +5735,20 @@
    "unidades": [
     {
      "unidade": "Cód. 5717",
-     "tipologia": "2 dorms",
+     "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
+     "suites": 1,
      "area": 79,
      "vagas": "1",
      "valor": 480000,
+     "cond": 650,
+     "iptu": 400,
      "vista": "Frente mar",
      "status": "disponivel",
-     "obs": "Ficha do anúncio não lida: só os dados da listagem.",
+     "obs": "Apartamento à venda no Centro de Mongaguá com vista mar. Andar alto. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Frente para o mar, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para o Mar",
      "fonte": "Site Arthur Paraguay (cód. 5717)",
-     "contato": "Arthur Paraguay Investimentos Imobiliários · (13) 99796-5404",
-     "tabela": "06/11/2026",
+     "contato": "Arthur Paraguay Investimentos Imobiliários · CRECI 038577-J · (13) 99796-5404",
+     "tabela": "09/11/2026",
      "anuncio": "https://arthurparaguay.com.br/imovel/apartamento-a-venda-2-quartos-centro-mongagua-sp-79m2-id-5717"
     }
    ]
