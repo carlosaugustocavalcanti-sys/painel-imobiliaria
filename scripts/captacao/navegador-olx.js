@@ -29,10 +29,14 @@ window.__listar = async (pausa = 3000, maxPaginas = 60) => {
     const a = __anunciosDaLista(t);
     __llog.push([o, r.status, a.length]);
     if (r.status !== 200) { __llog.push('parou'); return; }
-    if (!a.length) break;
+    if (!a.length) { __llog.push('fim'); return; }
     for (const x of a) if (!x.prof) __lista.set(x.id, x);
+    // Depois da última página do filtro a OLX não devolve lista vazia: completa com anúncios de outras cidades.
+    // O fim certo é o total que a própria página informa.
+    const total = +(t.match(/\\"totalOfAds\\":(\d+)/)?.[1] ?? 0);
+    if (total && o * 50 >= total) { __llog.push('fim'); return; }
   }
-  __llog.push('fim');
+  __llog.push('parou'); // bateu no limite de páginas sem achar o fim: lista incompleta
 };
 window.__ativos = () => ({ lidoEm: new Date().toISOString().slice(0, 10), completo: __llog.at(-1) === 'fim', ids: [...__lista.keys()] });
 
