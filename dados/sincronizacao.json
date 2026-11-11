@@ -302,6 +302,10 @@
         "KF (62 MB): o conector devolveu texto vazio, não foi comparado. Kamila Amâncio (171 MB), Erick Pereira (Caiçara) e Ectual (Flórida) não foram lidos.",
         "Aviso: outros ~25 PDFs alterados em 10/11 estão em subpastas sem origem mapeada (DNA, Imigrantes, Ápice Mar, investidores etc.); não lidos."
       ]
+    },
+    {
+      "data": "2026-11-11",
+      "resumo": "Site da Lesan: 6 anúncios novos (cód. 315 Rua Alberto Santos Dumont 91 apto 202, Guilhermina, R$ 971.600; 314 mesmo prédio apto 213, R$ 752.800; 313 mesmo prédio apto 203, R$ 746.240; 312 Rua João Ramalho 486 apto 14, Aviação, R$ 680.000; 311 Rua General Osório 57 apto 136, Canto do Forte, R$ 1.242.000; 310 Rua General Osório 57 apto 141, R$ 1.230.000), nenhum retirado, 1 com valor alterado (cód. 309, Av. Marechal Hermes 328, Canto do Forte: R$ 300.000 → R$ 279.900). Endereços pela Praedium; os prédios não têm nome no cadastro. Cód. 305 está inativo na Praedium e já não estava no site."
     }
   ],
   "pendentes": {
@@ -973,7 +977,7 @@
         "id": "1hcTvz97Ba-a2ELsIfyGVMJr7mx5GJg9T",
         "titulo": "EXITO - Casa 3 dorm (Guilhermina)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 0.0
+        "mb": 0
       },
       {
         "id": "10GIXQpr23DIOznq9XPw_zMpKITqa8Iy4",
@@ -1045,7 +1049,7 @@
         "id": "1JUA9Jlt6fOvxuVpSzehrqXeDDJsTuYwJ",
         "titulo": "KAMILA AMANCIO - Casas 2 dorm (Itanhaém-SP) + Casa 3 dorm (Imperador)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 157.0
+        "mb": 157
       },
       {
         "id": "1kNj7LHVyoUQEGcUMaC8D7PFkNqeDG46x",
@@ -1201,7 +1205,7 @@
         "id": "1hmaV2NgVwusVYUc2bnjrz77yLelh5JB6",
         "titulo": "MARCOS NASCIMENTO - Casa 3 dorm (Maracanã)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 0.0
+        "mb": 0
       },
       {
         "id": "1jEfPUBfLR5op36C0ofVsD-HD8BNMqrDg",
@@ -1249,7 +1253,7 @@
         "id": "1RH9iRrrElhleN3XGqKT4tO8k45zfQaRQ",
         "titulo": "TOPO IMOVEIS - Sobrado 2 dorm (Jd Quietude) + Sobrado 3 dorm (Aviação)",
         "pasta": "2. CASAS ISOLADAS/GEMINADAS",
-        "mb": 10.0
+        "mb": 10
       },
       {
         "id": "1u-fqnwXsS9eahSY7rxBC507yAztSJqA-",
