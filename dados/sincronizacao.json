@@ -1,6 +1,6 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-11-04T10:02:28Z",
+  "ultimaVarredura": "2026-11-11T10:02:03Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
@@ -287,6 +287,21 @@
     {
       "data": "2026-11-06",
       "resumo": "Site da Lesan (cadastros da tarde): 4 novos, todos ativos na Praedium: cód. 307 (Rua General Osório, 57, apto 162, 16º andar, Canto do Forte, 3 suítes, 105,96 m², R$ 1.065.000), cód. 308 (Av. Osasco, 53, apto 114, 1º andar, Vila Assunção, kitnet 40 m², R$ 220.000), cód. 309 (Av. Marechal Hermes, 328, térreo, Canto do Forte, 1 dorm, 48 m², R$ 300.000) e cód. 159 (Rua Paulino Borrelli, 43, apto 402, Maracanã, R$ 800.000), que tinha saído do site em 02/11 e voltou. Endereços da Praedium. Nenhum retirado e nenhum valor alterado desde a manhã. Sem pendências."
+    },
+    {
+      "data": "2026-11-11",
+      "arquivosLidos": [
+        "5. FRENTE MAR: Guayi, PGI, Leandro Cabelo, M² (05/11), Veraneio (04/11), Ariani Galeano, Eduardo Stefano, Kalyl (09/11), Nova Home (09/11), Coliseum (07/11), Vista Atlântico, Jean Diegues, Gomes e Ferreira, William Buongiovanni",
+        "Vision (Solemar, fora do escopo frente-mar) lido"
+      ],
+      "resumo": "Pasta 7 (Lançamentos) sem PDF alterado. Frente Mar: 2 unidades novas (Ônix apto 1205, Guilhermina, R$ 570 mil, da Kalyl; apto de 2 dorms frente mar total de 72 m², Guilhermina, R$ 1,28 mi, da Nova Home); demais valores iguais. Datas de tabela atualizadas: Kalyl 09/11, Nova Home 09/11, Coliseum 07/11, M² 05/11, Veraneio 04/11, PGI 12/10.",
+      "pendentesDeConferencia": [
+        "Kalyl: Atlantic House apto 701 (R$ 650 mil) não aparece mais na tabela de 09/11; ficou no painel com a data da tabela da GrandLar e da Kalyl. Conferir se foi vendido.",
+        "Nova Home: apto de R$ 1,28 mi (72 m², frente mar total, Guilhermina) sem nome nem número na tabela; entrou como prédio sem nome. Conferir se é um prédio já listado.",
+        "M²: Res. Vermont apto 82 (R$ 627 mil, vista mar, Caiçara) e Res. Daiane não entraram (não são frente mar declarado).",
+        "KF (62 MB): o conector devolveu texto vazio, não foi comparado. Kamila Amâncio (171 MB), Erick Pereira (Caiçara) e Ectual (Flórida) não foram lidos.",
+        "Aviso: outros ~25 PDFs alterados em 10/11 estão em subpastas sem origem mapeada (DNA, Imigrantes, Ápice Mar, investidores etc.); não lidos."
+      ]
     }
   ],
   "pendentes": {
