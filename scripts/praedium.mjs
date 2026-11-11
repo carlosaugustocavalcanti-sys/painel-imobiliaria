@@ -90,7 +90,7 @@ export function lerCards(html) {
 export function lerFicha(html) {
   const comp = [...html.matchAll(/composition_name color-primary">\s*([\s\S]*?)\s*<\/div>/g)].map((m) => texto(m[1]));
   const n = (re) => { const c = comp.find((x) => re.test(x)); return c ? +c.match(/^[\d.]+/)?.[0] || 0 : null; };
-  const areaDe = (re) => { const c = comp.find((x) => re.test(x)); return c ? m2(c.match(/^[\d.,]+/)[0]) : null; };
+  const areaDe = (re) => { const c = comp.find((x) => re.test(x)); const v = c?.match(/^[\d.,]+/)?.[0]; return v ? m2(v) : null; };
   const parcela = (rot) => reais(html.match(new RegExp(`${rot}\\s*<span class="transaction_parcel">\\s*([^<]*)`))?.[1]);
   const desc = texto(html.match(/<div class="pro_det">([\s\S]*?)<\/div>/)?.[1]);
   // listas de itens ("Lazer e natureza", "Infraestrutura"...): o título no h2 do bloco, cada item numa etiqueta
