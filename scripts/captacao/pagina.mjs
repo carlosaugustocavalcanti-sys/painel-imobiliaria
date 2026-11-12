@@ -130,7 +130,7 @@ const salvar = () => { try { localStorage.setItem(CHAVE, JSON.stringify(andament
 const STATUS = [['novo', 'Não contatado'], ['liguei', 'Liguei, sem resposta'], ['conversando', 'Em conversa'], ['captado', 'Captado'], ['descartado', 'Descartado']];
 const statusDe = (a) => andamento[a.id]?.status || 'novo';
 
-const f = { q: '', cat: '', quartos: '', bairro: '', zap: '', status: '', vmin: '', vmax: '' };
+const f = { q: '', cat: '', quartos: '', bairro: '', zap: '', status: '', mar: '', vmin: '', vmax: '' };
 const POR_PAGINA = 60;
 let mostrar = POR_PAGINA;
 
@@ -143,13 +143,26 @@ const celular = (a) => a.telefones.some((t) => t.length === 11);
 const catDe = (a) => /apart/i.test(a.categoria) ? 'apto' : /casa/i.test(a.categoria) ? 'casa' : /terreno|lote/i.test(a.categoria + a.tipo) ? 'terreno' : 'outro';
 const CATS = [['', 'Todos'], ['apto', 'Apartamentos'], ['casa', 'Casas'], ['terreno', 'Terrenos'], ['outro', 'Outros']];
 const QUARTOS = [['', 'Qualquer'], ['1', '1'], ['2', '2'], ['3', '3'], ['4', '4 ou mais']];
+const MARS = [['', 'Todos'], ['1', 'Frente ao mar']];
+/** Frente mar: o anúncio diz que o imóvel está de frente para o mar ou pé na areia.
+ *  Não conta "vista mar", "a 300 m do mar" nem o "Carrefour frente mar" (nome de referência). */
+const MAR_FORTE = /frente\s*(ao|para\s*o|pro|pra|do|a)?\s*mar|frente-?mar|em\s+frente\s+ao\s+mar/i;
+const MAR_FRACO = /p[eé]\s*na\s*areia/i;
+const MAR_VISTA = /vista\s+(definitiva\s+)?(mar|(pro|para\s+o)\s+mar)|vista\s+mar/i;
+const MAR_LONGE = /\ba\s+\d+\s*(m|mt|mts|metros?)\b/i;
+function frenteMar(a) {
+  const t = (a.titulo + '\n' + a.descricao).replace(/carrefour\s+frente\s*mar/gi, '');
+  if (MAR_LONGE.test(a.titulo)) return false;
+  return MAR_FORTE.test(t) || (MAR_FRACO.test(t) && !MAR_VISTA.test(t));
+}
 const ZAPS = [['', 'Todos'], ['cel', 'Celular (WhatsApp)'], ['fixo', 'Só fixo']];
-anuncios.forEach((a) => { a._cat = catDe(a); a._busca = semAcento([a.titulo, a.descricao, a.bairro, a.rua, a.anunciante, a.tipo, a.cep, a.id].join(' ')); });
+anuncios.forEach((a) => { a._cat = catDe(a); a._mar = frenteMar(a); a._busca = semAcento([a.titulo, a.descricao, a.bairro, a.rua, a.anunciante, a.tipo, a.cep, a.id].join(' ')); });
 
 function passa(a, ignorar) {
   if (ignorar !== 'cat' && f.cat && a._cat !== f.cat) return false;
   if (ignorar !== 'quartos' && f.quartos && (f.quartos === '4' ? !(a.quartos >= 4) : a.quartos !== +f.quartos)) return false;
   if (ignorar !== 'bairro' && f.bairro && a.bairro !== f.bairro) return false;
+  if (ignorar !== 'mar' && f.mar && !a._mar) return false;
   if (ignorar !== 'zap' && f.zap && (f.zap === 'cel') !== celular(a)) return false;
   if (ignorar !== 'status' && f.status && statusDe(a) !== f.status) return false;
   if (f.vmin && !(a.valor >= +f.vmin)) return false;
@@ -221,6 +234,7 @@ function render() {
   const res = anuncios.filter((a) => passa(a));
   $('#cats').innerHTML = CATS.filter(([v]) => !v || anuncios.some((a) => a._cat === v)).map(([v, t]) => '<button type="button" role="radio" data-grupo="cat" data-v="' + v + '" aria-checked="' + (f.cat === v) + '">' + t + ' <span>' + conta('cat', v, (a, x) => !x || a._cat === x) + '</span></button>').join('');
   $('#quartos').innerHTML = chips('quartos', QUARTOS, (v) => conta('quartos', v, (a, x) => x === '4' ? a.quartos >= 4 : a.quartos === +x));
+  $('#mar').innerHTML = chips('mar', MARS, (v) => conta('mar', v, (a) => a._mar));
   $('#fones').innerHTML = chips('zap', ZAPS, (v) => conta('zap', v, (a, x) => (x === 'cel') === celular(a)));
   $('#status').innerHTML = chips('status', [['', 'Todos'], ...STATUS], (v) => conta('status', v, (a, x) => statusDe(a) === x));
   const bairros = {}; anuncios.filter((a) => passa(a, 'bairro')).forEach((a) => { const b = a.bairro || 'Não informado'; bairros[b] = (bairros[b] || 0) + 1; });
@@ -261,6 +275,7 @@ document.addEventListener('toggle', (e) => {
   const g = e.target.querySelector?.('.galeria');
   if (e.target.open && g && !g.childElementCount) g.innerHTML = JSON.parse(g.dataset.fotos).map((u) => '<img loading="lazy" src="' + esc(u) + '" alt="">').join('');
 }, true);
+if (location.hash === '#frente-mar') f.mar = '1';
 $('#lido').textContent = lidoEm;
 $('#total').textContent = lidosTotal.toLocaleString('pt-BR');
 render();
@@ -300,6 +315,7 @@ export function paginaCaptacao({ lidoEm, lidosTotal, anuncios }) {
 </header>
 <main class="pagina">
   <section class="filtros" aria-label="Refinar">
+    <div class="filtro"><span class="rot">Localização</span><div class="chips" id="mar"></div></div>
     <div class="filtro"><span class="rot">Telefone</span><div class="chips" id="fones"></div></div>
     <div class="filtro"><span class="rot">Andamento</span><div class="chips" id="status"></div></div>
     <div class="filtro"><span class="rot">Quartos</span><div class="chips" id="quartos"></div></div>
