@@ -4151,7 +4151,7 @@
      "area": 86.75,
      "valor": 952527.81,
      "entrada": 227654.15,
-     "status": "reservado",
+     "status": "disponivel",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 227654.15,
@@ -4531,7 +4531,7 @@
      "area": 74.65,
      "valor": 634525,
      "entrada": 107869.25,
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 107869.25,
@@ -4721,7 +4721,7 @@
      "area": 73.92,
      "valor": 675152.18,
      "entrada": 121527.39,
-     "status": "reservado",
+     "status": "vendido",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 121527.39,
@@ -4873,7 +4873,7 @@
      "area": 73.92,
      "valor": 728554.2,
      "entrada": 131139.76,
-     "status": "reservado",
+     "status": "vendido",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 131139.76,
@@ -4941,10 +4941,48 @@
       "parcVal": 3382.92
      },
      "final": 5
+    },
+    {
+     "unidade": "222",
+     "andar": 22,
+     "tipologia": "Cobertura",
+     "area": 144.93,
+     "valor": 2898600,
+     "entrada": 686968.2,
+     "status": "disponivel",
+     "obs": "3 vagas · cobertura do final 2",
+     "fluxo": {
+      "entrada": 686968.2,
+      "chaves": 495660.6,
+      "anualQtd": 9,
+      "anualVal": 44799.47,
+      "parcQtd": 110,
+      "parcVal": 11934.33
+     },
+     "final": 2
+    },
+    {
+     "unidade": "223",
+     "andar": 22,
+     "tipologia": "Cobertura duplex · 3 dorms (3 suítes)",
+     "area": 179.23,
+     "valor": 3584600,
+     "entrada": 568159.1,
+     "status": "disponivel",
+     "obs": "3 vagas privativas · área na linha da tabela 179,23 m² (cabeçalho: 198,90 m²)",
+     "fluxo": {
+      "entrada": 568159.1,
+      "chaves": 636624.96,
+      "anualQtd": 9,
+      "anualVal": 57552.74,
+      "parcQtd": 110,
+      "parcVal": 16925.83
+     },
+     "final": 3
     }
    ],
-   "fonte": "Tabela Res. Porto Marina – atualizada em 22/09/2026 (Plascom Construtora)",
-   "atualizadoEm": "05/10/2026 (válida até 31/10/2026)",
+   "fonte": "Tabela Res. Porto Marina – atualizada em 06/11/2026 (Plascom Construtora)",
+   "atualizadoEm": "06/11/2026 (válida até 30/11/2026)",
    "entrega": "Ago/2027",
    "endereco": "Av. Pres. Castelo Branco, 12.192 (esq. Av. Lincoln) – Vila Caiçara, Praia Grande",
    "contato": "Plantão de vendas (13) 3596-8587 · Gestor imobiliário (13) 99784-9019 · plascom@plascomconstrutora.com.br · @construtoraplacompg",
