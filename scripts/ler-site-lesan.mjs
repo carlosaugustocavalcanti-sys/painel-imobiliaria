@@ -290,7 +290,14 @@ if (total && unicos.length !== total) throw new Error(`A listagem diz ${total} i
 
 const predios = [];
 let semFicha = 0;
+/** Anúncios de unidades que a tabela da construtora já dá como vendidas: o site ainda mostra, o painel não. */
+const VENDIDOS = {
+  278: 'Porto Marina apto 54 — reservado na tabela Plascom de 06/11/2026',
+  280: 'Porto Marina apto 51 — vendido na tabela Plascom de 06/11/2026',
+  281: 'Porto Marina apto 72 — vendido na tabela Plascom de 06/11/2026',
+};
 for (const c of unicos) {
+  if (VENDIDOS[c.codigo]) continue;
   const html = await baixar(SITE + c.link, join(PASTA, 'fichas', `${c.codigo}.html`));
   if (!html) semFicha++;
   predios.push(predio(c, html ? lerFicha(html) : null));

@@ -1,6 +1,6 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-11",
+ "lidoEm": "2026-11-15",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
   {
@@ -1305,147 +1305,6 @@
    ]
   },
   {
-   "id": "lesan-site-278",
-   "nome": "Avenida Presidente Castelo Branco, 12192",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Caiçara",
-   "fase": "obra",
-   "endereco": "Avenida Presidente Castelo Branco, 12192 - Vila Caiçara - Praia Grande/SP",
-   "entrega": "2027",
-   "lazer": [
-    "Academia",
-    "Aceita Pet",
-    "Brinquedoteca",
-    "Espaço Fitness",
-    "Espaço Pet",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 278)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 281)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 282)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 280)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 279)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [
-    "O cadastro da Lesan escreve Av. Pres. Castelo Branco, 12.912 nos anúncios cód. 280 e 281; os aptos 51 e 72 têm o mesmo valor e a mesma área das unidades do Porto Marina (12.192)."
-   ],
-   "unidades": [
-    {
-     "unidade": "54",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 74.65,
-     "vagas": "1",
-     "valor": 634525,
-     "acesso": "elevador",
-     "vista": "Frente mar",
-     "status": "disponivel",
-     "obs": "Apartamento Frente Mar à Venda na Vila Caiçara | Seu Novo Estilo de Vida. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 278)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-74m2-id-278"
-    },
-    {
-     "unidade": "72",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 91.22,
-     "vagas": "1",
-     "valor": 1003935,
-     "acesso": "elevador",
-     "vista": "Frente mar",
-     "status": "disponivel",
-     "obs": "Apartamento Frente Mar à Venda na Vila Caiçara | Viva com Exclusividade. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 281)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-91m2-id-281"
-    },
-    {
-     "unidade": "203",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 70.72,
-     "vagas": "1",
-     "valor": 1087723,
-     "acesso": "elevador",
-     "vista": "Frente mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Vila Caiçara | Frente Mar e 2 Dormitórios. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 282)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-70m2-id-282"
-    },
-    {
-     "unidade": "51",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 86.75,
-     "vagas": "1",
-     "valor": 947035,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Vila Caiçara | 86 m², 2 Dormitórios sendo 2 Suítes. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 280)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-86m2-id-280"
-    },
-    {
-     "unidade": "55",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 73.92,
-     "vagas": "1",
-     "valor": 665713,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Vila Caiçara | 73 m² e Entrega em 2027. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 279)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-73m2-id-279"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-284",
    "nome": "Rua Tamoios, 22",
    "cidade": "Praia Grande",
@@ -2230,6 +2089,76 @@
      "contato": "Daniel Soares (CRECI 178404-F) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-tupi-praia-grande-sp-68m2-id-283"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-282",
+   "nome": "Avenida Presidente Castelo Branco, 12192",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Caiçara",
+   "fase": "obra",
+   "endereco": "Avenida Presidente Castelo Branco, 12192 - Vila Caiçara - Praia Grande/SP",
+   "entrega": "2027",
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Pet",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 282)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 279)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "203",
+     "andar": 5,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 70.72,
+     "vagas": "1",
+     "valor": 1087723,
+     "acesso": "elevador",
+     "vista": "Frente mar",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda na Vila Caiçara | Frente Mar e 2 Dormitórios. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 282)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-70m2-id-282"
+    },
+    {
+     "unidade": "55",
+     "andar": 5,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 73.92,
+     "vagas": "1",
+     "valor": 665713,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda na Vila Caiçara | 73 m² e Entrega em 2027. Frente para o mar, Sacada, Sacada Gourmet, Sala Grande, Varanda, Varanda Gourmet, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 279)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-73m2-id-279"
     }
    ]
   },

@@ -4392,25 +4392,6 @@
      "final": 3
     },
     {
-     "unidade": "54",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 74.65,
-     "valor": 634525,
-     "entrada": 107869.25,
-     "status": "disponivel",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 107869.25,
-      "chaves": 114214.5,
-      "anualQtd": 9,
-      "anualVal": 10311.03,
-      "parcQtd": 110,
-      "parcVal": 2905.84
-     },
-     "final": 4
-    },
-    {
      "unidade": "64",
      "andar": 6,
      "tipologia": "2 dorms (1 suíte)",
