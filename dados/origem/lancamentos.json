@@ -4126,25 +4126,6 @@
   "porto-marina": {
    "itens": [
     {
-     "unidade": "51",
-     "andar": 5,
-     "tipologia": "2 suítes",
-     "area": 86.75,
-     "valor": 947035,
-     "entrada": 194142.18,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 194142.18,
-      "chaves": 161942.99,
-      "anualQtd": 9,
-      "anualVal": 14636.95,
-      "parcQtd": 110,
-      "parcVal": 4174.7
-     },
-     "final": 1
-    },
-    {
      "unidade": "61",
      "andar": 6,
      "tipologia": "2 suítes",
@@ -4179,25 +4160,6 @@
       "anualVal": 14807.23,
       "parcQtd": 110,
       "parcVal": 3927.14
-     },
-     "final": 1
-    },
-    {
-     "unidade": "81",
-     "andar": 8,
-     "tipologia": "2 suítes",
-     "area": 86.75,
-     "valor": 963609.17,
-     "entrada": 230302.59,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 230302.59,
-      "chaves": 164777.17,
-      "anualQtd": 9,
-      "anualVal": 14893.12,
-      "parcQtd": 110,
-      "parcVal": 3949.92
      },
      "final": 1
     },
@@ -4316,44 +4278,6 @@
      "final": 1
     },
     {
-     "unidade": "72",
-     "andar": 7,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 91.22,
-     "valor": 1003934.48,
-     "entrada": 239940.34,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 239940.34,
-      "chaves": 171672.8,
-      "anualQtd": 9,
-      "anualVal": 15516.37,
-      "parcQtd": 110,
-      "parcVal": 4115.22
-     },
-     "final": 2
-    },
-    {
-     "unidade": "152",
-     "andar": 15,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 91.22,
-     "valor": 1146528.01,
-     "entrada": 274020.2,
-     "status": "vendido",
-     "obs": "2 vagas",
-     "fluxo": {
-      "entrada": 274020.2,
-      "chaves": 196056.29,
-      "anualQtd": 9,
-      "anualVal": 17720.23,
-      "parcQtd": 110,
-      "parcVal": 4699.72
-     },
-     "final": 2
-    },
-    {
      "unidade": "162",
      "andar": 16,
      "tipologia": "2 dorms (1 suíte)",
@@ -4388,63 +4312,6 @@
       "anualVal": 17933.51,
       "parcQtd": 110,
       "parcVal": 4756.29
-     },
-     "final": 2
-    },
-    {
-     "unidade": "182",
-     "andar": 18,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 91.22,
-     "valor": 1167289.59,
-     "entrada": 278982.21,
-     "status": "vendido",
-     "obs": "2 vagas",
-     "fluxo": {
-      "entrada": 278982.21,
-      "chaves": 199606.52,
-      "anualQtd": 9,
-      "anualVal": 18041.11,
-      "parcQtd": 110,
-      "parcVal": 4784.83
-     },
-     "final": 2
-    },
-    {
-     "unidade": "192",
-     "andar": 19,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 91.22,
-     "valor": 1174293.33,
-     "entrada": 280656.11,
-     "status": "vendido",
-     "obs": "2 vagas",
-     "fluxo": {
-      "entrada": 280656.11,
-      "chaves": 200804.16,
-      "anualQtd": 9,
-      "anualVal": 18149.36,
-      "parcQtd": 110,
-      "parcVal": 4813.54
-     },
-     "final": 2
-    },
-    {
-     "unidade": "202",
-     "andar": 20,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 91.22,
-     "valor": 1181339.09,
-     "entrada": 282340.04,
-     "status": "vendido",
-     "obs": "2 vagas",
-     "fluxo": {
-      "entrada": 282340.04,
-      "chaves": 202008.98,
-      "anualQtd": 9,
-      "anualVal": 18258.25,
-      "parcQtd": 110,
-      "parcVal": 4842.42
      },
      "final": 2
     },
@@ -4715,25 +4582,6 @@
      "final": 5
     },
     {
-     "unidade": "75",
-     "andar": 7,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 675152.18,
-     "entrada": 121527.39,
-     "status": "reservado",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 121527.39,
-      "chaves": 121527.39,
-      "anualQtd": 9,
-      "anualVal": 10971.22,
-      "parcQtd": 110,
-      "parcVal": 3030.51
-     },
-     "final": 5
-    },
-    {
      "unidade": "85",
      "andar": 8,
      "tipologia": "2 dorms (1 suíte)",
@@ -4749,25 +4597,6 @@
       "anualVal": 11048.73,
       "parcQtd": 110,
       "parcVal": 3051.92
-     },
-     "final": 5
-    },
-    {
-     "unidade": "95",
-     "andar": 9,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 684725.78,
-     "entrada": 123250.64,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 123250.64,
-      "chaves": 123250.64,
-      "anualQtd": 9,
-      "anualVal": 11126.79,
-      "parcQtd": 110,
-      "parcVal": 3073.49
      },
      "final": 5
     },
@@ -4863,82 +4692,6 @@
       "anualVal": 11606.87,
       "parcQtd": 110,
       "parcVal": 3206.09
-     },
-     "final": 5
-    },
-    {
-     "unidade": "165",
-     "andar": 16,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 728554.2,
-     "entrada": 131139.76,
-     "status": "reservado",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 131139.76,
-      "chaves": 131139.76,
-      "anualQtd": 9,
-      "anualVal": 11839.01,
-      "parcQtd": 110,
-      "parcVal": 3270.21
-     },
-     "final": 5
-    },
-    {
-     "unidade": "175",
-     "andar": 17,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 743125.28,
-     "entrada": 141193.8,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 141193.8,
-      "chaves": 133762.55,
-      "anualQtd": 9,
-      "anualVal": 12075.79,
-      "parcQtd": 110,
-      "parcVal": 3268.06
-     },
-     "final": 5
-    },
-    {
-     "unidade": "185",
-     "andar": 18,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 748375.46,
-     "entrada": 134707.58,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 134707.58,
-      "chaves": 134707.58,
-      "anualQtd": 9,
-      "anualVal": 12161.1,
-      "parcQtd": 110,
-      "parcVal": 3359.19
-     },
-     "final": 5
-    },
-    {
-     "unidade": "195",
-     "andar": 19,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 73.92,
-     "valor": 753662.73,
-     "entrada": 135659.29,
-     "status": "vendido",
-     "obs": "1 vaga",
-     "fluxo": {
-      "entrada": 135659.29,
-      "chaves": 135659.29,
-      "anualQtd": 9,
-      "anualVal": 12247.02,
-      "parcQtd": 110,
-      "parcVal": 3382.92
      },
      "final": 5
     },
