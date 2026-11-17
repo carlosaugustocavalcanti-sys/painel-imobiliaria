@@ -1119,6 +1119,52 @@
      }
     }
    ]
+  },
+  "azure": {
+   "nome": "Azure",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/azure/hd_01_fachada.jpg",
+     "rotulo": "Fachada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_02_entrada.jpg",
+     "rotulo": "Entrada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_03_piscina-na-cobertura.jpg",
+     "rotulo": "Piscina na cobertura",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_04_academia.jpg",
+     "rotulo": "Academia",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_05_hall-de-entrada.jpg",
+     "rotulo": "Hall de entrada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_06_sala-de-estar.jpg",
+     "rotulo": "Sala de estar",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_07_sala-integrada.jpg",
+     "rotulo": "Sala integrada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/azure/hd_08_suite.jpg",
+     "rotulo": "Suíte",
+     "hd": true
+    }
+   ]
   }
  }
 }

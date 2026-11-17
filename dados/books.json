@@ -700,6 +700,46 @@
           ]
         }
       ]
+    },
+    "azure": {
+      "nome": "Azure",
+      "pasta": "~/OneDrive/Outros/Lesan/Lançamentos/AZURE",
+      "pdf": "Catálogo_Digital_Azure_ArtCons.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 19,
+          "rotulo": "Fachada"
+        },
+        {
+          "imagem": 197,
+          "rotulo": "Entrada"
+        },
+        {
+          "imagem": 9,
+          "rotulo": "Piscina na cobertura"
+        },
+        {
+          "imagem": 10,
+          "rotulo": "Academia"
+        },
+        {
+          "imagem": 20,
+          "rotulo": "Hall de entrada"
+        },
+        {
+          "imagem": 3,
+          "rotulo": "Sala de estar"
+        },
+        {
+          "imagem": 7,
+          "rotulo": "Sala integrada"
+        },
+        {
+          "imagem": 8,
+          "rotulo": "Suíte"
+        }
+      ]
     }
   }
 }
