@@ -88,7 +88,7 @@ const anuncios = lidos
   })
   // buscas avulsas (frente mar) entram mesmo sem telefone no texto: o Carlos chama pelo chat da OLX
   .filter((a) => (a.telefones.length || buscaRecente(a)) && a.anunciante)
-  .sort((a, b) => String(b.publicado).localeCompare(String(a.publicado)));
+  .sort((a, b) => (a.publicado ? 0 : 1) - (b.publicado ? 0 : 1) || String(b.publicado).localeCompare(String(a.publicado))); // sem data (Imóvel Web) por último
 
 const lidoEm = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
 const lidosTotal = lidos.length;
