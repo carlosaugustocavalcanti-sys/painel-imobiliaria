@@ -143,14 +143,19 @@ const celular = (a) => a.telefones.some((t) => t.length === 11);
 const catDe = (a) => /apart/i.test(a.categoria) ? 'apto' : /casa/i.test(a.categoria) ? 'casa' : /terreno|lote/i.test(a.categoria + a.tipo) ? 'terreno' : 'outro';
 const CATS = [['', 'Todos'], ['apto', 'Apartamentos'], ['casa', 'Casas'], ['terreno', 'Terrenos'], ['outro', 'Outros']];
 const QUARTOS = [['', 'Qualquer'], ['1', '1'], ['2', '2'], ['3', '3'], ['4', '4 ou mais']];
-const MARS = [['', 'Todos'], ['1', 'Frente ao mar']];
+const MARS = [['', 'Todos'], ['1', 'Frente mar ou Av. Castelo Branco']];
 /** Frente mar: o anúncio diz que o imóvel está de frente para o mar ou pé na areia.
  *  Não conta "vista mar", "a 300 m do mar" nem o "Carrefour frente mar" (nome de referência). */
 const MAR_FORTE = /frente\s*(ao|para\s*o|pro|pra|do|a)?\s*mar|frente-?mar|em\s+frente\s+ao\s+mar/i;
 const MAR_FRACO = /p[eé]\s*na\s*areia/i;
 const MAR_VISTA = /vista\s+(definitiva\s+)?(mar|(pro|para\s+o)\s+mar)|vista\s+mar/i;
 const MAR_LONGE = /\ba\s+\d+\s*(m|mt|mts|metros?)\b/i;
+/** Av. Presidente Castelo Branco é a avenida da praia: todo prédio nela é frente mar, diga o anúncio ou não.
+ *  Vale o endereço do anúncio (rua), não a citação no texto ("praia (av. castelo branco)" é só referência). */
+const CASTELO_BRANCO = /castel+o\s+branco/i;
+const naCasteloBranco = (a) => CASTELO_BRANCO.test(semAcento(a.rua || ''));
 function frenteMar(a) {
+  if (naCasteloBranco(a)) return true;
   const t = (a.titulo + '\n' + a.descricao).replace(/carrefour\s+frente\s*mar/gi, '');
   if (MAR_LONGE.test(a.titulo)) return false;
   return MAR_FORTE.test(t) || (MAR_FRACO.test(t) && !MAR_VISTA.test(t));
