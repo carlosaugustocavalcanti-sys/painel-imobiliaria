@@ -25,7 +25,12 @@ const fichas = new Map();
 const arquivos = readdirSync(BRUTO).filter((a) => /^olx-.*\.json$/.test(a)).sort();
 for (const arq of arquivos) {
   const j = JSON.parse(readFileSync(join(BRUTO, arq), 'utf8'));
-  for (const f of Array.isArray(j) ? j : Object.values(j)) if (f?.id) fichas.set(f.id, f);
+  for (const f of Array.isArray(j) ? j : Object.values(j)) {
+    if (!f?.id) continue;
+    // a marca de busca avulsa (busca, lidoEm) sobrevive quando outra leitura traz a ficha mais completa
+    const antes = fichas.get(f.id);
+    fichas.set(f.id, antes?.busca && !f.busca ? { ...f, busca: antes.busca, lidoEm: antes.lidoEm } : antes && f.busca && !antes.busca ? { ...antes, busca: f.busca, lidoEm: f.lidoEm } : f);
+  }
 }
 if (!fichas.size) {
   console.error(`Nenhuma ficha em ${BRUTO}/olx-*.json`);
@@ -81,11 +86,12 @@ const anuncios = lidos
     const descricao = textoPuro(f.descricao);
     return { ...f, descricao, bairro: BAIRRO_NOME[f.bairro] ?? f.bairro, telefones: telefonesDoTexto(`${f.titulo}\n${descricao}`) };
   })
-  .filter((a) => a.telefones.length && a.anunciante)
+  // buscas avulsas (frente mar) entram mesmo sem telefone no texto: o Carlos chama pelo chat da OLX
+  .filter((a) => (a.telefones.length || buscaRecente(a)) && a.anunciante)
   .sort((a, b) => String(b.publicado).localeCompare(String(a.publicado)));
 
 const lidoEm = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });
 const lidosTotal = lidos.length;
 writeFileSync(join(PASTA, 'olx-praia-grande.json'), JSON.stringify({ lidoEm, lidosTotal, anuncios }, null, 1));
 writeFileSync(join(PASTA, 'index.html'), paginaCaptacao({ lidoEm, lidosTotal, anuncios }));
-console.log(`${lidosTotal} anúncios de particulares lidos · ${anuncios.length} com nome e telefone → ${PASTA}/index.html`);
+console.log(`${lidosTotal} anúncios de particulares lidos · ${anuncios.filter((a) => a.telefones.length).length} com nome e telefone, ${anuncios.filter((a) => !a.telefones.length).length} só pelo chat → ${PASTA}/index.html`);

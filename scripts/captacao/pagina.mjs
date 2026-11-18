@@ -88,6 +88,7 @@ a { color: inherit; text-underline-offset: 3px; }
 .fone { display: inline-flex; align-items: center; gap: 6px; font-weight: 900; font-size: 16px; text-decoration: none; font-variant-numeric: tabular-nums; border: 1.5px solid var(--preto); border-radius: var(--r-tag); padding: 6px 10px; min-height: 38px; }
 .fone:hover { background: var(--preto); color: var(--branco); }
 .fone svg, .bt svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.chat-olx { font-weight: 700; font-size: 13px; color: var(--cinza); }
 .fone small { font-weight: 700; font-size: 11px; color: var(--cinza); }
 .fone:hover small { color: var(--branco-65); }
 .aviso { font-size: 13px; color: var(--cinza); font-weight: 700; }
@@ -155,12 +156,13 @@ const MAR_LONGE = /\ba\s+\d+\s*(m|mt|mts|metros?)\b/i;
 const CASTELO_BRANCO = /castel+o\s+branco/i;
 const naCasteloBranco = (a) => CASTELO_BRANCO.test(semAcento(a.rua || ''));
 function frenteMar(a) {
-  if (naCasteloBranco(a)) return true;
+  if (naCasteloBranco(a) || a.busca) return true; // busca avulsa "frente mar" na OLX: a OLX achou "frente mar" no texto completo
   const t = (a.titulo + '\n' + a.descricao).replace(/carrefour\s+frente\s*mar/gi, '');
   if (MAR_LONGE.test(a.titulo)) return false;
   return MAR_FORTE.test(t) || (MAR_FRACO.test(t) && !MAR_VISTA.test(t));
 }
-const ZAPS = [['', 'Todos'], ['cel', 'Celular (WhatsApp)'], ['fixo', 'Só fixo']];
+const ZAPS = [['', 'Todos'], ['cel', 'Celular (WhatsApp)'], ['fixo', 'Só fixo'], ['chat', 'Só chat da OLX']];
+const semFone = (a) => !a.telefones.length;
 anuncios.forEach((a) => { a._cat = catDe(a); a._mar = frenteMar(a); a._busca = semAcento([a.titulo, a.descricao, a.bairro, a.rua, a.anunciante, a.tipo, a.cep, a.id].join(' ')); });
 
 function passa(a, ignorar) {
@@ -168,7 +170,7 @@ function passa(a, ignorar) {
   if (ignorar !== 'quartos' && f.quartos && (f.quartos === '4' ? !(a.quartos >= 4) : a.quartos !== +f.quartos)) return false;
   if (ignorar !== 'bairro' && f.bairro && a.bairro !== f.bairro) return false;
   if (ignorar !== 'mar' && f.mar && !a._mar) return false;
-  if (ignorar !== 'zap' && f.zap && (f.zap === 'cel') !== celular(a)) return false;
+  if (ignorar !== 'zap' && f.zap && (f.zap === 'chat' ? !semFone(a) : semFone(a) || (f.zap === 'cel') !== celular(a))) return false;
   if (ignorar !== 'status' && f.status && statusDe(a) !== f.status) return false;
   if (f.vmin && !(a.valor >= +f.vmin)) return false;
   if (f.vmax && !(a.valor <= +f.vmax)) return false;
@@ -211,7 +213,7 @@ function cartao(a) {
     '</div>' +
       '<div class="contato">' +
         '<span class="quem"><small>Proprietário</small>' + esc(a.anunciante || 'Sem nome') + '</span>' +
-        telefones(a) +
+        (semFone(a) ? '<span class="chat-olx">Sem telefone no anúncio: fale pelo chat da OLX</span>' : telefones(a)) +
         '<span class="acoes">' +
           '<label class="sr" for="st' + a.id + '">Andamento</label>' +
           '<select class="status' + (st !== 'novo' ? ' on' : '') + '" id="st' + a.id + '" data-acao="status">' + STATUS.map(([v, t]) => '<option value="' + v + '"' + (v === st ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>' +
@@ -240,12 +242,12 @@ function render() {
   $('#cats').innerHTML = CATS.filter(([v]) => !v || anuncios.some((a) => a._cat === v)).map(([v, t]) => '<button type="button" role="radio" data-grupo="cat" data-v="' + v + '" aria-checked="' + (f.cat === v) + '">' + t + ' <span>' + conta('cat', v, (a, x) => !x || a._cat === x) + '</span></button>').join('');
   $('#quartos').innerHTML = chips('quartos', QUARTOS, (v) => conta('quartos', v, (a, x) => x === '4' ? a.quartos >= 4 : a.quartos === +x));
   $('#mar').innerHTML = chips('mar', MARS, (v) => conta('mar', v, (a) => a._mar));
-  $('#fones').innerHTML = chips('zap', ZAPS, (v) => conta('zap', v, (a, x) => (x === 'cel') === celular(a)));
+  $('#fones').innerHTML = chips('zap', ZAPS, (v) => conta('zap', v, (a, x) => (x === 'chat' ? semFone(a) : !semFone(a) && (x === 'cel') === celular(a))));
   $('#status').innerHTML = chips('status', [['', 'Todos'], ...STATUS], (v) => conta('status', v, (a, x) => statusDe(a) === x));
   const bairros = {}; anuncios.filter((a) => passa(a, 'bairro')).forEach((a) => { const b = a.bairro || 'Não informado'; bairros[b] = (bairros[b] || 0) + 1; });
   $('#bairro').innerHTML = '<option value="">Todos os bairros</option>' + Object.entries(bairros).sort((x, y) => x[0].localeCompare(y[0], 'pt-BR')).map(([b, n]) => '<option value="' + esc(b) + '"' + (f.bairro === b ? ' selected' : '') + '>' + esc(b) + ' (' + n + ')</option>').join('');
   const algum = Object.entries(f).some(([k, v]) => v);
-  $('#frase').innerHTML = '<h2><span class="mk num">' + res.length.toLocaleString('pt-BR') + '</span> ' + (res.length === 1 ? 'proprietário' : 'proprietários') + ' com telefone</h2>' +
+  $('#frase').innerHTML = '<h2><span class="mk num">' + res.length.toLocaleString('pt-BR') + '</span> ' + (res.length === 1 ? 'proprietário' : 'proprietários') + (res.some(semFone) ? ' · ' + res.filter((a) => !semFone(a)).length.toLocaleString('pt-BR') + ' com telefone</h2>' : ' com telefone</h2>') +
     (algum ? '<button type="button" class="limpar" data-acao="limpar">Limpar filtros</button>' : '');
   $('#lista').innerHTML = res.length ? res.slice(0, mostrar).map(cartao).join('') : '';
   $('#vazio').hidden = !!res.length;
@@ -308,7 +310,7 @@ export function paginaCaptacao({ lidoEm, lidosTotal, anuncios }) {
   <div class="topo-in">
     <div class="marca">
       <h1>Capta<em>ção</em></h1>
-      <p><b>Proprietários anunciando na OLX</b> · Praia Grande · venda · lido em <span id="lido"></span>. Só neste computador: não vai para o painel nem para a internet.</p>
+      <p><b>Proprietários anunciando na OLX</b> · Praia Grande e Mongaguá · venda · lido em <span id="lido"></span>. Só neste computador: não vai para o painel nem para a internet.</p>
     </div>
     <label class="busca">
       <span class="sr">Buscar</span>
