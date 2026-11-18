@@ -161,8 +161,9 @@ function frenteMar(a) {
   if (MAR_LONGE.test(a.titulo)) return false;
   return MAR_FORTE.test(t) || (MAR_FRACO.test(t) && !MAR_VISTA.test(t));
 }
-const ZAPS = [['', 'Todos'], ['cel', 'Celular (WhatsApp)'], ['fixo', 'Só fixo'], ['chat', 'Só chat da OLX']];
+const ZAPS = [['', 'Todos'], ['cel', 'Celular (WhatsApp)'], ['fixo', 'Só fixo'], ['chat', 'Sem telefone']];
 const semFone = (a) => !a.telefones.length;
+const iw = (a) => a.fonte === 'imovelweb';
 anuncios.forEach((a) => { a._cat = catDe(a); a._mar = frenteMar(a); a._busca = semAcento([a.titulo, a.descricao, a.bairro, a.rua, a.anunciante, a.tipo, a.cep, a.id].join(' ')); });
 
 function passa(a, ignorar) {
@@ -212,19 +213,19 @@ function cartao(a) {
       '<ul class="fatos">' + fatos.map((x) => '<li>' + esc(x) + '</li>').join('') + '</ul>' +
     '</div>' +
       '<div class="contato">' +
-        '<span class="quem"><small>Proprietário</small>' + esc(a.anunciante || 'Sem nome') + '</span>' +
-        (semFone(a) ? '<span class="chat-olx">Sem telefone no anúncio: fale pelo chat da OLX</span>' : telefones(a)) +
+        '<span class="quem"><small>' + (iw(a) ? 'Anunciante' : 'Proprietário') + '</small>' + esc(iw(a) ? 'Imobiliária ou corretor' : a.anunciante || 'Sem nome') + '</span>' +
+        (semFone(a) ? '<span class="chat-olx">' + (iw(a) ? 'Só o endereço do imóvel: o telefone aparece no anúncio do Imóvel Web' : 'Sem telefone no anúncio: fale pelo chat da OLX') + '</span>' : telefones(a)) +
         '<span class="acoes">' +
           '<label class="sr" for="st' + a.id + '">Andamento</label>' +
           '<select class="status' + (st !== 'novo' ? ' on' : '') + '" id="st' + a.id + '" data-acao="status">' + STATUS.map(([v, t]) => '<option value="' + v + '"' + (v === st ? ' selected' : '') + '>' + t + '</option>').join('') + '</select>' +
-          '<a class="bt" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + icLink + 'Ver na OLX</a>' +
+          '<a class="bt" href="' + esc(a.url) + '" target="_blank" rel="noopener">' + icLink + (iw(a) ? 'Ver no Imóvel Web' : 'Ver na OLX') + '</a>' +
         '</span>' +
       '</div>' +
     '<details class="mais"><summary>Descrição, fotos e anotação' + (nota ? ' · tem anotação' : '') + '</summary>' +
       '<p class="desc">' + esc(a.descricao) + '</p>' +
       (a.itensImovel.length ? '<p class="itens"><b>Imóvel:</b> ' + esc(a.itensImovel.join(', ')) + '</p>' : '') +
       (a.itensCondominio.length ? '<p class="itens"><b>Condomínio:</b> ' + esc(a.itensCondominio.join(', ')) + '</p>' : '') +
-      '<p class="itens">Código OLX ' + a.id + '</p>' +
+      '<p class="itens">Código ' + (iw(a) ? 'Imóvel Web ' : 'OLX ') + a.id + '</p>' +
       '<div class="galeria" data-fotos="' + esc(JSON.stringify(a.fotos)) + '"></div>' +
       '<label class="sr" for="nt' + a.id + '">Anotação</label>' +
       '<textarea class="nota" id="nt' + a.id + '" data-acao="nota" placeholder="Anotação da captação (fica só neste computador)">' + esc(nota) + '</textarea>' +
@@ -247,7 +248,7 @@ function render() {
   const bairros = {}; anuncios.filter((a) => passa(a, 'bairro')).forEach((a) => { const b = a.bairro || 'Não informado'; bairros[b] = (bairros[b] || 0) + 1; });
   $('#bairro').innerHTML = '<option value="">Todos os bairros</option>' + Object.entries(bairros).sort((x, y) => x[0].localeCompare(y[0], 'pt-BR')).map(([b, n]) => '<option value="' + esc(b) + '"' + (f.bairro === b ? ' selected' : '') + '>' + esc(b) + ' (' + n + ')</option>').join('');
   const algum = Object.entries(f).some(([k, v]) => v);
-  $('#frase').innerHTML = '<h2><span class="mk num">' + res.length.toLocaleString('pt-BR') + '</span> ' + (res.length === 1 ? 'proprietário' : 'proprietários') + (res.some(semFone) ? ' · ' + res.filter((a) => !semFone(a)).length.toLocaleString('pt-BR') + ' com telefone</h2>' : ' com telefone</h2>') +
+  $('#frase').innerHTML = '<h2><span class="mk num">' + res.length.toLocaleString('pt-BR') + '</span> ' + (res.some(iw) ? (res.length === 1 ? 'imóvel' : 'imóveis') : res.length === 1 ? 'proprietário' : 'proprietários') + (res.some(semFone) ? ' · ' + res.filter((a) => !semFone(a)).length.toLocaleString('pt-BR') + ' com telefone</h2>' : ' com telefone</h2>') +
     (algum ? '<button type="button" class="limpar" data-acao="limpar">Limpar filtros</button>' : '');
   $('#lista').innerHTML = res.length ? res.slice(0, mostrar).map(cartao).join('') : '';
   $('#vazio').hidden = !!res.length;
