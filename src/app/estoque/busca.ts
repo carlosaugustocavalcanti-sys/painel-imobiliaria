@@ -76,6 +76,8 @@ export interface Linha {
   pagamentos: Pagto[];
   /** A tabela diz "frente mar" (ou frente ao mar / frente praia), ou o prédio fica na Av. Castelo Branco. */
   frenteMar: boolean;
+  /** O prédio fica na Av. Castelo Branco (a orla): entra no filtro "Só frente mar" mesmo quando a planta diz fundos ou lateral. */
+  casteloBranco: boolean;
   /** Vista para o mar: a tabela diz, ou a posição na planta da construtora (frente mar ou lateral). */
   vistaMar: boolean;
   /** Comissão que a tabela informa: 5% sobre o valor da tabela, ou fifty (metade com o parceiro). Vazio = a tabela não diz. */
@@ -269,6 +271,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         entrega: anoEntrega(u.entregaUnidade || p.entrega, u.fase),
         pagamentos: pagamentosDe(u, p),
         frenteMar: ehFrenteMar(u, p),
+        casteloBranco: CASTELO_BRANCO.test(normalizar(p.endereco)),
         vistaMar: ehVistaMar(u),
         comissoes: comissoesDe(u, p),
         vagas: vagasDe(u),
@@ -298,7 +301,7 @@ export interface Filtros {
   /** Apartamentos, casas/sobrados ou comerciais (vazio = todos). */
   categoria: FiltroCategoria;
   vista: boolean;
-  /** Só frente mar (texto da tabela ou Av. Castelo Branco). */
+  /** Só frente mar: texto da tabela, ou qualquer unidade de prédio na Av. Castelo Branco (até a de fundos). */
   frente: boolean;
   /** Só unidades cuja tabela informa essa comissão (vazio = todas). */
   comissao: '' | Comissao;
@@ -376,7 +379,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('tipo') && f.tipo && !l.mercados.includes(f.tipo === 'usados' ? 'revenda' : 'construtora')) return false;
   if (usa('categoria') && f.categoria && (u.categoria ?? 'apartamento') !== f.categoria) return false;
   if (usa('vista') && f.vista && !l.vistaMar) return false;
-  if (usa('frente') && f.frente && !l.frenteMar) return false;
+  if (usa('frente') && f.frente && !l.frenteMar && !l.casteloBranco) return false;
   if (usa('comissao') && f.comissao && !l.comissoes.includes(f.comissao)) return false;
   if (usa('dm') && f.dm && u.dm !== f.dm) return false;
   if (usa('vagas') && f.vagas && !((l.vagas ?? 0) >= f.vagas)) return false;
