@@ -73,7 +73,9 @@ if (existsSync(ARQ_ATIVOS)) {
   if (a.completo && a.ids?.length >= fichas.size * 0.5) ativos = new Set(a.ids.map(Number));
   else console.warn(`ativos.json ignorado (completo: ${a.completo}, ${a.ids?.length ?? 0} ids)`);
 }
-const lidos = [...fichas.values()].filter((f) => !f.removido && !f.profissional && (!ativos || ativos.has(+f.id)));
+/** Fichas de buscas avulsas (ex.: frente mar em Mongaguá) não estão na lista semanal de Praia Grande: valem por 14 dias desde a leitura. */
+const buscaRecente = (f) => !!f.busca && (Date.now() - new Date(f.lidoEm)) / 864e5 <= 14;
+const lidos = [...fichas.values()].filter((f) => !f.removido && !f.profissional && (!ativos || ativos.has(+f.id) || buscaRecente(f)));
 const anuncios = lidos
   .map((f) => {
     const descricao = textoPuro(f.descricao);
