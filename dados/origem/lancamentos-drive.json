@@ -1,6 +1,6 @@
 {
  "arquivo": "Google Drive/7. LANÇAMENTOS",
- "lidoEm": "2026-11-04",
+ "lidoEm": "2026-11-18",
  "sobre": "Empreendimentos da pasta 7. LANÇAMENTOS (2027, 2028, 2029 e Entregues) do Google Drive que ainda não estavam no painel.",
  "predios": [
   {
@@ -31,7 +31,7 @@
     {
      "fonte": "GMV Incorporadora (tabela sem data)",
      "contato": "GMV (WhatsApp 13 99615-0111)",
-     "atualizadoEm": "sem data (arquivo de 24/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
      "arquivo": "7. LANÇAMENTOS/2027/Allure - Aptos 2 dorm (Forte).pdf"
     }
    ],
@@ -60,7 +60,7 @@
      "obs": "12 mensais fixas sem juros; 2 intermediárias (jan/2027 e jul/2027); conclusão de obra R$ 33.600; saldo final R$ 646.800. Conclusão e saldo corrigidos 0,7% a.m. após o contrato. Vaga privativa 10,35 m² (SUB). Unidade de revenda (asterisco).",
      "fonte": "GMV Incorporadora (tabela sem data)",
      "contato": "GMV (WhatsApp 13 99615-0111)",
-     "tabela": "sem data (arquivo de 24/10/2026)",
+     "tabela": "sem data (arquivo de 17/11/2026)",
      "vistaMar": false,
      "entregaUnidade": "Nov/2027"
     },
@@ -88,35 +88,7 @@
      "obs": "12 mensais fixas sem juros; 2 intermediárias (jan/2027 e jul/2027); conclusão de obra R$ 29.200; saldo final R$ 584.000. Conclusão e saldo corrigidos 0,7% a.m. após o contrato. Vaga privativa 10,35 m² (térreo).",
      "fonte": "GMV Incorporadora (tabela sem data)",
      "contato": "GMV (WhatsApp 13 99615-0111)",
-     "tabela": "sem data (arquivo de 24/10/2026)",
-     "vistaMar": false,
-     "entregaUnidade": "Nov/2027"
-    },
-    {
-     "unidade": "78",
-     "andar": 7,
-     "tipologia": "2 suítes",
-     "dorm": 2,
-     "suites": 2,
-     "area": 76.57,
-     "vagas": "1 privativa",
-     "valor": 710000,
-     "entrada": 42600,
-     "chaves": 28400,
-     "financ": 568000,
-     "fluxo": {
-      "entrada": 42600,
-      "chaves": 28400,
-      "anualQtd": 2,
-      "anualVal": 14200,
-      "parcQtd": 12,
-      "parcVal": 3550
-     },
-     "status": "disponivel",
-     "obs": "12 mensais fixas sem juros; 2 intermediárias (jan/2027 e jul/2027); conclusão de obra R$ 28.400; saldo final R$ 568.000. Conclusão e saldo corrigidos 0,7% a.m. após o contrato. Vaga privativa 10,35 m² (G3).",
-     "fonte": "GMV Incorporadora (tabela sem data)",
-     "contato": "GMV (WhatsApp 13 99615-0111)",
-     "tabela": "sem data (arquivo de 24/10/2026)",
+     "tabela": "sem data (arquivo de 17/11/2026)",
      "vistaMar": false,
      "entregaUnidade": "Nov/2027"
     }
@@ -1578,8 +1550,8 @@
    },
    "tabelas": [
     {
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "atualizadoEm": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "atualizadoEm": "11/11/2026",
      "arquivo": "Lagos - Aptos 2 dorm (Guilhermina)"
     }
    ],
@@ -1607,8 +1579,8 @@
      },
      "status": "disponivel",
      "obs": "Tipo GARDEN. Entrada R$ 60.000 + 10 mensais fixas de R$ 2.500 + 1 semestral de R$ 15.000 + R$ 60.000 na conclusão de obras + financiamento bancário de R$ 494.227,92. Parcelas reajustadas a 0,7% ao mês. Valor total = 160.000 + financiamento (confere com o total impresso no PDF).",
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "tabela": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "tabela": "11/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Jun/2027"
     },
@@ -1635,8 +1607,8 @@
      },
      "status": "disponivel",
      "obs": "Tipo PADRÃO. Entrada R$ 60.000 + 10 mensais fixas de R$ 2.500 + 1 semestral de R$ 15.000 + R$ 60.000 na conclusão de obras + financiamento bancário de R$ 465.840,00. Parcelas reajustadas a 0,7% ao mês. Valor total = 160.000 + financiamento (confere com o total impresso no PDF).",
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "tabela": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "tabela": "11/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Jun/2027"
     },
@@ -1663,8 +1635,8 @@
      },
      "status": "disponivel",
      "obs": "Tipo PADRÃO. Entrada R$ 60.000 + 10 mensais fixas de R$ 2.500 + 1 semestral de R$ 15.000 + R$ 60.000 na conclusão de obras + financiamento bancário de R$ 479.612,80. Parcelas reajustadas a 0,7% ao mês. Valor total = 160.000 + financiamento (confere com o total impresso no PDF).",
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "tabela": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "tabela": "11/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Jun/2027"
     },
@@ -1691,8 +1663,8 @@
      },
      "status": "disponivel",
      "obs": "Tipo PADRÃO. Entrada R$ 60.000 + 10 mensais fixas de R$ 2.500 + 1 semestral de R$ 15.000 + R$ 60.000 na conclusão de obras + financiamento bancário de R$ 559.471,99. Parcelas reajustadas a 0,7% ao mês. Valor total = 160.000 + financiamento (confere com o total impresso no PDF).",
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "tabela": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "tabela": "11/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Jun/2027"
     },
@@ -1717,10 +1689,10 @@
       "parcQtd": 10,
       "parcVal": 2500
      },
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "Tipo PADRÃO. Entrada R$ 60.000 + 10 mensais fixas de R$ 2.500 + 1 semestral de R$ 15.000 + R$ 60.000 na conclusão de obras + financiamento bancário de R$ 334.605,60. Parcelas reajustadas a 0,7% ao mês. Valor total = 160.000 + financiamento (confere com o total impresso no PDF).",
-     "fonte": "Construtora Ática (tabela interna de 19/10/2026)",
-     "tabela": "19/10/2026",
+     "fonte": "Construtora Ática (tabela interna de 11/11/2026)",
+     "tabela": "11/11/2026",
      "vistaMar": false,
      "entregaUnidade": "Jun/2027"
     }
@@ -5617,31 +5589,6 @@
     }
    ],
    "unidades": [
-    {
-     "unidade": "154",
-     "andar": 15,
-     "tipologia": "2 dorms (2 suítes)",
-     "dorm": 2,
-     "suites": 2,
-     "area": 83.18,
-     "vagas": "2",
-     "valor": 770000,
-     "entrada": 231000,
-     "chaves": 77000,
-     "fluxo": {
-      "entrada": 231000,
-      "chaves": 77000,
-      "anualQtd": 10,
-      "anualVal": 15400,
-      "parcQtd": 120,
-      "parcVal": 2566.67
-     },
-     "status": "disponivel",
-     "obs": "Final 04.",
-     "fonte": "RD Imóveis (planilha 'Tabelas RD')",
-     "tabela": "08/10/2026",
-     "vistaMar": false
-    },
     {
      "unidade": "164",
      "andar": 16,

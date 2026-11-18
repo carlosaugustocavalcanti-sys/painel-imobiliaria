@@ -1,6 +1,6 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-11-11T10:02:03Z",
+  "ultimaVarredura": "2026-11-18T10:02:13Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
@@ -306,10 +306,96 @@
     {
       "data": "2026-11-11",
       "resumo": "Site da Lesan: 6 anúncios novos (cód. 315 Rua Alberto Santos Dumont 91 apto 202, Guilhermina, R$ 971.600; 314 mesmo prédio apto 213, R$ 752.800; 313 mesmo prédio apto 203, R$ 746.240; 312 Rua João Ramalho 486 apto 14, Aviação, R$ 680.000; 311 Rua General Osório 57 apto 136, Canto do Forte, R$ 1.242.000; 310 Rua General Osório 57 apto 141, R$ 1.230.000), nenhum retirado, 1 com valor alterado (cód. 309, Av. Marechal Hermes 328, Canto do Forte: R$ 300.000 → R$ 279.900). Endereços pela Praedium; os prédios não têm nome no cadastro. Cód. 305 está inativo na Praedium e já não estava no site."
+    },
+    {
+      "data": "2026-11-18",
+      "arquivosLidos": [
+        "5. FRENTE MAR: Kalyl (14/11), Saga (16/11), Costa Real, Leandro Cabelo, Vista Atlântico (17/11), Eduardo Stefano, M² (13/11), Veraneio (04/11), Ariani Galeano, PGI (12/10), Gomes e Ferreira (nov), Coliseum (07/11), Jean Diegues (arquivo de 17/11), William Buongiovanni (11/11)",
+        "7. LANÇAMENTOS (6 de 104 PDFs alterados): Allure, Lagos (11/11), Mainá, Infinity One (tabela do Alex Ranciaro), Golden Park, Praias do Atlântico"
+      ],
+      "resumo": "Frente Mar: Bragança 81 (Vista Atlântico) de R$ 650 mil para R$ 620 mil; Jean Diegues Ref. 716 de R$ 320 mil para R$ 350 mil e 2 unidades novas (Ref. 728, 1 dorm em prédio frente mar no Caiçara, R$ 345 mil; Ref. 729, 1 dorm frente mar na Guilhermina, 70 m², R$ 398 mil); datas novas de Kalyl (14/11), Saga (16/11), Vista Atlântico (17/11), M² (13/11) e William (11/11); demais valores iguais. Lançamentos: Allure sem o 78 e Praias do Atlântico sem o 154 (retirados do painel por terem saído das tabelas); Lagos com tabela de 11/11 e o 123 reservado; Mainá, Golden Park e Allure 42/76 sem mudança de valor. Os outros 98 PDFs alterados da pasta 7 ficaram em pendentes (70 entraram agora; 28 já estavam na fila de 04/11).",
+      "pendentesDeConferencia": [
+        "Jean Diegues: Ref. 713 (kitnet frente praia, Guilhermina, R$ 250 mil) não aparece na tabela de 17/11; ficou no painel com observação. Conferir se foi vendida. Ref. 731 (1 dorm \"pé na areia\", Aviação, R$ 315 mil) não entrou porque a tabela não diz \"frente mar\".",
+        "Kalyl: Atlantic House 701 (R$ 650 mil) segue fora da tabela de 14/11 e continua no painel. Conferir se foi vendido.",
+        "Allure: na tabela nova o 42 fecha com 10 mensais (saldo R$ 655.200) e o 76 com 12 (saldo R$ 584.000), embora o cabeçalho diga 10 parcelas; fluxos não alterados.",
+        "Infinity One: a tabela \"Alex Ranciaro\" traz o 112 a R$ 645 mil e o 114 a R$ 630 mil (o painel tem R$ 636.600 e R$ 628.800 pela tabela da GMV, sem alteração desde 10/11). Parece revenda de investidor; não alterado.",
+        "Pasta 5 não lida: KF (62 MB) e Kamila Amâncio (169 MB), pelo tamanho; Erick Pereira, Ectual e Vision ficam fora do escopo frente-mar.",
+        "Pasta 7: 98 PDFs (70 novos na fila, 28 já estavam) alterados de 11/11 a 17/11 ficaram em pendentes (entre eles House Garden, Copenhagen, Legacy, Alabama, Costa Viva, Plácido Carvalho, Rafaela, Trivento, Jardim Europa, Grená, Miosotis, Vila Mar, Dunas, Platinus, Unique, Évora e prédios de outras origens)."
+      ],
+      "semOrigemMapeada": [
+        "ALABAMA - Aptos 2 e 3 dorm (Caiçara)",
+        "ANDARAGUÁ - Aptos 1 e 2 dorm (Jd. Real)",
+        "ARIANI GALEANO - Apto 2 dorm (Tupi')",
+        "ARJONAS - Aptos 1 dorm (Boqueirão/Aviação) + Aptos 2 dorm (Forte/Boqueirão/Guilhermina''/Aviação/Ocian/Caiçara) + Apto 3 dorm (Forte) + Sala comercial (Tupi)",
+        "ARJONAS - Sala comercial (Tupi)",
+        "ASHOW - Casas 2 dorm (Guilhermina) + Casas 3 dorm (Guilhermina/Mirim) + Casa 4 dorm (Aviação)",
+        "Alabama - Aptos 2 e 3 dorm (Caiçara)",
+        "Allure - Aptos 2 dorm (Forte)",
+        "Andaraguá - Aptos 1 e 2 dorm (Jd. Real)",
+        "Apto 1 dorm (Forte) + Aptos 2 dorm (Guilhermina/Aviação) + Aptos 3 dorm (Guilhermina/Aviação) + Locação - Aptos 1 dorm (Forte) + Apto 2 dorm (Guilhermina) + Casa 3 dorm (Boqueirão)",
+        "Aptos 1 dorm (Aviação/Tupi) + Aptos 2 dorm (Boqueirão/Guilhermina/Aviação/Tupi/Caiçara) + Aptos 3 dorm (Caiçara)",
+        "Aptos 1 dorm (Guilhermina'/Tupi) + Aptos 2 dorm (Guilhermina\"/Tupi')",
+        "Aptos 1, 2 e 3 dorm (Guilhermina') + Triplex 2 dorm (São Vicente-SP) + Sobrado em Cond 3 dorm (Vila Antártica) + Res New Wave II - Casas em Cond 2 e 3 dorm (Caiçara)",
+        "Aptos 2 dorm (Aviação/Mongaguá-SP') + Sobrado 2 dorm (Jd.Real) + Sobrado em Cond 2 dorm (Mongagua-SP)",
+        "Aptos 2 dorm (Boqueirão\"/Tupi')",
+        "Aptos 2 dorm (Ocian'/Caiçara'/Mirim) + Apto 3 dorm (Caiçara)",
+        "Book Rafaela",
+        "CONSTRULIBERA - Sobrados 3 dorm (Tupi)",
+        "Casa 2 dorm (Caiçara)",
+        "Casas Individuais 2 dorm (Tupi)",
+        "Evoque - Aptos 2 dorm (Tupi)",
+        "FMOREIRA - Casa 3 dorm (Boqueirão)",
+        "FMOREIRA- Aptos 1 dorm (Forte) + Casa 3 dorm (Boqueirão)",
+        "GB MENEZES - Aptos 1, 2 e 3 dorm (Guilhermina')",
+        "GB MENEZES - New Wave II - Casas em Cond 2 e 3 dorm (Caiçara)",
+        "GB MENEZES - Sobrado em Cond 3 dorm (Vila Antártica)",
+        "GB MENEZES - Triplex 2 dorm (São Vicente-SP)",
+        "GOMES E FERREIRA - Aptos 2 dorm (Aviação/Caiçara\") + Aptos 3 dorm  (Guilhermina'/Aviação/Caiçara\")",
+        "GOMES E FERREIRA - Aptos 2 dorm (Aviação/Caiçara’’) + Aptos 3 dorm (Aviação/Caiçara’’)",
+        "GOMES E FERREIRA - Aptos 3 dorm (Guilhermina')",
+        "GUIOMAR - Casa 2 dorm (Caiçara)",
+        "House Garden (Apoio a Produção) - Aptos 2 dorm (Forte)",
+        "House Garden (Habite-se) - Aptos 2 dorm (Forte)",
+        "Ilha do Mel I - Casa em Cond 2 dorm (Ribeirópolis)",
+        "JUNIOR RAMOS - Aptos 2 dorm (Ocian'/Caiçara')",
+        "Jardim do Forte - Aptos 2 e 3 dorm (Forte)",
+        "Kit (Guilhermina) + Aptos 1 dorm (Guilhermina\") + Aptos 2 dorm (Guilhermina') + Casas 2 dorm (Guilhermina/Jd.Imperador) + Casas 3 dorm (Guilhermina/Mirim) + Casa 4 dorm (Aviação) + Casas em Cond 2 dorm (Guilhermina) + Terreno (Guilhermina)",
+        "Kit (Ocian/Caiçara) + Apto 1 dorm (Ocian) + Aptos 2 dorm (Ocian'/Guilhermina/Caiçara'/Mirim)",
+        "Kit (Vila Assunção) + Aptos 1 dorm (Forte/Aviação/Tupi) + Aptos 2 dorm (Forte/Aviação/Tupi)",
+        "Kits (Boqueirão/Tupi) + Aptos 1 dorm (Forte/Boqueirão/Guilhermina/V.Assunção/Aviação/Tupi) + Aptos 2 dorm (Forte/Boqueirão/Guilhermina/Aviação/Tupi/Ocian) + Aptos 3 dorm (Forte/Guilhermina'/Aviação/V.assunção/Tupi) + Cobertura 3 dorm (Aviação) + Casa em Cond 2 dorm (Tupiry) + Casas 2 dorm (Mirim/Caiçara) + Galpão comercial (Tupi)",
+        "Lagos - Aptos 2 dorm (Guilhermina)",
+        "MA Imóveis - Aptos 2 dorm (Ocian'/Caiçara')",
+        "MA Imóveis - Kit (Ocian/Caiçara) + Apto 1 dorm (Ocian) + Aptos 2 dorm (Ocian'/Guilhermina/Caiçara'/Mirim)",
+        "MARCELUS CONDE - Aptos 2 e 3 dorm (Caiçara)",
+        "MMF - Casas Individuais 2 dorm (Tupi)",
+        "Maria Fernandes - Aptos 2 e 3 dorm (Jd. Imperador)",
+        "Marrocos - Casas em Cond 2 dorm (Itanhaém-SP)",
+        "Miosotis - Aptos 1, 2 e 3 dorm (Flórida)",
+        "NOVA CASARÃO - Aptos 2 e 3 dorm (Guilhermina')",
+        "NOVA CASARÃO - Casas 2 dorm (Mirim/Caiçara)",
+        "NOVA CASARÃO - Casas em Cond 2 dorm (Tupiry)",
+        "NOVA CASARÃO - Galpão comercial (Tupi)",
+        "OCEANIC - Aptos 2 dorm (Mongaguá-SP')",
+        "OCEANIC - Sobrado 2 dorm (Jd. Real)",
+        "PUDDO - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte)",
+        "Paradise - Aptos 2 e 3 dorm (Guilhermina)",
+        "Park Avenue - Aptos 2 e 3 dorm (Guilhermina)",
+        "Pedro Menezes - Aptos 2 dorm (Guilhermina)",
+        "Pq. das Amoreiras - Aptos 3 e 4 dorm (Forte)",
+        "Revenda - Apto 1 dorm (Tupi) + Apto 2 dorm (Forte)",
+        "Revenda - Aptos 1 dorm (Boqueirão/Aviação) + Aptos 2 dorm (Forte/Boqueirão/Guilhermina''/Aviação/Ocian/Caiçara) + Apto 3 dorm (Forte) + Sala comercial (Tupi)",
+        "Revenda - Aptos 2 dorm (Aviação/Caiçara\") + Aptos 3 dorm (Guilhermina'/Aviação/Caiçara\") + Locação - Galpão comercial (São vicente-SP)",
+        "San Marino - Casa em Cond 2 dorm (V. Assunção)",
+        "Sobrados 3 dorm (Tupi)",
+        "Turim - Aptos 2 e 3 dorm (Caiçara)",
+        "VISTA ATLÂNTICO - Apto 1 dorm (Guilhermina') + Apto 2 dorm (Tupi')",
+        "Águia Dourada III - Casa em Cond 2 dorm (Esmeralda)"
+      ],
+      "semOrigemMapeadaNota": "Nomes da primeira página (100 PDFs) da busca de PDFs alterados após 11/11 na pasta do mês, fora das pastas 5 e 7; a lista não está completa. Não lidos."
     }
   ],
   "pendentes": {
-    "sobre": "Arquivos do Drive ainda não lidos: os de 26/10/2026 que a carga inicial não leu e os da pasta 7 alterados até 04/11/2026 que ficaram na fila. A rotina processa estes primeiro; ao concluir cada um, remove da lista e registra em historico.",
+    "sobre": "Arquivos do Drive ainda não lidos: os de 26/10/2026 que a carga inicial não leu, os da pasta 7 alterados até 04/11/2026 e os da pasta 7 alterados entre 11/11 e 17/11/2026 que ficaram na fila em 18/11. A rotina processa estes primeiro; ao concluir cada um, remove da lista e registra em historico.",
     "apartamentos": [
       {
         "id": "1V46FcH56bF6zkto40vzo_OfI18_-ZIeF",
@@ -874,6 +960,426 @@
         "titulo": "Vita Nostra - Cobertura 3 dorm (Caiçara)",
         "pasta": "7. LANÇAMENTOS",
         "motivo": "alterado em 28/10; ficou na fila da varredura de 04/11/2026 (não lido)"
+      },
+      {
+        "id": "1Gv7fLC_tHxHVIfcE29ttcNCUa3hQAU6b",
+        "titulo": "Pq. das Amoreiras - Aptos 3 e 4 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1Dwgth0LZ7agD8p5jDoCIRzN3oet6hv_L",
+        "titulo": "Park Avenue - Aptos 2 e 3 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1bSCMH7-IqkLD9H-V0ndMizShurYLTa77",
+        "titulo": "House Garden (Apoio a Produção) - Aptos 2 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1l3khnxYVoZVNIPwPzdL_XkBRB_lpL5Y_",
+        "titulo": "House Garden (Habite-se) - Aptos 2 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1aa25ABhuZ_Z81mky_gb8uoZMVZrfAFuZ",
+        "titulo": "Jardim do Forte - Aptos 2 e 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1jlxQYb3BCcSfvMx55Moo2tDyqTNlfWpA",
+        "titulo": "Miosotis - Aptos 1, 2 e 3 dorm (Flórida)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1No7xfRP7tn0wWxH3lIsEBmKdBk5ZGczs",
+        "titulo": "Paradise - Aptos 2 e 3 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1t7VqrbWeDkF0EMaYxIfsn26NfcdrIDLO",
+        "titulo": "Maria Fernandes - Aptos 2 e 3 dorm (Jd. Imperador)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "16E3xu6JYug9JdWcXLVKfox_YFXTqUwqo",
+        "titulo": "Alabama - Aptos 2 e 3 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "10x2CoYLoa7n5FovInWW3EPWiGKUCq-R3",
+        "titulo": "Vila mar - Aptos 1 e 2 dorm (Mirim)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1K6IyjO47OhDxe2BFBL3YY9Mw4OqvI4MT",
+        "titulo": "Legacy (Direto) - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1rHvMpwn99_w-fhAWkuNF3mMRI-S1tlRh",
+        "titulo": "Legacy (Bancário) - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1JKWcLipNa2_ep0-Zip7U3xM8IuzvdOb9",
+        "titulo": "Raimundo Gomes - Apto 2 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1YrnRQVX2ePR-uoLn_3qLREtzX9EPZKCe",
+        "titulo": "Personnalité - Aptos 2 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1qT0QqrT25MvfDzwZKFa-09tEfHN82dZH",
+        "titulo": "Romero - Aptos 2 dorm (Jd Real)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 17/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1e8AWUXOwIdZ8QDS2ojIg4s8KK2VfQfEg",
+        "titulo": "Harmony - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1dvO0kwFSctq1QqEVI7x_u2tLOq1Chbrk",
+        "titulo": "Apolo - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1kxWIXIRVx7eohhoTkE7HAT83s55lP3no",
+        "titulo": "Pettra Boqueirão - Aptos 1 dorm (Boqueirão)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1oaXJ11_UzUN11CFcPuiVbq40iOzDxMgE",
+        "titulo": "Jocelino VIII - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1lktaAcMb1Fd54Nt3KlLKoY2HNT_zAmcv",
+        "titulo": "Jocelino IX - Aptos 2, 3 e 4 dorm (Tupi) +  Coberturas  (Tupi)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1hkWBq0E86TLbtHSBc4x8pcO8V2t47hN9",
+        "titulo": "Praia Mar - Aptos 1 dorm (Vilamar)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1m9QgFr7KmFGSNRNBECsfdcTR3PH6JDmb",
+        "titulo": "Atlantic Flat - Aptos 1 e 2 dorm (Jd real)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1vRxqF5yhkAPsAU6zXNWjLc5WuPdatF2A",
+        "titulo": "Rafaela - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1SU8mpk7UQ3X5L-HEkubxjrNOpUserc-8",
+        "titulo": "Jardim Europa - Aptos 2, 3 e 4 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "12qVf5szTx26E8YR6TH193L4omaQPtuvy",
+        "titulo": "Costa Atlântica - Aptos 2 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1qS0MI41H6_IRYjZmA3fLGAJ4AFHjCbBk",
+        "titulo": "Costa Viva - Aptos 2 e 3 dorm (Tupi)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1Zt2wswR2wSx4Jd8I4uzL8YZrZ7-1T7Es",
+        "titulo": "Innovare II - Apto 2 dorm (Mirim)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1nvhhNW4vH5shYl29nP7y9AsxAwbGcK4G",
+        "titulo": "Viareggio - Aptos 2 dorm (Ocian)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1TrGvuvrvR83a496X4Fk_voZUDa7KUXNy",
+        "titulo": "Uruitá - Aptos 1 e 2 dorm (Tupi)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "16QcqNG7QwXcmO4igscDZ_EFVewDZ9xVM",
+        "titulo": "Grená - Aptos 1 e 2 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1vAtJUDoXu9ik1jpjtrHMbq3J6oo9wsDz",
+        "titulo": "Marino - Aptos 2 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1iAHIJJzdjWDlb6QecOgDrlfOnl3ud2Ur",
+        "titulo": "Trivento - Aptos 2 e 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1MS0_sAy-8RgZknG4Y35Cu-TgEsCyIOwG",
+        "titulo": "Max 10 (Direto) - Aptos 1 e 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1qXkX9JAebxhVuM2-ZHorz8C_IlLIo8Y8",
+        "titulo": "Max 10 (Bancário) - Aptos 1 e 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 16/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1psdi0T_aNvf7Rj8FsJc-dJViSBfqRpFC",
+        "titulo": "Atlantic Square - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 14/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1haII8HiTkC3QM25ZZuyIwOuhgYQFVtCg",
+        "titulo": "Safira - Aptos 2 e 3 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1zz-RHbBdDaGgfmlH0WCaH2Ch1WdBMLOq",
+        "titulo": "Teresa - Aptos 1 e 2 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1r4uYq-alT_d8_PUbyuydrkXy0fjewbfD",
+        "titulo": "Francisco de Goya - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1MRHImC2G3rrtldzOInLyU-FbRCC8ELuu",
+        "titulo": "Copenhagen - Aptos 2 e 3 dorm (Forte) (Banco)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1DRU_34eYM3xm7817Ykf_3TTb4nFw7a5K",
+        "titulo": "Copenhagen - Aptos 2 e 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "11QE2O5dbiGHiRIhZxS0djnMPzc8pSj7S",
+        "titulo": "Paolo Veronese - Aptos 1 e 2 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1vZdqeHQte3jb_fnnBVKHGtV_CjxVkDJk",
+        "titulo": "Manoel Augusto Novais - Aptos 2 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "19be76KNpEl_FwQM8KVA8dgUDuGcGLX3V",
+        "titulo": "Dante Alighieri - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1sg_fLQho_S3_-1YFa5iyMQKqgZ28ObZj",
+        "titulo": "Villa Verano (Direto) - Aptos 1 e 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1sXjIKISo2k6YbBwgZfiefiWKWy1KEPKI",
+        "titulo": "Villa Verano (Bancário) - Aptos 1 e 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1H_Qs8w1uzCDnHZzV-WIRvqrptA-MX0jc",
+        "titulo": "Porto Marina - Aptos 2 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1xON0ps0vortGaHFwSqSIo65A07zrRLiC",
+        "titulo": "Maresias Beach - Aptos 2 e 3 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 13/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "12ryypEYq9hEt-eg0MBvZYI65VbugifCL",
+        "titulo": "Bella Collina - Aptos 2 e 3 dorm (Boqueirão)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "18htHeRzGmLR_NOJYo_A1oORYS0nrWz2v",
+        "titulo": "Arcoli 4 (Torre I) - Aptos 2 dorm (Mirim)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "17yroz9ljv1z5I7E7cH2ffQ-0AuwoJMa7",
+        "titulo": "14 Bis - Aptos 2 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "16OoklKlOqTw-zSN8o5CogsjHG8wYIg9C",
+        "titulo": "Cravina - Aptos 1 e 2 dorm (Jd.Real)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1vUIECXGKh5uKIq5TCA8BT4gBaqvQThMs",
+        "titulo": "Primor (Alice) - Aptos 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1IUBXAGsTO1tDAMIssNoz_9wdGlp0vcaN",
+        "titulo": "Primor (Antonela) - Aptos 2 e 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1LctMPSdIOvJzuo-3R6m7FPvOgR99j0DX",
+        "titulo": "Azure - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1ZcV5ej2m2wM6AMUh4P8IWXkPjhz3Ix7E",
+        "titulo": "Azure (Fn.Direto) - Aptos 2 dorm (Guilhermina)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "13WCOYBtlD63Ydd28mso8POK6Ic1ws-md",
+        "titulo": "Vaz 300 - Aptos 3 e 4 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1VlNxcXx0b8LKsviBfveqQb_YZLdvwPjH",
+        "titulo": "Trinon IX (Fim 1 e 2) - Aptos 2 dorm (Ocian)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1L5uZGJmL2QDa1b_9QJV7PVPhOExG3PPh",
+        "titulo": "Trinon IX (Fim 3 e 4) - Aptos 2 dorm (Ocian)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 12/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "17B3_s1tNRBpIC1K83xy_3iG_6K6U8Jgo",
+        "titulo": "Palermo - Aptos 2 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1k_Nj3coXUeEm-WCl1j22fCzz5hUlHQdt",
+        "titulo": "Plácido Carvalho - Aptos 2 e 3 dorm (Aviação)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1JilHUQQCz1EA9gG66h0GpjvjpHIPsbgy",
+        "titulo": "Platinus - Aptos 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1S2aIHVucqbk9UUO08Cr0csc5hiK-0E9j",
+        "titulo": "Turim - Aptos 2 e 3 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1O1HdcB4sotVYDvDFxnPpFICB7EOp29Gh",
+        "titulo": "Unique - Aptos 3 dorm (Forte)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1giZ0McanxAmi8aL4gKejFHDLu41WNOAX",
+        "titulo": "Évora B - Aptos 2 e 3 dorm (Flórida)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1VYKKzGWb2xIm8wl3xZJBU7F7sz0TcUxp",
+        "titulo": "Évora A - Aptos 2 e 3 dorm (Flórida)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "13g5Rb36MApY5KSHJGAEpzoQJSY23Tmlk",
+        "titulo": "Merlot Residence - Aptos 2 e 3 dorm (Ocian)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1NBIFA4Erh0jbgqAQdfv6ekUTNJWE4U8m",
+        "titulo": "Priority - Aptos 1 e 2 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1zEbpn9AmXpDvlg-u5nara6tB_veZrWgO",
+        "titulo": "Villaggio Di Fiore - Aptos 2 e 3 dorm (Ocian)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1BH4og47AsvLsI7IH7_vxcnzKV0UrfWGZ",
+        "titulo": "Vita Nostra - Cobertura 3 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
+      },
+      {
+        "id": "1h43-c6Zn-yIkHB38OEFtgYnG0Y1Iip8j",
+        "titulo": "Concept - Aptos 2 dorm (Caiçara)",
+        "pasta": "7. LANÇAMENTOS",
+        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
       }
     ],
     "casasEComerciais": [
