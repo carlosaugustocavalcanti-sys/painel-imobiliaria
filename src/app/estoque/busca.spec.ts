@@ -93,13 +93,10 @@ describe('busca', () => {
     const ls = montarLinhas([
       predio({ id: 'a', unidades: [u('a:0', { vista: 'Frente ao mar' }), u('a:1', { obs: 'Prédio frente mar · sacada' }), u('a:2', { obs: 'Em frente ao futuro píer' })] }),
       predio({ id: 'b', endereco: 'Av. Pres. Castelo Branco, 12000', unidades: [u('b:0', { obs: 'Lado rua' })] }),
-      // na Castelo Branco, a unidade de fundos (pela planta) também entra no filtro, mas não ganha a etiqueta de frente mar
-      predio({ id: 'd', endereco: 'Av. Presidente Castelo Branco, 9000', unidades: [u('d:0', { posicao: 'Fundos' })] }),
       // Seven Guilhermina: posição da unidade no prédio, longe da praia
       predio({ id: 'c', endereco: 'Rua Dr. João Sampaio, 840', unidades: [u('c:0', { det: 'Frente, lado praia' })] }),
     ]);
-    expect(ls.filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['a:0', 'a:1', 'b:0', 'd:0']);
-    expect(ls.find((l) => l.u.ref === 'd:0')?.frenteMar).toBe(false);
+    expect(ls.filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['a:0', 'a:1', 'b:0']);
     expect(L.filter((l) => passa(l, F({ frente: true }))).length).toBe(0);
   });
 
@@ -115,7 +112,7 @@ describe('busca', () => {
     expect(rotuloMar(u({}), rua)).toBe('');
   });
 
-  it('posição na planta decide a etiqueta de frente mar; o filtro traz todo prédio da Av. Castelo Branco', () => {
+  it('posição na planta da construtora decide o frente mar, mesmo na Av. Castelo Branco', () => {
     const u = (ref: string, extra: Partial<Unidade>): Unidade => ({ ref, origem: 'usados', origens: ['usados'], mercado: 'revenda', fase: 'pronto', status: 'disponivel', ...extra });
     const torres = predio({
       id: 't',
@@ -131,10 +128,7 @@ describe('busca', () => {
     // lateral é vista mar; fundos não, mesmo com vista mar na tabela
     expect(montarLinhas([torres]).filter((l) => passa(l, F({ vista: true }))).map((l) => l.u.ref)).toEqual(['t:0', 't:1', 't:3']);
     expect(rotuloMar(torres.unidades![4], torres)).toBe('Fundos da Torre A, voltado para a Torre B');
-    // a etiqueta "frente mar" segue a planta, mas o filtro "Só frente mar" traz todo o prédio da Castelo Branco (pedido do Carlos, 18/11/2026)
-    const linhas = montarLinhas([torres]);
-    expect(linhas.filter((l) => l.frenteMar).map((l) => l.u.ref)).toEqual(['t:0']);
-    expect(linhas.filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['t:0', 't:1', 't:2', 't:3', 't:4']);
+    expect(montarLinhas([torres]).filter((l) => passa(l, F({ frente: true }))).map((l) => l.u.ref)).toEqual(['t:0']);
     expect(rotuloMar(torres.unidades![0], torres)).toBe('Frente mar, Torre A');
     expect(rotuloMar(torres.unidades![1], torres)).toBe('Vista mar · Lateral, Torre A');
     expect(rotuloMar(torres.unidades![2], torres)).toBe('Frente da Torre B, voltado para a Torre A');
