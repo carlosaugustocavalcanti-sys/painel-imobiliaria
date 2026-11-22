@@ -80,14 +80,29 @@ if (existsSync(ARQ_ATIVOS)) {
 }
 /** Fichas de buscas avulsas (ex.: frente mar em Mongaguá) não estão na lista semanal de Praia Grande: valem por 14 dias desde a leitura. */
 const buscaRecente = (f) => !!f.busca && (Date.now() - new Date(f.lidoEm)) / 864e5 <= 14;
+
+/* ---------- corretor ou imobiliária anunciando como particular ---------- */
+// A OLX marca "profissional" só quem tem conta de empresa; muito corretor anuncia com conta pessoal e assina com CRECI.
+// O Carlos quer só proprietários (22/11/2026): sai quem informa CRECI, se apresenta como corretor ou diz que não é o dono,
+// a não ser que diga que é o proprietário deste imóvel (corretor vendendo o próprio imóvel continua).
+const CORRETOR_RE = /\bcreci|corretor[a]?\s+de\s+im[oó]veis|\bsou\s+corretor|n[aã]o\s+sou\s+(?:o\s+|a\s+)?propriet[aá]ri|an[uú]ncio\s+de\s+imobili[aá]ria|consultor[a]?\s+imobili[aá]ri/i;
+const DONO_RE = /propriet[aá]ri[oa]\s+(?:deste|desse|do)\s+im[oó]vel|(?<!n[aã]o\s)\bsou\s+(?:o\s+|a\s+)?propriet[aá]ri[oa]/i;
+// Assinatura "Marta Braga corretora" / "Paula Corretora": nome próprio seguido de corretor(a), fora de "Sem corretor", "Aceito corretor"...
+const NAO_NOME = new Set(['sem', 'aceito', 'aceita', 'atendo', 'dispenso', 'com', 'para', 'ao', 'o', 'a', 'seu', 'sua', 'pelo', 'pela', 'chame', 'fale', 'falar', 'nenhum', 'outro']);
+const assinaComoCorretor = (t) => [...t.matchAll(/([A-ZÀ-Ú][a-zà-ú]+)\s+corretor[a]?\b/g)].some((m) => !NAO_NOME.has(m[1].toLowerCase()));
+export const ehCorretor = (a) => {
+  const t = `${a.titulo}\n${a.descricao}`;
+  return /imobili[aá]ria|corretor/i.test(a.anunciante ?? '') || ((CORRETOR_RE.test(t) || assinaComoCorretor(t)) && !DONO_RE.test(t));
+};
+
 const lidos = [...fichas.values()].filter((f) => !f.removido && !f.profissional && (!ativos || ativos.has(+f.id) || buscaRecente(f)));
 const anuncios = lidos
   .map((f) => {
     const descricao = textoPuro(f.descricao);
     return { ...f, descricao, bairro: BAIRRO_NOME[f.bairro] ?? f.bairro, telefones: telefonesDoTexto(`${f.titulo}\n${descricao}`) };
   })
-  // buscas avulsas (frente mar) entram mesmo sem telefone no texto: o Carlos chama pelo chat da OLX
-  .filter((a) => (a.telefones.length || buscaRecente(a)) && a.anunciante)
+  // Só proprietários de Praia Grande com nome e telefone escritos no anúncio (pedido do Carlos em 22/11/2026)
+  .filter((a) => a.telefones.length && a.anunciante && a.cidade === 'Praia Grande' && !ehCorretor(a))
   .sort((a, b) => (a.publicado ? 0 : 1) - (b.publicado ? 0 : 1) || String(b.publicado).localeCompare(String(a.publicado))); // sem data (Imóvel Web) por último
 
 const lidoEm = new Date().toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' });

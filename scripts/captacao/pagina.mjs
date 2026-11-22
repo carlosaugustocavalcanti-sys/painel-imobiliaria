@@ -243,7 +243,8 @@ function render() {
   $('#cats').innerHTML = CATS.filter(([v]) => !v || anuncios.some((a) => a._cat === v)).map(([v, t]) => '<button type="button" role="radio" data-grupo="cat" data-v="' + v + '" aria-checked="' + (f.cat === v) + '">' + t + ' <span>' + conta('cat', v, (a, x) => !x || a._cat === x) + '</span></button>').join('');
   $('#quartos').innerHTML = chips('quartos', QUARTOS, (v) => conta('quartos', v, (a, x) => x === '4' ? a.quartos >= 4 : a.quartos === +x));
   $('#mar').innerHTML = chips('mar', MARS, (v) => conta('mar', v, (a) => a._mar));
-  $('#fones').innerHTML = chips('zap', ZAPS, (v) => conta('zap', v, (a, x) => (x === 'chat' ? semFone(a) : !semFone(a) && (x === 'cel') === celular(a))));
+  // "Sem telefone" só aparece quando há anúncio sem telefone (buscas avulsas); na lista de proprietários não há
+  $('#fones').innerHTML = chips('zap', ZAPS.filter(([v]) => v !== 'chat' || anuncios.some(semFone)), (v) => conta('zap', v, (a, x) => (x === 'chat' ? semFone(a) : !semFone(a) && (x === 'cel') === celular(a))));
   $('#status').innerHTML = chips('status', [['', 'Todos'], ...STATUS], (v) => conta('status', v, (a, x) => statusDe(a) === x));
   const bairros = {}; anuncios.filter((a) => passa(a, 'bairro')).forEach((a) => { const b = a.bairro || 'Não informado'; bairros[b] = (bairros[b] || 0) + 1; });
   $('#bairro').innerHTML = '<option value="">Todos os bairros</option>' + Object.entries(bairros).sort((x, y) => x[0].localeCompare(y[0], 'pt-BR')).map(([b, n]) => '<option value="' + esc(b) + '"' + (f.bairro === b ? ' selected' : '') + '>' + esc(b) + ' (' + n + ')</option>').join('');
@@ -311,7 +312,7 @@ export function paginaCaptacao({ lidoEm, lidosTotal, anuncios }) {
   <div class="topo-in">
     <div class="marca">
       <h1>Capta<em>ção</em></h1>
-      <p><b>Proprietários anunciando na OLX</b> · Praia Grande e Mongaguá · venda · lido em <span id="lido"></span>. Só neste computador: não vai para o painel nem para a internet.</p>
+      <p><b>Proprietários anunciando na OLX</b> · Praia Grande · venda · lido em <span id="lido"></span>. Só neste computador: não vai para o painel nem para a internet.</p>
     </div>
     <label class="busca">
       <span class="sr">Buscar</span>
@@ -337,7 +338,7 @@ export function paginaCaptacao({ lidoEm, lidosTotal, anuncios }) {
   <ul class="lista" id="lista"></ul>
   <div class="vazio" id="vazio" hidden><b>Nenhum anúncio com esses filtros</b>Tire um filtro ou limpe a busca.</div>
   <div class="mais-itens" id="mais"><button type="button" class="bt"></button></div>
-  <p class="rodape">Fonte: anúncios de particulares da OLX (olx.com.br), Praia Grande, venda. Dos <span id="total"></span> anúncios de particulares lidos, entram só os que trazem o telefone do proprietário escrito no anúncio; os outros só atendem pelo chat da OLX. O nome é o que a OLX mostra do anunciante (às vezes só o primeiro nome ou um apelido). Confira o número na descrição antes de ligar. O andamento e as anotações ficam salvos neste navegador.</p>
+  <p class="rodape">Fonte: anúncios de particulares da OLX (olx.com.br), Praia Grande, venda. Dos <span id="total"></span> anúncios de particulares lidos, entram só os que trazem o nome e o telefone do proprietário escritos no anúncio; os outros só atendem pelo chat da OLX. Ficam de fora os anúncios de corretores e imobiliárias (quem informa CRECI ou diz que não é o dono), mesmo publicados como particular. O nome é o que a OLX mostra do anunciante (às vezes só o primeiro nome ou um apelido). Confira o número na descrição antes de ligar. O andamento e as anotações ficam salvos neste navegador.</p>
 </main>
 <script>const DADOS = ${dados};</script>
 <script>${JS}</script>
