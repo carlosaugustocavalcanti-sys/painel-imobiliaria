@@ -1,8 +1,301 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-18",
+ "lidoEm": "2026-11-22",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-323",
+   "nome": "Avenida Marechal Mallet, 200",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Avenida Marechal Mallet, 200 - Canto do Forte - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 323)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "22/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "16",
+     "andar": 1,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 89,
+     "vagas": "1",
+     "valor": 650000,
+     "cond": 632,
+     "iptu": 415,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda no Canto do Forte com 89 m² e 2 Dorm 1 Suite. Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Grande, Fechadura Digital, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro",
+     "fonte": "Site Lesan Imóveis (cód. 323)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "22/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-89m2-id-323"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-175",
+   "nome": "Castelo Branco, 378",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Castelo Branco, 378 - Canto do Forte - Praia Grande/SP",
+   "lazer": [],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 175)",
+     "contato": "Lesan Imóveis (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "307",
+     "andar": 2,
+     "tipologia": "Kitnet",
+     "dorm": 0,
+     "area": 29,
+     "valor": 270000,
+     "cond": 467,
+     "iptu": 115,
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Kitnet à Venda no Canto do Forte Frente ao Mar por R$ 260 Mil. Ar condicionado, Armário de Cozinha, Box Blindex, Frente para o mar, Mobiliado, Móveis Planejados. Entregue em 2000",
+     "fonte": "Site Lesan Imóveis (cód. 175)",
+     "contato": "Lesan Imóveis (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/kitnet-a-venda-1-quarto-canto-do-forte-praia-grande-sp-29m2-id-175"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-247",
+   "nome": "Ed. Solar das Oliveiras",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Caiçara",
+   "fase": "pronto",
+   "endereco": "Rua Salvador Molinari, 84 - Vila Caiçara - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 247)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "22/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "804",
+     "andar": 8,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 101,
+     "vagas": "1",
+     "valor": 560000,
+     "cond": 1250,
+     "iptu": 472,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Oportunidade no Litoral: 2 Quartos, Suíte e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Banheira, Box Blindex, Copa, Cozinha Grande, Frente para o mar, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 247)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "22/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-101m2-id-247"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-322",
+   "nome": "Jardins do Mar",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "fase": "pronto",
+   "endereco": "Avenida Presidente Castelo Branco, 1800 - Guilhermina - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Churrasqueira",
+    "Espaço Fitness",
+    "Piscina",
+    "Piscina para Adulto",
+    "Quadra Poliesportiva",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Sauna",
+    "Área de Lazer",
+    "Espaço Teen",
+    "Piscina Infantil",
+    "Playground",
+    "Quadra de Futebol"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 322)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "atualizadoEm": "22/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 17)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "351",
+     "andar": 35,
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 100,
+     "vagas": "2",
+     "valor": 1850000,
+     "cond": 850,
+     "iptu": 595,
+     "acesso": "elevador",
+     "vista": "Frente mar",
+     "status": "disponivel",
+     "obs": "100 m², 2 Suítes e Lazer Diferenciado Frente ao Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Varanda, Cozinha Americana, Cozinha Gourmet, Frente para o mar, Lavanderia, Mobiliado, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 322)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "tabela": "22/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-guilhermina-praia-grande-sp-100m2-id-322"
+    },
+    {
+     "unidade": "159",
+     "andar": 15,
+     "tipologia": "3 dorms (2 suítes)",
+     "dorm": 3,
+     "suites": 2,
+     "area": 100,
+     "valor": 1600000,
+     "cond": 1207,
+     "iptu": 627,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Viva de Frente para o Mar em um dos Melhores Bairros da Cidade. Bloco B. Área total 177 m². Ambientes Integrados, Ar condicionado, Armário Embutido, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 17)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-boqueirao-praia-grande-sp-100m2-id-17"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-321",
+   "nome": "Ed. Ghibli",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Assunção",
+   "fase": "pronto",
+   "endereco": "Rua Líbero Badaró, 87 - Vila Assunção - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet",
+    "Salão de Festas",
+    "Salão de Jogos"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 321)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "atualizadoEm": "22/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 111)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 205)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "12",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "area": 49,
+     "vagas": "1",
+     "valor": 300000,
+     "cond": 524,
+     "iptu": 220,
+     "status": "disponivel",
+     "obs": "Box Blindex, Mobiliado, Móveis Planejados, Sacada, Sala Grande",
+     "fonte": "Site Lesan Imóveis (cód. 321)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "tabela": "22/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-vila-assuncao-praia-grande-sp-49m2-id-321"
+    },
+    {
+     "unidade": "44",
+     "andar": 4,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 67,
+     "vagas": "1",
+     "valor": 420000,
+     "cond": 760,
+     "iptu": 322,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento na Cidade Ocean.: mobiliado e pronto para morar!. Armário de Cozinha, Box Blindex, Copa, Cozinha Grande, Lavanderia, Mobiliado, Sacada, Sala Grande, Sala de jantar, Varanda",
+     "fonte": "Site Lesan Imóveis (cód. 111)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-67m2-id-111"
+    },
+    {
+     "unidade": "14",
+     "andar": 1,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 65,
+     "vagas": "1",
+     "valor": 385000,
+     "cond": 570,
+     "iptu": 306,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda na Cidade Ocian, 2 quartos, 1 suíte e lazer completo. Ambientes Integrados, Armário de Cozinha, Box Blindex, Cozinha Gourmet, Cozinha Grande, Lavanderia, Sacada, Sala Grande, Sala de jantar, Varanda",
+     "fonte": "Site Lesan Imóveis (cód. 205)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-65m2-id-205"
+    }
+   ]
+  },
   {
    "id": "lesan-site-80",
    "nome": "Avenida Presidente Castelo Branco, 11302",
@@ -958,71 +1251,6 @@
    ]
   },
   {
-   "id": "lesan-site-111",
-   "nome": "Ed. Ghibli",
-   "cidade": "Praia Grande",
-   "bairro": "Cidade Ocian",
-   "fase": "pronto",
-   "endereco": "Rua Líbero Badaró, 87 - Cidade Ocian - Praia Grande/SP",
-   "lazer": [
-    "Salão de Festas",
-    "Salão de Jogos"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 111)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    },
-    {
-     "fonte": "Site Lesan Imóveis (cód. 205)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "44",
-     "andar": 4,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 67,
-     "vagas": "1",
-     "valor": 420000,
-     "cond": 760,
-     "iptu": 322,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento na Cidade Ocean.: mobiliado e pronto para morar!. Armário de Cozinha, Box Blindex, Copa, Cozinha Grande, Lavanderia, Mobiliado, Sacada, Sala Grande, Sala de jantar, Varanda",
-     "fonte": "Site Lesan Imóveis (cód. 111)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-67m2-id-111"
-    },
-    {
-     "unidade": "14",
-     "andar": 1,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 65,
-     "vagas": "1",
-     "valor": 385000,
-     "cond": 570,
-     "iptu": 306,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Cidade Ocian, 2 quartos, 1 suíte e lazer completo. Ambientes Integrados, Armário de Cozinha, Box Blindex, Cozinha Gourmet, Cozinha Grande, Lavanderia, Sacada, Sala Grande, Sala de jantar, Varanda",
-     "fonte": "Site Lesan Imóveis (cód. 205)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-65m2-id-205"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-117",
    "nome": "Rua Alfonso Bovero, 506",
    "cidade": "Praia Grande",
@@ -1583,54 +1811,6 @@
      "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-vila-tupi-praia-grande-sp-60m2-id-241"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-247",
-   "nome": "Ed. Solar das Oliveiras",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Caiçara",
-   "fase": "pronto",
-   "endereco": "Rua Salvador Molinari, 84 - Vila Caiçara - Praia Grande/SP",
-   "lazer": [
-    "Aceita Pet",
-    "Churrasqueira",
-    "Churrasqueira à Carvão",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 247)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "804",
-     "andar": 8,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 101,
-     "vagas": "1",
-     "valor": 540000,
-     "cond": 1250,
-     "iptu": 472,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Oportunidade no Litoral: 2 Quartos, Suíte e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Banheira, Box Blindex, Copa, Cozinha Grande, Frente para o mar, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 247)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-101m2-id-247"
     }
    ]
   },
@@ -5353,42 +5533,6 @@
    ]
   },
   {
-   "id": "lesan-site-175",
-   "nome": "Castelo Branco, 378",
-   "cidade": "Praia Grande",
-   "bairro": "Canto do Forte",
-   "fase": "pronto",
-   "endereco": "Castelo Branco, 378 - Canto do Forte - Praia Grande/SP",
-   "lazer": [],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 175)",
-     "contato": "Lesan Imóveis (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "307",
-     "andar": 2,
-     "tipologia": "Kitnet",
-     "dorm": 0,
-     "area": 29,
-     "valor": 270000,
-     "cond": 467,
-     "iptu": 115,
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Kitnet à Venda no Canto do Forte Frente ao Mar por R$ 260 Mil. Ar condicionado, Armário de Cozinha, Box Blindex, Frente para o mar, Mobiliado, Móveis Planejados. Entregue em 2000",
-     "fonte": "Site Lesan Imóveis (cód. 175)",
-     "contato": "Lesan Imóveis (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/kitnet-a-venda-1-quarto-canto-do-forte-praia-grande-sp-29m2-id-175"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-217",
    "nome": "Avenida Presidente Castelo Branco, 21648",
    "cidade": "Praia Grande",
@@ -8557,58 +8701,6 @@
      "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-guilhermina-praia-grande-sp-68m2-id-59"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-17",
-   "nome": "Res. Jd do Mar",
-   "cidade": "Praia Grande",
-   "bairro": "Boqueirão",
-   "fase": "pronto",
-   "endereco": "Avenida Presidente Castelo Branco, 1800 - Boqueirão - Praia Grande/SP",
-   "lazer": [
-    "Academia",
-    "Brinquedoteca",
-    "Churrasqueira",
-    "Espaço Fitness",
-    "Espaço Teen",
-    "Piscina",
-    "Piscina Infantil",
-    "Playground",
-    "Quadra Poliesportiva",
-    "Quadra de Futebol",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 17)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "159",
-     "andar": 15,
-     "tipologia": "3 dorms (2 suítes)",
-     "dorm": 3,
-     "suites": 2,
-     "area": 100,
-     "valor": 1600000,
-     "cond": 1207,
-     "iptu": 627,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Viva de Frente para o Mar em um dos Melhores Bairros da Cidade. Bloco B. Área total 177 m². Ambientes Integrados, Ar condicionado, Armário Embutido, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Churrasqueira na Varanda, Cozinha Americana, Frente para o mar, Janela Panorâmica, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sacada Gourmet, Sala Grande, Sala de jantar, Varanda, Varanda Fechada com Vidro, Varanda Gourmet, Vista Panorâmica, Vista para a Montanha, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 17)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-boqueirao-praia-grande-sp-100m2-id-17"
     }
    ]
   },
