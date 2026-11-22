@@ -1,7 +1,7 @@
 {
  "arquivo": "Google Drive/5. FRENTE MAR",
- "lidoEm": "2026-11-18",
- "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (57 prédios, 66 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
+ "lidoEm": "2026-11-22",
+ "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (57 prédios, 65 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
  "predios": [
   {
    "id": "guayi-frente-mar",
@@ -194,26 +194,6 @@
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
-    },
-    {
-     "unidade": "701",
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "status": "disponivel",
-     "area": 66.25,
-     "vagas": "1",
-     "valor": 650000,
-     "iptu": 451.52,
-     "cond": 967.1,
-     "det": "mobiliado (fica como está), sacada gourmet envidraçada, cozinha planejada, lazer completo",
-     "obs": "Preço reduzido. R$ 680 mil no financiamento bancário ou permuta. Condomínio R$ 967,10 (+ taxa de renovação do AVCB R$ 92,22). Chaves: enviar CRECI para autorizar. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
-     "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "14/11/2026",
-     "vistaMar": true,
-     "vista": "Frente mar",
-     "fase": "pronto"
     }
    ],
    "cidade": "Praia Grande",
@@ -224,12 +204,6 @@
      "contato": "Angelica Klein (13) 97405-5450",
      "atualizadoEm": "08/10/2026",
      "arquivo": "GRANDLAR - Apto 2 dorm (Mirim).pdf"
-    },
-    {
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
-     "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "14/11/2026",
-     "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
     }
    ]
   },
@@ -547,45 +521,6 @@
    ]
   },
   {
-   "id": "villagio-di-napoli-frente-mar",
-   "nome": "Villagio di Napoli",
-   "bairro": "Maracanã",
-   "endereco": "Av. Pres. Castelo Branco, 11.590 · Maracanã",
-   "fase": "pronto",
-   "unidades": [
-    {
-     "unidade": "601",
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "status": "disponivel",
-     "area": 85.41,
-     "vagas": "2",
-     "valor": 550000,
-     "iptu": 449.73,
-     "cond": 1180.77,
-     "det": "sacada envidraçada com vista mar, lazer completo, portaria 24h, pintura nova",
-     "obs": "Preço reduzido. Condomínio R$ 1.180,77 + rateio do elevador R$ 148,53. À vista; aceita financiamento bancário e permuta. Chaves: apartamento aberto; enviar CRECI para fotos. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
-     "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "14/11/2026",
-     "vistaMar": true,
-     "vista": "Frente mar",
-     "fase": "pronto"
-    }
-   ],
-   "cidade": "Praia Grande",
-   "notas": [],
-   "tabelas": [
-    {
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
-     "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "14/11/2026",
-     "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
-    }
-   ]
-  },
-  {
    "id": "onix-frente-mar",
    "nome": "Ônix",
    "bairro": "Guilhermina",
@@ -605,9 +540,9 @@
      "cond": 756.21,
      "det": "sacada envidraçada com vista mar, lazer e portaria 24h",
      "obs": "Código Kalyl 11239. R$ 570 mil à vista; R$ 590 mil no financiamento bancário ou permuta. Condomínio R$ 756,21 (+ taxa de elevador R$ 38,12). Chaves: portaria ou Kalyl; enviar CRECI para autorizar. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 18/11/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "14/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -617,9 +552,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Kalyl Imóveis (tabela de 14/11/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 18/11/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "14/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
     }
    ]
@@ -760,9 +695,9 @@
      "cond": 519,
      "det": "duas sacadas, na sala e no quarto",
      "obs": "Aceita financiamento bancário. O proprietário retira TV, máquina de lavar e micro-ondas. Comissão 5%.",
-     "fonte": "PGI (tabela de 12/10/2026)",
+     "fonte": "PGI (tabela de 19/11/2026)",
      "contato": "Luis Moraes (13) 97600-2278",
-     "tabela": "12/10/2026",
+     "tabela": "19/11/2026",
      "vistaMar": true,
      "vista": "Frente ao mar · duas sacadas com vista mar",
      "fase": "pronto"
@@ -772,10 +707,75 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "PGI (tabela de 12/10/2026)",
+     "fonte": "PGI (tabela de 19/11/2026)",
      "contato": "Luis Moraes (13) 97600-2278",
-     "atualizadoEm": "12/10/2026",
-     "arquivo": "PGI - Apto 1 dorm (Maracanã).pdf"
+     "atualizadoEm": "19/11/2026",
+     "arquivo": "PGI - Aptos 1 dorm (Tupi-Maracanã).pdf"
+    }
+   ]
+  },
+  {
+   "id": "ed-mirai-frente-mar",
+   "nome": "Ed. Miraí",
+   "bairro": "Tupi",
+   "endereco": "Rua Caribas, 55 - Vila Tupi (divisa com a Aviação)",
+   "fase": "pronto",
+   "unidades": [
+    {
+     "unidade": "203",
+     "tipologia": "1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 44,
+     "vagas": "2",
+     "valor": 309000,
+     "iptu": 122.9,
+     "cond": 464.16,
+     "det": "duas vagas (uma privativa em condomínio de garagem ao lado e uma coletiva no prédio)",
+     "obs": "Novo na tabela de 19/11/2026. Condomínio R$ 464,16 + R$ 95,87 de rateio da reforma do elevador (até setembro/2027). Aceita financiamento bancário. Comissão 5%.",
+     "fonte": "PGI (tabela de 19/11/2026)",
+     "contato": "Luis Moraes (13) 97600-2278",
+     "tabela": "19/11/2026",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "105",
+     "tipologia": "Kitnet · 1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 38,
+     "vagas": "1 rotativa",
+     "valor": 280000,
+     "iptu": 89,
+     "cond": 350,
+     "det": "kitão dividido em 1 dormitório, todo reformado; 3 elevadores, portaria 24h, fechadura eletrônica",
+     "obs": "Novo (tabela de 19/11/2026). R$ 280 mil à vista; R$ 285 mil no financiamento bancário. Comissão 6%.",
+     "fonte": "Mari Biffi (arquivo de 19/11/2026)",
+     "contato": "Mari Biffi (corretora)",
+     "tabela": "sem data (arquivo de 19/11/2026)",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    }
+   ],
+   "cidade": "Praia Grande",
+   "notas": [],
+   "tabelas": [
+    {
+     "fonte": "PGI (tabela de 19/11/2026)",
+     "contato": "Luis Moraes (13) 97600-2278",
+     "atualizadoEm": "19/11/2026",
+     "arquivo": "PGI - Aptos 1 dorm (Tupi-Maracanã).pdf"
+    },
+    {
+     "fonte": "Mari Biffi (arquivo de 19/11/2026)",
+     "contato": "Mari Biffi (corretora)",
+     "atualizadoEm": "sem data (arquivo de 19/11/2026)",
+     "arquivo": "MARI BIFFI - Kit (Aviação).pdf"
     }
    ]
   },
@@ -1020,9 +1020,9 @@
      "cond": 1350,
      "det": "cobertura duplex, espaço gourmet com churrasqueira e forno a lenha, sauna",
      "obs": "Visitas com agendamento. Comissão 5%.",
-     "fonte": "Saga Imóveis (tabela de 16/11/2026)",
+     "fonte": "Saga Imóveis (tabela de 18/11/2026)",
      "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
-     "tabela": "16/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -1032,9 +1032,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Saga Imóveis (tabela de 16/11/2026)",
+     "fonte": "Saga Imóveis (tabela de 18/11/2026)",
      "contato": "Saga (13) 97411-3677 · (13) 97405-8119",
-     "atualizadoEm": "16/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "SAGA - Cobertura 6 dorm (Tupi).pdf"
     }
    ]
@@ -1117,9 +1117,9 @@
      "acesso": "escada",
      "det": "varanda, semi mobiliado, sem elevador",
      "obs": "Vendido (tabela de 31/10/2026). Aceita financiamento bancário. Enviar foto do CRECI para autorizar visita. Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
+     "tabela": "sem data (arquivo de 20/11/2026)",
      "vistaMar": true,
      "vista": "Frente mar · Av. Pres. Castelo Branco",
      "fase": "pronto"
@@ -1129,9 +1129,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "atualizadoEm": "sem data (arquivo de 31/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
@@ -1156,9 +1156,9 @@
      "cond": 511.52,
      "det": "mobiliado, cozinha planejada, varanda gourmet, vaga coletiva",
      "obs": "Aceita financiamento bancário. Visitas aos sábados só até as 14h. Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
+     "tabela": "sem data (arquivo de 20/11/2026)",
      "vistaMar": true,
      "vista": "Vista mar · Av. Pres. Castelo Branco",
      "fase": "pronto"
@@ -1168,9 +1168,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "atualizadoEm": "sem data (arquivo de 31/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
@@ -1195,9 +1195,9 @@
      "cond": 730,
      "det": "varanda gourmet, lazer completo",
      "obs": "Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
+     "tabela": "sem data (arquivo de 20/11/2026)",
      "vistaMar": true,
      "vista": "Edifício frente mar · vista mar definitiva",
      "fase": "pronto"
@@ -1207,9 +1207,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "atualizadoEm": "sem data (arquivo de 31/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
@@ -1233,9 +1233,9 @@
      "cond": 485,
      "det": "varanda gourmet, lazer completo",
      "obs": "Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
+     "tabela": "sem data (arquivo de 20/11/2026)",
      "vistaMar": true,
      "vista": "Edifício frente mar · vista mar",
      "fase": "pronto"
@@ -1245,9 +1245,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "atualizadoEm": "sem data (arquivo de 31/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
@@ -1259,26 +1259,6 @@
    "endereco": "Rua João Zarzur, 55",
    "fase": "pronto",
    "unidades": [
-    {
-     "unidade": "156-A",
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "status": "disponivel",
-     "area": 79,
-     "vagas": "1",
-     "valor": 510000,
-     "iptu": 490,
-     "cond": 640,
-     "det": "varanda gourmet, lazer completo",
-     "obs": "Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
-     "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
-     "vistaMar": true,
-     "vista": "Edifício frente mar · vista mar definitiva",
-     "fase": "pronto"
-    },
     {
      "unidade": "155-B",
      "tipologia": "2 dorms (1 suíte)",
@@ -1292,9 +1272,9 @@
      "cond": 581,
      "det": "varanda gourmet, lazer completo",
      "obs": "Comissão 5%.",
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "tabela": "sem data (arquivo de 31/10/2026)",
+     "tabela": "sem data (arquivo de 20/11/2026)",
      "vistaMar": true,
      "vista": "Edifício frente mar · vista mar definitiva",
      "fase": "pronto"
@@ -1304,9 +1284,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)",
+     "fonte": "Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)",
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
-     "atualizadoEm": "sem data (arquivo de 31/10/2026)",
+     "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
@@ -1964,9 +1944,9 @@
      "cond": 596.43,
      "det": "varanda gourmet envidraçada",
      "obs": "Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista mar",
      "fase": "pronto"
@@ -1976,9 +1956,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2003,9 +1983,9 @@
      "cond": 596.43,
      "det": "mobiliado; lazer completo (piscina, quadra, espaço gourmet)",
      "obs": "Chaves: agendar. Condomínio e IPTU saem iguais aos do AP3753 na tabela. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · sacadas com vista mar",
      "fase": "pronto"
@@ -2015,9 +1995,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2042,9 +2022,9 @@
      "cond": 600,
      "det": "sacada, mobiliado; elevador e salão de jogos",
      "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -2054,9 +2034,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2081,9 +2061,9 @@
      "cond": 587,
      "det": "elevador e salão de jogos",
      "obs": "À vista; aceita financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar · sacadas vista mar",
      "fase": "pronto"
@@ -2093,9 +2073,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2120,9 +2100,9 @@
      "cond": 740,
      "det": "sacada gourmet envidraçada; salão de festas e piscina",
      "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista para o mar",
      "fase": "pronto"
@@ -2132,9 +2112,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2159,9 +2139,9 @@
      "cond": 600,
      "det": "sacada gourmet envidraçada; salão de festas e piscina",
      "obs": "À vista; estuda proposta de financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista livre",
      "fase": "pronto"
@@ -2171,9 +2151,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2198,9 +2178,9 @@
      "cond": 773.8,
      "det": "lazer com elevador, salão de jogos e salão de festas",
      "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Em frente ao mar · vista para o mar",
      "fase": "pronto"
@@ -2210,9 +2190,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2237,9 +2217,9 @@
      "cond": 1200,
      "det": "varanda gourmet, elevador, lazer",
      "obs": "À vista ou financiamento bancário. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -2249,9 +2229,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2274,9 +2254,9 @@
      "valor": 950000,
      "det": "mobiliado; portaria 24h, piscina, academia, playground, churrasqueira, brinquedoteca, salão de festas",
      "obs": "Aceita financiamento. Chaves: agendar. Comissão fifty.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Prédio frente mar · varanda com vista mar",
      "fase": "pronto"
@@ -2286,9 +2266,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]
@@ -2311,9 +2291,9 @@
      "valor": 350000,
      "det": "sala 2 ambientes, sacada com vista para o mar; portaria 24h, piscina, salão de jogos e de festas, espaço gourmet, elevador",
      "obs": "Novo na tabela de 03/11/2026. Também para locação (R$ 2.500/mês). À vista; aceita financiamento bancário. A tabela não traz condomínio nem IPTU. Chaves: agendar. Comissão fifty 6%.",
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "tabela": "07/11/2026",
+     "tabela": "18/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -2323,9 +2303,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Coliseum Imóveis (tabela de 07/11/2026)",
+     "fonte": "Coliseum Imóveis (tabela de 18/11/2026)",
      "contato": "Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049",
-     "atualizadoEm": "07/11/2026",
+     "atualizadoEm": "18/11/2026",
      "arquivo": "COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf"
     }
    ]

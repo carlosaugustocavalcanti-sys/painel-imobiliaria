@@ -15,12 +15,13 @@ const FONTES = {
   m2: { fonte: 'M² Imóveis (tabela de 13/11/2026)', contato: 'Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322', data: '13/11/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
   m2vinicius: { fonte: 'M² Imóveis (tabela de 13/11/2026)', contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322', data: '13/11/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
   vistaAtlantico: { fonte: 'Vista Atlântico Imóveis (tabela de 17/11/2026)', contato: 'Vista Atlântico (13) 3494-5840', data: '17/11/2026', arquivo: 'VISTA ATLÂNTICO - Aptos 2 dorm (Guilhermina).pdf' },
-  kalyl: { fonte: 'Kalyl Imóveis (tabela de 14/11/2026)', contato: 'Kalyl Imóveis (13) 98850-1016', data: '14/11/2026', arquivo: 'KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf' },
+  kalyl: { fonte: 'Kalyl Imóveis (tabela de 18/11/2026)', contato: 'Kalyl Imóveis (13) 98850-1016', data: '18/11/2026', arquivo: 'KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf' },
   lucato: { fonte: 'Lucato Imóveis (tabela de 27/10/2026)', contato: 'Lucato (13) 98835-4051 · (13) 99161-8893', data: '27/10/2026', arquivo: 'LUCATO - Apto 1 dorm (Guilhermina).pdf' },
   veraneio: { fonte: 'Veraneio Imóveis (tabela de 04/11/2026)', contato: 'Veraneio (13) 97405-5688 (gerente de vendas)', data: '04/11/2026', arquivo: 'VERANEIO - Apto 2 dorm (Jd. Real).pdf' },
   leandro: { fonte: 'Imóveis Leandro Carvalho (Cabelo)', contato: 'Leandro Carvalho (Cabelo)', data: '19/10/2026', arquivo: 'LEANDRO CABELO - Apto 2 dorm (Forte).pdf' },
-  saga: { fonte: 'Saga Imóveis (tabela de 16/11/2026)', contato: 'Saga (13) 97411-3677 · (13) 97405-8119', data: '16/11/2026', arquivo: 'SAGA - Cobertura 6 dorm (Tupi).pdf' },
-  pgi: { fonte: 'PGI (tabela de 12/10/2026)', contato: 'Luis Moraes (13) 97600-2278', data: '12/10/2026', arquivo: 'PGI - Apto 1 dorm (Maracanã).pdf' },
+  saga: { fonte: 'Saga Imóveis (tabela de 18/11/2026)', contato: 'Saga (13) 97411-3677 · (13) 97405-8119', data: '18/11/2026', arquivo: 'SAGA - Cobertura 6 dorm (Tupi).pdf' },
+  pgi: { fonte: 'PGI (tabela de 19/11/2026)', contato: 'Luis Moraes (13) 97600-2278', data: '19/11/2026', arquivo: 'PGI - Aptos 1 dorm (Tupi-Maracanã).pdf' },
+  mariBiffi: { fonte: 'Mari Biffi (arquivo de 19/11/2026)', contato: 'Mari Biffi (corretora)', data: 'sem data (arquivo de 19/11/2026)', arquivo: 'MARI BIFFI - Kit (Aviação).pdf' },
   c2x: { fonte: 'C2X Investimentos (tabela de 03/11/2026)', contato: 'Júlio (13) 99733-7800', data: '03/11/2026', arquivo: 'C2X - Apto 3 dorm (Maracanã).pdf' },
   novaHome: { fonte: 'Nova Home (tabela de 09/11/2026)', contato: 'Daniela (13) 97409-3105', data: '09/11/2026', arquivo: 'NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf' },
   marcio: { fonte: 'Márcio Masumoto Jr (tabela de 22/09/2026)', contato: 'Márcio Masumoto Jr (Instagram @marciomasumotojr)', data: '22/09/2026', arquivo: 'MÁRCIO MASUMOTO JR - Apto 3 dorm (Flórida).pdf' },
@@ -28,9 +29,9 @@ const FONTES = {
   jean: { fonte: 'Jean Diegues Imóveis (arquivo de 17/11/2026)', contato: '(13) 99807-8987 · (13) 98156-9018', data: 'sem data (arquivo de 17/11/2026)', arquivo: 'JEAN DIEGUES - Apto 3 dorm (Tupi).pdf' },
   kfKatia: { fonte: 'Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)', contato: 'Kátia (13) 99679-4782', data: '15/10/2026', arquivo: 'KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf' },
   kfFlavio: { fonte: 'Kátia Tavares e Flávio Belchior (tabela de 15/10/2026)', contato: 'Flávio (13) 99782-6694', data: '15/10/2026', arquivo: 'KF - Kit (Guilhermina) + Aptos 1 dorm (Tupi-Caiçara) + Aptos 2 dorm (Flórida-Jd.Real) + Aptos 3 dorm (Caiçara-Jd.Real).pdf' },
-  coliseum: { fonte: 'Coliseum Imóveis (tabela de 07/11/2026)', contato: 'Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049', data: '07/11/2026', arquivo: 'COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf' },
+  coliseum: { fonte: 'Coliseum Imóveis (tabela de 18/11/2026)', contato: 'Fátima (11) 9859-65221 · Ana Paula (13) 98196-0049', data: '18/11/2026', arquivo: 'COLISEUM - Aptos 2 dorm (V.Assunção-Flórida) + Aptos 3 dorm (Solemar-Vilamar).pdf' },
   gomes: { fonte: 'Gomes e Ferreira', contato: '(13) 99149-9526 · Reinaldo (13) 99183-0576', data: '20/10/2026', arquivo: 'GOMES E FERREIRA - Aptos 2 e 3 dorm (Caiçara).pdf' },
-  stefano: { fonte: 'Eduardo Stefano Negócios Imobiliários (arquivo de 31/10/2026)', contato: 'Eduardo Stefano (meuzap.in/stefano)', data: 'sem data (arquivo de 31/10/2026)', arquivo: 'EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf' },
+  stefano: { fonte: 'Eduardo Stefano Negócios Imobiliários (arquivo de 20/11/2026)', contato: 'Eduardo Stefano (meuzap.in/stefano)', data: 'sem data (arquivo de 20/11/2026)', arquivo: 'EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf' },
   rj: { fonte: 'RJ Investimentos (tabela de vendas, arquivo de 27/10/2026)', contato: 'Diego Xavier (13) 98854-7879', data: 'sem data (arquivo de 27/10/2026)', arquivo: 'RJ INVESTIMENTOS - Aptos 2 dorm (Ocian-Imperador) + Aptos 3 dorm (Caiçara).pdf' },
   william: { fonte: 'William Buongiovanni (tabela de 11/11/2026)', contato: 'Raquel Correia (13) 99735-2597 · William (13) 99770-0999', data: '11/11/2026', arquivo: 'WILLIAM BUONGIOVANNI - Aptos 1 dorm (Mongaguá-SP) + Apto 2 dorm (Imperador) + Apto 3 dorm (Mongaguá).pdf' },
 };
@@ -97,9 +98,8 @@ const predios = [
   semNome('costaReal', 'Costa Real 1 dorm', 'A confirmar', null, un('costaReal', { dorm: 1, vagas: '1', valor: 336000, iptu: 250, cond: 500, vista: 'Frente ao mar', det: 'sala 2 ambientes, sacada envidraçada com churrasqueira, cozinha, área de serviço', obs: 'Aceita financiamento bancário. A tabela não nomeia o prédio nem informa a área. Estuda imóvel e veículo como parte do pagamento. Comissão 5%.' })),
 
   /* ---------- GrandLar ---------- */
-  predio('atlantic-house-frente-mar', 'Atlantic House', 'Maracanã', `${CB('11.030')} - Maracanã - Praia Grande/SP`, ['grandlar', 'kalyl'], [
+  predio('atlantic-house-frente-mar', 'Atlantic House', 'Maracanã', `${CB('11.030')} - Maracanã - Praia Grande/SP`, ['grandlar'], [
     un('grandlar', { dorm: 2, suites: 1, area: 75, vagas: '1', valor: 685000, cond: 986, iptu: 512, det: 'sacada gourmet envidraçada, decorado', obs: 'Porteira fechada. Aceita financiamento bancário. Lazer: piscina, salão de festas, salão de jogos e brinquedoteca. Comissão 5%.' }),
-    un('kalyl', { unidade: '701', dorm: 2, suites: 1, area: 66.25, vagas: '1', valor: 650000, iptu: 451.52, cond: 967.1, det: 'mobiliado (fica como está), sacada gourmet envidraçada, cozinha planejada, lazer completo', obs: 'Preço reduzido. R$ 680 mil no financiamento bancário ou permuta. Condomínio R$ 967,10 (+ taxa de renovação do AVCB R$ 92,22). Chaves: enviar CRECI para autorizar. Comissão 5%.' }),
   ]),
   predio('res-hugo-navarro-frente-mar', 'Res. Hugo Navarro', 'Mirim', CB('10676'), ['grandlar'], [
     un('grandlar', { unidade: '103', dorm: 2, suites: 1, area: 69, vagas: '1', valor: 600000, cond: 754.37, iptu: 401.11, status: 'suspenso', det: 'sacada gourmet envidraçada, mobiliado', obs: 'Suspenso temporariamente. Condomínio R$ 754,37 + taxa extra R$ 265,78. Aceita financiamento bancário. Comissão R$ 20 mil.' }),
@@ -130,9 +130,6 @@ const predios = [
   ]),
 
   /* ---------- Kalyl ---------- */
-  predio('villagio-di-napoli-frente-mar', 'Villagio di Napoli', 'Maracanã', `${CB('11.590')} · Maracanã`, ['kalyl'], [
-    un('kalyl', { unidade: '601', dorm: 3, suites: 1, area: 85.41, vagas: '2', valor: 550000, iptu: 449.73, cond: 1180.77, det: 'sacada envidraçada com vista mar, lazer completo, portaria 24h, pintura nova', obs: 'Preço reduzido. Condomínio R$ 1.180,77 + rateio do elevador R$ 148,53. À vista; aceita financiamento bancário e permuta. Chaves: apartamento aberto; enviar CRECI para fotos. Comissão 5%.' }),
-  ]),
   predio('onix-frente-mar', 'Ônix', 'Guilhermina', `${CB('2.394')} - apto 1205 - Guilhermina - Praia Grande/SP`, ['kalyl'], [
     un('kalyl', { unidade: '1205', dorm: 2, suites: 1, area: 82.69, vagas: '1', valor: 570000, iptu: 416.58, cond: 756.21, det: 'sacada envidraçada com vista mar, lazer e portaria 24h', obs: 'Código Kalyl 11239. R$ 570 mil à vista; R$ 590 mil no financiamento bancário ou permuta. Condomínio R$ 756,21 (+ taxa de elevador R$ 38,12). Chaves: portaria ou Kalyl; enviar CRECI para autorizar. Comissão 5%.' }),
   ]),
@@ -154,6 +151,11 @@ const predios = [
   /* ---------- PGI ---------- */
   predio('ed-jeanete-mariano-frente-mar', 'Ed. Jeanete Mariano', 'Maracanã', 'Rua Mario Daige, 108 · Maracanã', ['pgi'], [
     un('pgi', { unidade: '502 B', dorm: 1, area: 59.51, valor: 339000, iptu: 269.75, cond: 519, vista: 'Frente ao mar · duas sacadas com vista mar', det: 'duas sacadas, na sala e no quarto', obs: 'Aceita financiamento bancário. O proprietário retira TV, máquina de lavar e micro-ondas. Comissão 5%.' }),
+  ]),
+
+  predio('ed-mirai-frente-mar', 'Ed. Miraí', 'Tupi', 'Rua Caribas, 55 - Vila Tupi (divisa com a Aviação)', ['pgi', 'mariBiffi'], [
+    un('pgi', { unidade: '203', dorm: 1, area: 44, vagas: '2', valor: 309000, iptu: 122.9, cond: 464.16, det: 'duas vagas (uma privativa em condomínio de garagem ao lado e uma coletiva no prédio)', obs: 'Novo na tabela de 19/11/2026. Condomínio R$ 464,16 + R$ 95,87 de rateio da reforma do elevador (até setembro/2027). Aceita financiamento bancário. Comissão 5%.' }),
+    un('mariBiffi', { unidade: '105', prefixo: 'Kitnet · ', dorm: 1, area: 38, vagas: '1 rotativa', valor: 280000, iptu: 89, cond: 350, det: 'kitão dividido em 1 dormitório, todo reformado; 3 elevadores, portaria 24h, fechadura eletrônica', obs: 'Novo (tabela de 19/11/2026). R$ 280 mil à vista; R$ 285 mil no financiamento bancário. Comissão 6%.' }),
   ]),
 
   /* ---------- C2X + Nova Home: Melissa Miyazi (Av. Castelo Branco 16.140) ---------- */
@@ -202,7 +204,6 @@ const predios = [
     un('stefano', { unidade: '35-B', dorm: 2, suites: 1, area: 75, vagas: '1', valor: 570000, cond: 485, vista: 'Edifício frente mar · vista mar', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
   ], { cidade: 'Mongaguá' }),
   predio('res-splendour-frente-mar', 'Res. Splendour', 'Vila São Paulo', 'Rua João Zarzur, 55', ['stefano'], [
-    un('stefano', { unidade: '156-A', dorm: 2, suites: 1, area: 79, vagas: '1', valor: 510000, iptu: 490, cond: 640, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
     un('stefano', { unidade: '155-B', dorm: 2, suites: 1, area: 79, vagas: '1', valor: 540000, iptu: 410, cond: 581, vista: 'Edifício frente mar · vista mar definitiva', det: 'varanda gourmet, lazer completo', obs: 'Comissão 5%.' }),
   ], { cidade: 'Mongaguá' }),
 
@@ -273,7 +274,7 @@ for (const p of predios) {
 predios.forEach((p) => (p.notas = p.notas ?? []));
 const saida = {
   arquivo: 'Google Drive/5. FRENTE MAR',
-  lidoEm: '2026-11-18',
+  lidoEm: '2026-11-22',
   sobre: `Apartamentos escritos "frente mar" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta "5. FRENTE MAR" do Drive (${predios.length} prédios, ${n} unidades). Casas, locações e unidades só com "vista mar" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.`,
   predios,
 };
