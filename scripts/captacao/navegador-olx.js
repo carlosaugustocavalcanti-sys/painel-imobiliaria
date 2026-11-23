@@ -22,19 +22,23 @@ window.__llog = [];
 window.__listar = async (pausa = 3000, maxPaginas = 60) => {
   __lista.clear();
   __llog.length = 0;
+  let total = 0;
   for (let o = 1; o <= maxPaginas; o++) {
     if (o > 1) await new Promise((ok) => setTimeout(ok, pausa));
     const r = await fetch(location.pathname + '?f=p&o=' + o).catch(() => ({ status: 'erro' }));
     const t = r.text ? await r.text() : '';
-    const a = __anunciosDaLista(t);
+    let a = __anunciosDaLista(t);
     __llog.push([o, r.status, a.length]);
     if (r.status !== 200) { __llog.push('parou'); return; }
     if (!a.length) { __llog.push('fim'); return; }
+    // Depois da última página do filtro a OLX não devolve lista vazia: completa com anúncios de outras cidades,
+    // e nessa página o totalOfAds já vem com o total da região inteira. Por isso o total certo é o da 1ª página,
+    // e na última página só valem os primeiros anúncios (o resto é de outras cidades).
+    if (!total) total = +(t.match(/\\"totalOfAds\\":(\d+)/)?.[1] ?? 0);
+    const fim = total && o * 50 >= total;
+    if (fim) a = a.slice(0, total - (o - 1) * 50);
     for (const x of a) if (!x.prof) __lista.set(x.id, x);
-    // Depois da última página do filtro a OLX não devolve lista vazia: completa com anúncios de outras cidades.
-    // O fim certo é o total que a própria página informa.
-    const total = +(t.match(/\\"totalOfAds\\":(\d+)/)?.[1] ?? 0);
-    if (total && o * 50 >= total) { __llog.push('fim'); return; }
+    if (fim) { __llog.push('fim'); return; }
   }
   __llog.push('parou'); // bateu no limite de páginas sem achar o fim: lista incompleta
 };
