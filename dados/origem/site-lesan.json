@@ -1,8 +1,171 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-22",
+ "lidoEm": "2026-11-24",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-62",
+   "nome": "Rua Ôceanica Amábile, 555",
+   "cidade": "Praia Grande",
+   "bairro": "Cidade Ocian",
+   "fase": "pronto",
+   "endereco": "Rua Ôceanica Amábile, 555 - Cidade Ocian - Praia Grande/SP",
+   "lazer": [
+    "Churrasqueira",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 62)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "atualizadoEm": "24/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "22",
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "area": 54,
+     "vagas": "1",
+     "valor": 430000,
+     "cond": 530,
+     "iptu": 272,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Apartamento à Venda na Ocian com Piscina e Sacada Envidraçada. Armário Embutido, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda Fechada com Vidro",
+     "fonte": "Site Lesan Imóveis (cód. 62)",
+     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
+     "tabela": "24/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-54m2-id-62"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-77",
+   "nome": "Rua Mathilde de Azevedo Setúbal, 871",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Caiçara",
+   "fase": "pronto",
+   "endereco": "Rua Mathilde de Azevedo Setúbal, 871 - Vila Caiçara - Praia Grande/SP",
+   "lazer": [],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 77)",
+     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
+     "atualizadoEm": "24/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "Casa 6",
+     "tipologia": "Casa de Condomínio 2 dorms (1 suíte)",
+     "categoria": "casa",
+     "dorm": 2,
+     "suites": 1,
+     "area": 60,
+     "vagas": "1",
+     "valor": 325000,
+     "iptu": 250,
+     "status": "disponivel",
+     "obs": "Casa de Condomínio à Venda com 2 Quartos, 60m² e Suíte na Caiçara. Armário Embutido, Armário de Cozinha, Mobiliado",
+     "fonte": "Site Lesan Imóveis (cód. 77)",
+     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
+     "tabela": "24/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-de-condominio-a-venda-2-quartos-vila-caicara-praia-grande-sp-id-77"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-325",
+   "nome": "Rua Mexico, 270",
+   "cidade": "Praia Grande",
+   "bairro": "Guilhermina",
+   "fase": "pronto",
+   "endereco": "Rua Mexico, 270 - Guilhermina - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 325)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "atualizadoEm": "24/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "213",
+     "andar": 2,
+     "tipologia": "2 dorms",
+     "dorm": 2,
+     "area": 42,
+     "vagas": "1",
+     "valor": 260000,
+     "cond": 480,
+     "iptu": 158,
+     "status": "disponivel",
+     "obs": "Apartamento à Venda na Guilhermina com 2 Quartos por R$ 260 Mil. Armário no Banheiro, Mobiliado",
+     "fonte": "Site Lesan Imóveis (cód. 325)",
+     "contato": "Carlos Cavalcanti (CRECI 331032) · Lesan (13) 99786-4368",
+     "tabela": "24/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-guilhermina-praia-grande-sp-42m2-id-325"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-324",
+   "nome": "Renoair II",
+   "cidade": "Praia Grande",
+   "bairro": "Canto do Forte",
+   "fase": "pronto",
+   "endereco": "Rua General Otelo Rodrigues Franco, 543 - Canto do Forte - Praia Grande/SP",
+   "lazer": [
+    "Academia",
+    "Aceita Pet",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 324)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "atualizadoEm": "24/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "32",
+     "andar": 3,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 70,
+     "vagas": "1",
+     "valor": 699900,
+     "cond": 920,
+     "iptu": 615,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Ambientes Integrados, Ar condicionado, Armário de Cozinha, Armário no Banheiro, Box Blindex, Churrasqueira na Sacada, Mobiliado, Móveis Planejados, Sacada Fechada com Vidro",
+     "fonte": "Site Lesan Imóveis (cód. 324)",
+     "contato": "Rita Amaro (CRECI 292925) · Lesan (13) 99786-4368",
+     "tabela": "24/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-canto-do-forte-praia-grande-sp-70m2-id-324"
+    }
+   ]
+  },
   {
    "id": "lesan-site-323",
    "nome": "Avenida Marechal Mallet, 200",
@@ -818,47 +981,6 @@
      "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-cidade-ocian-praia-grande-sp-100m2-id-43"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-44",
-   "nome": "Rua Monteiro Lobato, 431",
-   "cidade": "Praia Grande",
-   "bairro": "Cidade Ocian",
-   "fase": "pronto",
-   "endereco": "Rua Monteiro Lobato, 431 - Cidade Ocian - Praia Grande/SP",
-   "lazer": [
-    "Piscina",
-    "Salão de Festas"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 44)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "86",
-     "andar": 8,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 74,
-     "vagas": "1",
-     "valor": 370000,
-     "cond": 624,
-     "iptu": 360,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "More na ocean. com Piscina e Excelente Localização. Box Blindex, Copa, Cozinha Grande, Lavanderia, Mobiliado, Sacada, Sala de jantar, Semimobiliado, Varanda",
-     "fonte": "Site Lesan Imóveis (cód. 44)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-74m2-id-44"
     }
    ]
   },
@@ -8138,42 +8260,6 @@
    ]
   },
   {
-   "id": "lesan-site-77",
-   "nome": "Rua Mathilde de Azevedo Setúbal, 871",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Caiçara",
-   "fase": "pronto",
-   "endereco": "Rua Mathilde de Azevedo Setúbal, 871 - Vila Caiçara - Praia Grande/SP",
-   "lazer": [],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 77)",
-     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "Casa 6",
-     "tipologia": "Casa de Condomínio 2 dorms (1 suíte)",
-     "categoria": "casa",
-     "dorm": 2,
-     "suites": 1,
-     "area": 60,
-     "vagas": "1",
-     "valor": 297000,
-     "iptu": 250,
-     "status": "disponivel",
-     "obs": "Casa de Condomínio à Venda com 2 Quartos, 60m² e Suíte na Caiçara. Armário Embutido, Armário de Cozinha, Mobiliado",
-     "fonte": "Site Lesan Imóveis (cód. 77)",
-     "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-de-condominio-a-venda-2-quartos-vila-caicara-praia-grande-sp-id-77"
-    }
-   ]
-  },
-  {
    "id": "lesan-site-76",
    "nome": "Rua Lindóia, 279",
    "cidade": "Praia Grande",
@@ -8776,48 +8862,6 @@
      "contato": "Vitor Matheus Rodrigues Silva (CRECI 300851) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-2-quartos-cidade-ocian-praia-grande-sp-id-66"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-62",
-   "nome": "Rua Ôceanica Amábile, 555",
-   "cidade": "Praia Grande",
-   "bairro": "Cidade Ocian",
-   "fase": "pronto",
-   "endereco": "Rua Ôceanica Amábile, 555 - Cidade Ocian - Praia Grande/SP",
-   "lazer": [
-    "Churrasqueira",
-    "Piscina",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 62)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "22",
-     "tipologia": "2 dorms",
-     "dorm": 2,
-     "area": 54,
-     "vagas": "1",
-     "valor": 400000,
-     "cond": 530,
-     "iptu": 272,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Apartamento à Venda na Ocian com Piscina e Sacada Envidraçada. Armário Embutido, Armário no Banheiro, Box Blindex, Lavanderia, Móveis Planejados, Sacada, Sacada Fechada com Vidro, Sala Grande, Sala de jantar, Varanda Fechada com Vidro",
-     "fonte": "Site Lesan Imóveis (cód. 62)",
-     "contato": "Palloma Campos (CRECI 270026) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-cidade-ocian-praia-grande-sp-54m2-id-62"
     }
    ]
   },
