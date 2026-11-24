@@ -362,6 +362,12 @@ const FUNDIR_MANUAL = [
   ['lancamentos:melissa-miyazi', 'frente-mar:melissa-miyazi-frente-mar'],
   // Res. Turim (Construmoura, Rua José Alexandre Có): o usado cita o nº 160 e a tabela do proprietário, o nº 213.
   ['usados:turim-caicara', 'drive-mes:res-turim'],
+  // Atlantic Flat (Av. Pres. Castelo Branco, 16.600): a RD diz Jardim Real e a RJ Investimentos, Jardim Imperador.
+  ['lanc-drive:atlantic-flat', 'frente-mar:atlantic-flat-residence-frente-mar'],
+  // Park Avenue (Av. Guilhermina, 591): tabela do investidor Alex Ranciaro com os 7º e 8º andares.
+  ['lancamentos:parque-avenue', 'lanc-drive:park-avenue-investidor'],
+  // Res. Vaz 300 (Rua Major Rubens Vaz, 298): tabela da construtora e revenda da Fortaleza.
+  ['lanc-drive:vaz-300', 'drive-mes:res-vaz-300'],
   // Tabelas do Drive (mês): mesmo prédio com nome/endereço escrito de outro jeito.
   ['lancamentos:primicia-plaza', 'drive-mes:primicia-plaza-m2'],
   ['lancamentos:costa-atlantica', 'drive-mes:costa-atlantica-fazio'],

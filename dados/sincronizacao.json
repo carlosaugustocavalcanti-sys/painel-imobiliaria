@@ -1,6 +1,6 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-11-22T08:30:00Z",
+  "ultimaVarredura": "2026-11-24T12:45:00Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
@@ -491,6 +491,21 @@
         "VICCIOLI - Apto 2 dorm (Aviação)",
         "Vision - Aptos 2 dorm (Solemar'')",
         "Águia Dourada III - Casa em Cond 2 dorm (Esmeralda)"
+      ]
+    },
+    {
+      "data": "2026-11-24",
+      "arquivosLidos": [
+        "5. FRENTE MAR (5 PDFs alterados de 22/11 a 24/11): Kalyl (23/11), Veraneio (23/11), Coliseum (23/11), Metro Quadrado (13/11); KF sem texto legível (67 MB)",
+        "7. LANÇAMENTOS (18 PDFs alterados de 22/11 a 24/11): Park Avenue (tabela do investidor Alex Ranciaro), Vaz 300, Porto Marina (21/11), Jardim Europa, Praias do Atlântico, Atlantic Flat, Praia Mar, Maresias Beach (tabela Veraneio de 23/11), Grená, Mainá, Marino, Jardins do Mathilde (29/10), Première Mediterranee (29/10), Paolo Veronese, Manoel Augusto Novais, Francisco de Goya e Dante Alighieri (13/11)"
+      ],
+      "resumo": "Pedido do Carlos (pasta Novembro - Tabelas). Lançamentos: Paolo Veronese, Manoel Augusto Novais, Francisco de Goya e Dante Alighieri com a tabela de 13/11 (valores ~2% maiores; Paolo sem 206, 303, 503, 1404, 1405, 1407, 1504, 1702, 1704 e 1707, com 403, 1507, 1603 e 1705 reservados; Manoel com 25, 38 e 83 novos; Goya sem o 15, com 46 e 76 novos e o 73 reservado, entrada em 3 meses; Dante sem o 67, com 25 novo e 38 e 43 reservados; entrada em 25 meses no Manoel e no Dante); Porto Marina com a tabela de 21/11 (93 e 184 voltam, 55 reservado, 193 a R$ 1.487.717,25 e fluxos novos); Praia Mar sem os 15 apartamentos dos andares 6 a 8 (finais 3 a 7); Atlantic Flat entra com a tabela da RD (29 unidades, junto do 184 da RJ); Vaz 300 entra com a tabela da construtora (26 unidades, junto do 171 da Fortaleza); Park Avenue ganha as 12 unidades do investidor Alex Ranciaro (7º e 8º andares); Jardins do Mathilde e Première Mediterranee com os preços da tabela de 29/10. Sem mudança: Jardim Europa e Praias do Atlântico. Frente Mar: Kalyl, Veraneio e Coliseum com a data de 23/11 e os mesmos valores; Metro Quadrado igual.",
+      "pendentesDeConferencia": [
+        "Grená, Mainá e Marino: PDFs só com imagem (TalenCo), sem texto; painel mantém as tabelas de 26/10.",
+        "Jardins do Mathilde e Première Mediterranee: vendidas e reservadas só aparecem por cor; o painel manteve as unidades disponíveis de antes com os preços novos. Première: 232, 83 e a cobertura C1 não aparecem na tabela de 29/10 e ficaram com o valor de 30/08.",
+        "Vaz 300 e Atlantic Flat: reservadas marcadas por cor; todas entraram como disponíveis.",
+        "Maresias Beach (tabela Veraneio de 23/11): coberturas 161 a 166 e valores por final com o texto embaralhado; o painel mantém as 3 unidades da Morais.",
+        "KF (pasta 5): PDF de 67 MB sem texto legível pelo conector."
       ]
     }
   ],

@@ -4335,21 +4335,59 @@
      "final": 2
     },
     {
+     "unidade": "222",
+     "andar": 22,
+     "tipologia": "Cobertura",
+     "area": 144.93,
+     "valor": 2898600,
+     "entrada": 692765.4,
+     "status": "disponivel",
+     "obs": "3 vagas · cobertura do final 2",
+     "fluxo": {
+      "entrada": 692765.4,
+      "chaves": 495660.6,
+      "anualQtd": 9,
+      "anualVal": 44799.47,
+      "parcQtd": 110,
+      "parcVal": 11881.62
+     },
+     "final": 2
+    },
+    {
+     "unidade": "93",
+     "andar": 9,
+     "tipologia": "2 dorms (1 suíte)",
+     "area": 70.72,
+     "valor": 799000.88,
+     "entrada": 189363.21,
+     "status": "disponivel",
+     "obs": "1 vaga",
+     "fluxo": {
+      "entrada": 189363.21,
+      "chaves": 141902.56,
+      "anualQtd": 9,
+      "anualVal": 12828.4,
+      "parcQtd": 110,
+      "parcVal": 3202.54
+     },
+     "final": 3
+    },
+    {
      "unidade": "193",
      "andar": 19,
      "tipologia": "2 dorms (1 suíte)",
      "area": 144.79,
-     "valor": 1587293.84,
-     "entrada": 379363.23,
+     "valor": 1487717.25,
+     "entrada": 352588.99,
      "status": "disponivel",
      "obs": "2 vagas",
      "fluxo": {
-      "entrada": 379363.23,
-      "chaves": 271427.25,
+      "entrada": 352588.99,
+      "chaves": 264218.58,
       "anualQtd": 9,
-      "anualVal": 25484.88,
+      "anualVal": 23886.13,
       "parcQtd": 110,
-      "parcVal": 6428.54
+      "parcVal": 5963.04
      },
      "final": 3
     },
@@ -4359,16 +4397,16 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 99.22,
      "valor": 1087722.18,
-     "entrada": 259965.6,
+     "entrada": 257790.16,
      "status": "disponivel",
      "obs": "1 vaga",
      "fluxo": {
-      "entrada": 259965.6,
-      "chaves": 186000.49,
+      "entrada": 257790.16,
+      "chaves": 193179.46,
       "anualQtd": 9,
       "anualVal": 17463.98,
       "parcQtd": 110,
-      "parcVal": 4405.27
+      "parcVal": 4359.79
      },
      "final": 3
     },
@@ -4378,16 +4416,35 @@
      "tipologia": "2 dorms (1 suíte)",
      "area": 99.22,
      "valor": 1094449.74,
-     "entrada": 261573.49,
+     "entrada": 259384.59,
      "status": "disponivel",
      "obs": "1 vaga",
      "fluxo": {
-      "entrada": 261573.49,
-      "chaves": 187150.91,
+      "entrada": 259384.59,
+      "chaves": 194374.27,
       "anualQtd": 9,
       "anualVal": 17572,
       "parcQtd": 110,
-      "parcVal": 4432.52
+      "parcVal": 4386.75
+     },
+     "final": 3
+    },
+    {
+     "unidade": "223",
+     "andar": 22,
+     "tipologia": "Cobertura duplex · 3 dorms (3 suítes)",
+     "area": 179.23,
+     "valor": 3584600,
+     "entrada": 849550.2,
+     "status": "disponivel",
+     "obs": "3 vagas privativas · área na linha da tabela 179,23 m² (cabeçalho: 198,90 m²)",
+     "fluxo": {
+      "entrada": 849550.2,
+      "chaves": 636624.96,
+      "anualQtd": 9,
+      "anualVal": 57552.74,
+      "parcQtd": 110,
+      "parcVal": 14367.73
      },
      "final": 3
     },
@@ -4525,13 +4582,32 @@
      "final": 4
     },
     {
+     "unidade": "184",
+     "andar": 18,
+     "tipologia": "2 dorms (1 suíte)",
+     "area": 74.65,
+     "valor": 698351.46,
+     "entrada": 110339.53,
+     "status": "disponivel",
+     "obs": "1 vaga",
+     "fluxo": {
+      "entrada": 110339.53,
+      "chaves": 125703.26,
+      "anualQtd": 9,
+      "anualVal": 11348.21,
+      "parcQtd": 110,
+      "parcVal": 3274.32
+     },
+     "final": 4
+    },
+    {
      "unidade": "55",
      "andar": 5,
      "tipologia": "2 dorms (1 suíte)",
      "area": 73.92,
      "valor": 665712.43,
      "entrada": 119828.24,
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "1 vaga",
      "fluxo": {
       "entrada": 119828.24,
@@ -4675,48 +4751,10 @@
       "parcVal": 3206.09
      },
      "final": 5
-    },
-    {
-     "unidade": "222",
-     "andar": 22,
-     "tipologia": "Cobertura",
-     "area": 144.93,
-     "valor": 2898600,
-     "entrada": 686968.2,
-     "status": "disponivel",
-     "obs": "3 vagas · cobertura do final 2",
-     "fluxo": {
-      "entrada": 686968.2,
-      "chaves": 495660.6,
-      "anualQtd": 9,
-      "anualVal": 44799.47,
-      "parcQtd": 110,
-      "parcVal": 11934.33
-     },
-     "final": 2
-    },
-    {
-     "unidade": "223",
-     "andar": 22,
-     "tipologia": "Cobertura duplex · 3 dorms (3 suítes)",
-     "area": 179.23,
-     "valor": 3584600,
-     "entrada": 568159.1,
-     "status": "disponivel",
-     "obs": "3 vagas privativas · área na linha da tabela 179,23 m² (cabeçalho: 198,90 m²)",
-     "fluxo": {
-      "entrada": 568159.1,
-      "chaves": 636624.96,
-      "anualQtd": 9,
-      "anualVal": 57552.74,
-      "parcQtd": 110,
-      "parcVal": 16925.83
-     },
-     "final": 3
     }
    ],
-   "fonte": "Tabela Res. Porto Marina – atualizada em 06/11/2026 (Plascom Construtora)",
-   "atualizadoEm": "06/11/2026 (válida até 30/11/2026)",
+   "fonte": "Tabela Res. Porto Marina – atualizada em 21/11/2026 (Plascom Construtora)",
+   "atualizadoEm": "21/11/2026 (válida até 30/11/2026)",
    "entrega": "Ago/2027",
    "endereco": "Av. Pres. Castelo Branco, 12.192 (esq. Av. Lincoln) – Vila Caiçara, Praia Grande",
    "contato": "Plantão de vendas (13) 3596-8587 · Gestor imobiliário (13) 99784-9019 · plascom@plascomconstrutora.com.br · @construtoraplacompg",
@@ -13978,8 +14016,8 @@
      "final": 9,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 378000,
-     "status": "reservado",
+     "valor": 385000,
+     "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -13988,27 +14026,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 378000,
-     "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "206",
-     "andar": 2,
-     "final": 6,
-     "tipologia": "1 dorm",
-     "area": 38.54,
-     "valor": 370800,
-     "status": "reservado",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "303",
-     "andar": 3,
-     "final": 3,
-     "tipologia": "1 dorm",
-     "area": 38.54,
-     "valor": 374200,
+     "valor": 385000,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14018,7 +14036,7 @@
      "final": 7,
      "tipologia": "2 dorms",
      "area": 58.14,
-     "valor": 536700,
+     "valor": 547000,
      "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14028,7 +14046,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 384300,
+     "valor": 391500,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14038,8 +14056,8 @@
      "final": 3,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 377100,
-     "status": "disponivel",
+     "valor": 384100,
+     "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -14048,17 +14066,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 387300,
-     "status": "reservado",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "503",
-     "andar": 5,
-     "final": 3,
-     "tipologia": "1 dorm",
-     "area": 38.54,
-     "valor": 379600,
+     "valor": 394900,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14068,7 +14076,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 390400,
+     "valor": 397600,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14078,27 +14086,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 416100,
-     "status": "reservado",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1404",
-     "andar": 14,
-     "final": 4,
-     "tipologia": "1 dorm",
-     "area": 37,
-     "valor": 385900,
-     "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1405",
-     "andar": 14,
-     "final": 5,
-     "tipologia": "1 dorm",
-     "area": 37,
-     "valor": 385900,
+     "valor": 424200,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14108,18 +14096,8 @@
      "final": 6,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 408000,
+     "valor": 415800,
      "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1407",
-     "andar": 14,
-     "final": 7,
-     "tipologia": "2 dorms",
-     "area": 58.14,
-     "valor": 585900,
-     "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -14128,7 +14106,7 @@
      "final": 9,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 419400,
+     "valor": 427500,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14138,17 +14116,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 419400,
-     "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1504",
-     "andar": 15,
-     "final": 4,
-     "tipologia": "1 dorm",
-     "area": 37,
-     "valor": 389100,
+     "valor": 427500,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14158,8 +14126,8 @@
      "final": 7,
      "tipologia": "2 dorms",
      "area": 58.14,
-     "valor": 590200,
-     "status": "disponivel",
+     "valor": 601500,
+     "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -14168,7 +14136,7 @@
      "final": 9,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 422800,
+     "valor": 430900,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14178,7 +14146,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 422800,
+     "valor": 430900,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14188,8 +14156,8 @@
      "final": 3,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 414300,
-     "status": "disponivel",
+     "valor": 422100,
+     "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -14198,7 +14166,7 @@
      "final": 4,
      "tipologia": "1 dorm",
      "area": 37,
-     "valor": 392200,
+     "valor": 399400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14208,7 +14176,7 @@
      "final": 5,
      "tipologia": "1 dorm",
      "area": 37,
-     "valor": 392200,
+     "valor": 399400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14218,7 +14186,7 @@
      "final": 6,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 414300,
+     "valor": 422100,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14228,7 +14196,7 @@
      "final": 9,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 426000,
+     "valor": 434100,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14238,17 +14206,7 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 426000,
-     "status": "reservado",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1702",
-     "andar": 17,
-     "final": 2,
-     "tipologia": "2 dorms",
-     "area": 58.14,
-     "valor": 612300,
+     "valor": 434100,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14258,17 +14216,7 @@
      "final": 3,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 418500,
-     "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1704",
-     "andar": 17,
-     "final": 4,
-     "tipologia": "1 dorm",
-     "area": 37,
-     "valor": 395400,
+     "valor": 426400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14278,8 +14226,8 @@
      "final": 5,
      "tipologia": "1 dorm",
      "area": 37,
-     "valor": 395400,
-     "status": "disponivel",
+     "valor": 403000,
+     "status": "reservado",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
     {
@@ -14288,17 +14236,7 @@
      "final": 6,
      "tipologia": "1 dorm",
      "area": 38.54,
-     "valor": 418500,
-     "status": "disponivel",
-     "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
-    },
-    {
-     "unidade": "1707",
-     "andar": 17,
-     "final": 7,
-     "tipologia": "2 dorms",
-     "area": 58.14,
-     "valor": 599700,
+     "valor": 426400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14308,7 +14246,7 @@
      "final": 9,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 429300,
+     "valor": 437400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     },
@@ -14318,13 +14256,13 @@
      "final": 10,
      "tipologia": "1 dorm",
      "area": 38.74,
-     "valor": 429300,
+     "valor": 437400,
      "status": "disponivel",
      "obs": "1 vaga · Obra em andamento; valor total conforme tabela"
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "04/09/2026",
+   "atualizadoEm": "13/11/2026",
    "modalidade": "direto",
    "entrega": "Abr/2028",
    "endereco": "Rua Doutor Júlio de Mesquita Filho, 176, Quadra C - Lote 10 - Aviação - Praia Grande/SP",
@@ -15465,17 +15403,17 @@
      "final": 1,
      "tipologia": "4 dormitórios (4 suítes)",
      "area": 209.88,
-     "valor": 2920155,
-     "entrada": 1460077.5,
+     "valor": 3034850,
+     "entrada": 1517425,
      "status": "disponivel",
      "obs": "3 privativas · Entrada = sinal de 50% do total",
      "fluxo": {
-      "entrada": 1460077.5,
+      "entrada": 1517425,
       "chaves": null,
       "anualQtd": 5,
-      "anualVal": 73003.88,
+      "anualVal": 75871.25,
       "parcQtd": 60,
-      "parcVal": 18250.97
+      "parcVal": 18967.81
      }
     },
     {
@@ -15487,7 +15425,7 @@
      "valor": 3586625.32,
      "entrada": 1793312.66,
      "status": "disponivel",
-     "obs": "4 privativas · Entrada = sinal de 50% do total",
+     "obs": "4 privativas · Entrada = sinal de 50% do total · Valor da tabela de 30/08/2026: a tabela de 29/10/2026 não traz este final.",
      "fluxo": {
       "entrada": 1793312.66,
       "chaves": null,
@@ -15506,7 +15444,7 @@
      "valor": 991157.43,
      "entrada": 495578.71,
      "status": "disponivel",
-     "obs": "2 privativas · Entrada = sinal de 50% do total",
+     "obs": "2 privativas · Entrada = sinal de 50% do total · Valor da tabela de 30/08/2026: a tabela de 29/10/2026 não traz este final.",
      "fluxo": {
       "entrada": 495578.71,
       "chaves": null,
@@ -15522,17 +15460,17 @@
      "final": 6,
      "tipologia": "2 dormitórios (2 suítes)",
      "area": 88.02,
-     "valor": 965148.97,
-     "entrada": 482574.49,
+     "valor": 1013456.74,
+     "entrada": 506728.37,
      "status": "disponivel",
      "obs": "2 privativas · Entrada = sinal de 50% do total",
      "fluxo": {
-      "entrada": 482574.49,
+      "entrada": 506728.37,
       "chaves": null,
       "anualQtd": 5,
-      "anualVal": 24128.72,
+      "anualVal": 25336.42,
       "parcQtd": 60,
-      "parcVal": 6032.18
+      "parcVal": 6334.1
      }
     },
     {
@@ -15542,7 +15480,7 @@
      "valor": 6872281.5,
      "entrada": 3436140.75,
      "status": "disponivel",
-     "obs": "Cobertura C1; entrada = sinal de 50% do total; tipologia/vagas não constam na tabela",
+     "obs": "Cobertura C1; entrada = sinal de 50% do total; tipologia/vagas não constam na tabela · Valor da tabela de 30/08/2026: a tabela de 29/10/2026 não traz este final.",
      "fluxo": {
       "entrada": 3436140.75,
       "chaves": null,
@@ -15554,7 +15492,7 @@
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "30/08/2026",
+   "atualizadoEm": "29/10/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "Rua Ruy Barbosa, 825 - Canto do Forte - Praia Grande/SP",
@@ -22162,14 +22100,14 @@
   "francisco-de-goya": {
    "itens": [
     {
-     "unidade": "15",
-     "andar": 1,
-     "final": 5,
+     "unidade": "46",
+     "andar": 4,
+     "final": 6,
      "tipologia": "2 dormitórios (1 suíte)",
-     "area": 62.24,
-     "valor": 434100,
-     "status": "reservado",
-     "obs": "1 · Área total 94,19 m²; valor avaliado R$ 522.000,00"
+     "area": 63.85,
+     "valor": 470500,
+     "status": "disponivel",
+     "obs": "1 · Área total 96,87 m²; valor avaliado R$ 541.000,00"
     },
     {
      "unidade": "62",
@@ -22177,7 +22115,7 @@
      "final": 2,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 60.18,
-     "valor": 468000,
+     "valor": 476800,
      "status": "disponivel",
      "obs": "1 · Área total 104,15 m²; valor avaliado R$ 511.000,00"
     },
@@ -22187,7 +22125,7 @@
      "final": 1,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 66.34,
-     "valor": 533500,
+     "valor": 543600,
      "status": "disponivel",
      "obs": "1 · Área total 113,14 m²; valor avaliado R$ 541.000,00"
     },
@@ -22197,9 +22135,19 @@
      "final": 3,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 57.62,
-     "valor": 443100,
+     "valor": 451600,
      "status": "reservado",
      "obs": "1 · Área total 87,77 m²; valor avaliado R$ 499.000,00"
+    },
+    {
+     "unidade": "76",
+     "andar": 7,
+     "final": 6,
+     "tipologia": "2 dormitórios (1 suíte)",
+     "area": 63.85,
+     "valor": 525400,
+     "status": "disponivel",
+     "obs": "1 · Área total 110 m²; valor avaliado R$ 541.000,00"
     },
     {
      "unidade": "81",
@@ -22207,7 +22155,7 @@
      "final": 1,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 66.34,
-     "valor": 539800,
+     "valor": 550200,
      "status": "disponivel",
      "obs": "1 · Área total 113,14 m²; valor avaliado R$ 541.000,00"
     },
@@ -22217,19 +22165,19 @@
      "final": 6,
      "tipologia": "2 dormitórios (1 suíte)",
      "area": 63.85,
-     "valor": 520900,
-     "status": "reservado",
-     "obs": "1 · Área total 110,00 m²; valor avaliado R$ 541.000,00"
+     "valor": 531000,
+     "status": "disponivel",
+     "obs": "1 · Área total 110 m²; valor avaliado R$ 541.000,00"
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "04/09/2026",
+   "atualizadoEm": "13/11/2026",
    "modalidade": "bancario",
    "entrega": "Fev/2027",
    "endereco": "Rua Doutor João Sampaio, 569 - Jardim Guilhermina - Praia Grande/SP",
-   "notaValor": "Valor total da unidade; empreendimento financiado pela CEF; entrada parcelada em 5 meses",
+   "notaValor": "Valor total da unidade; empreendimento financiado pela CEF; entrada parcelada em 3 meses",
    "fluxoInfo": [
-    "Parcelamento da entrada: 5 meses",
+    "Parcelamento da entrada: 3 meses",
     "Devido à alta rotatividade de reservas, confirmar a unidade pretendida",
     "Tabela sujeita a alteração sem aviso prévio"
    ],
@@ -22351,17 +22299,17 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
-     "valor": 740237.27,
-     "entrada": 370118.63,
+     "valor": 773884.42,
+     "entrada": 386942.21,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 370118.63,
+      "entrada": 386942.21,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14804.75,
+      "anualVal": 15477.69,
       "parcQtd": 60,
-      "parcVal": 4934.92
+      "parcVal": 5159.23
      }
     },
     {
@@ -22370,17 +22318,17 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
-     "valor": 809407.45,
-     "entrada": 404703.73,
+     "valor": 846198.7,
+     "entrada": 423099.35,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 404703.73,
+      "entrada": 423099.35,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 16188.15,
+      "anualVal": 16923.97,
       "parcQtd": 60,
-      "parcVal": 5396.05
+      "parcVal": 5641.32
      }
     },
     {
@@ -22389,17 +22337,17 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 81.65,
-     "valor": 821548.57,
-     "entrada": 410774.28,
+     "valor": 858891.68,
+     "entrada": 429445.84,
      "status": "disponivel",
      "obs": "2 · Final 01",
      "fluxo": {
-      "entrada": 410774.28,
+      "entrada": 429445.84,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 16430.97,
+      "anualVal": 17177.83,
       "parcQtd": 60,
-      "parcVal": 5476.99
+      "parcVal": 5725.94
      }
     },
     {
@@ -22408,17 +22356,17 @@
      "final": 2,
      "tipologia": "2 suítes",
      "area": 101.29,
-     "valor": 967549.63,
-     "entrada": 483774.81,
+     "valor": 1015927.11,
+     "entrada": 507963.55,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 483774.81,
+      "entrada": 507963.55,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 19350.99,
+      "anualVal": 20318.54,
       "parcQtd": 60,
-      "parcVal": 6450.33
+      "parcVal": 6772.85
      }
     },
     {
@@ -22427,17 +22375,17 @@
      "final": 2,
      "tipologia": "2 suítes",
      "area": 101.29,
-     "valor": 1042325.74,
-     "entrada": 521162.87,
+     "valor": 1094442.02,
+     "entrada": 547221.01,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 521162.87,
+      "entrada": 547221.01,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 20846.51,
+      "anualVal": 21888.84,
       "parcQtd": 60,
-      "parcVal": 6948.84
+      "parcVal": 7296.28
      }
     },
     {
@@ -22446,17 +22394,17 @@
      "final": 2,
      "tipologia": "2 suítes",
      "area": 101.29,
-     "valor": 1057960.62,
-     "entrada": 528980.31,
+     "valor": 1110858.65,
+     "entrada": 555429.33,
      "status": "disponivel",
      "obs": "2 · Final 02",
      "fluxo": {
-      "entrada": 528980.31,
+      "entrada": 555429.33,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 21159.21,
+      "anualVal": 22217.17,
       "parcQtd": 60,
-      "parcVal": 7053.07
+      "parcVal": 7405.72
      }
     },
     {
@@ -22465,17 +22413,17 @@
      "final": 3,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.11,
-     "valor": 738887.34,
-     "entrada": 369443.67,
+     "valor": 772473.13,
+     "entrada": 386236.56,
      "status": "disponivel",
      "obs": "2 · Final 03",
      "fluxo": {
-      "entrada": 369443.67,
+      "entrada": 386236.56,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14777.75,
+      "anualVal": 15449.46,
       "parcQtd": 60,
-      "parcVal": 4925.92
+      "parcVal": 5149.82
      }
     },
     {
@@ -22484,17 +22432,17 @@
      "final": 3,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.11,
-     "valor": 772638.51,
-     "entrada": 386319.26,
+     "valor": 807758.45,
+     "entrada": 403879.22,
      "status": "disponivel",
      "obs": "2 · Final 03",
      "fluxo": {
-      "entrada": 386319.26,
+      "entrada": 403879.22,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15452.77,
+      "anualVal": 16155.17,
       "parcQtd": 60,
-      "parcVal": 5150.92
+      "parcVal": 5385.06
      }
     },
     {
@@ -22503,17 +22451,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 743409.63,
-     "entrada": 371704.82,
+     "valor": 779236.6,
+     "entrada": 389618.3,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 371704.82,
+      "entrada": 389618.3,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14868.19,
+      "anualVal": 15584.73,
       "parcQtd": 60,
-      "parcVal": 4956.06
+      "parcVal": 5194.91
      }
     },
     {
@@ -22522,17 +22470,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 754560.78,
-     "entrada": 377280.39,
+     "valor": 790925.15,
+     "entrada": 395462.58,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 377280.39,
+      "entrada": 395462.58,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15091.22,
+      "anualVal": 15818.5,
       "parcQtd": 60,
-      "parcVal": 5030.41
+      "parcVal": 5272.83
      }
     },
     {
@@ -22541,17 +22489,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 765879.19,
-     "entrada": 382939.59,
+     "valor": 802789.03,
+     "entrada": 401394.51,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 382939.59,
+      "entrada": 401394.51,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15317.58,
+      "anualVal": 16055.78,
       "parcQtd": 60,
-      "parcVal": 5105.86
+      "parcVal": 5351.93
      }
     },
     {
@@ -22560,17 +22508,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 777367.38,
-     "entrada": 388683.69,
+     "valor": 814830.86,
+     "entrada": 407415.43,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 388683.69,
+      "entrada": 407415.43,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15547.35,
+      "anualVal": 16296.62,
       "parcQtd": 60,
-      "parcVal": 5182.45
+      "parcVal": 5432.21
      }
     },
     {
@@ -22579,17 +22527,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 789027.89,
-     "entrada": 394513.94,
+     "valor": 827053.33,
+     "entrada": 413526.66,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 394513.94,
+      "entrada": 413526.66,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15780.56,
+      "anualVal": 16541.07,
       "parcQtd": 60,
-      "parcVal": 5260.19
+      "parcVal": 5513.69
      }
     },
     {
@@ -22598,17 +22546,17 @@
      "final": 5,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.51,
-     "valor": 800863.31,
-     "entrada": 400431.65,
+     "valor": 839459.13,
+     "entrada": 419729.56,
      "status": "disponivel",
      "obs": "1 · Final 05",
      "fluxo": {
-      "entrada": 400431.65,
+      "entrada": 419729.56,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 16017.27,
+      "anualVal": 16789.18,
       "parcQtd": 60,
-      "parcVal": 5339.09
+      "parcVal": 5596.39
      }
     },
     {
@@ -22617,17 +22565,17 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 718538.93,
-     "entrada": 359269.46,
+     "valor": 753167.31,
+     "entrada": 376583.66,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 359269.46,
+      "entrada": 376583.66,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14370.78,
+      "anualVal": 15063.35,
       "parcQtd": 60,
-      "parcVal": 4790.26
+      "parcVal": 5021.12
      }
     },
     {
@@ -22636,17 +22584,17 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 729317.01,
-     "entrada": 364658.51,
+     "valor": 764464.82,
+     "entrada": 382232.41,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 364658.51,
+      "entrada": 382232.41,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14586.34,
+      "anualVal": 15289.3,
       "parcQtd": 60,
-      "parcVal": 4862.11
+      "parcVal": 5096.43
      }
     },
     {
@@ -22655,17 +22603,17 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 740256.77,
-     "entrada": 370128.38,
+     "valor": 775931.79,
+     "entrada": 387965.9,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 370128.38,
+      "entrada": 387965.9,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 14805.14,
+      "anualVal": 15518.64,
       "parcQtd": 60,
-      "parcVal": 4935.05
+      "parcVal": 5172.88
      }
     },
     {
@@ -22674,17 +22622,17 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 751360.62,
-     "entrada": 375680.31,
+     "valor": 787570.77,
+     "entrada": 393785.38,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 375680.31,
+      "entrada": 393785.38,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15027.21,
+      "anualVal": 15751.42,
       "parcQtd": 60,
-      "parcVal": 5009.07
+      "parcVal": 5250.47
      }
     },
     {
@@ -22693,17 +22641,17 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 762631.03,
-     "entrada": 381315.51,
+     "valor": 799384.33,
+     "entrada": 399692.17,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 381315.51,
+      "entrada": 399692.17,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15252.62,
+      "anualVal": 15987.69,
       "parcQtd": 60,
-      "parcVal": 5084.21
+      "parcVal": 5329.23
      }
     },
     {
@@ -22712,22 +22660,22 @@
      "final": 6,
      "tipologia": "2 dorm (1 suíte)",
      "area": 76.85,
-     "valor": 774070.49,
-     "entrada": 387035.25,
+     "valor": 811375.1,
+     "entrada": 405687.55,
      "status": "disponivel",
      "obs": "1 · Final 06",
      "fluxo": {
-      "entrada": 387035.25,
+      "entrada": 405687.55,
       "chaves": 0,
       "anualQtd": 5,
-      "anualVal": 15481.41,
+      "anualVal": 16227.5,
       "parcQtd": 60,
-      "parcVal": 5160.47
+      "parcVal": 5409.17
      }
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "Última atualização em 29/09/2026",
+   "atualizadoEm": "29/10/2026",
    "modalidade": "Entrada + 60 mensais + 5 anuais (direto com a construtora; sem parcela de chaves)",
    "entrega": "2026",
    "endereco": "Rua Tiradentes (grafada \"Tirandentes\" no PDF), Canto do Forte, Praia Grande/SP (número não informado)",
