@@ -3395,7 +3395,7 @@
      "valor": 361784,
      "entrada": 50000,
      "status": "disponivel",
-     "obs": "Voltou à venda (informado por Carlos em 23/11/2026; estava reservada na tabela de 13/11/2026). Valores e fluxo da tabela de 05/11/2026."
+     "obs": "Disponível na tabela de fluxo de 22/11/2026 (voltou à venda em 23/11/2026, informado por Carlos)."
     },
     {
      "unidade": "43",
@@ -3519,7 +3519,7 @@
     }
    ],
    "fonte": "Tabela Habitare – Res. Fátima II",
-   "atualizadoEm": "13/11/2026",
+   "atualizadoEm": "22/11/2026",
    "entrega": "Jul/2027",
    "endereco": "Rua 23 de Maio, 282 – Vila Mirim",
    "contato": "",
@@ -27728,10 +27728,10 @@
   "Correção pela poupança, acumulada até a entrega das chaves; depois da entrega, poupança + 0,5% acumulativo.",
   "Modelo e condições de pagamento: plano negociável.",
   "Comissão de 5% desde que esteja de acordo com a tabela, paga em até 3 dias úteis após o pagamento total da entrada.",
-  "Unidade 23: reservada, não vendida.",
+  "Unidade reservada não está vendida, só reservada.",
   "Para reservar: sinal e proposta entregues de imediato no escritório; consulta Serasa nacional, cópia de CPF, RG, e-mail, telefone, comprovante de residência e certidão de casamento; somente pessoa física com residência e documentação no Brasil.",
   "Construtora não autoriza alterações antes da entrega das chaves e não fornece revestimentos para modificações.",
   "Conta da construtora (Habitare Construtora e Incorporadora Ltda-EPP, CNPJ 18.778.400/0001-98): Bradesco, ag. 1978, c/c 38056-3. PIX: habitare.construtora@hotmail.com",
-  "Tabela de fluxo de 05/11/2026; as informações desta tabela se sobrepõem às anteriores."
+  "Tabela de fluxo de 22/11/2026; as informações desta tabela se sobrepõem às anteriores."
  ]
 }
