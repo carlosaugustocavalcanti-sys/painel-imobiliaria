@@ -1563,16 +1563,14 @@
    "nome": "Beach Park",
    "bairro": "Caiçara",
    "padrao": "",
-   "entrega": "Abr/2026",
-   "entregaSort": "2026-04",
+   "entrega": "Abr/2027",
+   "entregaSort": "2027-04",
    "status": "a_gravar",
    "ordem": 13,
    "diferenciais": [],
-   "pendencias": [
-    "tabela desatualizada (07/11/2025)"
-   ],
+   "pendencias": [],
    "confirmar": true,
-   "notas": "Tabela datada de 07/11/2025 (com previsão de entrega abril/2026): possivelmente desatualizada, confirmar com a construtora • Tabela não marca vendidas: todas as unidades listadas tratadas como disponíveis (confirmar) • Tabela traz \"41 e 41\" e \"81 e 91\": interpretados como 41/42 e 81/82 • Tipologia dos finais 04 e 05 não declarada na tabela (null) • Associação área x unidade em pares (\"79,18 e 78,92\") assumida na ordem das unidades",
+   "notas": "Tabela de 23/11/2026 (parcelamento banco), previsão de entrega abril/2027 • Vendidos marcados por cor (azul): 73 e 93; nenhuma unidade em proposta ou escriturada • Tabela traz \"41 e 41\", \"81 e 91\" e \"82\" no final 03: interpretados como 41/42, 81/82 e 83 • Tipologia dos finais 04 e 05: 2 dorm (1 suíte), conforme o cabeçalho • Associação área x unidade em pares (\"79,18 e 78,92\") assumida na ordem das unidades",
    "site": false,
    "cat": "lanc"
   },
@@ -3534,19 +3532,18 @@
      "andar": 1,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 426350.78,
-     "entrada": 20946.6,
+     "valor": 437009.55,
+     "entrada": 31605.37,
      "financ": 405404.18,
-     "status": "vendido",
-     "obs": "Reservado ou vendido (a tabela não separa)"
+     "status": "disponivel"
     },
     {
      "unidade": "21",
      "andar": 2,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 428456.06,
-     "entrada": 22986.6,
+     "valor": 440393.61,
+     "entrada": 34924.15,
      "financ": 405469.46,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3556,11 +3553,10 @@
      "andar": 3,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 430561.34,
-     "entrada": 24558.6,
+     "valor": 443789.73,
+     "entrada": 37786.99,
      "financ": 406002.74,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4810.1,
      "renda": 16100
     },
@@ -3569,11 +3565,10 @@
      "andar": 4,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 432666.62,
-     "entrada": 26598.6,
+     "valor": 447197.89,
+     "entrada": 41129.87,
      "financ": 406068.02,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4810.87,
      "renda": 16100
     },
@@ -3582,8 +3577,8 @@
      "andar": 5,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 434771.9,
-     "entrada": 28170.6,
+     "valor": 450618.1,
+     "entrada": 44016.8,
      "financ": 406601.3,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3593,8 +3588,8 @@
      "andar": 6,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 436877.18,
-     "entrada": 30210.6,
+     "valor": 454050.37,
+     "entrada": 47383.79,
      "financ": 406666.58,
      "status": "disponivel",
      "obs": "",
@@ -3606,11 +3601,10 @@
      "andar": 7,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 438982.46,
-     "entrada": 30378.6,
+     "valor": 457494.68,
+     "entrada": 48890.82,
      "financ": 408603.86,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4840.76,
      "renda": 16200
     },
@@ -3619,8 +3613,8 @@
      "andar": 8,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 441087.74,
-     "entrada": 32418.6,
+     "valor": 460951.04,
+     "entrada": 52281.9,
      "financ": 408669.14,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3630,11 +3624,10 @@
      "andar": 9,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 443193.02,
-     "entrada": 34458.6,
+     "valor": 464419.46,
+     "entrada": 55685.04,
      "financ": 408734.42,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4842.29,
      "renda": 16200
     },
@@ -3643,8 +3636,8 @@
      "andar": 10,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.09,
-     "valor": 445298.3,
-     "entrada": 36498.6,
+     "valor": 467899.92,
+     "entrada": 59100.22,
      "financ": 408799.7,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3654,11 +3647,10 @@
      "andar": 1,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 439361.41,
-     "entrada": 45597.8,
+     "valor": 450345.45,
+     "entrada": 56581.84,
      "financ": 393763.61,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4665.85,
      "renda": 15600
     },
@@ -3667,11 +3659,11 @@
      "andar": 2,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 441466.69,
-     "entrada": 45805.8,
+     "valor": 453766.74,
+     "entrada": 58105.85,
      "financ": 395660.89,
-     "status": "disponivel",
-     "obs": "",
+     "status": "vendido",
+     "obs": "Reservado ou vendido (a tabela não separa)",
      "parcela": 4688.21,
      "renda": 15700
     },
@@ -3680,8 +3672,8 @@
      "andar": 3,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 443571.97,
-     "entrada": 46013.8,
+     "valor": 457200.09,
+     "entrada": 59641.92,
      "financ": 397558.17,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3691,8 +3683,8 @@
      "andar": 4,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 445677.25,
-     "entrada": 47137.8,
+     "valor": 460645.49,
+     "entrada": 62106.04,
      "financ": 398539.45,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3702,8 +3694,8 @@
      "andar": 5,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 447782.53,
-     "entrada": 49177.8,
+     "valor": 464102.94,
+     "entrada": 65498.21,
      "financ": 398604.73,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3713,8 +3705,8 @@
      "andar": 6,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 449887.81,
-     "entrada": 51217.8,
+     "valor": 467572.43,
+     "entrada": 68902.42,
      "financ": 398670.01,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3724,8 +3716,8 @@
      "andar": 7,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 451993.09,
-     "entrada": 53257.8,
+     "valor": 471053.98,
+     "entrada": 72318.69,
      "financ": 398735.29,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3735,8 +3727,8 @@
      "andar": 8,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 454098.37,
-     "entrada": 55297.8,
+     "valor": 474547.58,
+     "entrada": 75747.01,
      "financ": 398800.57,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3746,8 +3738,8 @@
      "andar": 9,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 456203.65,
-     "entrada": 57337.8,
+     "valor": 478053.22,
+     "entrada": 79187.37,
      "financ": 398865.85,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3757,8 +3749,8 @@
      "andar": 10,
      "tipologia": "2 dorms (1 suíte)",
      "area": 62.03,
-     "valor": 458308.93,
-     "entrada": 59377.8,
+     "valor": 481570.92,
+     "entrada": 82639.79,
      "financ": 398931.13,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3768,8 +3760,8 @@
      "andar": 1,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 372139.82,
-     "entrada": 19704.1,
+     "valor": 381443.32,
+     "entrada": 29007.6,
      "financ": 352435.72,
      "status": "disponivel",
      "obs": "",
@@ -3781,9 +3773,9 @@
      "andar": 2,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 374245.1,
-     "entrada": 21744.1,
-     "financ": 352501,
+     "valor": 384672.24,
+     "entrada": 32171.24,
+     "financ": 352501.0,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
     },
@@ -3792,8 +3784,8 @@
      "andar": 3,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 376350.38,
-     "entrada": 23784.1,
+     "valor": 387913.21,
+     "entrada": 35346.93,
      "financ": 352566.28,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3803,8 +3795,8 @@
      "andar": 4,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 378455.66,
-     "entrada": 25824.1,
+     "valor": 391166.24,
+     "entrada": 38534.68,
      "financ": 352631.56,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3814,8 +3806,8 @@
      "andar": 5,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 380560.94,
-     "entrada": 27864.1,
+     "valor": 394431.31,
+     "entrada": 41734.47,
      "financ": 352696.84,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3825,8 +3817,8 @@
      "andar": 6,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 382666.22,
-     "entrada": 29904.1,
+     "valor": 397708.43,
+     "entrada": 44946.31,
      "financ": 352762.12,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3836,8 +3828,8 @@
      "andar": 7,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 384771.5,
-     "entrada": 31944.1,
+     "valor": 400997.6,
+     "entrada": 48170.2,
      "financ": 352827.4,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3847,8 +3839,8 @@
      "andar": 8,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 386876.78,
-     "entrada": 33984.1,
+     "valor": 404298.83,
+     "entrada": 51406.15,
      "financ": 352892.68,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3858,8 +3850,8 @@
      "andar": 9,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 388982.06,
-     "entrada": 36024.1,
+     "valor": 407612.1,
+     "entrada": 54654.14,
      "financ": 352957.96,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3869,8 +3861,8 @@
      "andar": 10,
      "tipologia": "2 dorms",
      "area": 56.3,
-     "valor": 391087.34,
-     "entrada": 38064.1,
+     "valor": 410937.42,
+     "entrada": 57914.18,
      "financ": 353023.24,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3880,11 +3872,10 @@
      "andar": 1,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 376476.69,
-     "entrada": 24576.69,
+     "valor": 385888.61,
+     "entrada": 33988.61,
      "financ": 351900,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3893,11 +3884,10 @@
      "andar": 2,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 378581.97,
-     "entrada": 26681.97,
+     "valor": 389129.94,
+     "entrada": 37229.94,
      "financ": 351900,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3906,11 +3896,10 @@
      "andar": 3,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 380687.25,
-     "entrada": 28787.25,
+     "valor": 392383.33,
+     "entrada": 40483.33,
      "financ": 351900,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3919,11 +3908,11 @@
      "andar": 4,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 382792.53,
-     "entrada": 30892.53,
+     "valor": 395648.76,
+     "entrada": 43748.76,
      "financ": 351900,
-     "status": "disponivel",
-     "obs": "",
+     "status": "vendido",
+     "obs": "Reservado ou vendido (a tabela não separa)",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3932,11 +3921,11 @@
      "andar": 5,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 384897.81,
-     "entrada": 32997.81,
+     "valor": 398926.25,
+     "entrada": 47026.25,
      "financ": 351900,
-     "status": "disponivel",
-     "obs": "",
+     "status": "vendido",
+     "obs": "Reservado ou vendido (a tabela não separa)",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3945,11 +3934,10 @@
      "andar": 6,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 387003.09,
-     "entrada": 35103.09,
+     "valor": 402215.78,
+     "entrada": 50315.78,
      "financ": 351900,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3958,8 +3946,8 @@
      "andar": 7,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 389108.37,
-     "entrada": 37208.37,
+     "valor": 405517.36,
+     "entrada": 53617.36,
      "financ": 351900,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3969,8 +3957,8 @@
      "andar": 8,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 391213.65,
-     "entrada": 39313.65,
+     "valor": 408831.0,
+     "entrada": 56931.0,
      "financ": 351900,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -3980,11 +3968,11 @@
      "andar": 9,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 393318.93,
-     "entrada": 41418.93,
+     "valor": 412156.68,
+     "entrada": 60256.68,
      "financ": 351900,
-     "status": "disponivel",
-     "obs": "",
+     "status": "vendido",
+     "obs": "Reservado ou vendido (a tabela não separa)",
      "parcela": 4172.45,
      "renda": 14000
     },
@@ -3993,8 +3981,8 @@
      "andar": 10,
      "tipologia": "2 dorms (1 suíte)",
      "area": 56.71,
-     "valor": 395424.21,
-     "entrada": 43524.21,
+     "valor": 415494.41,
+     "entrada": 63594.41,
      "financ": 351900,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4004,11 +3992,11 @@
      "andar": 1,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 376476.7,
-     "entrada": 18705.75,
+     "valor": 385888.62,
+     "entrada": 28117.67,
      "financ": 357770.95,
-     "status": "disponivel",
-     "obs": "",
+     "status": "vendido",
+     "obs": "Reservado ou vendido (a tabela não separa)",
      "parcela": 4241.64,
      "renda": 14200
     },
@@ -4017,22 +4005,20 @@
      "andar": 2,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 378581.98,
-     "entrada": 19931.98,
+     "valor": 389129.95,
+     "entrada": 30479.95,
      "financ": 358650,
-     "status": "vendido",
-     "obs": "Reservado ou vendido (a tabela não separa)"
+     "status": "disponivel"
     },
     {
      "unidade": "35",
      "andar": 3,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 380687.26,
-     "entrada": 22037.26,
+     "valor": 392383.34,
+     "entrada": 33733.34,
      "financ": 358650,
      "status": "disponivel",
-     "obs": "",
      "parcela": 4252.01,
      "renda": 14200
     },
@@ -4041,8 +4027,8 @@
      "andar": 4,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 382792.54,
-     "entrada": 24142.54,
+     "valor": 395648.77,
+     "entrada": 36998.77,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4052,19 +4038,18 @@
      "andar": 5,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 384897.82,
-     "entrada": 26247.82,
+     "valor": 398926.26,
+     "entrada": 40276.26,
      "financ": 358650,
-     "status": "vendido",
-     "obs": "Reservado ou vendido (a tabela não separa)"
+     "status": "disponivel"
     },
     {
      "unidade": "65",
      "andar": 6,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 387003.1,
-     "entrada": 28353.1,
+     "valor": 402215.79,
+     "entrada": 43565.79,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4074,8 +4059,8 @@
      "andar": 7,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 389108.38,
-     "entrada": 30458.38,
+     "valor": 405517.37,
+     "entrada": 46867.37,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4085,8 +4070,8 @@
      "andar": 8,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 391213.66,
-     "entrada": 32563.66,
+     "valor": 408831.01,
+     "entrada": 50181.01,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4096,8 +4081,8 @@
      "andar": 9,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 393318.94,
-     "entrada": 34668.94,
+     "valor": 412156.69,
+     "entrada": 53506.69,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
@@ -4107,15 +4092,15 @@
      "andar": 10,
      "tipologia": "2 dorms + lavabo",
      "area": 59.4,
-     "valor": 395424.22,
-     "entrada": 36774.22,
+     "valor": 415494.42,
+     "entrada": 56844.42,
      "financ": 358650,
      "status": "vendido",
      "obs": "Reservado ou vendido (a tabela não separa)"
     }
    ],
    "fonte": "Tabela SAC Caixa – Residencial Romero",
-   "atualizadoEm": "28/09/2026",
+   "atualizadoEm": "24/11/2026",
    "entrega": "Jul/2028",
    "endereco": "Rua Alamanda, 83 – Jardim Real",
    "contato": "(13) 98218-6499 (Thiago)",
@@ -4933,32 +4918,6 @@
      "renda": 28400
     },
     {
-     "unidade": "52",
-     "andar": 5,
-     "tipologia": "3 dorms (1 suíte + 2 demi)",
-     "area": 104.81,
-     "valor": 973290,
-     "entrada": 48664.5,
-     "financ": 692968.8,
-     "status": "disponivel",
-     "obs": "Área exclusiva 2 m²; Vagas privativas (subsolo)",
-     "parcela": 8192.25,
-     "renda": 27400
-    },
-    {
-     "unidade": "92",
-     "andar": 9,
-     "tipologia": "3 dorms (1 suíte + 2 demi)",
-     "area": 104.81,
-     "valor": 993290,
-     "entrada": 49664.5,
-     "financ": 707368.8,
-     "status": "disponivel",
-     "obs": "Área exclusiva 2 m²; Vagas privativas (subsolo)",
-     "parcela": 8361.96,
-     "renda": 27900
-    },
-    {
      "unidade": "112",
      "andar": 11,
      "tipologia": "3 dorms (1 suíte + 2 demi)",
@@ -5087,32 +5046,6 @@
      "obs": "Área exclusiva 1 m²; Vaga privativa (g1)",
      "parcela": 6186.01,
      "renda": 20700
-    },
-    {
-     "unidade": "104",
-     "andar": 10,
-     "tipologia": "2 suítes",
-     "area": 76.29,
-     "valor": 756868,
-     "entrada": 37843.4,
-     "financ": 537144.96,
-     "status": "disponivel",
-     "obs": "Área exclusiva 1 m²; Vaga privativa (g1)",
-     "parcela": 6355.73,
-     "renda": 21200
-    },
-    {
-     "unidade": "45",
-     "andar": 4,
-     "tipologia": "2 suítes",
-     "area": 76.38,
-     "valor": 712420,
-     "entrada": 35621,
-     "financ": 505142.4,
-     "status": "disponivel",
-     "obs": "Área exclusiva 1 m²; Vaga privativa (g3)",
-     "parcela": 5978.55,
-     "renda": 20000
     },
     {
      "unidade": "95",
@@ -5313,7 +5246,7 @@
     }
    ],
    "fonte": "Tabela de reservas GMV – Residencial Park Avenue",
-   "atualizadoEm": "23/10/2026",
+   "atualizadoEm": "23/11/2026",
    "entrega": "Jan/2029",
    "endereco": "Av. Guilhermina, 591 – Guilhermina",
    "contato": "",
@@ -6874,7 +6807,7 @@
      "valor": 532028.52,
      "entrada": 32453.74,
      "financ": 371876.21,
-     "status": "disponivel",
+     "status": "reservado",
      "obs": "1 vaga",
      "parcela": 4407.89,
      "renda": 14700
@@ -6917,19 +6850,6 @@
      "obs": "1 vaga",
      "parcela": 4553.69,
      "renda": 15200
-    },
-    {
-     "unidade": "56",
-     "andar": 5,
-     "tipologia": "2 dorms (1 suíte)",
-     "area": 63.37,
-     "valor": 562602.97,
-     "entrada": 33756.18,
-     "financ": 393800.52,
-     "status": "disponivel",
-     "obs": "1 vaga",
-     "parcela": 4666.29,
-     "renda": 15600
     },
     {
      "unidade": "86",
@@ -20782,18 +20702,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 550000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 390000
     },
     {
      "unidade": "12",
@@ -20801,18 +20715,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 550000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 390000
     },
     {
      "unidade": "13",
@@ -20820,56 +20728,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 412000,
-     "entrada": 50000,
+     "valor": 360000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 120000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 240000
     },
     {
      "unidade": "14",
      "andar": 1,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 550000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 390000
     },
     {
      "unidade": "15",
      "andar": 1,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 550000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 390000
     },
     {
      "unidade": "21",
@@ -20877,18 +20767,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 554000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 394000
     },
     {
      "unidade": "22",
@@ -20896,18 +20780,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 554000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 394000
     },
     {
      "unidade": "23",
@@ -20915,56 +20793,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 412000,
-     "entrada": 50000,
+     "valor": 363000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 120000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 243000
     },
     {
      "unidade": "24",
      "andar": 2,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 554000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 394000
     },
     {
      "unidade": "25",
      "andar": 2,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 613600,
-     "entrada": 100000,
+     "valor": 554000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 170000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 394000
     },
     {
      "unidade": "31",
@@ -20972,18 +20832,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 558000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 398000
     },
     {
      "unidade": "32",
@@ -20991,18 +20845,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 558000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 398000
     },
     {
      "unidade": "33",
@@ -21010,56 +20858,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 414000,
-     "entrada": 50000,
+     "valor": 366000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 122000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 246000
     },
     {
      "unidade": "34",
      "andar": 3,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 558000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 398000
     },
     {
      "unidade": "35",
      "andar": 3,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 558000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 398000
     },
     {
      "unidade": "41",
@@ -21067,18 +20897,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 562000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 402000
     },
     {
      "unidade": "42",
@@ -21086,18 +20910,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 562000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²; tabela grafa \"41 e 41\"/\"81 e 91\" (interpretado)",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²; tabela grafa \"41 e 41\"/\"81 e 91\"/\"82\" no final 3 (interpretados como 41/42. 81/82 e 83)",
+     "chaves": 80000,
+     "financ": 402000
     },
     {
      "unidade": "43",
@@ -21105,56 +20923,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 414000,
-     "entrada": 50000,
+     "valor": 369000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 122000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 249000
     },
     {
      "unidade": "44",
      "andar": 4,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 562000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 402000
     },
     {
      "unidade": "45",
      "andar": 4,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 615600,
-     "entrada": 100000,
+     "valor": 562000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 172000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 402000
     },
     {
      "unidade": "51",
@@ -21162,18 +20962,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 566000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 406000
     },
     {
      "unidade": "52",
@@ -21181,18 +20975,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 566000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 406000
     },
     {
      "unidade": "53",
@@ -21200,56 +20988,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 416000,
-     "entrada": 50000,
+     "valor": 372000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 124000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 252000
     },
     {
      "unidade": "54",
      "andar": 5,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 566000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 406000
     },
     {
      "unidade": "55",
      "andar": 5,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 566000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 406000
     },
     {
      "unidade": "61",
@@ -21257,18 +21027,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 570000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 410000
     },
     {
      "unidade": "62",
@@ -21276,18 +21040,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 570000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 410000
     },
     {
      "unidade": "63",
@@ -21295,56 +21053,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 416000,
-     "entrada": 50000,
+     "valor": 375000,
+     "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 124000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 255000
     },
     {
      "unidade": "64",
      "andar": 6,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 570000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 410000
     },
     {
      "unidade": "65",
      "andar": 6,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 617600,
-     "entrada": 100000,
+     "valor": 570000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 174000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 410000
     },
     {
      "unidade": "71",
@@ -21352,18 +21092,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 574000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 414000
     },
     {
      "unidade": "72",
@@ -21371,18 +21105,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 574000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 414000
     },
     {
      "unidade": "73",
@@ -21390,56 +21118,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 418000,
-     "entrada": 50000,
-     "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 126000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "valor": 378000,
+     "entrada": 60000,
+     "status": "vendido",
+     "obs": "Vendido (marcado em azul na tabela de 23/11/2026); Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 258000
     },
     {
      "unidade": "74",
      "andar": 7,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 574000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 414000
     },
     {
      "unidade": "75",
      "andar": 7,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 574000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 414000
     },
     {
      "unidade": "81",
@@ -21447,18 +21157,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 578000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 418000
     },
     {
      "unidade": "82",
@@ -21466,18 +21170,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 578000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²; tabela grafa \"41 e 41\"/\"81 e 91\" (interpretado)",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²; tabela grafa \"41 e 41\"/\"81 e 91\"/\"82\" no final 3 (interpretados como 41/42. 81/82 e 83)",
+     "chaves": 80000,
+     "financ": 418000
     },
     {
      "unidade": "82",
@@ -21485,56 +21183,38 @@
      "final": 2,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 418000,
-     "entrada": 50000,
+     "valor": 578000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²; tabela grafa \"41 e 41\"/\"81 e 91\" (interpretado)",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 126000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 92.78 m²; tabela grafa \"41 e 41\"/\"81 e 91\"/\"82\" no final 3 (interpretados como 41/42. 81/82 e 83)",
+     "chaves": 80000,
+     "financ": 418000
     },
     {
      "unidade": "84",
      "andar": 8,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 578000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 418000
     },
     {
      "unidade": "85",
      "andar": 8,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 619600,
-     "entrada": 100000,
+     "valor": 578000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 176000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 418000
     },
     {
      "unidade": "91",
@@ -21542,18 +21222,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 582000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 422000
     },
     {
      "unidade": "92",
@@ -21561,18 +21235,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 582000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 422000
     },
     {
      "unidade": "93",
@@ -21580,56 +21248,38 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 420000,
-     "entrada": 50000,
-     "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 50000,
-      "chaves": 128000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "valor": 378000,
+     "entrada": 60000,
+     "status": "vendido",
+     "obs": "Vendido (marcado em azul na tabela de 23/11/2026); Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 258000
     },
     {
      "unidade": "94",
      "andar": 9,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 582000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 422000
     },
     {
      "unidade": "95",
      "andar": 9,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 582000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 422000
     },
     {
      "unidade": "101",
@@ -21637,18 +21287,12 @@
      "final": 1,
      "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 586000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 426000
     },
     {
      "unidade": "102",
@@ -21656,18 +21300,12 @@
      "final": 2,
      "tipologia": "2 dorm (1 suíte)",
      "area": 78.92,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 586000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,52 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.52 m²",
+     "chaves": 80000,
+     "financ": 426000
     },
     {
      "unidade": "103",
@@ -21675,68 +21313,51 @@
      "final": 3,
      "tipologia": "1 dorm (suíte)",
      "area": 51.94,
-     "valor": 430000,
+     "valor": 378000,
      "entrada": 60000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 40.000,00; área total 92,78 m²",
-     "fluxo": {
-      "entrada": 60000,
-      "chaves": 128000,
-      "anualQtd": 1,
-      "anualVal": 40000,
-      "parcQtd": 36,
-      "parcVal": 4500
-     }
+     "obs": "Entrada R$ 60.000 + chaves R$ 60.000 + financiamento bancário; área total 92.78 m²",
+     "chaves": 60000,
+     "financ": 258000
     },
     {
      "unidade": "104",
      "andar": 10,
      "final": 4,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 78.91,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 586000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,51 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.51 m²",
+     "chaves": 80000,
+     "financ": 426000
     },
     {
      "unidade": "105",
      "andar": 10,
      "final": 5,
-     "tipologia": "",
+     "tipologia": "2 dorm (1 suíte)",
      "area": 79.18,
-     "valor": 621600,
-     "entrada": 100000,
+     "valor": 586000,
+     "entrada": 80000,
      "status": "disponivel",
-     "obs": "30 dias: R$ 80.000,00; área total 134,92 m²",
-     "fluxo": {
-      "entrada": 100000,
-      "chaves": 178000,
-      "anualQtd": 1,
-      "anualVal": 80000,
-      "parcQtd": 36,
-      "parcVal": 5100
-     }
+     "obs": "Entrada R$ 80.000 + chaves R$ 80.000 + financiamento bancário; área total 134.92 m²",
+     "chaves": 80000,
+     "financ": 426000
     }
    ],
    "fonte": "Tabela de vendas da construtora (Google Drive do corretor, pasta 2026)",
-   "atualizadoEm": "07/11/2025",
-   "modalidade": "direto",
-   "entrega": "Abr/2026",
+   "atualizadoEm": "23/11/2026",
+   "modalidade": "bancario",
+   "entrega": "Abr/2027",
    "endereco": "Av. Juscelino Kubitschek de Oliveira, 880 (finais 01 e 02, frente) e Rua Maria Togininni, 219 (finais 04 e 05, frente) - Caiçara, Praia Grande/SP",
    "contato": "CMD: (13) 97403-7637 / (13) 3356-4885",
-   "notaValor": "Entrada + 30 dias + 36 mensais + chaves + 1 anual (parcelamento direto com a construtora)",
+   "notaValor": "Entrada + chaves + financiamento bancário (tabela parcelamento banco)",
    "fluxoInfo": [
-    "Colunas da tabela: Entrada, 30 dias (pagamento único), 36 parcelas mensais, Chaves, 1 anual, Total",
-    "Valor \"30 dias\" guardado em obs de cada unidade"
+    "Colunas da tabela: Entrada, 12 (sem valor), Chaves, Financiamento, Total",
+    "Finais 01, 02, 04 e 05: entrada R$ 80.000 + chaves R$ 80.000; final 03: R$ 60.000 + R$ 60.000",
+    "Na linha do 8º andar dos finais 04/05 o financiamento sai grafado R$ 4.189.000,00; o total (R$ 578.000) indica R$ 418.000"
    ],
    "book": {
     "resumo": [

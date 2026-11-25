@@ -1,7 +1,7 @@
 {
  "arquivo": "Google Drive/5. FRENTE MAR",
- "lidoEm": "2026-11-22",
- "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (57 prédios, 65 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
+ "lidoEm": "2026-11-25",
+ "sobre": "Apartamentos escritos \"frente mar\" ou na Av. Pres. Castelo Branco, tirados das tabelas em PDF da pasta \"5. FRENTE MAR\" do Drive (56 prédios, 67 unidades). Casas, locações e unidades só com \"vista mar\" fora da Av. Castelo Branco ficaram de fora. Quando o prédio não tem nome na tabela, o código do anúncio vira o nome.",
  "predios": [
   {
    "id": "guayi-frente-mar",
@@ -540,9 +540,9 @@
      "cond": 756.21,
      "det": "sacada envidraçada com vista mar, lazer e portaria 24h",
      "obs": "Código Kalyl 11239. R$ 570 mil à vista; R$ 590 mil no financiamento bancário ou permuta. Condomínio R$ 756,21 (+ taxa de elevador R$ 38,12). Chaves: portaria ou Kalyl; enviar CRECI para autorizar. Comissão 5%.",
-     "fonte": "Kalyl Imóveis (tabela de 23/11/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 24/11/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "tabela": "23/11/2026",
+     "tabela": "24/11/2026",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -552,9 +552,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Kalyl Imóveis (tabela de 23/11/2026)",
+     "fonte": "Kalyl Imóveis (tabela de 24/11/2026)",
      "contato": "Kalyl Imóveis (13) 98850-1016",
-     "atualizadoEm": "23/11/2026",
+     "atualizadoEm": "24/11/2026",
      "arquivo": "KALYL - Apto 1 dorm (Boqueirão) + Apto 2 dorm (Maracanã) + Aptos 3 dorm (Guilhermina-Aviação).pdf"
     }
    ]
@@ -754,9 +754,30 @@
      "cond": 350,
      "det": "kitão dividido em 1 dormitório, todo reformado; 3 elevadores, portaria 24h, fechadura eletrônica",
      "obs": "Novo (tabela de 19/11/2026). R$ 280 mil à vista; R$ 285 mil no financiamento bancário. Comissão 6%.",
-     "fonte": "Mari Biffi (arquivo de 19/11/2026)",
-     "contato": "Mari Biffi (corretora)",
-     "tabela": "sem data (arquivo de 19/11/2026)",
+     "fonte": "Mari Biffi (arquivo de 24/11/2026)",
+     "contato": "Mari Biffi (corretora) (11) 95116-8141",
+     "tabela": "sem data (arquivo de 24/11/2026)",
+     "vistaMar": true,
+     "vista": "Frente mar",
+     "fase": "pronto"
+    },
+    {
+     "unidade": "1105",
+     "tipologia": "Kitnet · 1 dorm",
+     "dorm": 1,
+     "suites": 0,
+     "status": "disponivel",
+     "area": 38,
+     "vagas": "1 rotativa",
+     "valor": 290000,
+     "iptu": 89,
+     "cond": 350,
+     "andar": 11,
+     "det": "kitão reformado, mobiliado; elevadores, portaria 24h",
+     "obs": "Novo na tabela de 24/11/2026. 11º andar, prédio frente mar com vista mar. R$ 290 mil à vista; R$ 295 mil no financiamento bancário. Chaves com os pedreiros. Comissão 6%.",
+     "fonte": "Mari Biffi (arquivo de 24/11/2026)",
+     "contato": "Mari Biffi (corretora) (11) 95116-8141",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -772,9 +793,9 @@
      "arquivo": "PGI - Aptos 1 dorm (Tupi-Maracanã).pdf"
     },
     {
-     "fonte": "Mari Biffi (arquivo de 19/11/2026)",
-     "contato": "Mari Biffi (corretora)",
-     "atualizadoEm": "sem data (arquivo de 19/11/2026)",
+     "fonte": "Mari Biffi (arquivo de 24/11/2026)",
+     "contato": "Mari Biffi (corretora) (11) 95116-8141",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "MARI BIFFI - Kit (Aviação).pdf"
     }
    ]
@@ -819,9 +840,9 @@
      "cond": 1100,
      "det": "porteira fechada",
      "obs": "Unidade sem número na tabela. Estuda veículo como parte do pagamento. Comissão fifty.",
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "tabela": "09/11/2026",
+     "tabela": "23/11/2026",
      "vistaMar": true,
      "vista": "Frente mar total",
      "fase": "pronto"
@@ -837,9 +858,9 @@
      "arquivo": "C2X - Apto 3 dorm (Maracanã).pdf"
     },
     {
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "atualizadoEm": "09/11/2026",
+     "atualizadoEm": "23/11/2026",
      "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
     }
    ]
@@ -864,9 +885,9 @@
      "cond": 426,
      "det": "sacada, garagem rotativa, porteira fechada",
      "obs": "Unidade sem número na tabela. Comissão 5%.",
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "tabela": "09/11/2026",
+     "tabela": "23/11/2026",
      "vistaMar": true,
      "vista": "Vista mar · Av. Pres. Castelo Branco",
      "fase": "pronto"
@@ -876,9 +897,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "atualizadoEm": "09/11/2026",
+     "atualizadoEm": "23/11/2026",
      "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
     }
    ]
@@ -903,32 +924,13 @@
      "cond": 980,
      "det": "mobiliado, portaria 24h, lazer completo",
      "obs": "De R$ 1.200.000 por R$ 1.100.000. Unidade sem número na tabela. Estuda veículo como parte do pagamento. Comissão fifty.",
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "tabela": "09/11/2026",
+     "tabela": "23/11/2026",
      "vistaMar": true,
      "vista": "Frente mar total",
      "fase": "pronto"
-    }
-   ],
-   "cidade": "Praia Grande",
-   "notas": [],
-   "tabelas": [
-    {
-     "fonte": "Nova Home (tabela de 09/11/2026)",
-     "contato": "Daniela (13) 97409-3105",
-     "atualizadoEm": "09/11/2026",
-     "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
-    }
-   ]
-  },
-  {
-   "id": "novahome-nova home guilhermina 72 m²",
-   "nome": "Prédio frente mar · Nova Home Guilhermina 72 m²",
-   "bairro": "Guilhermina",
-   "endereco": null,
-   "fase": "pronto",
-   "unidades": [
+    },
     {
      "unidade": "—",
      "tipologia": "2 dorms (1 suíte)",
@@ -937,14 +939,15 @@
      "status": "disponivel",
      "area": 72,
      "vagas": "2",
-     "valor": 1280000,
+     "valor": 1250000,
      "iptu": 550,
      "cond": 880,
+     "andar": 24,
      "det": "mobiliado, porteira fechada, lazer completo",
-     "obs": "Unidade sem número nem endereço na tabela de 09/11/2026. Comissão 4% (vira fifty se houver negociação).",
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "obs": "Unidade sem número na tabela; 24º andar. Na tabela de 23/11/2026 aparece como Ilha Home Resort, a R$ 1.250.000 (era R$ 1.280.000 sem nome em 09/11). Comissão fifty.",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "tabela": "09/11/2026",
+     "tabela": "23/11/2026",
      "vistaMar": true,
      "vista": "Frente mar total",
      "fase": "pronto"
@@ -954,9 +957,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Nova Home (tabela de 09/11/2026)",
+     "fonte": "Nova Home (tabela de 23/11/2026)",
      "contato": "Daniela (13) 97409-3105",
-     "atualizadoEm": "09/11/2026",
+     "atualizadoEm": "23/11/2026",
      "arquivo": "NOVA HOME - Aptos 3 dorm (Caiçara-Jd Real).pdf"
     }
    ]
@@ -1222,6 +1225,24 @@
    "fase": "pronto",
    "unidades": [
     {
+     "unidade": "86-B",
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "status": "disponivel",
+     "area": 77.36,
+     "vagas": "1",
+     "valor": 550000,
+     "det": "tudo novo, sem uso",
+     "obs": "Novo na tabela de 24/11/2026. R$ 550 mil à vista; R$ 560 mil no financiamento bancário. Enviar CRECI para liberar a entrada. Comissão 5% (negociação vira a combinar).",
+     "fonte": "Eliana Nemeth (tabela de 24/11/2026)",
+     "contato": "Eliana Nemeth (13) 99633-1220",
+     "tabela": "24/11/2026",
+     "vistaMar": true,
+     "vista": "Frente mar · vista mar",
+     "fase": "pronto"
+    },
+    {
      "unidade": "35-B",
      "tipologia": "2 dorms (1 suíte)",
      "dorm": 2,
@@ -1249,6 +1270,12 @@
      "contato": "Eduardo Stefano (meuzap.in/stefano)",
      "atualizadoEm": "sem data (arquivo de 20/11/2026)",
      "arquivo": "EDUARDO STEFANO - Apto 2 dorm (Mongaguá-SP).pdf"
+    },
+    {
+     "fonte": "Eliana Nemeth (tabela de 24/11/2026)",
+     "contato": "Eliana Nemeth (13) 99633-1220",
+     "atualizadoEm": "24/11/2026",
+     "arquivo": "ELIANA NEMETH - Apto 2 dorm (Mongaguá-SP).pdf"
     }
    ]
   },
@@ -1352,9 +1379,9 @@
      "cond": 1368,
      "det": "área gourmet, lazer completo",
      "obs": "À vista ou financiamento. Comissão 6%. A tabela não nomeia o prédio.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente mar",
      "fase": "pronto"
@@ -1364,9 +1391,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]
@@ -1391,10 +1418,10 @@
      "cond": 328.5,
      "andar": 1,
      "det": "mobiliado, bicicletário",
-     "obs": "Tabela diz \"frente praia\". 1º andar. À vista ou financiamento. Comissão 5%. Não aparece na tabela de 17/11/2026; confirmar com a imobiliária se ainda está à venda.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "obs": "Tabela diz \"frente praia\". 1º andar. À vista ou financiamento. Comissão 5%. Não aparece nas tabelas de 17/11 e 24/11/2026; confirmar com a imobiliária se ainda está à venda.",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente praia",
      "fase": "pronto"
@@ -1404,9 +1431,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]
@@ -1432,9 +1459,9 @@
      "andar": 11,
      "det": "mobiliado, bicicletário",
      "obs": "Tabela diz \"frente praia\". 11º andar. À vista ou financiamento. Comissão 5%.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente praia",
      "fase": "pronto"
@@ -1444,9 +1471,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]
@@ -1472,9 +1499,9 @@
      "andar": 5,
      "det": "mobiliado, bicicletário",
      "obs": "Tabela diz \"frente praia\". 5º andar. À vista ou financiamento. Comissão fifty.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente praia",
      "fase": "pronto"
@@ -1484,9 +1511,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]
@@ -1512,9 +1539,9 @@
      "andar": 2,
      "det": "mobiliado; portaria 24h, elevador, piscina, churrasqueira, salão de festas, solário",
      "obs": "Novo na tabela de 17/11/2026. 2º andar. À vista ou financiamento. Comissão 5%. A tabela não nomeia o prédio.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Prédio frente mar · vista mar",
      "fase": "pronto"
@@ -1524,9 +1551,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]
@@ -1552,9 +1579,9 @@
      "andar": 2,
      "det": "sala, cozinha, área de serviço individual; portaria 24h, elevador",
      "obs": "Novo na tabela de 17/11/2026. 2º andar. À vista ou financiamento. Comissão 5%. A tabela não nomeia o prédio.",
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "tabela": "sem data (arquivo de 17/11/2026)",
+     "tabela": "sem data (arquivo de 24/11/2026)",
      "vistaMar": true,
      "vista": "Frente mar · 2 sacadas com vista mar definitiva",
      "fase": "pronto"
@@ -1564,9 +1591,9 @@
    "notas": [],
    "tabelas": [
     {
-     "fonte": "Jean Diegues Imóveis (arquivo de 17/11/2026)",
+     "fonte": "Jean Diegues Imóveis (arquivo de 24/11/2026)",
      "contato": "(13) 99807-8987 · (13) 98156-9018",
-     "atualizadoEm": "sem data (arquivo de 17/11/2026)",
+     "atualizadoEm": "sem data (arquivo de 24/11/2026)",
      "arquivo": "JEAN DIEGUES - Apto 3 dorm (Tupi).pdf"
     }
    ]

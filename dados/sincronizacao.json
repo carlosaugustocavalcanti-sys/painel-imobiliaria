@@ -1,6 +1,6 @@
 {
   "sobre": "Estado da sincronização com o Google Drive. A rotina diária lê só os PDFs modificados depois de ultimaVarredura, dentro da pasta do mês vigente. Ver dados/SINCRONIZACAO.md.",
-  "ultimaVarredura": "2026-11-24T12:45:00Z",
+  "ultimaVarredura": "2026-11-25T11:29:00Z",
   "pastaDoMes": {
     "padraoDoNome": "<Mês por extenso> - Tabelas (ex.: \"Outubro - Tabelas\", \"Novembro - Tabelas\")",
     "idConhecido": "1OEsQ3PXPmAd18fbatoAqfIhNetObWtZr",
@@ -514,6 +514,24 @@
         "Site da Lesan (www.lesanimoveis.com.br) + cadastro Praedium"
       ],
       "resumo": "Site da Lesan: 2 novos (cód. 324 Renoair II, Rua General Otelo Rodrigues Franco 543 apto 32, Canto do Forte, R$ 699.900; 325 Rua México 270 apto 213, Guilhermina, R$ 260 mil); 1 retirado (cód. 44, Rua Monteiro Lobato 431 apto 86, inativo na Praedium); 2 valores alterados (cód. 62, Rua Oceânica Amábile 555 apto 22: R$ 400.000 → R$ 430.000; cód. 77, Rua Mathilde de Azevedo Setúbal 871 casa 6: R$ 297.000 → R$ 325.000). Nenhum anúncio do painel aparece nos inativos da Praedium. Sem pendências."
+    },
+    {
+      "data": "2026-11-25",
+      "arquivosLidos": [
+        "7. LANÇAMENTOS (15 PDFs alterados de 24/11 12:45Z a 25/11): Valparaíso, Apolo, Park Avenue (GMV, 23/11), Harmony (TerraNova), Romero (24/11), Maresias Beach (tabela Veraneio de 23/11), Montreal, Vancouver, Rafaela (12/11), Golden Park, São Bento, Flamboyant, Palazzo, Panorama, Beach Park (23/11)",
+        "5. FRENTE MAR (8 PDFs alterados de 24/11 a 25/11): Mari Biffi (24/11), Kalyl (24/11), Nova Home (23/11), Eliana Nemeth (24/11), Veraneio (23/11), Coliseum (23/11), Jean Diegues (arquivo de 24/11), Erick Pereira (23/11)"
+      ],
+      "resumo": "Lançamentos: Romero com a tabela SAC de 24/11 (preços ~2,5% maiores; reservas conferidas pela cor na imagem: 11, 25 e 55 voltam a disponível; 22, 44, 54, 94 e 15 passam a reservado/vendido); Park Avenue (GMV, 23/11) sem os 52, 92, 104 e 45, valores iguais; Valparaíso com o 55 reservado (amarelo na imagem) e sem o 56, que saiu da tabela; Harmony com 161 e 142 reservados, 102 vendido, 154 em proposta (mantido disponível, com aviso) e 31 mensais no lugar de 32 (totais iguais); Beach Park com a tabela de 23/11 (parcelamento banco: entrada + chaves + financiamento, de R$ 550 mil a R$ 586 mil nos 2 dorm e de R$ 360 mil a R$ 378 mil no final 3; 73 e 93 vendidos; entrega abril/2027). Sem mudança: Apolo, Montreal, Vancouver, Golden Park, São Bento, Flamboyant, Palazzo, Panorama e Maresias Beach. Frente Mar: Ed. Miraí ganha o 1105 da Mari Biffi (kitnet 38 m², 11º andar, R$ 290 mil); Res. Porto Bello (Mongaguá) ganha o 86-B da Eliana Nemeth (2 dorm, 77,36 m², R$ 550 mil); o 2 dorm de 72 m² da Nova Home passa para o Ilha Home Resort (24º andar) e cai de R$ 1,28 mi para R$ 1,25 mi; Kalyl, Coliseum, Veraneio e Jean Diegues com os mesmos valores (datas atualizadas).",
+      "pendentesDeConferencia": [
+        "Rafaela (7. LANÇAMENTOS, tabela nova de 12/11/2026, 88 unidades com entrada + 32 parcelas + parcela única + financiamento): o PDF tem 44 MB, acima do limite de download do conector, e a disponibilidade é marcada por cor; painel mantido com as tabelas de 21/08 até conferir a imagem",
+        "Romero 61 e 13: linha em verde mais claro que a legenda RESERVADO/VENDIDO; preços atualizados, status mantido (disponível)",
+        "Harmony 154: marcado PROPOSTA na tabela; mantido disponível com aviso",
+        "Jean Diegues Ref. 713 (kitnet frente praia, Guilhermina): continua fora da tabela (17/11 e 24/11); mantido no painel, confirmar com a imobiliária",
+        "Jean Diegues Ref. 731 (1 dorm 37 m² 'pé na areia', Aviação, R$ 315 mil): novo, mas a tabela não diz frente mar; não entrou",
+        "Kalyl: cobertura duplex 3 suítes em prédio frente mar (R$ 1,25 mi, em obras, entrega fev/27) sem endereço legível no texto; não entrou",
+        "Eliana Nemeth: JR Flats Ocean (1113, 1406, 1407) e The Plaza seguem iguais na origem vista-mar (tabela de 22/09); só o Porto Bello 86-B entrou",
+        "Erick Pereira: texto embaralhado, nada frente mar legível"
+      ]
     }
   ],
   "pendentes": {
