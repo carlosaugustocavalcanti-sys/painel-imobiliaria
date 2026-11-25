@@ -1,8 +1,215 @@
 {
  "arquivo": "https://www.lesanimoveis.com.br/imoveis/a-venda",
- "lidoEm": "2026-11-24",
+ "lidoEm": "2026-11-25",
  "sobre": "Imóveis à venda no site da Lesan Imóveis.",
  "predios": [
+  {
+   "id": "lesan-site-247",
+   "nome": "Ed. Solar das Oliveiras",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Caiçara",
+   "fase": "pronto",
+   "endereco": "Rua Salvador Molinari, 84 - Vila Caiçara - Praia Grande/SP",
+   "lazer": [
+    "Aceita Pet",
+    "Churrasqueira",
+    "Churrasqueira à Carvão",
+    "Piscina",
+    "Piscina para Adulto",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 247)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "22/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "804",
+     "andar": 8,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 101,
+     "vagas": "1",
+     "valor": 560000,
+     "cond": 1250,
+     "iptu": 472,
+     "acesso": "elevador",
+     "vista": "Frente para o mar",
+     "status": "disponivel",
+     "obs": "Oportunidade no Litoral: 2 Quartos, Suíte e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Banheira, Box Blindex, Copa, Cozinha Grande, Frente para o mar, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 247)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "22/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-101m2-id-247"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-186",
+   "nome": "Rua Malmequer, 53",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Balneária",
+   "fase": "pronto",
+   "endereco": "Rua Malmequer, 53 - Vila Balneária - Praia Grande/SP",
+   "lazer": [
+    "Churrasqueira",
+    "Piscina",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 186)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "atualizadoEm": "29/10/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "32",
+     "andar": 3,
+     "tipologia": "3 dorms (1 suíte)",
+     "dorm": 3,
+     "suites": 1,
+     "area": 89,
+     "vagas": "1",
+     "valor": 600000,
+     "cond": 960,
+     "iptu": 360,
+     "acesso": "elevador",
+     "vista": "Vista para o mar",
+     "status": "disponivel",
+     "obs": "Seu Apartamento no Litoral: 3 Quartos, Lazer e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Lavanderia, Móveis Planejados, Sacada, Sala Grande, Varanda, Vista para o Mar",
+     "fonte": "Site Lesan Imóveis (cód. 186)",
+     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
+     "tabela": "29/10/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-vila-balnearia-praia-grande-sp-89m2-id-186"
+    }
+   ]
+  },
+  {
+   "id": "lesan-site-326",
+   "nome": "Rua Vinte e Três de Maio, 282",
+   "cidade": "Praia Grande",
+   "bairro": "Vila Mirim",
+   "fase": "obra",
+   "endereco": "Rua Vinte e Três de Maio, 282 - Vila Mirim - Praia Grande/SP",
+   "entrega": "2027",
+   "lazer": [
+    "Academia",
+    "Brinquedoteca",
+    "Espaço Fitness",
+    "Espaço Gourmet",
+    "Piscina",
+    "Playground",
+    "Salão de Festas",
+    "Salão de Jogos",
+    "Área de Lazer",
+    "Churrasqueira"
+   ],
+   "tabelas": [
+    {
+     "fonte": "Site Lesan Imóveis (cód. 326)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "25/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 133)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "25/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 132)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "25/11/2026"
+    },
+    {
+     "fonte": "Site Lesan Imóveis (cód. 131)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "atualizadoEm": "25/11/2026"
+    }
+   ],
+   "notas": [],
+   "unidades": [
+    {
+     "unidade": "25",
+     "andar": 2,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 71.66,
+     "vagas": "1",
+     "valor": 573280,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Seu Apartamento Novo na Praia com Financiamento Direto pela Construtora. Ambientes Integrados, Cozinha Americana, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 326)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "25/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-mirim-praia-grande-sp-71m2-id-326"
+    },
+    {
+     "unidade": "24",
+     "andar": 5,
+     "tipologia": "1 dorm (1 suíte)",
+     "dorm": 1,
+     "suites": 1,
+     "area": 55,
+     "vagas": "1",
+     "valor": 440560,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Seu Apartamento Novo na Praia com Financiamento Direto pela Construtora. Ambientes Integrados, Cozinha Americana, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 133)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "25/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-vila-mirim-praia-grande-sp-55m2-id-133"
+    },
+    {
+     "unidade": "32",
+     "andar": 2,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 70.17,
+     "vagas": "1",
+     "valor": 561360,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Seu Apartamento Novo na Praia com Financiamento Direto pela Construtora. Ambientes Integrados, Cozinha Americana, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 132)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "25/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-mirim-praia-grande-sp-70m2-id-132"
+    },
+    {
+     "unidade": "21",
+     "andar": 2,
+     "tipologia": "2 dorms (1 suíte)",
+     "dorm": 2,
+     "suites": 1,
+     "area": 66.53,
+     "vagas": "1",
+     "valor": 532240,
+     "acesso": "elevador",
+     "status": "disponivel",
+     "obs": "Seu Apartamento Novo na Praia com Financiamento Direto pela Construtora. Ambientes Integrados, Cozinha Americana, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha",
+     "fonte": "Site Lesan Imóveis (cód. 131)",
+     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
+     "tabela": "25/11/2026",
+     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-mirim-praia-grande-sp-66m2-id-131"
+    }
+   ]
+  },
   {
    "id": "lesan-site-62",
    "nome": "Rua Ôceanica Amábile, 555",
@@ -241,54 +448,6 @@
      "contato": "Lesan Imóveis (CRECI 053401-J) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/kitnet-a-venda-1-quarto-canto-do-forte-praia-grande-sp-29m2-id-175"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-247",
-   "nome": "Ed. Solar das Oliveiras",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Caiçara",
-   "fase": "pronto",
-   "endereco": "Rua Salvador Molinari, 84 - Vila Caiçara - Praia Grande/SP",
-   "lazer": [
-    "Aceita Pet",
-    "Churrasqueira",
-    "Churrasqueira à Carvão",
-    "Piscina",
-    "Piscina para Adulto",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 247)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "22/11/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "804",
-     "andar": 8,
-     "tipologia": "2 dorms (1 suíte)",
-     "dorm": 2,
-     "suites": 1,
-     "area": 101,
-     "vagas": "1",
-     "valor": 560000,
-     "cond": 1250,
-     "iptu": 472,
-     "acesso": "elevador",
-     "vista": "Frente para o mar",
-     "status": "disponivel",
-     "obs": "Oportunidade no Litoral: 2 Quartos, Suíte e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Banheira, Box Blindex, Copa, Cozinha Grande, Frente para o mar, Lavanderia, Mobiliado, Móveis Planejados, Sacada, Sala Grande, Sala de jantar, Semimobiliado, Varanda, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 247)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "22/11/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-2-quartos-vila-caicara-praia-grande-sp-101m2-id-247"
     }
    ]
   },
@@ -1650,51 +1809,6 @@
      "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/casa-a-venda-3-quartos-vila-guilhermina-praia-grande-sp-id-182"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-186",
-   "nome": "Rua Malmequer, 53",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Balneária",
-   "fase": "pronto",
-   "endereco": "Rua Malmequer, 53 - Vila Balneária - Praia Grande/SP",
-   "lazer": [
-    "Churrasqueira",
-    "Piscina",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 186)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "32",
-     "andar": 3,
-     "tipologia": "3 dorms (1 suíte)",
-     "dorm": 3,
-     "suites": 1,
-     "area": 89,
-     "vagas": "1",
-     "valor": 600000,
-     "cond": 960,
-     "iptu": 360,
-     "acesso": "elevador",
-     "vista": "Vista para o mar",
-     "status": "disponivel",
-     "obs": "Seu Apartamento no Litoral: 3 Quartos, Lazer e Vista para o Mar. Ambientes Integrados, Ar condicionado, Armário Embutido, Armário de Cozinha, Armário no Banheiro, Box Blindex, Cozinha Americana, Cozinha Gourmet, Cozinha Grande, Lavanderia, Móveis Planejados, Sacada, Sala Grande, Varanda, Vista para o Mar",
-     "fonte": "Site Lesan Imóveis (cód. 186)",
-     "contato": "Juliana Profeta (CRECI 053401-J) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-vila-balnearia-praia-grande-sp-89m2-id-186"
     }
    ]
   },
@@ -5855,53 +5969,6 @@
      "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
      "tabela": "29/10/2026",
      "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-3-quartos-vila-guilhermina-praia-grande-sp-109m2-id-218"
-    }
-   ]
-  },
-  {
-   "id": "lesan-site-126",
-   "nome": "Rua Vinte e Três de Maio, 282",
-   "cidade": "Praia Grande",
-   "bairro": "Vila Mirim",
-   "fase": "obra",
-   "endereco": "Rua Vinte e Três de Maio, 282 - Vila Mirim - Praia Grande/SP",
-   "entrega": "2027",
-   "lazer": [
-    "Academia",
-    "Brinquedoteca",
-    "Espaço Fitness",
-    "Espaço Gourmet",
-    "Piscina",
-    "Playground",
-    "Salão de Festas",
-    "Salão de Jogos",
-    "Área de Lazer",
-    "Churrasqueira"
-   ],
-   "tabelas": [
-    {
-     "fonte": "Site Lesan Imóveis (cód. 126)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "atualizadoEm": "29/10/2026"
-    }
-   ],
-   "notas": [],
-   "unidades": [
-    {
-     "unidade": "Cód. 126",
-     "andar": 5,
-     "tipologia": "1 dorm",
-     "dorm": 1,
-     "area": 42,
-     "vagas": "1",
-     "valor": 344000,
-     "acesso": "elevador",
-     "status": "disponivel",
-     "obs": "Seu Apartamento Novo na Praia com Financiamento Direto pela Construtora. Ambientes Integrados, Cozinha Americana, Sacada, Sacada Gourmet, Varanda, Varanda Gourmet, Vista para a Montanha",
-     "fonte": "Site Lesan Imóveis (cód. 126)",
-     "contato": "Sandro Souza (CRECI 278186-F) · Lesan (13) 99786-4368",
-     "tabela": "29/10/2026",
-     "anuncio": "https://www.lesanimoveis.com.br/imovel/apartamento-a-venda-1-quarto-vila-mirim-praia-grande-sp-42m2-id-126"
     }
    ]
   },
