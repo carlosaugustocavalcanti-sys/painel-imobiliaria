@@ -1296,6 +1296,66 @@
    "fontes": [
     "D&S Investimentos"
    ]
+  },
+  {
+   "id": "tapajos-boqueirao",
+   "nome": "Ed. Tapajós",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "carolina-tupi",
+   "nome": "Ed. Carolina",
+   "bairro": "Tupi",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "marcia-regina-aviacao",
+   "nome": "Ed. Marcia Regina",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "nosso-lar-iv-boqueirao",
+   "nome": "Ed. Nosso Lar IV",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "antonio-matheus-canto-do-forte",
+   "nome": "Ed. Antonio Matheus",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
+  },
+  {
+   "id": "italia-jau-boqueirao",
+   "nome": "Ed. Itália",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Leon Gurgel"
+   ]
   }
  ],
  "units": {
@@ -1315,14 +1375,15 @@
      "status": "disponivel",
      "obs": "À vista R$ 235 mil; banco, permuta ou carro R$ 240 mil. Sala ampla, cozinha americana. Permite Airbnb, churrasqueira nos fundos. Frente para a Av. Kennedy, em cima da Padaria Santa Terezinha. Entregue pintado, sem mobília. Chaves: Remo Imobiliária (Av. Pres. Kennedy, 5829) ou Nova Geração (R. Caiapós, 737-A).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/18SduJdqYRcmktUxAsUdgIhc885wZBUTw"
     }
    ],
    "endereco": "Rua Timbiras, 182 · Tupi",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Timbiras%2C+182%2C+Tupi+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "siroco-ocian": {
    "itens": [
@@ -1337,17 +1398,18 @@
      "iptu": 214.57,
      "vg": "1",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 315 mil; banco, permuta ou carro R$ 325 mil. Frente mar, sacada com vista mar, permite Airbnb. Portaria 24h, elevadores, salão de jogos e festas. Condomínio + 4x R$ 170 de manutenção. Chaves na portaria (enviar CRECI).",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela de 27/11/2026. À vista R$ 315 mil; banco, permuta ou carro R$ 325 mil. Frente mar, sacada com vista mar, permite Airbnb. Portaria 24h, elevadores, salão de jogos e festas. Condomínio + 4x R$ 170 de manutenção. Chaves na portaria (enviar CRECI).",
      "conf": false,
-     "acesso": "elevador"
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1Zj5TJL5SXsxBAoWsU-GNumseKWpLex_Q"
     }
    ],
    "endereco": "Rua Alfonso Bovero, 28 · Ocian",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Alfonso+Bovero%2C+28%2C+Ocian+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "cannes-maracana": {
    "itens": [
@@ -1365,14 +1427,15 @@
      "status": "disponivel",
      "obs": "À vista R$ 310 mil; banco, permuta ou carro R$ 320 mil. 50 m da praia, sacada, permite Airbnb. Elevador, piscina e sauna. Condomínio + Fundo Caixa R$ 76,87. Chaves: Impacto Imóveis (Av. Pres. Castelo Branco, 11064).",
      "conf": false,
-     "acesso": "elevador"
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1DCZCgRpasWt_Zw4bvzFFOZfzGD2yrl-O"
     }
    ],
    "endereco": "Rua José Demar Peres, 61 · Maracanã",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Jos%C3%A9+Demar+Peres%2C+61%2C+Maracan%C3%A3+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "triunfo-ocian": {
    "itens": [
@@ -1387,8 +1450,8 @@
      "iptu": 295.52,
      "vg": "1",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 310 mil; banco, permuta ou carro R$ 320 mil. 100 m da praia, sacada, permite Airbnb. Elevadores, piscina, salões de jogos e festas, churrasqueira, portaria 24h. Chaves: fechadura eletrônica (enviar CRECI para liberação na portaria).",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes disponível): reservada ou vendida; confirmar. À vista R$ 310 mil; banco, permuta ou carro R$ 320 mil. 100 m da praia, sacada, permite Airbnb. Elevadores, piscina, salões de jogos e festas, churrasqueira, portaria 24h. Chaves: fechadura eletrônica (enviar CRECI para liberação na portaria).",
      "conf": false,
      "acesso": "elevador"
     }
@@ -1397,7 +1460,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Libero+Badar%C3%B3%2C+107%2C+Ocian+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "casa-grande-iii-caicara": {
    "itens": [
@@ -1415,14 +1478,15 @@
      "status": "disponivel",
      "obs": "À vista R$ 340 mil; permuta ou carro R$ 355 mil (sem banco). Sala 2 ambientes com vista livre e ampla sacada gourmet. Lazer completo: piscina, academia, salão de jogos e festas, brinquedoteca. 100 m da praia. Obra aberta seg a sex (sábado até meio-dia).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1TxBkNo0cvxlWzIXQCOs5k5qtKHxkClLd"
     }
    ],
    "endereco": "Av. Juscelino Kubitschek com Rua São José · Caiçara",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Av.+Juscelino+Kubitschek+com+Rua+S%C3%A3o+Jos%C3%A9%2C+Cai%C3%A7ara+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "praia-das-asturias-guilhermina": {
    "itens": [
@@ -1437,8 +1501,8 @@
      "iptu": 307.39,
      "vg": "1",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 345 mil; banco, permuta ou carro R$ 355 mil. Sala 2 ambientes com ampla sacada (terraço privativo gourmet). Elevador, salão de festas e churrasqueira na cobertura. 350 m da praia. Entregue pintado padrão Gurgel. Chaves na portaria (solicitar liberação antecipada com o zelador Samuel).",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes disponível): reservada ou vendida; confirmar. À vista R$ 345 mil; banco, permuta ou carro R$ 355 mil. Sala 2 ambientes com ampla sacada (terraço privativo gourmet). Elevador, salão de festas e churrasqueira na cobertura. 350 m da praia. Entregue pintado padrão Gurgel. Chaves na portaria (solicitar liberação antecipada com o zelador Samuel).",
      "conf": false,
      "acesso": "elevador"
     }
@@ -1447,7 +1511,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Venezuela%2C+350%2C+Guilhermina+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "texas-guilhermina": {
    "itens": [
@@ -1463,9 +1527,10 @@
      "vg": "1",
      "fonte": "Leon Gurgel",
      "status": "disponivel",
-     "obs": "À vista R$ 360 mil; banco, permuta ou carro R$ 365 mil. 150 m da praia, sacada ampla. Piscina, churrasqueira, salões de festas e jogos. Condomínio com internet. Entregue pintado padrão Gurgel. Porta aberta: solicitar autorização com antecedência (enviar CRECI).",
+     "obs": "À vista R$ 360 mil; banco, permuta ou carro R$ 365 mil. 150 m da praia, sacada ampla. Piscina, churrasqueira, salões de festas e jogos. Condomínio com internet. Entregue pintado padrão Gurgel. Chaves: fechadura eletrônica (enviar CRECI). Visitas de segunda a sexta das 8h às 17h e sábado das 10h às 15h.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1GWHc81vlm_pbRUhLvWFOsdeYe_8v1Jlh"
     },
     {
      "unidade": "76",
@@ -1488,7 +1553,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Bol%C3%ADvia%2C+51%2C+Guilhermina+Praia+Grande%2C+SP",
    "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas) | Leon Gurgel (13) 99789-7529",
    "fonte": "LEC, Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "laguna-tupi": {
    "itens": [
@@ -1503,8 +1568,8 @@
      "iptu": 397.18,
      "vg": "1",
      "fonte": "Leon Gurgel",
-     "status": "reservado",
-     "obs": "RESERVADO na tabela. À vista R$ 390 mil; banco, permuta ou carro R$ 395 mil. 100 m da praia. Elevador e piscina. Chaves: Nova Geração (R. Caiapós, 737-A) ou Maiorano Imóveis (Av. Pres. Castelo Branco, 5278).",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes reservado): reservada ou vendida; confirmar. À vista R$ 390 mil; banco, permuta ou carro R$ 395 mil. 100 m da praia. Elevador e piscina. Chaves: Nova Geração (R. Caiapós, 737-A) ou Maiorano Imóveis (Av. Pres. Castelo Branco, 5278).",
      "conf": false,
      "acesso": "elevador"
     }
@@ -1513,7 +1578,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+302%2C+Tupi+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "raquel-aviacao": {
    "itens": [
@@ -1528,8 +1593,8 @@
      "iptu": 403.03,
      "vg": "1",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 400 mil; banco, permuta ou carro R$ 420 mil. Cozinha com planejados. 350 m da praia. Salão de jogos e festas, piscina, academia, brinquedoteca e minimercado. Condomínio + FR R$ 32,68. Chaves: fechadura eletrônica.",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes disponível): reservada ou vendida; confirmar. À vista R$ 400 mil; banco, permuta ou carro R$ 420 mil. Cozinha com planejados. 350 m da praia. Salão de jogos e festas, piscina, academia, brinquedoteca e minimercado. Condomínio + FR R$ 32,68. Chaves: fechadura eletrônica.",
      "conf": false,
      "acesso": ""
     }
@@ -1538,7 +1603,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+S%C3%A3o+Pedro%2C+362%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "marbelle-ii-canto-do-forte": {
    "itens": [
@@ -1556,14 +1621,15 @@
      "status": "disponivel",
      "obs": "À vista R$ 460 mil; banco, permuta ou carro R$ 475 mil. Sala 2 ambientes com sacada, cozinha com planejados. 50 m da Av. Marechal Mallet. Piscina, salão de festas com churrasqueira, playground. Chaves: fechadura eletrônica (solicitar autorização com antecedência, enviar CRECI).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1n-XhetU-sE-WDgNhHtEG-izJpncB_C-j"
     }
    ],
    "endereco": "Rua Mario Tamashiro, 146 · Canto do Forte",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Mario+Tamashiro%2C+146%2C+Canto+do+Forte+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "haus-aviacao": {
    "itens": [
@@ -1579,16 +1645,17 @@
      "vg": "1",
      "fonte": "Leon Gurgel",
      "status": "disponivel",
-     "obs": "À vista R$ 520 mil; permuta ou carro R$ 540 mil (sem banco). Sala integrada com ampla sacada gourmet e vista parcial do mar, lavabo. 150 m da praia. Áreas comuns entregues decoradas e mobiliadas. Lazer na cobertura (piscina, academia, jogos, festas, kids, coworking, churrasqueira). Visita: e-mail para a construtora.",
+     "obs": "À vista R$ 520 mil; permuta ou carro R$ 540 mil (sem banco). Sala integrada com ampla sacada gourmet e vista parcial do mar, lavabo. 100 m da praia. Áreas comuns entregues decoradas e mobiliadas. Lazer na cobertura (piscina, academia, jogos, festas, kids, coworking, churrasqueira). Obra aberta: visitas de segunda a quinta das 7h às 16h, sexta e sábado das 7h às 15h.",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1HKTkxdHEnTigm--ksniMQyq9QhBSLqXu"
     }
    ],
    "endereco": "Rua Fernão Dias, 33 · Aviação",
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Fern%C3%A3o+Dias%2C+33%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "the-one-guilhermina": {
    "itens": [
@@ -1606,7 +1673,8 @@
      "status": "disponivel",
      "obs": "R$ 580 mil (à vista, permuta, banco ou carro). Sacada gourmet com churrasqueira a carvão. 550 m da praia. Lazer completo (piscina, jacuzzi, sauna, cinema, academia, espaços game, pet e kids). Porta aberta (enviar CRECI).",
      "conf": false,
-     "acesso": ""
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/15j2eLjJnVmSD5P5msWyp3uL5cQysHiXa"
     },
     {
      "unidade": "54",
@@ -1629,7 +1697,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Fumio+Miyazi%2C+1202%2C+Guilhermina+Praia+Grande%2C+SP",
    "contato": "Letícia (13) 99647-9966 (fotos, autorização) · Luccas (13) 99756-9051 (propostas) | Leon Gurgel (13) 99789-7529",
    "fonte": "LEC, Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "carlos-eduardo-tupi": {
    "itens": [
@@ -1644,8 +1712,8 @@
      "iptu": 604.2,
      "vg": "2",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 650 mil; banco, permuta ou carro R$ 670 mil. Sacada gourmet com churrasqueira a carvão. 100 m da praia. Piscina, sauna, academia, salões de festas e jogos. Condomínio + R$ 130,27 de fundo de reserva. Entregue pintado padrão Gurgel.",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes disponível): reservada ou vendida; confirmar. À vista R$ 650 mil; banco, permuta ou carro R$ 670 mil. Sacada gourmet com churrasqueira a carvão. 100 m da praia. Piscina, sauna, academia, salões de festas e jogos. Condomínio + R$ 130,27 de fundo de reserva. Entregue pintado padrão Gurgel.",
      "conf": false,
      "acesso": ""
     }
@@ -1654,7 +1722,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Caiap%C3%B3s%2C+1066%2C+Tupi+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "petra-ii-boqueirao": {
    "itens": [
@@ -1669,8 +1737,8 @@
      "iptu": 574.51,
      "vg": "2",
      "fonte": "Leon Gurgel",
-     "status": "disponivel",
-     "obs": "À vista R$ 770 mil; banco, permuta ou carro R$ 790 mil. Sacada gourmet envolvente fechada em vidro, armários planejados, lavabo. 300 m da praia. Piscina, sauna, academia, salão de festas com churrasqueira, jogos, playground. Condomínio + 17x R$ 110 (lavagem da fachada). Chaves: fechadura eletrônica (enviar CRECI).",
+     "status": "vendido",
+     "obs": "Não consta na tabela de 27/11/2026 (antes disponível): reservada ou vendida; confirmar. À vista R$ 770 mil; banco, permuta ou carro R$ 790 mil. Sacada gourmet envolvente fechada em vidro, armários planejados, lavabo. 300 m da praia. Piscina, sauna, academia, salão de festas com churrasqueira, jogos, playground. Condomínio + 17x R$ 110 (lavagem da fachada). Chaves: fechadura eletrônica (enviar CRECI).",
      "conf": false,
      "acesso": ""
     }
@@ -1679,7 +1747,7 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ja%C3%BA%2C+1352%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
-   "atualizadoEm": "sem data"
+   "atualizadoEm": "27/11/2026"
   },
   "senna-eiffel-boqueirao": {
    "itens": [
@@ -4834,6 +4902,160 @@
    "contato": "Alexandre (13) 98102-3336 · Maurício (13) 97407-0700",
    "fonte": "D&S Investimentos (Comissão paga após 100% do processo concluído)",
    "atualizadoEm": "03/11/2026"
+  },
+  "tapajos-boqueirao": {
+   "itens": [
+    {
+     "unidade": "307",
+     "tipologia": "Kitnet",
+     "det": "3º andar",
+     "area": 25,
+     "valor": 215000,
+     "vfin": 220000,
+     "cond": 289.59,
+     "iptu": 114.47,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 215 mil; banco, permuta ou carro R$ 220 mil. Sala, cozinha, wc social e área de serviço. 200 m da praia. Área total 37,50 m². Será entregue pintado padrão Gurgel. Chaves: fechadura eletrônica (enviar CRECI). Fotos e vídeo em breve.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Jaú, 752 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ja%C3%BA%2C+752%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "carolina-tupi": {
+   "itens": [
+    {
+     "unidade": "203",
+     "tipologia": "1 dorm",
+     "det": "2º andar, sacada",
+     "area": 68.75,
+     "valor": 220000,
+     "vfin": 225000,
+     "cond": 602.87,
+     "iptu": 354.91,
+     "vg": null,
+     "fonte": "Leon Gurgel",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela de 27/11/2026. À vista R$ 220 mil; banco, permuta ou carro R$ 225 mil. Dormitório amplo, sala ampla 2 ambientes com sacada. 400 m da praia. Piscina, monitoramento, bicicletário. Área total 96,51 m². Condomínio + fundo de reserva R$ 60,29. Será entregue pintado, com piso laminado e vinílico. Vaga não informada. Chaves a partir de 24/11. Fotos e vídeo em breve.",
+     "conf": false,
+     "acesso": ""
+    }
+   ],
+   "endereco": "Rua Guaicurus, 461 · Tupi",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Guaicurus%2C+461%2C+Tupi+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "marcia-regina-aviacao": {
+   "itens": [
+    {
+     "unidade": "33",
+     "tipologia": "1 dorm",
+     "det": "3º andar, closet",
+     "area": 45.29,
+     "valor": 240000,
+     "vfin": 250000,
+     "cond": 454.31,
+     "iptu": 163.68,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "reservado",
+     "obs": "RESERVADO na tabela de 27/11/2026. À vista R$ 240 mil; banco, permuta ou carro R$ 250 mil. Dormitório com closet, cozinha com planejados Todeschini. Permite Airbnb. 300 m da praia. Área total 62,56 m². IPTU 2026 quitado. Chaves: Bom Lugar Imóveis (Av. Pres. Castelo Branco, 4718) ou fechadura eletrônica (enviar CRECI). Fotos provisórias.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1FYhALaZ8YfCExtO8eg21YWRWTSmUrFJD"
+    }
+   ],
+   "endereco": "Rua Eponina, 305 · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Eponina%2C+305%2C+Avia%C3%A7%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "nosso-lar-iv-boqueirao": {
+   "itens": [
+    {
+     "unidade": "25 B",
+     "tipologia": "1 dorm",
+     "det": "mobiliado (porteira fechada)",
+     "area": 32.29,
+     "valor": 290000,
+     "vfin": 295000,
+     "cond": 532.74,
+     "iptu": 207.17,
+     "vg": "1",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 290 mil; banco, permuta ou carro R$ 295 mil. Bloco B. Cozinha americana. Permite Airbnb. 300 m da praia e 250 m da Av. Costa e Silva. Lazer na cobertura: piscina, academia, salão de jogos, salão de festas com churrasqueira; box no andar e portaria 24h. Área total 58,24 m². Condomínio + 9x R$ 125; IPTU 2026 quitado. Chaves: fechadura eletrônica (enviar CRECI); visitas de segunda a sexta das 8h às 17h e sábado das 8h às 14h.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1zQ5QRRoSnK0FradKm2aNlDrFFwoN_NZo"
+    }
+   ],
+   "endereco": "Rua Campinas, 500 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Campinas%2C+500%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "antonio-matheus-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "52",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sacada vista livre",
+     "area": 79.79,
+     "valor": 485000,
+     "vfin": 495000,
+     "cond": 866.66,
+     "iptu": 425.89,
+     "vg": "2 (1 privativa)",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "À vista R$ 485 mil; banco, permuta ou carro R$ 495 mil. Sala 2 ambientes com sacada vista livre. Prédio de frente para a Av. Marechal Mallet. 3 elevadores, portaria 24h, piscina, salão de festas, área gourmet com churrasqueira a carvão. Área total 138,86 m². Chaves: fechadura eletrônica (enviar CRECI). Fotos provisórias. A tabela diz Forte; o anúncio da Lesan no mesmo endereço, Boqueirão.",
+     "conf": false,
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/16QJ3GFD9YlI9PPlyrthL1lNZWIoGXhf7"
+    }
+   ],
+   "endereco": "Avenida Marechal Mallet, 1767 · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avenida+Marechal+Mallet%2C+1767%2C+Canto+do+Forte+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "italia-jau-boqueirao": {
+   "itens": [
+    {
+     "unidade": "72 D",
+     "tipologia": "3 dorms",
+     "det": "3 suítes, sacada gourmet",
+     "area": 117.9,
+     "valor": 950000,
+     "vfin": 950000,
+     "cond": 952.4,
+     "iptu": 694.92,
+     "vg": "2",
+     "fonte": "Leon Gurgel",
+     "status": "disponivel",
+     "obs": "R$ 950 mil (à vista, banco, permuta ou carro). Sala 3 ambientes com sacada gourmet e vista livre, cozinha americana. Permite Airbnb. 250 m da praia. Lazer de clube com mais de 20 itens. Área total 179,67 m². Chaves: fechadura eletrônica (enviar CRECI); visitas de segunda a sexta das 8h às 17h e sábado das 8h às 15h. A tabela diz Boqueirão; o anúncio da Lesan no mesmo endereço, Canto do Forte.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/13LShxQZnhidz11MHKSRZH53lAdn9383C"
+    }
+   ],
+   "endereco": "Rua Jaú, 855 · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ja%C3%BA%2C+855%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
+   "contato": "Leon Gurgel (13) 99789-7529",
+   "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
   }
  }
 }
