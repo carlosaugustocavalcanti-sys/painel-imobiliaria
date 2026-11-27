@@ -1356,6 +1356,176 @@
    "fontes": [
     "Leon Gurgel"
    ]
+  },
+  {
+   "id": "johny-jd8-aviacao",
+   "nome": "Johny · Ref. JD8",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd9-canto-do-forte",
+   "nome": "Johny · Ref. JD9",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd1-guilhermina",
+   "nome": "Johny · Ref. JD1",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd2-guilhermina",
+   "nome": "Johny · Ref. JD2",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd3-boqueirao",
+   "nome": "Johny · Ref. JD3",
+   "bairro": "Boqueirão",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd10-guilhermina",
+   "nome": "Johny · Ref. JD10",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd11-canto-do-forte",
+   "nome": "Johny · Ref. JD11",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd12-guilhermina",
+   "nome": "Johny · Ref. JD12",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd13-guilhermina",
+   "nome": "Johny · Ref. JD13",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd14-avenida-paris",
+   "nome": "Johny · Ref. JD14",
+   "bairro": "A confirmar",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd15-avenida-paris",
+   "nome": "Johny · Ref. JD15",
+   "bairro": "A confirmar",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd16-canto-do-forte",
+   "nome": "Johny · Ref. JD16",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd17-canto-do-forte",
+   "nome": "Johny · Ref. JD17",
+   "bairro": "Canto do Forte",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd17-aviacao",
+   "nome": "Johny · Ref. JD17",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd18-guilhermina",
+   "nome": "Johny · Ref. JD18",
+   "bairro": "Guilhermina",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd19-aviacao",
+   "nome": "Johny · Ref. JD19",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
+  },
+  {
+   "id": "johny-jd20-aviacao",
+   "nome": "Johny · Ref. JD20",
+   "bairro": "Aviação",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Johny Imóveis"
+   ]
   }
  ],
  "units": {
@@ -5055,6 +5225,448 @@
    "mapa": "https://www.google.com/maps/search/?api=1&query=Rua+Ja%C3%BA%2C+855%2C+Boqueir%C3%A3o+Praia+Grande%2C+SP",
    "contato": "Leon Gurgel (13) 99789-7529",
    "fonte": "Leon Gurgel (Comissão 5%)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd8-aviacao": {
+   "itens": [
+    {
+     "unidade": "JD8",
+     "tipologia": "1 dorm",
+     "det": "mobiliado, sacada com vista mar",
+     "area": 45.66,
+     "valor": 330000,
+     "vfin": null,
+     "cond": 534,
+     "iptu": 240,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD8 do Johny. Frente mar. Prédio frente mar (apartamento com vista lateral). Sala, cozinha, área de serviço e banheiro. Aceita locação temporária. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1Mzk7n5PE0SF88Ti3_6bSb1biorOzZQUJ"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avia%C3%A7%C3%A3o%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd9-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "JD9",
+     "tipologia": "2 dorms",
+     "det": "sacada em 1 quarto",
+     "area": 53.08,
+     "valor": 420000,
+     "vfin": null,
+     "cond": 781.27,
+     "iptu": 181.62,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD9 do Johny. 100 m da praia. Prédio com elevador e garagem. Não aceita locação temporária. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1UnYqTuOrzvE1DImyuBbyH9NQUIkVOPlD"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Canto+do+Forte%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd1-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD1",
+     "tipologia": "2 dorms",
+     "det": "1º andar",
+     "area": 62,
+     "valor": 360000,
+     "vfin": null,
+     "cond": 603,
+     "iptu": 263,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD1 do Johny. 100 m da praia. 1º andar, sem elevador. Sala, cozinha, área de serviço e banheiro. Aceita locação temporária. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "escada",
+     "fotos": "https://drive.google.com/drive/folders/1tQAfQRxTpeBhZdI93NNmfN2d-NWfqeaD"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd2-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD2",
+     "tipologia": "2 dorms",
+     "det": "térreo",
+     "area": 70,
+     "valor": 350000,
+     "vfin": null,
+     "cond": 600,
+     "iptu": 200,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD2 do Johny. 100 m da praia. Apartamento térreo. Sala, cozinha, área de serviço e banheiro. Aceita locação temporária. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1oE78zJI1-a5s-JFmSmyY5HXTldPqCLF3"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd3-boqueirao": {
+   "itens": [
+    {
+     "unidade": "JD3",
+     "tipologia": "1 dorm",
+     "det": "1 suíte, varanda gourmet",
+     "area": 52.54,
+     "valor": 450000,
+     "vfin": null,
+     "cond": 583.12,
+     "iptu": 411.12,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD3 do Johny. 100 m da praia. Suíte, lavabo, sala com sacada gourmet, lazer completo. Ao lado da Av. Costa e Silva. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1I3uloKdLmT_JxjarQNMTfFyr8jubESpF"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Boqueirão",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Boqueir%C3%A3o%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd10-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD10",
+     "tipologia": "2 dorms",
+     "det": "mobiliado, varanda gourmet",
+     "area": 72,
+     "valor": 550000,
+     "vfin": null,
+     "cond": 797.01,
+     "iptu": 389.19,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD10 do Johny. 400 m da praia. Mobiliado, com varanda gourmet e lazer completo. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1hBEX9D7GPf-fhzsgYhbOJaYhiA5gb7VT"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd11-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "JD11",
+     "tipologia": "1 dorm",
+     "det": "dividido em 2 dorms, 1º andar",
+     "area": 47,
+     "valor": 300000,
+     "vfin": null,
+     "cond": 408,
+     "iptu": 176,
+     "vg": "1 (limitadas)",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD11 do Johny. Frente mar. Anunciado como 2 dorms: é 1 dormitório dividido em 2. 1º andar de escada, prédio frente mar, ao lado da Praça Duque de Caxias. Vagas limitadas. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "escada",
+     "fotos": "https://drive.google.com/drive/folders/1Ot9nXojjVVY6AQPRhq0CVWHEcPtZ49Bg"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Canto+do+Forte%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd12-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD12",
+     "tipologia": "1 dorm",
+     "det": "porteira fechada, varanda gourmet",
+     "area": 54,
+     "valor": 390000,
+     "vfin": null,
+     "cond": 519,
+     "iptu": 299,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD12 do Johny. 500 m da praia. Porteira fechada. Vista livre, gás encanado, portaria 24 h, piscina e salão de festas. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1NHxmu0Iq_jHZSvZ66m9m3ibYSyDObtk-"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd13-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD13",
+     "tipologia": "2 dorms",
+     "det": "sacada, varanda gourmet",
+     "area": 54,
+     "valor": 450000,
+     "vfin": null,
+     "cond": 519,
+     "iptu": 299,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD13 do Johny. 500 m da praia. Gás encanado, portaria 24 h, piscina e salão de festas. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1E5JAH4kk4JLbWG0RlpDp05WyJFt4f9ON"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd14-avenida-paris": {
+   "itens": [
+    {
+     "unidade": "JD14",
+     "tipologia": "1 dorm",
+     "det": "mobiliado",
+     "area": 55,
+     "valor": 360000,
+     "vfin": null,
+     "cond": 470,
+     "iptu": 260,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD14 do Johny. 500 m da praia. Na Avenida Paris. Vagas suficientes. Aceita locação temporária. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1BaYjA_pBrQxInl-RMICI84aIqQxSQSO6"
+    }
+   ],
+   "endereco": "Avenida Paris, número a confirmar com o Johny",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avenida+Paris%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd15-avenida-paris": {
+   "itens": [
+    {
+     "unidade": "JD15",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, sala 2 ambientes",
+     "area": 72,
+     "valor": 400000,
+     "vfin": null,
+     "cond": 650,
+     "iptu": 260,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD15 do Johny. 500 m da praia. Na Avenida Paris. Prédio com elevador, bicicletário e vaga para motos. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1bn9fu6sBeYZKnZ7CpktccZG-PGBwknC7"
+    }
+   ],
+   "endereco": "Avenida Paris, número a confirmar com o Johny",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avenida+Paris%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd16-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "JD16",
+     "tipologia": "1 dorm",
+     "det": "1 suíte, mobiliado",
+     "area": 54,
+     "valor": 410000,
+     "vfin": null,
+     "cond": 541,
+     "iptu": 340,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD16 do Johny. 1,08 km da praia. Mobiliado, com lavabo e lazer completo. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1Ty9qbtwP-px-Tsj20AIugqOOysaT5Bka"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Canto+do+Forte%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd17-canto-do-forte": {
+   "itens": [
+    {
+     "unidade": "JD17",
+     "tipologia": "2 dorms",
+     "det": "",
+     "area": 62,
+     "valor": 425000,
+     "vfin": null,
+     "cond": 700,
+     "iptu": 320,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD17 do Johny. 300 m da praia. Na Av. Marechal Mallet. Prédio com elevador. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "elevador",
+     "fotos": "https://drive.google.com/drive/folders/1Nl_f4Clm3_dL5wWkMW5Q72H8Px7sMZMD"
+    }
+   ],
+   "endereco": "Avenida Marechal Mallet, número a confirmar com o Johny · Canto do Forte",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avenida+Marechal+Mallet%2C+Canto+do+Forte%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd17-aviacao": {
+   "itens": [
+    {
+     "unidade": "JD17",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, porteira fechada",
+     "area": 80,
+     "valor": 670000,
+     "vfin": null,
+     "cond": 1050,
+     "iptu": 541,
+     "vg": "3 demarcadas",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD17 do Johny. Frente mar. Prédio frente mar. Porteira fechada, lazer completo. A tabela repete a ref. JD17 (a outra é a de Canto do Forte, R$ 425 mil). Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1Roodf4LRhaXJU-mPhJwJvzDu2CTbwoHG"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avia%C3%A7%C3%A3o%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd18-guilhermina": {
+   "itens": [
+    {
+     "unidade": "JD18",
+     "tipologia": "2 dorms",
+     "det": "2º andar, reformado",
+     "area": 68.46,
+     "valor": 320000,
+     "vfin": null,
+     "cond": 518,
+     "iptu": 290,
+     "vg": "1",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD18 do Johny. 400 m da praia. 2º andar de escada. Imóvel reformado. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "escada",
+     "fotos": "https://drive.google.com/drive/folders/1TUqLzUShYKuBeKSIANd7GF63cX0K9WNF"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Guilhermina",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Guilhermina%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd19-aviacao": {
+   "itens": [
+    {
+     "unidade": "JD19",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, vista mar",
+     "area": 107,
+     "valor": 690000,
+     "vfin": null,
+     "cond": 1200,
+     "iptu": 520,
+     "vg": "2",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD19 do Johny. 100 m da praia. Vista mar. Cozinha com planejados. Salão de festas e jogos, piscina e sauna. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1QfnMQcEd30qgYCnzNUspE2hK3y6NDgdd"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avia%C3%A7%C3%A3o%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
+   "atualizadoEm": "27/11/2026"
+  },
+  "johny-jd20-aviacao": {
+   "itens": [
+    {
+     "unidade": "JD20",
+     "tipologia": "3 dorms",
+     "det": "1 suíte, porteira fechada, varanda gourmet",
+     "area": 100,
+     "valor": 650000,
+     "vfin": null,
+     "cond": 1412.54,
+     "iptu": 500,
+     "vg": "2",
+     "fonte": "Johny Imóveis",
+     "status": "disponivel",
+     "obs": "Ref. JD20 do Johny. 130 m da praia. Porteira fechada. 2 sacadas envidraçadas, varanda gourmet, lazer completo. Prédio e unidade não informados na tabela: pedir ao Johny. Sinal pago só ao corretor responsável pelo imóvel (não conta como comissão).",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1rcUxd8P8hczcrB_bGjwGk6hgafSYJrpY"
+    }
+   ],
+   "endereco": "Endereço a confirmar com o Johny · Aviação",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Avia%C3%A7%C3%A3o%2C+Praia+Grande%2C+SP",
+   "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
+   "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
    "atualizadoEm": "27/11/2026"
   }
  }
