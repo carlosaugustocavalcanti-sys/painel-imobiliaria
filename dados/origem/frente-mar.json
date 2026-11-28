@@ -131,14 +131,14 @@
    ]
   },
   {
-   "id": "costareal-costa real 1 dorm",
-   "nome": "Prédio frente mar · Costa Real 1 dorm",
+   "id": "ed-monte-cristo-frente-mar",
+   "nome": "Ed. Monte Cristo",
    "bairro": "A confirmar",
    "endereco": null,
    "fase": "pronto",
    "unidades": [
     {
-     "unidade": "—",
+     "unidade": "88",
      "tipologia": "1 dorm",
      "dorm": 1,
      "suites": 0,
@@ -148,7 +148,7 @@
      "iptu": 250,
      "cond": 500,
      "det": "sala 2 ambientes, sacada envidraçada com churrasqueira, cozinha, área de serviço",
-     "obs": "Aceita financiamento bancário. A tabela não nomeia o prédio nem informa a área. Estuda imóvel e veículo como parte do pagamento. Comissão 5%.",
+     "obs": "Aceita financiamento bancário. Estuda imóvel e veículo como parte do pagamento. Comissão 5%. A tabela não nomeia o prédio nem informa a área: nome e unidade 88 vêm da planilha Vista Mar. O nome do arquivo cita Aviação; a planilha, Vila Caiçara (Rua São José x Av. Juscelino Kubitschek). Confirmar com o Samir.",
      "fonte": "Costa Real Imóveis",
      "contato": "Samir (13) 97405-3825",
      "tabela": "28/11/2026",

@@ -96,7 +96,10 @@ const predios = [
   }),
 
   /* ---------- Costa Real ---------- */
-  semNome('costaReal', 'Costa Real 1 dorm', 'A confirmar', null, un('costaReal', { dorm: 1, vagas: '1', valor: 336000, iptu: 250, cond: 500, vista: 'Frente ao mar', det: 'sala 2 ambientes, sacada envidraçada com churrasqueira, cozinha, área de serviço', obs: 'Aceita financiamento bancário. A tabela não nomeia o prédio nem informa a área. Estuda imóvel e veículo como parte do pagamento. Comissão 5%.' })),
+  // A tabela não nomeia o prédio; nome e unidade vêm da planilha Vista Mar do Carlos (Ed. Monte Cristo, apto 88), que tem o mesmo anúncio.
+  predio('ed-monte-cristo-frente-mar', 'Ed. Monte Cristo', 'A confirmar', null, ['costaReal'], [
+    un('costaReal', { unidade: '88', dorm: 1, vagas: '1', valor: 336000, iptu: 250, cond: 500, vista: 'Frente ao mar', det: 'sala 2 ambientes, sacada envidraçada com churrasqueira, cozinha, área de serviço', obs: 'Aceita financiamento bancário. Estuda imóvel e veículo como parte do pagamento. Comissão 5%. A tabela não nomeia o prédio nem informa a área: nome e unidade 88 vêm da planilha Vista Mar. O nome do arquivo cita Aviação; a planilha, Vila Caiçara (Rua São José x Av. Juscelino Kubitschek). Confirmar com o Samir.' }),
+  ]),
 
   /* ---------- GrandLar ---------- */
   predio('atlantic-house-frente-mar', 'Atlantic House', 'Maracanã', `${CB('11.030')} - Maracanã - Praia Grande/SP`, ['grandlar'], [
