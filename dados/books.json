@@ -740,6 +740,32 @@
           "rotulo": "Suíte"
         }
       ]
+    },
+    "palazzo": {
+      "nome": "Res. Palazzo",
+      "pasta": "~/OneDrive/Outros/Lesan/Lançamentos/PALAZZO",
+      "pdf": "Palazzo - Book.pdf",
+      "substituir": "tudo",
+      "fotos": [
+        {
+          "imagem": 4,
+          "rotulo": "Fachada",
+          "corte": [
+            470,
+            0,
+            1402,
+            1428
+          ]
+        },
+        {
+          "imagem": 7,
+          "rotulo": "Entrada"
+        },
+        {
+          "imagem": 6,
+          "rotulo": "Piscina"
+        }
+      ]
     }
   }
 }

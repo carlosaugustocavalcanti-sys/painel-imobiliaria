@@ -1,5 +1,5 @@
 {
- "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px. Fotos \"site_\" vêm da galeria do anúncio no site da Lesan Imóveis (1024 px, fotos reais do imóvel) ou do site da construtora (perspectivas, até 1600 px).",
+ "origem": "Artefato \"Fotos dos Books\" (claude.ai/artifact/2JYARKfUVGfzy2wprPjjJo): fotos dos books das construtoras, sem plantas, logos e modelos; 640 px de largura. Fotos \"hd_\" vêm dos books (dados/books.json, scripts/importar-books.mjs), até 1600 px.",
  "predios": {
   "fatima": {
    "nome": "Fátima II",
@@ -1162,6 +1162,27 @@
     {
      "arquivo": "fotos/azure/hd_08_suite.jpg",
      "rotulo": "Suíte",
+     "hd": true
+    }
+   ]
+  },
+  "palazzo": {
+   "nome": "Res. Palazzo",
+   "noEstoque": true,
+   "fotos": [
+    {
+     "arquivo": "fotos/palazzo/hd_01_fachada.jpg",
+     "rotulo": "Fachada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/palazzo/hd_02_entrada.jpg",
+     "rotulo": "Entrada",
+     "hd": true
+    },
+    {
+     "arquivo": "fotos/palazzo/hd_03_piscina.jpg",
+     "rotulo": "Piscina",
      "hd": true
     }
    ]
