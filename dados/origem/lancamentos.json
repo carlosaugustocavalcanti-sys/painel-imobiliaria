@@ -1066,7 +1066,7 @@
    ],
    "pendencias": [],
    "confirmar": true,
-   "notas": "Unidade 82 (individual) consta RESERVADO sem valores • Unidade 185 (multi, cotas R): entrada R$ 16.000, mensal R$ 1.524 e chaves R$ 16.000 não batem com o valor R$ 181.000 (padrão seria 18.100 / 1.724 / 18.100); mantido como na tabela • Entrega assumida Entregue pelo texto 'pronto para usar' • Associação cor/cota (AZ, VE, CI, RO, VM, LA) com semanas/períodos não é explicada na tabela • Aritmética não fecha na unidade 51: componentes somam R$ 1,315,440.00 vs valor da tabela R$ 1,315,498.00 (desvio R$ -58.00); mantido o valor da tabela. • Aritmética não fecha na unidade 185: componentes somam R$ 160,016.00 vs valor da tabela R$ 181,000.00 (desvio R$ -20,984.00); mantido o valor da tabela.",
+   "notas": "Tabela de Novembro/2026: o painel mostra só as unidades com alguma cota disponível ou reservada; as totalmente vendidas ficaram de fora • Unidade 122 (individual) consta RESERVADO com valor R$ 1.389.549 e sem fluxo • Unidade 185 (multi, cotas R): entrada R$ 16.000, mensal R$ 1.524 e chaves R$ 16.000 não batem com o valor R$ 181.000 (padrão seria 18.100 / 1.724 / 18.100); mantido como na tabela • Unidade 176: cota LA com fundo vermelho e sem letra, tratada como disponível; confirmar • Entrega assumida Entregue pelo texto 'pronto para usar' • Associação cor/cota (AZ, VE, CI, RO, VM, LA) com semanas/períodos não é explicada na tabela",
    "site": false,
    "cat": "pronto"
   },
@@ -15452,70 +15452,14 @@
   "priority": {
    "itens": [
     {
-     "unidade": "51",
-     "andar": 5,
-     "final": 1,
-     "tipologia": "2 suítes",
-     "area": 122,
-     "valor": 1315498,
-     "entrada": 131550,
-     "status": "disponivel",
-     "obs": "1 vaga · Individual; final 1",
-     "fluxo": {
-      "entrada": 131550,
-      "chaves": 131550,
-      "anualQtd": 10,
-      "anualVal": 26310,
-      "parcQtd": 120,
-      "parcVal": 6577
-     }
-    },
-    {
-     "unidade": "82",
-     "andar": 8,
-     "final": 2,
-     "tipologia": "2 suítes",
-     "area": 129,
-     "status": "reservado",
-     "obs": "1 vaga · Individual; final 2; consta RESERVADO sem valores"
-    },
-    {
      "unidade": "122",
      "andar": 12,
      "final": 2,
      "tipologia": "2 suítes",
      "area": 129,
      "valor": 1389549,
-     "entrada": 138955,
-     "status": "disponivel",
-     "obs": "1 vaga · Individual; final 2",
-     "fluxo": {
-      "entrada": 138955,
-      "chaves": 138955,
-      "anualQtd": 10,
-      "anualVal": 27791,
-      "parcQtd": 120,
-      "parcVal": 6948
-     }
-    },
-    {
-     "unidade": "142",
-     "andar": 14,
-     "final": 2,
-     "tipologia": "2 suítes",
-     "area": 129,
-     "valor": 1400128,
-     "entrada": 140013,
-     "status": "disponivel",
-     "obs": "1 vaga · Individual; final 2",
-     "fluxo": {
-      "entrada": 140013,
-      "chaves": 140013,
-      "anualQtd": 10,
-      "anualVal": 28003,
-      "parcQtd": 120,
-      "parcVal": 7001
-     }
+     "status": "reservado",
+     "obs": "1 vaga · Individual; final 2; RESERVADO na tabela de Novembro/2026 (fluxo não informado)"
     },
     {
      "unidade": "56",
@@ -15545,7 +15489,7 @@
      "valor": 236500,
      "entrada": 23650,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 23650,
       "chaves": 23650,
@@ -15583,7 +15527,7 @@
      "valor": 240500,
      "entrada": 24050,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 24050,
       "chaves": 24050,
@@ -15621,7 +15565,7 @@
      "valor": 247500,
      "entrada": 24750,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, LA; a cota LA aparece com fundo vermelho, sem letra: confirmar",
      "fluxo": {
       "entrada": 24750,
       "chaves": 24750,
@@ -15659,7 +15603,7 @@
      "valor": 257000,
      "entrada": 25700,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, RO, VM, LA",
+     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 25700,
       "chaves": 25700,
@@ -15765,41 +15709,22 @@
      }
     },
     {
-     "unidade": "177",
-     "andar": 17,
+     "unidade": "117",
+     "andar": 11,
      "final": 7,
      "tipologia": "2 suítes",
      "area": 99,
-     "valor": 250000,
-     "entrada": 25000,
+     "valor": 245500,
+     "entrada": 24550,
      "status": "disponivel",
      "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE",
      "fluxo": {
-      "entrada": 25000,
-      "chaves": 25000,
+      "entrada": 24550,
+      "chaves": 24550,
       "anualQtd": 0,
       "anualVal": 0,
       "parcQtd": 84,
-      "parcVal": 2381
-     }
-    },
-    {
-     "unidade": "197",
-     "andar": 19,
-     "final": 7,
-     "tipologia": "2 suítes",
-     "area": 99,
-     "valor": 252000,
-     "entrada": 25200,
-     "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VM, LA",
-     "fluxo": {
-      "entrada": 25200,
-      "chaves": 25200,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 84,
-      "parcVal": 2400
+      "parcVal": 2338
      }
     },
     {
@@ -15860,25 +15785,6 @@
      }
     },
     {
-     "unidade": "121",
-     "andar": 12,
-     "final": 1,
-     "tipologia": "2 suítes",
-     "area": 122,
-     "valor": 251000,
-     "entrada": 25100,
-     "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
-     "fluxo": {
-      "entrada": 25100,
-      "chaves": 25100,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 84,
-      "parcVal": 2390
-     }
-    },
-    {
      "unidade": "141",
      "andar": 14,
      "final": 1,
@@ -15886,8 +15792,8 @@
      "area": 122,
      "valor": 253000,
      "entrada": 25300,
-     "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 25300,
       "chaves": 25300,
@@ -15906,7 +15812,7 @@
      "valor": 256000,
      "entrada": 25600,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: RO, VM",
      "fluxo": {
       "entrada": 25600,
       "chaves": 25600,
@@ -15963,7 +15869,7 @@
      "valor": 259000,
      "entrada": 25900,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI, RO",
      "fluxo": {
       "entrada": 25900,
       "chaves": 25900,
@@ -16028,25 +15934,6 @@
       "anualVal": 0,
       "parcQtd": 84,
       "parcVal": 2524
-     }
-    },
-    {
-     "unidade": "114",
-     "andar": 11,
-     "final": 4,
-     "tipologia": "1 suíte",
-     "area": 54,
-     "valor": 175000,
-     "entrada": 17500,
-     "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: RO",
-     "fluxo": {
-      "entrada": 17500,
-      "chaves": 17500,
-      "anualQtd": 0,
-      "anualVal": 0,
-      "parcQtd": 84,
-      "parcVal": 1667
      }
     },
     {
@@ -16115,7 +16002,7 @@
      "valor": 173000,
      "entrada": 17300,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 17300,
       "chaves": 17300,
@@ -16191,7 +16078,7 @@
      "valor": 181000,
      "entrada": 16000,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA; entrada R$ 16.000, mensais R$ 1.524 e chaves R$ 16.000 como na tabela (não fecham com o valor de R$ 181.000)",
      "fluxo": {
       "entrada": 16000,
       "chaves": 16000,
@@ -16199,6 +16086,44 @@
       "anualVal": 0,
       "parcQtd": 84,
       "parcVal": 1524
+     }
+    },
+    {
+     "unidade": "195",
+     "andar": 19,
+     "final": 5,
+     "tipologia": "1 suíte",
+     "area": 55,
+     "valor": 186000,
+     "entrada": 18600,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VM",
+     "fluxo": {
+      "entrada": 18600,
+      "chaves": 18600,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1771
+     }
+    },
+    {
+     "unidade": "53",
+     "andar": 5,
+     "final": 3,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 185000,
+     "entrada": 18500,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE; Cotas reservadas: LA",
+     "fluxo": {
+      "entrada": 18500,
+      "chaves": 18500,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1762
      }
     },
     {
@@ -16240,15 +16165,15 @@
      }
     },
     {
-     "unidade": "103",
-     "andar": 10,
+     "unidade": "83",
+     "andar": 8,
      "final": 3,
      "tipologia": "1 suíte",
      "area": 56,
      "valor": 184000,
      "entrada": 18400,
-     "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "status": "reservado",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 18400,
       "chaves": 18400,
@@ -16256,6 +16181,44 @@
       "anualVal": 0,
       "parcQtd": 84,
       "parcVal": 1752
+     }
+    },
+    {
+     "unidade": "103",
+     "andar": 10,
+     "final": 3,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 186000,
+     "entrada": 18600,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "fluxo": {
+      "entrada": 18600,
+      "chaves": 18600,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1771
+     }
+    },
+    {
+     "unidade": "193",
+     "andar": 19,
+     "final": 3,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 197000,
+     "entrada": 19700,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE",
+     "fluxo": {
+      "entrada": 19700,
+      "chaves": 19700,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1876
      }
     },
     {
@@ -16275,6 +16238,63 @@
       "anualVal": 0,
       "parcQtd": 84,
       "parcVal": 1771
+     }
+    },
+    {
+     "unidade": "118",
+     "andar": 11,
+     "final": 8,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 191000,
+     "entrada": 19100,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VM",
+     "fluxo": {
+      "entrada": 19100,
+      "chaves": 19100,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1819
+     }
+    },
+    {
+     "unidade": "158",
+     "andar": 15,
+     "final": 8,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 193000,
+     "entrada": 19300,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: CI",
+     "fluxo": {
+      "entrada": 19300,
+      "chaves": 19300,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1838
+     }
+    },
+    {
+     "unidade": "178",
+     "andar": 17,
+     "final": 8,
+     "tipologia": "1 suíte",
+     "area": 56,
+     "valor": 194000,
+     "entrada": 19400,
+     "status": "disponivel",
+     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: LA",
+     "fluxo": {
+      "entrada": 19400,
+      "chaves": 19400,
+      "anualQtd": 0,
+      "anualVal": 0,
+      "parcQtd": 84,
+      "parcVal": 1848
      }
     },
     {
@@ -16335,8 +16355,8 @@
      }
     }
    ],
-   "fonte": "Tabela de vendas da construtora (Google Drive do corretor)",
-   "atualizadoEm": "Setembro/2026",
+   "fonte": "Tabela de vendas da construtora (Novembro/2026, enviada pelo Carlos)",
+   "atualizadoEm": "Novembro/2026",
    "modalidade": "direto",
    "entrega": "Entregue",
    "endereco": "Rua José Carlos Pacce, 175 - Caiçara, Praia Grande/SP (stand de vendas no mesmo endereço)",
@@ -16344,13 +16364,13 @@
    "notaValor": "Individual: entrada + 10 anuais + 120 mensais + chaves; Multipropriedade: entrada 10% + 84 mensais + chaves 10% (valor por cota)",
    "fluxoInfo": [
     "Multipropriedade: 'valor' é o preço de UMA cota; entrada 10% + 84 mensais + chaves 10% (confere com a tabela)",
-    "Unidades multipropriedade com todas as cotas R (96, 156, 87, 61, 141, 185) estão como reservado; 171 e 132 têm só cotas reservadas",
-    "As anuais do sistema individual são 10 parcelas"
+    "Unidades multipropriedade com todas as cotas R (96, 156, 87, 61, 185, 83) estão como reservado; 171 e 132 têm só cotas reservadas",
+    "Sistema individual: só a 122 não está vendida (consta RESERVADO, sem fluxo)"
    ],
    "book": {
     "resumo": [
      "Tabela com 3 partes: apartamentos 1 ou 2 suítes (sistema individual), 2 suítes multipropriedade (mobiliado e equipado), 1 suíte multipropriedade (mobiliado e equipado) e coberturas duplex em ambos os sistemas",
-     "Individual: 51 (final 1, 122 m2), 82/122/142 (final 2, 129 m2), todos 2 suítes e 1 vaga",
+     "Individual: todas as unidades vendidas, exceto a 122 (final 2, 129 m², 2 suítes, 1 vaga), que consta RESERVADO por R$ 1.389.549",
      "Multipropriedade: colunas de cor AZ, VE, CI, RO, VM, LA; V = vendida, R = reservada, célula colorida sem letra = cota disponível; as cotas disponíveis de cada unidade estão em obs",
      "Área (G) = unidades com 2 vagas (56 e 57)"
     ],
