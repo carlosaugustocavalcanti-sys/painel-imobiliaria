@@ -559,6 +559,11 @@
     {
       "data": "2026-11-28",
       "resumo": "Costa Real Imóveis (tabela sem data, baixada do Drive em 28/11/2026): 1 dorm frente mar por R$ 336 mil e 2 dorms na Vila Mirim por R$ 555 mil continuam iguais. Novos no painel: 2 dorms com suíte na Vila Caiçara por R$ 435 mil (63,33 m², pertinho do mar, Tatiane) e 2 dorms com suíte na Vila Caiçara por R$ 399 mil (80 m², vista para o mar, 100 m da praia, Mônica), ambos com comissão fifty 8%. O 1 dorm vista mar em obras por R$ 240 mil não está mais na tabela: marcado como vendido (confirmar)."
+    },
+    {
+      "data": "2026-11-28",
+      "arquivos": [],
+      "resumo": "Priority (Avenida Construtora, Caiçara) retirado do painel a pedido do Carlos: é multipropriedade, modelo de venda com que a Lesan não trabalha. Saíram o prédio e as 48 unidades de dados/origem/lancamentos.json, a construtora Avenida de dados/construtoras.json e o PDF do Priority da fila de pendentes. Não reimportar tabelas do Priority."
     }
   ],
   "pendentes": {
@@ -1521,12 +1526,6 @@
       {
         "id": "13g5Rb36MApY5KSHJGAEpzoQJSY23Tmlk",
         "titulo": "Merlot Residence - Aptos 2 e 3 dorm (Ocian)",
-        "pasta": "7. LANÇAMENTOS",
-        "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
-      },
-      {
-        "id": "1NBIFA4Erh0jbgqAQdfv6ekUTNJWE4U8m",
-        "titulo": "Priority - Aptos 1 e 2 dorm (Caiçara)",
         "pasta": "7. LANÇAMENTOS",
         "motivo": "alterado em 11/11/2026; não lido na execução de 18/11"
       },
