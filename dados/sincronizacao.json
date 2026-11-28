@@ -555,6 +555,10 @@
     {
       "data": "2026-11-28",
       "resumo": "Ectual Imóveis (tabela de 26/11/2026, enviada pelo Carlos): os 79 valores são os mesmos da tabela de 05/11. Ocean Park: 174 A passou a reservado; 175 A e 167 B vendidos, retirados do painel. Novos avisos: Parque dos Coqueiros 85 por R$ 740.000 à vista até 30/11/2026; Ilhas de Santorini ainda sem escritura individualizada; casa da Rua Puri com chaves na Bom Lugar. Links de fotos das casas da Rua Puri, 59 e da Rua José Agapito Cardoso, 26. Senhas de fechadura não entram no painel. O script ler-pasta-lancamentos.mjs foi atualizado para o PDF novo, mas não roda inteiro porque o PDF da Gomes Pacheco saiu da pasta do OneDrive; a mudança foi aplicada direto em pasta-lancamentos.json."
+    },
+    {
+      "data": "2026-11-28",
+      "resumo": "Costa Real Imóveis (tabela sem data, baixada do Drive em 28/11/2026): 1 dorm frente mar por R$ 336 mil e 2 dorms na Vila Mirim por R$ 555 mil continuam iguais. Novos no painel: 2 dorms com suíte na Vila Caiçara por R$ 435 mil (63,33 m², pertinho do mar, Tatiane) e 2 dorms com suíte na Vila Caiçara por R$ 399 mil (80 m², vista para o mar, 100 m da praia, Mônica), ambos com comissão fifty 8%. O 1 dorm vista mar em obras por R$ 240 mil não está mais na tabela: marcado como vendido (confirmar)."
     }
   ],
   "pendentes": {

@@ -10,7 +10,7 @@ import { writeFileSync } from 'node:fs';
 
 const FONTES = {
   terral: { fonte: 'Terral (Guayi, tabela de agosto/2026)', contato: 'Mario Sérgio (13) 99670-5456 · Terral (13) 99115-5075', data: '08/2026', arquivo: 'Guayi - Aptos 2 e 3 dorm (Aviação).pdf' },
-  costaReal: { fonte: 'Costa Real Imóveis', contato: 'Samir (13) 97405-3825', data: '23/10/2026', arquivo: 'COSTA REAL - Apto 1 dorm (Aviação).pdf' },
+  costaReal: { fonte: 'Costa Real Imóveis', contato: 'Samir (13) 97405-3825', data: '28/11/2026', arquivo: 'COSTA REAL - Apto 1 dorm (Aviação_) .pdf' },
   grandlar: { fonte: 'GrandLar Imóveis (tabela de 08/10/2026)', contato: 'Angelica Klein (13) 97405-5450', data: '08/10/2026', arquivo: 'GRANDLAR - Apto 2 dorm (Mirim).pdf' },
   m2: { fonte: 'M² Imóveis (tabela de 13/11/2026)', contato: 'Gustavo (13) 99727-7776 · M² Imóveis (13) 3596-1322', data: '13/11/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },
   m2vinicius: { fonte: 'M² Imóveis (tabela de 13/11/2026)', contato: 'Vinicius (13) 99102-7652 · M² Imóveis (13) 3596-1322', data: '13/11/2026', arquivo: 'METRO QUADRADO - Apto 2 dorm (Caiçara) + Locação - Apto 3 dorm (Aviação).pdf' },

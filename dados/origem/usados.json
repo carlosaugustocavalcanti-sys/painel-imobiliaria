@@ -1526,6 +1526,26 @@
    "fontes": [
     "Johny Imóveis"
    ]
+  },
+  {
+   "id": "costa-real-caicara-63m2",
+   "nome": "Costa Real · Apto 63 m² (Caiçara)",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Costa Real Imóveis"
+   ]
+  },
+  {
+   "id": "costa-real-caicara-80m2",
+   "nome": "Costa Real · Apto 80 m² (Caiçara)",
+   "bairro": "Caiçara",
+   "cat": "pronto",
+   "entrega": "Entregue",
+   "fontes": [
+    "Costa Real Imóveis"
+   ]
   }
  ],
  "units": {
@@ -5668,6 +5688,58 @@
    "contato": "Johny (CRECI 249849-F) (13) 99130-5544",
    "fonte": "Johny Imóveis (Comissão 6%, parceria 50/50)",
    "atualizadoEm": "27/11/2026"
+  },
+  "costa-real-caicara-63m2": {
+   "itens": [
+    {
+     "unidade": "—",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 2 sacadas",
+     "area": 63.33,
+     "valor": 435000,
+     "vfin": null,
+     "cond": 673,
+     "iptu": 373,
+     "vg": "1",
+     "fonte": "Costa Real Imóveis",
+     "status": "disponivel",
+     "obs": "Pertinho do mar, lazer completo. 2 banheiros, sala 2 ambientes, cozinha e área de serviço. Aceita financiamento bancário; estuda imóvel e veículo como parte do pagamento. Comissão fifty 8%. A tabela não informa o prédio nem a unidade: pedir à Costa Real.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1YYO2-gzA1nBwMUrnZMGFpQkMShjD658N"
+    }
+   ],
+   "endereco": "Endereço a confirmar com a Costa Real · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Vila+Cai%C3%A7ara%2C+Praia+Grande%2C+SP",
+   "contato": "Tatiane (13) 99629-3262",
+   "fonte": "Costa Real Imóveis (Comissão fifty 8%)",
+   "atualizadoEm": "28/11/2026"
+  },
+  "costa-real-caicara-80m2": {
+   "itens": [
+    {
+     "unidade": "—",
+     "tipologia": "2 dorms",
+     "det": "1 suíte, 3 sacadas, vista para o mar",
+     "area": 80,
+     "valor": 399000,
+     "vfin": null,
+     "cond": 780,
+     "iptu": 420,
+     "vg": "1",
+     "fonte": "Costa Real Imóveis",
+     "status": "disponivel",
+     "obs": "Com vista para o mar, 100 m da praia. 2 banheiros, sala 2 ambientes, cozinha, área de serviço, lazer e portaria. Aceita financiamento bancário; estuda imóvel e veículo como parte do pagamento. Comissão fifty 8%. A tabela não informa o prédio nem a unidade: pedir à Costa Real.",
+     "conf": false,
+     "acesso": "",
+     "fotos": "https://drive.google.com/drive/folders/1YYO2-gzA1nBwMUrnZMGFpQkMShjD658N"
+    }
+   ],
+   "endereco": "Endereço a confirmar com a Costa Real · Caiçara",
+   "mapa": "https://www.google.com/maps/search/?api=1&query=Vila+Cai%C3%A7ara%2C+Praia+Grande%2C+SP",
+   "contato": "Mônica (13) 99620-4220",
+   "fonte": "Costa Real Imóveis (Comissão fifty 8%)",
+   "atualizadoEm": "28/11/2026"
   }
  }
 }
