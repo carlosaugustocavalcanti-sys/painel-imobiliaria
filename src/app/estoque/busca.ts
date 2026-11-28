@@ -86,6 +86,28 @@ export interface Linha {
   lazer: Lazer[];
   /** O prédio tem algum lazer citado (inclui "área de lazer" sem a lista de itens). */
   temLazer: boolean;
+  /** Mobília que a tabela da unidade cita. Vazio = a tabela não diz. */
+  mobilia: Mobilia;
+}
+
+export type Mobilia = '' | 'mobiliado' | 'semi';
+/** Opções do filtro de mobília, na ordem da tela. */
+export const MOBILIA_OPCOES: [Mobilia, string][] = [
+  ['', 'Qualquer'],
+  ['mobiliado', 'Mobiliado'],
+  ['semi', 'Semimobiliado'],
+];
+/** O que fala de mobília sem dizer que a unidade é mobiliada: negações e o mobiliário das áreas comuns. */
+const SEM_MOBILIA = /sem mobili\w*|nao (e |vem |esta |sera )?mobiliad\w*|mobiliario|mobilia (das|da area)/g;
+const SEMIMOBILIADO = /semi[\s-]?mobiliad/;
+/** "Porteira fechada" é vendido com tudo dentro: conta como mobiliado. */
+const MOBILIADO = /mobiliad[oa]s?\b|porteira fechada|\bmobilia\b/;
+
+/** Mobília citada no texto da tabela da unidade. Semimobiliado vence quando as duas palavras aparecem. */
+export function mobiliaDeTexto(texto: string): Mobilia {
+  const t = normalizar(texto).replace(SEM_MOBILIA, ' ');
+  if (SEMIMOBILIADO.test(t)) return 'semi';
+  return MOBILIADO.test(t) ? 'mobiliado' : '';
 }
 
 /** Número de vagas num texto livre de tabela, ou null quando não dá para saber. "2 ou 3" conta 2. */
@@ -274,6 +296,7 @@ export function montarLinhas(predios: Predio[]): Linha[] {
         vagas: vagasDe(u),
         lazer: lazer.itens,
         temLazer: lazer.algum,
+        mobilia: mobiliaDeTexto(regs.map((r) => [r.tipologia, r.det, r.obs, r.vista, r.promo].join(' ')).join(' | ')),
         texto:
           textoPredio +
           ' ' +
@@ -318,6 +341,8 @@ export interface Filtros {
   construtora: string;
   /** Itens de lazer que o condomínio precisa ter, todos ao mesmo tempo; "algum" = qualquer lazer. */
   lazer: ('algum' | Lazer)[];
+  /** Só unidades cuja tabela diz mobiliado (ou porteira fechada) ou semimobiliado (vazio = todas). */
+  mobilia: Mobilia;
   pagamento: '' | 'bancario' | 'direto';
   entrega: string;
   gravacao: '' | 'pend' | 'grav';
@@ -344,6 +369,7 @@ export const FILTROS_VAZIOS: Filtros = {
   fonte: '',
   construtora: '',
   lazer: [],
+  mobilia: '',
   pagamento: '',
   entrega: '',
   gravacao: '',
@@ -393,6 +419,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
   if (usa('acesso') && f.acesso && (f.acesso === 'nd' ? !!u.acesso : u.acesso !== f.acesso)) return false;
   if (usa('fonte') && f.fonte && ![u, ...(u.outras ?? [])].some((r) => r.fonte === f.fonte)) return false;
   if (usa('construtora') && f.construtora && p.construtora !== f.construtora) return false;
+  if (usa('mobilia') && f.mobilia && l.mobilia !== f.mobilia) return false;
   if (usa('lazer') && f.lazer.length && !f.lazer.every((x) => (x === 'algum' ? l.temLazer : l.lazer.includes(x)))) return false;
   if (usa('pagamento') && f.pagamento) {
     if (!l.pagamentos.includes(f.pagamento)) return false;
@@ -414,7 +441,7 @@ export function passa(l: Linha, f: Filtros, ignorar?: ChaveFiltro): boolean {
 
 /** Algum filtro que olha para a unidade (e não só para o prédio) está ligado? */
 export const filtroDeUnidade = (f: Filtros) =>
-  !!(f.categoria || f.vista || f.frente || f.comissao || f.dm || f.vagas || f.amin || f.amax || f.vmin || f.vmax || f.acesso || f.fonte || f.tipo === 'usados');
+  !!(f.categoria || f.vista || f.frente || f.comissao || f.dm || f.vagas || f.amin || f.amax || f.vmin || f.vmax || f.acesso || f.fonte || f.mobilia || f.tipo === 'usados');
 
 /* ---------- ordenação ---------- */
 

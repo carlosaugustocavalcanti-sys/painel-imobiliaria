@@ -111,6 +111,16 @@
         }
       </div>
     </div>
+    <div class="filtro">
+      <span class="rot" title="Mobília que a tabela da unidade cita. Porteira fechada conta como mobiliado. Unidades sem essa informação saem quando o filtro está ligado">Mobília</span>
+      <div class="chips">
+        @for (o of MOBILIA_OPCOES; track o[0]) {
+          <button type="button" class="chip" [attr.aria-pressed]="fl.mobilia === o[0]" (click)="mudar({ mobilia: o[0] })">
+            {{ o[1] }} @if (o[0]) { <span>{{ fmt.num(contagemMobilia()[o[0]]) }}</span> }
+          </button>
+        }
+      </div>
+    </div>
     <div class="filtro lazer">
       <span class="rot" title="Lazer do condomínio citado na tabela, na lista de lazer ou no book. Com mais de um item, o condomínio precisa ter todos. Prédios sem essa informação saem quando o filtro está ligado">Lazer do condomínio</span>
       <div class="chips">
@@ -254,6 +264,7 @@
                   <span class="tag" [class.preta]="l.u.mercado === 'revenda'">{{ l.u.mercado === 'revenda' ? 'Usado' : 'Lançamento' }}</span>
                   @if (l.u.fase !== 'pronto') { <span class="tag">{{ FASE_ROTULO[l.u.fase] }}</span> }
                   @if (l.frenteMar) { <span class="tag amarela">Frente mar</span> } @else if (l.vistaMar) { <span class="tag amarela">Vista mar</span> }
+                  @if (l.mobilia) { <span class="tag">{{ l.mobilia === 'semi' ? 'Semimobiliado' : 'Mobiliado' }}</span> }
                   @if (l.u.status !== 'disponivel') { <span class="tag tracejada">{{ STATUS_ROTULO[l.u.status] }}</span> }
                   @if (l.u.divergencias?.length) { <span class="tag tracejada" title="Tabelas com valores diferentes">2 valores</span> }
                   @if (l.u.conf) { <span class="tag tracejada" title="Leitura ambígua da tabela">Confirmar</span> }

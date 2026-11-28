@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, LAZER_ROTULO, Ordem, ORDENS } from './busca';
+import { FILTROS_VAZIOS, Filtros, LAZER_ROTULO, MOBILIA_OPCOES, Ordem, ORDENS } from './busca';
 
 export type Aba = 'unidades' | 'predios' | 'bairros' | 'entregas' | 'renda';
 export const ABAS: Aba[] = ['unidades', 'predios', 'bairros', 'entregas', 'renda'];
@@ -24,6 +24,7 @@ export function lerUrl(search: string): EstadoUrl {
     else (f as unknown as Record<string, unknown>)[k] = v;
   }
   f.lazer = f.lazer.filter((x) => x === 'algum' || x in LAZER_ROTULO);
+  if (!MOBILIA_OPCOES.some(([m]) => m === f.mobilia)) f.mobilia = '';
   const aba = s.get('aba') as Aba;
   const ordem = s.get('ordem') as Ordem;
   return {

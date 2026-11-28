@@ -1,4 +1,4 @@
-import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, lazerDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto, rotuloMar } from './busca';
+import { FILTROS_VAZIOS, Filtros, anoEntrega, comissoesDeTexto, lazerDeTexto, mobiliaDeTexto, vagasDeTexto, entregaPrevista, lugarDe, montarLinhas, ordenar, passa, pagamentosDeTexto, rotuloMar } from './busca';
 import { Predio, Unidade } from './modelo';
 
 const predio = (p: Partial<Predio>): Predio => ({
@@ -372,5 +372,17 @@ describe('lazer do condomínio', () => {
     expect(un({ lazer: ['piscina', 'festas'] })).toEqual(['1']);
     expect(un({ lazer: ['algum'] })).toEqual(['1', '2', '3', '4']);
     expect(un({})).toEqual(['1', '2', '3', '4', '5']);
+  });
+
+  it('mobília vem do texto da tabela, sem negações nem o mobiliário das áreas comuns', () => {
+    expect(mobiliaDeTexto('Apartamento mobiliado com vista para o mar')).toBe('mobiliado');
+    expect(mobiliaDeTexto('Kitnet MOBILIADA no Boqueirão')).toBe('mobiliado');
+    expect(mobiliaDeTexto('2 andar de escada, porteira fechada')).toBe('mobiliado');
+    expect(mobiliaDeTexto('300 m da praia, semi-mobiliado; sala com sacada')).toBe('semi');
+    expect(mobiliaDeTexto('Semi Mobiliado, sacada gourmet')).toBe('semi');
+    expect(mobiliaDeTexto('Entregue pintado, sem mobília.')).toBe('');
+    expect(mobiliaDeTexto('Não é mobiliado')).toBe('');
+    expect(mobiliaDeTexto('Taxa extra (mobiliário das áreas comuns)')).toBe('');
+    expect(mobiliaDeTexto('Móveis planejados, sacada')).toBe('');
   });
 });

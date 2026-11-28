@@ -17,6 +17,7 @@ import {
   STATUS_ROTULO,
   VAL_STEPS,
   VAGAS_OPCOES,
+  MOBILIA_OPCOES,
   entregaPrevista,
   filtroDeUnidade,
   lazerDoPredio,
@@ -75,6 +76,7 @@ export class App {
   protected readonly VAL_STEPS = VAL_STEPS;
   protected readonly AREA_STEPS = AREA_STEPS;
   protected readonly VAGAS_OPCOES = VAGAS_OPCOES;
+  protected readonly MOBILIA_OPCOES = MOBILIA_OPCOES;
   protected readonly FASE_ROTULO = FASE_ROTULO;
   protected readonly STATUS_ROTULO = STATUS_ROTULO;
   protected readonly ORIGEM_ROTULO = ORIGEM_ROTULO;
@@ -122,6 +124,7 @@ export class App {
   protected readonly contagemCategoria = computed(() => Object.fromEntries(this.CATEGORIAS.map(([c]) => [c, this.contar({ categoria: c })])));
   protected readonly contagemDm = computed(() => Object.fromEntries(this.DORMS.map(([d]) => [d, this.contar({ dm: d })])));
   protected readonly contagemVagas = computed(() => Object.fromEntries(this.VAGAS_OPCOES.map(([n]) => [n, this.contar({ vagas: n })])));
+  protected readonly contagemMobilia = computed(() => Object.fromEntries(this.MOBILIA_OPCOES.map(([m]) => [m, this.contar({ mobilia: m })])));
   /** Cada item de lazer somado aos que já estão escolhidos (o condomínio precisa ter todos). */
   protected readonly contagemLazer = computed(() => {
     const atual = this.f().lazer;
@@ -279,6 +282,7 @@ export class App {
     if (f.comissao) a.push({ rotulo: f.comissao === 'cinco' ? 'Comissão 5%' : 'Comissão fifty', limpar: { comissao: '' } });
     if (f.dm) a.push({ rotulo: DORM_ROTULO[f.dm], limpar: { dm: '' } });
     if (f.vagas) a.push({ rotulo: `${f.vagas}+ ${f.vagas === 1 ? 'vaga' : 'vagas'}`, limpar: { vagas: 0 } });
+    if (f.mobilia) a.push({ rotulo: f.mobilia === 'semi' ? 'Semimobiliado' : 'Mobiliado', limpar: { mobilia: '' } });
     if (f.amin || f.amax)
       a.push({
         rotulo: !f.amin ? `até ${f.amax} m²` : !f.amax ? `a partir de ${f.amin} m²` : `${f.amin} a ${f.amax} m²`,

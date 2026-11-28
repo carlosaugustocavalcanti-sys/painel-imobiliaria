@@ -15470,7 +15470,7 @@
      "valor": 252000,
      "entrada": 25200,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, RO",
+     "obs": "2 vagas · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, RO",
      "fluxo": {
       "entrada": 25200,
       "chaves": 25200,
@@ -15489,7 +15489,7 @@
      "valor": 236500,
      "entrada": 23650,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 23650,
       "chaves": 23650,
@@ -15508,7 +15508,7 @@
      "valor": 238500,
      "entrada": 23850,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 23850,
       "chaves": 23850,
@@ -15527,7 +15527,7 @@
      "valor": 240500,
      "entrada": 24050,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 24050,
       "chaves": 24050,
@@ -15546,7 +15546,7 @@
      "valor": 245500,
      "entrada": 24550,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 24550,
       "chaves": 24550,
@@ -15565,7 +15565,7 @@
      "valor": 247500,
      "entrada": 24750,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, LA; a cota LA aparece com fundo vermelho, sem letra: confirmar",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, LA; a cota LA aparece com fundo vermelho, sem letra: confirmar",
      "fluxo": {
       "entrada": 24750,
       "chaves": 24750,
@@ -15584,7 +15584,7 @@
      "valor": 250000,
      "entrada": 25000,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VE",
      "fluxo": {
       "entrada": 25000,
       "chaves": 25000,
@@ -15603,7 +15603,7 @@
      "valor": 257000,
      "entrada": 25700,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM, LA",
+     "obs": "2 vagas · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 25700,
       "chaves": 25700,
@@ -15622,7 +15622,7 @@
      "valor": 239500,
      "entrada": 23950,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 23950,
       "chaves": 23950,
@@ -15641,7 +15641,7 @@
      "valor": 240500,
      "entrada": 24050,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VE, CI, RO, VM",
      "fluxo": {
       "entrada": 24050,
       "chaves": 24050,
@@ -15660,7 +15660,7 @@
      "valor": 241500,
      "entrada": 24150,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 24150,
       "chaves": 24150,
@@ -15679,7 +15679,7 @@
      "valor": 243500,
      "entrada": 24350,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: RO",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: RO",
      "fluxo": {
       "entrada": 24350,
       "chaves": 24350,
@@ -15698,7 +15698,7 @@
      "valor": 244500,
      "entrada": 24450,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI",
      "fluxo": {
       "entrada": 24450,
       "chaves": 24450,
@@ -15717,7 +15717,7 @@
      "valor": 245500,
      "entrada": 24550,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VE",
      "fluxo": {
       "entrada": 24550,
       "chaves": 24550,
@@ -15736,7 +15736,7 @@
      "valor": 244500,
      "entrada": 24450,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 24450,
       "chaves": 24450,
@@ -15755,7 +15755,7 @@
      "valor": 246500,
      "entrada": 24650,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 24650,
       "chaves": 24650,
@@ -15774,7 +15774,7 @@
      "valor": 250000,
      "entrada": 25000,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 25000,
       "chaves": 25000,
@@ -15793,7 +15793,7 @@
      "valor": 253000,
      "entrada": 25300,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 25300,
       "chaves": 25300,
@@ -15812,7 +15812,7 @@
      "valor": 256000,
      "entrada": 25600,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: RO, VM",
      "fluxo": {
       "entrada": 25600,
       "chaves": 25600,
@@ -15831,7 +15831,7 @@
      "valor": 255000,
      "entrada": 25500,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, VM",
      "fluxo": {
       "entrada": 25500,
       "chaves": 25500,
@@ -15850,7 +15850,7 @@
      "valor": 257000,
      "entrada": 25700,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, RO, VM",
      "fluxo": {
       "entrada": 25700,
       "chaves": 25700,
@@ -15869,7 +15869,7 @@
      "valor": 259000,
      "entrada": 25900,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI, RO",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI, RO",
      "fluxo": {
       "entrada": 25900,
       "chaves": 25900,
@@ -15888,7 +15888,7 @@
      "valor": 261000,
      "entrada": 26100,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: VE, CI, RO, VM",
      "fluxo": {
       "entrada": 26100,
       "chaves": 26100,
@@ -15907,7 +15907,7 @@
      "valor": 263000,
      "entrada": 26300,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, CI, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, CI, RO, VM",
      "fluxo": {
       "entrada": 26300,
       "chaves": 26300,
@@ -15926,7 +15926,7 @@
      "valor": 265000,
      "entrada": 26500,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: CI",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: CI",
      "fluxo": {
       "entrada": 26500,
       "chaves": 26500,
@@ -15945,7 +15945,7 @@
      "valor": 178000,
      "entrada": 17800,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 17800,
       "chaves": 17800,
@@ -15964,7 +15964,7 @@
      "valor": 181000,
      "entrada": 18100,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VM",
      "fluxo": {
       "entrada": 18100,
       "chaves": 18100,
@@ -15983,7 +15983,7 @@
      "valor": 172000,
      "entrada": 17200,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 17200,
       "chaves": 17200,
@@ -16002,7 +16002,7 @@
      "valor": 173000,
      "entrada": 17300,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 17300,
       "chaves": 17300,
@@ -16021,7 +16021,7 @@
      "valor": 174000,
      "entrada": 17400,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI",
      "fluxo": {
       "entrada": 17400,
       "chaves": 17400,
@@ -16040,7 +16040,7 @@
      "valor": 177000,
      "entrada": 17700,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE, RO, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE, RO, VM",
      "fluxo": {
       "entrada": 17700,
       "chaves": 17700,
@@ -16059,7 +16059,7 @@
      "valor": 178000,
      "entrada": 17800,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI",
      "fluxo": {
       "entrada": 17800,
       "chaves": 17800,
@@ -16078,7 +16078,7 @@
      "valor": 181000,
      "entrada": 16000,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA; entrada R$ 16.000, mensais R$ 1.524 e chaves R$ 16.000 como na tabela (não fecham com o valor de R$ 181.000)",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA; entrada R$ 16.000, mensais R$ 1.524 e chaves R$ 16.000 como na tabela (não fecham com o valor de R$ 181.000)",
      "fluxo": {
       "entrada": 16000,
       "chaves": 16000,
@@ -16097,7 +16097,7 @@
      "valor": 186000,
      "entrada": 18600,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VM",
      "fluxo": {
       "entrada": 18600,
       "chaves": 18600,
@@ -16116,7 +16116,7 @@
      "valor": 185000,
      "entrada": 18500,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VE; Cotas reservadas: LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VE; Cotas reservadas: LA",
      "fluxo": {
       "entrada": 18500,
       "chaves": 18500,
@@ -16135,7 +16135,7 @@
      "valor": 180000,
      "entrada": 18000,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 18000,
       "chaves": 18000,
@@ -16154,7 +16154,7 @@
      "valor": 182000,
      "entrada": 18200,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, RO",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, RO",
      "fluxo": {
       "entrada": 18200,
       "chaves": 18200,
@@ -16173,7 +16173,7 @@
      "valor": 184000,
      "entrada": 18400,
      "status": "reservado",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas reservadas: AZ, VE, CI, RO, VM, LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas reservadas: AZ, VE, CI, RO, VM, LA",
      "fluxo": {
       "entrada": 18400,
       "chaves": 18400,
@@ -16192,7 +16192,7 @@
      "valor": 186000,
      "entrada": 18600,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 18600,
       "chaves": 18600,
@@ -16211,7 +16211,7 @@
      "valor": 197000,
      "entrada": 19700,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: VE",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VE",
      "fluxo": {
       "entrada": 19700,
       "chaves": 19700,
@@ -16230,7 +16230,7 @@
      "valor": 186000,
      "entrada": 18600,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ",
      "fluxo": {
       "entrada": 18600,
       "chaves": 18600,
@@ -16249,7 +16249,7 @@
      "valor": 191000,
      "entrada": 19100,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: AZ, VM",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, VM",
      "fluxo": {
       "entrada": 19100,
       "chaves": 19100,
@@ -16268,7 +16268,7 @@
      "valor": 193000,
      "entrada": 19300,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: CI",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: CI",
      "fluxo": {
       "entrada": 19300,
       "chaves": 19300,
@@ -16287,7 +16287,7 @@
      "valor": 194000,
      "entrada": 19400,
      "status": "disponivel",
-     "obs": "1 vaga · Multipropriedade (valor por cota); Cotas disponíveis: LA",
+     "obs": "1 vaga · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: LA",
      "fluxo": {
       "entrada": 19400,
       "chaves": 19400,
@@ -16306,7 +16306,7 @@
      "valor": 362000,
      "entrada": 36200,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI, RO",
+     "obs": "2 vagas · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI, RO",
      "fluxo": {
       "entrada": 36200,
       "chaves": 36200,
@@ -16325,7 +16325,7 @@
      "valor": 511000,
      "entrada": 51100,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: VM, LA",
+     "obs": "2 vagas · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: VM, LA",
      "fluxo": {
       "entrada": 51100,
       "chaves": 51100,
@@ -16344,7 +16344,7 @@
      "valor": 573500,
      "entrada": 57350,
      "status": "disponivel",
-     "obs": "2 vagas · Multipropriedade (valor por cota); Cotas disponíveis: AZ, CI, RO, VM",
+     "obs": "2 vagas · Multipropriedade (valor por cota), mobiliado e equipado; Cotas disponíveis: AZ, CI, RO, VM",
      "fluxo": {
       "entrada": 57350,
       "chaves": 57350,
