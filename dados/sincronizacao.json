@@ -551,6 +551,10 @@
     {
       "data": "2026-11-28",
       "resumo": "Priority (Avenida Construtora, Caiçara), tabela de Novembro/2026 enviada pelo Carlos: o painel passa a mostrar só as unidades não vendidas (48: 39 com cotas disponíveis e 9 reservadas). Saíram por estarem vendidas: individuais 51, 82 e 142; multipropriedade 114, 121, 177 e 197. A individual 122 passou a RESERVADO (R$ 1.389.549, sem fluxo). Voltaram ou entraram com cotas livres ou reservadas: 117, 195, 53, 193, 118, 158 e 178 (disponíveis) e 83 (todas as cotas reservadas). A 141 deixou de estar reservada e tem 5 cotas disponíveis. Mudaram as cotas livres de 76, 116, 176, 57, 112, 95 e 171. A 103 passou de R$ 184.000 para R$ 186.000 por cota."
+    },
+    {
+      "data": "2026-11-28",
+      "resumo": "Ectual Imóveis (tabela de 26/11/2026, enviada pelo Carlos): os 79 valores são os mesmos da tabela de 05/11. Ocean Park: 174 A passou a reservado; 175 A e 167 B vendidos, retirados do painel. Novos avisos: Parque dos Coqueiros 85 por R$ 740.000 à vista até 30/11/2026; Ilhas de Santorini ainda sem escritura individualizada; casa da Rua Puri com chaves na Bom Lugar. Links de fotos das casas da Rua Puri, 59 e da Rua José Agapito Cardoso, 26. Senhas de fechadura não entram no painel. O script ler-pasta-lancamentos.mjs foi atualizado para o PDF novo, mas não roda inteiro porque o PDF da Gomes Pacheco saiu da pasta do OneDrive; a mudança foi aplicada direto em pasta-lancamentos.json."
     }
   ],
   "pendentes": {

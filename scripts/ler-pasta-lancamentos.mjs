@@ -388,15 +388,20 @@ function toninho() {
 }
 
 /* ============================================================
- * ECTUAL — Tabela Ectual - 05.11.26.pdf (05/11/2026; fica em ~/Downloads, ou ECTUAL_PDF=caminho)
+ * ECTUAL — tabela de 26/11/2026 ("ECTUAL - Apto 3 dorm (Flórida_).pdf", em ~/Downloads, ou ECTUAL_PDF=caminho)
  * ============================================================ */
-const ECT = { fonte: 'Ectual Imóveis (tabela de 05/11/2026)', contato: 'André (13) 98112-7028 · CRECI 028.493-J', tabela: '05/11/2026' };
-const ARQ_ECTUAL = process.env.ECTUAL_PDF ?? join(homedir(), 'Downloads/Tabela Ectual - 05.11.26.pdf');
-const NOME_ARQ_ECTUAL = 'Tabela Ectual - 05.11.26.pdf';
+const ECT = { fonte: 'Ectual Imóveis (tabela de 26/11/2026)', contato: 'André (13) 98112-7028 · CRECI 028.493-J', tabela: '26/11/2026' };
+const ARQ_ECTUAL = process.env.ECTUAL_PDF ?? join(homedir(), 'Downloads/ECTUAL - Apto 3 dorm (Flórida_).pdf');
+const NOME_ARQ_ECTUAL = 'ECTUAL - Apto 3 dorm (Flórida_).pdf';
 const GERAL_ECTUAL =
   'Condição geral da tabela Ectual (vale onde não houver forma de pagamento própria): financiamento direto com entrada a partir de 40% e saldo em até 100x, corrigido pela poupança + 0,5% ao mês acumulativo; à vista com desconto a partir de 10%.';
-// Reservado/vendido por carimbo na imagem: "unidade na tabela" → status
-const STATUS_ECTUAL = { 'ocean-park|175 A': 'reservado' };
+// Reservado/vendido por carimbo na imagem: "unidade na tabela" → status. Vendidas ficam fora do painel.
+const STATUS_ECTUAL = { 'ocean-park|174 A': 'reservado', 'ocean-park|175 A': 'vendido', 'ocean-park|167 B': 'vendido' };
+// Links "FOTOS" da tabela
+const FOTOS_ECTUAL = {
+  'casa-rua-puri-59|59': 'https://drive.google.com/drive/folders/1Nuf3DLiW1IeetFcg55XK0L6H-gkzfPHU',
+  'casa-jose-agapito-cardoso-26|26': 'https://drive.google.com/drive/folders/1vSOz-9bfH6hVrdoV80CrZ1UQwwxJOBka',
+};
 // A ordem dos blocos no texto do PDF não é a da página; por isso cada página lista os rótulos esperados, na ordem do texto.
 // Formato: [rótulo na tabela, prédio, opções]. A leitura falha se a página trouxer outra sequência.
 const PAGINAS_ECTUAL = {
@@ -429,14 +434,14 @@ const PAGINAS_ECTUAL = {
 };
 const PREDIOS_ECTUAL = {
   'res-unique': { nome: 'Res. Unique', bairro: 'Canto do Forte', endereco: 'Rua General Otelo Rodrigues Franco, 310 - Canto do Forte - Praia Grande/SP', fase: 'obra', entrega: 'Mar/2027', notas: ['Em obras, previsão março/2027. RI R.03, matrícula 235.783.'] },
-  'ilhas-de-santorini': { nome: 'Res. Ilhas de Santorini', bairro: 'Canto do Forte', endereco: 'Rua Xixová, 246 - Canto do Forte - Praia Grande/SP', fase: 'pronto', notas: ['Financiamento direto: 50% de entrada e saldo em até 40 meses (não aceita bancário). Locação: pacote de R$ 5.000 (garantia: seguro fiança). Visita só com autorização. RI R.17/25.539.', 'A tabela não informa a fase do prédio; marcado como pronto porque traz condomínio e IPTU.'], condicao: true },
+  'ilhas-de-santorini': { nome: 'Res. Ilhas de Santorini', bairro: 'Canto do Forte', endereco: 'Rua Xixová, 246 - Canto do Forte - Praia Grande/SP', fase: 'pronto', notas: ['Financiamento direto: 50% de entrada e saldo em até 40 meses (não aceita bancário). Locação: pacote de R$ 5.000 (garantia: seguro fiança). Visita só com autorização. RI R.17/25.539.', 'O imóvel ainda não tem escritura individualizada; a Ectual pede contato pelo WhatsApp para explicar a situação.', 'A tabela não informa a fase do prédio; marcado como pronto porque traz condomínio e IPTU.'], condicao: true },
   'spazzio-dellmare': { nome: "Res. Spazzio Dell'Mare", bairro: 'Canto do Forte', endereco: 'Rua Rui Barbosa, 93 - Canto do Forte - Praia Grande/SP', fase: 'pronto', notas: ['Venda somente à vista ou financiamento bancário. Visita com agendamento prévio.', 'Apto 112, matrícula 169.998: totalmente mobiliado e decorado; 3 suítes, adaptado para 1 suíte dupla + 1 suíte normal; 2 vagas demarcadas.'], condicao: true },
   bellagio: { nome: 'Res. Bellagio', bairro: 'Guilhermina', endereco: 'Alameda das Américas, 162 - Guilhermina - Praia Grande/SP', fase: 'obra', entrega: 'Nov/2026', notas: ['Previsão de entrega nov/2026. RI R.02, matrícula 237.726.'] },
   'raimundo-gomes': { nome: 'Raimundo Gomes', bairro: 'Aviação', endereco: 'Rua Alberto Santos Dumont, 91 - Campo da Aviação - CEP 11702-340 - Praia Grande/SP', fase: 'obra', entrega: 'Dez/2026', notas: ['A Ectual indica previsão de entrega em dez/2026; a pasta do painel de lançamentos tinha o prédio como entregue. RI R.03, matrícula 213.199.'] },
   'ocean-park': { nome: 'Ocean Park', bairro: 'Ocian', endereco: 'Rua Comendador Otto Carlos Golanda, 200 - Ocian - Praia Grande/SP', fase: 'pronto', notas: ['Entregue em 13/12 (ano não informado). Chaves na portaria; visita só com autorização prévia, de seg. a dom. das 8h às 17h. Taxa de R$ 5.000 de rateio dos móveis e equipamentos das áreas comuns. RI R.03, matrícula 204.780.'], condicao: true },
-  'casa-rua-puri-59': { nome: 'Casa · Rua Puri, 59', bairro: 'Tupi', endereco: 'Rua Puri, 59 - Tupi - Praia Grande/SP', fase: 'pronto', notas: ['Casa, não apartamento, recém reformada (a Ectual não tem fotos). Venda somente à vista ou por financiamento bancário. Matrícula individualizada 27.546.'] },
+  'casa-rua-puri-59': { nome: 'Casa · Rua Puri, 59', bairro: 'Tupi', endereco: 'Rua Puri, 59 - Tupi - Praia Grande/SP', fase: 'pronto', notas: ['Casa, não apartamento, recém reformada; chaves na Bom Lugar Imóveis. Venda somente à vista ou por financiamento bancário. Matrícula individualizada 27.546.'] },
   'casa-jose-agapito-cardoso-26': { nome: 'Casa · Rua José Agapito Cardoso, 26', bairro: 'Maracanã', endereco: 'Rua José Agapito Cardoso, 26 - Maracanã - Praia Grande/SP', fase: 'pronto', notas: ['Casa, não apartamento. Perto da praia; chaves na Bom Lugar Imóveis. Venda somente por financiamento bancário ou à vista. Matrícula individualizada 55.498.'] },
-  'parque-dos-coqueiros': { nome: 'Parque dos Coqueiros', bairro: 'Caiçara', endereco: 'Av. Presidente Castelo Branco, 13642 - Vila Caiçara, Praia Grande/SP', fase: 'pronto', notas: ['Usado. À vista com 10% de desconto ou 8% no financiamento bancário. Visita só com autorização. Apto 65 (com móveis planejados), matrícula 198.276: entrada de R$ 500.000 e saldo em até 100x. Apto 85, matrícula 198.728: entrada de R$ 425.000 e saldo em até 50x.'] },
+  'parque-dos-coqueiros': { nome: 'Parque dos Coqueiros', bairro: 'Caiçara', endereco: 'Av. Presidente Castelo Branco, 13642 - Vila Caiçara, Praia Grande/SP', fase: 'pronto', notas: ['Usado. À vista com 10% de desconto ou 8% no financiamento bancário. Visita só com autorização. Apto 65 (com móveis planejados), matrícula 198.276: entrada de R$ 500.000 e saldo em até 100x. Apto 85, matrícula 198.728: entrada de R$ 425.000 e saldo em até 50x.', 'Valor promocional até 30/11/2026: apto 85 por R$ 740.000 à vista (sem banco, sem permuta).'] },
   'costa-do-mar': { nome: 'Costa do Mar', bairro: 'Caiçara', endereco: 'Rua Maria de Lourdes Simões e Simões - Caiçara - Praia Grande/SP', fase: 'pronto', notas: ['Entregue em 20/12/2025. Aptos lado rua: finais 1, 4, 6 e 7; lado prédio: finais 2, 3 e 5. Mobília e equipamentos das áreas comuns cobrados com o condomínio: 24 x R$ 795,00, a 1ª em março/26. Visita só com autorização, sem visitas aos domingos e feriados. RI R.04, matrícula 228.268.'], condicao: true },
   'atlantic-ville': {},
   torres: { nome: 'Torres', bairro: 'Caiçara', endereco: 'Rua São Romério, 15 - Caiçara - Praia Grande/SP', fase: 'obra', entrega: 'Dez/2026', notas: ['Previsão dez/2026. Taxa de R$ 5.000 de rateio dos móveis e equipamentos das áreas comuns. RI R.01, matrícula 142.857.'] },
@@ -448,7 +453,7 @@ const PREDIOS_ECTUAL = {
 const OBS_ECTUAL = {
   'spazzio-dellmare|112': 'Totalmente mobiliado e decorado; 3 suítes, adaptado para 1 suíte dupla + 1 normal. 2 vagas demarcadas.',
   'parque-dos-coqueiros|65 O': 'Móveis planejados. Entrada de R$ 500.000 e saldo em até 100x no financiamento direto.',
-  'parque-dos-coqueiros|85 O': 'Entrada de R$ 425.000 e saldo em até 50x no financiamento direto.',
+  'parque-dos-coqueiros|85 O': 'Entrada de R$ 425.000 e saldo em até 50x no financiamento direto. Promoção até 30/11/2026: R$ 740.000 à vista (sem banco, sem permuta).',
   'res-matteo|111': 'Com porcelanato e varanda envidraçada.',
   'ilhas-de-santorini|71': 'Financiamento direto: 50% de entrada e saldo em até 40 meses. Não aceita bancário.',
 };
@@ -515,7 +520,9 @@ function ectual() {
         vistaMar: id === 'evora' || l.manaca ? true : false,
         vista: id === 'evora' ? 'Lançamento frente mar' : l.manaca ? 'Frente total para o mar' : undefined,
         entregaUnidade: cfg.entrega,
+        fotos: FOTOS_ECTUAL[chaveStatus],
       });
+      if (u.status === 'vendido') return;
       if (!predios.has(id)) predios.set(id, []);
       predios.get(id).push(u);
     });
